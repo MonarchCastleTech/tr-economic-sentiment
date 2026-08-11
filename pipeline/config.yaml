@@ -1,0 +1,26 @@
+# Turkiye Economic Sentiment Radar Configuration
+project:
+  id: tr-economic-sentiment
+  name: "Turkiye Economic Sentiment Radar"
+  description: "Multi-source Turkish economic sentiment index."
+
+openrouter:
+  model: "openrouter/free"
+  fallback_model: "openrouter/free"
+
+gdelt_query: "Turkey economy inflation finance"
+include_forex: true
+
+sources:
+  - name: "GDELT"
+
+refresh:
+  interval_hours: 6
+  retry_attempts: 3
+
+scoring:
+  scale: "1-10"
+  thresholds:
+    high: 7
+    medium: 4
+    low: 0
