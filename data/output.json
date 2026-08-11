@@ -1,11 +1,11 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-05T20:03:38.239791+00:00",
+    "generated": "2026-08-11T03:21:11.759238+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "economic_news",
+      "crypto",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -34,350 +34,9 @@
   ],
   "live_data": {
     "gdelt_articles": [],
-    "economic_news": [
-      {
-        "title": "  Türkiyedeki Enflasyonun Ekonomi Bilimiyle Ýlgisi Kalmadý  ",
-        "url": "https://www.memurlar.net/haber/1174636/turkiye-deki-enflasyonun-ekonomi-bilimiyle-ilgisi-kalmadi.html",
-        "domain": "memurlar.net",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T061500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Goldman Sachs : Faizler Türkiyede daha uzun süre yüksek kalabilir",
-        "url": "https://www.ogunhaber.com/ekonomi/goldman-sachs-faizler-turkiyede-daha-uzun-sure-yuksek-kalabilir-3000839h.html",
-        "domain": "ogunhaber.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T000000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Dev bankalardan Türkiye övgüsü",
-        "url": "https://www.sabah.com.tr/ekonomi/dev-bankalardan-turkiye-ovgusu-7635544",
-        "domain": "sabah.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T053000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "İstifade edilir , olmuyorsa istifa da edilir",
-        "url": "https://www.yenisafak.com/yazarlar/ozgur-bayram-soylu/istifade-edilir-olmuyorsa-istifa-da-edilir-4845594",
-        "domain": "yenisafak.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T023000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Замедление инфляции не делает жизнь в Турции дешевле , заявила экономист",
-        "url": "https://1prime.ru/20260805/ekonomist-872038722.html",
-        "domain": "1prime.ru",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260805T084500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Bursada enflasyon alarmı ! İznikten dikkat çeken ekonomi çağrısı ... ",
-        "url": "https://www.bursahakimiyet.com.tr/bursa/bursa-da-enflasyon-alarmi-iznik-ten-dikkat-ceken-ekonomi-cagrisi-1683632",
-        "domain": "bursahakimiyet.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T124500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Yedi aylık kayıp 1 , 5 trilyon liraya ulaştı : İşçi temmuz ayının 13 gününü vergi ve enflasyon için çalıştı",
-        "url": "https://www.evrensel.net/haber/5995114/yedi-aylik-kayip-15-trilyon-liraya-ulasti-isci-temmuz-ayinin-13-gununu-vergi-ve-enflasyon-icin-calisti",
-        "domain": "evrensel.net",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T114500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Mehmet Şimşeke 0 . 4 tebriği",
-        "url": "https://www.sozcu.com.tr/mehmet-simsek-e-0-4-tebrigi-p342443",
-        "domain": "sozcu.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T031500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "TBMMde Gündem : Terörsüz Türkiye ve Ekonomi Tartışmaları",
-        "url": "https://www.haberler.com/politika/tbmm-genel-kurulu-20120498-haberi/",
-        "domain": "haberler.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T144500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "AK Parti kolları sıvadı ; yine , yeniden varlık barışı geliyor",
-        "url": "https://www.haber3.com/ekonomi/ak-parti-kollari-sivadi-yine-yeniden-varlik-barisi-geliyor-haberi-6261376",
-        "domain": "haber3.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T104500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "2 yabancıdan sinyal geldi ! Faiz indirimi ve borsa heyecanı",
-        "url": "https://www.turkiyegazetesi.com.tr/ekonomi/2-yabancidan-sinyal-geldi-faiz-indirimi-ve-borsa-heyecani-1807396",
-        "domain": "turkiyegazetesi.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T124500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Kredi hacmi daraldı , takipteki borçlar patladı : İl il son durum",
-        "url": "https://www.odatv.com/ekonomi/kredi-hacmi-daraldi-takipteki-borclar-patladi-il-il-son-durum-120157599",
-        "domain": "odatv.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T113000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "TOBB Başkanı Hisarcıklıoğlu :  Kahramanmaraş , üretim gücüyle Türkiye ekonomisinin lokomotif şehirlerinden birisidir  ",
-        "url": "https://www.mersinhaber.com/haber-tobb-baskani-hisarciklioglu-kahramanmaras-uretim-gucuyle-turkiye-ekonomisinin-lokomotif-sehirlerinden-birisidir/730657",
-        "domain": "mersinhaber.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260804T214500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "China , Turkey Relations Strained After EV Investment Fallout",
-        "url": "https://oilprice.com/Energy/Energy-General/China-Turkey-Relations-Strained-After-EV-Investment-Fallout.html",
-        "domain": "oilprice.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260805T004500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Trabzon Büyükşehir Belediye Meclis Üyesi Çankaya açıkladı !  Türkiyede fiyatı düşen tek ürün ...! ",
-        "url": "https://www.61saat.com/trabzon-buyuksehir-belediye-meclis-uyesi-cankaya-acikladi-turkiyede-fiyati-dusen-tek-urun",
-        "domain": "61saat.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T074500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Türkiyede borç alarmı : 44 milyon kişi bankalara borçlu - 05 . 08 . 2026 , Sputnik Türkiye",
-        "url": "https://anlatilaninotesi.com.tr/20260805/turkiyede-borc-alarmi-44-milyon-kisi-bankalara-borclu-1107800930.html",
-        "domain": "anlatilaninotesi.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T171500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Bursa ihracatta neden geriliyor ? - Elif Didem Danacıoğlu",
-        "url": "https://www.bursadabugun.com/yazarlar/elif-didem-danacioglu-129/bursa-ihracatta-neden-geriliyor-34887.html",
-        "domain": "bursadabugun.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260804T210000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "CHPden asgari ücrete ara zam çağrısı ve 8 ile yeni il başkanı ataması",
-        "url": "https://www.haberler.com/politika/chp-de-8-il-baskanligina-atama-yapildi-20120625-haberi/",
-        "domain": "haberler.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T151500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Vekilden fındık sepetiyle TBMMde üretici isyanı",
-        "url": "https://www.haberler.com/guncel/yeni-partili-isik-gezmis-ten-kursuden-findik-20121061-haberi/",
-        "domain": "haberler.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T191500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "CHPde 8 il başkanlığına atama yapıldı",
-        "url": "https://www.dha.com.tr/politika/chpde-8-il-baskanligina-atama-yapildi-2922032",
-        "domain": "dha.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T154500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "普丁剛離開油價就暴漲 ！ 俄 「 油價奇蹟 」 曝光 股市重挫27 %、 燃油出口創新低 | 國際",
-        "url": "https://newtalk.tw/news/view/2026-08-05/1051413",
-        "domain": "newtalk.tw",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260805T044500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "TOPLUMDA SOSYAL RÜME VAR MI ? ",
-        "url": "https://www.kocaeligazetesi.com.tr/makale/28463756/mumtaz-erdogan/toplumda-sosyal-curume-var-mi",
-        "domain": "kocaeligazetesi.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T080000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "  Devlet gelirlerini artırdık  - Halkın Sesi | Dünyayı Tarafsız Okuyun ! ",
-        "url": "https://www.halkinsesikibris.com/devlet-gelirlerini-artirdik",
-        "domain": "halkinsesikibris.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T081500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "CHP Sözcüsü Sarı  dan çerçeve yasa açıklaması : Önceliklerimiz bu taslakta karşılanmıştır",
-        "url": "https://www.evrensel.net/haber/5995190/chp-sozcusu-sari-dan-cerceve-yasa-aciklamasi-onceliklerimiz-bu-taslakta-karsilanmistir",
-        "domain": "evrensel.net",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T161500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Gaziantepte banka yöneticileri ile iş dünyası bir araya geldi",
-        "url": "https://www.haber1.com/ekonomi/gaziantepte-banka-yoneticileri-ile-is-dunyasi-bir-araya-geldi/",
-        "domain": "haber1.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T154500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "সউদী আরবের নেতৃত্বে সামুদ্রিক প্রতিরক্ষা জোট : ভূরাজনৈতিক তাৎপর্য",
-        "url": "https://dailyinqilab.com/editorial/article/924840",
-        "domain": "dailyinqilab.com",
-        "language": "Bengali",
-        "tone": 0,
-        "seendate": "20260805T191500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Küresel piyasalarda gözler ADP özel sektör istihdamý verilerine çevrildi",
-        "url": "https://www.star.com.tr/ekonomi/kuresel-piyasalarda-gozler-adp-ozel-sektor-istihdami-verilerine-cevrildi-haber-2032230/",
-        "domain": "star.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T070000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Корнелия Нинова : Радев разби БСП . Издигането му за президент е най - голямата ми политическа грешка ᐉ Новини от Fakti . bg - България",
-        "url": "https://fakti.bg/bulgaria/1072296-kornelia-ninova-radev-razbi-bsp-izdiganeto-mu-za-prezident-e-nai-golamata-mi-politicheska-greshka",
-        "domain": "fakti.bg",
-        "language": "Bulgarian",
-        "tone": 0,
-        "seendate": "20260804T204500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "الحرب الديموغرافية",
-        "url": "https://arabi21.com/story/1779769/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%88%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9",
-        "domain": "arabi21.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260805T163000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "China , Turkey Relations Strained After EV Investment Fallout",
-        "url": "https://www.chinatechnews.com/2026/08/05/126704-china-turkey-relations-strained-after-ev-investment-fallout",
-        "domain": "chinatechnews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260805T023000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Küresel piyasalar ADP özel sektör istihdamı verilerine odaklandı",
-        "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kuresel-piyasalar-adp-ozel-sektor-istihdami-verilerine-odaklandi-7635466",
-        "domain": "uzmanpara.milliyet.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T070000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Küresel piyasalarda gözler ADP özel sektör istihdamı verilerine çevrildi",
-        "url": "https://www.aa.com.tr/tr/ekonomi/kuresel-piyasalarda-gozler-adp-ozel-sektor-istihdami-verilerine-cevrildi/4018627",
-        "domain": "aa.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260805T074500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Сводка событий в Иране и странах Ближнего Востока за 4 августа 2026 г . ",
-        "url": "https://anna-news.info/svodka-sobytij-v-irane-i-stranah-blizhnego-vostoka-za-4-avgusta-2026-g/",
-        "domain": "anna-news.info",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260805T004500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "তারেক রহমানের নেতৃত্বে বিপুল আস্থার পরিবেশ",
-        "url": "https://dailyinqilab.com/editorial/article/924841",
-        "domain": "dailyinqilab.com",
-        "language": "Bengali",
-        "tone": 0,
-        "seendate": "20260805T191500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Pirmoji sėkmingos žvejybos ( ir investavimo ) taisyklė : žvejoti ten , kur yra žuvies",
-        "url": "https://www.vz.lt/investavimas-2026/2026/08/05/pirmoji-sekmingos-zvejybos-ir-investavimo-taisykle-zvejoti-ten-kur-yra-zuvies-588265",
-        "domain": "vz.lt",
-        "language": "Lithuanian",
-        "tone": 0,
-        "seendate": "20260805T044500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Блокада портів Одеси : як вона вплине на аграріїв , металургів та економіку України",
-        "url": "https://epravda.com.ua/biznes/blokada-portiv-odesi-yak-vona-vpline-na-agrarijiv-metalurgiv-ta-ekonomiku-ukrajini-824305/",
-        "domain": "epravda.com.ua",
-        "language": "Ukrainian",
-        "tone": 0,
-        "seendate": "20260805T044500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Kako se je po štirih letih in pol vojne spremenilo življenje običajnih ljudi v Rusiji",
-        "url": "https://www.rtvslo.si/svet/kako-se-je-po-stirih-letih-in-pol-vojne-spremenilo-zivljenje-obicajnih-ljudi-v-rusiji/788233",
-        "domain": "rtvslo.si",
-        "language": "Slovenian",
-        "tone": 0,
-        "seendate": "20260804T221500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Коментари - Радев : България получи €1 млрд . по Плана за възстановяване и устойчивост за седмица",
-        "url": "https://dnes.dir.bg/comments/radev-balgariya-poluchi-eur1-mlrd-po-plana-za-vazstanovyavane-i-ustoychivost-za-sedmitsa",
-        "domain": "dnes.dir.bg",
-        "language": "Bulgarian",
-        "tone": 0,
-        "seendate": "20260805T114500Z",
-        "source": "GDELT"
-      }
-    ],
+    "crypto": {
+      "btc_price_usd": 64078
+    },
     "exchange_rates": [
       {
         "currency": "USD",
@@ -389,15 +48,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.72
+        "rate": 65.51
       },
       {
         "currency": "ALL",
-        "rate": 81.07
+        "rate": 80.66
       },
       {
         "currency": "AMD",
-        "rate": 366.47
+        "rate": 366.5
       },
       {
         "currency": "ANG",
@@ -405,11 +64,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 926.54
+        "rate": 925.26
       },
       {
         "currency": "ARS",
-        "rate": 1496.45
+        "rate": 1498.09
       },
       {
         "currency": "AUD",
@@ -425,7 +84,7 @@
       },
       {
         "currency": "BAM",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BBD",
@@ -433,11 +92,11 @@
       },
       {
         "currency": "BDT",
-        "rate": 123.71
+        "rate": 123.59
       },
       {
         "currency": "BGN",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BHD",
@@ -445,7 +104,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2991.62
+        "rate": 2991.46
       },
       {
         "currency": "BMD",
@@ -457,7 +116,7 @@
       },
       {
         "currency": "BOB",
-        "rate": 12.17
+        "rate": 11.96
       }
     ]
   },
