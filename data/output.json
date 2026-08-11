@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-11T08:08:58.168677+00:00",
+    "generated": "2026-08-11T14:19:34.554416+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -33,82 +33,9 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
-      {
-        "title": "الردع في الرؤية السعودية سياج يمنع المعتدي من تفسير خاطئ",
-        "url": "https://www.alwatan.com.sa/article/1183999",
-        "domain": "alwatan.com.sa",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260810T094500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Küresel piyasalarda petrol ve enflasyon depremi : Fedden şahin mesajlar ! ",
-        "url": "https://www.sozcu.com.tr/kuresel-piyasalarda-petrol-ve-enflasyon-depremi-fed-den-sahin-mesajlar-p344280",
-        "domain": "sozcu.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260811T074500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "الشحاتي : السياسة النقدية هي مفتاح استقرار الدينار وسعر الصرف",
-        "url": "https://www.libyaakhbar.com/libya-news/2851997.html",
-        "domain": "libyaakhbar.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260810T143000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "  Yanlış ekonomi politikaları ülkeyi çıkmaza sürüklüyor  ",
-        "url": "https://www.yeniduzen.com/yanlis-ekonomi-politikalari-ulkeyi-cikmaza-surukluyor-198255h.htm",
-        "domain": "yeniduzen.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260810T144500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Futures Erase Overnight Gains As Oil Hits One - Week High , Yen Slides",
-        "url": "https://www.zerohedge.com/markets/futures-erase-overnight-gains-oil-hits-one-week-high-yen-slides",
-        "domain": "zerohedge.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T141500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Tradeville : Iulie - volatilitatea s - a menţinut în pieţe",
-        "url": "https://www.bursa.ro/tradeville-iulie-volatilitatea-s-a-mentinut-in-piete-89538959",
-        "domain": "bursa.ro",
-        "language": "Romanian",
-        "tone": 0,
-        "seendate": "20260810T230000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "معركة الوعي والسيادة",
-        "url": "https://www.hespress.com/%D8%B3%D8%A8%D8%AA%D8%A9-%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%88%D8%B9%D9%8A-%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AF%D8%A9-1790282.html",
-        "domain": "hespress.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260810T213000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Revue de presse : limpasse des négociations avec Israël accentue la pression militaire et politique sur le Liban",
-        "url": "https://libnanews.com/revue-de-presse-limpasse-des-negociations-avec-israel-accentue-la-pression-militaire-et-politique-sur-le-liban/",
-        "domain": "libnanews.com",
-        "language": "French",
-        "tone": 0,
-        "seendate": "20260810T103000Z",
-        "source": "GDELT"
-      }
-    ],
+    "gdelt_articles": [],
     "crypto": {
-      "btc_price_usd": 64039
+      "btc_price_usd": 64222
     },
     "exchange_rates": [
       {
@@ -193,146 +120,8 @@
       }
     ]
   },
-  "entities": [
-    {
-      "id": 1,
-      "name": "الردع في الرؤية السعودية سياج يمنع المعتدي من تفسير خاطئ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T094500Z",
-      "source": "alwatan.com.sa"
-    },
-    {
-      "id": 2,
-      "name": "Küresel piyasalarda petrol ve enflasyon depremi : Fedden şah",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260811T074500Z",
-      "source": "sozcu.com.tr"
-    },
-    {
-      "id": 3,
-      "name": "الشحاتي : السياسة النقدية هي مفتاح استقرار الدينار وسعر الصر",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T143000Z",
-      "source": "libyaakhbar.com"
-    },
-    {
-      "id": 4,
-      "name": "  Yanlış ekonomi politikaları ülkeyi çıkmaza sürüklüyor  ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T144500Z",
-      "source": "yeniduzen.com"
-    },
-    {
-      "id": 5,
-      "name": "Futures Erase Overnight Gains As Oil Hits One - Week High , ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T141500Z",
-      "source": "zerohedge.com"
-    },
-    {
-      "id": 6,
-      "name": "Tradeville : Iulie - volatilitatea s - a menţinut în pieţe",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T230000Z",
-      "source": "bursa.ro"
-    },
-    {
-      "id": 7,
-      "name": "معركة الوعي والسيادة",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T213000Z",
-      "source": "hespress.com"
-    },
-    {
-      "id": 8,
-      "name": "Revue de presse : limpasse des négociations avec Israël acce",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T103000Z",
-      "source": "libnanews.com"
-    }
-  ],
-  "events": [
-    {
-      "title": "الردع في الرؤية السعودية سياج يمنع المعتدي من تفسير خاطئ",
-      "url": "https://www.alwatan.com.sa/article/1183999",
-      "domain": "alwatan.com.sa",
-      "language": "Arabic",
-      "tone": 0,
-      "seendate": "20260810T094500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Küresel piyasalarda petrol ve enflasyon depremi : Fedden şahin mesajlar ! ",
-      "url": "https://www.sozcu.com.tr/kuresel-piyasalarda-petrol-ve-enflasyon-depremi-fed-den-sahin-mesajlar-p344280",
-      "domain": "sozcu.com.tr",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260811T074500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "الشحاتي : السياسة النقدية هي مفتاح استقرار الدينار وسعر الصرف",
-      "url": "https://www.libyaakhbar.com/libya-news/2851997.html",
-      "domain": "libyaakhbar.com",
-      "language": "Arabic",
-      "tone": 0,
-      "seendate": "20260810T143000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "  Yanlış ekonomi politikaları ülkeyi çıkmaza sürüklüyor  ",
-      "url": "https://www.yeniduzen.com/yanlis-ekonomi-politikalari-ulkeyi-cikmaza-surukluyor-198255h.htm",
-      "domain": "yeniduzen.com",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260810T144500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Futures Erase Overnight Gains As Oil Hits One - Week High , Yen Slides",
-      "url": "https://www.zerohedge.com/markets/futures-erase-overnight-gains-oil-hits-one-week-high-yen-slides",
-      "domain": "zerohedge.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260810T141500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Tradeville : Iulie - volatilitatea s - a menţinut în pieţe",
-      "url": "https://www.bursa.ro/tradeville-iulie-volatilitatea-s-a-mentinut-in-piete-89538959",
-      "domain": "bursa.ro",
-      "language": "Romanian",
-      "tone": 0,
-      "seendate": "20260810T230000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "معركة الوعي والسيادة",
-      "url": "https://www.hespress.com/%D8%B3%D8%A8%D8%AA%D8%A9-%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%88%D8%B9%D9%8A-%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AF%D8%A9-1790282.html",
-      "domain": "hespress.com",
-      "language": "Arabic",
-      "tone": 0,
-      "seendate": "20260810T213000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Revue de presse : limpasse des négociations avec Israël accentue la pression militaire et politique sur le Liban",
-      "url": "https://libnanews.com/revue-de-presse-limpasse-des-negociations-avec-israel-accentue-la-pression-militaire-et-politique-sur-le-liban/",
-      "domain": "libnanews.com",
-      "language": "French",
-      "tone": 0,
-      "seendate": "20260810T103000Z",
-      "source": "GDELT"
-    }
-  ],
+  "entities": [],
+  "events": [],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
