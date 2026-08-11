@@ -33,7 +33,7 @@ def extract_live_data(config):
 
     btc = safe_fetch(fetch_coingecko, "bitcoin")
     if btc:
-        results["crypto"] = {{"btc_price_usd": btc.get("market_data", {{}}).get("current_price", {{}}).get("usd", 0)}}
+        results["crypto"] = {"btc_price_usd": btc.get("market_data", {}).get("current_price", {}).get("usd", 0)}
 
     # --- Exchange Rates (if configured) ---
     if config.get("include_forex"):
