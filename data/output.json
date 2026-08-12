@@ -1,10 +1,11 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-12T14:19:33.504303+00:00",
+    "generated": "2026-08-12T20:00:08.682809+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
+      "economic_news",
       "crypto",
       "exchange_rates"
     ],
@@ -34,8 +35,208 @@
   ],
   "live_data": {
     "gdelt_articles": [],
+    "economic_news": [
+      {
+        "title": "Dijitalleşen haneler , değişen makroekonomi : Türkiyenin 2021 - 2026 dönüşümü",
+        "url": "https://www.dunya.com/kose-yazisi/dijitallesen-haneler-degisen-makroekonomi-turkiyenin-2021-2026-donusumu/835817",
+        "domain": "dunya.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260811T221500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Altın ve Piyasalar İçin Kritik Saat : Gözler ABD Enflasyon Verisinde",
+        "url": "https://www.gercekgundem.com/ekonomi/altin-ve-piyasalar-icin-kritik-saat-gozler-abd-enflasyon-verisinde-576616",
+        "domain": "gercekgundem.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Bölgesel İş Birliğinde Yeni Dönem Kapısı Aralanıyor ! MEKKE ANLAŞMASIYLA MİLYAR DOLARLIK FIRSAT",
+        "url": "https://beyazgazete.com/haber/2026/8/12/bolgesel-is-birliginde-yeni-donem-kapisi-aralaniyor-mekke-anlasmasiyla-milyar-dolarlik-firsat-7175221.html",
+        "domain": "beyazgazete.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T100000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
+        "url": "https://www.wfmj.com/news/political/the-latest-trump-says-he-was-taken-off-air-force-one-last-month-due-to/article_d7894d1b-81d7-5801-9f92-f68e21bb72f7.html",
+        "domain": "wfmj.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T170000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
+        "url": "https://abcnews.com/US/wireStory/latest-trump-off-air-force-month-due-threat-135574495",
+        "domain": "abcnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T161500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "2027 yılının kazanacak şirketleri : Nakit akışını yönetenler",
+        "url": "https://www.dunya.com/kose-yazisi/2027-yilinin-kazanacak-sirketleri-nakit-akisini-yonetenler/835812",
+        "domain": "dunya.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260811T221500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Akaryakıtta zam son dakika iptal edilmişti ! Korkutan açıklama : Daha büyüğü kapıda",
+        "url": "https://www.internethaber.com/akaryakitta-zam-son-dakika-iptal-edilmisti-korkutan-aciklama-daha-buyugu-kapida-2454973h.htm",
+        "domain": "internethaber.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T094500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Terefi kýrmak : Olaný bölmek yetmez , pastayý büytmek lazým",
+        "url": "https://www.yenimesaj.com.tr/terefi-kirmak-olani-bolusmek-yetmez-pastayi-buyutmek-lazim-H1613966.htm",
+        "domain": "yenimesaj.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T003000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Sadece bir kent deðil , ülke genelinde bir að",
+        "url": "https://www.yenimesaj.com.tr/sadece-bir-kent-degil-ulke-genelinde-bir-ag-H1613958.htm",
+        "domain": "yenimesaj.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260811T201500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Piyasalar finansmana erişimde kolaylık bekliyor",
+        "url": "https://www.dunya.com/kose-yazisi/piyasalar-finansmana-erisimde-kolaylik-bekliyor/835814",
+        "domain": "dunya.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260811T221500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
+        "url": "https://www.news4jax.com/news/politics/2026/08/12/the-latest-trump-says-he-was-taken-off-air-force-one-last-month-due-to-threat/",
+        "domain": "news4jax.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T161500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
+        "url": "https://www.wsbradio.com/news/latest-trump-says-he/TWFNRVNTUY2SHDSWNHTG4SRV4E/",
+        "domain": "wsbradio.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T161500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
+        "url": "http://www.postregister.com/news/national/the-latest-trump-says-he-was-taken-off-air-force-one-last-month-due-to/article_38344520-a503-5370-a2ef-85d25f9b4ec2.html",
+        "domain": "postregister.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
+        "url": "http://www.idahostatejournal.com/news/national/the-latest-trump-says-he-was-taken-off-air-force-one-last-month-due-to/article_8635532d-e4ea-588b-ac3c-bc7e4f7fa889.html",
+        "domain": "idahostatejournal.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T190000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
+        "url": "https://www.niagarafallsreview.ca/news/world/united-states/the-latest-trump-says-he-was-taken-off-air-force-one-last-month-due-to-threat/article_98b9a52d-23ef-5726-a65b-0bfa4408911d.html",
+        "domain": "niagarafallsreview.ca",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T161500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Trump Says US Has Total Control of Strait of Hormuz",
+        "url": "https://www.pakistantoday.com.pk/2026/08/12/trump-says-us-has-total-control-over-strait-of-hormuz",
+        "domain": "pakistantoday.com.pk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T190000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "سپاه پاسداران مستقیم با مخاطب آمریکایی سخن گفت ؛ دلیل این تصمیم چیست ؟ ",
+        "url": "https://www.bbc.com/persian/articles/c62v699y0y2o",
+        "domain": "bbc.com",
+        "language": "Persian",
+        "tone": 0,
+        "seendate": "20260812T100000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Битва за Україну . День тисяча шістсот тридцять перший",
+        "url": "https://www.ukrinform.ua/rubric-ato/4153627-bitva-za-ukrainu-den-tisaca-sistsot-tridcat-persij.html",
+        "domain": "ukrinform.ua",
+        "language": "Ukrainian",
+        "tone": 0,
+        "seendate": "20260812T193000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Trump Attempts Patience",
+        "url": "https://www.theatlantic.com/national-security/2026/08/trump-iran-economic-pressure/688250/",
+        "domain": "theatlantic.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T011500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "有色 / 贵金属 | 舆情反复 锂价有望企稳 _ 东方财富网",
+        "url": "https://finance.eastmoney.com/a/202608123838866567.html",
+        "domain": "finance.eastmoney.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260812T023000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Lineage ( LINE ) Q2 2026 Earnings Call Transcript",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/lineage-line-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+        "domain": "fool.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T191500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Calendarul evenimentelor , 12 august – selecțiuni | Agenția de presă Rador",
+        "url": "https://www.rador.ro/2026/08/12/calendarul-evenimentelor-12-august-selectiuni-12/",
+        "domain": "rador.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260812T063000Z",
+        "source": "GDELT"
+      }
+    ],
     "crypto": {
-      "btc_price_usd": 63733
+      "btc_price_usd": 63333
     },
     "exchange_rates": [
       {
