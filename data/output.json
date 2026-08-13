@@ -1,13 +1,17 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-13T03:25:43.372302+00:00",
-    "mode": "live",
+    "generated": "2026-08-13T14:21:13.898913+00:00",
+    "mode": "partial",
     "sources": [
       "gdelt_articles",
       "crypto",
       "exchange_rates"
     ],
+    "source_notes": [
+      "GDELT unavailable; retained last validated news snapshot."
+    ],
+    "news_snapshot_at": "2026-08-13T03:25:43.372302+00:00",
     "version": "1.0.0"
   },
   "stats": [
@@ -207,7 +211,7 @@
       }
     ],
     "crypto": {
-      "btc_price_usd": 63551
+      "btc_price_usd": 63789
     },
     "exchange_rates": [
       {
