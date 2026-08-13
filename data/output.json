@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-13T14:21:13.898913+00:00",
+    "generated": "2026-08-13T19:55:04.964192+00:00",
     "mode": "partial",
     "sources": [
       "gdelt_articles",
@@ -211,7 +211,7 @@
       }
     ],
     "crypto": {
-      "btc_price_usd": 63789
+      "btc_price_usd": 63350
     },
     "exchange_rates": [
       {
