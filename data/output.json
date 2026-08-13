@@ -1,11 +1,10 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-12T20:00:08.682809+00:00",
+    "generated": "2026-08-13T03:25:43.372302+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "economic_news",
       "crypto",
       "exchange_rates"
     ],
@@ -34,24 +33,113 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
-    "economic_news": [
+    "gdelt_articles": [
       {
-        "title": "Dijitalleşen haneler , değişen makroekonomi : Türkiyenin 2021 - 2026 dönüşümü",
-        "url": "https://www.dunya.com/kose-yazisi/dijitallesen-haneler-degisen-makroekonomi-turkiyenin-2021-2026-donusumu/835817",
-        "domain": "dunya.com",
+        "title": "Akaryakýtta aðustos sürprizi : Motorine kademeli ÖTV düzenlemesi",
+        "url": "https://www.star.com.tr/guncel/akaryakitta-agustos-surprizi-motorine-kademeli-otv-duzenlemesi-haber-2033613/",
+        "domain": "star.com.tr",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260811T221500Z",
+        "seendate": "20260812T214500Z",
         "source": "GDELT"
       },
       {
-        "title": "Altın ve Piyasalar İçin Kritik Saat : Gözler ABD Enflasyon Verisinde",
-        "url": "https://www.gercekgundem.com/ekonomi/altin-ve-piyasalar-icin-kritik-saat-gozler-abd-enflasyon-verisinde-576616",
-        "domain": "gercekgundem.com",
+        "title": "Günün Gündemi : Siyaset , Ekonomi ve Diplomasi",
+        "url": "https://www.haberler.com/guncel/gundem-ozeti-13-agustos-2026-20140131-haberi/",
+        "domain": "haberler.com",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260812T091500Z",
+        "seendate": "20260812T213000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "SON DAKİKA HABERİ : Motorinde ÖTV sıfırlandı - Son Dakika Ekonomi Haberleri",
+        "url": "https://www.cnnturk.com/ekonomi/son-dakika-haberi-motorinde-otv-sifirlandi-3453717",
+        "domain": "cnnturk.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T214500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Motorinde ÖTV düzenlemesi . Ağustos sonuna kadar sıfırlandı",
+        "url": "https://www.ntv.com.tr/ntvpara/motorinde-otv-duzenlemesi-agustos-sonuna-kadar-sifirlandi-1737086",
+        "domain": "ntv.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T214500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli ÖTV uygulanacak",
+        "url": "https://www.aa.com.tr/tr/ekonomi/enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-uygulanacak/4025826",
+        "domain": "aa.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T214500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Motorinde ÖTV Ağustos sonuna kadar sıfırlandı",
+        "url": "https://www.internethaber.com/motorinde-otv-agustos-sonuna-kadar-sifirlandi-2455068h.htm",
+        "domain": "internethaber.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli ÖTV uygulanacak",
+        "url": "https://www.haberler.com/guncel/enflasyonla-mucadelenin-desteklenmesi-icin-20140146-haberi/",
+        "domain": "haberler.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T213000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
+        "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017",
+        "domain": "birgun.net",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260813T004500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
+        "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20target=_blank",
+        "domain": "birgun.net",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
+        "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20target=_blank%20class=stretched-link",
+        "domain": "birgun.net",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
+        "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20class=slide-legend-link%20target=_blank",
+        "domain": "birgun.net",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
+        "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20class=slide-link%20target=_blank",
+        "domain": "birgun.net",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260812T231500Z",
         "source": "GDELT"
       },
       {
@@ -64,120 +152,39 @@
         "source": "GDELT"
       },
       {
-        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
-        "url": "https://www.wfmj.com/news/political/the-latest-trump-says-he-was-taken-off-air-force-one-last-month-due-to/article_d7894d1b-81d7-5801-9f92-f68e21bb72f7.html",
-        "domain": "wfmj.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T170000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
-        "url": "https://abcnews.com/US/wireStory/latest-trump-off-air-force-month-due-threat-135574495",
-        "domain": "abcnews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T161500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "2027 yılının kazanacak şirketleri : Nakit akışını yönetenler",
-        "url": "https://www.dunya.com/kose-yazisi/2027-yilinin-kazanacak-sirketleri-nakit-akisini-yonetenler/835812",
-        "domain": "dunya.com",
+        "title": "ÖTV düzenlemesi Resmi Gazetede",
+        "url": "https://www.ensonhaber.com/otv-duzenlemesi-resmi-gazetede-h1557092",
+        "domain": "ensonhaber.com",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260811T221500Z",
+        "seendate": "20260812T220000Z",
         "source": "GDELT"
       },
       {
-        "title": "Akaryakıtta zam son dakika iptal edilmişti ! Korkutan açıklama : Daha büyüğü kapıda",
-        "url": "https://www.internethaber.com/akaryakitta-zam-son-dakika-iptal-edilmisti-korkutan-aciklama-daha-buyugu-kapida-2454973h.htm",
-        "domain": "internethaber.com",
+        "title": "Ağustosta motorine ÖTV yok ! Eşel Mobil sistemi sona erdi ; kademeli sistem geldi",
+        "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/agustosta-motorine-otv-yok-esel-mobil-sistemi-sona-erdi-kademeli-sistem-geldi-7640304",
+        "domain": "uzmanpara.milliyet.com.tr",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260812T094500Z",
+        "seendate": "20260812T214500Z",
         "source": "GDELT"
       },
       {
-        "title": "Terefi kýrmak : Olaný bölmek yetmez , pastayý büytmek lazým",
-        "url": "https://www.yenimesaj.com.tr/terefi-kirmak-olani-bolusmek-yetmez-pastayi-buyutmek-lazim-H1613966.htm",
-        "domain": "yenimesaj.com.tr",
+        "title": "Motorine kademeli ÖTV uygulanacak",
+        "url": "https://www.trthaber.com/haber/ekonomi/motorine-kademeli-otv-uygulanacak-953803.html",
+        "domain": "trthaber.com",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260812T003000Z",
+        "seendate": "20260812T214500Z",
         "source": "GDELT"
       },
       {
-        "title": "Sadece bir kent deðil , ülke genelinde bir að",
-        "url": "https://www.yenimesaj.com.tr/sadece-bir-kent-degil-ulke-genelinde-bir-ag-H1613958.htm",
-        "domain": "yenimesaj.com.tr",
+        "title": "Motorine kademeli ÖTV uygulanacak",
+        "url": "https://www.yenikonya.com.tr/ekonomi/motorine_kademeli_otv_uygulanacak-1983234",
+        "domain": "yenikonya.com.tr",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260811T201500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Piyasalar finansmana erişimde kolaylık bekliyor",
-        "url": "https://www.dunya.com/kose-yazisi/piyasalar-finansmana-erisimde-kolaylik-bekliyor/835814",
-        "domain": "dunya.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260811T221500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
-        "url": "https://www.news4jax.com/news/politics/2026/08/12/the-latest-trump-says-he-was-taken-off-air-force-one-last-month-due-to-threat/",
-        "domain": "news4jax.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T161500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
-        "url": "https://www.wsbradio.com/news/latest-trump-says-he/TWFNRVNTUY2SHDSWNHTG4SRV4E/",
-        "domain": "wsbradio.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T161500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
-        "url": "http://www.postregister.com/news/national/the-latest-trump-says-he-was-taken-off-air-force-one-last-month-due-to/article_38344520-a503-5370-a2ef-85d25f9b4ec2.html",
-        "domain": "postregister.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T133000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
-        "url": "http://www.idahostatejournal.com/news/national/the-latest-trump-says-he-was-taken-off-air-force-one-last-month-due-to/article_8635532d-e4ea-588b-ac3c-bc7e4f7fa889.html",
-        "domain": "idahostatejournal.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T190000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "The Latest : Trump says he was taken off Air Force One last month due to threat",
-        "url": "https://www.niagarafallsreview.ca/news/world/united-states/the-latest-trump-says-he-was-taken-off-air-force-one-last-month-due-to-threat/article_98b9a52d-23ef-5726-a65b-0bfa4408911d.html",
-        "domain": "niagarafallsreview.ca",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T161500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Trump Says US Has Total Control of Strait of Hormuz",
-        "url": "https://www.pakistantoday.com.pk/2026/08/12/trump-says-us-has-total-control-over-strait-of-hormuz",
-        "domain": "pakistantoday.com.pk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T190000Z",
+        "seendate": "20260813T023000Z",
         "source": "GDELT"
       },
       {
@@ -190,53 +197,17 @@
         "source": "GDELT"
       },
       {
-        "title": "Битва за Україну . День тисяча шістсот тридцять перший",
-        "url": "https://www.ukrinform.ua/rubric-ato/4153627-bitva-za-ukrainu-den-tisaca-sistsot-tridcat-persij.html",
-        "domain": "ukrinform.ua",
-        "language": "Ukrainian",
-        "tone": 0,
-        "seendate": "20260812T193000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Trump Attempts Patience",
-        "url": "https://www.theatlantic.com/national-security/2026/08/trump-iran-economic-pressure/688250/",
-        "domain": "theatlantic.com",
+        "title": "Radiography of a vulnerable state : Interim government , cascading crises",
+        "url": "https://www.bursa.ro/radiography-of-a-vulnerable-state-interim-government-cascading-crises-41458952",
+        "domain": "bursa.ro",
         "language": "English",
         "tone": 0,
-        "seendate": "20260812T011500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "有色 / 贵金属 | 舆情反复 锂价有望企稳 _ 东方财富网",
-        "url": "https://finance.eastmoney.com/a/202608123838866567.html",
-        "domain": "finance.eastmoney.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260812T023000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Lineage ( LINE ) Q2 2026 Earnings Call Transcript",
-        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/lineage-line-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-        "domain": "fool.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T191500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Calendarul evenimentelor , 12 august – selecțiuni | Agenția de presă Rador",
-        "url": "https://www.rador.ro/2026/08/12/calendarul-evenimentelor-12-august-selectiuni-12/",
-        "domain": "rador.ro",
-        "language": "Romanian",
-        "tone": 0,
-        "seendate": "20260812T063000Z",
+        "seendate": "20260812T214500Z",
         "source": "GDELT"
       }
     ],
     "crypto": {
-      "btc_price_usd": 63333
+      "btc_price_usd": 63551
     },
     "exchange_rates": [
       {
@@ -249,15 +220,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.23
+        "rate": 65.11
       },
       {
         "currency": "ALL",
-        "rate": 80.6
+        "rate": 80.62
       },
       {
         "currency": "AMD",
-        "rate": 366.49
+        "rate": 366.02
       },
       {
         "currency": "ANG",
@@ -265,11 +236,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 926.67
+        "rate": 923.71
       },
       {
         "currency": "ARS",
-        "rate": 1492.18
+        "rate": 1492.55
       },
       {
         "currency": "AUD",
@@ -285,7 +256,7 @@
       },
       {
         "currency": "BAM",
-        "rate": 1.69
+        "rate": 1.7
       },
       {
         "currency": "BBD",
@@ -293,11 +264,11 @@
       },
       {
         "currency": "BDT",
-        "rate": 123.53
+        "rate": 123.23
       },
       {
         "currency": "BGN",
-        "rate": 1.69
+        "rate": 1.7
       },
       {
         "currency": "BHD",
@@ -305,7 +276,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2991.59
+        "rate": 2990.55
       },
       {
         "currency": "BMD",
@@ -317,12 +288,229 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.93
+        "rate": 11.87
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "Akaryakýtta aðustos sürprizi : Motorine kademeli ÖTV düzenle",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T214500Z",
+      "source": "star.com.tr"
+    },
+    {
+      "id": 2,
+      "name": "Günün Gündemi : Siyaset , Ekonomi ve Diplomasi",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T213000Z",
+      "source": "haberler.com"
+    },
+    {
+      "id": 3,
+      "name": "SON DAKİKA HABERİ : Motorinde ÖTV sıfırlandı - Son Dakika Ek",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T214500Z",
+      "source": "cnnturk.com"
+    },
+    {
+      "id": 4,
+      "name": "Motorinde ÖTV düzenlemesi . Ağustos sonuna kadar sıfırlandı",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T214500Z",
+      "source": "ntv.com.tr"
+    },
+    {
+      "id": 5,
+      "name": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T214500Z",
+      "source": "aa.com.tr"
+    },
+    {
+      "id": 6,
+      "name": "Motorinde ÖTV Ağustos sonuna kadar sıfırlandı",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T231500Z",
+      "source": "internethaber.com"
+    },
+    {
+      "id": 7,
+      "name": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T213000Z",
+      "source": "haberler.com"
+    },
+    {
+      "id": 8,
+      "name": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  destekl",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260813T004500Z",
+      "source": "birgun.net"
+    },
+    {
+      "id": 9,
+      "name": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  destekl",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T231500Z",
+      "source": "birgun.net"
+    },
+    {
+      "id": 10,
+      "name": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  destekl",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T231500Z",
+      "source": "birgun.net"
+    }
+  ],
+  "events": [
+    {
+      "title": "Akaryakýtta aðustos sürprizi : Motorine kademeli ÖTV düzenlemesi",
+      "url": "https://www.star.com.tr/guncel/akaryakitta-agustos-surprizi-motorine-kademeli-otv-duzenlemesi-haber-2033613/",
+      "domain": "star.com.tr",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T214500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Günün Gündemi : Siyaset , Ekonomi ve Diplomasi",
+      "url": "https://www.haberler.com/guncel/gundem-ozeti-13-agustos-2026-20140131-haberi/",
+      "domain": "haberler.com",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T213000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "SON DAKİKA HABERİ : Motorinde ÖTV sıfırlandı - Son Dakika Ekonomi Haberleri",
+      "url": "https://www.cnnturk.com/ekonomi/son-dakika-haberi-motorinde-otv-sifirlandi-3453717",
+      "domain": "cnnturk.com",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T214500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Motorinde ÖTV düzenlemesi . Ağustos sonuna kadar sıfırlandı",
+      "url": "https://www.ntv.com.tr/ntvpara/motorinde-otv-duzenlemesi-agustos-sonuna-kadar-sifirlandi-1737086",
+      "domain": "ntv.com.tr",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T214500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli ÖTV uygulanacak",
+      "url": "https://www.aa.com.tr/tr/ekonomi/enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-uygulanacak/4025826",
+      "domain": "aa.com.tr",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T214500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Motorinde ÖTV Ağustos sonuna kadar sıfırlandı",
+      "url": "https://www.internethaber.com/motorinde-otv-agustos-sonuna-kadar-sifirlandi-2455068h.htm",
+      "domain": "internethaber.com",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T231500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli ÖTV uygulanacak",
+      "url": "https://www.haberler.com/guncel/enflasyonla-mucadelenin-desteklenmesi-icin-20140146-haberi/",
+      "domain": "haberler.com",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T213000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
+      "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017",
+      "domain": "birgun.net",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260813T004500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
+      "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20target=_blank",
+      "domain": "birgun.net",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T231500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
+      "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20target=_blank%20class=stretched-link",
+      "domain": "birgun.net",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T231500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
+      "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20class=slide-legend-link%20target=_blank",
+      "domain": "birgun.net",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T231500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
+      "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20class=slide-link%20target=_blank",
+      "domain": "birgun.net",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T231500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Bölgesel İş Birliğinde Yeni Dönem Kapısı Aralanıyor ! MEKKE ANLAŞMASIYLA MİLYAR DOLARLIK FIRSAT",
+      "url": "https://beyazgazete.com/haber/2026/8/12/bolgesel-is-birliginde-yeni-donem-kapisi-aralaniyor-mekke-anlasmasiyla-milyar-dolarlik-firsat-7175221.html",
+      "domain": "beyazgazete.com",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T100000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "ÖTV düzenlemesi Resmi Gazetede",
+      "url": "https://www.ensonhaber.com/otv-duzenlemesi-resmi-gazetede-h1557092",
+      "domain": "ensonhaber.com",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T220000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Ağustosta motorine ÖTV yok ! Eşel Mobil sistemi sona erdi ; kademeli sistem geldi",
+      "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/agustosta-motorine-otv-yok-esel-mobil-sistemi-sona-erdi-kademeli-sistem-geldi-7640304",
+      "domain": "uzmanpara.milliyet.com.tr",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260812T214500Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
