@@ -214,16 +214,31 @@ const INTEL = {
     const width = Math.max(container.clientWidth, 720);
     const height = 420;
     const svg = this.svgElement('svg', { viewBox: `0 0 ${width} ${height}` });
-    svg.append(this.svgElement('path', {
-      class: 'turkiye-outline',
-      d: `M${width * .08},${height * .52} L${width * .14},${height * .41} L${width * .25},${height * .38} L${width * .32},${height * .30} L${width * .43},${height * .33} L${width * .51},${height * .27} L${width * .60},${height * .35} L${width * .73},${height * .32} L${width * .91},${height * .44} L${width * .88},${height * .58} L${width * .76},${height * .61} L${width * .69},${height * .70} L${width * .54},${height * .65} L${width * .44},${height * .72} L${width * .30},${height * .64} L${width * .19},${height * .67} Z`,
-    }));
-    const locations = [[.18,.49],[.39,.43],[.29,.58],[.48,.54],[.61,.47],[.72,.53],[.81,.47],[.57,.61],[.70,.62],[.35,.51],[.86,.53],[.50,.40]];
+    const boundaries = [
+      [[44.772677,37.170437],[44.293452,37.001514],[43.942259,37.256228],[42.779126,37.385264],[42.349591,37.229873],[41.212089,37.074352],[40.673259,37.091276],[39.52258,36.716054],[38.699891,36.712927],[38.167727,36.90121],[37.066761,36.623036],[36.739494,36.81752],[36.685389,36.259699],[36.149763,35.821535],[35.782085,36.274995],[36.160822,36.650606],[35.550936,36.565443],[34.714553,36.795532],[34.026895,36.21996],[32.509158,36.107564],[31.699595,36.644275],[30.621625,36.677865],[30.391096,36.262981],[29.699976,36.144357],[28.732903,36.676831],[27.641187,36.658822],[27.048768,37.653361],[26.318218,38.208133],[26.8047,38.98576],[26.170785,39.463612],[27.28002,40.420014],[28.819978,40.460011],[29.240004,41.219991],[31.145934,41.087622],[32.347979,41.736264],[33.513283,42.01896],[35.167704,42.040225],[36.913127,41.335358],[38.347665,40.948586],[39.512607,41.102763],[40.373433,41.013673],[41.554084,41.535656],[42.619549,41.583173],[43.582746,41.092143],[43.752658,40.740201],[43.656436,40.253564],[44.400009,40.005],[44.79399,39.713003],[44.109225,39.428136],[44.421403,38.281281],[44.225756,37.971584],[44.772677,37.170437]],
+      [[26.117042,41.826905],[27.135739,42.141485],[27.99672,42.007359],[28.115525,41.622886],[28.988443,41.299934],[28.806438,41.054962],[27.619017,40.999823],[27.192377,40.690566],[26.358009,40.151994],[26.043351,40.617754],[26.056942,40.824123],[26.294602,40.936261],[26.604196,41.562115],[26.117042,41.826905]],
+    ];
+    const minLng = 25.7;
+    const maxLng = 45.2;
+    const minLat = 35.5;
+    const maxLat = 42.4;
+    const project = ([lng, lat]) => [
+      width * .06 + (lng - minLng) / (maxLng - minLng) * width * .88,
+      height * .12 + (maxLat - lat) / (maxLat - minLat) * height * .72,
+    ];
+    boundaries.forEach(boundary => {
+      const d = boundary.map((coordinate, index) => {
+        const [x, y] = project(coordinate);
+        return `${index ? 'L' : 'M'}${x},${y}`;
+      }).join(' ') + ' Z';
+      svg.append(this.svgElement('path', { class: 'turkiye-outline', d }));
+    });
+    const locations = [[28.9784,41.0082],[32.8597,39.9334],[29.0609,40.1885],[27.1428,38.4237],[30.7133,36.8969],[35.3213,37.0000],[37.3781,37.0662],[39.7168,41.0027],[36.3300,41.2867],[40.2306,37.9144],[43.3770,38.5012],[34.6415,36.8121]];
     articles.slice(0, locations.length).forEach((article, index) => {
-      const [px, py] = locations[index];
+      const [px, py] = project(locations[index]);
       const group = this.svgElement('g', { class: 'signal-node' });
-      const pulse = this.svgElement('circle', { cx: width * px, cy: height * py, r: 13, class: 'signal-pulse' });
-      const point = this.svgElement('circle', { cx: width * px, cy: height * py, r: 5 + Math.min(4, Math.abs(Number(article.tone) || 0)), class: 'signal-point' });
+      const pulse = this.svgElement('circle', { cx: px, cy: py, r: 13, class: 'signal-pulse' });
+      const point = this.svgElement('circle', { cx: px, cy: py, r: 5 + Math.min(4, Math.abs(Number(article.tone) || 0)), class: 'signal-point' });
       const title = this.svgElement('title');
       title.textContent = `${article.domain || 'Public source'}: ${this.cleanText(article.title || '')}`;
       group.append(pulse, point, title);
