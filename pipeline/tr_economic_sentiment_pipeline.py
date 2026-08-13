@@ -51,16 +51,33 @@ def main():
     config = load_config()
     print(f"=== TES Pipeline ===")
 
+    previous = {}
+    if os.path.exists("data/output.json"):
+        try:
+            with open("data/output.json", "r", encoding="utf-8") as existing:
+                previous = json.load(existing)
+        except (OSError, json.JSONDecodeError):
+            previous = {}
+
     # Live data extraction
     live_data = extract_live_data(config)
+    retained_news = False
+    if not live_data.get("gdelt_articles"):
+        previous_articles = previous.get("live_data", {}).get("gdelt_articles", [])
+        if previous_articles:
+            live_data["gdelt_articles"] = previous_articles
+            retained_news = True
+            print(f"  GDELT: retained {len(previous_articles)} previously validated articles")
 
     # Build output structure
     output = {
         "meta": {
             "project": "tr-economic-sentiment",
             "generated": datetime.now(timezone.utc).isoformat(),
-            "mode": "live" if live_data else "demo",
-            "sources": list(live_data.keys()),
+            "mode": "partial" if retained_news else ("live" if live_data else "unavailable"),
+            "sources": [name for name, value in live_data.items() if value],
+            "source_notes": (["GDELT unavailable; retained last validated news snapshot."] if retained_news else []),
+            "news_snapshot_at": previous.get("meta", {}).get("news_snapshot_at", previous.get("meta", {}).get("generated")) if retained_news else datetime.now(timezone.utc).isoformat(),
             "version": "1.0.0"
         },
         "stats": [

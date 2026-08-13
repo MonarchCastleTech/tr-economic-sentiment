@@ -56,8 +56,10 @@ const INTEL = {
   render() {
     const articles = this.articles();
     document.getElementById('generated-time').textContent = this.formatDate(this.data.meta?.generated);
-    document.getElementById('data-mode').textContent = `${this.data.meta?.mode === 'live' ? 'Live' : 'Fallback'} · 6h refresh`;
-    document.getElementById('status-message').innerHTML = `<strong>Intelligence status:</strong> ${articles.length} recent economic signals from ${this.uniqueDomains(articles)} public news domains; market context feeds are online.`;
+    const mode = this.data.meta?.mode === 'live' ? 'Live' : this.data.meta?.mode === 'partial' ? 'Retained' : 'Unavailable';
+    document.getElementById('data-mode').textContent = `${mode} · 6h refresh`;
+    const note = this.data.meta?.source_notes?.[0] || 'Market context feeds are online.';
+    document.getElementById('status-message').innerHTML = `<strong>Intelligence status:</strong> ${articles.length} recent economic signals from ${this.uniqueDomains(articles)} public news domains. ${note}`;
     this.renderStats(articles);
     this.renderSourceTable(articles);
     this.renderEvents(articles);
