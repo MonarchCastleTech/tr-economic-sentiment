@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" role="img" aria-labelledby="title desc">
   <title id="title">Türkiye Economic Sentiment Radar</title>
   <desc id="desc">Türkiye Economic Sentiment Radar product logo</desc>
-  <g fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M9 52h46M13 48V15M18 42l10-10 8 6 14-19"/><path d="m43 19 7 0 0 7"/></g>
+  <g fill="none" stroke="#d7b56d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M9 52h46M13 48V15M18 42l10-10 8 6 14-19"/><path d="m43 19 7 0 0 7"/></g>
   <text x="70" y="30" fill="#f1f5f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing=".2">Türkiye Economic</text>
-  <text x="70" y="51" fill="#2dd4bf" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing=".2">Sentiment</text>
+  <text x="70" y="51" fill="#d7b56d" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing=".2">Sentiment</text>
 </svg>
