@@ -1,323 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>T&uuml;rkiye Economic Sentiment Radar &mdash; MCT Intelligence</title>
-  <meta name="description" content="Economic sentiment and market-context signals focused on Türkiye.">
+  <title>Türkiye Economic Sentiment Radar — MCT Intelligence</title>
+  <meta name="description" content="Live Turkish economic sentiment and market-context signals.">
   <meta name="theme-color" content="#071522">
   <link rel="canonical" href="https://monarchcastletech.github.io/tr-economic-sentiment/">
   <link rel="icon" href="assets/product-logo.svg?v=2" type="image/svg+xml">
   <meta property="og:title" content="Türkiye Economic Sentiment Radar">
-  <meta property="og:description" content="Economic sentiment and market-context signals focused on Türkiye.">
+  <meta property="og:description" content="Live Turkish economic sentiment and market-context signals.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://monarchcastletech.github.io/tr-economic-sentiment/">
-  <meta property="og:image" content="https://monarchcastletech.github.io/tr-economic-sentiment/assets/mct-mark.png">
   <link rel="stylesheet" href="assets/style.css">
-  <script src="https://d3js.org/d3.v7.min.js" defer></script>
 </head>
 <body data-project="tr-economic-sentiment">
   <a class="skip-link" href="#overview">Skip to dashboard</a>
   <header class="header">
-    <div class="header-brand">
+    <a class="header-brand" href="#overview" aria-label="Türkiye Economic Sentiment Radar home">
       <img class="brand-mark" src="assets/mct-mark.png" alt="Monarch Castle Technologies">
       <img class="product-logo" src="assets/product-logo.svg?v=2" alt="Türkiye Economic Sentiment Radar">
-      <div>
-        <h1 class="visually-hidden">T&uuml;rkiye Economic Sentiment Radar</h1>
-      </div>
-    </div>
+      <h1 class="visually-hidden">Türkiye Economic Sentiment Radar</h1>
+    </a>
     <div class="header-meta">
-      <div class="live-dot"></div>
-      <span>Auto-refresh: 6h</span>
-      <span>|</span>
-      <span>Generated: <span id="generated-time">&mdash;</span></span>
+      <span class="live-dot" aria-hidden="true"></span>
+      <span id="data-mode">Loading data</span>
+      <span class="meta-divider">|</span>
+      <span>Generated: <time id="generated-time">—</time></span>
     </div>
   </header>
 
   <nav class="nav-tabs" aria-label="Dashboard sections">
     <a class="nav-tab active" href="#overview">Overview</a>
-    <a class="nav-tab" href="#map">Map</a>
-    <a class="nav-tab" href="#llm-summary">Analysis</a>
+    <a class="nav-tab" href="#map">Signals</a>
+    <a class="nav-tab" href="#analysis">Analysis</a>
     <a class="nav-tab" href="#sources">Sources</a>
   </nav>
 
   <main class="main" id="overview">
-    <div class="alert alert-info">
-      <strong>Intelligence Status:</strong> Multi-source Turkish economic sentiment index with predictive analytics.
+    <div class="alert alert-info" id="status-message">
+      <strong>Intelligence status:</strong> Loading the latest validated public snapshot.
     </div>
 
-    <div class="stat-grid">
-      <div class="stat-card">
-        <div class="stat-value">42/100</div>
-        <div class="stat-label">Sentiment Score</div>
-        <div class="stat-delta up">&#9650; live</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">156</div>
-        <div class="stat-label">Sources Tracked</div>
-        <div class="stat-delta up">&#9650; live</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">2,341</div>
-        <div class="stat-label">Daily Signals</div>
-        <div class="stat-delta up">&#9650; live</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">78%</div>
-        <div class="stat-label">Accuracy</div>
-        <div class="stat-delta up">&#9650; live</div>
-      </div>
-    </div>
+    <section class="stat-grid" id="stat-grid" aria-label="Current indicators"></section>
 
     <div class="grid grid-map">
-      <div>
-        <div class="card">
+      <div class="primary-column">
+        <section class="card" aria-labelledby="map-title">
           <div class="card-header">
             <div>
-              <div class="card-title">Global Activity Map</div>
-              <div class="card-subtitle">Real-time data visualization</div>
+              <h2 class="card-title" id="map-title">Türkiye Signal Activity</h2>
+              <p class="card-subtitle">Recent public-source coverage; node positions are illustrative</p>
             </div>
+            <span class="data-chip" id="map-count">— signals</span>
           </div>
-          <div class="map-container" id="map"></div>
-        </div>
+          <div class="map-container" id="map" role="img" aria-label="Recent Türkiye economic signal activity"></div>
+        </section>
 
-        <div class="card" style="margin-top:1.5rem">
+        <section class="card trend-card">
           <div class="card-header">
             <div>
-              <div class="card-title">Trend Analysis</div>
-              <div class="card-subtitle">30-day time series</div>
+              <h2 class="card-title">Signal Timeline</h2>
+              <p class="card-subtitle">Observed articles by hour in the current snapshot</p>
             </div>
           </div>
           <div class="chart-container" id="timeseries-chart"></div>
-        </div>
+        </section>
+
+        <section class="card" id="analysis" aria-labelledby="analysis-title">
+          <div class="card-header"><h2 class="card-title" id="analysis-title">Automated Analysis</h2></div>
+          <div class="analysis-copy" id="llm-summary">Building a source-grounded brief…</div>
+        </section>
       </div>
 
-      <div class="sidebar">
-        <div class="card">
+      <aside class="sidebar">
+        <section class="card" aria-labelledby="sources-title">
           <div class="card-header">
             <div>
-              <div class="card-title">Sentiment Sources</div>
-              <div class="card-subtitle">Ranked by score</div>
+              <h2 class="card-title" id="sources-title">Source Activity</h2>
+              <p class="card-subtitle">Domains ranked by signal count</p>
             </div>
           </div>
-          <table class="data-table">
-            <thead>
-              <tr><th>Entity</th><th>Score</th><th>Events</th><th>Risk</th><th>Src</th></tr>
-            </thead>
-            <tbody>
-          <tr>
-            <td>Entity 1</td>
-            <td><span class="badge badge-success">3.3/10</span></td>
-            <td>12</td>
-            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-low" style="width:33%"></div></div></td>
-            <td><span class="tag-source">demo</span></td>
-          </tr>
-          <tr>
-            <td>Entity 2</td>
-            <td><span class="badge badge-warning">4.6/10</span></td>
-            <td>24</td>
-            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-medium" style="width:46%"></div></div></td>
-            <td><span class="tag-source">demo</span></td>
-          </tr>
-          <tr>
-            <td>Entity 3</td>
-            <td><span class="badge badge-warning">5.9/10</span></td>
-            <td>36</td>
-            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-medium" style="width:59%"></div></div></td>
-            <td><span class="tag-source">demo</span></td>
-          </tr>
-          <tr>
-            <td>Entity 4</td>
-            <td><span class="badge badge-danger">7.2/10</span></td>
-            <td>48</td>
-            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-high" style="width:72%"></div></div></td>
-            <td><span class="tag-source">demo</span></td>
-          </tr>
-          <tr>
-            <td>Entity 5</td>
-            <td><span class="badge badge-danger">8.5/10</span></td>
-            <td>60</td>
-            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-high" style="width:85%"></div></div></td>
-            <td><span class="tag-source">demo</span></td>
-          </tr>
-          <tr>
-            <td>Entity 6</td>
-            <td><span class="badge badge-danger">9.8/10</span></td>
-            <td>72</td>
-            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-high" style="width:98%"></div></div></td>
-            <td><span class="tag-source">demo</span></td>
-          </tr>
-          <tr>
-            <td>Entity 7</td>
-            <td><span class="badge badge-success">3.1/10</span></td>
-            <td>84</td>
-            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-low" style="width:31%"></div></div></td>
-            <td><span class="tag-source">demo</span></td>
-          </tr>
-          <tr>
-            <td>Entity 8</td>
-            <td><span class="badge badge-warning">4.4/10</span></td>
-            <td>96</td>
-            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-medium" style="width:44%"></div></div></td>
-            <td><span class="tag-source">demo</span></td>
-          </tr>
-          <tr>
-            <td>Entity 9</td>
-            <td><span class="badge badge-warning">5.7/10</span></td>
-            <td>108</td>
-            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-medium" style="width:57%"></div></div></td>
-            <td><span class="tag-source">demo</span></td>
-          </tr>
-          <tr>
-            <td>Entity 10</td>
-            <td><span class="badge badge-danger">7.0/10</span></td>
-            <td>120</td>
-            <td style="width:120px"><div class="score-bar"><div class="score-bar-fill score-high" style="width:70%"></div></div></td>
-            <td><span class="tag-source">demo</span></td>
-          </tr>
-            </tbody>
-          </table>
-        </div>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead><tr><th>Source</th><th>Signals</th><th>Tone</th><th>Share</th></tr></thead>
+              <tbody id="source-rows"><tr><td colspan="4">Loading…</td></tr></tbody>
+            </table>
+          </div>
+        </section>
 
-        <div class="card">
+        <section class="card" aria-labelledby="events-title">
           <div class="card-header">
             <div>
-              <div class="card-title">Recent Events</div>
-              <div class="card-subtitle">Last 24 hours</div>
+              <h2 class="card-title" id="events-title">Recent Signals</h2>
+              <p class="card-subtitle">Latest observed public articles</p>
             </div>
           </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 1 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: Reddit API</div>
-            </div>
-            <span class="badge badge-warning">medium</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 2 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: Telegram</div>
-            </div>
-            <span class="badge badge-danger">high</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 3 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: Turkstat</div>
-            </div>
-            <span class="badge badge-success">low</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 4 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: CBRT</div>
-            </div>
-            <span class="badge badge-warning">medium</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 5 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: GDELT TR</div>
-            </div>
-            <span class="badge badge-danger">high</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 6 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: Reddit API</div>
-            </div>
-            <span class="badge badge-success">low</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 7 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: Telegram</div>
-            </div>
-            <span class="badge badge-warning">medium</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 8 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: Turkstat</div>
-            </div>
-            <span class="badge badge-danger">high</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 9 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: CBRT</div>
-            </div>
-            <span class="badge badge-success">low</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 10 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: GDELT TR</div>
-            </div>
-            <span class="badge badge-warning">medium</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 11 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: Reddit API</div>
-            </div>
-            <span class="badge badge-danger">high</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 12 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: Telegram</div>
-            </div>
-            <span class="badge badge-success">low</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 13 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: Turkstat</div>
-            </div>
-            <span class="badge badge-warning">medium</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 14 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: CBRT</div>
-            </div>
-            <span class="badge badge-danger">high</span>
-          </div>
-          <div class="list-item">
-            <div>
-              <div class="list-item-title">Event 15 &mdash; T&uuml;rkiye Alert</div>
-              <div class="list-item-meta">Source: GDELT TR</div>
-            </div>
-            <span class="badge badge-success">low</span>
-          </div>
-        </div>
+          <div id="event-list" class="event-list"><p class="chart-empty">Loading…</p></div>
+        </section>
 
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title">AI Analysis</div>
-          </div>
-          <div id="llm-summary" style="font-size:0.8125rem;color:var(--text-secondary)">
-            <p>Connect OpenRouter API key to enable AI-generated intelligence briefs.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title" id="sources">Data Sources</div>
-          </div>
-              <span class="tag-source">GDELT TR</span>
-              <span class="tag-source">Reddit API</span>
-              <span class="tag-source">Telegram</span>
-              <span class="tag-source">Turkstat</span>
-              <span class="tag-source">CBRT</span>        </div>
-      </div>
+        <section class="card" id="sources" aria-labelledby="feeds-title">
+          <div class="card-header"><h2 class="card-title" id="feeds-title">Data Feeds</h2></div>
+          <div class="source-tags" id="source-tags"></div>
+        </section>
+      </aside>
     </div>
   </main>
 
   <footer class="footer">
-    <p>T&uuml;rkiye Economic Sentiment Radar &mdash; <a href="https://monarchcastle.tech/">Monarch Castle Technologies</a></p>
-    <p style="margin-top:0.5rem">Auto-refreshed every 6 hours via GitHub Actions &bull; Source data available in <code>data/</code></p>
+    <p>Türkiye Economic Sentiment Radar — <a href="https://monarchcastle.tech/">Monarch Castle Technologies</a></p>
+    <p>Auto-refreshed every 6 hours via GitHub Actions · Public data snapshot in <a href="data/output.json">JSON</a></p>
   </footer>
 
   <script src="assets/app.js"></script>

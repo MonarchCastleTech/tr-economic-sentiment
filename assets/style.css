@@ -117,14 +117,15 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-hover); 
 .nav-tab:hover { color: var(--text-primary); }
 .nav-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
 
-.main { padding: 2rem; max-width: 1600px; margin: 0 auto; overflow-x: hidden; }
+.main { padding: 2rem; max-width: 1600px; margin: 0 auto; }
 
 .grid { display: grid; gap: 1.5rem; }
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
 .grid-3 { grid-template-columns: repeat(3, 1fr); }
 .grid-4 { grid-template-columns: repeat(4, 1fr); }
 .grid-map { grid-template-columns: 1fr 380px; align-items: start; min-width: 0; }
-.grid-map > div:first-child { min-width: 0; overflow: hidden; }
+.grid-map > div:first-child { min-width: 0; }
+.primary-column { display: grid; gap: 1.5rem; }
 
 @media (max-width: 1024px) {
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
@@ -136,8 +137,9 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-hover); 
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1.5rem;
-  overflow-x: auto;
+  min-width: 0;
 }
+.table-wrap { overflow-x: auto; }
 
 .card-header {
   display: flex;
@@ -219,7 +221,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-hover); 
   background: var(--bg-primary);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  height: 500px;
+  height: 420px;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -242,10 +244,13 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-hover); 
   border-bottom: 1px solid var(--border);
 }
 
+.list-item-copy { display: block; min-width: 0; width: 100%; }
+
 .list-item:last-child { border-bottom: none; }
 
-.list-item-title { font-size: 0.875rem; font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 220px; }
+.list-item-title { display: block; font-size: 0.8125rem; font-weight: 600; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
 .list-item-meta { font-size: 0.75rem; color: var(--text-muted); }
+.event-list { max-height: 520px; overflow-y: auto; padding-right: 0.25rem; }
 
 .data-table {
   width: 100%;
@@ -301,6 +306,22 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-hover); 
   height: 250px;
   position: relative;
 }
+
+.trend-card { overflow: hidden; }
+.data-chip { border: 1px solid var(--border); color: var(--accent); font: 0.68rem var(--font-mono); padding: 0.25rem 0.5rem; text-transform: uppercase; }
+.analysis-copy { color: var(--text-secondary); font-family: var(--font-serif); font-size: 1rem; line-height: 1.75; }
+.source-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.source-tags .tag-source { color: var(--accent-hover); padding: 0.35rem 0.55rem; }
+.chart-gridline { stroke: rgba(243,239,228,.12); stroke-width: 1; }
+.timeline-area { fill: rgba(215,180,106,.12); }
+.timeline-line { fill: none; stroke: var(--accent-hover); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.5; }
+.timeline-point { fill: var(--accent-hover); stroke: var(--bg-primary); stroke-width: 2; }
+.chart-label, .map-label { fill: var(--text-muted); font: 11px var(--font-mono); }
+.turkiye-outline { fill: rgba(119,184,207,.08); stroke: rgba(119,184,207,.55); stroke-linejoin: round; stroke-width: 2; }
+.signal-pulse { fill: rgba(215,180,106,.15); }
+.signal-point { fill: var(--accent-hover); stroke: var(--bg-primary); stroke-width: 2; }
+.signal-node:nth-of-type(3n) .signal-point { fill: var(--info); }
+.signal-node:nth-of-type(4n) .signal-point { fill: var(--warning); }
 
 .chart-container svg { width: 100%; height: 100%; }
 .chart-empty { display: grid; height: 100%; place-items: center; color: var(--text-muted); font-family: var(--font-mono); font-size: 0.75rem; }
@@ -385,6 +406,12 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-hover); 
   .nav-tab { padding: 0.7rem 0.9rem; white-space: nowrap; }
   .main { padding: 1rem; }
   .card { padding: 1rem; }
+  .stat-grid { grid-template-columns: 1fr; }
+  .stat-value { font-size: 1.55rem; }
+  .map-container { height: 310px; }
+  .chart-container { height: 220px; overflow-x: auto; }
+  .header-meta { font-size: 0.7rem; }
+  .meta-divider { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

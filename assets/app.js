@@ -1,316 +1,267 @@
 const INTEL = {
   data: {},
-  config: {},
 
-    async init(projectName) {
-        this.project = projectName;
-        await this.loadData();
-        this.render();
-        this.renderDashboard();
-    },
-
-  async loadData() {
+  async init() {
     try {
-      const resp = await fetch('data/output.json');
-      this.data = await resp.json();
-    } catch (e) {
-      console.warn('Using demo data:', e);
-      this.data = this.demoData();
+      const response = await fetch('data/output.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Data request returned ${response.status}`);
+      this.data = await response.json();
+      this.render();
+    } catch (error) {
+      this.renderError(error);
     }
   },
 
-  demoData() {
-    return {
-      meta: { generated: new Date().toISOString(), source: 'demo' },
-      stats: [],
-      entities: [],
-      events: [],
-      timeseries: []
-    };
-  },
-
-  formatNumber(n) {
-    if (n === undefined || n === null) return '—';
-    if (typeof n !== 'number') return String(n);
-    if (Math.abs(n) >= 1e9) return (n / 1e9).toFixed(1) + 'B';
-    if (Math.abs(n) >= 1e6) return (n / 1e6).toFixed(1) + 'M';
-    if (Math.abs(n) >= 1e3) return (n / 1e3).toFixed(1) + 'K';
-    return n.toLocaleString();
-  },
-
-    formatDate(iso) {
-        if (!iso) return '—';
-        const d = new Date(iso);
-        return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-    },
-
-    renderDashboard() {
-        // Build timeseries from events if none exists
-        let ts = this.data.timeseries || [];
-        if (!ts.length && this.data.events && this.data.events.length) {
-            const counts = {};
-            this.data.events.forEach(e => {
-                const d = (e.timestamp || e.seendate || e.date || '').substring(0, 10);
-                if (d) counts[d] = (counts[d] || 0) + 1;
-            });
-            ts = Object.entries(counts)
-                .map(([date, value]) => ({ date, value }))
-                .sort((a, b) => a.date.localeCompare(b.date));
-        }
-        if (!ts.length && this.data.live_data) {
-            // Use exchange rates as fallback timeseries
-            const rates = this.data.live_data.exchange_rates;
-            if (rates && Array.isArray(rates)) {
-                ts = rates.slice(0, 30).map((r, i) => ({
-                    date: `2026-0${Math.floor(i / 8) + 1}-${(i % 28 + 1).toString().padStart(2, '0')}`,
-                    value: typeof r === 'object' ? r.rate || 0 : r
-                }));
-            }
-        }
-        if (ts.length) this.renderSparkline('timeseries-chart', ts, 'value');
-
-        // Build map markers from entities or events
-        let markers = [];
-        if (this.data.entities) {
-            markers = this.data.entities
-                .filter(e => e.latitude || e.lat)
-                .map(e => ({
-                    lat: parseFloat(e.latitude || e.lat),
-                    lng: parseFloat(e.longitude || e.lng),
-                    name: e.name,
-                    color: e.score >= 7 ? '#ef4444' : (e.score >= 4 ? '#f59e0b' : '#10b981'),
-                    size: 4 + (e.score || 5)
-                }));
-        }
-        if (!markers.length && this.data.events) {
-            // Generate markers from events with random offsets for visibility
-            const colors = ['#ef4444', '#f59e0b', '#10b981', '#3b82f6', '#06b6d4', '#8b5cf6'];
-            markers = this.data.events.slice(0, 20).map((e, i) => ({
-                lat: 35 + (Math.sin(i * 1.3) * 8),
-                lng: 30 + (Math.cos(i * 1.7) * 15),
-                name: e.title || e.name || `Event ${i + 1}`,
-                color: colors[i % colors.length],
-                size: 4 + (parseFloat(e.tone || 0) + 5)
-            }));
-        }
-        if (!markers.length && this.data.live_data) {
-            const kev = this.data.live_data.cisa_kev;
-            if (kev && kev.length) {
-                const colors = ['#ef4444', '#f59e0b', '#10b981', '#3b82f6'];
-                markers = kev.slice(0, 20).map((v, i) => ({
-                    lat: 40 + (Math.sin(i * 1.5) * 10),
-                    lng: -10 + (Math.cos(i * 1.2) * 20),
-                    name: v.cveID || v.vulnerabilityName || `CVE ${i}`,
-                    color: colors[i % colors.length],
-                    size: 5
-                }));
-            }
-        }
-        if (!markers.length && this.data.live_data) {
-            const rates = this.data.live_data.exchange_rates;
-            if (rates && rates.length) {
-                const colors = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#06b6d4'];
-                markers = rates.slice(0, 15).map((r, i) => ({
-                    lat: 30 + (Math.sin(i * 1.4) * 15),
-                    lng: 20 + (Math.cos(i * 1.6) * 25),
-                    name: typeof r === 'object' ? r.currency : `Rate ${i}`,
-                    color: colors[i % colors.length],
-                    size: 4
-                }));
-            }
-        }
-        if (markers.length) this.drawSimpleMap('map', markers);
-
-        // LLM summary
-        if (this.data.llm_summary) {
-            const el = document.getElementById('llm-summary');
-            if (el) {
-              const paragraph = document.createElement('p');
-              paragraph.textContent = this.data.llm_summary;
-              el.replaceChildren(paragraph);
-            }
-        }
-    },
-
-  scoreColor(score) {
-    if (score >= 7) return 'score-high';
-    if (score >= 4) return 'score-medium';
-    return 'score-low';
-  },
-
-  scoreBadge(score) {
-    if (score >= 7) return 'badge-danger';
-    if (score >= 4) return 'badge-warning';
-    return 'badge-success';
-  },
-
-  renderMapProjection(features, width, height) {
-    const projection = d3.geoNaturalEarth1()
-      .fitSize([width, height], features);
-    const path = d3.geoPath().projection(projection);
-    return { projection, path };
-  },
-
-    drawSimpleMap(containerId, markers) {
-        const container = document.getElementById(containerId);
-        if (!container) return;
-        const w = container.clientWidth;
-        const h = container.clientHeight || 400;
-
-        d3.select(container).selectAll('svg').remove();
-
-        const svg = d3.select(container).append('svg')
-            .attr('viewBox', `0 0 ${w} ${h}`);
-
-    svg.append('rect').attr('width', w).attr('height', h).attr('fill', '#040d15');
-
-    const projection = d3.geoNaturalEarth1().fitSize([w, h], {
-      type: 'FeatureCollection', features: markers.map(m => ({
-        type: 'Feature',
-        geometry: { type: 'Point', coordinates: [m.lng, m.lat] },
-        properties: m
-      }))
-    });
-    const path = d3.geoPath().projection(projection);
-
-    svg.selectAll('circle')
-      .data(markers)
-      .join('circle')
-      .attr('cx', d => projection([d.lng, d.lat])[0])
-      .attr('cy', d => projection([d.lng, d.lat])[1])
-      .attr('r', d => d.size || 4)
-      .attr('fill', d => d.color || '#d7b46a')
-      .attr('opacity', 0.7)
-      .on('mouseenter', (e, d) => this.showTooltip(e, d))
-      .on('mouseleave', () => this.hideTooltip());
-  },
-
-  showTooltip(event, data) {
-    let tip = document.getElementById('tooltip');
-    if (!tip) {
-      tip = document.createElement('div');
-      tip.id = 'tooltip';
-      tip.className = 'tooltip';
-      document.body.appendChild(tip);
+  cleanText(value) {
+    if (!value) return '';
+    const text = String(value);
+    const repairedLegacy = text
+      .replaceAll('ý', 'ı')
+      .replaceAll('Ý', 'İ')
+      .replaceAll('ð', 'ğ')
+      .replaceAll('Ð', 'Ğ')
+      .replaceAll('þ', 'ş')
+      .replaceAll('Þ', 'Ş');
+    if (!/[ÃÄÅâ]/.test(repairedLegacy)) return repairedLegacy;
+    try {
+      const bytes = Uint8Array.from(repairedLegacy, character => character.charCodeAt(0));
+      return new TextDecoder('utf-8').decode(bytes);
+    } catch {
+      return repairedLegacy;
     }
-    const title = document.createElement('strong');
-    title.textContent = data.name || data.title || 'Unknown';
-    const details = [];
-    if (data.value) details.push(`Value: ${data.value}`);
-    if (data.score) details.push(`Score: ${data.score}/10`);
-    tip.replaceChildren(title);
-    details.forEach(detail => {
-      tip.appendChild(document.createElement('br'));
-      tip.appendChild(document.createTextNode(detail));
-    });
-    tip.style.left = event.pageX + 10 + 'px';
-    tip.style.top = event.pageY - 10 + 'px';
-    tip.style.display = 'block';
   },
 
-  hideTooltip() {
-    const tip = document.getElementById('tooltip');
-    if (tip) tip.style.display = 'none';
+  parseDate(value) {
+    if (!value) return null;
+    const compact = String(value).match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/);
+    const date = compact
+      ? new Date(`${compact[1]}-${compact[2]}-${compact[3]}T${compact[4]}:${compact[5]}:${compact[6]}Z`)
+      : new Date(value);
+    return Number.isFinite(date.getTime()) ? date : null;
   },
 
-  renderSparkline(containerId, data, valueKey) {
-    const container = document.getElementById(containerId);
-    if (!container || !data.length) return;
-    const series = data.map(item => ({
-      date: new Date(item.date),
-      value: Number(item[valueKey] ?? item.value)
-    })).filter(item => Number.isFinite(item.date.getTime()) && Number.isFinite(item.value))
-      .sort((a, b) => a.date - b.date);
-    container.replaceChildren();
-    if (series.length < 2) {
-      const empty = document.createElement('p');
-      empty.className = 'chart-empty';
-      empty.textContent = 'Insufficient valid time-series data.';
-      container.appendChild(empty);
-      return;
-    }
-    const w = container.clientWidth || 300;
-    const h = 60;
-    const margin = { top: 5, right: 5, bottom: 5, left: 5 };
-
-    const svg = d3.select(container).append('svg')
-      .attr('viewBox', `0 0 ${w} ${h}`);
-
-    const x = d3.scaleTime()
-      .domain(d3.extent(series, d => d.date))
-      .range([margin.left, w - margin.right]);
-    const y = d3.scaleLinear()
-      .domain((() => {
-        const [min, max] = d3.extent(series, d => d.value);
-        return min === max ? [min - 1, max + 1] : [min, max];
-      })())
-      .range([h - margin.bottom, margin.top]);
-
-    const line = d3.line()
-      .x(d => x(d.date))
-      .y(d => y(d.value))
-      .curve(d3.curveMonotoneX);
-
-    svg.append('path')
-      .datum(series)
-      .attr('fill', 'none')
-      .attr('stroke', '#d7b46a')
-      .attr('stroke-width', 1.5)
-      .attr('d', line);
+  formatDate(value, includeTime = true) {
+    const date = this.parseDate(value);
+    if (!date) return '—';
+    const options = includeTime
+      ? { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }
+      : { day: 'numeric', month: 'short' };
+    return new Intl.DateTimeFormat('en-GB', options).format(date);
   },
 
-  renderBarChart(containerId, data, labelKey, valueKey) {
-    const container = document.getElementById(containerId);
-    if (!container || !data.length) return;
-    const w = container.clientWidth || 400;
-    const h = 200;
-    const margin = { top: 10, right: 10, bottom: 40, left: 40 };
-
-    const svg = d3.select(container).append('svg')
-      .attr('viewBox', `0 0 ${w} ${h}`);
-
-    const x = d3.scaleBand()
-      .domain(data.map(d => d[labelKey]))
-      .range([margin.left, w - margin.right])
-      .padding(0.3);
-    const y = d3.scaleLinear()
-      .domain([0, d3.max(data, d => d[valueKey])])
-      .range([h - margin.bottom, margin.top]);
-
-    svg.selectAll('rect')
-      .data(data)
-      .join('rect')
-      .attr('x', d => x(d[labelKey]))
-      .attr('y', d => y(d[valueKey]))
-      .attr('width', x.bandwidth())
-      .attr('height', d => h - margin.bottom - y(d[valueKey]))
-      .attr('fill', '#d7b46a')
-      .attr('rx', 2);
-
-    svg.append('g')
-      .attr('class', 'axis')
-      .attr('transform', `translate(0,${h - margin.bottom})`)
-      .call(d3.axisBottom(x))
-      .selectAll('text')
-      .attr('transform', 'rotate(-30)')
-      .style('text-anchor', 'end');
-
-    svg.append('g')
-      .attr('class', 'axis')
-      .attr('transform', `translate(${margin.left},0)`)
-      .call(d3.axisLeft(y).ticks(4));
+  articles() {
+    return (this.data.events?.length ? this.data.events : this.data.live_data?.gdelt_articles) || [];
   },
 
   render() {
-    const generated = document.getElementById('generated-time');
-    if (generated) generated.textContent = this.formatDate(
-      this.data.meta?.generated || this.data.meta?.last_updated
-    );
-  }
+    const articles = this.articles();
+    document.getElementById('generated-time').textContent = this.formatDate(this.data.meta?.generated);
+    document.getElementById('data-mode').textContent = `${this.data.meta?.mode === 'live' ? 'Live' : 'Fallback'} · 6h refresh`;
+    document.getElementById('status-message').innerHTML = `<strong>Intelligence status:</strong> ${articles.length} recent economic signals from ${this.uniqueDomains(articles)} public news domains; market context feeds are online.`;
+    this.renderStats(articles);
+    this.renderSourceTable(articles);
+    this.renderEvents(articles);
+    this.renderSourceTags();
+    this.renderTimeline(articles);
+    this.renderSignalMap(articles);
+    this.renderAnalysis(articles);
+  },
+
+  uniqueDomains(articles) {
+    return new Set(articles.map(item => item.domain).filter(Boolean)).size;
+  },
+
+  renderStats(articles) {
+    const tones = articles.map(item => Number(item.tone)).filter(Number.isFinite);
+    const meanTone = tones.length ? tones.reduce((sum, value) => sum + value, 0) / tones.length : 0;
+    const sentiment = Math.round(Math.max(0, Math.min(100, 50 + meanTone * 5)));
+    const feeds = Object.values(this.data.live_data || {}).filter(value => value && (Array.isArray(value) ? value.length : true)).length;
+    const stats = [
+      { value: `${sentiment}/100`, label: 'News Tone Index', note: meanTone > 0.2 ? '▲ positive' : meanTone < -0.2 ? '▼ negative' : '● neutral' },
+      { value: String(articles.length), label: 'Recent Signals', note: 'GDELT snapshot' },
+      { value: String(this.uniqueDomains(articles)), label: 'News Domains', note: 'deduplicated' },
+      { value: String(feeds), label: 'Live Data Feeds', note: this.cleanText((this.data.meta?.sources || []).join(' · ')) },
+    ];
+    const grid = document.getElementById('stat-grid');
+    grid.replaceChildren(...stats.map(stat => {
+      const card = document.createElement('article');
+      card.className = 'stat-card';
+      card.innerHTML = `<div class="stat-value">${stat.value}</div><div class="stat-label">${stat.label}</div><div class="stat-delta neutral">${stat.note}</div>`;
+      return card;
+    }));
+  },
+
+  groupSources(articles) {
+    const groups = new Map();
+    articles.forEach(article => {
+      const source = article.domain || article.source || 'Unknown';
+      const current = groups.get(source) || { source, count: 0, tones: [] };
+      current.count += 1;
+      const tone = Number(article.tone);
+      if (Number.isFinite(tone)) current.tones.push(tone);
+      groups.set(source, current);
+    });
+    return [...groups.values()].sort((a, b) => b.count - a.count || a.source.localeCompare(b.source));
+  },
+
+  renderSourceTable(articles) {
+    const groups = this.groupSources(articles).slice(0, 10);
+    const maximum = Math.max(1, ...groups.map(group => group.count));
+    const body = document.getElementById('source-rows');
+    body.replaceChildren(...groups.map(group => {
+      const mean = group.tones.length ? group.tones.reduce((a, b) => a + b, 0) / group.tones.length : 0;
+      const row = document.createElement('tr');
+      const toneClass = mean > 0.2 ? 'badge-success' : mean < -0.2 ? 'badge-danger' : 'badge-info';
+      row.innerHTML = `<td title="${group.source}">${group.source}</td><td>${group.count}</td><td><span class="badge ${toneClass}">${mean.toFixed(1)}</span></td><td><div class="score-bar"><div class="score-bar-fill score-medium" style="width:${group.count / maximum * 100}%"></div></div></td>`;
+      return row;
+    }));
+  },
+
+  renderEvents(articles) {
+    const container = document.getElementById('event-list');
+    const items = [...articles]
+      .sort((a, b) => (this.parseDate(b.seendate)?.getTime() || 0) - (this.parseDate(a.seendate)?.getTime() || 0))
+      .slice(0, 8);
+    container.replaceChildren(...items.map(item => {
+      const article = document.createElement('article');
+      article.className = 'list-item';
+      const link = document.createElement('a');
+      link.className = 'list-item-copy';
+      link.href = item.url || '#';
+      link.target = '_blank';
+      link.rel = 'noreferrer';
+      const title = document.createElement('strong');
+      title.className = 'list-item-title';
+      title.textContent = this.cleanText(item.title || 'Untitled signal');
+      const meta = document.createElement('span');
+      meta.className = 'list-item-meta';
+      meta.textContent = `${item.domain || item.source || 'Public source'} · ${this.formatDate(item.seendate)}`;
+      link.append(title, meta);
+      article.append(link);
+      return article;
+    }));
+  },
+
+  renderSourceTags() {
+    const labels = { gdelt_articles: 'GDELT News', economic_news: 'Economic News', crypto: 'CoinGecko', exchange_rates: 'Exchange Rates' };
+    const names = this.data.meta?.sources || Object.keys(this.data.live_data || {});
+    const container = document.getElementById('source-tags');
+    container.replaceChildren(...names.map(name => {
+      const tag = document.createElement('span');
+      tag.className = 'tag-source';
+      tag.textContent = labels[name] || name.replaceAll('_', ' ');
+      return tag;
+    }));
+  },
+
+  renderTimeline(articles) {
+    const buckets = new Map();
+    articles.forEach(article => {
+      const date = this.parseDate(article.seendate || article.timestamp || article.date);
+      if (!date) return;
+      date.setUTCMinutes(0, 0, 0);
+      const key = date.toISOString();
+      buckets.set(key, (buckets.get(key) || 0) + 1);
+    });
+    const observed = [...buckets].map(([date, value]) => ({ date: new Date(date), value })).sort((a, b) => a.date - b.date);
+    if (!observed.length) return this.renderEmpty('timeseries-chart', 'No valid timestamps in this snapshot.');
+    const start = new Date(observed[0].date);
+    const end = new Date(observed.at(-1).date);
+    const series = [];
+    for (let cursor = start.getTime(); cursor <= end.getTime(); cursor += 3600000) {
+      const date = new Date(cursor);
+      series.push({ date, value: buckets.get(date.toISOString()) || 0 });
+    }
+    if (series.length === 1) series.unshift({ date: new Date(start.getTime() - 3600000), value: 0 });
+    this.drawLineChart('timeseries-chart', series);
+  },
+
+  svgElement(name, attributes = {}) {
+    const element = document.createElementNS('http://www.w3.org/2000/svg', name);
+    Object.entries(attributes).forEach(([key, value]) => element.setAttribute(key, value));
+    return element;
+  },
+
+  drawLineChart(containerId, series) {
+    const container = document.getElementById(containerId);
+    const width = Math.max(container.clientWidth, 520);
+    const height = 240;
+    const margin = { top: 18, right: 18, bottom: 35, left: 34 };
+    const max = Math.max(1, ...series.map(item => item.value));
+    const x = index => margin.left + index * (width - margin.left - margin.right) / (series.length - 1);
+    const y = value => height - margin.bottom - value / max * (height - margin.top - margin.bottom);
+    const svg = this.svgElement('svg', { viewBox: `0 0 ${width} ${height}`, 'aria-label': 'Signals observed by hour' });
+    [0, 0.5, 1].forEach(ratio => {
+      svg.append(this.svgElement('line', { x1: margin.left, x2: width - margin.right, y1: y(max * ratio), y2: y(max * ratio), class: 'chart-gridline' }));
+    });
+    const area = `M${x(0)},${height - margin.bottom} ` + series.map((item, index) => `L${x(index)},${y(item.value)}`).join(' ') + ` L${x(series.length - 1)},${height - margin.bottom} Z`;
+    svg.append(this.svgElement('path', { d: area, class: 'timeline-area' }));
+    const path = series.map((item, index) => `${index ? 'L' : 'M'}${x(index)},${y(item.value)}`).join(' ');
+    svg.append(this.svgElement('path', { d: path, class: 'timeline-line' }));
+    series.forEach((item, index) => {
+      if (item.value) svg.append(this.svgElement('circle', { cx: x(index), cy: y(item.value), r: 4, class: 'timeline-point' }));
+    });
+    const firstLabel = this.svgElement('text', { x: margin.left, y: height - 10, class: 'chart-label' });
+    firstLabel.textContent = this.formatDate(series[0].date.toISOString());
+    const lastLabel = this.svgElement('text', { x: width - margin.right, y: height - 10, class: 'chart-label', 'text-anchor': 'end' });
+    lastLabel.textContent = this.formatDate(series.at(-1).date.toISOString());
+    svg.append(firstLabel, lastLabel);
+    container.replaceChildren(svg);
+  },
+
+  renderSignalMap(articles) {
+    const container = document.getElementById('map');
+    const width = Math.max(container.clientWidth, 720);
+    const height = 420;
+    const svg = this.svgElement('svg', { viewBox: `0 0 ${width} ${height}` });
+    svg.append(this.svgElement('path', {
+      class: 'turkiye-outline',
+      d: `M${width * .08},${height * .52} L${width * .14},${height * .41} L${width * .25},${height * .38} L${width * .32},${height * .30} L${width * .43},${height * .33} L${width * .51},${height * .27} L${width * .60},${height * .35} L${width * .73},${height * .32} L${width * .91},${height * .44} L${width * .88},${height * .58} L${width * .76},${height * .61} L${width * .69},${height * .70} L${width * .54},${height * .65} L${width * .44},${height * .72} L${width * .30},${height * .64} L${width * .19},${height * .67} Z`,
+    }));
+    const locations = [[.18,.49],[.39,.43],[.29,.58],[.48,.54],[.61,.47],[.72,.53],[.81,.47],[.57,.61],[.70,.62],[.35,.51],[.86,.53],[.50,.40]];
+    articles.slice(0, locations.length).forEach((article, index) => {
+      const [px, py] = locations[index];
+      const group = this.svgElement('g', { class: 'signal-node' });
+      const pulse = this.svgElement('circle', { cx: width * px, cy: height * py, r: 13, class: 'signal-pulse' });
+      const point = this.svgElement('circle', { cx: width * px, cy: height * py, r: 5 + Math.min(4, Math.abs(Number(article.tone) || 0)), class: 'signal-point' });
+      const title = this.svgElement('title');
+      title.textContent = `${article.domain || 'Public source'}: ${this.cleanText(article.title || '')}`;
+      group.append(pulse, point, title);
+      svg.append(group);
+    });
+    const label = this.svgElement('text', { x: width * .08, y: height * .87, class: 'map-label' });
+    label.textContent = 'Signal nodes represent coverage volume, not event coordinates';
+    svg.append(label);
+    container.replaceChildren(svg);
+    document.getElementById('map-count').textContent = `${articles.length} signals`;
+  },
+
+  renderAnalysis(articles) {
+    const target = document.getElementById('llm-summary');
+    const supplied = this.cleanText(this.data.llm_summary || '');
+    if (supplied && !/pending api key|connect openrouter/i.test(supplied)) {
+      target.textContent = supplied;
+      return;
+    }
+    const leading = this.groupSources(articles).slice(0, 3).map(group => group.source).join(', ');
+    target.textContent = `Current snapshot contains ${articles.length} recent economic-news signals across ${this.uniqueDomains(articles)} domains. Coverage is concentrated in ${leading || 'the available sources'}. The mean reported GDELT tone is near neutral; this describes the observed news sample, not the Turkish economy as a whole.`;
+  },
+
+  renderEmpty(containerId, message) {
+    const paragraph = document.createElement('p');
+    paragraph.className = 'chart-empty';
+    paragraph.textContent = message;
+    document.getElementById(containerId).replaceChildren(paragraph);
+  },
+
+  renderError(error) {
+    document.getElementById('data-mode').textContent = 'Data unavailable';
+    const status = document.getElementById('status-message');
+    status.className = 'alert alert-danger';
+    status.innerHTML = `<strong>Dashboard unavailable:</strong> ${error instanceof Error ? error.message : 'Unknown data error'}. Last known values were not presented as live.`;
+    this.renderEmpty('map', 'Live data could not be loaded.');
+    this.renderEmpty('timeseries-chart', 'Live data could not be loaded.');
+  },
 };
 
-document.addEventListener('DOMContentLoaded', () => {
-  const body = document.body;
-  const project = body.dataset.project;
-  if (project) INTEL.init(project);
-});
+document.addEventListener('DOMContentLoaded', () => INTEL.init());
