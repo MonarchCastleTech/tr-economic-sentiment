@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-14T03:23:11.852646+00:00",
+    "generated": "2026-08-14T08:13:36.239292+00:00",
     "mode": "partial",
     "sources": [
       "gdelt_articles",
@@ -231,24 +231,6 @@
         "source": "GDELT"
       },
       {
-        "title": "İTO Başkanı  ndan OVP için üretim koruma önerisi",
-        "url": "https://www.haberler.com/ekonomi/ito-baskani-avdagic-ten-yeni-ovp-de-5-baslikta-20140710-haberi/",
-        "domain": "haberler.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T080000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "MERKEZ BANKASI ENFLASYON TAHMİNİNİ DEĞİŞTİRECEK Mİ ? TCMB Enflasyon Beklentilerini Revize Edecek Mi ? TCMBnin 2027 ve 2028 Enflasyon Beklentileri Ne Olacak ? ",
-        "url": "https://finans.cnnturk.com/finans-haberler/merkez-bankasi-enflasyon-tahminini-degistirecek-mi-tcmb-enflasyon-beklentilerini-revize-edecek-mi-tcmbnin-2027-ve-2028-3453839",
-        "domain": "finans.cnnturk.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T074500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Genç : Enflasyon hedefleri çıpa olmaktan çıktı , arkasından koşuyor",
         "url": "https://www.haberler.com/guncel/yeni-partili-askin-genc-vatandasin-cuzdanini-20141702-haberi/",
         "domain": "haberler.com",
@@ -267,30 +249,12 @@
         "source": "GDELT"
       },
       {
-        "title": "İTO Başkanı Avdagiç açıkladı : OVP için 5 maddelik üretim reçetesi",
-        "url": "https://ekonomi.haber7.com/ekonomi/haber/3650923-ito-baskani-avdagic-acikladi-ovp-icin-5-maddelik-uretim-recetesi",
-        "domain": "ekonomi.haber7.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T073000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Kahveci : Memur ve emekli maaşları yeni ekonomik tahminlere göre güncellenmeli",
         "url": "https://www.haberler.com/guncel/onder-kahveci-den-memur-ve-emekli-maaslari-icin-ek-20141532-haberi/",
         "domain": "haberler.com",
         "language": "Turkish",
         "tone": 0,
         "seendate": "20260813T103000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "SON DAKİKA | Merkez Bankası  nın enflasyon tahmini değişecek mi ? Gözler bugünkü sunumda",
-        "url": "https://www.cnnturk.com/ekonomi/son-dakika-merkez-bankasinin-enflasyon-tahmini-degisecek-mi-gozler-bugunku-sunumda-3453825",
-        "domain": "cnnturk.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T071500Z",
         "source": "GDELT"
       },
       {
@@ -312,6 +276,15 @@
         "source": "GDELT"
       },
       {
+        "title": "Mobilyada faiz ve taksit çıkmazı : Sanayici faizden , tüketici taksitten yakınıyor",
+        "url": "https://www.odatv.com/ekonomi/mobilyada-faiz-ve-taksit-cikmazi-sanayici-faizden-tuketici-taksitten-yakiniyor-120158671",
+        "domain": "odatv.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260814T073000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Sanayici düşük faiz tüketici taksit istiyor",
         "url": "https://www.dunya.com/sektorler/sanayici-dusuk-faiz-tuketici-taksit-istiyor-haberi-836111",
         "domain": "dunya.com",
@@ -327,6 +300,15 @@
         "language": "Turkish",
         "tone": 0,
         "seendate": "20260813T214500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Altın fiyatlarında irtifa kaybı : Hızla geriledi | Türkiye Ekonomisi Haberleri",
+        "url": "https://www.yenisafak.com/galeri/ekonomi/altin-fiyatlarinda-irtifa-kaybi-hizla-geriledi-4847979",
+        "domain": "yenisafak.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260814T060000Z",
         "source": "GDELT"
       },
       {
@@ -384,15 +366,6 @@
         "source": "GDELT"
       },
       {
-        "title": "IEA petrol arzı tahminini düşürdü : Türkiyeyi ne bekliyor ? ",
-        "url": "https://www.dw.com/tr/iea-petrol-arz%C4%B1-tahminini-d%C3%BC%C5%9F%C3%BCrd%C3%BC-t%C3%BCrkiyeyi-ne-bekliyor/a-78338732",
-        "domain": "dw.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T044500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "TCMB Başkanı Karahan : Bir hafta vadeli repo normalleşme konusu . Sonraki dönem için sinyal niteliği taşımıyor",
         "url": "https://www.haberler.com/guncel/tcmb-baskani-karahan-bir-hafta-vadeli-repo-20142072-haberi/",
         "domain": "haberler.com",
@@ -429,30 +402,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Motorinde ÖTV Düzenlemesi . Aðustos Sonuna Kadar Sýfýrlandý",
-        "url": "https://www.memurlar.net/haber/1175202/motorinde-otv-duzenlemesi-agustos-sonuna-kadar-sifirlandi.html",
-        "domain": "memurlar.net",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T053000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "TCMB enflasyon tahmini neden yükseldi ? Karahan 3 önemli nedeni açıkladı : Repo dönüşü gündemde",
         "url": "https://www.sabah.com.tr/ekonomi/tcmb-enflasyon-tahmini-neden-yukseldi-karahan-3-onemli-nedeni-acikladi-repo-donusu-gundemde-7640869",
         "domain": "sabah.com.tr",
         "language": "Turkish",
         "tone": 0,
         "seendate": "20260813T124500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Gözler Merkez Bankası  nda : Yeni enflasyon tahminleri açıklanacak",
-        "url": "https://mansethaber.com/ekonomi/gozler-merkez-bankasinda-yeni-enflasyon-tahminleri-aciklanacak",
-        "domain": "mansethaber.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T063000Z",
         "source": "GDELT"
       },
       {
@@ -492,39 +447,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Motorinde ÖTV düzenlemesi Resmi Gazetede : Vergi tutarı ağustos sonuna kadar sıfırlandı , eylülde kademeli artacak",
-        "url": "https://www.dunya.com/gundem/motorinde-otv-duzenlemesi-resmi-gazetede-vergi-tutari-agustos-sonuna-kadar-sifirlandi-eylulde-kademeli-artacak-haberi-835982",
-        "domain": "dunya.com",
+        "title": "Küresel piyasalar enflasyon iyimserliği ile Orta Doğu belirsizliği arasında ilerliyor - Kıbrıs Gazetesi - Kıbrıs Haber , KKTC Son Dakika ve Gündem Haberleri",
+        "url": "https://kibrisgazetesi.com/kuresel-piyasalar-enflasyon-iyimserligi-ile-orta-dogu-belirsizligi-arasinda-ilerliyor/",
+        "domain": "kibrisgazetesi.com",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260813T063000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Gıda sıkıntısı Türkiyeye siparişi artıracak - Ekonomi Haberleri",
-        "url": "https://www.sabah.com.tr/ekonomi/gida-sikintisi-turkiyeye-siparisi-artiracak-7640547",
-        "domain": "sabah.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T051500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Motorinde ÖTV düzenlemesi : Ağustos sonuna kadar sıfırlandı",
-        "url": "https://www.bursahakimiyet.com.tr/ekonomi/motorinde-otv-duzenlemesi-agustos-sonuna-kadar-sifirlandi-1687922",
-        "domain": "bursahakimiyet.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T070000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "MOTORİN ÖTV İNDİRİMİ DÜZENLEMESİ : Ay sonuna kadar sıfırlanacak , sonra artacak ! Resmi Gazetede yayımlandı",
-        "url": "https://www.cnnturk.com/ekonomi/resmi-gazetede-yayimlandi-motorine-kademeli-otv-sifirlanacak-3453792",
-        "domain": "cnnturk.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T053000Z",
+        "seendate": "20260814T073000Z",
         "source": "GDELT"
       },
       {
@@ -573,6 +501,15 @@
         "source": "GDELT"
       },
       {
+        "title": "ABDden İrana süresiz abluka tehdidi : Petrol yeniden diken üstünde",
+        "url": "https://www.dunya.com/ekonomi/abdden-irana-suresiz-abluka-tehdidi-petrol-yeniden-diken-ustunde-haberi-836142",
+        "domain": "dunya.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260814T044500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "TEMUyu terbiye etmek yetmedi , Şekip Avdagiç 5 yeni talepte bulundu - Haber Hürriyeti",
         "url": "https://www.haberhurriyeti.com/haber/28510522/temuyu-terbiye-etmek-yetmedi-sekip-avdagic-5-yeni-talepte-bulundu",
         "domain": "haberhurriyeti.com",
@@ -600,21 +537,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Pakistan  Ateşkes uzatıldı  dedi , İran iddiayı yalanladı",
-        "url": "https://www.birgun.net/haber/pakistan-ateskes-uzatildi-dedi-iran-iddiayi-yalanladi-729028%20target=_blank%20class=stretched-link",
-        "domain": "birgun.net",
+        "title": "Küresel piyasalar iki yönlü baskı altında kaldı",
+        "url": "https://www.haberturk.com/ekonomi/kuresel-piyasalar-iki-yonlu-baski-altinda-kaldi-3905519",
+        "domain": "haberturk.com",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260813T043000Z",
+        "seendate": "20260814T073000Z",
         "source": "GDELT"
       },
       {
-        "title": "Pakistan  Ateşkes uzatıldı  dedi , İran iddiayı yalanladı",
-        "url": "https://www.birgun.net/haber/pakistan-ateskes-uzatildi-dedi-iran-iddiayi-yalanladi-729028",
-        "domain": "birgun.net",
+        "title": "Küresel piyasalar risk iştahına destek arıyor",
+        "url": "https://www.bursadabugun.com/haber/kuresel-piyasalar-risk-istahina-destek-ariyor-1941977.html",
+        "domain": "bursadabugun.com",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260813T064500Z",
+        "seendate": "20260814T074500Z",
         "source": "GDELT"
       },
       {
@@ -627,12 +564,30 @@
         "source": "GDELT"
       },
       {
+        "title": "Gram altında yıl sonu için dikkat çeken tahmin",
+        "url": "https://www.kocaeligazetesi.com.tr/haber/28516149/gram-altinda-yil-sonu-icin-dikkat-ceken-tahmin",
+        "domain": "kocaeligazetesi.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260814T071500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "TCMB yıl sonu enflasyon tahminini iki puan artırdı : Yüzde 28 - Havadis Gazetesi",
         "url": "https://www.havadiskibris.com/tcmb-yil-sonu-enflasyon-tahminini-iki-puan-artirdi-yuzde-28/",
         "domain": "havadiskibris.com",
         "language": "Turkish",
         "tone": 0,
         "seendate": "20260813T100000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Piyasalar ve Savaş … - Cüneyt İnay",
+        "url": "https://www.ensonhaber.com/yazarlar/cuneyt-inay/piyasalar-ve-savas",
+        "domain": "ensonhaber.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260814T061500Z",
         "source": "GDELT"
       },
       {
@@ -661,10 +616,55 @@
         "tone": 0,
         "seendate": "20260813T193000Z",
         "source": "GDELT"
+      },
+      {
+        "title": "Kar Payı Dağıtım İşlemlerine İlişkin Bildirim",
+        "url": "https://uzmanpara.milliyet.com.tr/kap-haberi/kar-payi-dagitim-islemlerine-iliskin-bildirim/6a7e20dd9bc2263791e7d5c5/",
+        "domain": "uzmanpara.milliyet.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260813T203000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "MERIT TURIZM YAT - KAP Haberleri - 2026 - 08 - 13 tarihli",
+        "url": "https://www.bloomberght.com/borsa/hisse/merit-turizm-yat/kap-haberi/348353",
+        "domain": "bloomberght.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260814T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Merkez Bankası enflasyon tahminini yükseltti ! ",
+        "url": "https://www.nationalturk.com/ekonomi/merkez-bankasi-enflasyon-tahmini/",
+        "domain": "nationalturk.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260813T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Arabia Saudí , Pakistán y Turquía cierran un nuevo pacto de Defensa . Ankara es quien se frota las manos",
+        "url": "https://www.elconfidencial.com/mundo/2026-08-14/alianza-arabia-saudi-turquia-pakistan-1hms_4404971/",
+        "domain": "elconfidencial.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T044500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "French Leftist Prez Candidate Mélenchon Suggests Cancelling State Debt",
+        "url": "https://www.breitbart.com/europe/2026/08/13/set-securities-on-fire-french-far-left-prez-candidate-melenchon-suggests-cancelling-public-debt/",
+        "domain": "breitbart.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260813T201500Z",
+        "source": "GDELT"
       }
     ],
     "crypto": {
-      "btc_price_usd": 63508
+      "btc_price_usd": 62875
     },
     "exchange_rates": [
       {
