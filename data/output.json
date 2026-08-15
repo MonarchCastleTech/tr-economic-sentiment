@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-15T13:27:49.191334+00:00",
+    "generated": "2026-08-15T19:20:10.813720+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -9,7 +9,7 @@
       "exchange_rates"
     ],
     "source_notes": [],
-    "news_snapshot_at": "2026-08-15T13:27:49.191353+00:00",
+    "news_snapshot_at": "2026-08-15T19:20:10.813739+00:00",
     "version": "1.0.0"
   },
   "stats": [
@@ -46,12 +46,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Экономика Ирана под давлением США : Трамп грозит крахом , но что на самом деле ? ",
-        "url": "https://vestikavkaza.ru/analytics/ekonomika-irana-pod-davleniem-ssa-tramp-grozit-krahom-no-cto-na-samom-dele.html",
-        "domain": "vestikavkaza.ru",
-        "language": "Russian",
+        "title": "Küresel piyasalarda gözler Fed tutanaklarında",
+        "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kuresel-piyasalarda-gozler-fed-tutanaklarinda-7641985",
+        "domain": "uzmanpara.milliyet.com.tr",
+        "language": "Turkish",
         "tone": 0,
-        "seendate": "20260814T171500Z",
+        "seendate": "20260815T133000Z",
         "source": "GDELT"
       },
       {
@@ -74,7 +74,7 @@
       }
     ],
     "crypto": {
-      "btc_price_usd": 62980
+      "btc_price_usd": 63027
     },
     "exchange_rates": [
       {
@@ -170,11 +170,11 @@
     },
     {
       "id": 2,
-      "name": "Экономика Ирана под давлением США : Трамп грозит крахом , но",
+      "name": "Küresel piyasalarda gözler Fed tutanaklarında",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260814T171500Z",
-      "source": "vestikavkaza.ru"
+      "last_seen": "20260815T133000Z",
+      "source": "uzmanpara.milliyet.com.tr"
     },
     {
       "id": 3,
@@ -204,12 +204,12 @@
       "source": "GDELT"
     },
     {
-      "title": "Экономика Ирана под давлением США : Трамп грозит крахом , но что на самом деле ? ",
-      "url": "https://vestikavkaza.ru/analytics/ekonomika-irana-pod-davleniem-ssa-tramp-grozit-krahom-no-cto-na-samom-dele.html",
-      "domain": "vestikavkaza.ru",
-      "language": "Russian",
+      "title": "Küresel piyasalarda gözler Fed tutanaklarında",
+      "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kuresel-piyasalarda-gozler-fed-tutanaklarinda-7641985",
+      "domain": "uzmanpara.milliyet.com.tr",
+      "language": "Turkish",
       "tone": 0,
-      "seendate": "20260814T171500Z",
+      "seendate": "20260815T133000Z",
       "source": "GDELT"
     },
     {
