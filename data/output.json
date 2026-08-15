@@ -1,17 +1,15 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-15T07:28:04.310899+00:00",
-    "mode": "partial",
+    "generated": "2026-08-15T13:27:49.191334+00:00",
+    "mode": "live",
     "sources": [
       "gdelt_articles",
       "crypto",
       "exchange_rates"
     ],
-    "source_notes": [
-      "GDELT unavailable; retained last validated news snapshot."
-    ],
-    "news_snapshot_at": "2026-08-13T03:25:43.372302+00:00",
+    "source_notes": [],
+    "news_snapshot_at": "2026-08-15T13:27:49.191353+00:00",
     "version": "1.0.0"
   },
   "stats": [
@@ -39,179 +37,44 @@
   "live_data": {
     "gdelt_articles": [
       {
-        "title": "Akaryakýtta aðustos sürprizi : Motorine kademeli ÖTV düzenlemesi",
-        "url": "https://www.star.com.tr/guncel/akaryakitta-agustos-surprizi-motorine-kademeli-otv-duzenlemesi-haber-2033613/",
-        "domain": "star.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T214500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Günün Gündemi : Siyaset , Ekonomi ve Diplomasi",
-        "url": "https://www.haberler.com/guncel/gundem-ozeti-13-agustos-2026-20140131-haberi/",
+        "title": "Küresel Piyasalarda Karışık Seyir , Gözler Fedde",
+        "url": "https://www.haberler.com/ekonomi/kuresel-piyasalarda-gozler-fed-tutanaklarinda-20147079-haberi/",
         "domain": "haberler.com",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260812T213000Z",
+        "seendate": "20260815T083000Z",
         "source": "GDELT"
       },
       {
-        "title": "SON DAKİKA HABERİ : Motorinde ÖTV sıfırlandı - Son Dakika Ekonomi Haberleri",
-        "url": "https://www.cnnturk.com/ekonomi/son-dakika-haberi-motorinde-otv-sifirlandi-3453717",
-        "domain": "cnnturk.com",
+        "title": "Экономика Ирана под давлением США : Трамп грозит крахом , но что на самом деле ? ",
+        "url": "https://vestikavkaza.ru/analytics/ekonomika-irana-pod-davleniem-ssa-tramp-grozit-krahom-no-cto-na-samom-dele.html",
+        "domain": "vestikavkaza.ru",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260814T171500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Türkiyede ev geçindirebilmenin yöntemleri ortaya çıktı ! ",
+        "url": "https://www.mavikocaeli.com.tr/turkiyede-ev-gecindirebilmenin-yontemleri-ortaya-cikti/250541/",
+        "domain": "mavikocaeli.com.tr",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260812T214500Z",
+        "seendate": "20260815T080000Z",
         "source": "GDELT"
       },
       {
-        "title": "Motorinde ÖTV düzenlemesi . Ağustos sonuna kadar sıfırlandı",
-        "url": "https://www.ntv.com.tr/ntvpara/motorinde-otv-duzenlemesi-agustos-sonuna-kadar-sifirlandi-1737086",
-        "domain": "ntv.com.tr",
-        "language": "Turkish",
+        "title": "México Estabiliza Gasolinas",
+        "url": "https://laverdad.com.mx/2026/08/mexico-estabiliza-gasolinas/",
+        "domain": "laverdad.com.mx",
+        "language": "Spanish",
         "tone": 0,
-        "seendate": "20260812T214500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli ÖTV uygulanacak",
-        "url": "https://www.aa.com.tr/tr/ekonomi/enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-uygulanacak/4025826",
-        "domain": "aa.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T214500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Motorinde ÖTV Ağustos sonuna kadar sıfırlandı",
-        "url": "https://www.internethaber.com/motorinde-otv-agustos-sonuna-kadar-sifirlandi-2455068h.htm",
-        "domain": "internethaber.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T231500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli ÖTV uygulanacak",
-        "url": "https://www.haberler.com/guncel/enflasyonla-mucadelenin-desteklenmesi-icin-20140146-haberi/",
-        "domain": "haberler.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T213000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
-        "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017",
-        "domain": "birgun.net",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T004500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
-        "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20target=_blank",
-        "domain": "birgun.net",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T231500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
-        "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20target=_blank%20class=stretched-link",
-        "domain": "birgun.net",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T231500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
-        "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20class=slide-legend-link%20target=_blank",
-        "domain": "birgun.net",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T231500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
-        "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20class=slide-link%20target=_blank",
-        "domain": "birgun.net",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T231500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Bölgesel İş Birliğinde Yeni Dönem Kapısı Aralanıyor ! MEKKE ANLAŞMASIYLA MİLYAR DOLARLIK FIRSAT",
-        "url": "https://beyazgazete.com/haber/2026/8/12/bolgesel-is-birliginde-yeni-donem-kapisi-aralaniyor-mekke-anlasmasiyla-milyar-dolarlik-firsat-7175221.html",
-        "domain": "beyazgazete.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T100000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "ÖTV düzenlemesi Resmi Gazetede",
-        "url": "https://www.ensonhaber.com/otv-duzenlemesi-resmi-gazetede-h1557092",
-        "domain": "ensonhaber.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T220000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ağustosta motorine ÖTV yok ! Eşel Mobil sistemi sona erdi ; kademeli sistem geldi",
-        "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/agustosta-motorine-otv-yok-esel-mobil-sistemi-sona-erdi-kademeli-sistem-geldi-7640304",
-        "domain": "uzmanpara.milliyet.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T214500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Motorine kademeli ÖTV uygulanacak",
-        "url": "https://www.trthaber.com/haber/ekonomi/motorine-kademeli-otv-uygulanacak-953803.html",
-        "domain": "trthaber.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260812T214500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Motorine kademeli ÖTV uygulanacak",
-        "url": "https://www.yenikonya.com.tr/ekonomi/motorine_kademeli_otv_uygulanacak-1983234",
-        "domain": "yenikonya.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260813T023000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "سپاه پاسداران مستقیم با مخاطب آمریکایی سخن گفت ؛ دلیل این تصمیم چیست ؟ ",
-        "url": "https://www.bbc.com/persian/articles/c62v699y0y2o",
-        "domain": "bbc.com",
-        "language": "Persian",
-        "tone": 0,
-        "seendate": "20260812T100000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Radiography of a vulnerable state : Interim government , cascading crises",
-        "url": "https://www.bursa.ro/radiography-of-a-vulnerable-state-interim-government-cascading-crises-41458952",
-        "domain": "bursa.ro",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T214500Z",
+        "seendate": "20260815T094500Z",
         "source": "GDELT"
       }
     ],
     "crypto": {
-      "btc_price_usd": 63033
+      "btc_price_usd": 62980
     },
     "exchange_rates": [
       {
@@ -299,219 +162,72 @@
   "entities": [
     {
       "id": 1,
-      "name": "Akaryakýtta aðustos sürprizi : Motorine kademeli ÖTV düzenle",
+      "name": "Küresel Piyasalarda Karışık Seyir , Gözler Fedde",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260812T214500Z",
-      "source": "star.com.tr"
+      "last_seen": "20260815T083000Z",
+      "source": "haberler.com"
     },
     {
       "id": 2,
-      "name": "Günün Gündemi : Siyaset , Ekonomi ve Diplomasi",
+      "name": "Экономика Ирана под давлением США : Трамп грозит крахом , но",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260812T213000Z",
-      "source": "haberler.com"
+      "last_seen": "20260814T171500Z",
+      "source": "vestikavkaza.ru"
     },
     {
       "id": 3,
-      "name": "SON DAKİKA HABERİ : Motorinde ÖTV sıfırlandı - Son Dakika Ek",
+      "name": "Türkiyede ev geçindirebilmenin yöntemleri ortaya çıktı ! ",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260812T214500Z",
-      "source": "cnnturk.com"
+      "last_seen": "20260815T080000Z",
+      "source": "mavikocaeli.com.tr"
     },
     {
       "id": 4,
-      "name": "Motorinde ÖTV düzenlemesi . Ağustos sonuna kadar sıfırlandı",
+      "name": "México Estabiliza Gasolinas",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260812T214500Z",
-      "source": "ntv.com.tr"
-    },
-    {
-      "id": 5,
-      "name": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260812T214500Z",
-      "source": "aa.com.tr"
-    },
-    {
-      "id": 6,
-      "name": "Motorinde ÖTV Ağustos sonuna kadar sıfırlandı",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260812T231500Z",
-      "source": "internethaber.com"
-    },
-    {
-      "id": 7,
-      "name": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260812T213000Z",
-      "source": "haberler.com"
-    },
-    {
-      "id": 8,
-      "name": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  destekl",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T004500Z",
-      "source": "birgun.net"
-    },
-    {
-      "id": 9,
-      "name": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  destekl",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260812T231500Z",
-      "source": "birgun.net"
-    },
-    {
-      "id": 10,
-      "name": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  destekl",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260812T231500Z",
-      "source": "birgun.net"
+      "last_seen": "20260815T094500Z",
+      "source": "laverdad.com.mx"
     }
   ],
   "events": [
     {
-      "title": "Akaryakýtta aðustos sürprizi : Motorine kademeli ÖTV düzenlemesi",
-      "url": "https://www.star.com.tr/guncel/akaryakitta-agustos-surprizi-motorine-kademeli-otv-duzenlemesi-haber-2033613/",
-      "domain": "star.com.tr",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260812T214500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Günün Gündemi : Siyaset , Ekonomi ve Diplomasi",
-      "url": "https://www.haberler.com/guncel/gundem-ozeti-13-agustos-2026-20140131-haberi/",
+      "title": "Küresel Piyasalarda Karışık Seyir , Gözler Fedde",
+      "url": "https://www.haberler.com/ekonomi/kuresel-piyasalarda-gozler-fed-tutanaklarinda-20147079-haberi/",
       "domain": "haberler.com",
       "language": "Turkish",
       "tone": 0,
-      "seendate": "20260812T213000Z",
+      "seendate": "20260815T083000Z",
       "source": "GDELT"
     },
     {
-      "title": "SON DAKİKA HABERİ : Motorinde ÖTV sıfırlandı - Son Dakika Ekonomi Haberleri",
-      "url": "https://www.cnnturk.com/ekonomi/son-dakika-haberi-motorinde-otv-sifirlandi-3453717",
-      "domain": "cnnturk.com",
-      "language": "Turkish",
+      "title": "Экономика Ирана под давлением США : Трамп грозит крахом , но что на самом деле ? ",
+      "url": "https://vestikavkaza.ru/analytics/ekonomika-irana-pod-davleniem-ssa-tramp-grozit-krahom-no-cto-na-samom-dele.html",
+      "domain": "vestikavkaza.ru",
+      "language": "Russian",
       "tone": 0,
-      "seendate": "20260812T214500Z",
+      "seendate": "20260814T171500Z",
       "source": "GDELT"
     },
     {
-      "title": "Motorinde ÖTV düzenlemesi . Ağustos sonuna kadar sıfırlandı",
-      "url": "https://www.ntv.com.tr/ntvpara/motorinde-otv-duzenlemesi-agustos-sonuna-kadar-sifirlandi-1737086",
-      "domain": "ntv.com.tr",
+      "title": "Türkiyede ev geçindirebilmenin yöntemleri ortaya çıktı ! ",
+      "url": "https://www.mavikocaeli.com.tr/turkiyede-ev-gecindirebilmenin-yontemleri-ortaya-cikti/250541/",
+      "domain": "mavikocaeli.com.tr",
       "language": "Turkish",
       "tone": 0,
-      "seendate": "20260812T214500Z",
+      "seendate": "20260815T080000Z",
       "source": "GDELT"
     },
     {
-      "title": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli ÖTV uygulanacak",
-      "url": "https://www.aa.com.tr/tr/ekonomi/enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-uygulanacak/4025826",
-      "domain": "aa.com.tr",
-      "language": "Turkish",
+      "title": "México Estabiliza Gasolinas",
+      "url": "https://laverdad.com.mx/2026/08/mexico-estabiliza-gasolinas/",
+      "domain": "laverdad.com.mx",
+      "language": "Spanish",
       "tone": 0,
-      "seendate": "20260812T214500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Motorinde ÖTV Ağustos sonuna kadar sıfırlandı",
-      "url": "https://www.internethaber.com/motorinde-otv-agustos-sonuna-kadar-sifirlandi-2455068h.htm",
-      "domain": "internethaber.com",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260812T231500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Enflasyonla mücadelenin desteklenmesi için motorine kademeli ÖTV uygulanacak",
-      "url": "https://www.haberler.com/guncel/enflasyonla-mucadelenin-desteklenmesi-icin-20140146-haberi/",
-      "domain": "haberler.com",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260812T213000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
-      "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017",
-      "domain": "birgun.net",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260813T004500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
-      "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20target=_blank",
-      "domain": "birgun.net",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260812T231500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
-      "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20target=_blank%20class=stretched-link",
-      "domain": "birgun.net",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260812T231500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
-      "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20class=slide-legend-link%20target=_blank",
-      "domain": "birgun.net",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260812T231500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Resmi Gazetede yayımlandı : Enflasyonla mücadelenin  desteklenmesi  için motorine kademeli ÖTV getirildi",
-      "url": "https://www.birgun.net/haber/resmi-gazete-de-yayimlandi-enflasyonla-mucadelenin-desteklenmesi-icin-motorine-kademeli-otv-getirildi-729017%20class=slide-link%20target=_blank",
-      "domain": "birgun.net",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260812T231500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Bölgesel İş Birliğinde Yeni Dönem Kapısı Aralanıyor ! MEKKE ANLAŞMASIYLA MİLYAR DOLARLIK FIRSAT",
-      "url": "https://beyazgazete.com/haber/2026/8/12/bolgesel-is-birliginde-yeni-donem-kapisi-aralaniyor-mekke-anlasmasiyla-milyar-dolarlik-firsat-7175221.html",
-      "domain": "beyazgazete.com",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260812T100000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "ÖTV düzenlemesi Resmi Gazetede",
-      "url": "https://www.ensonhaber.com/otv-duzenlemesi-resmi-gazetede-h1557092",
-      "domain": "ensonhaber.com",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260812T220000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Ağustosta motorine ÖTV yok ! Eşel Mobil sistemi sona erdi ; kademeli sistem geldi",
-      "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/agustosta-motorine-otv-yok-esel-mobil-sistemi-sona-erdi-kademeli-sistem-geldi-7640304",
-      "domain": "uzmanpara.milliyet.com.tr",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260812T214500Z",
+      "seendate": "20260815T094500Z",
       "source": "GDELT"
     }
   ],
