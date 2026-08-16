@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-15T19:20:10.813720+00:00",
+    "generated": "2026-08-16T02:19:55.111671+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -9,7 +9,7 @@
       "exchange_rates"
     ],
     "source_notes": [],
-    "news_snapshot_at": "2026-08-15T19:20:10.813739+00:00",
+    "news_snapshot_at": "2026-08-16T02:19:55.111690+00:00",
     "version": "1.0.0"
   },
   "stats": [
@@ -64,6 +64,15 @@
         "source": "GDELT"
       },
       {
+        "title": "The Middle East Under Transactional Diplomacy",
+        "url": "https://www.fairobserver.com/world-news/middle-east-news/the-middle-east-under-transactional-diplomacy/",
+        "domain": "fairobserver.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T223000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "México Estabiliza Gasolinas",
         "url": "https://laverdad.com.mx/2026/08/mexico-estabiliza-gasolinas/",
         "domain": "laverdad.com.mx",
@@ -74,7 +83,7 @@
       }
     ],
     "crypto": {
-      "btc_price_usd": 63027
+      "btc_price_usd": 62969
     },
     "exchange_rates": [
       {
@@ -103,7 +112,7 @@
       },
       {
         "currency": "AOA",
-        "rate": 929.12
+        "rate": 925.12
       },
       {
         "currency": "ARS",
@@ -131,7 +140,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.81
+        "rate": 122.85
       },
       {
         "currency": "BGN",
@@ -143,7 +152,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2995.18
+        "rate": 2995.39
       },
       {
         "currency": "BMD",
@@ -186,6 +195,14 @@
     },
     {
       "id": 4,
+      "name": "The Middle East Under Transactional Diplomacy",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260815T223000Z",
+      "source": "fairobserver.com"
+    },
+    {
+      "id": 5,
       "name": "México Estabiliza Gasolinas",
       "score": 5.0,
       "category": "news",
@@ -219,6 +236,15 @@
       "language": "Turkish",
       "tone": 0,
       "seendate": "20260815T080000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "The Middle East Under Transactional Diplomacy",
+      "url": "https://www.fairobserver.com/world-news/middle-east-news/the-middle-east-under-transactional-diplomacy/",
+      "domain": "fairobserver.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260815T223000Z",
       "source": "GDELT"
     },
     {
