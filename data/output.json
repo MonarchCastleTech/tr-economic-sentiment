@@ -1,10 +1,11 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-17T02:18:42.779942+00:00",
+    "generated": "2026-08-17T07:50:46.800084+00:00",
     "mode": "partial",
     "sources": [
       "gdelt_articles",
+      "economic_news",
       "crypto",
       "exchange_rates"
     ],
@@ -84,8 +85,352 @@
         "source": "GDELT"
       }
     ],
+    "economic_news": [
+      {
+        "title": "  Üretim glenmeden kalıcı büyme sağlanmaz  ",
+        "url": "https://www.bloomberght.com/uretim-guclenmeden-kalici-buyume-saglanmaz-3785647",
+        "domain": "bloomberght.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260816T120000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Merkez Bankası 2026 enflasyon tahminini yükseltti : İktidarın ekonomi başarısı tartışılıyor",
+        "url": "https://www.haberler.com/guncel/anka-ekonomi-koordinatoru-erdal-saglam-in-20149221-haberi/",
+        "domain": "haberler.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260816T083000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Çeyrek asırlık yürüyüş : Ak Parti Türkiyenin sadece iktidarını değil , istikametini değiştirdi",
+        "url": "https://www.yeniakit.com.tr/yazarlar/huseyin-demir/ceyrek-asirlik-yuruyus-ak-parti-turkiyenin-sadece-iktidarini-degil-istikametini-degistirdi-53506.html",
+        "domain": "yeniakit.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260816T223000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Sanayi klüyor , devlet buyuyor",
+        "url": "https://www.sozcu.com.tr/sanayi-kuculuyor-devlet-buyuyor-p349968",
+        "domain": "sozcu.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260817T044500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "土耳其总统 ： 以色列是侵略者 埃尔多安强硬表态 _ 军事频道 _ 中华网",
+        "url": "https://military.china.com/news/13004177/20260817/49680066.html",
+        "domain": "military.china.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260817T054500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "CHPli Karabat : Türkiye üretirken pahalı , ithal ederken ucuz",
+        "url": "https://mansethaber.com/siyaset/chpli-karabat-turkiye-uretirken-pahali-ithal-ederken-ucuz",
+        "domain": "mansethaber.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260816T080000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Kasap et derdinde , koyun can derdinde : Et – süt – yağ fiyatları ve enflasyon raporu",
+        "url": "https://www.dunya.com/kose-yazisi/kasap-et-derdinde-koyun-can-derdinde-et-sut-yag-fiyatlari-ve-enflasyon-raporu/836421",
+        "domain": "dunya.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260817T004500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tüketim iştahı neden bitmiyor ? – III",
+        "url": "https://www.timeturk.com/tuketim-istahi-neden-bitmiyor-iii",
+        "domain": "timeturk.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260817T031500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Time . ai",
+        "url": "https://time.mk/ai/2f34cc3be3/mk/",
+        "domain": "time.mk",
+        "language": "Macedonian",
+        "tone": 0,
+        "seendate": "20260817T060000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Altın , Pazartesi gününe yükselişle başladı ! İşte nedeni ... ",
+        "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/altin-pazartesi-gunune-yukselisle-basladi-iste-nedeni-7642745",
+        "domain": "uzmanpara.milliyet.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260817T060000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Инфлацијата во јули изнесува 2 , 3 проценти , Македонија е втора во регионот , вели Мицкоски",
+        "url": "https://novamakedonija.com.mk/ekonomija/inflacijata-vo-juli-iznesuva-23-procenti-makedonija-e-vtora-vo-regionot-veli-mickoski/",
+        "domain": "novamakedonija.com.mk",
+        "language": "Macedonian",
+        "tone": 0,
+        "seendate": "20260816T120000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "De ce s - au prăbuşit investiţiile străine directe în România în semestrul 1 ?... ",
+        "url": "https://www.zf.ro/opinii/de-ce-s-au-prabusit-investitiile-straine-directe-in-romania-in-semestrul-1-poate-sa-raspunda-cineva-23218213",
+        "domain": "zf.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260816T234500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Faktoringde banka ile faiz makası kapandı",
+        "url": "https://www.dunya.com/kose-yazisi/faktoringde-banka-ile-faiz-makasi-kapandi/836415",
+        "domain": "dunya.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260817T004500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Küresel Piyasalar Temkinli Başladı",
+        "url": "https://www.haberler.com/ekonomi/kuresel-piyasalar-haftaya-temkinli-iyimserlikle-20150927-haberi/",
+        "domain": "haberler.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260817T063000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ahmet Almaz - İSDEMİRDE YALÇINTAŞ FARKI : ASTRONOMİK YÜZDE 203 , 5 KÂR VE İHRACAT REKORU ! ",
+        "url": "https://www.haberler.com/yazarlar/ahmet-almaz-2-70/isdemirde-yalcintas-farki-astronomik-yuzde-2035-kr-ve-ihracat-rekoru-6877/",
+        "domain": "haberler.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260817T050000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "EXCLUSIV Victor Ponta , atac dur la adresa lui Ilie Bolojan după întâlnirea secretă cu șefa CCR : „ Cred că e vorba de respectul și indepența unor instituții  ",
+        "url": "https://www.romaniatv.net/exclusiv-victor-ponta-atac-dur-la-adresa-lui-ilie-bolojan-dupa-intalnirea-secreta-cu-sefa-ccr-cred-ca-e-vorba-de-respectul-si-indepenta-unor-institutii_9754003.html",
+        "domain": "romaniatv.net",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260816T223000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "TDND : La cartera de mercado : cómo invertir en la economía mundial de forma pasiva y sin sesgos",
+        "url": "https://esradio.libertaddigital.com/tu-dinero-nunca-duerme/2026-08-16/tdnd-la-cartera-de-mercado-como-invertir-en-la-economia-mundial-de-forma-pasiva-y-sin-sesgos-7429281/",
+        "domain": "esradio.libertaddigital.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260816T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Altın fiyatları kritik eşikte : 4 bin 400 dolar sınırı zorlanıyor",
+        "url": "https://anlatilaninotesi.com.tr/20260817/altin-fiyatlari-kritik-esikte-4-bin-400-dolar-siniri-zorlaniyor-1108045347.html",
+        "domain": "anlatilaninotesi.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260817T043000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Almanya Ekonomisi İçin Reform Zamanı",
+        "url": "https://www.cnnturk.com/yazarlar/guncel/prof-dr-murat-ferman/almanya-ekonomisi-icin-reform-zamani-3455287",
+        "domain": "cnnturk.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260816T180000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Küresel piyasalarda pozitif seyir : Asya yükseliyor , ABD ve Avrupa vadelileri artıda",
+        "url": "https://www.dunya.com/finans/haberler/kuresel-piyasalarda-pozitif-seyir-asya-yukseliyor-abd-ve-avrupa-vadelileri-artida-haberi-836458",
+        "domain": "dunya.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260817T044500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Războiul din Iran și nota de plată pentru America : petrol mai scump , aliați mai nesiguri",
+        "url": "https://ziare.com/razboi-sua-iran/consecinte-razboi-iran-sua-2030118",
+        "domain": "ziare.com",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260816T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "3 - Süleyman ( C / L ) ılar meselesi ( III ) ",
+        "url": "https://www.timeturk.com/3-suleymanclilar-meselesi-iii",
+        "domain": "timeturk.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260817T031500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Final de vară cu cinci planete retrograde . Ce ne aduc bun și cum să le facem față",
+        "url": "https://www.ziarulprofit.ro/final-de-vara-cu-cinci-planete-retrograde-ce-ne-aduc-bun-si-cum-sa-le-facem-fata/",
+        "domain": "ziarulprofit.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260817T000000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "EXCLUSIV Gigi Becali , atac dur la adresa lui George Simon : „ Un vrăjitor care speculează incapacitatea politicienilor români  ",
+        "url": "https://www.ziarulprofit.ro/exclusiv-gigi-becali-atac-dur-la-adresa-lui-george-simon-un-vrajitor-care-speculeaza-incapacitatea-politicienilor-romani/",
+        "domain": "ziarulprofit.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260817T000000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "من جنوب لبنان إلى إيران ... هل تتسع دائرة الحرب ؟ ",
+        "url": "https://www.alquds.co.uk/%D9%85%D9%86-%D8%AC%D9%86%D9%88%D8%A8-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%A5%D9%84%D9%89-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%87%D9%84-%D8%AA%D8%AA%D8%B3%D8%B9-%D8%AF%D8%A7%D8%A6%D8%B1%D8%A9-%D8%A7/",
+        "domain": "alquds.co.uk",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260816T203000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Lupu Rednic îl dă în judecată pe „ Firicel  din „ Las Fierbinți : „ Mi - a tot promis că îmi va plăti banii , apoi nu a mai răspuns la telefon  ",
+        "url": "https://www.ziarulprofit.ro/lupu-rednic-il-da-in-judecata-pe-firicel-din-las-fierbinti-mi-a-tot-promis-ca-imi-va-plati-banii-apoi-nu-a-mai-raspuns-la-telefon/",
+        "domain": "ziarulprofit.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260817T000000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "EXCLUSIV Victor Ponta , atac dur la adresa lui Ilie Bolojan după întâlnirea secretă cu șefa CCR : „ Cred că e vorba de respectul și indepența unor instituții  ",
+        "url": "https://www.ziarulprofit.ro/exclusiv-victor-ponta-atac-dur-la-adresa-lui-ilie-bolojan-dupa-intalnirea-secreta-cu-sefa-ccr-cred-ca-e-vorba-de-respectul-si-indepenta-unor-institutii/",
+        "domain": "ziarulprofit.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260817T000000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "EXCLUSIV Victor Ponta , despre o posibilă revenire în fruntea Guvernului : „ Dacă îmi va propune domnul președinte Nicușor Dan , sigur că voi spune da  ",
+        "url": "https://www.ziarulprofit.ro/exclusiv-victor-ponta-despre-o-posibila-revenire-in-fruntea-guvernului-daca-imi-va-propune-domnul-presedinte-nicusor-dan-sigur-ca-voi-spune-da/",
+        "domain": "ziarulprofit.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260817T000000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "الانفصام النقدي : احتياطيات صلبة وأزمة سيولة في آن واحد",
+        "url": "https://annabaa.org/arabic/economicarticles/47075",
+        "domain": "annabaa.org",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260816T084500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Yozgatlı tasarruf sahipleri için 32 günlük mevduat getirileri netleşti",
+        "url": "https://www.haberyazar.com/ekonomi/yozgatli-tasarruf-sahipleri-icin-32-gunluk-mevduat-getirileri-netlesti/27614",
+        "domain": "haberyazar.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260816T144500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "انقسام حزب الشعب الجمهوري .. كيف سقطت قلعة أتاتورك من الداخل ؟ ",
+        "url": "https://www.aljazeera.net/politics/2026/8/16/%D8%A3%D9%88%D8%B2%D8%BA%D9%88%D8%B1-%D8%A3%D9%88%D8%B2%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D9%82-%D8%A7%D9%84%D8%B0%D9%8A-%D9%8A%D8%B1%D8%BA%D8%A8-%D9%81%D9%8A",
+        "domain": "aljazeera.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260816T111500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "A look at key news events in July 2026 – Winnipeg Free Press",
+        "url": "https://www.winnipegfreepress.com/canada/2026/08/16/a-look-at-key-news-events-in-july-2026",
+        "domain": "winnipegfreepress.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T134500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Five Years of Taliban Rule : Afghanistan Between Consolidation and Crisis",
+        "url": "https://countercurrents.org/2026/08/five-years-of-taliban-rule-afghanistan-between-consolidation-and-crisis/",
+        "domain": "countercurrents.org",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Trump Welcomes Saudi , Turkey , Pakistan Defense Pact",
+        "url": "http://www.pakistantelegraph.com/news/279245809/trump-welcomes-saudi-turkey-pakistan-defense-pact",
+        "domain": "pakistantelegraph.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T004500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Trump Welcomes Saudi , Turkey , Pakistan Defense Pact",
+        "url": "http://www.beijingbulletin.com/news/279245809/trump-welcomes-saudi-turkey-pakistan-defense-pact",
+        "domain": "beijingbulletin.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T040000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Trump Welcomes Saudi , Turkey , Pakistan Defense Pact",
+        "url": "http://www.chinanationalnews.com/news/279245809/trump-welcomes-saudi-turkey-pakistan-defense-pact",
+        "domain": "chinanationalnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T053000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Aux origines du premier GPU , une bande de copains de lENS",
+        "url": "https://linuxfr.org/news/aux-origines-du-premier-gpu-une-bande-de-copains-de-l-ens",
+        "domain": "linuxfr.org",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260816T124500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "A look at key news events in July 2026 - Medicine Hat NewsMedicine Hat News",
+        "url": "https://medicinehatnews.com/news/national-news/2026/08/16/a-look-at-key-news-events-in-july-2026/",
+        "domain": "medicinehatnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T164500Z",
+        "source": "GDELT"
+      }
+    ],
     "crypto": {
-      "btc_price_usd": 63042
+      "btc_price_usd": 63496
     },
     "exchange_rates": [
       {
