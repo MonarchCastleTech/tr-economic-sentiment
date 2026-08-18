@@ -1,17 +1,15 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-18T13:40:17.963819+00:00",
-    "mode": "partial",
+    "generated": "2026-08-18T19:25:27.186265+00:00",
+    "mode": "live",
     "sources": [
       "gdelt_articles",
       "crypto",
       "exchange_rates"
     ],
-    "source_notes": [
-      "GDELT unavailable; retained last validated news snapshot."
-    ],
-    "news_snapshot_at": "2026-08-16T02:19:55.111690+00:00",
+    "source_notes": [],
+    "news_snapshot_at": "2026-08-18T19:25:27.186282+00:00",
     "version": "1.0.0"
   },
   "stats": [
@@ -39,53 +37,80 @@
   "live_data": {
     "gdelt_articles": [
       {
-        "title": "Küresel Piyasalarda Karışık Seyir , Gözler Fedde",
-        "url": "https://www.haberler.com/ekonomi/kuresel-piyasalarda-gozler-fed-tutanaklarinda-20147079-haberi/",
-        "domain": "haberler.com",
-        "language": "Turkish",
+        "title": "Аналіз основних економічних індикаторів України та світу станом на кінець травня - початок червня 2026 року",
+        "url": "https://interfax.com.ua/news/projects/1194112.html",
+        "domain": "interfax.com.ua",
+        "language": "Ukrainian",
         "tone": 0,
-        "seendate": "20260815T083000Z",
+        "seendate": "20260818T161500Z",
         "source": "GDELT"
       },
       {
-        "title": "Küresel piyasalarda gözler Fed tutanaklarında",
-        "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kuresel-piyasalarda-gozler-fed-tutanaklarinda-7641985",
-        "domain": "uzmanpara.milliyet.com.tr",
+        "title": "Büte a , faiz sarmalý , esnafýn k ve vatandan var olma sava",
+        "url": "https://www.yenimesaj.com.tr/butce-acigi-faiz-sarmali-esnafin-cokusu-ve-vatandasin-var-olma-savasi-H1614450.htm",
+        "domain": "yenimesaj.com.tr",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260815T133000Z",
+        "seendate": "20260817T213000Z",
         "source": "GDELT"
       },
       {
-        "title": "Türkiyede ev geçindirebilmenin yöntemleri ortaya çıktı ! ",
-        "url": "https://www.mavikocaeli.com.tr/turkiyede-ev-gecindirebilmenin-yontemleri-ortaya-cikti/250541/",
-        "domain": "mavikocaeli.com.tr",
+        "title": "Dünyada borçlanma maliyeti sıçradı ABDden Japonyaya tahvil faizleri zirvede",
+        "url": "https://www.dunya.com/finans/haberler/dunyada-borclanma-maliyeti-sicradi-abdden-japonyaya-tahvil-faizleri-zirvede-haberi-836679",
+        "domain": "dunya.com",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260815T080000Z",
+        "seendate": "20260818T103000Z",
         "source": "GDELT"
       },
       {
-        "title": "The Middle East Under Transactional Diplomacy",
-        "url": "https://www.fairobserver.com/world-news/middle-east-news/the-middle-east-under-transactional-diplomacy/",
-        "domain": "fairobserver.com",
+        "title": "Lessons from global experience for Sri Lanka inflation target",
+        "url": "https://www.ft.lk/columns/Lessons-from-global-experience-for-Sri-Lanka-s-inflation-target/4-795978",
+        "domain": "ft.lk",
         "language": "English",
         "tone": 0,
-        "seendate": "20260815T223000Z",
+        "seendate": "20260818T060000Z",
         "source": "GDELT"
       },
       {
-        "title": "México Estabiliza Gasolinas",
-        "url": "https://laverdad.com.mx/2026/08/mexico-estabiliza-gasolinas/",
+        "title": "Algılamak bile zor : İktidar , ilk 7 ayda faize dakikada 6 milyon TL ödedi",
+        "url": "https://www.samanyoluhaber.com/algilamak-bile-zor-iktidar-ilk-7-ayda-faize-dakikada-6-milyon-tl-odedi-haberi/1491634",
+        "domain": "samanyoluhaber.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260818T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Apredeflación Fortifica Salarios",
+        "url": "https://laverdad.com.mx/2026/08/apredeflacion-fortifica-salarios/",
         "domain": "laverdad.com.mx",
         "language": "Spanish",
         "tone": 0,
-        "seendate": "20260815T094500Z",
+        "seendate": "20260818T084500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Editorial Roundup : United States – Winnipeg Free Press",
+        "url": "https://www.winnipegfreepress.com/world/2026/08/18/editorial-roundup-united-states-209",
+        "domain": "winnipegfreepress.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": " 【 新聞第一線 】 突變 ！ 以軍空襲敘利亞 川普 ： 無談判計畫 | 伊朗 | 美軍 | 霍峽是美領土",
+        "url": "https://www.ntdtv.com/b5/2026/08/18/a104125147.html",
+        "domain": "ntdtv.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260818T190000Z",
         "source": "GDELT"
       }
     ],
     "crypto": {
-      "btc_price_usd": 64060
+      "btc_price_usd": 64686
     },
     "exchange_rates": [
       {
@@ -173,89 +198,140 @@
   "entities": [
     {
       "id": 1,
-      "name": "Küresel Piyasalarda Karışık Seyir , Gözler Fedde",
+      "name": "Аналіз основних економічних індикаторів України та світу ста",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260815T083000Z",
-      "source": "haberler.com"
+      "last_seen": "20260818T161500Z",
+      "source": "interfax.com.ua"
     },
     {
       "id": 2,
-      "name": "Küresel piyasalarda gözler Fed tutanaklarında",
+      "name": "Büte a , faiz sarmalý , esnafýn k ve vatandan var olma sava",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260815T133000Z",
-      "source": "uzmanpara.milliyet.com.tr"
+      "last_seen": "20260817T213000Z",
+      "source": "yenimesaj.com.tr"
     },
     {
       "id": 3,
-      "name": "Türkiyede ev geçindirebilmenin yöntemleri ortaya çıktı ! ",
+      "name": "Dünyada borçlanma maliyeti sıçradı ABDden Japonyaya tahvil f",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260815T080000Z",
-      "source": "mavikocaeli.com.tr"
+      "last_seen": "20260818T103000Z",
+      "source": "dunya.com"
     },
     {
       "id": 4,
-      "name": "The Middle East Under Transactional Diplomacy",
+      "name": "Lessons from global experience for Sri Lanka inflation targe",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260815T223000Z",
-      "source": "fairobserver.com"
+      "last_seen": "20260818T060000Z",
+      "source": "ft.lk"
     },
     {
       "id": 5,
-      "name": "México Estabiliza Gasolinas",
+      "name": "Algılamak bile zor : İktidar , ilk 7 ayda faize dakikada 6 m",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260815T094500Z",
+      "last_seen": "20260818T173000Z",
+      "source": "samanyoluhaber.com"
+    },
+    {
+      "id": 6,
+      "name": "Apredeflación Fortifica Salarios",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260818T084500Z",
       "source": "laverdad.com.mx"
+    },
+    {
+      "id": 7,
+      "name": "Editorial Roundup : United States – Winnipeg Free Press",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260818T164500Z",
+      "source": "winnipegfreepress.com"
+    },
+    {
+      "id": 8,
+      "name": " 【 新聞第一線 】 突變 ！ 以軍空襲敘利亞 川普 ： 無談判計畫 | 伊朗 | 美軍 | 霍峽是美領土",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260818T190000Z",
+      "source": "ntdtv.com"
     }
   ],
   "events": [
     {
-      "title": "Küresel Piyasalarda Karışık Seyir , Gözler Fedde",
-      "url": "https://www.haberler.com/ekonomi/kuresel-piyasalarda-gozler-fed-tutanaklarinda-20147079-haberi/",
-      "domain": "haberler.com",
-      "language": "Turkish",
+      "title": "Аналіз основних економічних індикаторів України та світу станом на кінець травня - початок червня 2026 року",
+      "url": "https://interfax.com.ua/news/projects/1194112.html",
+      "domain": "interfax.com.ua",
+      "language": "Ukrainian",
       "tone": 0,
-      "seendate": "20260815T083000Z",
+      "seendate": "20260818T161500Z",
       "source": "GDELT"
     },
     {
-      "title": "Küresel piyasalarda gözler Fed tutanaklarında",
-      "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kuresel-piyasalarda-gozler-fed-tutanaklarinda-7641985",
-      "domain": "uzmanpara.milliyet.com.tr",
+      "title": "Büte a , faiz sarmalý , esnafýn k ve vatandan var olma sava",
+      "url": "https://www.yenimesaj.com.tr/butce-acigi-faiz-sarmali-esnafin-cokusu-ve-vatandasin-var-olma-savasi-H1614450.htm",
+      "domain": "yenimesaj.com.tr",
       "language": "Turkish",
       "tone": 0,
-      "seendate": "20260815T133000Z",
+      "seendate": "20260817T213000Z",
       "source": "GDELT"
     },
     {
-      "title": "Türkiyede ev geçindirebilmenin yöntemleri ortaya çıktı ! ",
-      "url": "https://www.mavikocaeli.com.tr/turkiyede-ev-gecindirebilmenin-yontemleri-ortaya-cikti/250541/",
-      "domain": "mavikocaeli.com.tr",
+      "title": "Dünyada borçlanma maliyeti sıçradı ABDden Japonyaya tahvil faizleri zirvede",
+      "url": "https://www.dunya.com/finans/haberler/dunyada-borclanma-maliyeti-sicradi-abdden-japonyaya-tahvil-faizleri-zirvede-haberi-836679",
+      "domain": "dunya.com",
       "language": "Turkish",
       "tone": 0,
-      "seendate": "20260815T080000Z",
+      "seendate": "20260818T103000Z",
       "source": "GDELT"
     },
     {
-      "title": "The Middle East Under Transactional Diplomacy",
-      "url": "https://www.fairobserver.com/world-news/middle-east-news/the-middle-east-under-transactional-diplomacy/",
-      "domain": "fairobserver.com",
+      "title": "Lessons from global experience for Sri Lanka inflation target",
+      "url": "https://www.ft.lk/columns/Lessons-from-global-experience-for-Sri-Lanka-s-inflation-target/4-795978",
+      "domain": "ft.lk",
       "language": "English",
       "tone": 0,
-      "seendate": "20260815T223000Z",
+      "seendate": "20260818T060000Z",
       "source": "GDELT"
     },
     {
-      "title": "México Estabiliza Gasolinas",
-      "url": "https://laverdad.com.mx/2026/08/mexico-estabiliza-gasolinas/",
+      "title": "Algılamak bile zor : İktidar , ilk 7 ayda faize dakikada 6 milyon TL ödedi",
+      "url": "https://www.samanyoluhaber.com/algilamak-bile-zor-iktidar-ilk-7-ayda-faize-dakikada-6-milyon-tl-odedi-haberi/1491634",
+      "domain": "samanyoluhaber.com",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260818T173000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Apredeflación Fortifica Salarios",
+      "url": "https://laverdad.com.mx/2026/08/apredeflacion-fortifica-salarios/",
       "domain": "laverdad.com.mx",
       "language": "Spanish",
       "tone": 0,
-      "seendate": "20260815T094500Z",
+      "seendate": "20260818T084500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Editorial Roundup : United States – Winnipeg Free Press",
+      "url": "https://www.winnipegfreepress.com/world/2026/08/18/editorial-roundup-united-states-209",
+      "domain": "winnipegfreepress.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260818T164500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": " 【 新聞第一線 】 突變 ！ 以軍空襲敘利亞 川普 ： 無談判計畫 | 伊朗 | 美軍 | 霍峽是美領土",
+      "url": "https://www.ntdtv.com/b5/2026/08/18/a104125147.html",
+      "domain": "ntdtv.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260818T190000Z",
       "source": "GDELT"
     }
   ],
