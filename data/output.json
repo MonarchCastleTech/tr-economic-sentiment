@@ -1,10 +1,11 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-21T13:42:47.461161+00:00",
+    "generated": "2026-08-21T19:24:26.437807+00:00",
     "mode": "partial",
     "sources": [
       "gdelt_articles",
+      "economic_news",
       "crypto",
       "exchange_rates"
     ],
@@ -111,8 +112,460 @@
         "source": "GDELT"
       }
     ],
+    "economic_news": [
+      {
+        "title": "JPMorgandan Türkiye analizi : Dolar ve faiz indirimi için kritik tarih verildi ! ",
+        "url": "https://www.memleket.com.tr/jpmorgandan-turkiye-analizi-dolar-ve-faiz-indirimi-icin-kritik-tarih-verildi-2363141h.htm",
+        "domain": "memleket.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Evrenselin Manşeti | Enflasyonda sınıf farkı",
+        "url": "https://www.evrensel.net/haber/5997133/evrensel-in-manseti-enflasyonda-sinif-farki",
+        "domain": "evrensel.net",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260820T220000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Dolar bugün kaç TL ? 21 Ağustos Cuma 2026 dolar ne kadar ? ",
+        "url": "https://finans.mynet.com/haber/detay/doviz/dolar-bugun-kac-tl-21-agustos-cuma-2026-dolar-ne-kadar/569418/",
+        "domain": "finans.mynet.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T103000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ticaret Bakanı Bolat : Enflasyonla mücadelede yüzde 75 - 80  lerden yüzde 30  a kadar gerilettik",
+        "url": "https://www.aa.com.tr/tr/ekonomi/ticaret-bakani-bolat-enflasyonla-mucadelede-yuzde-75-80lerden-yuzde-30a-kadar-gerilettik/4033175",
+        "domain": "aa.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260820T194500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "AKPnin 25 . yılı : Çeyrek asırda Türkiyede neler değişti ? ",
+        "url": "https://www.haberler.com/saglik/akp-nin-25-yili-ceyrek-asirda-turkiye-de-neler-20164410-haberi/",
+        "domain": "haberler.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T111500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Milyonların beklediği faiz indirimi için tarih belli oldu",
+        "url": "https://www.habergazete.com/ekonomi-haberleri/milyonlarin-bekledigi-faiz-indirimi-icin-tarih-belli-oldu-21057h",
+        "domain": "habergazete.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T170000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Settlers kill a Palestinian teen in a West Bank clash",
+        "url": "https://www.latimes.com/world-nation/story/2026-08-21/settlers-kill-palestinian-teen-in-west-bank-clash",
+        "domain": "latimes.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T160000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Konut fiyatlarında yön değişti : Evler ucuzlayacak mı ? ",
+        "url": "https://www.dw.com/tr/konut-fiyatlar%C4%B1nda-y%C3%B6n-de%C4%9Fi%C5%9Fti-evler-ucuzlayacak-m%C4%B1/a-78443340",
+        "domain": "dw.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T044500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Settlers kill a Palestinian teen in a West Bank clash , and other Middle East developments",
+        "url": "https://www.stcatharinesstandard.ca/business/settlers-kill-a-palestinian-teen-in-a-west-bank-clash-and-other-middle-east-developments/article_56fdf5f8-d23c-5538-83b2-330f96746bb9.html",
+        "domain": "stcatharinesstandard.ca",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "JP Morgan faiz indirimi için 10 Eylüle gün verdi -  Haber Hürriyeti",
+        "url": "https://www.haberhurriyeti.com/haber/28559661/jp-morgan-faiz-indirimi-icin-10-eylule-gun-verdi",
+        "domain": "haberhurriyeti.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T134500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Finansal yapılandırma için kritik öneri",
+        "url": "https://www.hurriyet.com.tr/yazarlar/sefer-levent/finansal-yapilandirma-icin-kritik-oneri-43279959",
+        "domain": "hurriyet.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T041500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Settlers kill a Palestinian teen in a West Bank clash , and other Middle East developments",
+        "url": "https://www.wral.com/news/ap/129bd-settlers-kill-a-palestinian-teen-in-a-west-bank-clash-and-other-middle-east-developments/",
+        "domain": "wral.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T174500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Settlers kill a Palestinian teen in a West Bank clash , and other Middle East developments",
+        "url": "https://www.ksat.com/news/world/2026/08/21/settlers-kill-a-palestinian-teen-in-a-west-bank-clash-and-other-middle-east-developments/",
+        "domain": "ksat.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T170000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Cevdet Yılmaz açıkladı : Gıda fiyatlarında haftalık takip dönemi başlıyor",
+        "url": "https://www.hurhaber.com/ekonomi-haberleri/cevdet-yilmaz-acikladi-gida-fiyatlarinda-haftalik-takip-donemi-basliyor-512207",
+        "domain": "hurhaber.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260820T224500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Settlers kill a Palestinian teen in a West Bank clash , and other Middle East developments",
+        "url": "https://www.clickondetroit.com/news/world/2026/08/21/settlers-kill-a-palestinian-teen-in-a-west-bank-clash-and-other-middle-east-developments/",
+        "domain": "clickondetroit.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ekonomi diğer her şeyden ayrı düşünülebilir mi ? ",
+        "url": "https://www.bloomberght.com/yorum/caglar-kuzlukluoglu/3786156-ekonomi-diger-her-seyden-ayri-dusunulebilir-mi",
+        "domain": "bloomberght.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T161500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Settlers kill Palestinian teen in West Bank clash , other Mideast news",
+        "url": "https://www.bostonherald.com/2026/08/21/middle-east-settlers-kill-palestinian-teen/",
+        "domain": "bostonherald.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Settlers kill a Palestinian teen in a West Bank clash , and other Middle East developments",
+        "url": "http://www.idahostatejournal.com/news/national/settlers-kill-a-palestinian-teen-in-a-west-bank-clash-and-other-middle-east-developments/article_a9764a35-49e8-5c11-9586-9a353cac3872.html",
+        "domain": "idahostatejournal.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "美点名要求加入针对伊朗经济制裁 中方作出回应",
+        "url": "https://www.wenxuecity.com/news/2026/08/21/126749340.html",
+        "domain": "wenxuecity.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "川普擬發動 「 經濟諾曼第登陸 」 伊朗恐面臨毀滅性經濟衝擊",
+        "url": "https://n.yam.com/Article/20260821877481",
+        "domain": "n.yam.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Trump amenaza a Irán con una  guerra económica  sin precedentes : estos son los países que podrían sufrir el daño colateral",
+        "url": "https://www.eltiempo.com/mundo/medio-oriente/trump-amenaza-a-iran-con-una-guerra-economica-sin-precedentes-estos-son-los-paises-que-podrian-sufrir-el-dano-colateral-3579711",
+        "domain": "eltiempo.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260820T194500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ABD Hazinesinin tahvillerdeki geri alım hamlesinin etkisinin kalıcı o",
+        "url": "https://www.kibrispostasi.com/c50-EKONOMI/n611428-abd-hazinesinin-tahvillerdeki-geri-alim-hamlesinin-etkisinin-kalici-olmasi-beklenmiyor",
+        "domain": "kibrispostasi.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260820T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "رسائل اليوم التالي .. تصميم أميركي على خنق اقتصاد إيران",
+        "url": "https://alhurra.com/35130",
+        "domain": "alhurra.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260821T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "美国又想出一条  妙计 _ 凤凰网",
+        "url": "https://news.ifeng.com/c/8vlOobhQ47J",
+        "domain": "news.ifeng.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T010000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "美国又想出一条  妙计  |唐纳德 · 特朗普|伊朗|俄罗斯|巴基斯坦",
+        "url": "https://www.163.com/news/article/L4RFAJGD00019B3E.html",
+        "domain": "163.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T010000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "华盛顿想打场  经济诺曼底  真有这底气 ？ ",
+        "url": "https://baijiahao.baidu.com/s?id=1874150217641208359",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T170000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Küresel piyasalarda tahvil alarmı : Faizler yükseliyor , belirsizlik büyüyor ! ",
+        "url": "https://ekonomi.haber7.com/ekonomi/haber/3653043-kuresel-piyasalarda-tahvil-alarmi-faizler-yukseliyor-belirsizlik-buyuyor",
+        "domain": "ekonomi.haber7.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T073000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Küresel piyasalarda tahvil piyasalarına ilişkin belirsizlik devam ediyor",
+        "url": "https://www.haberler.com/ekonomi/kuresel-piyasalarda-tahvil-piyasalarina-iliskin-20163128-haberi/",
+        "domain": "haberler.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Μαρινάκης : Μόνιμα μέτρα στη ΔΕΘ « Δεν υπάρχουν κονδύλια για 13ο και 14ο μισθό » ",
+        "url": "https://www.sofokleousin.gr/politiki/marinakis-monima-metra-sti-deth-%E2%80%94-den-yparxoun-kondylia-gia-13o",
+        "domain": "sofokleousin.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T154500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Π . Μαρινάκης : Τα μέτρα της ΔΕΘ θα είναι μόνιμου χαρακτήρα και θα αφορούν ... ",
+        "url": "https://www.capital.gr/politiki/4011664/p-marinakis-ta-metra-tis-deth-tha-einai-monimou-xaraktira-kai-tha-aforoun-olous-tous-polites/",
+        "domain": "capital.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Μαρινάκης : Η Ελλάδα είναι πιο οχυρωμένη , πιο ισχυρή από ποτέ , γεμίσαμε « Τουρκοφάγους » ",
+        "url": "https://www.newsbomb.gr/politikh/story/1757900/marinakis-i-ellada-einai-pio-oxyromeni-pio-isxyri-apo-pote-gemisame-tourkofagous",
+        "domain": "newsbomb.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T103000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Π . Μαρινάκης : Τα μέτρα της ΔΕΘ θα είναι μόνιμου χαρακτήρα και θα αφορούν όλους τους πολίτες",
+        "url": "https://www.inewsgr.com/27/p-marinakis-ta-metra-tis-deth-tha-einai-monimou-charaktira-kai-tha-aforoun-olous-tous-polites.htm",
+        "domain": "inewsgr.com",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Μαρινάκης : Τα μέτρα της ΔΕΘ θα είναι μόνιμου χαρακτήρα και θα αφορούν όλους τους πολίτες",
+        "url": "https://www.lykavitos.gr/news/politics/marinakis-ta-metra-tis-deth-tha-einai-monimou-xaraktira-kai-tha-aforoun-olous-tous-polit",
+        "domain": "lykavitos.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Μαρινάκης : Τα μέτρα της ΔΕΘ θα είναι μόνιμου χαρακτήρα και θα αφορούν όλους τους πολίτες",
+        "url": "https://www.taxydromos.gr/ellada/1356926/marinakis-ta-metra-tis-deth-tha-einai-monimoy-charaktira-kai-tha-aforoyn-oloys-toys-polites/",
+        "domain": "taxydromos.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Τζον Σιτιλίδης στο Newsbreak για ελληνοτουρκικά , F - 35 , Γκίλφοϊλ , Ιράν – Μια συνέντευξη γεμάτη « βόμβες » ",
+        "url": "https://www.inewsgr.com/441/tzon-sitilidis-sto-Newsbreak-gia-ellinotourkika-F-35-gkilfoil-iran--mia-synentefxi-gemati-vomves.htm",
+        "domain": "inewsgr.com",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T090000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ο Τραμπ στριμώχνει τους συμμάχους του για το Ιράν : « Ή είστε μαζί μας ή απέναντί μας » το μήνυμα των ΗΠΑ",
+        "url": "https://www.protothema.gr/world/article/1867529/o-trab-strimohnei-tous-summahous-tou-gia-ton-oi-iran-i-mazi-mas-i-apenadi-mas-to-minuma-ton-ipa/",
+        "domain": "protothema.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Washington menace les pays qui ne rejoindraient pas sa guerre économique contre lIran - 20 / 08 / 2026 à 23 : 20",
+        "url": "https://www.boursorama.com/actualite-economique/actualites/washington-menace-les-pays-qui-ne-rejoindraient-pas-sa-guerre-economique-contre-l-iran-7f6fcda45254e15c3ad8b374fc00576b",
+        "domain": "boursorama.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260820T233000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Οικονομικός κλοιός στο Ιράν : ΗΠΑ πιέζουν συμμάχους και Κίνα για νέες κυρώσεις",
+        "url": "https://www.sigmalive.com/news/international/1326338/oikonomikos-kloios-sto-iran-hpa-piezoyn-simmakhoys-kai-kina-ghia-nees-kirwseis",
+        "domain": "sigmalive.com",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T080000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Νέα κλιμάκωση από τις ΗΠΑ : Σφίγγει ο οικονομικός κλοιός γύρω από το Ιράν – Στο στόχαστρο και η Κίνα",
+        "url": "https://www.tanea.gr/2026/08/21/world/nea-klimakosi-apo-tis-ipa-sfiggei-o-oikonomikos-kloios-gyro-apo-to-iran-sto-stoxastro-kai/",
+        "domain": "tanea.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ο Τραμπ στριμώχνει τους συμμάχους του για το Ιράν : « Ή είστε μαζί μας ή απέναντί μας » ",
+        "url": "https://www.thebest.gr/article/842394-o-tramp-strimochnei-tous-summachous-tou-gia-to-iran-eiste-mazi-mas-i-apenanti-mas",
+        "domain": "thebest.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T080000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ΗΠΑ : Χώρες που δεν θα υποστηρίξουν τον  οικονομικό πόλεμο  κατά του Ιράν θα ... ",
+        "url": "https://www.capital.gr/diethni/4011650/ipa-apeiloun-opoia-xora-apsifisei-ton-oikonomiko-polemo-tous-enantion-tou-iran/",
+        "domain": "capital.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Οι ΗΠΑ απειλούν όποια χώρα αψηφήσει τον οικονομικό πόλεμό τους εναντίον του Ιράν",
+        "url": "https://www.inewsgr.com/374/oi-ipa-apeiloun-opoia-chora-apsifisei-ton-oikonomiko-polemo-tous-enantion-tou-iran.htm",
+        "domain": "inewsgr.com",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T111500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Η ασφυκτική πίεση στην οικονομία του Ιράν είναι ίσως ο λιγότερο κακός ... ",
+        "url": "https://www.capital.gr/bloomberg-view/4011513/i-asfuktiki-piesi-stin-oikonomia-tou-iran-einai-isos-o-ligotero-kakos-tropos-gia-na-termatistei-o-polemos/",
+        "domain": "capital.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260820T221500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Οι ΗΠΑ πιέζουν για τον οικονομικό στραγγαλισμό της Τεχεράνης - Απειλές στους εταίρους του Ιράν , ο ρόλος της Κίνας",
+        "url": "https://www.voria.gr/article/oi-ipa-piezoyn-gia-ton-oikonomiko-straggalismo-tis-teheranis-apeiles-stoys-etairoys-toy",
+        "domain": "voria.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Μαρινάκης : Τα μέτρα της ΔΕΘ θα είναι μόνιμου χαρακτήρα και θα αφορούν όλους τους πολίτες",
+        "url": "https://www.businessnews.gr/politiki/item/344480-marinakis-ta-metra-tis-deth-tha-einai-monimou-xaraktira-kai-tha-aforoyn-olous-tous-polites",
+        "domain": "businessnews.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T100000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Día D : la guerra económica de Trump contra Irán con la que promete un aislamiento sin precedentes",
+        "url": "https://acento.com.do/france24/dia-d-la-guerra-economica-de-trump-contra-iran-con-la-que-promete-un-aislamiento-sin-precedentes-9740624.html",
+        "domain": "acento.com.do",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Μαρινάκης : Τα μέτρα της ΔΕΘ θα είναι μόνιμου χαρακτήρα και θα αφορούν όλους ... ",
+        "url": "https://www.thetoc.gr/politiki/article/marinakis-ta-metra-tis-deth-tha-einai-monimou-xaraktira-kai-tha-aforoun-olous-tous-polites/",
+        "domain": "thetoc.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T090000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Μαρινάκης για ΔΕΘ και Σαμαρά : « Έχει καεί η γούνα μας » από προγράμματα Θεσσαλονίκης – Από μεγάλα λόγια χορτάσαμε",
+        "url": "https://www.inewsgr.com/93/marinakis-gia-deth-kai-samara-echei-kaei-i-gouna-mas-apo-programmata-thessalonikis--apo-megala-logia-chortasame.htm",
+        "domain": "inewsgr.com",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T073000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Οι ΗΠΑ απειλούν όποια χώρα αψηφήσει τον οικονομικό πόλεμό τους εναντίον του Ιράν",
+        "url": "https://www.businessnews.gr/kosmos/item/344478-oi-ipa-apeiloyn-opoia-xora-apsifisei-ton-oikonomiko-polemo-tous-enantion-tou-iran",
+        "domain": "businessnews.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T100000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Settlers kill a Palestinian teen in a West Bank clash , and other Middle East developments",
+        "url": "http://www.bozemandailychronicle.com/wire/business/settlers-kill-a-palestinian-teen-in-a-west-bank-clash-and-other-middle-east-developments/article_33749e92-32dd-5883-86da-a38bac65f3ab.html",
+        "domain": "bozemandailychronicle.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T163000Z",
+        "source": "GDELT"
+      }
+    ],
     "crypto": {
-      "btc_price_usd": 77013
+      "btc_price_usd": 77059
     },
     "exchange_rates": [
       {
