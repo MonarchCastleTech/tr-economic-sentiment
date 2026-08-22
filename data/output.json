@@ -1,18 +1,16 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-21T19:24:26.437807+00:00",
-    "mode": "partial",
+    "generated": "2026-08-22T02:14:51.420234+00:00",
+    "mode": "live",
     "sources": [
       "gdelt_articles",
       "economic_news",
       "crypto",
       "exchange_rates"
     ],
-    "source_notes": [
-      "GDELT unavailable; retained last validated news snapshot."
-    ],
-    "news_snapshot_at": "2026-08-18T19:25:27.186282+00:00",
+    "source_notes": [],
+    "news_snapshot_at": "2026-08-22T02:14:51.420255+00:00",
     "version": "1.0.0"
   },
   "stats": [
@@ -40,79 +38,196 @@
   "live_data": {
     "gdelt_articles": [
       {
-        "title": "Аналіз основних економічних індикаторів України та світу станом на кінець травня - початок червня 2026 року",
-        "url": "https://interfax.com.ua/news/projects/1194112.html",
-        "domain": "interfax.com.ua",
-        "language": "Ukrainian",
-        "tone": 0,
-        "seendate": "20260818T161500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Büte a , faiz sarmalý , esnafýn k ve vatandan var olma sava",
-        "url": "https://www.yenimesaj.com.tr/butce-acigi-faiz-sarmali-esnafin-cokusu-ve-vatandasin-var-olma-savasi-H1614450.htm",
-        "domain": "yenimesaj.com.tr",
+        "title": "JPMorgandan Türkiye analizi : Dolar ve faiz indirimi için kritik tarih verildi ! ",
+        "url": "https://www.memleket.com.tr/jpmorgandan-turkiye-analizi-dolar-ve-faiz-indirimi-icin-kritik-tarih-verildi-2363141h.htm",
+        "domain": "memleket.com.tr",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260817T213000Z",
+        "seendate": "20260821T133000Z",
         "source": "GDELT"
       },
       {
-        "title": "Dünyada borçlanma maliyeti sıçradı ABDden Japonyaya tahvil faizleri zirvede",
-        "url": "https://www.dunya.com/finans/haberler/dunyada-borclanma-maliyeti-sicradi-abdden-japonyaya-tahvil-faizleri-zirvede-haberi-836679",
-        "domain": "dunya.com",
+        "title": "美点名要求加入针对伊朗经济制裁 中方作出回应",
+        "url": "https://www.wenxuecity.com/news/2026/08/21/126749340.html",
+        "domain": "wenxuecity.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "华盛顿想打场  经济诺曼底  真有这底气 ？ ",
+        "url": "https://baijiahao.baidu.com/s?id=1874150217641208359",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T170000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "川普擬發動 「 經濟諾曼第登陸 」 伊朗恐面臨毀滅性經濟衝擊",
+        "url": "https://n.yam.com/Article/20260821877481",
+        "domain": "n.yam.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "رسائل اليوم التالي .. تصميم أميركي على خنق اقتصاد إيران",
+        "url": "https://alhurra.com/35130",
+        "domain": "alhurra.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260821T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "AKPnin 25 . yılı : Çeyrek asırda Türkiyede neler değişti ? ",
+        "url": "https://www.haberler.com/saglik/akp-nin-25-yili-ceyrek-asirda-turkiye-de-neler-20164410-haberi/",
+        "domain": "haberler.com",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260818T103000Z",
+        "seendate": "20260821T111500Z",
         "source": "GDELT"
       },
       {
-        "title": "Lessons from global experience for Sri Lanka inflation target",
-        "url": "https://www.ft.lk/columns/Lessons-from-global-experience-for-Sri-Lanka-s-inflation-target/4-795978",
-        "domain": "ft.lk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260818T060000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Algılamak bile zor : İktidar , ilk 7 ayda faize dakikada 6 milyon TL ödedi",
-        "url": "https://www.samanyoluhaber.com/algilamak-bile-zor-iktidar-ilk-7-ayda-faize-dakikada-6-milyon-tl-odedi-haberi/1491634",
-        "domain": "samanyoluhaber.com",
+        "title": "Ekonomi diğer her şeyden ayrı düşünülebilir mi ? ",
+        "url": "https://www.bloomberght.com/yorum/caglar-kuzlukluoglu/3786156-ekonomi-diger-her-seyden-ayri-dusunulebilir-mi",
+        "domain": "bloomberght.com",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260818T173000Z",
+        "seendate": "20260821T161500Z",
         "source": "GDELT"
       },
       {
-        "title": "Apredeflación Fortifica Salarios",
-        "url": "https://laverdad.com.mx/2026/08/apredeflacion-fortifica-salarios/",
-        "domain": "laverdad.com.mx",
+        "title": "Küresel piyasalarda tahvil alarmı : Faizler yükseliyor , belirsizlik büyüyor ! ",
+        "url": "https://ekonomi.haber7.com/ekonomi/haber/3653043-kuresel-piyasalarda-tahvil-alarmi-faizler-yukseliyor-belirsizlik-buyuyor",
+        "domain": "ekonomi.haber7.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T073000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Küresel piyasalarda tahvil piyasalarına ilişkin belirsizlik devam ediyor",
+        "url": "https://www.haberler.com/ekonomi/kuresel-piyasalarda-tahvil-piyasalarina-iliskin-20163128-haberi/",
+        "domain": "haberler.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Día D : la guerra económica de Trump contra Irán con la que promete un aislamiento sin precedentes",
+        "url": "https://acento.com.do/france24/dia-d-la-guerra-economica-de-trump-contra-iran-con-la-que-promete-un-aislamiento-sin-precedentes-9740624.html",
+        "domain": "acento.com.do",
         "language": "Spanish",
         "tone": 0,
-        "seendate": "20260818T084500Z",
+        "seendate": "20260821T110000Z",
         "source": "GDELT"
       },
       {
-        "title": "Editorial Roundup : United States – Winnipeg Free Press",
-        "url": "https://www.winnipegfreepress.com/world/2026/08/18/editorial-roundup-united-states-209",
-        "domain": "winnipegfreepress.com",
-        "language": "English",
+        "title": "劉燕婷觀點 ： 美伊談判60天到期 ， 海峽僵局與中東北約預備下一擊 ？ | 劉燕婷 | 評論",
+        "url": "https://www.storm.mg/article/11158281",
+        "domain": "storm.mg",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260818T164500Z",
+        "seendate": "20260821T233000Z",
         "source": "GDELT"
       },
       {
-        "title": " 【 新聞第一線 】 突變 ！ 以軍空襲敘利亞 川普 ： 無談判計畫 | 伊朗 | 美軍 | 霍峽是美領土",
-        "url": "https://www.ntdtv.com/b5/2026/08/18/a104125147.html",
+        "title": "Μαρινάκης : Η Ελλάδα είναι πιο οχυρωμένη , πιο ισχυρή από ποτέ , γεμίσαμε « Τουρκοφάγους » ",
+        "url": "https://www.newsbomb.gr/politikh/story/1757900/marinakis-i-ellada-einai-pio-oxyromeni-pio-isxyri-apo-pote-gemisame-tourkofagous",
+        "domain": "newsbomb.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T103000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": " 【 新聞第一線 】 美剛制裁 伊總統急喊停戰 波羅的海爆開火 ？ | 川普 | 中國油廠 | 伊朗經濟",
+        "url": "https://www.ntdtv.com/b5/2026/08/21/a104126098.html",
         "domain": "ntdtv.com",
         "language": "Chinese",
         "tone": 0,
-        "seendate": "20260818T190000Z",
+        "seendate": "20260821T184500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": " [ 中报 ] 中电电机 ( 603988 ): 中电电机2026年半年度报告 - CFi . CN 中财网",
+        "url": "http://www.cfi.net.cn/p20260821005476.html",
+        "domain": "cfi.net.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T160000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Trump says US is waging economic warfare against Iran | Jefferson City News Tribune",
+        "url": "https://www.newstribune.com/news/2026/aug/21/trump-says-us-is-waging-economic-warfare-against/",
+        "domain": "newstribune.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Vučić obilazi Mačvanski , Kolubarski , Sremski i Jablanički okrug",
+        "url": "https://www.novosti.rs/vesti/politika/1640044/vucic-narodom-slusa-probleme-mestana-predsednik-obisao-novu-zgradu-trznice-koceljevi-zbog-takvih-kao-nasa-ekonomija-raste",
+        "domain": "novosti.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260821T111500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Vučić sa narodom : Predsednik ceo dan razgovarao sa građanima i rešavao probleme ! ",
+        "url": "https://www.alo.rs/vesti/politika/16909488/vucic-sa-narodom-predsednik-ceo-dan-razgovarao-sa-gradjanima-i-resavao-probleme.html",
+        "domain": "alo.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260821T194500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The existential crisis of European capitalism",
+        "url": "https://marxist.com/the-existential-crisis-of-european-capitalism.htm",
+        "domain": "marxist.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "2026全球哪些代孕国家对国际委托父母最友好 ？ - 双峰塔医疗中心",
+        "url": "https://blog.udn.com:443/f7461c4a/192211459",
+        "domain": "blog.udn.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "نهاية « الشرق الأوسط الأمريكي ».. كيف أطاحت حربا غزة وإيران بنظام إقليمي دام 35 عامًا ؟ ",
+        "url": "https://www.fj-p.com/433126/%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A-%D9%83%D9%8A%D9%81-%D8%A3%D8%B7%D8%A7/",
+        "domain": "fj-p.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260821T121500Z",
         "source": "GDELT"
       }
     ],
     "economic_news": [
+      {
+        "title": "JPMorgan : TCMB için eylülde faiz indirimi alanı oluştu",
+        "url": "https://www.ogunhaber.com/ekonomi/jpmorgan-tcmb-icin-eylulde-faiz-indirimi-alani-olustu-3001267h.html",
+        "domain": "ogunhaber.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260821T201500Z",
+        "source": "GDELT"
+      },
       {
         "title": "JPMorgandan Türkiye analizi : Dolar ve faiz indirimi için kritik tarih verildi ! ",
         "url": "https://www.memleket.com.tr/jpmorgandan-turkiye-analizi-dolar-ve-faiz-indirimi-icin-kritik-tarih-verildi-2363141h.htm",
@@ -123,30 +238,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Evrenselin Manşeti | Enflasyonda sınıf farkı",
-        "url": "https://www.evrensel.net/haber/5997133/evrensel-in-manseti-enflasyonda-sinif-farki",
-        "domain": "evrensel.net",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260820T220000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Dolar bugün kaç TL ? 21 Ağustos Cuma 2026 dolar ne kadar ? ",
         "url": "https://finans.mynet.com/haber/detay/doviz/dolar-bugun-kac-tl-21-agustos-cuma-2026-dolar-ne-kadar/569418/",
         "domain": "finans.mynet.com",
         "language": "Turkish",
         "tone": 0,
         "seendate": "20260821T103000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ticaret Bakanı Bolat : Enflasyonla mücadelede yüzde 75 - 80  lerden yüzde 30  a kadar gerilettik",
-        "url": "https://www.aa.com.tr/tr/ekonomi/ticaret-bakani-bolat-enflasyonla-mucadelede-yuzde-75-80lerden-yuzde-30a-kadar-gerilettik/4033175",
-        "domain": "aa.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260820T194500Z",
         "source": "GDELT"
       },
       {
@@ -195,6 +292,15 @@
         "source": "GDELT"
       },
       {
+        "title": "Settlers kill a Palestinian teen in a West Bank clash , and other Middle East developments",
+        "url": "https://www.wboc.com/news/international/settlers-kill-a-palestinian-teen-in-a-west-bank-clash-and-other-middle-east-developments/article_824f5cea-d0d8-5575-bd49-2d5e024782fc.html",
+        "domain": "wboc.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T194500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "JP Morgan faiz indirimi için 10 Eylüle gün verdi -  Haber Hürriyeti",
         "url": "https://www.haberhurriyeti.com/haber/28559661/jp-morgan-faiz-indirimi-icin-10-eylule-gun-verdi",
         "domain": "haberhurriyeti.com",
@@ -231,15 +337,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Cevdet Yılmaz açıkladı : Gıda fiyatlarında haftalık takip dönemi başlıyor",
-        "url": "https://www.hurhaber.com/ekonomi-haberleri/cevdet-yilmaz-acikladi-gida-fiyatlarinda-haftalik-takip-donemi-basliyor-512207",
-        "domain": "hurhaber.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260820T224500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Settlers kill a Palestinian teen in a West Bank clash , and other Middle East developments",
         "url": "https://www.clickondetroit.com/news/world/2026/08/21/settlers-kill-a-palestinian-teen-in-a-west-bank-clash-and-other-middle-east-developments/",
         "domain": "clickondetroit.com",
@@ -255,6 +352,15 @@
         "language": "Turkish",
         "tone": 0,
         "seendate": "20260821T161500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Settlers kill a Palestinian teen in a West Bank clash , and other Middle East developments - Las Vegas Sun News",
+        "url": "https://lasvegassun.com/news/2026/aug/21/settlers-kill-a-palestinian-teen-in-a-west-bank-cl/",
+        "domain": "lasvegassun.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T191500Z",
         "source": "GDELT"
       },
       {
@@ -294,21 +400,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Trump amenaza a Irán con una  guerra económica  sin precedentes : estos son los países que podrían sufrir el daño colateral",
-        "url": "https://www.eltiempo.com/mundo/medio-oriente/trump-amenaza-a-iran-con-una-guerra-economica-sin-precedentes-estos-son-los-paises-que-podrian-sufrir-el-dano-colateral-3579711",
-        "domain": "eltiempo.com",
-        "language": "Spanish",
+        "title": "Μόνιμα μέτρα για όλους τους πολίτες θα ανακοινώσει ο Μαρινάκης στη ΔΕΘ",
+        "url": "https://www.imerazante.gr/2026/08/21/400600",
+        "domain": "imerazante.gr",
+        "language": "Greek",
         "tone": 0,
-        "seendate": "20260820T194500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "ABD Hazinesinin tahvillerdeki geri alım hamlesinin etkisinin kalıcı o",
-        "url": "https://www.kibrispostasi.com/c50-EKONOMI/n611428-abd-hazinesinin-tahvillerdeki-geri-alim-hamlesinin-etkisinin-kalici-olmasi-beklenmiyor",
-        "domain": "kibrispostasi.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260820T231500Z",
+        "seendate": "20260821T210000Z",
         "source": "GDELT"
       },
       {
@@ -318,24 +415,6 @@
         "language": "Arabic",
         "tone": 0,
         "seendate": "20260821T133000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "美国又想出一条  妙计 _ 凤凰网",
-        "url": "https://news.ifeng.com/c/8vlOobhQ47J",
-        "domain": "news.ifeng.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T010000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "美国又想出一条  妙计  |唐纳德 · 特朗普|伊朗|俄罗斯|巴基斯坦",
-        "url": "https://www.163.com/news/article/L4RFAJGD00019B3E.html",
-        "domain": "163.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T010000Z",
         "source": "GDELT"
       },
       {
@@ -363,6 +442,15 @@
         "language": "Turkish",
         "tone": 0,
         "seendate": "20260821T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "劉燕婷觀點 ： 美伊談判60天到期 ， 海峽僵局與中東北約預備下一擊 ？ | 劉燕婷 | 評論",
+        "url": "https://www.storm.mg/article/11158281",
+        "domain": "storm.mg",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T233000Z",
         "source": "GDELT"
       },
       {
@@ -438,15 +526,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Washington menace les pays qui ne rejoindraient pas sa guerre économique contre lIran - 20 / 08 / 2026 à 23 : 20",
-        "url": "https://www.boursorama.com/actualite-economique/actualites/washington-menace-les-pays-qui-ne-rejoindraient-pas-sa-guerre-economique-contre-l-iran-7f6fcda45254e15c3ad8b374fc00576b",
-        "domain": "boursorama.com",
-        "language": "French",
-        "tone": 0,
-        "seendate": "20260820T233000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Οικονομικός κλοιός στο Ιράν : ΗΠΑ πιέζουν συμμάχους και Κίνα για νέες κυρώσεις",
         "url": "https://www.sigmalive.com/news/international/1326338/oikonomikos-kloios-sto-iran-hpa-piezoyn-simmakhoys-kai-kina-ghia-nees-kirwseis",
         "domain": "sigmalive.com",
@@ -489,15 +568,6 @@
         "language": "Greek",
         "tone": 0,
         "seendate": "20260821T111500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Η ασφυκτική πίεση στην οικονομία του Ιράν είναι ίσως ο λιγότερο κακός ... ",
-        "url": "https://www.capital.gr/bloomberg-view/4011513/i-asfuktiki-piesi-stin-oikonomia-tou-iran-einai-isos-o-ligotero-kakos-tropos-gia-na-termatistei-o-polemos/",
-        "domain": "capital.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260820T221500Z",
         "source": "GDELT"
       },
       {
@@ -562,10 +632,46 @@
         "tone": 0,
         "seendate": "20260821T163000Z",
         "source": "GDELT"
+      },
+      {
+        "title": "Settlers kill a Palestinian teen in a West Bank clash , and other Middle East developments",
+        "url": "http://www.reflector.com/news/national/settlers-kill-a-palestinian-teen-in-a-west-bank-clash-and-other-middle-east-developments/article_200578ef-6411-532d-b739-ff82c76aabe0.html",
+        "domain": "reflector.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T154500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Settlers kill a Palestinian teen in a West Bank clash , and other Middle East developments",
+        "url": "http://www.cecildaily.com/ap/nation/settlers-kill-a-palestinian-teen-in-a-west-bank-clash-and-other-middle-east-developments/article_81dda2a2-e384-5239-8fcc-2e188fe401ed.html",
+        "domain": "cecildaily.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T154500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Οι ΗΠΑ σκληραίνουν τη στάση τους : Απειλούν όποια χώρα αψηφήσει τον ... ",
+        "url": "https://www.thetoc.gr/diethni/article/oi-ipa-sklirainoun-ti-stasi-tous-apeiloun-opoia-xora-apsifisei-ton-oikonomiko-polemo-tous-enantion-tou-iran/",
+        "domain": "thetoc.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T061500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Μαρινάκης : Τα μέτρα της ΔΕΘ θα είναι μόνιμου χαρακτήρα – Τι είπε για 13η και 14η σύνταξη",
+        "url": "https://www.typosthes.gr/politiki/439451_marinakis-ta-metra-tis-deth-tha-einai-monimoy-haraktira-ti-eipe-gia-13i-kai-14i",
+        "domain": "typosthes.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T100000Z",
+        "source": "GDELT"
       }
     ],
     "crypto": {
-      "btc_price_usd": 77059
+      "btc_price_usd": 78048
     },
     "exchange_rates": [
       {
@@ -578,15 +684,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.15
+        "rate": 74.77
       },
       {
         "currency": "ALL",
-        "rate": 79.42
+        "rate": 87.5
       },
       {
         "currency": "AMD",
-        "rate": 364.88
+        "rate": 356.51
       },
       {
         "currency": "ANG",
@@ -594,15 +700,15 @@
       },
       {
         "currency": "AOA",
-        "rate": 925.24
+        "rate": 934.92
       },
       {
         "currency": "ARS",
-        "rate": 1497.29
+        "rate": 1497.45
       },
       {
         "currency": "AUD",
-        "rate": 1.41
+        "rate": 1.4
       },
       {
         "currency": "AWG",
@@ -610,7 +716,7 @@
       },
       {
         "currency": "AZN",
-        "rate": 1.7
+        "rate": 1.59
       },
       {
         "currency": "BAM",
@@ -622,7 +728,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.21
+        "rate": 121.86
       },
       {
         "currency": "BGN",
@@ -634,7 +740,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2990.34
+        "rate": 2665.4
       },
       {
         "currency": "BMD",
@@ -646,147 +752,226 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.53
+        "rate": 7.01
       }
     ]
   },
   "entities": [
     {
       "id": 1,
-      "name": "Аналіз основних економічних індикаторів України та світу ста",
+      "name": "JPMorgandan Türkiye analizi : Dolar ve faiz indirimi için kr",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260818T161500Z",
-      "source": "interfax.com.ua"
+      "last_seen": "20260821T133000Z",
+      "source": "memleket.com.tr"
     },
     {
       "id": 2,
-      "name": "Büte a , faiz sarmalý , esnafýn k ve vatandan var olma sava",
+      "name": "美点名要求加入针对伊朗经济制裁 中方作出回应",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260817T213000Z",
-      "source": "yenimesaj.com.tr"
+      "last_seen": "20260821T173000Z",
+      "source": "wenxuecity.com"
     },
     {
       "id": 3,
-      "name": "Dünyada borçlanma maliyeti sıçradı ABDden Japonyaya tahvil f",
+      "name": "华盛顿想打场  经济诺曼底  真有这底气 ？ ",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260818T103000Z",
-      "source": "dunya.com"
+      "last_seen": "20260821T170000Z",
+      "source": "baijiahao.baidu.com"
     },
     {
       "id": 4,
-      "name": "Lessons from global experience for Sri Lanka inflation targe",
+      "name": "川普擬發動 「 經濟諾曼第登陸 」 伊朗恐面臨毀滅性經濟衝擊",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260818T060000Z",
-      "source": "ft.lk"
+      "last_seen": "20260821T034500Z",
+      "source": "n.yam.com"
     },
     {
       "id": 5,
-      "name": "Algılamak bile zor : İktidar , ilk 7 ayda faize dakikada 6 m",
+      "name": "رسائل اليوم التالي .. تصميم أميركي على خنق اقتصاد إيران",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260818T173000Z",
-      "source": "samanyoluhaber.com"
+      "last_seen": "20260821T133000Z",
+      "source": "alhurra.com"
     },
     {
       "id": 6,
-      "name": "Apredeflación Fortifica Salarios",
+      "name": "AKPnin 25 . yılı : Çeyrek asırda Türkiyede neler değişti ? ",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260818T084500Z",
-      "source": "laverdad.com.mx"
+      "last_seen": "20260821T111500Z",
+      "source": "haberler.com"
     },
     {
       "id": 7,
-      "name": "Editorial Roundup : United States – Winnipeg Free Press",
+      "name": "Ekonomi diğer her şeyden ayrı düşünülebilir mi ? ",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260818T164500Z",
-      "source": "winnipegfreepress.com"
+      "last_seen": "20260821T161500Z",
+      "source": "bloomberght.com"
     },
     {
       "id": 8,
-      "name": " 【 新聞第一線 】 突變 ！ 以軍空襲敘利亞 川普 ： 無談判計畫 | 伊朗 | 美軍 | 霍峽是美領土",
+      "name": "Küresel piyasalarda tahvil alarmı : Faizler yükseliyor , bel",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260818T190000Z",
-      "source": "ntdtv.com"
+      "last_seen": "20260821T073000Z",
+      "source": "ekonomi.haber7.com"
+    },
+    {
+      "id": 9,
+      "name": "Küresel piyasalarda tahvil piyasalarına ilişkin belirsizlik ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T064500Z",
+      "source": "haberler.com"
+    },
+    {
+      "id": 10,
+      "name": "Día D : la guerra económica de Trump contra Irán con la que ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T110000Z",
+      "source": "acento.com.do"
     }
   ],
   "events": [
     {
-      "title": "Аналіз основних економічних індикаторів України та світу станом на кінець травня - початок червня 2026 року",
-      "url": "https://interfax.com.ua/news/projects/1194112.html",
-      "domain": "interfax.com.ua",
-      "language": "Ukrainian",
-      "tone": 0,
-      "seendate": "20260818T161500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Büte a , faiz sarmalý , esnafýn k ve vatandan var olma sava",
-      "url": "https://www.yenimesaj.com.tr/butce-acigi-faiz-sarmali-esnafin-cokusu-ve-vatandasin-var-olma-savasi-H1614450.htm",
-      "domain": "yenimesaj.com.tr",
+      "title": "JPMorgandan Türkiye analizi : Dolar ve faiz indirimi için kritik tarih verildi ! ",
+      "url": "https://www.memleket.com.tr/jpmorgandan-turkiye-analizi-dolar-ve-faiz-indirimi-icin-kritik-tarih-verildi-2363141h.htm",
+      "domain": "memleket.com.tr",
       "language": "Turkish",
       "tone": 0,
-      "seendate": "20260817T213000Z",
+      "seendate": "20260821T133000Z",
       "source": "GDELT"
     },
     {
-      "title": "Dünyada borçlanma maliyeti sıçradı ABDden Japonyaya tahvil faizleri zirvede",
-      "url": "https://www.dunya.com/finans/haberler/dunyada-borclanma-maliyeti-sicradi-abdden-japonyaya-tahvil-faizleri-zirvede-haberi-836679",
-      "domain": "dunya.com",
+      "title": "美点名要求加入针对伊朗经济制裁 中方作出回应",
+      "url": "https://www.wenxuecity.com/news/2026/08/21/126749340.html",
+      "domain": "wenxuecity.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260821T173000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "华盛顿想打场  经济诺曼底  真有这底气 ？ ",
+      "url": "https://baijiahao.baidu.com/s?id=1874150217641208359",
+      "domain": "baijiahao.baidu.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260821T170000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "川普擬發動 「 經濟諾曼第登陸 」 伊朗恐面臨毀滅性經濟衝擊",
+      "url": "https://n.yam.com/Article/20260821877481",
+      "domain": "n.yam.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260821T034500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "رسائل اليوم التالي .. تصميم أميركي على خنق اقتصاد إيران",
+      "url": "https://alhurra.com/35130",
+      "domain": "alhurra.com",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260821T133000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "AKPnin 25 . yılı : Çeyrek asırda Türkiyede neler değişti ? ",
+      "url": "https://www.haberler.com/saglik/akp-nin-25-yili-ceyrek-asirda-turkiye-de-neler-20164410-haberi/",
+      "domain": "haberler.com",
       "language": "Turkish",
       "tone": 0,
-      "seendate": "20260818T103000Z",
+      "seendate": "20260821T111500Z",
       "source": "GDELT"
     },
     {
-      "title": "Lessons from global experience for Sri Lanka inflation target",
-      "url": "https://www.ft.lk/columns/Lessons-from-global-experience-for-Sri-Lanka-s-inflation-target/4-795978",
-      "domain": "ft.lk",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260818T060000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Algılamak bile zor : İktidar , ilk 7 ayda faize dakikada 6 milyon TL ödedi",
-      "url": "https://www.samanyoluhaber.com/algilamak-bile-zor-iktidar-ilk-7-ayda-faize-dakikada-6-milyon-tl-odedi-haberi/1491634",
-      "domain": "samanyoluhaber.com",
+      "title": "Ekonomi diğer her şeyden ayrı düşünülebilir mi ? ",
+      "url": "https://www.bloomberght.com/yorum/caglar-kuzlukluoglu/3786156-ekonomi-diger-her-seyden-ayri-dusunulebilir-mi",
+      "domain": "bloomberght.com",
       "language": "Turkish",
       "tone": 0,
-      "seendate": "20260818T173000Z",
+      "seendate": "20260821T161500Z",
       "source": "GDELT"
     },
     {
-      "title": "Apredeflación Fortifica Salarios",
-      "url": "https://laverdad.com.mx/2026/08/apredeflacion-fortifica-salarios/",
-      "domain": "laverdad.com.mx",
+      "title": "Küresel piyasalarda tahvil alarmı : Faizler yükseliyor , belirsizlik büyüyor ! ",
+      "url": "https://ekonomi.haber7.com/ekonomi/haber/3653043-kuresel-piyasalarda-tahvil-alarmi-faizler-yukseliyor-belirsizlik-buyuyor",
+      "domain": "ekonomi.haber7.com",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260821T073000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Küresel piyasalarda tahvil piyasalarına ilişkin belirsizlik devam ediyor",
+      "url": "https://www.haberler.com/ekonomi/kuresel-piyasalarda-tahvil-piyasalarina-iliskin-20163128-haberi/",
+      "domain": "haberler.com",
+      "language": "Turkish",
+      "tone": 0,
+      "seendate": "20260821T064500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Día D : la guerra económica de Trump contra Irán con la que promete un aislamiento sin precedentes",
+      "url": "https://acento.com.do/france24/dia-d-la-guerra-economica-de-trump-contra-iran-con-la-que-promete-un-aislamiento-sin-precedentes-9740624.html",
+      "domain": "acento.com.do",
       "language": "Spanish",
       "tone": 0,
-      "seendate": "20260818T084500Z",
+      "seendate": "20260821T110000Z",
       "source": "GDELT"
     },
     {
-      "title": "Editorial Roundup : United States – Winnipeg Free Press",
-      "url": "https://www.winnipegfreepress.com/world/2026/08/18/editorial-roundup-united-states-209",
-      "domain": "winnipegfreepress.com",
-      "language": "English",
+      "title": "劉燕婷觀點 ： 美伊談判60天到期 ， 海峽僵局與中東北約預備下一擊 ？ | 劉燕婷 | 評論",
+      "url": "https://www.storm.mg/article/11158281",
+      "domain": "storm.mg",
+      "language": "Chinese",
       "tone": 0,
-      "seendate": "20260818T164500Z",
+      "seendate": "20260821T233000Z",
       "source": "GDELT"
     },
     {
-      "title": " 【 新聞第一線 】 突變 ！ 以軍空襲敘利亞 川普 ： 無談判計畫 | 伊朗 | 美軍 | 霍峽是美領土",
-      "url": "https://www.ntdtv.com/b5/2026/08/18/a104125147.html",
+      "title": "Μαρινάκης : Η Ελλάδα είναι πιο οχυρωμένη , πιο ισχυρή από ποτέ , γεμίσαμε « Τουρκοφάγους » ",
+      "url": "https://www.newsbomb.gr/politikh/story/1757900/marinakis-i-ellada-einai-pio-oxyromeni-pio-isxyri-apo-pote-gemisame-tourkofagous",
+      "domain": "newsbomb.gr",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260821T103000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": " 【 新聞第一線 】 美剛制裁 伊總統急喊停戰 波羅的海爆開火 ？ | 川普 | 中國油廠 | 伊朗經濟",
+      "url": "https://www.ntdtv.com/b5/2026/08/21/a104126098.html",
       "domain": "ntdtv.com",
       "language": "Chinese",
       "tone": 0,
-      "seendate": "20260818T190000Z",
+      "seendate": "20260821T184500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": " [ 中报 ] 中电电机 ( 603988 ): 中电电机2026年半年度报告 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20260821005476.html",
+      "domain": "cfi.net.cn",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260821T160000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Trump says US is waging economic warfare against Iran | Jefferson City News Tribune",
+      "url": "https://www.newstribune.com/news/2026/aug/21/trump-says-us-is-waging-economic-warfare-against/",
+      "domain": "newstribune.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260821T110000Z",
       "source": "GDELT"
     }
   ],
