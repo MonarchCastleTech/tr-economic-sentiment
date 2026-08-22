@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-22T07:29:35.881192+00:00",
+    "generated": "2026-08-22T08:44:13.979403+00:00",
     "mode": "partial",
     "sources": [
       "gdelt_articles",
@@ -220,7 +220,7 @@
       }
     ],
     "crypto": {
-      "btc_price_usd": 77392
+      "btc_price_usd": 77123
     },
     "exchange_rates": [
       {
@@ -525,5 +525,5 @@
     }
   ],
   "timeseries": [],
-  "llm_summary": "Pending API key..."
+  "llm_summary": ""
 }
