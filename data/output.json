@@ -1,17 +1,15 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-22T08:44:13.979403+00:00",
-    "mode": "partial",
+    "generated": "2026-08-22T13:29:17.655978+00:00",
+    "mode": "live",
     "sources": [
       "gdelt_articles",
       "crypto",
       "exchange_rates"
     ],
-    "source_notes": [
-      "GDELT unavailable; retained last validated news snapshot."
-    ],
-    "news_snapshot_at": "2026-08-22T02:14:51.420255+00:00",
+    "source_notes": [],
+    "news_snapshot_at": "2026-08-22T13:29:17.655993+00:00",
     "version": "1.0.0"
   },
   "stats": [
@@ -66,30 +64,12 @@
         "source": "GDELT"
       },
       {
-        "title": "川普擬發動 「 經濟諾曼第登陸 」 伊朗恐面臨毀滅性經濟衝擊",
-        "url": "https://n.yam.com/Article/20260821877481",
-        "domain": "n.yam.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T034500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "رسائل اليوم التالي .. تصميم أميركي على خنق اقتصاد إيران",
         "url": "https://alhurra.com/35130",
         "domain": "alhurra.com",
         "language": "Arabic",
         "tone": 0,
         "seendate": "20260821T133000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "AKPnin 25 . yılı : Çeyrek asırda Türkiyede neler değişti ? ",
-        "url": "https://www.haberler.com/saglik/akp-nin-25-yili-ceyrek-asirda-turkiye-de-neler-20164410-haberi/",
-        "domain": "haberler.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260821T111500Z",
         "source": "GDELT"
       },
       {
@@ -102,30 +82,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Küresel piyasalarda tahvil alarmı : Faizler yükseliyor , belirsizlik büyüyor ! ",
-        "url": "https://ekonomi.haber7.com/ekonomi/haber/3653043-kuresel-piyasalarda-tahvil-alarmi-faizler-yukseliyor-belirsizlik-buyuyor",
-        "domain": "ekonomi.haber7.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260821T073000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Küresel piyasalarda tahvil piyasalarına ilişkin belirsizlik devam ediyor",
-        "url": "https://www.haberler.com/ekonomi/kuresel-piyasalarda-tahvil-piyasalarina-iliskin-20163128-haberi/",
+        "title": "Gebze Ticaret Odası Başkanı : Sanayicinin önündeki en büyük engel finansman maliyetleri",
+        "url": "https://www.haberler.com/yerel/gto-baskani-aslantas-pazari-kaybettigimizde-20166771-haberi/",
         "domain": "haberler.com",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260821T064500Z",
+        "seendate": "20260822T093000Z",
         "source": "GDELT"
       },
       {
-        "title": "Día D : la guerra económica de Trump contra Irán con la que promete un aislamiento sin precedentes",
-        "url": "https://acento.com.do/france24/dia-d-la-guerra-economica-de-trump-contra-iran-con-la-que-promete-un-aislamiento-sin-precedentes-9740624.html",
-        "domain": "acento.com.do",
-        "language": "Spanish",
+        "title": "  Pazarý kaybettiðimizde yeniden kazanmak bedel gerektiriyor  ",
+        "url": "https://www.yenimesaj.com.tr/pazari-kaybettigimizde-yeniden-kazanmak-bedel-gerektiriyor-H1614871.htm",
+        "domain": "yenimesaj.com.tr",
+        "language": "Turkish",
         "tone": 0,
-        "seendate": "20260821T110000Z",
+        "seendate": "20260822T114500Z",
         "source": "GDELT"
       },
       {
@@ -135,15 +106,6 @@
         "language": "Chinese",
         "tone": 0,
         "seendate": "20260821T233000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Μαρινάκης : Η Ελλάδα είναι πιο οχυρωμένη , πιο ισχυρή από ποτέ , γεμίσαμε « Τουρκοφάγους » ",
-        "url": "https://www.newsbomb.gr/politikh/story/1757900/marinakis-i-ellada-einai-pio-oxyromeni-pio-isxyri-apo-pote-gemisame-tourkofagous",
-        "domain": "newsbomb.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260821T103000Z",
         "source": "GDELT"
       },
       {
@@ -165,30 +127,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Trump says US is waging economic warfare against Iran | Jefferson City News Tribune",
-        "url": "https://www.newstribune.com/news/2026/aug/21/trump-says-us-is-waging-economic-warfare-against/",
-        "domain": "newstribune.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260821T110000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Vučić obilazi Mačvanski , Kolubarski , Sremski i Jablanički okrug",
-        "url": "https://www.novosti.rs/vesti/politika/1640044/vucic-narodom-slusa-probleme-mestana-predsednik-obisao-novu-zgradu-trznice-koceljevi-zbog-takvih-kao-nasa-ekonomija-raste",
-        "domain": "novosti.rs",
-        "language": "Serbian",
-        "tone": 0,
-        "seendate": "20260821T111500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Vučić sa narodom : Predsednik ceo dan razgovarao sa građanima i rešavao probleme ! ",
         "url": "https://www.alo.rs/vesti/politika/16909488/vucic-sa-narodom-predsednik-ceo-dan-razgovarao-sa-gradjanima-i-resavao-probleme.html",
         "domain": "alo.rs",
         "language": "Serbian",
         "tone": 0,
         "seendate": "20260821T194500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Alzan Exportación Maquiladoras",
+        "url": "https://laverdad.com.mx/2026/08/alzan-exportacion-maquiladoras/",
+        "domain": "laverdad.com.mx",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260822T103000Z",
         "source": "GDELT"
       },
       {
@@ -199,28 +152,10 @@
         "tone": 0,
         "seendate": "20260821T153000Z",
         "source": "GDELT"
-      },
-      {
-        "title": "2026全球哪些代孕国家对国际委托父母最友好 ？ - 双峰塔医疗中心",
-        "url": "https://blog.udn.com:443/f7461c4a/192211459",
-        "domain": "blog.udn.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T091500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "نهاية « الشرق الأوسط الأمريكي ».. كيف أطاحت حربا غزة وإيران بنظام إقليمي دام 35 عامًا ؟ ",
-        "url": "https://www.fj-p.com/433126/%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A-%D9%83%D9%8A%D9%81-%D8%A3%D8%B7%D8%A7/",
-        "domain": "fj-p.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260821T121500Z",
-        "source": "GDELT"
       }
     ],
     "crypto": {
-      "btc_price_usd": 77123
+      "btc_price_usd": 77210
     },
     "exchange_rates": [
       {
@@ -332,14 +267,6 @@
     },
     {
       "id": 4,
-      "name": "川普擬發動 「 經濟諾曼第登陸 」 伊朗恐面臨毀滅性經濟衝擊",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T034500Z",
-      "source": "n.yam.com"
-    },
-    {
-      "id": 5,
       "name": "رسائل اليوم التالي .. تصميم أميركي على خنق اقتصاد إيران",
       "score": 5.0,
       "category": "news",
@@ -347,15 +274,7 @@
       "source": "alhurra.com"
     },
     {
-      "id": 6,
-      "name": "AKPnin 25 . yılı : Çeyrek asırda Türkiyede neler değişti ? ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T111500Z",
-      "source": "haberler.com"
-    },
-    {
-      "id": 7,
+      "id": 5,
       "name": "Ekonomi diğer her şeyden ayrı düşünülebilir mi ? ",
       "score": 5.0,
       "category": "news",
@@ -363,28 +282,44 @@
       "source": "bloomberght.com"
     },
     {
-      "id": 8,
-      "name": "Küresel piyasalarda tahvil alarmı : Faizler yükseliyor , bel",
+      "id": 6,
+      "name": "Gebze Ticaret Odası Başkanı : Sanayicinin önündeki en büyük ",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260821T073000Z",
-      "source": "ekonomi.haber7.com"
-    },
-    {
-      "id": 9,
-      "name": "Küresel piyasalarda tahvil piyasalarına ilişkin belirsizlik ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T064500Z",
+      "last_seen": "20260822T093000Z",
       "source": "haberler.com"
     },
     {
-      "id": 10,
-      "name": "Día D : la guerra económica de Trump contra Irán con la que ",
+      "id": 7,
+      "name": "  Pazarý kaybettiðimizde yeniden kazanmak bedel gerektiriyor",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260821T110000Z",
-      "source": "acento.com.do"
+      "last_seen": "20260822T114500Z",
+      "source": "yenimesaj.com.tr"
+    },
+    {
+      "id": 8,
+      "name": "劉燕婷觀點 ： 美伊談判60天到期 ， 海峽僵局與中東北約預備下一擊 ？ | 劉燕婷 | 評論",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T233000Z",
+      "source": "storm.mg"
+    },
+    {
+      "id": 9,
+      "name": " 【 新聞第一線 】 美剛制裁 伊總統急喊停戰 波羅的海爆開火 ？ | 川普 | 中國油廠 | 伊朗經濟",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T184500Z",
+      "source": "ntdtv.com"
+    },
+    {
+      "id": 10,
+      "name": " [ 中报 ] 中电电机 ( 603988 ): 中电电机2026年半年度报告 - CFi . CN 中财网",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T160000Z",
+      "source": "cfi.net.cn"
     }
   ],
   "events": [
@@ -416,30 +351,12 @@
       "source": "GDELT"
     },
     {
-      "title": "川普擬發動 「 經濟諾曼第登陸 」 伊朗恐面臨毀滅性經濟衝擊",
-      "url": "https://n.yam.com/Article/20260821877481",
-      "domain": "n.yam.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260821T034500Z",
-      "source": "GDELT"
-    },
-    {
       "title": "رسائل اليوم التالي .. تصميم أميركي على خنق اقتصاد إيران",
       "url": "https://alhurra.com/35130",
       "domain": "alhurra.com",
       "language": "Arabic",
       "tone": 0,
       "seendate": "20260821T133000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "AKPnin 25 . yılı : Çeyrek asırda Türkiyede neler değişti ? ",
-      "url": "https://www.haberler.com/saglik/akp-nin-25-yili-ceyrek-asirda-turkiye-de-neler-20164410-haberi/",
-      "domain": "haberler.com",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260821T111500Z",
       "source": "GDELT"
     },
     {
@@ -452,30 +369,21 @@
       "source": "GDELT"
     },
     {
-      "title": "Küresel piyasalarda tahvil alarmı : Faizler yükseliyor , belirsizlik büyüyor ! ",
-      "url": "https://ekonomi.haber7.com/ekonomi/haber/3653043-kuresel-piyasalarda-tahvil-alarmi-faizler-yukseliyor-belirsizlik-buyuyor",
-      "domain": "ekonomi.haber7.com",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260821T073000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Küresel piyasalarda tahvil piyasalarına ilişkin belirsizlik devam ediyor",
-      "url": "https://www.haberler.com/ekonomi/kuresel-piyasalarda-tahvil-piyasalarina-iliskin-20163128-haberi/",
+      "title": "Gebze Ticaret Odası Başkanı : Sanayicinin önündeki en büyük engel finansman maliyetleri",
+      "url": "https://www.haberler.com/yerel/gto-baskani-aslantas-pazari-kaybettigimizde-20166771-haberi/",
       "domain": "haberler.com",
       "language": "Turkish",
       "tone": 0,
-      "seendate": "20260821T064500Z",
+      "seendate": "20260822T093000Z",
       "source": "GDELT"
     },
     {
-      "title": "Día D : la guerra económica de Trump contra Irán con la que promete un aislamiento sin precedentes",
-      "url": "https://acento.com.do/france24/dia-d-la-guerra-economica-de-trump-contra-iran-con-la-que-promete-un-aislamiento-sin-precedentes-9740624.html",
-      "domain": "acento.com.do",
-      "language": "Spanish",
+      "title": "  Pazarý kaybettiðimizde yeniden kazanmak bedel gerektiriyor  ",
+      "url": "https://www.yenimesaj.com.tr/pazari-kaybettigimizde-yeniden-kazanmak-bedel-gerektiriyor-H1614871.htm",
+      "domain": "yenimesaj.com.tr",
+      "language": "Turkish",
       "tone": 0,
-      "seendate": "20260821T110000Z",
+      "seendate": "20260822T114500Z",
       "source": "GDELT"
     },
     {
@@ -485,15 +393,6 @@
       "language": "Chinese",
       "tone": 0,
       "seendate": "20260821T233000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Μαρινάκης : Η Ελλάδα είναι πιο οχυρωμένη , πιο ισχυρή από ποτέ , γεμίσαμε « Τουρκοφάγους » ",
-      "url": "https://www.newsbomb.gr/politikh/story/1757900/marinakis-i-ellada-einai-pio-oxyromeni-pio-isxyri-apo-pote-gemisame-tourkofagous",
-      "domain": "newsbomb.gr",
-      "language": "Greek",
-      "tone": 0,
-      "seendate": "20260821T103000Z",
       "source": "GDELT"
     },
     {
@@ -515,12 +414,30 @@
       "source": "GDELT"
     },
     {
-      "title": "Trump says US is waging economic warfare against Iran | Jefferson City News Tribune",
-      "url": "https://www.newstribune.com/news/2026/aug/21/trump-says-us-is-waging-economic-warfare-against/",
-      "domain": "newstribune.com",
+      "title": "Vučić sa narodom : Predsednik ceo dan razgovarao sa građanima i rešavao probleme ! ",
+      "url": "https://www.alo.rs/vesti/politika/16909488/vucic-sa-narodom-predsednik-ceo-dan-razgovarao-sa-gradjanima-i-resavao-probleme.html",
+      "domain": "alo.rs",
+      "language": "Serbian",
+      "tone": 0,
+      "seendate": "20260821T194500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Alzan Exportación Maquiladoras",
+      "url": "https://laverdad.com.mx/2026/08/alzan-exportacion-maquiladoras/",
+      "domain": "laverdad.com.mx",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260822T103000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "The existential crisis of European capitalism",
+      "url": "https://marxist.com/the-existential-crisis-of-european-capitalism.htm",
+      "domain": "marxist.com",
       "language": "English",
       "tone": 0,
-      "seendate": "20260821T110000Z",
+      "seendate": "20260821T153000Z",
       "source": "GDELT"
     }
   ],
