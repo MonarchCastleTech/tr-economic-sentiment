@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-22T19:20:37.590429+00:00",
+    "generated": "2026-08-23T02:22:41.142278+00:00",
     "mode": "partial",
     "sources": [
       "gdelt_articles",
@@ -157,7 +157,7 @@
       }
     ],
     "crypto": {
-      "btc_price_usd": 77305
+      "btc_price_usd": 77099
     },
     "exchange_rates": [
       {
@@ -170,15 +170,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 74.77
+        "rate": 64.54
       },
       {
         "currency": "ALL",
-        "rate": 87.5
+        "rate": 79.12
       },
       {
         "currency": "AMD",
-        "rate": 356.51
+        "rate": 361.76
       },
       {
         "currency": "ANG",
@@ -186,7 +186,7 @@
       },
       {
         "currency": "AOA",
-        "rate": 934.92
+        "rate": 916.63
       },
       {
         "currency": "ARS",
@@ -202,7 +202,7 @@
       },
       {
         "currency": "AZN",
-        "rate": 1.59
+        "rate": 1.69
       },
       {
         "currency": "BAM",
@@ -214,7 +214,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 121.86
+        "rate": 121.6
       },
       {
         "currency": "BGN",
@@ -226,7 +226,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2665.4
+        "rate": 2966.62
       },
       {
         "currency": "BMD",
@@ -238,7 +238,7 @@
       },
       {
         "currency": "BOB",
-        "rate": 7.01
+        "rate": 11.44
       }
     ]
   },
