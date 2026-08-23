@@ -1,17 +1,15 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-23T02:22:41.142278+00:00",
-    "mode": "partial",
+    "generated": "2026-08-23T07:31:47.812052+00:00",
+    "mode": "live",
     "sources": [
       "gdelt_articles",
       "crypto",
       "exchange_rates"
     ],
-    "source_notes": [
-      "GDELT unavailable; retained last validated news snapshot."
-    ],
-    "news_snapshot_at": "2026-08-22T13:29:17.655993+00:00",
+    "source_notes": [],
+    "news_snapshot_at": "2026-08-23T07:31:47.812074+00:00",
     "version": "1.0.0"
   },
   "stats": [
@@ -39,48 +37,12 @@
   "live_data": {
     "gdelt_articles": [
       {
-        "title": "JPMorgandan Türkiye analizi : Dolar ve faiz indirimi için kritik tarih verildi ! ",
-        "url": "https://www.memleket.com.tr/jpmorgandan-turkiye-analizi-dolar-ve-faiz-indirimi-icin-kritik-tarih-verildi-2363141h.htm",
-        "domain": "memleket.com.tr",
+        "title": "Sanayici yeni yatırımdan önce mevcudu koruyor ! ",
+        "url": "https://www.yeniakit.com.tr/haber/sanayici-yeni-yatirimdan-once-mevcudu-koruyor-2018923.html",
+        "domain": "yeniakit.com.tr",
         "language": "Turkish",
         "tone": 0,
-        "seendate": "20260821T133000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "美点名要求加入针对伊朗经济制裁 中方作出回应",
-        "url": "https://www.wenxuecity.com/news/2026/08/21/126749340.html",
-        "domain": "wenxuecity.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T173000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "华盛顿想打场  经济诺曼底  真有这底气 ？ ",
-        "url": "https://baijiahao.baidu.com/s?id=1874150217641208359",
-        "domain": "baijiahao.baidu.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T170000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "رسائل اليوم التالي .. تصميم أميركي على خنق اقتصاد إيران",
-        "url": "https://alhurra.com/35130",
-        "domain": "alhurra.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260821T133000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ekonomi diğer her şeyden ayrı düşünülebilir mi ? ",
-        "url": "https://www.bloomberght.com/yorum/caglar-kuzlukluoglu/3786156-ekonomi-diger-her-seyden-ayri-dusunulebilir-mi",
-        "domain": "bloomberght.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260821T161500Z",
+        "seendate": "20260823T070000Z",
         "source": "GDELT"
       },
       {
@@ -102,42 +64,6 @@
         "source": "GDELT"
       },
       {
-        "title": "劉燕婷觀點 ： 美伊談判60天到期 ， 海峽僵局與中東北約預備下一擊 ？ | 劉燕婷 | 評論",
-        "url": "https://www.storm.mg/article/11158281",
-        "domain": "storm.mg",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T233000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": " 【 新聞第一線 】 美剛制裁 伊總統急喊停戰 波羅的海爆開火 ？ | 川普 | 中國油廠 | 伊朗經濟",
-        "url": "https://www.ntdtv.com/b5/2026/08/21/a104126098.html",
-        "domain": "ntdtv.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T184500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": " [ 中报 ] 中电电机 ( 603988 ): 中电电机2026年半年度报告 - CFi . CN 中财网",
-        "url": "http://www.cfi.net.cn/p20260821005476.html",
-        "domain": "cfi.net.cn",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T160000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Vučić sa narodom : Predsednik ceo dan razgovarao sa građanima i rešavao probleme ! ",
-        "url": "https://www.alo.rs/vesti/politika/16909488/vucic-sa-narodom-predsednik-ceo-dan-razgovarao-sa-gradjanima-i-resavao-probleme.html",
-        "domain": "alo.rs",
-        "language": "Serbian",
-        "tone": 0,
-        "seendate": "20260821T194500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Alzan Exportación Maquiladoras",
         "url": "https://laverdad.com.mx/2026/08/alzan-exportacion-maquiladoras/",
         "domain": "laverdad.com.mx",
@@ -145,19 +71,10 @@
         "tone": 0,
         "seendate": "20260822T103000Z",
         "source": "GDELT"
-      },
-      {
-        "title": "The existential crisis of European capitalism",
-        "url": "https://marxist.com/the-existential-crisis-of-european-capitalism.htm",
-        "domain": "marxist.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260821T153000Z",
-        "source": "GDELT"
       }
     ],
     "crypto": {
-      "btc_price_usd": 77099
+      "btc_price_usd": 76226
     },
     "exchange_rates": [
       {
@@ -245,46 +162,14 @@
   "entities": [
     {
       "id": 1,
-      "name": "JPMorgandan Türkiye analizi : Dolar ve faiz indirimi için kr",
+      "name": "Sanayici yeni yatırımdan önce mevcudu koruyor ! ",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260821T133000Z",
-      "source": "memleket.com.tr"
+      "last_seen": "20260823T070000Z",
+      "source": "yeniakit.com.tr"
     },
     {
       "id": 2,
-      "name": "美点名要求加入针对伊朗经济制裁 中方作出回应",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T173000Z",
-      "source": "wenxuecity.com"
-    },
-    {
-      "id": 3,
-      "name": "华盛顿想打场  经济诺曼底  真有这底气 ？ ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T170000Z",
-      "source": "baijiahao.baidu.com"
-    },
-    {
-      "id": 4,
-      "name": "رسائل اليوم التالي .. تصميم أميركي على خنق اقتصاد إيران",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T133000Z",
-      "source": "alhurra.com"
-    },
-    {
-      "id": 5,
-      "name": "Ekonomi diğer her şeyden ayrı düşünülebilir mi ? ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T161500Z",
-      "source": "bloomberght.com"
-    },
-    {
-      "id": 6,
       "name": "Gebze Ticaret Odası Başkanı : Sanayicinin önündeki en büyük ",
       "score": 5.0,
       "category": "news",
@@ -292,7 +177,7 @@
       "source": "haberler.com"
     },
     {
-      "id": 7,
+      "id": 3,
       "name": "  Pazarý kaybettiðimizde yeniden kazanmak bedel gerektiriyor",
       "score": 5.0,
       "category": "news",
@@ -300,74 +185,22 @@
       "source": "yenimesaj.com.tr"
     },
     {
-      "id": 8,
-      "name": "劉燕婷觀點 ： 美伊談判60天到期 ， 海峽僵局與中東北約預備下一擊 ？ | 劉燕婷 | 評論",
+      "id": 4,
+      "name": "Alzan Exportación Maquiladoras",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260821T233000Z",
-      "source": "storm.mg"
-    },
-    {
-      "id": 9,
-      "name": " 【 新聞第一線 】 美剛制裁 伊總統急喊停戰 波羅的海爆開火 ？ | 川普 | 中國油廠 | 伊朗經濟",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T184500Z",
-      "source": "ntdtv.com"
-    },
-    {
-      "id": 10,
-      "name": " [ 中报 ] 中电电机 ( 603988 ): 中电电机2026年半年度报告 - CFi . CN 中财网",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T160000Z",
-      "source": "cfi.net.cn"
+      "last_seen": "20260822T103000Z",
+      "source": "laverdad.com.mx"
     }
   ],
   "events": [
     {
-      "title": "JPMorgandan Türkiye analizi : Dolar ve faiz indirimi için kritik tarih verildi ! ",
-      "url": "https://www.memleket.com.tr/jpmorgandan-turkiye-analizi-dolar-ve-faiz-indirimi-icin-kritik-tarih-verildi-2363141h.htm",
-      "domain": "memleket.com.tr",
+      "title": "Sanayici yeni yatırımdan önce mevcudu koruyor ! ",
+      "url": "https://www.yeniakit.com.tr/haber/sanayici-yeni-yatirimdan-once-mevcudu-koruyor-2018923.html",
+      "domain": "yeniakit.com.tr",
       "language": "Turkish",
       "tone": 0,
-      "seendate": "20260821T133000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "美点名要求加入针对伊朗经济制裁 中方作出回应",
-      "url": "https://www.wenxuecity.com/news/2026/08/21/126749340.html",
-      "domain": "wenxuecity.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260821T173000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "华盛顿想打场  经济诺曼底  真有这底气 ？ ",
-      "url": "https://baijiahao.baidu.com/s?id=1874150217641208359",
-      "domain": "baijiahao.baidu.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260821T170000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "رسائل اليوم التالي .. تصميم أميركي على خنق اقتصاد إيران",
-      "url": "https://alhurra.com/35130",
-      "domain": "alhurra.com",
-      "language": "Arabic",
-      "tone": 0,
-      "seendate": "20260821T133000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Ekonomi diğer her şeyden ayrı düşünülebilir mi ? ",
-      "url": "https://www.bloomberght.com/yorum/caglar-kuzlukluoglu/3786156-ekonomi-diger-her-seyden-ayri-dusunulebilir-mi",
-      "domain": "bloomberght.com",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260821T161500Z",
+      "seendate": "20260823T070000Z",
       "source": "GDELT"
     },
     {
@@ -389,57 +222,12 @@
       "source": "GDELT"
     },
     {
-      "title": "劉燕婷觀點 ： 美伊談判60天到期 ， 海峽僵局與中東北約預備下一擊 ？ | 劉燕婷 | 評論",
-      "url": "https://www.storm.mg/article/11158281",
-      "domain": "storm.mg",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260821T233000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": " 【 新聞第一線 】 美剛制裁 伊總統急喊停戰 波羅的海爆開火 ？ | 川普 | 中國油廠 | 伊朗經濟",
-      "url": "https://www.ntdtv.com/b5/2026/08/21/a104126098.html",
-      "domain": "ntdtv.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260821T184500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": " [ 中报 ] 中电电机 ( 603988 ): 中电电机2026年半年度报告 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20260821005476.html",
-      "domain": "cfi.net.cn",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260821T160000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Vučić sa narodom : Predsednik ceo dan razgovarao sa građanima i rešavao probleme ! ",
-      "url": "https://www.alo.rs/vesti/politika/16909488/vucic-sa-narodom-predsednik-ceo-dan-razgovarao-sa-gradjanima-i-resavao-probleme.html",
-      "domain": "alo.rs",
-      "language": "Serbian",
-      "tone": 0,
-      "seendate": "20260821T194500Z",
-      "source": "GDELT"
-    },
-    {
       "title": "Alzan Exportación Maquiladoras",
       "url": "https://laverdad.com.mx/2026/08/alzan-exportacion-maquiladoras/",
       "domain": "laverdad.com.mx",
       "language": "Spanish",
       "tone": 0,
       "seendate": "20260822T103000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "The existential crisis of European capitalism",
-      "url": "https://marxist.com/the-existential-crisis-of-european-capitalism.htm",
-      "domain": "marxist.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260821T153000Z",
       "source": "GDELT"
     }
   ],
