@@ -1,18 +1,15 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-23T13:30:40.743842+00:00",
-    "mode": "partial",
+    "generated": "2026-08-23T19:20:21.787554+00:00",
+    "mode": "live",
     "sources": [
       "gdelt_articles",
-      "economic_news",
       "crypto",
       "exchange_rates"
     ],
-    "source_notes": [
-      "GDELT unavailable; retained last validated news snapshot."
-    ],
-    "news_snapshot_at": "2026-08-23T07:31:47.812074+00:00",
+    "source_notes": [],
+    "news_snapshot_at": "2026-08-23T19:20:21.787577+00:00",
     "version": "1.0.0"
   },
   "stats": [
@@ -40,86 +37,21 @@
   "live_data": {
     "gdelt_articles": [
       {
-        "title": "Sanayici yeni yatırımdan önce mevcudu koruyor ! ",
-        "url": "https://www.yeniakit.com.tr/haber/sanayici-yeni-yatirimdan-once-mevcudu-koruyor-2018923.html",
-        "domain": "yeniakit.com.tr",
-        "language": "Turkish",
+        "title": "جريدة البلاد |  المركزي التركي  يبدأ مزادات مباشرة لشراء السندات الحكومية لدعم الاستقرار المالي",
+        "url": "https://www.albiladpress.com/news/2026/6523/finance/1015628.html",
+        "domain": "albiladpress.com",
+        "language": "Arabic",
         "tone": 0,
-        "seendate": "20260823T070000Z",
+        "seendate": "20260823T131500Z",
         "source": "GDELT"
       },
       {
-        "title": "Gebze Ticaret Odası Başkanı : Sanayicinin önündeki en büyük engel finansman maliyetleri",
-        "url": "https://www.haberler.com/yerel/gto-baskani-aslantas-pazari-kaybettigimizde-20166771-haberi/",
-        "domain": "haberler.com",
-        "language": "Turkish",
+        "title": "美国酝酿YCC ， 美债风暴与全球储备大转向 - 博客",
+        "url": "https://blog.wenxuecity.com/myblog/78474/202608/18069.html",
+        "domain": "blog.wenxuecity.com",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260822T093000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "  Pazarý kaybettiðimizde yeniden kazanmak bedel gerektiriyor  ",
-        "url": "https://www.yenimesaj.com.tr/pazari-kaybettigimizde-yeniden-kazanmak-bedel-gerektiriyor-H1614871.htm",
-        "domain": "yenimesaj.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260822T114500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Alzan Exportación Maquiladoras",
-        "url": "https://laverdad.com.mx/2026/08/alzan-exportacion-maquiladoras/",
-        "domain": "laverdad.com.mx",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260822T103000Z",
-        "source": "GDELT"
-      }
-    ],
-    "economic_news": [
-      {
-        "title": "Zam dalgası geliyor ! AKP , 500 milyar TLlik kaybı böyle telafi edecek",
-        "url": "https://www.sozcu.com.tr/zam-dalgasi-geliyor-akp-500-milyar-tl-lik-kaybi-boyle-telafi-edecek-p351894",
-        "domain": "sozcu.com.tr",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260823T083000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Sanayiciden  bıçak kemiğe dayandı  uyarısı : Enflasyonla mücadele sanayiyi durma noktasına getirdi",
-        "url": "https://www.haberler.com/guncel/anka-ekonomi-koordinatoru-erdal-saglam-in-20168531-haberi/",
-        "domain": "haberler.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260823T074500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Yastıkaltındaki altını ekonomiye kazandırmanın yolu",
-        "url": "https://www.ensonhaber.com/yazarlar/asli-didari/yastikaltindaki-altini-ekonomiye-kazandirmanin-yolu",
-        "domain": "ensonhaber.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260823T113000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Η αυτοαναφορικότητα της κυβέρνησης στην εξωτερική πολιτική κρύβει κινδύνους",
-        "url": "https://www.topontiki.gr/2026/08/23/i-aftoanaforikotita-tis-kivernisis-stin-exoteriki-politiki-krivi-kindinous/",
-        "domain": "topontiki.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260823T114500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Küresel piyasalarda satış baskısı etkili oldu",
-        "url": "https://www.ensonhaber.com/kuresel-piyasalarda-satis-baskisi-etkili-oldu-h1559695",
-        "domain": "ensonhaber.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260822T143000Z",
+        "seendate": "20260823T174500Z",
         "source": "GDELT"
       },
       {
@@ -129,6 +61,15 @@
         "language": "Persian",
         "tone": 0,
         "seendate": "20260823T103000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "关税突发 ！ 开撕 ， 加拿大对等报复 ！ 美债收益率走高 ， 比特币  跳水 ！ 经济战 ， 伊朗警告周边国家 - 股票 - 金融界",
+        "url": "https://stock.jrj.com.cn/2026/08/23131558211497.shtml",
+        "domain": "stock.jrj.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260823T101500Z",
         "source": "GDELT"
       },
       {
@@ -150,87 +91,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Fostul ministru al Justiției Radu Marinescu , comentariu spumos după reacțiile la motivarea CCR privind amendamentul Fritz :  În timp ce Constantinopolul era copleșit de turci , unii locuitori erau foarte preocupați de dezbaterea privind sexul îngeri...",
-        "url": "https://www.romaniatv.net/fostu-ministru-al-justitiei-radu-marinescu-comentariu-spumos-dupa-reactiile-la-motivarea-ccr-privind-amendamentul-fritz-in-timp-ce-constantinopolul-era-coplesit-de-turci-unii-locuitori-era_9765568.html",
-        "domain": "romaniatv.net",
-        "language": "Romanian",
-        "tone": 0,
-        "seendate": "20260823T083000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "关税突发 ！ 开撕 ， 加拿大对等报复 ！ 美债收益率走高 ， 比特币  跳水 ！ 经济战 ， 伊朗警告周边国家 - 股票 - 金融界",
-        "url": "https://stock.jrj.com.cn/2026/08/23131558211497.shtml",
-        "domain": "stock.jrj.com.cn",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260823T101500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "  Non ci arrenderemo mai : Pezeshkian alza il muro contro Washington , il Pakistan prova ad aprire un varco",
-        "url": "https://www.affaritaliani.it/esteri/non-ci-arrenderemo-mai-pezeshkian-alza-il-muro-contro-washington-il-pakistan-prova-ad-aprire-un-varco.html",
-        "domain": "affaritaliani.it",
-        "language": "Italian",
-        "tone": 0,
-        "seendate": "20260823T111500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Fostul ministru al Justiției , despre reacțiile la motivarea CCR : „ În timp ce Constantinopolul era copleșit de turci , unii locuitori dezbăteau sexul îngerilor  ",
-        "url": "https://ziare.com/motivare-ccr/fost-ministru-justitie-reactie-2031258",
-        "domain": "ziare.com",
-        "language": "Romanian",
-        "tone": 0,
-        "seendate": "20260822T163000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "US - Iran war : Crude oil price is key | Is Tehran writing the obituary of Turkey - Pakistan - Saudi Arabia defence pact ? ",
-        "url": "https://www.livemint.com/market/commodities/us-iran-war-crude-oil-price-is-key-is-tehran-writing-the-obituary-of-turkey-pakistan-saudi-arabias-defence-pact-11787455149964.html",
-        "domain": "livemint.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260823T083000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Trump  D - Day  economic war on Iran : Why Gulf states are most worried",
-        "url": "https://timesofindia.indiatimes.com/world/middle-east/trumps-d-day-economic-war-on-iran-why-gulf-states-are-most-worried/articleshow/133438059.cms",
-        "domain": "timesofindia.indiatimes.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260823T111500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Trump economic isolation plan risks Iran strikes across Gulf",
-        "url": "https://economictimes.indiatimes.com/news/defence/trumps-economic-isolation-plan-risks-iran-strikes-across-gulf/articleshow/133425259.cms",
-        "domain": "economictimes.indiatimes.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T140000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Голямата опасност за бедствие в Иран : Икономическата сянка не на Тръмп , а на ОАЕ",
-        "url": "https://www.actualno.com/economy/goljamata-opasnost-za-bedstvie-v-iran-ikonomicheskata-sjanka-ne-na-trymp-a-na-oae-news_2630825.html",
-        "domain": "actualno.com",
-        "language": "Bulgarian",
-        "tone": 0,
-        "seendate": "20260822T140000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Esnafın maliyet yükü katlandı : TESKten Eşel Mobil Sistemi çağrısı - Haber Hürriyeti",
-        "url": "https://www.haberhurriyeti.com/haber/28565971/esnafin-maliyet-yuku-katlandi-teskten-esel-mobil-sistemi-cagrisi",
-        "domain": "haberhurriyeti.com",
-        "language": "Turkish",
-        "tone": 0,
-        "seendate": "20260822T160000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Petroquímica en Perú : ¿ es viable que se implemente como ofrece el Gobierno de Keiko Fujimori ? | ECONOMIA",
         "url": "https://gestion.pe/economia/petroquimica-en-peru-es-viable-que-se-implemente-como-ofrece-el-gobierno-de-keiko-fujimori-noticia/",
         "domain": "gestion.pe",
@@ -238,10 +98,19 @@
         "tone": 0,
         "seendate": "20260823T103000Z",
         "source": "GDELT"
+      },
+      {
+        "title": "Cuba : la esperanza movilizada en la Isla de la Libertad",
+        "url": "https://pacocol.org/cuba-la-esperanza-movilizada-en-la-isla-de-la-libertad/",
+        "domain": "pacocol.org",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260823T144500Z",
+        "source": "GDELT"
       }
     ],
     "crypto": {
-      "btc_price_usd": 77536
+      "btc_price_usd": 77347
     },
     "exchange_rates": [
       {
@@ -329,6 +198,46 @@
   "entities": [
     {
       "id": 1,
+      "name": "جريدة البلاد |  المركزي التركي  يبدأ مزادات مباشرة لشراء الس",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260823T131500Z",
+      "source": "albiladpress.com"
+    },
+    {
+      "id": 2,
+      "name": "美国酝酿YCC ， 美债风暴与全球储备大转向 - 博客",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260823T174500Z",
+      "source": "blog.wenxuecity.com"
+    },
+    {
+      "id": 3,
+      "name": "پیامدها و چالش‌های تحریم جدید آمریکا ، دیوید اعتباری",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260823T103000Z",
+      "source": "news.gooya.com"
+    },
+    {
+      "id": 4,
+      "name": "关税突发 ！ 开撕 ， 加拿大对等报复 ！ 美债收益率走高 ， 比特币  跳水 ！ 经济战 ， 伊朗警告周边国家 - 股",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260823T101500Z",
+      "source": "stock.jrj.com.cn"
+    },
+    {
+      "id": 5,
+      "name": "伊朗警告邻国 加入美国经济战将被视为敌人",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260823T114500Z",
+      "source": "zaobao.com.sg"
+    },
+    {
+      "id": 6,
       "name": "Sanayici yeni yatırımdan önce mevcudu koruyor ! ",
       "score": 5.0,
       "category": "news",
@@ -336,31 +245,68 @@
       "source": "yeniakit.com.tr"
     },
     {
-      "id": 2,
-      "name": "Gebze Ticaret Odası Başkanı : Sanayicinin önündeki en büyük ",
+      "id": 7,
+      "name": "Petroquímica en Perú : ¿ es viable que se implemente como of",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260822T093000Z",
-      "source": "haberler.com"
+      "last_seen": "20260823T103000Z",
+      "source": "gestion.pe"
     },
     {
-      "id": 3,
-      "name": "  Pazarý kaybettiðimizde yeniden kazanmak bedel gerektiriyor",
+      "id": 8,
+      "name": "Cuba : la esperanza movilizada en la Isla de la Libertad",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260822T114500Z",
-      "source": "yenimesaj.com.tr"
-    },
-    {
-      "id": 4,
-      "name": "Alzan Exportación Maquiladoras",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260822T103000Z",
-      "source": "laverdad.com.mx"
+      "last_seen": "20260823T144500Z",
+      "source": "pacocol.org"
     }
   ],
   "events": [
+    {
+      "title": "جريدة البلاد |  المركزي التركي  يبدأ مزادات مباشرة لشراء السندات الحكومية لدعم الاستقرار المالي",
+      "url": "https://www.albiladpress.com/news/2026/6523/finance/1015628.html",
+      "domain": "albiladpress.com",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260823T131500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "美国酝酿YCC ， 美债风暴与全球储备大转向 - 博客",
+      "url": "https://blog.wenxuecity.com/myblog/78474/202608/18069.html",
+      "domain": "blog.wenxuecity.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260823T174500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "پیامدها و چالش‌های تحریم جدید آمریکا ، دیوید اعتباری",
+      "url": "https://news.gooya.com/2026/08/post-112495.php",
+      "domain": "news.gooya.com",
+      "language": "Persian",
+      "tone": 0,
+      "seendate": "20260823T103000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "关税突发 ！ 开撕 ， 加拿大对等报复 ！ 美债收益率走高 ， 比特币  跳水 ！ 经济战 ， 伊朗警告周边国家 - 股票 - 金融界",
+      "url": "https://stock.jrj.com.cn/2026/08/23131558211497.shtml",
+      "domain": "stock.jrj.com.cn",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260823T101500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "伊朗警告邻国 加入美国经济战将被视为敌人",
+      "url": "https://www.zaobao.com.sg/news/world/story20260823-9561578",
+      "domain": "zaobao.com.sg",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260823T114500Z",
+      "source": "GDELT"
+    },
     {
       "title": "Sanayici yeni yatırımdan önce mevcudu koruyor ! ",
       "url": "https://www.yeniakit.com.tr/haber/sanayici-yeni-yatirimdan-once-mevcudu-koruyor-2018923.html",
@@ -371,30 +317,21 @@
       "source": "GDELT"
     },
     {
-      "title": "Gebze Ticaret Odası Başkanı : Sanayicinin önündeki en büyük engel finansman maliyetleri",
-      "url": "https://www.haberler.com/yerel/gto-baskani-aslantas-pazari-kaybettigimizde-20166771-haberi/",
-      "domain": "haberler.com",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260822T093000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "  Pazarý kaybettiðimizde yeniden kazanmak bedel gerektiriyor  ",
-      "url": "https://www.yenimesaj.com.tr/pazari-kaybettigimizde-yeniden-kazanmak-bedel-gerektiriyor-H1614871.htm",
-      "domain": "yenimesaj.com.tr",
-      "language": "Turkish",
-      "tone": 0,
-      "seendate": "20260822T114500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Alzan Exportación Maquiladoras",
-      "url": "https://laverdad.com.mx/2026/08/alzan-exportacion-maquiladoras/",
-      "domain": "laverdad.com.mx",
+      "title": "Petroquímica en Perú : ¿ es viable que se implemente como ofrece el Gobierno de Keiko Fujimori ? | ECONOMIA",
+      "url": "https://gestion.pe/economia/petroquimica-en-peru-es-viable-que-se-implemente-como-ofrece-el-gobierno-de-keiko-fujimori-noticia/",
+      "domain": "gestion.pe",
       "language": "Spanish",
       "tone": 0,
-      "seendate": "20260822T103000Z",
+      "seendate": "20260823T103000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Cuba : la esperanza movilizada en la Isla de la Libertad",
+      "url": "https://pacocol.org/cuba-la-esperanza-movilizada-en-la-isla-de-la-libertad/",
+      "domain": "pacocol.org",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260823T144500Z",
       "source": "GDELT"
     }
   ],
