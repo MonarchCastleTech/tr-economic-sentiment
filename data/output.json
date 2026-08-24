@@ -4,7 +4,7 @@
     "generated": "2026-08-24T02:21:47.030232+00:00",
     "mode": "partial",
     "sources": [
-      "gdelt_articles",
+      "news_articles",
       "crypto",
       "exchange_rates"
     ],
@@ -37,7 +37,7 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
+    "news_articles": [
       {
         "title": "جريدة البلاد |  المركزي التركي  يبدأ مزادات مباشرة لشراء السندات الحكومية لدعم الاستقرار المالي",
         "url": "https://www.albiladpress.com/news/2026/6523/finance/1015628.html",
@@ -45,7 +45,7 @@
         "language": "Arabic",
         "tone": 0,
         "seendate": "20260823T131500Z",
-        "source": "GDELT"
+        "source": "Google News RSS"
       },
       {
         "title": "美国酝酿YCC ， 美债风暴与全球储备大转向 - 博客",
@@ -54,7 +54,7 @@
         "language": "Chinese",
         "tone": 0,
         "seendate": "20260823T174500Z",
-        "source": "GDELT"
+        "source": "Google News RSS"
       },
       {
         "title": "پیامدها و چالش‌های تحریم جدید آمریکا ، دیوید اعتباری",
@@ -63,7 +63,7 @@
         "language": "Persian",
         "tone": 0,
         "seendate": "20260823T103000Z",
-        "source": "GDELT"
+        "source": "Google News RSS"
       },
       {
         "title": "关税突发 ！ 开撕 ， 加拿大对等报复 ！ 美债收益率走高 ， 比特币  跳水 ！ 经济战 ， 伊朗警告周边国家 - 股票 - 金融界",
@@ -72,7 +72,7 @@
         "language": "Chinese",
         "tone": 0,
         "seendate": "20260823T101500Z",
-        "source": "GDELT"
+        "source": "Google News RSS"
       },
       {
         "title": "伊朗警告邻国 加入美国经济战将被视为敌人",
@@ -81,7 +81,7 @@
         "language": "Chinese",
         "tone": 0,
         "seendate": "20260823T114500Z",
-        "source": "GDELT"
+        "source": "Google News RSS"
       },
       {
         "title": "Sanayici yeni yatırımdan önce mevcudu koruyor ! ",
@@ -90,7 +90,7 @@
         "language": "Turkish",
         "tone": 0,
         "seendate": "20260823T070000Z",
-        "source": "GDELT"
+        "source": "Google News RSS"
       },
       {
         "title": "Petroquímica en Perú : ¿ es viable que se implemente como ofrece el Gobierno de Keiko Fujimori ? | ECONOMIA",
@@ -99,7 +99,7 @@
         "language": "Spanish",
         "tone": 0,
         "seendate": "20260823T103000Z",
-        "source": "GDELT"
+        "source": "Google News RSS"
       },
       {
         "title": "Cuba : la esperanza movilizada en la Isla de la Libertad",
@@ -108,7 +108,7 @@
         "language": "Spanish",
         "tone": 0,
         "seendate": "20260823T144500Z",
-        "source": "GDELT"
+        "source": "Google News RSS"
       }
     ],
     "crypto": {
@@ -271,7 +271,7 @@
       "language": "Arabic",
       "tone": 0,
       "seendate": "20260823T131500Z",
-      "source": "GDELT"
+      "source": "Google News RSS"
     },
     {
       "title": "美国酝酿YCC ， 美债风暴与全球储备大转向 - 博客",
@@ -280,7 +280,7 @@
       "language": "Chinese",
       "tone": 0,
       "seendate": "20260823T174500Z",
-      "source": "GDELT"
+      "source": "Google News RSS"
     },
     {
       "title": "پیامدها و چالش‌های تحریم جدید آمریکا ، دیوید اعتباری",
@@ -289,7 +289,7 @@
       "language": "Persian",
       "tone": 0,
       "seendate": "20260823T103000Z",
-      "source": "GDELT"
+      "source": "Google News RSS"
     },
     {
       "title": "关税突发 ！ 开撕 ， 加拿大对等报复 ！ 美债收益率走高 ， 比特币  跳水 ！ 经济战 ， 伊朗警告周边国家 - 股票 - 金融界",
@@ -298,7 +298,7 @@
       "language": "Chinese",
       "tone": 0,
       "seendate": "20260823T101500Z",
-      "source": "GDELT"
+      "source": "Google News RSS"
     },
     {
       "title": "伊朗警告邻国 加入美国经济战将被视为敌人",
@@ -307,7 +307,7 @@
       "language": "Chinese",
       "tone": 0,
       "seendate": "20260823T114500Z",
-      "source": "GDELT"
+      "source": "Google News RSS"
     },
     {
       "title": "Sanayici yeni yatırımdan önce mevcudu koruyor ! ",
@@ -316,7 +316,7 @@
       "language": "Turkish",
       "tone": 0,
       "seendate": "20260823T070000Z",
-      "source": "GDELT"
+      "source": "Google News RSS"
     },
     {
       "title": "Petroquímica en Perú : ¿ es viable que se implemente como ofrece el Gobierno de Keiko Fujimori ? | ECONOMIA",
@@ -325,7 +325,7 @@
       "language": "Spanish",
       "tone": 0,
       "seendate": "20260823T103000Z",
-      "source": "GDELT"
+      "source": "Google News RSS"
     },
     {
       "title": "Cuba : la esperanza movilizada en la Isla de la Libertad",
@@ -334,7 +334,7 @@
       "language": "Spanish",
       "tone": 0,
       "seendate": "20260823T144500Z",
-      "source": "GDELT"
+      "source": "Google News RSS"
     }
   ],
   "timeseries": [],

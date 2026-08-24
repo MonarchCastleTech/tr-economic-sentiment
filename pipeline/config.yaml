@@ -8,11 +8,11 @@ openrouter:
   model: "openrouter/free"
   fallback_model: "openrouter/free"
 
-gdelt_query: "Turkey economy inflation finance"
+news_query: "Turkey economy inflation finance"
 include_forex: true
 
 sources:
-  - name: "GDELT"
+  - name: "Google News RSS"
 
 refresh:
   interval_hours: 6

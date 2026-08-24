@@ -12,7 +12,7 @@ def load_config():
         return yaml.safe_load(f)
 
 def fetch_gdelt(query, timespan="1d"):
-    """Fetch GDELT Global Knowledge Graph data."""
+    """Fetch Google News RSS Global Knowledge Graph data."""
     url = "https://api.gdeltproject.org/api/v2/doc/doc"
     params = {
         "query": query,
@@ -25,7 +25,7 @@ def fetch_gdelt(query, timespan="1d"):
         r = requests.get(url, params=params, timeout=30)
         return r.json() if r.status_code == 200 else {"articles": []}
     except Exception as e:
-        print(f"GDELT fetch error: {e}")
+        print(f"Google News RSS fetch error: {e}")
         return {"articles": []}
 
 def fetch_acled(api_key, region=None):
@@ -57,7 +57,7 @@ def generate_demo_data(config):
         "meta": {
             "project": "tr-economic-sentiment",
             "generated": datetime.now(timezone.utc).isoformat(),
-            "sources": ["GDELT TR", "Reddit API", "Telegram", "Turkstat", "CBRT"],
+            "sources": ["Google News RSS TR", "Reddit API", "Telegram", "Turkstat", "CBRT"],
             "version": "1.0.0"
         },
         "stats": [
@@ -71,7 +71,7 @@ def generate_demo_data(config):
             for i in range(1, 11)
         ],
         "events": [
-            {"id": i, "title": f"Event {i}", "severity": ["low", "medium", "high"][i % 3], "timestamp": datetime.now(timezone.utc).isoformat(), "source": "GDELT TR"}
+            {"id": i, "title": f"Event {i}", "severity": ["low", "medium", "high"][i % 3], "timestamp": datetime.now(timezone.utc).isoformat(), "source": "Google News RSS TR"}
             for i in range(1, 16)
         ],
         "timeseries": [

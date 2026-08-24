@@ -50,7 +50,7 @@ const INTEL = {
   },
 
   articles() {
-    return (this.data.events?.length ? this.data.events : this.data.live_data?.gdelt_articles) || [];
+    return (this.data.events?.length ? this.data.events : this.data.live_data?.news_articles) || [];
   },
 
   render() {
@@ -80,7 +80,7 @@ const INTEL = {
     const feeds = Object.values(this.data.live_data || {}).filter(value => value && (Array.isArray(value) ? value.length : true)).length;
     const stats = [
       { value: `${sentiment}/100`, label: 'News Tone Index', note: meanTone > 0.2 ? '▲ positive' : meanTone < -0.2 ? '▼ negative' : '● neutral' },
-      { value: String(articles.length), label: 'Recent Signals', note: 'GDELT snapshot' },
+      { value: String(articles.length), label: 'Recent Signals', note: 'Google News RSS snapshot' },
       { value: String(this.uniqueDomains(articles)), label: 'News Domains', note: 'deduplicated' },
       { value: String(feeds), label: 'Live Data Feeds', note: this.cleanText((this.data.meta?.sources || []).join(' · ')) },
     ];
@@ -145,7 +145,7 @@ const INTEL = {
   },
 
   renderSourceTags() {
-    const labels = { gdelt_articles: 'GDELT News', economic_news: 'Economic News', crypto: 'CoinGecko', exchange_rates: 'Exchange Rates' };
+    const labels = { news_articles: 'Google News RSS', economic_news: 'Economic News', crypto: 'CoinGecko', exchange_rates: 'Exchange Rates' };
     const names = this.data.meta?.sources || Object.keys(this.data.live_data || {});
     const container = document.getElementById('source-tags');
     container.replaceChildren(...names.map(name => {
@@ -261,7 +261,7 @@ const INTEL = {
       return;
     }
     const leading = this.groupSources(articles).slice(0, 3).map(group => group.source).join(', ');
-    target.textContent = `Current snapshot contains ${articles.length} recent economic-news signals across ${this.uniqueDomains(articles)} domains. Coverage is concentrated in ${leading || 'the available sources'}. The mean reported GDELT tone is near neutral; this describes the observed news sample, not the Turkish economy as a whole.`;
+    target.textContent = `Current snapshot contains ${articles.length} recent economic-news signals across ${this.uniqueDomains(articles)} domains. Coverage is concentrated in ${leading || 'the available sources'}. The mean reported Google News RSS tone is near neutral; this describes the observed news sample, not the Turkish economy as a whole.`;
   },
 
   renderEmpty(containerId, message) {

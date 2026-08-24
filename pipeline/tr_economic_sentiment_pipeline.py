@@ -5,7 +5,7 @@ import json
 import yaml
 from datetime import datetime, timezone
 from openrouter_llm import analyze_with_llm
-from data_fetcher import fetch_coingecko, fetch_earthquakes, fetch_exchange_rates, fetch_gdelt, safe_fetch
+from data_fetcher import fetch_coingecko, fetch_earthquakes, fetch_exchange_rates, fetch_google_news_rss, safe_fetch
 
 def load_config():
     with open(os.path.join(os.path.dirname(__file__), "config.yaml"), "r") as f:
@@ -16,16 +16,16 @@ def extract_live_data(config):
     results = {}
     print("[LIVE] Fetching real data...")
 
-    # --- GDELT News (all projects) ---
-    gdelt_query = config.get("gdelt_query", "geopolitical risk")
-    articles = safe_fetch(fetch_gdelt, gdelt_query, "1d", 50)
+    # --- Google News RSS (all projects) ---
+    news_query = config.get("news_query", "geopolitical risk")
+    articles = safe_fetch(fetch_google_news_rss, news_query, 50)
     if articles:
-        results["gdelt_articles"] = articles[:50]
-        print(f"  GDELT: {len(articles)} articles")
+        results["news_articles"] = articles[:50]
+        print(f"  Google News RSS: {len(articles)} articles")
     else:
-        results["gdelt_articles"] = []
+        results["news_articles"] = []
 
-    econ_news = safe_fetch(fetch_gdelt, "economy inflation Turkey", "1d", 50)
+    econ_news = safe_fetch(fetch_google_news_rss, "economy inflation Turkey", 50)
     if econ_news:
         results["economic_news"] = econ_news
 
@@ -62,12 +62,12 @@ def main():
     # Live data extraction
     live_data = extract_live_data(config)
     retained_news = False
-    if not live_data.get("gdelt_articles"):
-        previous_articles = previous.get("live_data", {}).get("gdelt_articles", [])
+    if not live_data.get("news_articles"):
+        previous_articles = previous.get("live_data", {}).get("news_articles", [])
         if previous_articles:
-            live_data["gdelt_articles"] = previous_articles
+            live_data["news_articles"] = previous_articles
             retained_news = True
-            print(f"  GDELT: retained {len(previous_articles)} previously validated articles")
+            print(f"  Google News RSS: retained {len(previous_articles)} previously validated articles")
 
     # Build output structure
     output = {
@@ -76,26 +76,26 @@ def main():
             "generated": datetime.now(timezone.utc).isoformat(),
             "mode": "partial" if retained_news else ("live" if live_data else "unavailable"),
             "sources": [name for name, value in live_data.items() if value],
-            "source_notes": (["GDELT unavailable; retained last validated news snapshot."] if retained_news else []),
+            "source_notes": (["Google News RSS unavailable; retained last validated news snapshot."] if retained_news else []),
             "news_snapshot_at": previous.get("meta", {}).get("news_snapshot_at", previous.get("meta", {}).get("generated")) if retained_news else datetime.now(timezone.utc).isoformat(),
             "version": "1.0.0"
         },
         "stats": [
-            {"label": "Sentiment Score", "value": "42/100", "delta": "live"},
-            {"label": "Sources Tracked", "value": "156", "delta": "live"},
-            {"label": "Daily Signals", "value": "2,341", "delta": "live"},
-            {"label": "Accuracy", "value": "78%", "delta": "live"},
+            {"label": "Articles tracked", "value": str(len(live_data.get("news_articles", []))), "delta": "observed"},
+            {"label": "News domains", "value": str(len({a.get("domain") for a in live_data.get("news_articles", []) if a.get("domain")})), "delta": "deduplicated"},
+            {"label": "Feeds connected", "value": str(len(live_data)), "delta": "current run"},
+            {"label": "Forecast accuracy", "value": "not evaluated", "delta": "no benchmark published"},
         ],
         "live_data": live_data,
         "entities": [],
-        "events": live_data.get("gdelt_articles", [])[:15],
+        "events": live_data.get("news_articles", [])[:15],
         "timeseries": [],
-        "llm_summary": "Pending API key..."
+        "llm_summary": "No optional language-model summary configured."
     }
 
     # Generate entities from live data
-    if live_data.get("gdelt_articles"):
-        for i, a in enumerate(live_data["gdelt_articles"][:10]):
+    if live_data.get("news_articles"):
+        for i, a in enumerate(live_data["news_articles"][:10]):
             tone = float(a.get("tone", 0))
             score = min(10, max(1, 5 + abs(tone)))
             output["entities"].append({
@@ -121,7 +121,7 @@ def main():
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     print(f"Done. Output: data/output.json ({len(json.dumps(output))} bytes)")
-    print(f"Mode: {'LIVE' if live_data else 'DEMO'}")
+    print(f"Mode: {'LIVE' if live_data else 'UNAVAILABLE'}")
 
 if __name__ == "__main__":
     main()
