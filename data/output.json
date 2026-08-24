@@ -1,14 +1,16 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-23T19:20:21.787554+00:00",
-    "mode": "live",
+    "generated": "2026-08-24T02:21:47.030232+00:00",
+    "mode": "partial",
     "sources": [
       "gdelt_articles",
       "crypto",
       "exchange_rates"
     ],
-    "source_notes": [],
+    "source_notes": [
+      "GDELT unavailable; retained last validated news snapshot."
+    ],
     "news_snapshot_at": "2026-08-23T19:20:21.787577+00:00",
     "version": "1.0.0"
   },
@@ -110,7 +112,7 @@
       }
     ],
     "crypto": {
-      "btc_price_usd": 77347
+      "btc_price_usd": 77416
     },
     "exchange_rates": [
       {
@@ -123,15 +125,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 64.54
+        "rate": 65.13
       },
       {
         "currency": "ALL",
-        "rate": 79.12
+        "rate": 79.13
       },
       {
         "currency": "AMD",
-        "rate": 361.76
+        "rate": 363.76
       },
       {
         "currency": "ANG",
@@ -139,7 +141,7 @@
       },
       {
         "currency": "AOA",
-        "rate": 916.63
+        "rate": 917.36
       },
       {
         "currency": "ARS",
@@ -155,7 +157,7 @@
       },
       {
         "currency": "AZN",
-        "rate": 1.69
+        "rate": 1.7
       },
       {
         "currency": "BAM",
@@ -167,7 +169,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 121.6
+        "rate": 122.31
       },
       {
         "currency": "BGN",
@@ -179,7 +181,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2966.62
+        "rate": 2972.35
       },
       {
         "currency": "BMD",
@@ -191,7 +193,7 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.44
+        "rate": 11.51
       }
     ]
   },
