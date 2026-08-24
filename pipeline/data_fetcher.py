@@ -240,7 +240,7 @@ def fetch_news_headlines(query, api_key=None):
                 ]
         except Exception as e:
             print(f"[NewsAPI] Error: {e}")
-    return fetch_gdelt(query, "1d", 50)
+    return fetch_google_news_rss(query, 50)
 
 def safe_fetch(fetcher, *args, **kwargs):
     """Wrapper that catches all exceptions and returns empty data."""
