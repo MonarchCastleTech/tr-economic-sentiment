@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-25T02:16:34.075045+00:00",
+    "generated": "2026-08-25T07:40:55.804299+00:00",
     "mode": "live",
     "sources": [
       "news_articles",
@@ -10,7 +10,7 @@
       "exchange_rates"
     ],
     "source_notes": [],
-    "news_snapshot_at": "2026-08-25T02:16:34.075067+00:00",
+    "news_snapshot_at": "2026-08-25T07:40:55.804314+00:00",
     "version": "1.0.0"
   },
   "stats": [
@@ -65,15 +65,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Türkiye says commitment to disinflation program remains 'firm' | Daily Sabah - Daily Sabah",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY0hfSnhJcGN1aDJzX1RCM2w0NGZiM3dMMnctVnNTa2YtN2JZMElXd2ZCbXk0R3dvdEhqSm5TUm1wdHk3NVNIVWRTeXNDWVFSN1hTbkZ1ZFNNd3ZtcEhLLVR6bEZnZUZ3TWVyNVZNLTVQR0lVMVZ5NlZ3NjdCY1JQVXZqRXBpZ2FpeG5nVEx0V1ppZVJYekEyOC1SdV8zYXNVRGVfbGZUd9IBrAFBVV95cUxQOU85TTdKWWF0VWxnOWN2TnVDR1JPRjZOaG5PNFBSOGZhYjZJcl9DSHVmR3RRUkZheWo1SWpSTVZNYUw4UVAxXzRRYkVBVjlEYmNqOHhGVFNZdVo4b1NQM1d2WTVDVTJlN0lKcE5abllJSkRXeVdPTXJ6OWhEMFpSVEI2Ny0tcUVFT1JhMHRkYVVRRUdTWURYOFVPTEh3RXoxdUlYdl9LUld1SElC?oc=5",
-        "domain": "dailysabah",
-        "language": "",
-        "tone": 0,
-        "seendate": "Thu, 04 Jun 2026 07:00:00 GMT",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Will War Push Turkey’s Fragile Economy over the Edge? - Middle East Forum",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWjFBck1KaGZXZWE1ZXRJNXRhdGdsdHFNOFBHME5kRC1hYkczb1RWWjdTWVR0N2V1SVBBZEZuSFJyQ0FUNlpJVHpVbGpDYS1JcFI0OGE0Y2s3c2ljaFV6SVVuaTZMY1VzdE1yWVFiM2ktWU00QVktSFg5RFpjMlVKV0Z1WUNEMWJDdWU2Si1lWjZ4dw?oc=5",
         "domain": "middleeastforum",
@@ -89,6 +80,15 @@
         "language": "",
         "tone": 0,
         "seendate": "Tue, 16 Jun 2026 07:00:00 GMT",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Türkiye's inflation downtrend won't change despite war impact: Şimşek | Daily Sabah - Daily Sabah",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdlpOTXcxQWhpNmVTd09BNVQyX0gzSHloVWQxUUZvVm9feThDQzg0OE5BYTFuRWZwZi0tMG04SUJHaEhWbkpjc0VTdGt6dWowZXpfajBYNlJOekJhV3pUblg3U2pjMVlQSjZLWFpMR1o5Y3VhclgtbnNJN09BczJncWNEeUdlS2gwVzlFaHM2Q3NxVHZvR0Zsb19mcmFGQjlzVGdVN1BFbGw0b2hqUG9Z0gG0AUFVX3lxTE5KSTVpRG9iMkR1S1NXanFvRUlaYXYzcXJueVl6cTlRU1dFQ0w3MGlOaGZKS0d6U044UHpGUVowc0JNdVJfUTVRekllUEgtaEFRaGlneXNNR1hFeEItSFRVZ3JUSTFvUVJLckE1TnkxT19HcHRWWVdHeElIYWpGYk5XUTBNVEZLb2g1LXlzaldHdzBleU9WU0VpSk15VEc3MXp6VXYtOERJaE9JelBVcFdzTmcxUw?oc=5",
+        "domain": "dailysabah",
+        "language": "",
+        "tone": 0,
+        "seendate": "Wed, 22 Apr 2026 07:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -110,12 +110,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Türkiye's inflation downtrend won't change despite war impact: Şimşek | Daily Sabah - Daily Sabah",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdlpOTXcxQWhpNmVTd09BNVQyX0gzSHloVWQxUUZvVm9feThDQzg0OE5BYTFuRWZwZi0tMG04SUJHaEhWbkpjc0VTdGt6dWowZXpfajBYNlJOekJhV3pUblg3U2pjMVlQSjZLWFpMR1o5Y3VhclgtbnNJN09BczJncWNEeUdlS2gwVzlFaHM2Q3NxVHZvR0Zsb19mcmFGQjlzVGdVN1BFbGw0b2hqUG9Z0gG0AUFVX3lxTE5KSTVpRG9iMkR1S1NXanFvRUlaYXYzcXJueVl6cTlRU1dFQ0w3MGlOaGZKS0d6U044UHpGUVowc0JNdVJfUTVRekllUEgtaEFRaGlneXNNR1hFeEItSFRVZ3JUSTFvUVJLckE1TnkxT19HcHRWWVdHeElIYWpGYk5XUTBNVEZLb2g1LXlzaldHdzBleU9WU0VpSk15VEc3MXp6VXYtOERJaE9JelBVcFdzTmcxUw?oc=5",
+        "title": "No change in Türkiye's priorities despite global shock: Şimşek | Daily Sabah - Daily Sabah",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWm5ZSVhrdXkwSlFOOGxGMTBfOW55M1JIZlIzNXNZX3Q1X01ZMTg1dWlpZXg2WUlCa3JRVkNSRUtOT0g1SWt2TFBwY19VaFpmZS1Fb3AyR0dKYjNzRXpiTU5XOTBvYV9hUkV1eUVUOXdRR1hqZjNlN3lxbFlfLXh5NDBzUENSekVIV0xJNC1FTE1ROFVqUlhfYTRGZmRxbGw5S2VSRDc2Y9IBrAFBVV95cUxOdUdqSzd2c0FBSjkxUHVsTkp1UXJFTTk5V21LUndfZmlGNTJyaG1VMnMycS1CeHRMNzliRGJ4MmJHSGFVTzBCTUdkbjhGOE9ZMlhSTmhRQjV0cjQybEZ0MmhaUHNoSVNLYjBUcFZ4S2szS2lpVlgzM2Vxb3FUYmc1MEEweGRGRG1UOXllQjlNcmFYeTEzTHh3U3NYLXpPbWFQSEdiM05FYUJiOF9I?oc=5",
         "domain": "dailysabah",
         "language": "",
         "tone": 0,
-        "seendate": "Wed, 22 Apr 2026 07:00:00 GMT",
+        "seendate": "Thu, 07 May 2026 07:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -128,12 +128,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "No change in Türkiye's priorities despite global shock: Şimşek | Daily Sabah - Daily Sabah",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWm5ZSVhrdXkwSlFOOGxGMTBfOW55M1JIZlIzNXNZX3Q1X01ZMTg1dWlpZXg2WUlCa3JRVkNSRUtOT0g1SWt2TFBwY19VaFpmZS1Fb3AyR0dKYjNzRXpiTU5XOTBvYV9hUkV1eUVUOXdRR1hqZjNlN3lxbFlfLXh5NDBzUENSekVIV0xJNC1FTE1ROFVqUlhfYTRGZmRxbGw5S2VSRDc2Y9IBrAFBVV95cUxOdUdqSzd2c0FBSjkxUHVsTkp1UXJFTTk5V21LUndfZmlGNTJyaG1VMnMycS1CeHRMNzliRGJ4MmJHSGFVTzBCTUdkbjhGOE9ZMlhSTmhRQjV0cjQybEZ0MmhaUHNoSVNLYjBUcFZ4S2szS2lpVlgzM2Vxb3FUYmc1MEEweGRGRG1UOXllQjlNcmFYeTEzTHh3U3NYLXpPbWFQSEdiM05FYUJiOF9I?oc=5",
+        "title": "Türkiye weighs budget-backed support to lower financing costs | Daily Sabah - Daily Sabah",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbk1VODM2RTk0eXBlZFBhS2Q3SEp1X3pzbHJ1WEFvQkNwVDNDRzlXM2w2M3NHbjlVeGhhRGRFcjRUTlRKMjJWYWw3YmZtRHRUVUxoNWgycFFKV25GdEpIVzBaOUZrWHZDQ2daWmZxN2hJeTNmZFluR3FNWG16ZG1fSzhScXQyaHEyRG9YdmYwQlNmN2VobGtZRzlvTjJGODVDbWNrLVlCZS3SAa4BQVVfeXFMTWo4a0ZpRlE1Q3FHQllHSnNLaW9obDBnLTN0RENHYmZSUTZPRUVlTHNxaGFhV0JYcjZGa2ZTMm9GUUJJcUVlVDYwOF9FMVpTQlBxYVV4SmZsbkJvc2lRdzZOTFluZGJ2ZlZuSUVYSHc0S2kwX2RLb0lMX25CZEhrbU5FaElBLXNFajVNMHBVMDdZSlhpYjdScFNyenhOakxRQ1JiSHpnT0lVeUdhSmpR?oc=5",
         "domain": "dailysabah",
         "language": "",
         "tone": 0,
-        "seendate": "Thu, 07 May 2026 07:00:00 GMT",
+        "seendate": "Tue, 09 Jun 2026 07:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -173,21 +173,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Turkey’s Economy Was Winning. Then The Iran War Came - Forbes",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObUVCaTVGN3hNRHRVWEdtRlQwN3ppQkFIQ1hNZFREcm9XNHZ2b2pwME5jb2dzTHdZUk5NcjhrZ1ZPcHNKV1hLalNZTGFJT0lHNjhNSHJSZUZRN3poeng0cVU2NTVCYVFIWGhqN2cxaHNyYTJkbmxCUmZwbzRHLTFDRFYybmprOWNndzc2YklZQ2wyOWp3VEpIeE5NcmRPUkVhenA0Y3FR?oc=5",
+        "domain": "forbes",
+        "language": "",
+        "tone": 0,
+        "seendate": "Sat, 04 Apr 2026 07:00:00 GMT",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Turkey gives economic orthodoxy a try to tame inflation - GIS Reports",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jakpBN1ZLTkMtT3B3cnhjQTh2RHlDZ0NwaFR6dk14elJLT2ZILWNlU3RGZHB0ZjhPZnNLNDRjWFQtcDZ0aWluOFRtNzZjY19LV1AyeUlpNFRFdmpZWFE0MjJBWGE1MzY4Uy1ITGhR?oc=5",
         "domain": "gisreports",
         "language": "",
         "tone": 0,
         "seendate": "Wed, 07 Feb 2024 08:00:00 GMT",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Türkiye weighs budget-backed support to lower financing costs | Daily Sabah - Daily Sabah",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbk1VODM2RTk0eXBlZFBhS2Q3SEp1X3pzbHJ1WEFvQkNwVDNDRzlXM2w2M3NHbjlVeGhhRGRFcjRUTlRKMjJWYWw3YmZtRHRUVUxoNWgycFFKV25GdEpIVzBaOUZrWHZDQ2daWmZxN2hJeTNmZFluR3FNWG16ZG1fSzhScXQyaHEyRG9YdmYwQlNmN2VobGtZRzlvTjJGODVDbWNrLVlCZS3SAa4BQVVfeXFMTWo4a0ZpRlE1Q3FHQllHSnNLaW9obDBnLTN0RENHYmZSUTZPRUVlTHNxaGFhV0JYcjZGa2ZTMm9GUUJJcUVlVDYwOF9FMVpTQlBxYVV4SmZsbkJvc2lRdzZOTFluZGJ2ZlZuSUVYSHc0S2kwX2RLb0lMX25CZEhrbU5FaElBLXNFajVNMHBVMDdZSlhpYjdScFNyenhOakxRQ1JiSHpnT0lVeUdhSmpR?oc=5",
-        "domain": "dailysabah",
-        "language": "",
-        "tone": 0,
-        "seendate": "Tue, 09 Jun 2026 07:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -227,15 +227,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Turkey’s Economy Was Winning. Then The Iran War Came - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObUVCaTVGN3hNRHRVWEdtRlQwN3ppQkFIQ1hNZFREcm9XNHZ2b2pwME5jb2dzTHdZUk5NcjhrZ1ZPcHNKV1hLalNZTGFJT0lHNjhNSHJSZUZRN3poeng0cVU2NTVCYVFIWGhqN2cxaHNyYTJkbmxCUmZwbzRHLTFDRFYybmprOWNndzc2YklZQ2wyOWp3VEpIeE5NcmRPUkVhenA0Y3FR?oc=5",
-        "domain": "forbes",
-        "language": "",
-        "tone": 0,
-        "seendate": "Sat, 04 Apr 2026 07:00:00 GMT",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Türkiye's annual inflation to drop to 20% range in early 2026: Finance minister - Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTGNEUDAtNWtrOVEwMkpfaUFQOFZvYjRZVjNxd214RmtOV0QzeGRKYlpsMXhyWnlNU01TWXVCVld5em1xNWpnREpzSFpodDF1WHNHMk40Vy1LSVdORnpaM0VONXJhSFh0dEdYcmtGZGR3azZ1VHVpVkpRZHFxNURTNEFUZ0JhUmxobWxpbmFWZVEtOGtNTGRsVUV3WUl5NFNpSXZ4VTRBcGxiTllOd0xDN0lXM0tBMDEx?oc=5",
         "domain": "anadoluajans",
@@ -251,6 +242,15 @@
         "language": "",
         "tone": 0,
         "seendate": "Fri, 20 Feb 2026 08:00:00 GMT",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "How Did Turkey’s Economy Go So Wrong? (Published 2021) - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY2JvYVpENG9vOXJrbEMtdUY1ckMxX0ZqTzlaNkw4RVYtaDFPY2MyY19DWGlISV9YNGlEV1RLYkhid25NTUF2ZzJMeHVtNFJSbjMwZEJpM3lZTFVVTkhSS3I3LUlUVTJoZE1VLWk2T2Nka3FpOTBVdnlWWUNuMklyd1FMbTNoM19tVzBIUjVoWQ?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "Mon, 03 Jan 2022 08:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -278,15 +278,6 @@
         "language": "",
         "tone": 0,
         "seendate": "Sat, 18 Oct 2025 07:00:00 GMT",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How Did Turkey’s Economy Go So Wrong? (Published 2021) - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY2JvYVpENG9vOXJrbEMtdUY1ckMxX0ZqTzlaNkw4RVYtaDFPY2MyY19DWGlISV9YNGlEV1RLYkhid25NTUF2ZzJMeHVtNFJSbjMwZEJpM3lZTFVVTkhSS3I3LUlUVTJoZE1VLWk2T2Nka3FpOTBVdnlWWUNuMklyd1FMbTNoM19tVzBIUjVoWQ?oc=5",
-        "domain": "thenewyorktimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "Mon, 03 Jan 2022 08:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -326,15 +317,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Turkey’s new finance minister signals more orthodox policies - Economist Intelligence Unit",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbXBteVo1eXBXSXoybVdlakQ0ZXhmUlJ4cDNodzlqcnhzdi14MGdOY0p1NnNDNmh2enFnMTgxYzZoWlJUN0N6MDNuOW9hNVdTZ1p6VzZQQkUtVWgzeDBPVEJOdExlVTNJZDVTYXlOaGQwTGpINF91NWJobHIzX1BZRmg4V3RxUXN6SkE?oc=5",
-        "domain": "economistintelligenceunit",
-        "language": "",
-        "tone": 0,
-        "seendate": "Tue, 06 Jun 2023 07:00:00 GMT",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Turkey’s economic woes catch up with Erdoğan - Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZkoybkpfQ21Hbkt0a2VUTlBDdlhCazhNeXg0TnJsTGhJblhMbHFGR2FSZlFJYmRESE5nR0M1elJPWmg3UkpxN1FubUl6VkJYamh1ZUtPaXZPMDdXdFpmQjFUYUo1Sms1SmtqaGVENm9fRlI1elhQano2WGgzMnVVOGc2TEY?oc=5",
         "domain": "financialtimes",
@@ -344,12 +326,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Turkey’s new finance minister signals more orthodox policies - Economist Intelligence Unit",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbXBteVo1eXBXSXoybVdlakQ0ZXhmUlJ4cDNodzlqcnhzdi14MGdOY0p1NnNDNmh2enFnMTgxYzZoWlJUN0N6MDNuOW9hNVdTZ1p6VzZQQkUtVWgzeDBPVEJOdExlVTNJZDVTYXlOaGQwTGpINF91NWJobHIzX1BZRmg4V3RxUXN6SkE?oc=5",
+        "domain": "economistintelligenceunit",
+        "language": "",
+        "tone": 0,
+        "seendate": "Tue, 06 Jun 2023 07:00:00 GMT",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Turkey’s bizarre economic experiment enters a new phase - The Economist",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSVNocklhOUx3Z1ZUc0pPeUt6NHF2UEwxUlFNVXFuWTJncGh0THRYSVdLb2JQandpdC1zb1ZzVVRvOHdGbUZMcUp2WE5jb2xGS3F4Nm1GUEhQaTBVTFFPNF91aEtnS0NnMDdLOTRIbEp4ZVpLdjB3a0RqWWRhekJQa0lzSW1JM2s5V2xZbkdCcWd2M2pIOHdxTXVrUWVYSTJmNDZSNXhzbzFqb1I2NS13c1dpUQ?oc=5",
         "domain": "theeconomist",
         "language": "",
         "tone": 0,
         "seendate": "Thu, 01 Jun 2023 07:00:00 GMT",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Political and financial turmoil set to dominate Turkey, risking economic stabilization plans - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbUdCei1OZ1RXOUNaZDdqS3N6MDNVWGQybkxHZF9wTml3d3JDRUFxN25kOG9oS0FNWS1HRWM4VElzWEFvMXhaNjVacVNfM3NpRVhaTVlvQXBLZHdBTEJYaUNPXzJvbnZVd2lOeU5mZ2R3NEx2TEUwRUdXNnpFN1hUZlVBMmJOS0k2SWp6UVpKWDJQc3dGRHZVWkxpZGVSMFVNcWZoUENTbUJ2OEMyZFRWOUxpNll0Ty1HMVM3ZTB2U0NnMXNNNWRN0gHMAUFVX3lxTE5KWDg4UHJ1UmVIYUpmODJZREZMM2E1WGxRaENNd2dsam1OYy1Pb0NSVk9VUEloSGFtVnYwYmtORTFfZXFON2RiYWpCbEJJbFlrRHFxNlpRcmtLNzZDdzhfUGFMZ1VpdDFKQ0lvTFZhT3p2SUJZNkMxd3ZDOVJqV2hNR0dTNXpYc1Azc1F6RENPUWo4ZUN1RHNDRGhzdUdDSm9mTnc1V1ZuLTExZi1zSGxQNWpXRlRUd2ZhR2xpOXpCRU5QYWxBY2FDemZZVw?oc=5",
+        "domain": "cnbc",
+        "language": "",
+        "tone": 0,
+        "seendate": "Mon, 24 Mar 2025 07:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -368,15 +368,6 @@
         "language": "",
         "tone": 0,
         "seendate": "Mon, 03 Mar 2025 08:00:00 GMT",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Political and financial turmoil set to dominate Turkey, risking economic stabilization plans - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbUdCei1OZ1RXOUNaZDdqS3N6MDNVWGQybkxHZF9wTml3d3JDRUFxN25kOG9oS0FNWS1HRWM4VElzWEFvMXhaNjVacVNfM3NpRVhaTVlvQXBLZHdBTEJYaUNPXzJvbnZVd2lOeU5mZ2R3NEx2TEUwRUdXNnpFN1hUZlVBMmJOS0k2SWp6UVpKWDJQc3dGRHZVWkxpZGVSMFVNcWZoUENTbUJ2OEMyZFRWOUxpNll0Ty1HMVM3ZTB2U0NnMXNNNWRN0gHMAUFVX3lxTE5KWDg4UHJ1UmVIYUpmODJZREZMM2E1WGxRaENNd2dsam1OYy1Pb0NSVk9VUEloSGFtVnYwYmtORTFfZXFON2RiYWpCbEJJbFlrRHFxNlpRcmtLNzZDdzhfUGFMZ1VpdDFKQ0lvTFZhT3p2SUJZNkMxd3ZDOVJqV2hNR0dTNXpYc1Azc1F6RENPUWo4ZUN1RHNDRGhzdUdDSm9mTnc1V1ZuLTExZi1zSGxQNWpXRlRUd2ZhR2xpOXpCRU5QYWxBY2FDemZZVw?oc=5",
-        "domain": "cnbc",
-        "language": "",
-        "tone": 0,
-        "seendate": "Mon, 24 Mar 2025 07:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -416,30 +407,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Türkiye sees unprecedented growth in foreign investors' interest: Finance minister - Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaUxoVVRHOWJVMm5SeVc4RHR6X2xOdlVSLVB0VHpuTlBJNXRBZ0IzLWdkR1B2S181eGJnYUhBLTJ0ZzdQTm00ZmhHejdrajJDbXNyLXhJeDVvX1g3RlJBMXJCNENseDAyUk0tSE1rZnM1OXkzRGxRb1gtWWQ0b29pVDNscTMxdlh1V28xc2VJd2ZNSXdiTDZKQVpqYXowdFZpeHFBZXVKaUJVMnhlemRIeVFHUnFqYVZDbzNQR3dR?oc=5",
-        "domain": "anadoluajans",
-        "language": "",
-        "tone": 0,
-        "seendate": "Fri, 20 Feb 2026 08:00:00 GMT",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Erdogan blames Turkey's currency problems on 'foreign financial tools' as central bank reserves fall - CNBC",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZUtZQzNDVWFGdVRFbDRBVE1iX3hqTE1nTUlaTk1oRE5DQkJEWWFLTlFwTnQyNzFzeDk4cXFOYzZyeHpfVVdLVU41YmIxbkpCT0dGa3ptclJENWdGWmJtckctcU9LZlNpaUxya1JSRVpuRHBaOUlNc0FHWmREc3huUkwyVTdmSU9fVk5USHhKalhUZTBmdkxFY1ppMEk3QkxQWnZpT05aSGlhS3cxejFvbnVZLWc4NUFEUnpTU0xxcHBXOGVYNGZaeldB0gHPAUFVX3lxTE1tR2ZqeUU1bnhhSUNOVGpQd19peG9ucUFrQTdKdFFzZ2V5YzZobGtsVmRPRTJnNXdORl94VEdMMVNrNDU2azdzbXhPendDTTZ2WjF0U1JYSkFFQk0wQm9BUnk4bWU2QmQ4V2RmS0pFYzlMbGxQaXh6N3RQVnNqdFdpRGxtbTdrcl9PdTNnNlFmUEtDWEREYlpOZ2ZiS0xkUUVCU0QyM2ZRVElETFlhQmRaeUE3OTlhUnJ4LV9xd09KbWtMZ3NKaXh5Q0E2WTZTSQ?oc=5",
         "domain": "cnbc",
         "language": "",
         "tone": 0,
         "seendate": "Thu, 13 Jan 2022 08:00:00 GMT",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Turkey reinforces price stability with lower growth targets - ING THINK economic and financial analysis | ING THINK",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX2M1YXg1V0NNLWNjd0d4RUIxNHRXYkg2bktmQ0VvNXZDa2tRUGE4LVlqMW1rLXZ4T3NvUGtRN0l2d1pRRXpoTGhpUnE2Q1gwUlQxMmlRdHBCdHIwUzdodjFESUxfb2NFZkU5dnljaFBaYXRxZURSNVA0TWt2ZDhMMnJJMTdaSkVOWUhEZXlkclQwUQ?oc=5",
-        "domain": "ingthinkeconomicandfinancialanalysisingthink",
-        "language": "",
-        "tone": 0,
-        "seendate": "Mon, 08 Sep 2025 07:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -452,6 +425,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Türkiye sees unprecedented growth in foreign investors' interest: Finance minister - Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaUxoVVRHOWJVMm5SeVc4RHR6X2xOdlVSLVB0VHpuTlBJNXRBZ0IzLWdkR1B2S181eGJnYUhBLTJ0ZzdQTm00ZmhHejdrajJDbXNyLXhJeDVvX1g3RlJBMXJCNENseDAyUk0tSE1rZnM1OXkzRGxRb1gtWWQ0b29pVDNscTMxdlh1V28xc2VJd2ZNSXdiTDZKQVpqYXowdFZpeHFBZXVKaUJVMnhlemRIeVFHUnFqYVZDbzNQR3dR?oc=5",
+        "domain": "anadoluajans",
+        "language": "",
+        "tone": 0,
+        "seendate": "Fri, 20 Feb 2026 08:00:00 GMT",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Turkey reinforces price stability with lower growth targets - ING THINK economic and financial analysis | ING THINK",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX2M1YXg1V0NNLWNjd0d4RUIxNHRXYkg2bktmQ0VvNXZDa2tRUGE4LVlqMW1rLXZ4T3NvUGtRN0l2d1pRRXpoTGhpUnE2Q1gwUlQxMmlRdHBCdHIwUzdodjFESUxfb2NFZkU5dnljaFBaYXRxZURSNVA0TWt2ZDhMMnJJMTdaSkVOWUhEZXlkclQwUQ?oc=5",
+        "domain": "ingthinkeconomicandfinancialanalysisingthink",
+        "language": "",
+        "tone": 0,
+        "seendate": "Mon, 08 Sep 2025 07:00:00 GMT",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Turkey cuts interest rates despite ‘evident’ risks on inflation - Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbnUxcDY2QkNkdGRtUEJVdkNIbEllWnlaT3p4NzBTbWxfYmYtTFQ3QlEzbGZZeEZ1MkRSc0dOaHY2SHR3UEd6UmNoaTUxUGhCV2o1M1BIdE1kRjg5U2Z4RC1SdkpBcWE1TmMyRWZnZDA4eXBEYlJvRFg4YUFjZTJQTThlTHo?oc=5",
         "domain": "financialtimes",
@@ -461,7 +452,7 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Turkish economy takes a battering after Imamoglu arrest - dw.com",
+        "title": "Turkish economy takes a battering after Imamoglu arrest - DW.com",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdEVSQkFUTkY1cl9iSi1SYlFNOVVHVFU4NXJNelIzNU16SWZ0ekN3dnZTSVNNcElzYUstSlZUOFd5TXlKNG94cF8zMmJSYlFoaEdlWFpLVkJhYm1UQlRrRkl6S19YR3U4ZklxY1RsQ3ZhaDJVUUVJUHYtb3E4bDJ1a3lSV2p6QnlZVXplN2JnaVFLWV9MOTFlb1FGMNIBmwFBVV95cUxNNVBLcF96SkVvVDMxM3hJamplVGwxM2ZZb0NfU3BzQjR1ZVFTNElDLUR0MjF2NjlIMlJTX1NMZHZXRElpZnd6VjhDSWN5d2xoZFktelgxVTNvVGpuRXBmQnItalozNzZkcHgxN3pkMFJIYThvZXNwaHJyZERfa2Z2WnZiRFV5b1JtTi02MDExRjhpUVhkNkhwdUJ2WQ?oc=5",
         "domain": "dw.com",
         "language": "",
@@ -485,6 +476,15 @@
         "language": "",
         "tone": 0,
         "seendate": "Sun, 04 Jun 2023 07:00:00 GMT",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "What went wrong for Turkey? Its economy is 'in the midst of a perfect storm' - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVmN5T05fU3NlakJZcjZZdl9HVXlKYXMxMjQwZUJUN1JBSFlLQk44WUZzTGNCR2p1WmxueFdKdG1OLUNNTnI5MkhwYzQ5RzVzTkF3UzE4cTZWTTlGWTItaXdrcXlYVkozUlVuWDUxVnJ0aVJuQlRWZEd6SVZuUUFnamNZN1d4bW9jMGhLRFBoZ2NGeG5BWlNVRHM4RWdjemlvcFhn0gGoAUFVX3lxTE9rVlF1bk1pVWp6cExWTWpodXBQQzFvd1VBZ1lSZ1o5dVNGcUw5Rzh0dS1xM2h1YjMxV0VaYWxjNWFkemprOUVKVzZ2SWN2QThNVjBOcS1sZExwM2o4UkgyRFlSSVM3UFlRVlBKXzM5Y3NSRVBGUHdQOG1nTGtteFpMU281NlpWbm83ZEVfRGlVUXdtQU1RQ1BCdTc0V3hRZ2hUbEV3QXJaaA?oc=5",
+        "domain": "cnbc",
+        "language": "",
+        "tone": 0,
+        "seendate": "Mon, 13 Aug 2018 07:00:00 GMT",
         "source": "GoogleNews"
       }
     ],
@@ -589,12 +589,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Turkey central bank holds rates at 37% as it eyes Iran war fallout - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc1lPYWxnc2JqYmhlcWRNTVYzalg5M0xRVjh4cTFaRzRUSkVnd3FSSmJ3b1BmWWp4WEhldzhTMV80RWlNaUM4X3FKMHh2RVcySmttRDJnSTc1SldJU21BUDRFcmdmT2RISl9BdWZEWEYtQUFDTW9lVUstd1I2NjVjR3ZBdzViRHVidTJjbjh3R2tmVDVOeVFqUmh3YTNPSUZCeGVsUFZnTURZUGYzTjFqUF8yQW91R1ZVLTFsdg?oc=5",
+        "title": "Turkey central bank leaves key rate steady, monitoring conflict impact - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMzlrVzNaU0ZpWFpkN000OW4xVmFJU0NEUnk3NmswNnRVaURuVkVCaUY0UWxiLUhOMGtsZENWSkdjTTVaaW5qOC1MUU5BSzF4NW8wTVFRaW5XZHZ1LTRuVkFlY1hJeFRydzI5WDZhZ05BcjA3Zlgtb2l5VE9NOFU5NkZhMkpuZUFVbU85N1didE91QmZrLTduYklicXk1UVVyNGhWVkRWT1pldDhUQVM4SnZVRVU5Ynlh?oc=5",
         "domain": "reuters",
         "language": "",
         "tone": 0,
-        "seendate": "Wed, 22 Apr 2026 07:00:00 GMT",
+        "seendate": "Thu, 11 Jun 2026 07:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -670,12 +670,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Turkey central bank leaves key rate steady, monitoring conflict impact - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMzlrVzNaU0ZpWFpkN000OW4xVmFJU0NEUnk3NmswNnRVaURuVkVCaUY0UWxiLUhOMGtsZENWSkdjTTVaaW5qOC1MUU5BSzF4NW8wTVFRaW5XZHZ1LTRuVkFlY1hJeFRydzI5WDZhZ05BcjA3Zlgtb2l5VE9NOFU5NkZhMkpuZUFVbU85N1didE91QmZrLTduYklicXk1UVVyNGhWVkRWT1pldDhUQVM4SnZVRVU5Ynlh?oc=5",
+        "title": "Turkey central bank holds rates at 37% as it eyes Iran war fallout - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc1lPYWxnc2JqYmhlcWRNTVYzalg5M0xRVjh4cTFaRzRUSkVnd3FSSmJ3b1BmWWp4WEhldzhTMV80RWlNaUM4X3FKMHh2RVcySmttRDJnSTc1SldJU21BUDRFcmdmT2RISl9BdWZEWEYtQUFDTW9lVUstd1I2NjVjR3ZBdzViRHVidTJjbjh3R2tmVDVOeVFqUmh3YTNPSUZCeGVsUFZnTURZUGYzTjFqUF8yQW91R1ZVLTFsdg?oc=5",
         "domain": "reuters",
         "language": "",
         "tone": 0,
-        "seendate": "Thu, 11 Jun 2026 07:00:00 GMT",
+        "seendate": "Wed, 22 Apr 2026 07:00:00 GMT",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Turkey’s Economy Was Winning. Then The Iran War Came - Forbes",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObUVCaTVGN3hNRHRVWEdtRlQwN3ppQkFIQ1hNZFREcm9XNHZ2b2pwME5jb2dzTHdZUk5NcjhrZ1ZPcHNKV1hLalNZTGFJT0lHNjhNSHJSZUZRN3poeng0cVU2NTVCYVFIWGhqN2cxaHNyYTJkbmxCUmZwbzRHLTFDRFYybmprOWNndzc2YklZQ2wyOWp3VEpIeE5NcmRPUkVhenA0Y3FR?oc=5",
+        "domain": "forbes",
+        "language": "",
+        "tone": 0,
+        "seendate": "Sat, 04 Apr 2026 07:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -787,15 +796,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Turkey’s Economy Was Winning. Then The Iran War Came - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObUVCaTVGN3hNRHRVWEdtRlQwN3ppQkFIQ1hNZFREcm9XNHZ2b2pwME5jb2dzTHdZUk5NcjhrZ1ZPcHNKV1hLalNZTGFJT0lHNjhNSHJSZUZRN3poeng0cVU2NTVCYVFIWGhqN2cxaHNyYTJkbmxCUmZwbzRHLTFDRFYybmprOWNndzc2YklZQ2wyOWp3VEpIeE5NcmRPUkVhenA0Y3FR?oc=5",
-        "domain": "forbes",
-        "language": "",
-        "tone": 0,
-        "seendate": "Sat, 04 Apr 2026 07:00:00 GMT",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Türkiye Inflation Climbs to 32.37% as Regional Conflict Drives Energy and Fuel Price Surge - Kurdistan24",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVTdHTXZOV3pnZXRYQ2RWVW9CQS1kX3JnRHd2TlBBLUtwR3pDMFNSVTdsbzJhUW4zN3RzaGVQbF81dVBsMVJpRWJDOVdDQlVKQTV6dGM5cm03cDZOeXc0aDhSQWtoSnQzQUFpVmEyMWVVYjdlQTFyaThSU2RnTnk4NjcxQ0tBQU9kUkZwUzJNSXhreURIT3QxeUZGLUVtdUFZaVdiWmhNQkpZZWwzdHU4OEZEcjZoRTRBZThhd0NXdjNhSy1rM2ZGWWZ1WQ?oc=5",
         "domain": "kurdistan24",
@@ -904,21 +904,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "IMF cuts Turkey 2026 economic growth forecast on weaker momentum, energy prices - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb1ZkYzMzRHFLX1RUd2ZhdnpZZWs1aURyT0JoSC1DeDJrZ055TWVpZVNYQ3hUT05RT01lM0g5NUN2LUNvb1JNYlVncWZJTzJBYXVsc0UzU3RrZU91bzMtanhaQTVSY0R6TUlsd3U4RENnZHAxNmFxcUd0YmR6WkptYWNJVVhIRzdZc05sUXJEOGhqUFBLejJLS2c2VmwyWjBZYlNpNEt6eDhkakZvUmdrY3VCQ0ZDZndXdVZfVmZ2VGFLU1ZtOEN0UQ?oc=5",
-        "domain": "reuters",
-        "language": "",
-        "tone": 0,
-        "seendate": "Tue, 14 Apr 2026 07:00:00 GMT",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Turkey’s official March inflation data raise doubts amid global turmoil from Iran war - Turkish Minute",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRXhDMDRoRlpFeE1fVUp6NlA2Y2dFZ3dXdjhNUmZHeXNxaDg1clVNdDdwYm9fSDN1eFU1c2hiTEVWU0hXaEtuOHJoV0F2UkNRTkZ0QTU0a0pLNWdkaTV4MnNKR1kwUmtmbzlNM0Q4U3JYTWFfSXVvUW9ZTS1NZll4R1BvM3ZyQy1qNEdHcXp5NUpiRkJmVkUwTVc4c2dKTEFQRFRPR1NISEdvVzhVR25nMm1BYktwYTlLT0dvaEd3M1Jrc09B0gHKAUFVX3lxTE5Pb0ZtV195c2kyOHRuUkZaX2JSNjFzRzNwb2J2YzVHMGdOdVBmaXZBalRxMkpnUklWVUhfMG5xTFkwTTBjU2x0QU9zZVZyR3JfcUdvV3JzVlVhN05wNVlDVjRpZUx1NzNDMHVUX0NJODVtakZJR0xKaU05bTU5UE5ZaWlLcXRfVHU2Z2thM045a21DcUNJRUhjVE4xRmphVkdqaG4tX3d5aGprSkV6UUdaZm92Z0daelk2N3UydlZ2dWJNSFFsN1I4UVE?oc=5",
         "domain": "turkishminute",
         "language": "",
         "tone": 0,
         "seendate": "Mon, 06 Apr 2026 07:00:00 GMT",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "IMF cuts Turkey 2026 economic growth forecast on weaker momentum, energy prices - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb1ZkYzMzRHFLX1RUd2ZhdnpZZWs1aURyT0JoSC1DeDJrZ055TWVpZVNYQ3hUT05RT01lM0g5NUN2LUNvb1JNYlVncWZJTzJBYXVsc0UzU3RrZU91bzMtanhaQTVSY0R6TUlsd3U4RENnZHAxNmFxcUd0YmR6WkptYWNJVVhIRzdZc05sUXJEOGhqUFBLejJLS2c2VmwyWjBZYlNpNEt6eDhkakZvUmdrY3VCQ0ZDZndXdVZfVmZ2VGFLU1ZtOEN0UQ?oc=5",
+        "domain": "reuters",
+        "language": "",
+        "tone": 0,
+        "seendate": "Tue, 14 Apr 2026 07:00:00 GMT",
         "source": "GoogleNews"
       },
       {
@@ -941,7 +941,7 @@
       }
     ],
     "crypto": {
-      "btc_price_usd": 79814
+      "btc_price_usd": 80602
     },
     "exchange_rates": [
       {
@@ -1053,14 +1053,6 @@
     },
     {
       "id": 4,
-      "name": "Türkiye says commitment to disinflation program remains 'fir",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "Thu, 04 Jun 2026 07:00:00 GMT",
-      "source": "dailysabah"
-    },
-    {
-      "id": 5,
       "name": "Will War Push Turkey’s Fragile Economy over the Edge? - Midd",
       "score": 5.0,
       "category": "news",
@@ -1068,12 +1060,20 @@
       "source": "middleeastforum"
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Turkey’s Michelin chefs are fried by high inflation - Financ",
       "score": 5.0,
       "category": "news",
       "last_seen": "Tue, 16 Jun 2026 07:00:00 GMT",
       "source": "financialtimes"
+    },
+    {
+      "id": 6,
+      "name": "Türkiye's inflation downtrend won't change despite war impac",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "Wed, 22 Apr 2026 07:00:00 GMT",
+      "source": "dailysabah"
     },
     {
       "id": 7,
@@ -1093,10 +1093,10 @@
     },
     {
       "id": 9,
-      "name": "Türkiye's inflation downtrend won't change despite war impac",
+      "name": "No change in Türkiye's priorities despite global shock: Şimş",
       "score": 5.0,
       "category": "news",
-      "last_seen": "Wed, 22 Apr 2026 07:00:00 GMT",
+      "last_seen": "Thu, 07 May 2026 07:00:00 GMT",
       "source": "dailysabah"
     },
     {
@@ -1137,15 +1137,6 @@
       "source": "GoogleNews"
     },
     {
-      "title": "Türkiye says commitment to disinflation program remains 'firm' | Daily Sabah - Daily Sabah",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY0hfSnhJcGN1aDJzX1RCM2w0NGZiM3dMMnctVnNTa2YtN2JZMElXd2ZCbXk0R3dvdEhqSm5TUm1wdHk3NVNIVWRTeXNDWVFSN1hTbkZ1ZFNNd3ZtcEhLLVR6bEZnZUZ3TWVyNVZNLTVQR0lVMVZ5NlZ3NjdCY1JQVXZqRXBpZ2FpeG5nVEx0V1ppZVJYekEyOC1SdV8zYXNVRGVfbGZUd9IBrAFBVV95cUxQOU85TTdKWWF0VWxnOWN2TnVDR1JPRjZOaG5PNFBSOGZhYjZJcl9DSHVmR3RRUkZheWo1SWpSTVZNYUw4UVAxXzRRYkVBVjlEYmNqOHhGVFNZdVo4b1NQM1d2WTVDVTJlN0lKcE5abllJSkRXeVdPTXJ6OWhEMFpSVEI2Ny0tcUVFT1JhMHRkYVVRRUdTWURYOFVPTEh3RXoxdUlYdl9LUld1SElC?oc=5",
-      "domain": "dailysabah",
-      "language": "",
-      "tone": 0,
-      "seendate": "Thu, 04 Jun 2026 07:00:00 GMT",
-      "source": "GoogleNews"
-    },
-    {
       "title": "Will War Push Turkey’s Fragile Economy over the Edge? - Middle East Forum",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWjFBck1KaGZXZWE1ZXRJNXRhdGdsdHFNOFBHME5kRC1hYkczb1RWWjdTWVR0N2V1SVBBZEZuSFJyQ0FUNlpJVHpVbGpDYS1JcFI0OGE0Y2s3c2ljaFV6SVVuaTZMY1VzdE1yWVFiM2ktWU00QVktSFg5RFpjMlVKV0Z1WUNEMWJDdWU2Si1lWjZ4dw?oc=5",
       "domain": "middleeastforum",
@@ -1161,6 +1152,15 @@
       "language": "",
       "tone": 0,
       "seendate": "Tue, 16 Jun 2026 07:00:00 GMT",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Türkiye's inflation downtrend won't change despite war impact: Şimşek | Daily Sabah - Daily Sabah",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdlpOTXcxQWhpNmVTd09BNVQyX0gzSHloVWQxUUZvVm9feThDQzg0OE5BYTFuRWZwZi0tMG04SUJHaEhWbkpjc0VTdGt6dWowZXpfajBYNlJOekJhV3pUblg3U2pjMVlQSjZLWFpMR1o5Y3VhclgtbnNJN09BczJncWNEeUdlS2gwVzlFaHM2Q3NxVHZvR0Zsb19mcmFGQjlzVGdVN1BFbGw0b2hqUG9Z0gG0AUFVX3lxTE5KSTVpRG9iMkR1S1NXanFvRUlaYXYzcXJueVl6cTlRU1dFQ0w3MGlOaGZKS0d6U044UHpGUVowc0JNdVJfUTVRekllUEgtaEFRaGlneXNNR1hFeEItSFRVZ3JUSTFvUVJLckE1TnkxT19HcHRWWVdHeElIYWpGYk5XUTBNVEZLb2g1LXlzaldHdzBleU9WU0VpSk15VEc3MXp6VXYtOERJaE9JelBVcFdzTmcxUw?oc=5",
+      "domain": "dailysabah",
+      "language": "",
+      "tone": 0,
+      "seendate": "Wed, 22 Apr 2026 07:00:00 GMT",
       "source": "GoogleNews"
     },
     {
@@ -1182,12 +1182,12 @@
       "source": "GoogleNews"
     },
     {
-      "title": "Türkiye's inflation downtrend won't change despite war impact: Şimşek | Daily Sabah - Daily Sabah",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdlpOTXcxQWhpNmVTd09BNVQyX0gzSHloVWQxUUZvVm9feThDQzg0OE5BYTFuRWZwZi0tMG04SUJHaEhWbkpjc0VTdGt6dWowZXpfajBYNlJOekJhV3pUblg3U2pjMVlQSjZLWFpMR1o5Y3VhclgtbnNJN09BczJncWNEeUdlS2gwVzlFaHM2Q3NxVHZvR0Zsb19mcmFGQjlzVGdVN1BFbGw0b2hqUG9Z0gG0AUFVX3lxTE5KSTVpRG9iMkR1S1NXanFvRUlaYXYzcXJueVl6cTlRU1dFQ0w3MGlOaGZKS0d6U044UHpGUVowc0JNdVJfUTVRekllUEgtaEFRaGlneXNNR1hFeEItSFRVZ3JUSTFvUVJLckE1TnkxT19HcHRWWVdHeElIYWpGYk5XUTBNVEZLb2g1LXlzaldHdzBleU9WU0VpSk15VEc3MXp6VXYtOERJaE9JelBVcFdzTmcxUw?oc=5",
+      "title": "No change in Türkiye's priorities despite global shock: Şimşek | Daily Sabah - Daily Sabah",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWm5ZSVhrdXkwSlFOOGxGMTBfOW55M1JIZlIzNXNZX3Q1X01ZMTg1dWlpZXg2WUlCa3JRVkNSRUtOT0g1SWt2TFBwY19VaFpmZS1Fb3AyR0dKYjNzRXpiTU5XOTBvYV9hUkV1eUVUOXdRR1hqZjNlN3lxbFlfLXh5NDBzUENSekVIV0xJNC1FTE1ROFVqUlhfYTRGZmRxbGw5S2VSRDc2Y9IBrAFBVV95cUxOdUdqSzd2c0FBSjkxUHVsTkp1UXJFTTk5V21LUndfZmlGNTJyaG1VMnMycS1CeHRMNzliRGJ4MmJHSGFVTzBCTUdkbjhGOE9ZMlhSTmhRQjV0cjQybEZ0MmhaUHNoSVNLYjBUcFZ4S2szS2lpVlgzM2Vxb3FUYmc1MEEweGRGRG1UOXllQjlNcmFYeTEzTHh3U3NYLXpPbWFQSEdiM05FYUJiOF9I?oc=5",
       "domain": "dailysabah",
       "language": "",
       "tone": 0,
-      "seendate": "Wed, 22 Apr 2026 07:00:00 GMT",
+      "seendate": "Thu, 07 May 2026 07:00:00 GMT",
       "source": "GoogleNews"
     },
     {
@@ -1200,12 +1200,12 @@
       "source": "GoogleNews"
     },
     {
-      "title": "No change in Türkiye's priorities despite global shock: Şimşek | Daily Sabah - Daily Sabah",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWm5ZSVhrdXkwSlFOOGxGMTBfOW55M1JIZlIzNXNZX3Q1X01ZMTg1dWlpZXg2WUlCa3JRVkNSRUtOT0g1SWt2TFBwY19VaFpmZS1Fb3AyR0dKYjNzRXpiTU5XOTBvYV9hUkV1eUVUOXdRR1hqZjNlN3lxbFlfLXh5NDBzUENSekVIV0xJNC1FTE1ROFVqUlhfYTRGZmRxbGw5S2VSRDc2Y9IBrAFBVV95cUxOdUdqSzd2c0FBSjkxUHVsTkp1UXJFTTk5V21LUndfZmlGNTJyaG1VMnMycS1CeHRMNzliRGJ4MmJHSGFVTzBCTUdkbjhGOE9ZMlhSTmhRQjV0cjQybEZ0MmhaUHNoSVNLYjBUcFZ4S2szS2lpVlgzM2Vxb3FUYmc1MEEweGRGRG1UOXllQjlNcmFYeTEzTHh3U3NYLXpPbWFQSEdiM05FYUJiOF9I?oc=5",
+      "title": "Türkiye weighs budget-backed support to lower financing costs | Daily Sabah - Daily Sabah",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbk1VODM2RTk0eXBlZFBhS2Q3SEp1X3pzbHJ1WEFvQkNwVDNDRzlXM2w2M3NHbjlVeGhhRGRFcjRUTlRKMjJWYWw3YmZtRHRUVUxoNWgycFFKV25GdEpIVzBaOUZrWHZDQ2daWmZxN2hJeTNmZFluR3FNWG16ZG1fSzhScXQyaHEyRG9YdmYwQlNmN2VobGtZRzlvTjJGODVDbWNrLVlCZS3SAa4BQVVfeXFMTWo4a0ZpRlE1Q3FHQllHSnNLaW9obDBnLTN0RENHYmZSUTZPRUVlTHNxaGFhV0JYcjZGa2ZTMm9GUUJJcUVlVDYwOF9FMVpTQlBxYVV4SmZsbkJvc2lRdzZOTFluZGJ2ZlZuSUVYSHc0S2kwX2RLb0lMX25CZEhrbU5FaElBLXNFajVNMHBVMDdZSlhpYjdScFNyenhOakxRQ1JiSHpnT0lVeUdhSmpR?oc=5",
       "domain": "dailysabah",
       "language": "",
       "tone": 0,
-      "seendate": "Thu, 07 May 2026 07:00:00 GMT",
+      "seendate": "Tue, 09 Jun 2026 07:00:00 GMT",
       "source": "GoogleNews"
     },
     {
