@@ -2,7 +2,7 @@
 
 [![Pages](https://github.com/MonarchCastleTech/tr-economic-sentiment/actions/workflows/pipeline.yml/badge.svg)](https://github.com/MonarchCastleTech/tr-economic-sentiment/actions/workflows/pipeline.yml)
 
-Economic sentiment and market-context signals focused on Türkiye.
+Deterministic 0–30 day economic-strain early warning for Türkiye.
 
 **Live dashboard:** https://monarchcastletech.github.io/tr-economic-sentiment/
 
@@ -11,6 +11,7 @@ Economic sentiment and market-context signals focused on Türkiye.
 ```bash
 python -m pip install -r requirements.txt
 python pipeline/tr_economic_sentiment_pipeline.py
+python -m unittest discover -s tests -v
 python -m http.server 8000
 ```
 
@@ -18,7 +19,11 @@ Open `http://localhost:8000`. Direct `file://` access cannot fetch `data/output.
 
 ## Automation
 
-GitHub Actions refreshes public data every six hours and deploys the static dashboard to GitHub Pages. AI briefs are optional: configure `OPENROUTER_API_KEY` as a repository Actions secret. Without it, core collection and dashboard deployment remain available.
+GitHub Actions refreshes five public-data channels every six hours, tests the deterministic model, commits the machine-readable snapshot, and deploys GitHub Pages. No account, API key, paid feed, or language model is required.
+
+## Method
+
+Weighted channels: TCMB lira dislocation (30%), TRY-priced Brent pressure (25%), IMF reserve-buffer pressure (20%), OECD consumer-confidence deterioration (15%), and fixed-query narrative strain (10%). Full equations, missing-data policy, warning bands, and reproduction instructions are on the [methodology page](https://monarchcastletech.github.io/tr-economic-sentiment/methodology/).
 
 ## Data notice
 

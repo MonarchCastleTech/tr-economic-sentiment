@@ -1,5 +1,4 @@
-"""Compatibility entrypoint; the RSS-only pipeline is canonical."""
-from tr_economic_sentiment_pipeline import main
+"""Legacy compatibility entrypoint."""
+from turkiye_warning_model import main
 
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__": main()

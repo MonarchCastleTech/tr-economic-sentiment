@@ -1,117 +1,36 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Türkiye Economic Sentiment Radar — MCT Intelligence</title>
-  <meta name="description" content="Live Turkish economic sentiment and market-context signals.">
-  <meta name="theme-color" content="#071522">
-  <link rel="canonical" href="https://monarchcastletech.github.io/tr-economic-sentiment/">
-  <link rel="icon" href="assets/product-logo.svg?v=2" type="image/svg+xml">
-  <meta property="og:title" content="Türkiye Economic Sentiment Radar">
-  <meta property="og:description" content="Live Turkish economic sentiment and market-context signals.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://monarchcastletech.github.io/tr-economic-sentiment/">
-  <link rel="stylesheet" href="assets/style.css?v=4">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Türkiye Economic Sentiment Radar</title>
+  <meta name="description" content="Autonomous early warning for Türkiye economic strain using official market and macroeconomic data.">
+  <meta name="theme-color" content="#07121c"><link rel="canonical" href="https://monarchcastletech.github.io/tr-economic-sentiment/">
+  <link rel="icon" href="assets/product-logo.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css?v=7">
 </head>
-<body data-project="tr-economic-sentiment">
-  <a class="skip-link" href="#overview">Skip to dashboard</a>
-  <header class="header">
-    <a class="header-brand" href="#overview" aria-label="Türkiye Economic Sentiment Radar home">
-      <img class="brand-mark" src="assets/mct-mark.png" alt="Monarch Castle Technologies">
-      <img class="product-logo" src="assets/product-logo.svg?v=2" alt="Türkiye Economic Sentiment Radar">
-      <h1 class="visually-hidden">Türkiye Economic Sentiment Radar</h1>
-    </a>
-    <div class="header-meta">
-      <span class="live-dot" aria-hidden="true"></span>
-      <span id="data-mode">Loading data</span>
-      <span class="meta-divider">|</span>
-      <span>Generated: <time id="generated-time">—</time></span>
-    </div>
+<body>
+  <a class="skip" href="#dashboard">Skip to dashboard</a>
+  <header>
+    <a class="brand" href="./"><img class="mct" src="assets/mct-mark.png" alt="Monarch Castle Technologies"><img class="logo" src="assets/product-logo.svg" alt="Türkiye Economic Sentiment Radar"></a>
+    <div class="live"><i></i><span id="mode">Loading</span><span>Updated <time id="updated">—</time></span></div>
   </header>
-
-  <nav class="nav-tabs" aria-label="Dashboard sections">
-    <a class="nav-tab active" href="#overview">Overview</a>
-    <a class="nav-tab" href="#map">Signals</a>
-    <a class="nav-tab" href="#analysis">Analysis</a>
-    <a class="nav-tab" href="#sources">Sources</a>
-  </nav>
-
-  <main class="main" id="overview">
-    <div class="alert alert-info" id="status-message">
-      <strong>Intelligence status:</strong> Loading the latest validated public snapshot.
+  <nav><a class="active" href="#dashboard">Warning</a><a href="#components">Drivers</a><a href="#evidence">Evidence</a><a href="methodology/">Methodology</a></nav>
+  <main id="dashboard">
+    <section class="hero card">
+      <div><p class="eyebrow">0–30 DAY EARLY WARNING</p><h1>Türkiye economic strain</h1><p id="headline">Calculating current pressure…</p><p class="interpretation" id="interpretation"></p></div>
+      <div class="scorebox"><span id="score">—</span><small>/100</small><b id="status">LOADING</b></div>
+    </section>
+    <section class="metrics" aria-label="Model status">
+      <article><strong id="coverage">—</strong><span>channels live</span></article><article><strong id="confidence">—</strong><span>confidence</span></article><article><strong id="horizon">—</strong><span>warning horizon</span></article><article><strong>6H</strong><span>autonomous refresh</span></article>
+    </section>
+    <div class="layout">
+      <section class="card" id="components"><div class="section-head"><div><p class="eyebrow">DRIVER DECOMPOSITION</p><h2>Pressure channels</h2></div><span>weighted model</span></div><div id="component-list" class="components"></div></section>
+      <aside class="card brief"><p class="eyebrow">MODEL READOUT</p><h2>What moved</h2><div id="readout"></div><a class="method-link" href="methodology/">Read reproducible methodology →</a></aside>
     </div>
-
-    <section class="stat-grid" id="stat-grid" aria-label="Current indicators"></section>
-
-    <div class="grid grid-map">
-      <div class="primary-column">
-        <section class="card" aria-labelledby="map-title">
-          <div class="card-header">
-            <div>
-              <h2 class="card-title" id="map-title">Türkiye Signal Activity</h2>
-              <p class="card-subtitle">Recent public-source coverage; node positions are illustrative</p>
-            </div>
-            <span class="data-chip" id="map-count">— signals</span>
-          </div>
-          <div class="map-container" id="map" role="img" aria-label="Recent Türkiye economic signal activity"></div>
-        </section>
-
-        <section class="card trend-card">
-          <div class="card-header">
-            <div>
-              <h2 class="card-title">Signal Timeline</h2>
-              <p class="card-subtitle">Observed articles by hour in the current snapshot</p>
-            </div>
-          </div>
-          <div class="chart-container" id="timeseries-chart"></div>
-        </section>
-
-        <section class="card" id="analysis" aria-labelledby="analysis-title">
-          <div class="card-header"><h2 class="card-title" id="analysis-title">Automated Analysis</h2></div>
-          <div class="analysis-copy" id="llm-summary">Building a source-grounded brief…</div>
-        </section>
-      </div>
-
-      <aside class="sidebar">
-        <section class="card" aria-labelledby="sources-title">
-          <div class="card-header">
-            <div>
-              <h2 class="card-title" id="sources-title">Source Activity</h2>
-              <p class="card-subtitle">Domains ranked by signal count</p>
-            </div>
-          </div>
-          <div class="table-wrap">
-            <table class="data-table">
-              <thead><tr><th>Source</th><th>Signals</th><th>Tone</th><th>Share</th></tr></thead>
-              <tbody id="source-rows"><tr><td colspan="4">Loading…</td></tr></tbody>
-            </table>
-          </div>
-        </section>
-
-        <section class="card" aria-labelledby="events-title">
-          <div class="card-header">
-            <div>
-              <h2 class="card-title" id="events-title">Recent Signals</h2>
-              <p class="card-subtitle">Latest observed public articles</p>
-            </div>
-          </div>
-          <div id="event-list" class="event-list"><p class="chart-empty">Loading…</p></div>
-        </section>
-
-        <section class="card" id="sources" aria-labelledby="feeds-title">
-          <div class="card-header"><h2 class="card-title" id="feeds-title">Data Feeds</h2></div>
-          <div class="source-tags" id="source-tags"></div>
-        </section>
-      </aside>
-    </div>
+    <section class="card history"><div class="section-head"><div><p class="eyebrow">RECORDED OUTPUT</p><h2>Warning history</h2></div><span id="history-note">Each autonomous run</span></div><div id="chart" class="chart"></div></section>
+    <section class="card" id="evidence"><div class="section-head"><div><p class="eyebrow">OBSERVED INPUTS</p><h2>Current evidence</h2></div><span>source-linked</span></div><div id="evidence-grid" class="evidence-grid"></div></section>
+    <section class="card sources"><div class="section-head"><div><p class="eyebrow">DATA PROVENANCE</p><h2>Public sources</h2></div><a href="data/output.json">Raw JSON</a></div><div id="sources-grid"></div></section>
+    <p class="limit">Screening indicator, not recession, currency or market forecast. Missing channels are reweighted transparently; retained data expire after 72 hours.</p>
   </main>
-
-  <footer class="footer">
-    <p>Türkiye Economic Sentiment Radar — <a href="https://monarchcastletech.github.io/">Monarch Castle Technologies</a></p>
-    <p>Auto-refreshed every 6 hours via GitHub Actions · Public data snapshot in <a href="data/output.json">JSON</a></p>
-  </footer>
-
-  <script src="assets/app.js?v=5"></script>
-</body>
-</html>
+  <footer>Türkiye Economic Sentiment Radar · <a href="https://monarchcastletech.github.io/">Monarch Castle Technologies</a></footer>
+  <script src="assets/app.js?v=7"></script>
+</body></html>
