@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-27T23:36:43.345951+00:00",
+    "generated": "2026-08-27T23:38:50.150156+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0.8,
+      "score": 0.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 151,
+      "coverage": 153,
       "matched": 19,
-      "weighted_density": 0.127,
+      "weighted_density": 0.125,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -261,6 +261,11 @@
     },
     {
       "generated": "2026-08-27T23:36:43.345951+00:00",
+      "score": 0.1,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-08-27T23:38:50.150156+00:00",
       "score": 0.1,
       "status": "BASELINE"
     }
