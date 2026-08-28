@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-27T23:38:50.150156+00:00",
+    "generated": "2026-08-28T12:28:46.762090+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.1,
-    "raw_score": 0.1,
+    "score": 0.4,
+    "raw_score": 0.4,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.1/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.4/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,16 +113,36 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0.6,
+      "score": 3.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 153,
-      "matched": 19,
-      "weighted_density": 0.125,
+      "coverage": 148,
+      "matched": 21,
+      "weighted_density": 0.151,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "58 yıllık meyve suyu devi için iflas eşiği! Mahkemeden son çağrı! - ABC Haber",
+          "source": "ABC Haber",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObGswUjRIcXZFR2JHN1Rya1V3SEZUeUtmT0FFWUZoREl4blVWbDFXWC03TGotRGhLZTM2YjdrRUtRYnFwSXY3WEtOSlZkdXBJcjRaRlhGRU9zUHZla3M3RUw5VUt3Qk5FV2Zsb2ltTW4yUFdRaFZYUWxHRDNFTlVycmxPeEJvQjMyT2xGUTJCd21YRUQwdzhJN2hrZnVXeHllUE5xblp2cEU?oc=5",
+          "published": "2026-08-28T09:57:00+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Türkiye’nin ünlü meyve suyu üreticilerindendi: 58 yıllık marka iflas etti - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT3VaeFNfN21PM0g0YkszVDZRUlAzN2Y3VmVsZWVrOE1aZFl1MEtoWXZXTU50d3FjQ3BfdndzX25EWTNxY25YbEtqcmNBQlBWUEUwbFI3TkNPYUxHVXlYcXZCaGZURHRhNlgwcmhSd29nMlhyTWwxd1Y3UVFlWklYNzVHcWRxTmFvbmZOSUd4Mkl1bERwbW1XY2lKTENTQUpES1lSRUJmdGJuQkJURldqendfU1FSbzEwVHdQTg?oc=5",
+          "published": "2026-08-28T07:54:51+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "Avrupa’ya zeytin satıyordu! 40 yıllık Türk devi iflas etti! Yüzlerce çalışan işsiz kalacak! - ABC Haber",
           "source": "ABC Haber",
@@ -134,10 +154,10 @@
           "weight": 2.0
         },
         {
-          "title": "ECB'den faiz artışı sinyali: Enflasyon düşmezse yeni artış gündemde - Dünya Gazetesi",
-          "source": "Dünya Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORlBrVURsTVhjMmN5NDlhV3d0QXZCdksxeDc5UU9oWFUtby11Nks1TmtqTzJTQ2NrZlBmMnROZDc4S3VoN0lYTkRWYVlSbkFKTnpsS2k3cS04MmZ1b0Y2dmRqVGFWV1QtRUI4OXZ4VTZVVWZsWm1zNTlWZjJiRklyb041OU5sclhNYmVkaXZ2QldSY3UxREdibUhjeTRBem5nemtyOUlYRkFpRWh5c2c?oc=5",
-          "published": "2026-08-27T14:42:00+00:00",
+          "title": "Tokyo enflasyonunda faiz artışını destekleyen hızlanma - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNVlUNlZ5S2Eta0VGWkRwWnIwTXNBWWFLWnFLeWNxR0p4SG12RlZoU2poS2JBbmx3bzBXS2lMUjgyNzdGenlmZ2pRY1owRW94c2hKNnVrUjdDa1BuWHdPVlNpUHhJbUFOdlJ1anFlQ0JQbmtUYkZKMk94VTBWekNqTlF6MnlIMHJ6bEs0aVpFb1o2WHZE?oc=5",
+          "published": "2026-08-28T05:49:11+00:00",
           "terms": [
             "enflasyon",
             "faiz artışı"
@@ -176,16 +196,6 @@
           "weight": 1.2
         },
         {
-          "title": "Türkiye'nin risk primi 6,5 ayın en düşük seviyesinde - TRT Haber",
-          "source": "TRT Haber",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTUVHeHdxUXNsa3dHZFg3ZFNEWWRLVHlBU0w0ZVNwV2Y4Wm5NQlpVeXZXOUxXU1JsVTRaVDBlcEF2VkhoQ0xiMkNUanhyWVI3elQ3aHBBZDktZW5zSjBVV1RYMVdPRFhMMmZ6WVhyQXJfR3V4eDlvZDJlYU05MTNTbkVaMGs5MmEwUVdmWElFRURCTlFTT3B2LWJNcHBfVkkySVo4?oc=5",
-          "published": "2026-08-26T05:44:00+00:00",
-          "terms": [
-            "risk primi"
-          ],
-          "weight": 1.2
-        },
-        {
           "title": "Türkiye'nin risk primi 6 ayın en düşük seviyesinde - Ekonomim",
           "source": "Ekonomim",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWWRjZVlVV0xKY2lvejhzTzV1R1VoMlYwM2FhY0xWelBDZkcyZVlEcmtDOXBUMGJVSG8zV1lPZENURzRRdmltUWVmRjR1OHY5LWZNa21rUE1RYUhGOFdyR0pvUDlSTjdQZ0VCYWxEN25VTW9oZTJuUXE0X2F2WmY1Z2xNWmY3Q3pWV3N0OGRLZjViX25YQkhlbGxDUFJmaE83RVNma0FEeHRIRFlyenJ4UmJRdEkwcHoydkpUR1hZZEUycExURjU0RDgxTdIB0AFBVV95cUxPUWRnTEkxX3dkQ0MyR3Q2ZkVockRCSzN2MGU4Y3VVb04zMjl2TlBYTFljVGd5ZExVNkVDNzNNZnBoSmtNYVU5dHNtS2dfN3huVExmbktGd256SG5hYVJjZGJDR0RfbWdkLTNXZ3k3NFJCZ0xxa2s3SjlvYWhmbk1CRGhCYmVrMzdIb09DRm53eUJBb2VMbDFYb3o4YWFnUWV1YmEzSTM0STh6U2U4RDkydDFVMEJOeXJyZ2FZZXJKWFhESTN0S0swUVp0QTZmX3dI?oc=5",
@@ -194,16 +204,6 @@
             "risk primi"
           ],
           "weight": 1.2
-        },
-        {
-          "title": "Faiz artışı bekleniyor mu? Fed yetkilisinden piyasaları rahatlatan mesaj - ABC Haber",
-          "source": "ABC Haber",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUEk2MUFGYXFSTllsM3pyTTZheUowQWZpUm9JYkNJNHN3VUNYZDRyeUZxemlsNDJGZVBlZ0h1THVxMkp6UFhCQmZOb2J1a0NocmZLc19raEFwRWxRczhvVjZwTE5EQkJlZ1U5YzdZWnhRYmJBMlpzNDhBcXFGdi1ka0ZPUEwybXVELU95ZGY5a3RZRTJDSUxxeFREVFpIOEVieUw4UnZmQWJDaV9fQVdSbEptbw?oc=5",
-          "published": "2026-08-21T00:20:00+00:00",
-          "terms": [
-            "faiz artışı"
-          ],
-          "weight": 1.0
         },
         {
           "title": "Asya’da enflasyon kıskacı: Filipinler Merkez Bankası üst üste üçüncü kez faiz artırdı - Ekonomim",
@@ -267,6 +267,11 @@
     {
       "generated": "2026-08-27T23:38:50.150156+00:00",
       "score": 0.1,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-08-28T12:28:46.762090+00:00",
+      "score": 0.4,
       "status": "BASELINE"
     }
   ],
