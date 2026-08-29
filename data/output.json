@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-28T22:52:28.033575+00:00",
+    "generated": "2026-08-29T07:39:02.932537+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 11.0,
-    "raw_score": 11.0,
+    "score": 10.9,
+    "raw_score": 10.9,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 11.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 10.9/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
+      "coverage": 126,
       "latest_date": "2026-08-28",
       "latest_value": 48.0732,
       "change_5d_pct": 0.4,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 120,
+      "coverage": 119,
       "latest_date": "2026-08-25",
       "latest_value": 4236.6,
       "change_5d_pct": -7.05,
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 5.0,
+      "score": 4.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 146,
-      "matched": 22,
-      "weighted_density": 0.164,
+      "coverage": 144,
+      "matched": 21,
+      "weighted_density": 0.157,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -174,16 +174,6 @@
             "faiz artışı"
           ],
           "weight": 1.8
-        },
-        {
-          "title": "Türkiye'nin kredi risk primi 6 ayın en düşüğünde... CDS 217 baz puana gerileyerek rekor kırdı - Takvim",
-          "source": "Takvim",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdF9wQjFrSVdVanIxdGVvWDNXck5rQUJUSzMwVXN3MFpGN2lCVk16OUxsdzkySEkyRmRIYW0zUVBLSEMwWVFXc3lkaURKeHhsU1F3cEFtZDh3bUFHaHdfZEdleGhzeExJd1M2bE1FVEJNXzRsNUVKZ3A3cEk5NGJqOXhDUUR5WjVHVlVLZE05OExGcUVOb2Ew?oc=5",
-          "published": "2026-08-26T08:47:02+00:00",
-          "terms": [
-            "risk primi"
-          ],
-          "weight": 1.2
         },
         {
           "title": "Türkiye'nin kredi risk primi 6 ayın en düşük seviyesinde - Yeni Şafak",
@@ -244,6 +234,16 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Turkiyenin Agustos 2026 gıda enflasyonu acıklandı: Fiyatı en cok artan ve azalan urunler belli oldu - Karadeniz Gazetesi",
+          "source": "Karadeniz Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTlZud1o2LWxHM0F3MTZ4VDFaNndaaGV6c0lmZDBBdHM2Q2pHQXFxaDIwNkdqTTNzZFlyc05mVkRwa1poelhwWGdZdU85RlFCUmhuNU1UcG1EZHpBSjNhZ3FRWlk4YzJrdzF6akpURWl2LWMyOUJ1ZWg5OEkxeFFwVE9Gc01mYkxUN2RobmduTUR1Y1Q4REFPUjQ3N2xwRWdORzNwTWVLRDlHWWNOWFFfdmZvTnJCbkFCakROSmlHc1RPZW16UTRydUFVR1E0VGZ3WnEzN3QyalAtZnFa?oc=5",
+          "published": "2026-08-27T08:26:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
@@ -277,6 +277,11 @@
     {
       "generated": "2026-08-28T22:52:28.033575+00:00",
       "score": 11.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-08-29T07:39:02.932537+00:00",
+      "score": 10.9,
       "status": "BASELINE"
     }
   ],
