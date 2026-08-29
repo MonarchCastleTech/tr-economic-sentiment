@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-29T16:57:40.483370+00:00",
+    "generated": "2026-08-29T21:29:50.752870+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 2.2,
+      "score": 2.7,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 148,
-      "matched": 20,
-      "weighted_density": 0.139,
+      "coverage": 149,
+      "matched": 21,
+      "weighted_density": 0.144,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -196,6 +196,16 @@
           "weight": 1.2
         },
         {
+          "title": "Ekonomide Kritik Eylül Takvimi! Büyüme, Enflasyon ve Faiz Kararı Peş Peşe Açıklanacak - politikam.com",
+          "source": "politikam.com",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHTG1DOE05N2NCU0dfSmZ0Q3dDV0E1WGJuVVBKdGJrVE1iQTF6Njc3N2M5aElCVzhCMkZxbHhHNGwwT3dVamtzbmlBa3lUVm8yck0xZjhhSU9Fem1Ba1lnMDFITlp2SnNEYTRzRDZJTW5hOUpieUp3UFp2RGVfdVk?oc=5",
+          "published": "2026-08-29T15:59:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Ekonomide kritik haftalar: Gözler büyüme, enflasyon ve faizde - CNN Türk",
           "source": "CNN Türk",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNFlNcENPSlNfd0pTTWVzNFFKWktrWl95TGU0YjZfbGpNZ1JjbnNvRjFMdDZZZ3g1bUwyNHlfTDVlV3RMeDk2UjlhcUtqYy13ME5CNlY2YnBLNHpaRjYxOWNHLXV4Y0dwYnhfV05XLTNiZmt4OUpkMm1ScHpRTHI0RTNIWVh2ZzFBVFhEN1JXUjZfOWtwaHE4YkJ4V0lJT2t3?oc=5",
@@ -230,16 +240,6 @@
           "source": "Ekonomim",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPd2w5ZzhSQzFmcXBkbEdlYXo2Sk1KTTFoUnFHMnN4SWxNVEVtejE0UFFwdElleThISHZtWVNYVXp3eWFHOUxVczRZQkFoNDROcTU3dUR6dUJDM1JHNTdnVklkLWJiT3d4SWt6MHlzWmdYQWNwRDF4dDl4a2E5STRPZDNJQmZ6Vl9UZHhPREdjV0NsZmpEYWhCRXF2ZFVtSTV5QmFnYjBEa2wwWFhfZXowdm9YNE5STUpJZUFkUkRIOFp1YTNWQlFvWlhZdS1hRXN2SVRQS9IB2gFBVV95cUxPWUpQSHp2eEdNUkVSazF4Zk1XTE8xRk5vZkE2MlQtRDJLU2l1NDRyN2wxbVRwbE9JWjBUQTIwQmFSUk5WQnJ6Q1VoNlFBTzdTeDVtZG5IQXZfM1hrcHJIaTFXOVVRa0pPdGhraEUzNHNtNDhPaXhWWlM0OV9NUS1XTzg0M1BRdXRfaTA1eE14ZENOMGMwY280NzhGUDN2dkZ3cjMyNnlQWDNZX09ya0EzU01Bd0UzenB6WVl2VHdOWXYxNFBZbWFRdWx5aG0temZFem90dGtpTG91QQ?oc=5",
           "published": "2026-08-27T08:56:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "TEPAV Ağustos Verilerini Açıkladı: Gıda Enflasyonunda Yatay Seyir - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdW91MUNqY2FXVkVUVjJTbDJJQmtKcUwzUGFpMFk1UGZGanA2aTV5TGxicnozVGFOMFNMS09jcFJ0OTVZQ2VlQWxBc3lTa0JsNGVoQnZqNjhHY3kwb1BseU9jbmtRcFYzeW9mR01idGNhSE8xeHlEbE1kMFRPMC1HSVFlYXk4TUlaYVdRb3pfZW1vdVRtcWZFQUdfaFY3Y0JCeHc?oc=5",
-          "published": "2026-08-27T07:09:11+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -286,6 +286,11 @@
     },
     {
       "generated": "2026-08-29T16:57:40.483370+00:00",
+      "score": 10.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-08-29T21:29:50.752870+00:00",
       "score": 10.8,
       "status": "BASELINE"
     }
