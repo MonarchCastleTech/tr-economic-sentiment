@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-29T07:39:02.932537+00:00",
+    "generated": "2026-08-29T16:57:40.483370+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 10.9,
-    "raw_score": 10.9,
+    "score": 10.8,
+    "raw_score": 10.8,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 10.9/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 10.8/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 4.2,
+      "score": 2.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 144,
-      "matched": 21,
-      "weighted_density": 0.157,
+      "coverage": 148,
+      "matched": 20,
+      "weighted_density": 0.139,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -128,16 +128,6 @@
           "source": "ABC Haber",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObGswUjRIcXZFR2JHN1Rya1V3SEZUeUtmT0FFWUZoREl4blVWbDFXWC03TGotRGhLZTM2YjdrRUtRYnFwSXY3WEtOSlZkdXBJcjRaRlhGRU9zUHZla3M3RUw5VUt3Qk5FV2Zsb2ltTW4yUFdRaFZYUWxHRDNFTlVycmxPeEJvQjMyT2xGUTJCd21YRUQwdzhJN2hrZnVXeHllUE5xblp2cEU?oc=5",
           "published": "2026-08-28T09:57:00+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye’nin ünlü meyve suyu üreticilerindendi: 58 yıllık marka iflas etti - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT3VaeFNfN21PM0g0YkszVDZRUlAzN2Y3VmVsZWVrOE1aZFl1MEtoWXZXTU50d3FjQ3BfdndzX25EWTNxY25YbEtqcmNBQlBWUEUwbFI3TkNPYUxHVXlYcXZCaGZURHRhNlgwcmhSd29nMlhyTWwxd1Y3UVFlWklYNzVHcWRxTmFvbmZOSUd4Mkl1bERwbW1XY2lKTENTQUpES1lSRUJmdGJuQkJURldqendfU1FSbzEwVHdQTg?oc=5",
-          "published": "2026-08-28T07:54:51+00:00",
           "terms": [
             "iflas"
           ],
@@ -206,6 +196,16 @@
           "weight": 1.2
         },
         {
+          "title": "Ekonomide kritik haftalar: Gözler büyüme, enflasyon ve faizde - CNN Türk",
+          "source": "CNN Türk",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNFlNcENPSlNfd0pTTWVzNFFKWktrWl95TGU0YjZfbGpNZ1JjbnNvRjFMdDZZZ3g1bUwyNHlfTDVlV3RMeDk2UjlhcUtqYy13ME5CNlY2YnBLNHpaRjYxOWNHLXV4Y0dwYnhfV05XLTNiZmt4OUpkMm1ScHpRTHI0RTNIWVh2ZzFBVFhEN1JXUjZfOWtwaHE4YkJ4V0lJT2t3?oc=5",
+          "published": "2026-08-29T10:02:25+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Fed Başkanı Warsh'tan faiz mesajı: ''Enflasyon endişe verici'' - NTV Haber",
           "source": "NTV Haber",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLThwRExtb0ZOZFMzSW9oNENONk5maXVXWWtoTmtTYUxUNXFLNHhGcDhBTDdOczBRN1Z4QWxfU083eFVXV2dWQXZ2OWE3dVRmcUU3dDN2andkV3hhQmNTUUJHN2JLcndyNkRNckVHektuN21zOGlDUUNCUXR3SHNRaXoyZmRMY2g0T0U2dElLUmVEWE9pMmpNbDBlWQ?oc=5",
@@ -236,10 +236,10 @@
           "weight": 0.8
         },
         {
-          "title": "Turkiyenin Agustos 2026 gıda enflasyonu acıklandı: Fiyatı en cok artan ve azalan urunler belli oldu - Karadeniz Gazetesi",
-          "source": "Karadeniz Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTlZud1o2LWxHM0F3MTZ4VDFaNndaaGV6c0lmZDBBdHM2Q2pHQXFxaDIwNkdqTTNzZFlyc05mVkRwa1poelhwWGdZdU85RlFCUmhuNU1UcG1EZHpBSjNhZ3FRWlk4YzJrdzF6akpURWl2LWMyOUJ1ZWg5OEkxeFFwVE9Gc01mYkxUN2RobmduTUR1Y1Q4REFPUjQ3N2xwRWdORzNwTWVLRDlHWWNOWFFfdmZvTnJCbkFCakROSmlHc1RPZW16UTRydUFVR1E0VGZ3WnEzN3QyalAtZnFa?oc=5",
-          "published": "2026-08-27T08:26:00+00:00",
+          "title": "TEPAV Ağustos Verilerini Açıkladı: Gıda Enflasyonunda Yatay Seyir - Para Analiz",
+          "source": "Para Analiz",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdW91MUNqY2FXVkVUVjJTbDJJQmtKcUwzUGFpMFk1UGZGanA2aTV5TGxicnozVGFOMFNMS09jcFJ0OTVZQ2VlQWxBc3lTa0JsNGVoQnZqNjhHY3kwb1BseU9jbmtRcFYzeW9mR01idGNhSE8xeHlEbE1kMFRPMC1HSVFlYXk4TUlaYVdRb3pfZW1vdVRtcWZFQUdfaFY3Y0JCeHc?oc=5",
+          "published": "2026-08-27T07:09:11+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -282,6 +282,11 @@
     {
       "generated": "2026-08-29T07:39:02.932537+00:00",
       "score": 10.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-08-29T16:57:40.483370+00:00",
+      "score": 10.8,
       "status": "BASELINE"
     }
   ],
