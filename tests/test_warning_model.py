@@ -1,9 +1,9 @@
 import sys, unittest
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "pipeline"))
-from turkiye_warning_model import align, anomaly, band, changes, clamp, monthly_pressure, robust_z
+from turkiye_warning_model import align, anomaly, band, changes, clamp, fallback, monthly_pressure, robust_z
 
 class ModelTests(unittest.TestCase):
     def test_clamp(self): self.assertEqual((clamp(-2), clamp(120)), (0, 100))
@@ -19,5 +19,17 @@ class ModelTests(unittest.TestCase):
         rows[-1]=(rows[-1][0], 70)
         out=monthly_pressure(rows,-1,"reserve_buffer",.2,"m","r","u")
         self.assertGreater(out["score"], 40)
+    def test_recent_component_fallback_is_keyless_and_expires(self):
+        now=datetime.now(timezone.utc)
+        component={"key":"lira_dislocation","score":51,"available":True,"weight":.3,"evidence":[]}
+        recent={"meta":{"generated":(now-timedelta(hours=2)).isoformat()},"components":{"lira_dislocation":component}}
+        kept=fallback(recent,"lira_dislocation",now,RuntimeError("offline"))
+        self.assertEqual(kept["score"],51);self.assertTrue(kept["retained"]);self.assertNotIn("retained",component)
+        stale={"meta":{"generated":(now-timedelta(hours=73)).isoformat()},"components":{"lira_dislocation":component}}
+        self.assertFalse(fallback(stale,"lira_dislocation",now,RuntimeError("offline"))["available"])
+    def test_workflow_verifies_before_refresh(self):
+        workflow=(Path(__file__).resolve().parents[1]/".github"/"workflows"/"pipeline.yml").read_text(encoding="utf-8")
+        self.assertIn("Verify keyless offline contracts",workflow)
+        self.assertLess(workflow.index("python -m unittest discover"),workflow.index("Refresh public data"))
 
 if __name__ == "__main__": unittest.main()
