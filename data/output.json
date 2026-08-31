@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-31T06:38:35.820839+00:00",
+    "generated": "2026-08-31T14:49:27.688709+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,34 +11,34 @@
     "source_notes": []
   },
   "warning": {
-    "score": 11.0,
-    "raw_score": 11.0,
+    "score": 0.0,
+    "raw_score": 0.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 11.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 35.1,
-      "status": "WATCH",
+      "score": 0.0,
+      "status": "BASELINE",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 125,
-      "latest_date": "2026-08-28",
-      "latest_value": 48.0732,
-      "change_5d_pct": 0.4,
-      "return_z": 1.85,
+      "coverage": 126,
+      "latest_date": "2026-08-31",
+      "latest_value": 48.1745,
+      "change_5d_pct": 0.38,
+      "return_z": -0.33,
       "volatility_20d": 0.07,
-      "volatility_z": -0.93,
+      "volatility_z": -1.17,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.0732,
-          "date": "2026-08-28",
+          "value": 48.1745,
+          "date": "2026-08-31",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -113,16 +113,26 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 4.5,
+      "score": 0.3,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 157,
-      "matched": 26,
-      "weighted_density": 0.159,
+      "coverage": 148,
+      "matched": 15,
+      "weighted_density": 0.122,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Deri sektöründe kriz büyüyor: Artık yoğun bakımdayız - Son Dakika",
+          "source": "Son Dakika",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWHpRbXZseG9PcVppSndFSVBxZFJ3bHAyWHpPSV96Y0wtdnFndmVZdkd5Zi1fbzFWUjF5UV96VmphZUVkUWlGRVBzTHRxa2lTTWwtblY1d0ptNldWa29VOXhJLWVCbE1EYzNJbEZKaFI5VkVXajVJSWRIb2Q5OWJFYk42aHJ4dGVHU2RrRzJIWl9FQdIBjwFBVV95cUxNZXFlejlqcHRpUXJBdmMtaEt1eDEtTE1oNWJBUkJpbXNqdTFZa1M4ZnJOWDZDeFBYYW5Jck1qbTRQY2h4Uzl1MHM2NHZMYUpHR2JBZlExRTJibTVxQmNHemhMbTRLV1VTaFU3VlIyRGhKcW5OaVFOemJoS08wZGNHdjZ0WlVJYl80UUxhS05zaw?oc=5",
+          "published": "2026-08-31T11:48:17+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "58 yıllık meyve suyu devi için iflas eşiği! Mahkemeden son çağrı! - ABC Haber",
           "source": "ABC Haber",
@@ -166,74 +176,25 @@
           "weight": 1.8
         },
         {
-          "title": "Türkiye'nin kredi risk primi 6 ayın en düşük seviyesinde - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOelVDdmhfa1QxaE1qcUdUTWVxSElTYmc3d0l3OXg2R3N1QXcyYVRBaGUwWkEwcjhJNmlvRUd1M1JOMFpOMWZ5dlRkOEVsMTl4Sk1lTDM5ZHpuZ3YtUi00bjkybmtTUHBDU2NabXdMX09RdlhmMHZqOUFrRWFPUGJCNG9LOEJ0TkNMZnBjN2VWb1I3MWlTal9xMjBGbzY5QQ?oc=5",
-          "published": "2026-08-26T06:03:39+00:00",
+          "title": "TÜİK Temmuz verilerini açıkladı: Türkiye’de işsizlik yüzde 8,1’e yükseldi - Euronews.com",
+          "source": "Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNFhKTG44ci1ocWJFQ0gxYlhZRE9jeTk2Rm5lUk9GOUIwWHZWa2Vfa2lLZ0VxYWJISDk1NV9EdVlGSk1WU01lcVNFbjQxOVFKVExUcm5sWko2VUZ2WlF4T19aN3JPeUM2eF9LZ1dSQ3h2Z0lGbXpJeVotR2I1VnJfcC1HU0pXZ1FudlNKWlNUN3dpY2M0NThnWlhnVFhRWnhZYTJwN1ZiRkNqOFpTMmEzcGJLOA?oc=5",
+          "published": "2026-08-31T08:24:15+00:00",
           "terms": [
-            "risk primi"
+            "işsizlik"
           ],
-          "weight": 1.2
+          "weight": 1.5
         },
         {
-          "title": "Türkiye'nin 5 yıllık kredi risk primi geriledi - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRTRTR3VzTzdZazU2MXg0eHNxRG9YVUpOVkJDcG15TElSek5vbW9QWER1cEd2Z1M2OUhnQ0F5aWNSWWlyeE5GWGZZTnN2UVhHY1hTWGtmRGlhUnlnNkQ1Uno4Mjg5d3FqUjd3RDhOaVdfNEc2MUtsX1hjWU1PYzBYXzF4b0JyU21JYTdKX1paODYxU3FZdkMtc1Z30gGcAUFVX3lxTE05WUpiaDNySndXOERzU1VVU3NaN2FYQVJJSDdBTjBiaVpjRGNHZWM5MFNBZWJtVmZPZjlfTEY0cFZ1cl9Pck9JM3ZuQXhPZ3A5MU5aWms3OE4tSmZNY1FNZkZMODMtc0VlTExWVHdKMXV2TkswZ2VKbm1wUTZpOFMzbV80RVBBNHF2YVpZalRYdlZqZnlMYTdWbWlqMA?oc=5",
-          "published": "2026-08-26T05:59:00+00:00",
+          "title": "Ağustos 2026 Enflasyon Rakamları Ne Zaman Açıklanacak? Tarih, Saat ve Beklentiler - Milli İrade Gazetesi",
+          "source": "Milli İrade Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc1pJX2t3aWUwUE5RWGEtQXRYeHZyOURBM2p4T2R3NXVvckRwXzB3TE9oc2ppSDg0enFrVF9MV3VBRDhfV3ltT0htdDJFOG1OdU5XME9VS2s0MlpOOHpFWENJMlRETWNvTjRtX2dSZzRtRkRLOExOcWE2UzdYXzFsamNkTzZycWRHeHJLVWxGX0lpQ285VkJNTDNsZjdjek1ERlVORE5BSzFuUQ?oc=5",
+          "published": "2026-08-31T11:05:00+00:00",
           "terms": [
-            "risk primi"
-          ],
-          "weight": 1.2
-        },
-        {
-          "title": "Türkiye'nin risk primi 6 ayın en düşük seviyesinde - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWWRjZVlVV0xKY2lvejhzTzV1R1VoMlYwM2FhY0xWelBDZkcyZVlEcmtDOXBUMGJVSG8zV1lPZENURzRRdmltUWVmRjR1OHY5LWZNa21rUE1RYUhGOFdyR0pvUDlSTjdQZ0VCYWxEN25VTW9oZTJuUXE0X2F2WmY1Z2xNWmY3Q3pWV3N0OGRLZjViX25YQkhlbGxDUFJmaE83RVNma0FEeHRIRFlyenJ4UmJRdEkwcHoydkpUR1hZZEUycExURjU0RDgxTdIB0AFBVV95cUxPUWRnTEkxX3dkQ0MyR3Q2ZkVockRCSzN2MGU4Y3VVb04zMjl2TlBYTFljVGd5ZExVNkVDNzNNZnBoSmtNYVU5dHNtS2dfN3huVExmbktGd256SG5hYVJjZGJDR0RfbWdkLTNXZ3k3NFJCZ0xxa2s3SjlvYWhmbk1CRGhCYmVrMzdIb09DRm53eUJBb2VMbDFYb3o4YWFnUWV1YmEzSTM0STh6U2U4RDkydDFVMEJOeXJyZ2FZZXJKWFhESTN0S0swUVp0QTZmX3dI?oc=5",
-          "published": "2026-08-26T05:44:00+00:00",
-          "terms": [
-            "risk primi"
-          ],
-          "weight": 1.2
-        },
-        {
-          "title": "Malatya’da Ekonomi Gündemi Eylülde Isınıyor: Gözler Enflasyon, Faiz Ve Büyüme Verilerinde! - Malatya Söz",
-          "source": "Malatya Söz",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMVgyb3dvbWoxcjJERjloNmUyRmhUTFBTbUF3VnR1RW42cEpkX3FXVTIzT1ZSTUtqRGZGMURXYmhnY1BtSE9VaTl0TkVnT1ZJaFh4Ynp6MHpEZ29TeHRzb2RTUGFwd1BzbWxZbngwNlI5Z3NMYk1pa1lXcXRzR0dqT0RuNTRuWEhOcGhzTS1EM1FscG5QMXRuS2lPSzY5T05fMjRic1dSR00tb09Zc19pNk1pUQ?oc=5",
-          "published": "2026-08-29T23:28:00+00:00",
-          "terms": [
+            "zam",
             "enflasyon"
           ],
-          "weight": 0.8
-        },
-        {
-          "title": "Ekonomide Kritik Eylül Takvimi! Büyüme, Enflasyon ve Faiz Kararı Peş Peşe Açıklanacak - politikam.com",
-          "source": "politikam.com",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHTG1DOE05N2NCU0dfSmZ0Q3dDV0E1WGJuVVBKdGJrVE1iQTF6Njc3N2M5aElCVzhCMkZxbHhHNGwwT3dVamtzbmlBa3lUVm8yck0xZjhhSU9Fem1Ba1lnMDFITlp2SnNEYTRzRDZJTW5hOUpieUp3UFp2RGVfdVk?oc=5",
-          "published": "2026-08-29T15:59:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Ekonomide kritik haftalar: Gözler büyüme, enflasyon ve faizde - CNN Türk",
-          "source": "CNN Türk",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNFlNcENPSlNfd0pTTWVzNFFKWktrWl95TGU0YjZfbGpNZ1JjbnNvRjFMdDZZZ3g1bUwyNHlfTDVlV3RMeDk2UjlhcUtqYy13ME5CNlY2YnBLNHpaRjYxOWNHLXV4Y0dwYnhfV05XLTNiZmt4OUpkMm1ScHpRTHI0RTNIWVh2ZzFBVFhEN1JXUjZfOWtwaHE4YkJ4V0lJT2t3?oc=5",
-          "published": "2026-08-29T10:02:25+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Fed Başkanı Warsh'tan faiz mesajı: ''Enflasyon endişe verici'' - NTV Haber",
-          "source": "NTV Haber",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLThwRExtb0ZOZFMzSW9oNENONk5maXVXWWtoTmtTYUxUNXFLNHhGcDhBTDdOczBRN1Z4QWxfU083eFVXV2dWQXZ2OWE3dVRmcUU3dDN2andkV3hhQmNTUUJHN2JLcndyNkRNckVHektuN21zOGlDUUNCUXR3SHNRaXoyZmRMY2g0T0U2dElLUmVEWE9pMmpNbDBlWQ?oc=5",
-          "published": "2026-08-28T14:48:22+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
+          "weight": 1.4
         },
         {
           "title": "Fed Başkanı Warsh’tan enflasyon ve faiz mesajı - Doviz.com",
@@ -244,6 +205,46 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Atilla Yeşilada video: Faiz inerse hiperenflasyona gideriz! Seçimi böyle kazanamaz & Borsaya girerim - Para Analiz",
+          "source": "Para Analiz",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT05vTllTSGFaTWFCMzdub2tJUk5nVDJ4QV9GN0N4SDhUV0Jfd0xaZURWeGlCYWw0UEpocnZ4ZU1yUE9VeFd3NTBJUDRLSU85NUdJaEJlWU5FRFRGLTZmUThCMGVhblpuMzhURXQxZkJiRi05dmIxblV1dURZQ2M5aHlBR0FWWUFCdEttM0RJSXg4cGxvdkk3U2pLRThfUDdfSjF0aU1fckVZT0c1V3NIaGdlTDNZZzBtbVNCS0ZKS2U2Mmh3bkVv?oc=5",
+          "published": "2026-08-28T07:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Fed'in izlediği enflasyon göstergesinde sürpriz yok - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQmRJTl9rUDFWNVVkNDlWRmRnR3V2Zmc3eWtvd3hFaExmWGZWaDFDX3ktM2J4Wks5TXBEdjJoQXdNOHltVHU5VnNWelhKaF9vendqZUtlMzlHSS1uTlBmVGd1SU5QeTZHSjFxR3RHaW51TVJMekdvR2Nuc1llNzlPWFlJbjQxem9wVFE?oc=5",
+          "published": "2026-08-26T12:31:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Enerji İş Sendikası Genel Başkanı Altunsoy'dan 'enflasyon' değerlendirmesi - İşçi Haber",
+          "source": "İşçi Haber",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdUFaRGRwYlBNUkxjeU5xNzNlMlYtdk1RLWUxdWRLWWpBWEo4Y3h3ZEdxVWpEUUlXcjB1eTh1eXgtbGMyemtmU3hZYVhFamV1UEQzSl9DSlY5QTRMMWIwMFlKSFhidTUzeElwWnJJM0M1czlyWDZfOTJvVFRtQjFwTFR1bjB1cUhJX3E3VEFwY0J6c2ZqVVp4aGliR3ZhOWlidFJXNjA0UU9lRGdhMUhBSXdVVVMxT1h6cmhCU0Vn?oc=5",
+          "published": "2026-08-24T15:06:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Merkez Bankası faiz kararı ne zaman? Faiz artar mı, düşer mi? - Haber 7",
+          "source": "Haber 7",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXhsVUQwSHkwQlpmWFB6M3puNVVXQXJLYW1EVTA5M1FVR016U2tYcS1rNkJRbUlzOTQtanBnUFpwdjY2SXpUMXZfeExMM3dGQWlEYk9xMzNDQ3RybmctTFAtcGZkbGU2SkRhYW16akU5LUF0alM0NzhWd3lTQ0cwNG16QTlxa2djRUZFemVfQWpXQ0pmWXlCN2VRWXlWNjNRTGhzaUJfbDB5ZU10eHfSAa4BQVVfeXFMTml4bFVEMEh5MEJaZlhQejN6bjVVV0FyS2FtRFUwOTNRVUdNelNrWHEtazZCUW1Jczk0LWpwZ1BacHY2Nkl6VDF2X3hMTDN3RkFpRGJPcTMzQ0N0cm5nLUxQLXBmZGxlNkpEYWFtempFOS1BdGpTNDc4Vnd5U0NHMDRtekE5cWtnY0VGRXplX0FqV0NKZll5QjdlUVl5VjYzUUxoc2lCX2wweWVNdHh3?oc=5",
+          "published": "2026-08-31T12:08:00+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
         }
       ]
     }
@@ -317,6 +318,11 @@
     {
       "generated": "2026-08-31T06:38:35.820839+00:00",
       "score": 11.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-08-31T14:49:27.688709+00:00",
+      "score": 0.0,
       "status": "BASELINE"
     }
   ],
