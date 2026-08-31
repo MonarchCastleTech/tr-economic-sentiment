@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-31T14:49:27.688709+00:00",
+    "generated": "2026-08-31T23:06:04.240268+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,7 +11,7 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.0,
+    "score": 0,
     "raw_score": 0.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0.3,
+      "score": 0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 148,
-      "matched": 15,
-      "weighted_density": 0.122,
+      "coverage": 140,
+      "matched": 12,
+      "weighted_density": 0.109,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -168,7 +168,7 @@
           "title": "Avustralya’da enflasyon temmuzda beklentileri aştı, RBA faiz artışı ihtimali güçlendi - Investing.com Türkiye",
           "source": "Investing.com Türkiye",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVFIejVDSjFfRkNSYnF6Z1psR0NESWR5dXR2amxsSmRDaGd6ZHNTQmY2QTdUbzY5c1hnQjdDN29TRFRyM3N3ZWZDSzhCY0pMM0NGdi1vZlRZN0drMDAybV9tU1JMbjl5cjNTaHBpTmZfeFlRRDRWME1kdVBUOWZtRnJ0dFh5ZUM5ZEU0TjNTamRYNUpORXVaUDhSR3U1ZkxGZGpWWmFXdHJOZms2cTUwSXpn?oc=5",
-          "published": "2026-08-26T04:52:30+00:00",
+          "published": "2026-08-26T05:15:30+00:00",
           "terms": [
             "enflasyon",
             "faiz artışı"
@@ -186,17 +186,6 @@
           "weight": 1.5
         },
         {
-          "title": "Ağustos 2026 Enflasyon Rakamları Ne Zaman Açıklanacak? Tarih, Saat ve Beklentiler - Milli İrade Gazetesi",
-          "source": "Milli İrade Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc1pJX2t3aWUwUE5RWGEtQXRYeHZyOURBM2p4T2R3NXVvckRwXzB3TE9oc2ppSDg0enFrVF9MV3VBRDhfV3ltT0htdDJFOG1OdU5XME9VS2s0MlpOOHpFWENJMlRETWNvTjRtX2dSZzRtRkRLOExOcWE2UzdYXzFsamNkTzZycWRHeHJLVWxGX0lpQ285VkJNTDNsZjdjek1ERlVORE5BSzFuUQ?oc=5",
-          "published": "2026-08-31T11:05:00+00:00",
-          "terms": [
-            "zam",
-            "enflasyon"
-          ],
-          "weight": 1.4
-        },
-        {
           "title": "Fed Başkanı Warsh’tan enflasyon ve faiz mesajı - Doviz.com",
           "source": "Doviz.com",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTEwyYVI1cDNsbXdzODZ5anExNnd0SE9wNmgtNTk0Tkx0czFKa3JvbUVRbHRrM2FaQk9rN0FNWmVUT1BUdDNTODRZNTVxaEtJMTVxcmpKVDFKOTl2OTZDQXJXVkMzckppYlg1aU1xVE1MWlJYak1iNlJkY1FDbXY5QkZrXzRGNmVYSUtWVWIxMjFIeWUtMVpWaTZB0gGiAUFVX3lxTE15eHZiQV81XzlLdGo2MTh5SHRGN2phMVBTN29YVkMwVlNNZEFheTg2QU1GdlZjQ3FiVVE5MVpsRmJWYlN2SV9VZTQ5WVByRjRDdVB2c1Zra3ZqWk81cFI4OUM3UVZNQlVERTRQZ2gyeUVib0tjQV8xSWdsMEtZbWZoTkRCcW9HdDNHY2o2N2ExNXFFRHpfVlVzWXhxYVRJRWc3Zw?oc=5",
@@ -207,8 +196,8 @@
           "weight": 0.8
         },
         {
-          "title": "Atilla Yeşilada video: Faiz inerse hiperenflasyona gideriz! Seçimi böyle kazanamaz & Borsaya girerim - Para Analiz",
-          "source": "Para Analiz",
+          "title": "Atilla Yeşilada video: Faiz inerse hiperenflasyona gideriz! Seçimi böyle kazanamaz & Borsaya girerim - paraanaliz.com",
+          "source": "paraanaliz.com",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT05vTllTSGFaTWFCMzdub2tJUk5nVDJ4QV9GN0N4SDhUV0Jfd0xaZURWeGlCYWw0UEpocnZ4ZU1yUE9VeFd3NTBJUDRLSU85NUdJaEJlWU5FRFRGLTZmUThCMGVhblpuMzhURXQxZkJiRi05dmIxblV1dURZQ2M5aHlBR0FWWUFCdEttM0RJSXg4cGxvdkk3U2pLRThfUDdfSjF0aU1fckVZT0c1V3NIaGdlTDNZZzBtbVNCS0ZKS2U2Mmh3bkVv?oc=5",
           "published": "2026-08-28T07:00:00+00:00",
           "terms": [
@@ -227,20 +216,30 @@
           "weight": 0.8
         },
         {
-          "title": "Enerji İş Sendikası Genel Başkanı Altunsoy'dan 'enflasyon' değerlendirmesi - İşçi Haber",
-          "source": "İşçi Haber",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdUFaRGRwYlBNUkxjeU5xNzNlMlYtdk1RLWUxdWRLWWpBWEo4Y3h3ZEdxVWpEUUlXcjB1eTh1eXgtbGMyemtmU3hZYVhFamV1UEQzSl9DSlY5QTRMMWIwMFlKSFhidTUzeElwWnJJM0M1czlyWDZfOTJvVFRtQjFwTFR1bjB1cUhJX3E3VEFwY0J6c2ZqVVp4aGliR3ZhOWlidFJXNjA0UU9lRGdhMUhBSXdVVVMxT1h6cmhCU0Vn?oc=5",
-          "published": "2026-08-24T15:06:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "Merkez Bankası faiz kararı ne zaman? Faiz artar mı, düşer mi? - Haber 7",
           "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXhsVUQwSHkwQlpmWFB6M3puNVVXQXJLYW1EVTA5M1FVR016U2tYcS1rNkJRbUlzOTQtanBnUFpwdjY2SXpUMXZfeExMM3dGQWlEYk9xMzNDQ3RybmctTFAtcGZkbGU2SkRhYW16akU5LUF0alM0NzhWd3lTQ0cwNG16QTlxa2djRUZFemVfQWpXQ0pmWXlCN2VRWXlWNjNRTGhzaUJfbDB5ZU10eHfSAa4BQVVfeXFMTml4bFVEMEh5MEJaZlhQejN6bjVVV0FyS2FtRFUwOTNRVUdNelNrWHEtazZCUW1Jczk0LWpwZ1BacHY2Nkl6VDF2X3hMTDN3RkFpRGJPcTMzQ0N0cm5nLUxQLXBmZGxlNkpEYWFtempFOS1BdGpTNDc4Vnd5U0NHMDRtekE5cWtnY0VGRXplX0FqV0NKZll5QjdlUVl5VjYzUUxoc2lCX2wweWVNdHh3?oc=5",
           "published": "2026-08-31T12:08:00+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
+        },
+        {
+          "title": "Merkez Bankası ilk faiz indirimini ne zaman yapacak? Bank of America (BofA) Türkiye raporu - MANŞET İZ",
+          "source": "MANŞET İZ",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdWtpdlRzaG83ME9tVFR1MmIxc0pleXpzU3MtN0FFU2JXWnhKdkJSUHB3LUZjVU90WllwTl90bjZWalNGZXR5UG01bzRuT0hYTTFnVlFnSTVQa0plVE9sUHNoZnRfT2ZVY0l5YUs3N2p5bkNTTUVLMkhEVUxxZzRwLTlPZGViaGVuYXY5dEdfQktNa3Z2NFA2cHBMQnBiTkZQNmVZbEQwMDFhRVdZTWNyRnd3?oc=5",
+          "published": "2026-08-26T07:09:00+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
+        },
+        {
+          "title": "FED FAİZ TOPLANTI TARİHİ 2026 TAKVİMİ: Bir sonraki Fed faiz kararı ne zaman açıklanacak? 2026 Fed faiz beklentisi ne yönde? - Uzmanpara",
+          "source": "Uzmanpara",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNd001TzlaSm9zYTZ5bGlnb1dwdGctaFFJdU1Jb3hmbnkxT0dyUlF1d2pGSW1Uc2dpZ1E5NUtyOWpnQVgzejRuOWsta1pfdWIwRWd5LTBDdENlNzBNX0I5ZDkweTcweHdyaXgtczJwc1Q2LWhNcjhVSFdpdmZqcFl6SkRpc0d0NTJ3NDFaaUFsSnE0SW1vWFlrZFFVOVBDbHB6UmFrdjFjRVVrc1gtMnI0NW9sNXYtbEpXbm9ta2M2Q2Z5b29xdVJnbzdqaVRiZ1FMUUttV3AxdlRqNEpVVDNXOGpNbFA4OHJUQmh2TnhoSnA?oc=5",
+          "published": "2026-08-26T06:34:06+00:00",
           "terms": [
             "zam"
           ],
@@ -323,6 +322,11 @@
     {
       "generated": "2026-08-31T14:49:27.688709+00:00",
       "score": 0.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-08-31T23:06:04.240268+00:00",
+      "score": 0,
       "status": "BASELINE"
     }
   ],
