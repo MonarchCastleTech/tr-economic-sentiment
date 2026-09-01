@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-08-31T23:06:04.240268+00:00",
+    "generated": "2026-09-01T06:00:17.720169+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -118,21 +118,11 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 140,
+      "coverage": 139,
       "matched": 12,
-      "weighted_density": 0.109,
+      "weighted_density": 0.106,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
-        {
-          "title": "Deri sektöründe kriz büyüyor: Artık yoğun bakımdayız - Son Dakika",
-          "source": "Son Dakika",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWHpRbXZseG9PcVppSndFSVBxZFJ3bHAyWHpPSV96Y0wtdnFndmVZdkd5Zi1fbzFWUjF5UV96VmphZUVkUWlGRVBzTHRxa2lTTWwtblY1d0ptNldWa29VOXhJLWVCbE1EYzNJbEZKaFI5VkVXajVJSWRIb2Q5OWJFYk42aHJ4dGVHU2RrRzJIWl9FQdIBjwFBVV95cUxNZXFlejlqcHRpUXJBdmMtaEt1eDEtTE1oNWJBUkJpbXNqdTFZa1M4ZnJOWDZDeFBYYW5Jck1qbTRQY2h4Uzl1MHM2NHZMYUpHR2JBZlExRTJibTVxQmNHemhMbTRLV1VTaFU3VlIyRGhKcW5OaVFOemJoS08wZGNHdjZ0WlVJYl80UUxhS05zaw?oc=5",
-          "published": "2026-08-31T11:48:17+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
         {
           "title": "58 yıllık meyve suyu devi için iflas eşiği! Mahkemeden son çağrı! - ABC Haber",
           "source": "ABC Haber",
@@ -186,6 +176,16 @@
           "weight": 1.5
         },
         {
+          "title": "TÜİK işsizlik rakamlarını açıkladı! - Haber 7",
+          "source": "Haber 7",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWFpSd1hlQnEwOHhZRkxOUjY0TUFMWmg5b3lnT1BlVkRlQlAwZ0xFUTNEZzZtc3VDcHo2Tld2alJEOGZvUUZObU5jRzZvMzR5UHIzdFpERWgzdUVxMU5NbFNEek9pcDk3VldCa0NGSjZ2UDY1WEJ1Q2xnZmRrZnpsZU5vLWRCX1piVkZZ0gGOAUFVX3lxTE1xeE9rYmh2T3lTdjUzQk5fbEI0cDN6VzVvOTA5Nk1jOGRCc3F5U2ZLN3NfbmcxQmU1X2NTeFpwS1p3U1NYaUtYcHRjY3NBdXM3M3pRVVd1ZjNFMk5kWHZTdDMzdlAzVHBnc0lJVTFyR1NIZ1gyRFRvblRPZ2JmcmNjYWxWaFVqNjlJa3g1bEE?oc=5",
+          "published": "2026-08-31T07:59:00+00:00",
+          "terms": [
+            "işsizlik"
+          ],
+          "weight": 1.5
+        },
+        {
           "title": "Fed Başkanı Warsh’tan enflasyon ve faiz mesajı - Doviz.com",
           "source": "Doviz.com",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTEwyYVI1cDNsbXdzODZ5anExNnd0SE9wNmgtNTk0Tkx0czFKa3JvbUVRbHRrM2FaQk9rN0FNWmVUT1BUdDNTODRZNTVxaEtJMTVxcmpKVDFKOTl2OTZDQXJXVkMzckppYlg1aU1xVE1MWlJYak1iNlJkY1FDbXY5QkZrXzRGNmVYSUtWVWIxMjFIeWUtMVpWaTZB0gGiAUFVX3lxTE15eHZiQV81XzlLdGo2MTh5SHRGN2phMVBTN29YVkMwVlNNZEFheTg2QU1GdlZjQ3FiVVE5MVpsRmJWYlN2SV9VZTQ5WVByRjRDdVB2c1Zra3ZqWk81cFI4OUM3UVZNQlVERTRQZ2gyeUVib0tjQV8xSWdsMEtZbWZoTkRCcW9HdDNHY2o2N2ExNXFFRHpfVlVzWXhxYVRJRWc3Zw?oc=5",
@@ -196,8 +196,8 @@
           "weight": 0.8
         },
         {
-          "title": "Atilla Yeşilada video: Faiz inerse hiperenflasyona gideriz! Seçimi böyle kazanamaz & Borsaya girerim - paraanaliz.com",
-          "source": "paraanaliz.com",
+          "title": "Atilla Yeşilada video: Faiz inerse hiperenflasyona gideriz! Seçimi böyle kazanamaz & Borsaya girerim - Para Analiz",
+          "source": "Para Analiz",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT05vTllTSGFaTWFCMzdub2tJUk5nVDJ4QV9GN0N4SDhUV0Jfd0xaZURWeGlCYWw0UEpocnZ4ZU1yUE9VeFd3NTBJUDRLSU85NUdJaEJlWU5FRFRGLTZmUThCMGVhblpuMzhURXQxZkJiRi05dmIxblV1dURZQ2M5aHlBR0FWWUFCdEttM0RJSXg4cGxvdkk3U2pLRThfUDdfSjF0aU1fckVZT0c1V3NIaGdlTDNZZzBtbVNCS0ZKS2U2Mmh3bkVv?oc=5",
           "published": "2026-08-28T07:00:00+00:00",
           "terms": [
@@ -326,6 +326,11 @@
     },
     {
       "generated": "2026-08-31T23:06:04.240268+00:00",
+      "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-01T06:00:17.720169+00:00",
       "score": 0,
       "status": "BASELINE"
     }
