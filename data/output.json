@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-01T12:20:11.195474+00:00",
+    "generated": "2026-09-01T17:08:31.470067+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,19 +26,19 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "latest_date": "2026-08-31",
-      "latest_value": 48.1745,
-      "change_5d_pct": 0.38,
-      "return_z": -0.33,
+      "coverage": 127,
+      "latest_date": "2026-09-01",
+      "latest_value": 48.1891,
+      "change_5d_pct": 0.37,
+      "return_z": -1.27,
       "volatility_20d": 0.07,
-      "volatility_z": -1.17,
+      "volatility_z": -1.13,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.1745,
-          "date": "2026-08-31",
+          "value": 48.1891,
+          "date": "2026-09-01",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -118,9 +118,9 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 141,
-      "matched": 13,
-      "weighted_density": 0.097,
+      "coverage": 139,
+      "matched": 15,
+      "weighted_density": 0.113,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -134,8 +134,8 @@
           "weight": 2.0
         },
         {
-          "title": "Avrupa’ya zeytin satıyordu! 40 yıllık Türk devi iflas etti! Yüzlerce çalışan işsiz kalacak! - ABC Haber",
-          "source": "ABC Haber",
+          "title": "Avrupa’ya zeytin satıyordu! 40 yıllık Türk devi iflas etti! Yüzlerce çalışan işsiz kalacak! - abcgazetesi.com.tr",
+          "source": "abcgazetesi.com.tr",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSFc5TU1DQmVWNGhyNkZ6VlpaUDBFejdMVGZHZEVWckE4YUZXdll0OC1ncXVSNG03WlBvcFRVMGRNWURhWU1fVlp3RGRFRkRBbEJEVzVBU09iZEx4M3ZEY0g4VHhMZGhqc3dkLWQ2ZFlKZHExN1NpcWR4eW92UVdhMklqNjFRdUwxR3BhWS1sYlNKa3pWRUNHcXQ4M0RxUThRV01IQ2taejM0dEZ1THlBd01LNlRobm83TW1MTTUxbVA?oc=5",
           "published": "2026-08-25T18:56:00+00:00",
           "terms": [
@@ -144,8 +144,8 @@
           "weight": 2.0
         },
         {
-          "title": "Avustralya’da enflasyon temmuzda beklentileri aştı, RBA faiz artışı ihtimali güçlendi - Investing.com Türkiye",
-          "source": "Investing.com Türkiye",
+          "title": "Avustralya’da enflasyon temmuzda beklentileri aştı, RBA faiz artışı ihtimali güçlendi - tr.investing.com",
+          "source": "tr.investing.com",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVFIejVDSjFfRkNSYnF6Z1psR0NESWR5dXR2amxsSmRDaGd6ZHNTQmY2QTdUbzY5c1hnQjdDN29TRFRyM3N3ZWZDSzhCY0pMM0NGdi1vZlRZN0drMDAybV9tU1JMbjl5cjNTaHBpTmZfeFlRRDRWME1kdVBUOWZtRnJ0dFh5ZUM5ZEU0TjNTamRYNUpORXVaUDhSR3U1ZkxGZGpWWmFXdHJOZms2cTUwSXpn?oc=5",
           "published": "2026-08-26T05:15:30+00:00",
           "terms": [
@@ -165,8 +165,19 @@
           "weight": 1.5
         },
         {
-          "title": "Ekonomi gündemi hızlanıyor: Büyüme, enflasyon ve faiz verileri açıklanacak - ekoturk.com",
-          "source": "ekoturk.com",
+          "title": "Ağustos ayı enflasyon oranları ne zaman açıklanacak? Merkez Bankası enflasyon tahmini belli oldu! - Bigpara",
+          "source": "Bigpara",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQbDNGNHgxQnRJN19LYnRLTFV2RGlibENKVEhhUmFicWQtZVlCZ1dPLVEtVXVGUWFOcW9BaU1iV3JMTDhPVlZoV2Znbmo5ck1BcE5PRWdzTHpQUGJDWElINC10SklDLTU3eUdPMGR6cG1xaFlGSmcwNjR4NHJtbTFVUnNPamdOMjc1WDB5bDh6QklHSUNkZml5WFBUOHFhMU1oQW1kMko3cmd4bzNDTzQxNkdZU29lWmRvTTNwUGZNYUQwZnJkYkp0QXVVZVY4Z0ZQYl9xajZCWEVBbExncS1ZTThteXRNcS1EVVV4aVYyNEpqVVpnX0hPSw?oc=5",
+          "published": "2026-08-31T10:05:00+00:00",
+          "terms": [
+            "zam",
+            "enflasyon"
+          ],
+          "weight": 1.4
+        },
+        {
+          "title": "Ekonomi gündemi hızlanıyor: Büyüme, enflasyon ve faiz verileri açıklanacak - ekotürk",
+          "source": "ekotürk",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUmlqejJwbnA0dlFTTXpFelFiMTBWZ0NGU05ObXVJUG91WW5PMm9zMUNYOFhYOE1LVUE0QTZ1b0dnN1dBM3Z4Z284cTZpbHNzU1loaFBEdFh4b1ZtNnVLSTBPVzMwR0tCVHNyRXNRc3lQUXRJS19xbmtQYUVrX1hmWnZzZW90cGZpeC11RFhnbHRYNU9tT1BIZ0tpVEtBVkczWG5jUkl3VHJ3WnVqWi1NRHpuMHE?oc=5",
           "published": "2026-09-01T12:02:40+00:00",
           "terms": [
@@ -225,20 +236,10 @@
           "weight": 0.6
         },
         {
-          "title": "Merkez Bankası faiz kararı ne zaman? Faiz artar mı, düşer mi? - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXhsVUQwSHkwQlpmWFB6M3puNVVXQXJLYW1EVTA5M1FVR016U2tYcS1rNkJRbUlzOTQtanBnUFpwdjY2SXpUMXZfeExMM3dGQWlEYk9xMzNDQ3RybmctTFAtcGZkbGU2SkRhYW16akU5LUF0alM0NzhWd3lTQ0cwNG16QTlxa2djRUZFemVfQWpXQ0pmWXlCN2VRWXlWNjNRTGhzaUJfbDB5ZU10eHfSAa4BQVVfeXFMTml4bFVEMEh5MEJaZlhQejN6bjVVV0FyS2FtRFUwOTNRVUdNelNrWHEtazZCUW1Jczk0LWpwZ1BacHY2Nkl6VDF2X3hMTDN3RkFpRGJPcTMzQ0N0cm5nLUxQLXBmZGxlNkpEYWFtempFOS1BdGpTNDc4Vnd5U0NHMDRtekE5cWtnY0VGRXplX0FqV0NKZll5QjdlUVl5VjYzUUxoc2lCX2wweWVNdHh3?oc=5",
-          "published": "2026-08-31T12:08:00+00:00",
-          "terms": [
-            "zam"
-          ],
-          "weight": 0.6
-        },
-        {
-          "title": "Merkez Bankası ilk faiz indirimini ne zaman yapacak? Bank of America (BofA) Türkiye raporu - mansetiz.com",
-          "source": "mansetiz.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdWtpdlRzaG83ME9tVFR1MmIxc0pleXpzU3MtN0FFU2JXWnhKdkJSUHB3LUZjVU90WllwTl90bjZWalNGZXR5UG01bzRuT0hYTTFnVlFnSTVQa0plVE9sUHNoZnRfT2ZVY0l5YUs3N2p5bkNTTUVLMkhEVUxxZzRwLTlPZGViaGVuYXY5dEdfQktNa3Z2NFA2cHBMQnBiTkZQNmVZbEQwMDFhRVdZTWNyRnd3?oc=5",
-          "published": "2026-08-26T07:09:00+00:00",
+          "title": "FED faiz kararı ne zaman, saat kaçta açıklanacak? 2026 Eylül ayı FED toplantı tarihi - Galeri - Trend Yaşam - Sabah",
+          "source": "Sabah",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMUsyVnBmandIR0ZEUlZqa2lOMFpVeWF3Z3NqTFJuVXNsSDRkWGI5dWgzZ0wyWF9qc1VoZzNGSGRwSmhZbFo0QjJLbXY1WWRSOW5lU2tPV1BFVEh1blhNMWNzVXUyN1RTR1U3WnNRazRvcUtVNExlRkxNRGplOGtRSHBhWHpGRGcxNFc4Y1owYi1LWFZoQkM1UGVmTjU0SGl5dk80VmNNZXh6Umw5N3dDYXVQSFV0TFY5Tnc?oc=5",
+          "published": "2026-09-01T08:04:00+00:00",
           "terms": [
             "zam"
           ],
@@ -335,6 +336,11 @@
     },
     {
       "generated": "2026-09-01T12:20:11.195474+00:00",
+      "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-01T17:08:31.470067+00:00",
       "score": 0,
       "status": "BASELINE"
     }
