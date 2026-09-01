@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-01T06:00:17.720169+00:00",
+    "generated": "2026-09-01T12:20:11.195474+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -118,18 +118,18 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 139,
-      "matched": 12,
-      "weighted_density": 0.106,
+      "coverage": 141,
+      "matched": 13,
+      "weighted_density": 0.097,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "58 yıllık meyve suyu devi için iflas eşiği! Mahkemeden son çağrı! - ABC Haber",
-          "source": "ABC Haber",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObGswUjRIcXZFR2JHN1Rya1V3SEZUeUtmT0FFWUZoREl4blVWbDFXWC03TGotRGhLZTM2YjdrRUtRYnFwSXY3WEtOSlZkdXBJcjRaRlhGRU9zUHZla3M3RUw5VUt3Qk5FV2Zsb2ltTW4yUFdRaFZYUWxHRDNFTlVycmxPeEJvQjMyT2xGUTJCd21YRUQwdzhJN2hrZnVXeHllUE5xblp2cEU?oc=5",
-          "published": "2026-08-28T09:57:00+00:00",
+          "title": "CHP'li Türeli'den ekonomi eleştirisi: 24 yıldır yöneten iktidar yapısal sorunları çözmedi, kriz ağırlaştı - Son Dakika",
+          "source": "Son Dakika",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSmhMLXVLVG1WMmJ3ZHRpZk55endkQjRzeTRvdkFUZ2p3T3B6ZTBLbUZpMmNlQmR2QkplSzMwQWNfYlJ4ZnIxNTN1TmVlQUNIekFoY2xzSU5qZ08yMk94alhzWlJzU1pvY0JiNTZkbkY5WkZjeHdBcHpzWnRkQUhWVzFPcW90cnRyelJrUmdRWXNYVXZtWjVsejZkTnnSAZwBQVVfeXFMT0poTC11S1RtVjJid2R0aWZOeXp3ZEI0c3k0b3ZBVGdqd09wemUwS21GaTJjZUJkdkJKZUszMEFjX2JSeGZyMTUzdU5lZUFDSHpBaGNsc0lOamdPMjJPeGpYc1pSc1Nab2NCYjU2ZG5GOVpGY3h3QXB6c1p0ZEFIVlcxT3FvdHJ0cnpSa1JnUVlzWFV2bVo1bHo2ZE55?oc=5",
+          "published": "2026-09-01T10:32:33+00:00",
           "terms": [
-            "iflas"
+            "kriz"
           ],
           "weight": 2.0
         },
@@ -142,17 +142,6 @@
             "iflas"
           ],
           "weight": 2.0
-        },
-        {
-          "title": "Tokyo enflasyonunda faiz artışını destekleyen hızlanma - Bloomberght",
-          "source": "Bloomberght",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNVlUNlZ5S2Eta0VGWkRwWnIwTXNBWWFLWnFLeWNxR0p4SG12RlZoU2poS2JBbmx3bzBXS2lMUjgyNzdGenlmZ2pRY1owRW94c2hKNnVrUjdDa1BuWHdPVlNpUHhJbUFOdlJ1anFlQ0JQbmtUYkZKMk94VTBWekNqTlF6MnlIMHJ6bEs0aVpFb1o2WHZE?oc=5",
-          "published": "2026-08-28T05:49:11+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
         },
         {
           "title": "Avustralya’da enflasyon temmuzda beklentileri aştı, RBA faiz artışı ihtimali güçlendi - Investing.com Türkiye",
@@ -176,14 +165,24 @@
           "weight": 1.5
         },
         {
-          "title": "TÜİK işsizlik rakamlarını açıkladı! - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWFpSd1hlQnEwOHhZRkxOUjY0TUFMWmg5b3lnT1BlVkRlQlAwZ0xFUTNEZzZtc3VDcHo2Tld2alJEOGZvUUZObU5jRzZvMzR5UHIzdFpERWgzdUVxMU5NbFNEek9pcDk3VldCa0NGSjZ2UDY1WEJ1Q2xnZmRrZnpsZU5vLWRCX1piVkZZ0gGOAUFVX3lxTE1xeE9rYmh2T3lTdjUzQk5fbEI0cDN6VzVvOTA5Nk1jOGRCc3F5U2ZLN3NfbmcxQmU1X2NTeFpwS1p3U1NYaUtYcHRjY3NBdXM3M3pRVVd1ZjNFMk5kWHZTdDMzdlAzVHBnc0lJVTFyR1NIZ1gyRFRvblRPZ2JmcmNjYWxWaFVqNjlJa3g1bEE?oc=5",
-          "published": "2026-08-31T07:59:00+00:00",
+          "title": "Ekonomi gündemi hızlanıyor: Büyüme, enflasyon ve faiz verileri açıklanacak - ekoturk.com",
+          "source": "ekoturk.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUmlqejJwbnA0dlFTTXpFelFiMTBWZ0NGU05ObXVJUG91WW5PMm9zMUNYOFhYOE1LVUE0QTZ1b0dnN1dBM3Z4Z284cTZpbHNzU1loaFBEdFh4b1ZtNnVLSTBPVzMwR0tCVHNyRXNRc3lQUXRJS19xbmtQYUVrX1hmWnZzZW90cGZpeC11RFhnbHRYNU9tT1BIZ0tpVEtBVkczWG5jUkl3VHJ3WnVqWi1NRHpuMHE?oc=5",
+          "published": "2026-09-01T12:02:40+00:00",
           "terms": [
-            "işsizlik"
+            "enflasyon"
           ],
-          "weight": 1.5
+          "weight": 0.8
+        },
+        {
+          "title": "Piyasalarda Yıl Sonu Enflasyon Beklentisi - Ekonomi Dünya",
+          "source": "Ekonomi Dünya",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ1ZKSHNMNkU4UXpNeVVvUDJ4eEhkSXdFRlZiS3RDZWVVSzh1RzZNY1ppVWdxQ2JDMERCRzRIVzFaYmwxc1ZfTEFOYl84em1ob3JnVlFnR18wUFBwY0FlWExWUXNURW5sSHB3VmtFc1hWeDBXTVdzYVVtNWdrYlBmZWtTOA?oc=5",
+          "published": "2026-09-01T06:05:39+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         },
         {
           "title": "Fed Başkanı Warsh’tan enflasyon ve faiz mesajı - Doviz.com",
@@ -216,6 +215,16 @@
           "weight": 0.8
         },
         {
+          "title": "ABD MERKEZ BANKASI FED FAİZ KARARI ne zaman, saat kaçta açıklanacak? 2026 FED toplantı takvimi - Uzmanpara",
+          "source": "Uzmanpara",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPakh3X2c1bmZmREk4WTZhXzZSbmF6NHNIQnU0VU5CRFVlRm1DdS1YalV2eDdBVWJNY3VUNktKaXdiQTdMNnpxU0dlY3ZoTjQtR2EyYUxKdzhLTHhVU1dQckdPdVpCU3ZLRkFudmllcWRmZG9TS1Zhck1jWVYzN0lhT0k3T1hnaWpuWmN0aVJHaktKb1k4NklxYlp3VmxUb1NqNlJVMFR3bWttYTE1ZW9EUS1xaGRZVDk4aHhuaGtLRmFHRXBNUnNrU0ExM3BFaWVyc0VneXBpUmxpMmc2?oc=5",
+          "published": "2026-09-01T09:21:37+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
+        },
+        {
           "title": "Merkez Bankası faiz kararı ne zaman? Faiz artar mı, düşer mi? - Haber 7",
           "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXhsVUQwSHkwQlpmWFB6M3puNVVXQXJLYW1EVTA5M1FVR016U2tYcS1rNkJRbUlzOTQtanBnUFpwdjY2SXpUMXZfeExMM3dGQWlEYk9xMzNDQ3RybmctTFAtcGZkbGU2SkRhYW16akU5LUF0alM0NzhWd3lTQ0cwNG16QTlxa2djRUZFemVfQWpXQ0pmWXlCN2VRWXlWNjNRTGhzaUJfbDB5ZU10eHfSAa4BQVVfeXFMTml4bFVEMEh5MEJaZlhQejN6bjVVV0FyS2FtRFUwOTNRVUdNelNrWHEtazZCUW1Jczk0LWpwZ1BacHY2Nkl6VDF2X3hMTDN3RkFpRGJPcTMzQ0N0cm5nLUxQLXBmZGxlNkpEYWFtempFOS1BdGpTNDc4Vnd5U0NHMDRtekE5cWtnY0VGRXplX0FqV0NKZll5QjdlUVl5VjYzUUxoc2lCX2wweWVNdHh3?oc=5",
@@ -226,20 +235,10 @@
           "weight": 0.6
         },
         {
-          "title": "Merkez Bankası ilk faiz indirimini ne zaman yapacak? Bank of America (BofA) Türkiye raporu - MANŞET İZ",
-          "source": "MANŞET İZ",
+          "title": "Merkez Bankası ilk faiz indirimini ne zaman yapacak? Bank of America (BofA) Türkiye raporu - mansetiz.com",
+          "source": "mansetiz.com",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdWtpdlRzaG83ME9tVFR1MmIxc0pleXpzU3MtN0FFU2JXWnhKdkJSUHB3LUZjVU90WllwTl90bjZWalNGZXR5UG01bzRuT0hYTTFnVlFnSTVQa0plVE9sUHNoZnRfT2ZVY0l5YUs3N2p5bkNTTUVLMkhEVUxxZzRwLTlPZGViaGVuYXY5dEdfQktNa3Z2NFA2cHBMQnBiTkZQNmVZbEQwMDFhRVdZTWNyRnd3?oc=5",
           "published": "2026-08-26T07:09:00+00:00",
-          "terms": [
-            "zam"
-          ],
-          "weight": 0.6
-        },
-        {
-          "title": "FED FAİZ TOPLANTI TARİHİ 2026 TAKVİMİ: Bir sonraki Fed faiz kararı ne zaman açıklanacak? 2026 Fed faiz beklentisi ne yönde? - Uzmanpara",
-          "source": "Uzmanpara",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNd001TzlaSm9zYTZ5bGlnb1dwdGctaFFJdU1Jb3hmbnkxT0dyUlF1d2pGSW1Uc2dpZ1E5NUtyOWpnQVgzejRuOWsta1pfdWIwRWd5LTBDdENlNzBNX0I5ZDkweTcweHdyaXgtczJwc1Q2LWhNcjhVSFdpdmZqcFl6SkRpc0d0NTJ3NDFaaUFsSnE0SW1vWFlrZFFVOVBDbHB6UmFrdjFjRVVrc1gtMnI0NW9sNXYtbEpXbm9ta2M2Q2Z5b29xdVJnbzdqaVRiZ1FMUUttV3AxdlRqNEpVVDNXOGpNbFA4OHJUQmh2TnhoSnA?oc=5",
-          "published": "2026-08-26T06:34:06+00:00",
           "terms": [
             "zam"
           ],
@@ -331,6 +330,11 @@
     },
     {
       "generated": "2026-09-01T06:00:17.720169+00:00",
+      "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-01T12:20:11.195474+00:00",
       "score": 0,
       "status": "BASELINE"
     }
