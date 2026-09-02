@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-02T16:58:21.236702+00:00",
+    "generated": "2026-09-02T21:34:54.454698+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -50,17 +50,17 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 117,
-      "latest_date": "2026-08-25",
-      "latest_value": 4236.6,
-      "change_5d_pct": -7.05,
-      "return_z": -0.71,
+      "coverage": 121,
+      "latest_date": "2026-09-01",
+      "latest_value": 4627.1,
+      "change_5d_pct": 3.99,
+      "return_z": 0.4,
       "method": "Five-observation robust anomaly in Brent priced in TRY (Brent USD × USD/TRY).",
       "evidence": [
         {
           "label": "Brent in TRY proxy",
-          "value": 4236.6,
-          "date": "2026-08-25",
+          "value": 4627.1,
+          "date": "2026-09-01",
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ]
@@ -118,14 +118,14 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 139,
-      "matched": 13,
-      "weighted_density": 0.106,
+      "coverage": 134,
+      "matched": 9,
+      "weighted_density": 0.082,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Ekonomi ne zaman düzelecek? - İşsizlik, banka borçları, icra iflaslar, sanayinin durumu - YENİ ASYA",
-          "source": "YENİ ASYA",
+          "title": "Ekonomi ne zaman düzelecek? - İşsizlik, banka borçları, icra iflaslar, sanayinin durumu - Yeni Asya",
+          "source": "Yeni Asya",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWDJsbHQ3cWNUUlRFV0w5TFBFZ3ZOVm9kV05aQ0Q0RzR2SnFacUVZeUszSzZEdmJ4UWp4Qi0yTHhpQlZuTU9pVUJVaHExZWRqdzItMUlvWmZVQUw2TU1UVmhGUjk4Z0Z3TW1Fa1lYNnZYeFl3RjY0N0JxWXRnaHNTTmtCSzcySmliV05WdU9oeVd2X0c0eVVSOXpqdno5NUg0T29NWkV6ZTZ4dkV0S1FvYVRkaGdNa1NGNndBc3ltMXNyZw?oc=5",
           "published": "2026-09-01T17:56:00+00:00",
           "terms": [
@@ -133,16 +133,6 @@
             "zam"
           ],
           "weight": 2.6
-        },
-        {
-          "title": "Ev hanımlarının gözdesiydi: 36 yıllık dev şirket iflas etti! Yüzlerce çalışan işsiz kalacak - SuperHaber",
-          "source": "SuperHaber",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeFZJYTA1bENNV0gtc013R3pCMW0taUFYRGtPYUlpYWtDWXpOVVE5SlpZSkwzaFpaR29zVnpXakhoQm1sTk5SYkNxSnlLNEw2dy1xdUV1bDNSMjR5amVJX1JKWWxRM21KNUlTSUtyR3p0RjVIWGRrN3VldV9pbW96LUo4NTBZSDUwSHFsRld4dG1kLWpLWEVMMW54bWFIRDgtRjVlcXZ3UWQwcHB5SFhIbmhLamx4d3lnRlFKcDFpNjY5eDU4X2fSAcYBQVVfeXFMUHhWSWEwNWxDTVdILXNNd0d6QjFtLWlBWERrT2FJaWFrQ1l6TlVROUpaWUpMM2haWkdvc1Z6V2pIaEJtbE5OUmJDcUp5SzRMNnctcXVFdWwzUjI0eWplSV9SSllsUTNtSjVJU0lLckd6dEY1SFhkazd1ZXVfaW1vei1KODUwWUg1MEhxbEZXeHRtZC1qS1hFTDFueG1hSEQ4LUY1ZXF2d1FkMHBweUhYSG5oS2pseHd5Z0ZRSnAxaTY2OXg1OF9n?oc=5",
-          "published": "2026-09-02T15:35:00+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
         },
         {
           "title": "CHP'li Türeli'den ekonomi eleştirisi: 24 yıldır yöneten iktidar yapısal sorunları çözmedi, kriz ağırlaştı - Son Dakika",
@@ -155,44 +145,14 @@
           "weight": 2.0
         },
         {
-          "title": "Otomotiv pazarında sert daralma - Bloomberght",
-          "source": "Bloomberght",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95U0VfT0h3T3lqY0paaWVYUklxUHhnbUp5X1B3NXNrUmdxNFY2QlNDbTFncGhDSlZpRHdua0g0YkFuSHlEMGEzb1F0TU5CX3Zpc1QzblJ5WGRoZExJeUN1ZGdRcmpOQ0lPT2RvRlNYY0pnQ29qZVE?oc=5",
-          "published": "2026-09-02T05:18:08+00:00",
+          "title": "Deri sektöründe kriz büyüyor: Artık yoğun bakımdayız - Son Dakika",
+          "source": "Son Dakika",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWHpRbXZseG9PcVppSndFSVBxZFJ3bHAyWHpPSV96Y0wtdnFndmVZdkd5Zi1fbzFWUjF5UV96VmphZUVkUWlGRVBzTHRxa2lTTWwtblY1d0ptNldWa29VOXhJLWVCbE1EYzNJbEZKaFI5VkVXajVJSWRIb2Q5OWJFYk42aHJ4dGVHU2RrRzJIWl9FQdIBjwFBVV95cUxNZXFlejlqcHRpUXJBdmMtaEt1eDEtTE1oNWJBUkJpbXNqdTFZa1M4ZnJOWDZDeFBYYW5Jck1qbTRQY2h4Uzl1MHM2NHZMYUpHR2JBZlExRTJibTVxQmNHemhMbTRLV1VTaFU3VlIyRGhKcW5OaVFOemJoS08wZGNHdjZ0WlVJYl80UUxhS05zaw?oc=5",
+          "published": "2026-08-31T11:48:17+00:00",
           "terms": [
-            "daralma"
+            "kriz"
           ],
-          "weight": 1.4
-        },
-        {
-          "title": "Dolar 48,29 TL'den Açıldı: Enflasyon Baskısı Pariteyi İttirdi - HaberGo",
-          "source": "HaberGo",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWXliZmd3MTVDTF9sbE5pRE5lY1c1cUNfTGptY0JyQXhwSUtSZS0xLVMwdlFTd1VtSndFc1pLcmxWa0lENkw1NDNQM1BWcDRBUGFxaWVTMzdib3Y1M2t5MUhFV1p1dG1uc0YwS0h6Qkdka25taW1neFpvcVdIUGFOdGdtVFk3RnhYVTdGVDh4NjA3aUpHa001NdIBngFBVV95cUxQWEFpU1FPaGpQLVdwTXg2ckpSU0RMdlJ2aVZFdm84NmQ2YnBsSFdtMEtoNFBDX3NNaDNramY1N21QQTViWGRVWUo4ZmVfSHpWaUJWQ0ZqakFBbXV0YnZ1UkJGUXJjRDlYRVdiT1NWU05mMXEyNWFLT0tCcHlhVXBJQ2pKV040T2hjNGJiVm9qckR6QkNvbERsSFZEWmlsUQ?oc=5",
-          "published": "2026-09-02T11:38:27+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Piyasaların Gözü Enflasyon Verisinde: 2 Eylül 2026 Serbest Piyasada Döviz Kurları! - Herkes Duysun",
-          "source": "Herkes Duysun",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT25wdXVteG9TV241clV2eHZsb2dHcVpnUHJaVW9xMG5Qb3dmem5RVTZwOHFBcUhEWDgzN3FKR1BlaFpwN2U3TU9LQmUzWnlEY1dlZHhJbnRVVkp3bzdtU0pNUGNTWHFUWVg5N3FJZmVjZXE0QTVwWVRURDZabnMtLVYxNTRnLTBNeEl5a1IwTlRUMGlGRV9zNFRROXljVUkxQS1aVHVYeTZQQTVROHg3STQxemM?oc=5",
-          "published": "2026-09-02T10:59:09+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Japonya’nın 10 yıllık tahvil faizleri Eylül 1996’dan beri ilk kez yüzde 3 oranına ulaştı; yatırımcıların enflasyon, mali durumla ilgili endişeleri ve faiz oranlarını daha hızlı artırması için merkez bankası üzerindeki artan baskı bono faizlerini yukarı taşıyor. 🔗 https://ww - instagram.com",
-          "source": "instagram.com",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIRWZLZHJ0RWpLcnZGUTRjRFZWZGRBWXlCZjItaWI5X0hPa2xKd2VWNjQwT29RLTFQQnlUQU0za0VZQl9ncGxES2VqV2NJcFFqQUE?oc=5",
-          "published": "2026-09-02T08:00:30+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
+          "weight": 2.0
         },
         {
           "title": "Ekonomi gündemi hızlanıyor: Büyüme, enflasyon ve faiz verileri açıklanacak - ekotürk",
@@ -215,10 +175,10 @@
           "weight": 0.8
         },
         {
-          "title": "Ekonomide kritik haftalar: Gözler büyüme, enflasyon ve faizde - CNN Türk",
-          "source": "CNN Türk",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNFlNcENPSlNfd0pTTWVzNFFKWktrWl95TGU0YjZfbGpNZ1JjbnNvRjFMdDZZZ3g1bUwyNHlfTDVlV3RMeDk2UjlhcUtqYy13ME5CNlY2YnBLNHpaRjYxOWNHLXV4Y0dwYnhfV05XLTNiZmt4OUpkMm1ScHpRTHI0RTNIWVh2ZzFBVFhEN1JXUjZfOWtwaHE4YkJ4V0lJT2t3?oc=5",
-          "published": "2026-08-29T10:02:25+00:00",
+          "title": "TEPAV Ağustos Verilerini Açıkladı: Gıda Enflasyonunda Yatay Seyir - Para Analiz",
+          "source": "Para Analiz",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdW91MUNqY2FXVkVUVjJTbDJJQmtKcUwzUGFpMFk1UGZGanA2aTV5TGxicnozVGFOMFNMS09jcFJ0OTVZQ2VlQWxBc3lTa0JsNGVoQnZqNjhHY3kwb1BseU9jbmtRcFYzeW9mR01idGNhSE8xeHlEbE1kMFRPMC1HSVFlYXk4TUlaYVdRb3pfZW1vdVRtcWZFQUdfaFY3Y0JCeHc?oc=5",
+          "published": "2026-08-28T07:00:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -235,10 +195,20 @@
           "weight": 0.8
         },
         {
-          "title": "FED FAİZ KARARI NE OLACAK? ABD Merkez Bankası FED faiz toplantısı ne zaman, saat kaçta, hangi gün? İşte 2026 FED toplantı takvimi - Uzmanpara",
-          "source": "Uzmanpara",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNQmxyV3R1VENLUkpwVlNXaEZqcGJhZXZaOUxnbUdUV0JRbndCLTNnWGlEd09VRWNpdDh6QjZFaFNqcDhLVHhxQklEUG04aGRFNHVCZkw2Qi1nU2I1WXZGa0R5NElIenNub2dhQ1NBQVNWd1ZJeE9zZWJTb1FRZm0zWEhfbUFGOTBlZWRPdFVYQzhhMGk5TFpEN01nWllNZkZ1V1RIem0wV2dMb0RGbk42a0ViTEIwcVRHRnN0NXpKREFDNVh6emlOY1R4clRQcElJcUhsbGFsU28ycFFWbzJBU0E2MW92OEdQejZOWTRGbml1ZVAtQlN2SFlqYUk5MllGZm1sSEdOdUw?oc=5",
-          "published": "2026-09-02T04:17:54+00:00",
+          "title": "FED faiz kararı ne zaman açıklanacak? 2026 Eylül FED faiz kararı ne olur, beklenti ne yönde? | Özgün Haberler - yenisafak.com",
+          "source": "yenisafak.com",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcUViVUpyRm0xZ3BpSExaaVQ5STNUR0d4aGlfanU1ai1Qc0dmT2FIMENHWlZSbDBHNUpTUkNSVVdiMVJ5UjhzVjZQLWlzRGM2X2hoVDZQYkkxZmVVTWd4M3NVTU5lbjlWN1FuM3BjWGtqU291eklHWU9US2tOTVo1VVA3LThsbVpnVXZrV3JCdWRyQXUweDYtb3UxcEdxUHVuS09ZMm5ZcGpoLXRCVU9GR0l1cW9mRDZweUxoREw2SjlrLVFqQ2s3dWNWeUYxaFFmV3c?oc=5",
+          "published": "2026-09-01T06:28:00+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
+        },
+        {
+          "title": "Merkez Bankası faiz kararı ne zaman? Faiz artar mı, düşer mi? - Haber 7",
+          "source": "Haber 7",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXhsVUQwSHkwQlpmWFB6M3puNVVXQXJLYW1EVTA5M1FVR016U2tYcS1rNkJRbUlzOTQtanBnUFpwdjY2SXpUMXZfeExMM3dGQWlEYk9xMzNDQ3RybmctTFAtcGZkbGU2SkRhYW16akU5LUF0alM0NzhWd3lTQ0cwNG16QTlxa2djRUZFemVfQWpXQ0pmWXlCN2VRWXlWNjNRTGhzaUJfbDB5ZU10eHfSAa4BQVVfeXFMTml4bFVEMEh5MEJaZlhQejN6bjVVV0FyS2FtRFUwOTNRVUdNelNrWHEtazZCUW1Jczk0LWpwZ1BacHY2Nkl6VDF2X3hMTDN3RkFpRGJPcTMzQ0N0cm5nLUxQLXBmZGxlNkpEYWFtempFOS1BdGpTNDc4Vnd5U0NHMDRtekE5cWtnY0VGRXplX0FqV0NKZll5QjdlUVl5VjYzUUxoc2lCX2wweWVNdHh3?oc=5",
+          "published": "2026-08-31T12:08:00+00:00",
           "terms": [
             "zam"
           ],
@@ -360,6 +330,11 @@
     },
     {
       "generated": "2026-09-02T16:58:21.236702+00:00",
+      "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-02T21:34:54.454698+00:00",
       "score": 0,
       "status": "BASELINE"
     }
