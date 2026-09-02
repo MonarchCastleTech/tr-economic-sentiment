@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-02T11:56:17.594537+00:00",
+    "generated": "2026-09-02T16:58:21.236702+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,19 +26,19 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "latest_date": "2026-09-01",
-      "latest_value": 48.1891,
+      "coverage": 127,
+      "latest_date": "2026-09-02",
+      "latest_value": 48.2075,
       "change_5d_pct": 0.37,
-      "return_z": -1.27,
+      "return_z": -1.09,
       "volatility_20d": 0.07,
-      "volatility_z": -1.13,
+      "volatility_z": -1.14,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.1891,
-          "date": "2026-09-01",
+          "value": 48.2075,
+          "date": "2026-09-02",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -118,14 +118,14 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 136,
+      "coverage": 139,
       "matched": 13,
-      "weighted_density": 0.101,
+      "weighted_density": 0.106,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Ekonomi ne zaman düzelecek? - İşsizlik, banka borçları, icra iflaslar, sanayinin durumu - Yeni Asya",
-          "source": "Yeni Asya",
+          "title": "Ekonomi ne zaman düzelecek? - İşsizlik, banka borçları, icra iflaslar, sanayinin durumu - YENİ ASYA",
+          "source": "YENİ ASYA",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWDJsbHQ3cWNUUlRFV0w5TFBFZ3ZOVm9kV05aQ0Q0RzR2SnFacUVZeUszSzZEdmJ4UWp4Qi0yTHhpQlZuTU9pVUJVaHExZWRqdzItMUlvWmZVQUw2TU1UVmhGUjk4Z0Z3TW1Fa1lYNnZYeFl3RjY0N0JxWXRnaHNTTmtCSzcySmliV05WdU9oeVd2X0c0eVVSOXpqdno5NUg0T29NWkV6ZTZ4dkV0S1FvYVRkaGdNa1NGNndBc3ltMXNyZw?oc=5",
           "published": "2026-09-01T17:56:00+00:00",
           "terms": [
@@ -133,6 +133,16 @@
             "zam"
           ],
           "weight": 2.6
+        },
+        {
+          "title": "Ev hanımlarının gözdesiydi: 36 yıllık dev şirket iflas etti! Yüzlerce çalışan işsiz kalacak - SuperHaber",
+          "source": "SuperHaber",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeFZJYTA1bENNV0gtc013R3pCMW0taUFYRGtPYUlpYWtDWXpOVVE5SlpZSkwzaFpaR29zVnpXakhoQm1sTk5SYkNxSnlLNEw2dy1xdUV1bDNSMjR5amVJX1JKWWxRM21KNUlTSUtyR3p0RjVIWGRrN3VldV9pbW96LUo4NTBZSDUwSHFsRld4dG1kLWpLWEVMMW54bWFIRDgtRjVlcXZ3UWQwcHB5SFhIbmhLamx4d3lnRlFKcDFpNjY5eDU4X2fSAcYBQVVfeXFMUHhWSWEwNWxDTVdILXNNd0d6QjFtLWlBWERrT2FJaWFrQ1l6TlVROUpaWUpMM2haWkdvc1Z6V2pIaEJtbE5OUmJDcUp5SzRMNnctcXVFdWwzUjI0eWplSV9SSllsUTNtSjVJU0lLckd6dEY1SFhkazd1ZXVfaW1vei1KODUwWUg1MEhxbEZXeHRtZC1qS1hFTDFueG1hSEQ4LUY1ZXF2d1FkMHBweUhYSG5oS2pseHd5Z0ZRSnAxaTY2OXg1OF9n?oc=5",
+          "published": "2026-09-02T15:35:00+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
         },
         {
           "title": "CHP'li Türeli'den ekonomi eleştirisi: 24 yıldır yöneten iktidar yapısal sorunları çözmedi, kriz ağırlaştı - Son Dakika",
@@ -155,8 +165,18 @@
           "weight": 1.4
         },
         {
-          "title": "Piyasaların Gözü Enflasyon Verisinde: 2 Eylül 2026 Serbest Piyasada Döviz Kurları! - herkesduysun.com",
-          "source": "herkesduysun.com",
+          "title": "Dolar 48,29 TL'den Açıldı: Enflasyon Baskısı Pariteyi İttirdi - HaberGo",
+          "source": "HaberGo",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWXliZmd3MTVDTF9sbE5pRE5lY1c1cUNfTGptY0JyQXhwSUtSZS0xLVMwdlFTd1VtSndFc1pLcmxWa0lENkw1NDNQM1BWcDRBUGFxaWVTMzdib3Y1M2t5MUhFV1p1dG1uc0YwS0h6Qkdka25taW1neFpvcVdIUGFOdGdtVFk3RnhYVTdGVDh4NjA3aUpHa001NdIBngFBVV95cUxQWEFpU1FPaGpQLVdwTXg2ckpSU0RMdlJ2aVZFdm84NmQ2YnBsSFdtMEtoNFBDX3NNaDNramY1N21QQTViWGRVWUo4ZmVfSHpWaUJWQ0ZqakFBbXV0YnZ1UkJGUXJjRDlYRVdiT1NWU05mMXEyNWFLT0tCcHlhVXBJQ2pKV040T2hjNGJiVm9qckR6QkNvbERsSFZEWmlsUQ?oc=5",
+          "published": "2026-09-02T11:38:27+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Piyasaların Gözü Enflasyon Verisinde: 2 Eylül 2026 Serbest Piyasada Döviz Kurları! - Herkes Duysun",
+          "source": "Herkes Duysun",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT25wdXVteG9TV241clV2eHZsb2dHcVpnUHJaVW9xMG5Qb3dmem5RVTZwOHFBcUhEWDgzN3FKR1BlaFpwN2U3TU9LQmUzWnlEY1dlZHhJbnRVVkp3bzdtU0pNUGNTWHFUWVg5N3FJZmVjZXE0QTVwWVRURDZabnMtLVYxNTRnLTBNeEl5a1IwTlRUMGlGRV9zNFRROXljVUkxQS1aVHVYeTZQQTVROHg3STQxemM?oc=5",
           "published": "2026-09-02T10:59:09+00:00",
           "terms": [
@@ -185,16 +205,6 @@
           "weight": 0.8
         },
         {
-          "title": "Piyasalarda Yıl Sonu Enflasyon Beklentisi - Ekonomi Dünya",
-          "source": "Ekonomi Dünya",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ1ZKSHNMNkU4UXpNeVVvUDJ4eEhkSXdFRlZiS3RDZWVVSzh1RzZNY1ppVWdxQ2JDMERCRzRIVzFaYmwxc1ZfTEFOYl84em1ob3JnVlFnR18wUFBwY0FlWExWUXNURW5sSHB3VmtFc1hWeDBXTVdzYVVtNWdrYlBmZWtTOA?oc=5",
-          "published": "2026-09-01T06:05:39+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "Üçlü Sınav Haftası: Enflasyon, Fed ve Hürmüz - ekotürk",
           "source": "ekotürk",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcHYwTTFFaWNGUU1NNm5hQWdwdUxsWHE5a29LS0Y5MjNLTjNSY1VQck9yajZnbGpGYS1GbkNaYmRDVG5hR2dpc2o3VmlVS2diRU5kT3hMZ1pIamhLd2p4YWwxLWF4NndpMEt3SDQyQ18wbjRfN2ZNSmNYXzN1TTQycVRR?oc=5",
@@ -215,18 +225,8 @@
           "weight": 0.8
         },
         {
-          "title": "Fed Başkanı Warsh’tan enflasyon ve faiz mesajı - Doviz.com",
-          "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTEwyYVI1cDNsbXdzODZ5anExNnd0SE9wNmgtNTk0Tkx0czFKa3JvbUVRbHRrM2FaQk9rN0FNWmVUT1BUdDNTODRZNTVxaEtJMTVxcmpKVDFKOTl2OTZDQXJXVkMzckppYlg1aU1xVE1MWlJYak1iNlJkY1FDbXY5QkZrXzRGNmVYSUtWVWIxMjFIeWUtMVpWaTZB0gGiAUFVX3lxTE15eHZiQV81XzlLdGo2MTh5SHRGN2phMVBTN29YVkMwVlNNZEFheTg2QU1GdlZjQ3FiVVE5MVpsRmJWYlN2SV9VZTQ5WVByRjRDdVB2c1Zra3ZqWk81cFI4OUM3UVZNQlVERTRQZ2gyeUVib0tjQV8xSWdsMEtZbWZoTkRCcW9HdDNHY2o2N2ExNXFFRHpfVlVzWXhxYVRJRWc3Zw?oc=5",
-          "published": "2026-08-28T14:14:06+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Atilla Yeşilada video: Faiz inerse hiperenflasyona gideriz! Seçimi böyle kazanamaz & Borsaya girerim - paraanaliz.com",
-          "source": "paraanaliz.com",
+          "title": "Atilla Yeşilada video: Faiz inerse hiperenflasyona gideriz! Seçimi böyle kazanamaz & Borsaya girerim - Para Analiz",
+          "source": "Para Analiz",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT05vTllTSGFaTWFCMzdub2tJUk5nVDJ4QV9GN0N4SDhUV0Jfd0xaZURWeGlCYWw0UEpocnZ4ZU1yUE9VeFd3NTBJUDRLSU85NUdJaEJlWU5FRFRGLTZmUThCMGVhblpuMzhURXQxZkJiRi05dmIxblV1dURZQ2M5aHlBR0FWWUFCdEttM0RJSXg4cGxvdkk3U2pLRThfUDdfSjF0aU1fckVZT0c1V3NIaGdlTDNZZzBtbVNCS0ZKS2U2Mmh3bkVv?oc=5",
           "published": "2026-08-28T07:00:00+00:00",
           "terms": [
@@ -235,14 +235,14 @@
           "weight": 0.8
         },
         {
-          "title": "Fed'in izlediği enflasyon göstergesinde sürpriz yok - Bloomberght",
-          "source": "Bloomberght",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQmRJTl9rUDFWNVVkNDlWRmRnR3V2Zmc3eWtvd3hFaExmWGZWaDFDX3ktM2J4Wks5TXBEdjJoQXdNOHltVHU5VnNWelhKaF9vendqZUtlMzlHSS1uTlBmVGd1SU5QeTZHSjFxR3RHaW51TVJMekdvR2Nuc1llNzlPWFlJbjQxem9wVFE?oc=5",
-          "published": "2026-08-26T12:31:00+00:00",
+          "title": "FED FAİZ KARARI NE OLACAK? ABD Merkez Bankası FED faiz toplantısı ne zaman, saat kaçta, hangi gün? İşte 2026 FED toplantı takvimi - Uzmanpara",
+          "source": "Uzmanpara",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNQmxyV3R1VENLUkpwVlNXaEZqcGJhZXZaOUxnbUdUV0JRbndCLTNnWGlEd09VRWNpdDh6QjZFaFNqcDhLVHhxQklEUG04aGRFNHVCZkw2Qi1nU2I1WXZGa0R5NElIenNub2dhQ1NBQVNWd1ZJeE9zZWJTb1FRZm0zWEhfbUFGOTBlZWRPdFVYQzhhMGk5TFpEN01nWllNZkZ1V1RIem0wV2dMb0RGbk42a0ViTEIwcVRHRnN0NXpKREFDNVh6emlOY1R4clRQcElJcUhsbGFsU28ycFFWbzJBU0E2MW92OEdQejZOWTRGbml1ZVAtQlN2SFlqYUk5MllGZm1sSEdOdUw?oc=5",
+          "published": "2026-09-02T04:17:54+00:00",
           "terms": [
-            "enflasyon"
+            "zam"
           ],
-          "weight": 0.8
+          "weight": 0.6
         }
       ]
     }
@@ -355,6 +355,11 @@
     },
     {
       "generated": "2026-09-02T11:56:17.594537+00:00",
+      "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-02T16:58:21.236702+00:00",
       "score": 0,
       "status": "BASELINE"
     }
