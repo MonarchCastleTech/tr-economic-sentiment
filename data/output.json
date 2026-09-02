@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-02T05:25:55.610159+00:00",
+    "generated": "2026-09-02T11:56:17.594537+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -120,9 +120,20 @@
       "retained": false,
       "coverage": 136,
       "matched": 13,
-      "weighted_density": 0.087,
+      "weighted_density": 0.101,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Ekonomi ne zaman düzelecek? - İşsizlik, banka borçları, icra iflaslar, sanayinin durumu - Yeni Asya",
+          "source": "Yeni Asya",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWDJsbHQ3cWNUUlRFV0w5TFBFZ3ZOVm9kV05aQ0Q0RzR2SnFacUVZeUszSzZEdmJ4UWp4Qi0yTHhpQlZuTU9pVUJVaHExZWRqdzItMUlvWmZVQUw2TU1UVmhGUjk4Z0Z3TW1Fa1lYNnZYeFl3RjY0N0JxWXRnaHNTTmtCSzcySmliV05WdU9oeVd2X0c0eVVSOXpqdno5NUg0T29NWkV6ZTZ4dkV0S1FvYVRkaGdNa1NGNndBc3ltMXNyZw?oc=5",
+          "published": "2026-09-01T17:56:00+00:00",
+          "terms": [
+            "iflas",
+            "zam"
+          ],
+          "weight": 2.6
+        },
         {
           "title": "CHP'li Türeli'den ekonomi eleştirisi: 24 yıldır yöneten iktidar yapısal sorunları çözmedi, kriz ağırlaştı - Son Dakika",
           "source": "Son Dakika",
@@ -134,25 +145,34 @@
           "weight": 2.0
         },
         {
-          "title": "TÜİK Temmuz verilerini açıkladı: Türkiye’de işsizlik yüzde 8,1’e yükseldi - Euronews.com",
-          "source": "Euronews.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNFhKTG44ci1ocWJFQ0gxYlhZRE9jeTk2Rm5lUk9GOUIwWHZWa2Vfa2lLZ0VxYWJISDk1NV9EdVlGSk1WU01lcVNFbjQxOVFKVExUcm5sWko2VUZ2WlF4T19aN3JPeUM2eF9LZ1dSQ3h2Z0lGbXpJeVotR2I1VnJfcC1HU0pXZ1FudlNKWlNUN3dpY2M0NThnWlhnVFhRWnhZYTJwN1ZiRkNqOFpTMmEzcGJLOA?oc=5",
-          "published": "2026-08-31T08:24:15+00:00",
+          "title": "Otomotiv pazarında sert daralma - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95U0VfT0h3T3lqY0paaWVYUklxUHhnbUp5X1B3NXNrUmdxNFY2QlNDbTFncGhDSlZpRHdua0g0YkFuSHlEMGEzb1F0TU5CX3Zpc1QzblJ5WGRoZExJeUN1ZGdRcmpOQ0lPT2RvRlNYY0pnQ29qZVE?oc=5",
+          "published": "2026-09-02T05:18:08+00:00",
           "terms": [
-            "işsizlik"
-          ],
-          "weight": 1.5
-        },
-        {
-          "title": "Ağustos ayı enflasyon oranları ne zaman açıklanacak? Merkez Bankası enflasyon tahmini belli oldu! - Bigpara",
-          "source": "Bigpara",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQbDNGNHgxQnRJN19LYnRLTFV2RGlibENKVEhhUmFicWQtZVlCZ1dPLVEtVXVGUWFOcW9BaU1iV3JMTDhPVlZoV2Znbmo5ck1BcE5PRWdzTHpQUGJDWElINC10SklDLTU3eUdPMGR6cG1xaFlGSmcwNjR4NHJtbTFVUnNPamdOMjc1WDB5bDh6QklHSUNkZml5WFBUOHFhMU1oQW1kMko3cmd4bzNDTzQxNkdZU29lWmRvTTNwUGZNYUQwZnJkYkp0QXVVZVY4Z0ZQYl9xajZCWEVBbExncS1ZTThteXRNcS1EVVV4aVYyNEpqVVpnX0hPSw?oc=5",
-          "published": "2026-08-31T10:05:00+00:00",
-          "terms": [
-            "zam",
-            "enflasyon"
+            "daralma"
           ],
           "weight": 1.4
+        },
+        {
+          "title": "Piyasaların Gözü Enflasyon Verisinde: 2 Eylül 2026 Serbest Piyasada Döviz Kurları! - herkesduysun.com",
+          "source": "herkesduysun.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT25wdXVteG9TV241clV2eHZsb2dHcVpnUHJaVW9xMG5Qb3dmem5RVTZwOHFBcUhEWDgzN3FKR1BlaFpwN2U3TU9LQmUzWnlEY1dlZHhJbnRVVkp3bzdtU0pNUGNTWHFUWVg5N3FJZmVjZXE0QTVwWVRURDZabnMtLVYxNTRnLTBNeEl5a1IwTlRUMGlGRV9zNFRROXljVUkxQS1aVHVYeTZQQTVROHg3STQxemM?oc=5",
+          "published": "2026-09-02T10:59:09+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Japonya’nın 10 yıllık tahvil faizleri Eylül 1996’dan beri ilk kez yüzde 3 oranına ulaştı; yatırımcıların enflasyon, mali durumla ilgili endişeleri ve faiz oranlarını daha hızlı artırması için merkez bankası üzerindeki artan baskı bono faizlerini yukarı taşıyor. 🔗 https://ww - instagram.com",
+          "source": "instagram.com",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIRWZLZHJ0RWpLcnZGUTRjRFZWZGRBWXlCZjItaWI5X0hPa2xKd2VWNjQwT29RLTFQQnlUQU0za0VZQl9ncGxES2VqV2NJcFFqQUE?oc=5",
+          "published": "2026-09-02T08:00:30+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         },
         {
           "title": "Ekonomi gündemi hızlanıyor: Büyüme, enflasyon ve faiz verileri açıklanacak - ekotürk",
@@ -169,6 +189,16 @@
           "source": "Ekonomi Dünya",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ1ZKSHNMNkU4UXpNeVVvUDJ4eEhkSXdFRlZiS3RDZWVVSzh1RzZNY1ppVWdxQ2JDMERCRzRIVzFaYmwxc1ZfTEFOYl84em1ob3JnVlFnR18wUFBwY0FlWExWUXNURW5sSHB3VmtFc1hWeDBXTVdzYVVtNWdrYlBmZWtTOA?oc=5",
           "published": "2026-09-01T06:05:39+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Üçlü Sınav Haftası: Enflasyon, Fed ve Hürmüz - ekotürk",
+          "source": "ekotürk",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcHYwTTFFaWNGUU1NNm5hQWdwdUxsWHE5a29LS0Y5MjNLTjNSY1VQck9yajZnbGpGYS1GbkNaYmRDVG5hR2dpc2o3VmlVS2diRU5kT3hMZ1pIamhLd2p4YWwxLWF4NndpMEt3SDQyQ18wbjRfN2ZNSmNYXzN1TTQycVRR?oc=5",
+          "published": "2026-08-31T07:00:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -195,8 +225,8 @@
           "weight": 0.8
         },
         {
-          "title": "Atilla Yeşilada video: Faiz inerse hiperenflasyona gideriz! Seçimi böyle kazanamaz & Borsaya girerim - Para Analiz",
-          "source": "Para Analiz",
+          "title": "Atilla Yeşilada video: Faiz inerse hiperenflasyona gideriz! Seçimi böyle kazanamaz & Borsaya girerim - paraanaliz.com",
+          "source": "paraanaliz.com",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT05vTllTSGFaTWFCMzdub2tJUk5nVDJ4QV9GN0N4SDhUV0Jfd0xaZURWeGlCYWw0UEpocnZ4ZU1yUE9VeFd3NTBJUDRLSU85NUdJaEJlWU5FRFRGLTZmUThCMGVhblpuMzhURXQxZkJiRi05dmIxblV1dURZQ2M5aHlBR0FWWUFCdEttM0RJSXg4cGxvdkk3U2pLRThfUDdfSjF0aU1fckVZT0c1V3NIaGdlTDNZZzBtbVNCS0ZKS2U2Mmh3bkVv?oc=5",
           "published": "2026-08-28T07:00:00+00:00",
           "terms": [
@@ -205,44 +235,14 @@
           "weight": 0.8
         },
         {
-          "title": "ABD MERKEZ BANKASI FED FAİZ KARARI ne zaman, saat kaçta açıklanacak? 2026 FED toplantı takvimi - Uzmanpara",
-          "source": "Uzmanpara",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPakh3X2c1bmZmREk4WTZhXzZSbmF6NHNIQnU0VU5CRFVlRm1DdS1YalV2eDdBVWJNY3VUNktKaXdiQTdMNnpxU0dlY3ZoTjQtR2EyYUxKdzhLTHhVU1dQckdPdVpCU3ZLRkFudmllcWRmZG9TS1Zhck1jWVYzN0lhT0k3T1hnaWpuWmN0aVJHaktKb1k4NklxYlp3VmxUb1NqNlJVMFR3bWttYTE1ZW9EUS1xaGRZVDk4aHhuaGtLRmFHRXBNUnNrU0ExM3BFaWVyc0VneXBpUmxpMmc2?oc=5",
-          "published": "2026-09-01T09:21:37+00:00",
+          "title": "Fed'in izlediği enflasyon göstergesinde sürpriz yok - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQmRJTl9rUDFWNVVkNDlWRmRnR3V2Zmc3eWtvd3hFaExmWGZWaDFDX3ktM2J4Wks5TXBEdjJoQXdNOHltVHU5VnNWelhKaF9vendqZUtlMzlHSS1uTlBmVGd1SU5QeTZHSjFxR3RHaW51TVJMekdvR2Nuc1llNzlPWFlJbjQxem9wVFE?oc=5",
+          "published": "2026-08-26T12:31:00+00:00",
           "terms": [
-            "zam"
+            "enflasyon"
           ],
-          "weight": 0.6
-        },
-        {
-          "title": "FED faiz kararı ne zaman açıklanacak, hangi tarihte? 2026 Eylül ayı FED toplantısı için geri sayım! - sabah.com.tr",
-          "source": "sabah.com.tr",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMUsyVnBmandIR0ZEUlZqa2lOMFpVeWF3Z3NqTFJuVXNsSDRkWGI5dWgzZ0wyWF9qc1VoZzNGSGRwSmhZbFo0QjJLbXY1WWRSOW5lU2tPV1BFVEh1blhNMWNzVXUyN1RTR1U3WnNRazRvcUtVNExlRkxNRGplOGtRSHBhWHpGRGcxNFc4Y1owYi1LWFZoQkM1UGVmTjU0SGl5dk80VmNNZXh6Umw5N3dDYXVQSFV0TFY5Tnc?oc=5",
-          "published": "2026-09-01T08:04:00+00:00",
-          "terms": [
-            "zam"
-          ],
-          "weight": 0.6
-        },
-        {
-          "title": "Merkez Bankası faiz kararı ne zaman? Faiz artar mı, düşer mi? - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXhsVUQwSHkwQlpmWFB6M3puNVVXQXJLYW1EVTA5M1FVR016U2tYcS1rNkJRbUlzOTQtanBnUFpwdjY2SXpUMXZfeExMM3dGQWlEYk9xMzNDQ3RybmctTFAtcGZkbGU2SkRhYW16akU5LUF0alM0NzhWd3lTQ0cwNG16QTlxa2djRUZFemVfQWpXQ0pmWXlCN2VRWXlWNjNRTGhzaUJfbDB5ZU10eHfSAa4BQVVfeXFMTml4bFVEMEh5MEJaZlhQejN6bjVVV0FyS2FtRFUwOTNRVUdNelNrWHEtazZCUW1Jczk0LWpwZ1BacHY2Nkl6VDF2X3hMTDN3RkFpRGJPcTMzQ0N0cm5nLUxQLXBmZGxlNkpEYWFtempFOS1BdGpTNDc4Vnd5U0NHMDRtekE5cWtnY0VGRXplX0FqV0NKZll5QjdlUVl5VjYzUUxoc2lCX2wweWVNdHh3?oc=5",
-          "published": "2026-08-31T12:08:00+00:00",
-          "terms": [
-            "zam"
-          ],
-          "weight": 0.6
-        },
-        {
-          "title": "Merkez Bankası ilk faiz indirimini ne zaman yapacak? Bank of America (BofA) Türkiye raporu - MANŞET İZ",
-          "source": "MANŞET İZ",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdWtpdlRzaG83ME9tVFR1MmIxc0pleXpzU3MtN0FFU2JXWnhKdkJSUHB3LUZjVU90WllwTl90bjZWalNGZXR5UG01bzRuT0hYTTFnVlFnSTVQa0plVE9sUHNoZnRfT2ZVY0l5YUs3N2p5bkNTTUVLMkhEVUxxZzRwLTlPZGViaGVuYXY5dEdfQktNa3Z2NFA2cHBMQnBiTkZQNmVZbEQwMDFhRVdZTWNyRnd3?oc=5",
-          "published": "2026-08-26T07:09:00+00:00",
-          "terms": [
-            "zam"
-          ],
-          "weight": 0.6
+          "weight": 0.8
         }
       ]
     }
@@ -350,6 +350,11 @@
     },
     {
       "generated": "2026-09-02T05:25:55.610159+00:00",
+      "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-02T11:56:17.594537+00:00",
       "score": 0,
       "status": "BASELINE"
     }
