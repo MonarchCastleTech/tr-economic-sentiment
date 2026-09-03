@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-03T11:54:48.803401+00:00",
+    "generated": "2026-09-03T16:54:56.500647+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0,
-    "raw_score": 0.0,
+    "score": 0.4,
+    "raw_score": 0.4,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.4/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,19 +26,19 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "latest_date": "2026-09-02",
-      "latest_value": 48.2075,
+      "coverage": 127,
+      "latest_date": "2026-09-03",
+      "latest_value": 48.2238,
       "change_5d_pct": 0.37,
-      "return_z": -1.09,
+      "return_z": -1.31,
       "volatility_20d": 0.07,
-      "volatility_z": -1.14,
+      "volatility_z": -1.11,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.2075,
-          "date": "2026-09-02",
+          "value": 48.2238,
+          "date": "2026-09-03",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -113,25 +113,45 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0,
+      "score": 3.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 134,
-      "matched": 19,
-      "weighted_density": 0.119,
+      "coverage": 139,
+      "matched": 23,
+      "weighted_density": 0.151,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "CHP'li Türeli: 24 yıllık iktidar döneminde ekonominin yapısal sorunları çözülmedi, ağırlaştı; Türkiye ekonomik, sosyal ve siyasal kriz içinde - sondakika.com",
-          "source": "sondakika.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaUdnWXRWN2t3YXk4enM2UnNZR0xWM0NhN0xoVDZXZFFsb2dvWGMxRHk0clN4aUJ0d3ltQTF6TnI2aWZfa1RUa2ZYUkhOUWJhcWhDakZzMUhlTXFlVGlhMVduaFUwb0FhcTdwbU9oR24zNmRLdDNpSjUycEpyYTR6MzdXTTdrQmFKSmV6dVRrMWRJS2xoX01CajlzNGrSAZwBQVVfeXFMUGlHZ1l0Vjdrd2F5OHpzNlJzWUdMVjNDYTdMaFQ2V2RRbG9nb1hjMUR5NHJTeGlCdHd5bUExek5yNmlmX2tUVGtmWFJITlFiYXFoQ2pGczFIZU1xZVRpYTFXbmhVMG9BYXE3cG1PaEduMzZkS3QzaUo1MnBKcmE0ejM3V003a0JhSkplenVUazFkSUtsaF9NQmo5czRq?oc=5",
-          "published": "2026-09-01T10:10:23+00:00",
+          "title": "CHP'li Türeli'den ekonomi eleştirisi: 24 yıldır yöneten iktidar yapısal sorunları çözmedi, kriz ağırlaştı - Son Dakika",
+          "source": "Son Dakika",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSmhMLXVLVG1WMmJ3ZHRpZk55endkQjRzeTRvdkFUZ2p3T3B6ZTBLbUZpMmNlQmR2QkplSzMwQWNfYlJ4ZnIxNTN1TmVlQUNIekFoY2xzSU5qZ08yMk94alhzWlJzU1pvY0JiNTZkbkY5WkZjeHdBcHpzWnRkQUhWVzFPcW90cnRyelJrUmdRWXNYVXZtWjVsejZkTnnSAZwBQVVfeXFMT0poTC11S1RtVjJid2R0aWZOeXp3ZEI0c3k0b3ZBVGdqd09wemUwS21GaTJjZUJkdkJKZUszMEFjX2JSeGZyMTUzdU5lZUFDSHpBaGNsc0lOamdPMjJPeGpYc1pSc1Nab2NCYjU2ZG5GOVpGY3h3QXB6c1p0ZEFIVlcxT3FvdHJ0cnpSa1JnUVlzWFV2bVo1bHo2ZE55?oc=5",
+          "published": "2026-09-01T10:32:33+00:00",
           "terms": [
             "kriz"
           ],
           "weight": 2.0
+        },
+        {
+          "title": "CHP Grup Başkanvekili Türeli: \"Türkiye ekonomik, sosyal ve siyasal bir kriz içinde\" - Haberler",
+          "source": "Haberler",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSkFQMk5YeUFvOHhjQ0NsZ2M1NFFIbjEwODdNNkRvbUR4Sk03Y3c1THVSSDlSVk5aYlI5QUE2STROVlRSakkzZ3BXcE5SOTNVNUw4cFlfcmdyM09OaWs1bW5fcm44TTRDOUViczBDR1pmQXAzRWh5QTYyd3VDX0ZYTUlTR3dYMjhHbGJoNFppdTBqNlNlbXfSAZYBQVVfeXFMTUpBUDJOWHlBbzh4Y0NDbGdjNTRRSG4xMDg3TTZEb21EeEpNN2N3NUx1Ukg5UlZOWmJSOUFBNkk0TlZUUmpJM2dwV3BOUjkzVTVMOHBZX3JncjNPTmlrNW1uX3JuOE00QzlFYnMwQ0daZkFwM0VoeUE2Mnd1Q19GWE1JU0d3WDI4R2xiaDRaaXUwajZTZW13?oc=5",
+          "published": "2026-09-01T09:59:14+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Otomotiv pazarında sert daralma - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95U0VfT0h3T3lqY0paaWVYUklxUHhnbUp5X1B3NXNrUmdxNFY2QlNDbTFncGhDSlZpRHdua0g0YkFuSHlEMGEzb1F0TU5CX3Zpc1QzblJ5WGRoZExJeUN1ZGdRcmpOQ0lPT2RvRlNYY0pnQ29qZVE?oc=5",
+          "published": "2026-09-02T05:18:08+00:00",
+          "terms": [
+            "daralma"
+          ],
+          "weight": 1.4
         },
         {
           "title": "Ağustos ayı enflasyon oranları ne zaman açıklanacak? Merkez Bankası enflasyon tahmini belli oldu! - Bigpara",
@@ -145,6 +165,36 @@
           "weight": 1.4
         },
         {
+          "title": "Türkiye için faiz ve enflasyon tahmini - Turktime",
+          "source": "Turktime",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTGNjTHptSW1HMjVBbFFEMVVTUjJDODRJbWZjcGpTZ1VqdldxeVpKM0RZUUhMRTh5QXlPc1lvZFhOTTI3MzA5TkJJM2xaMTFoeXMwOEpVZ1lZTFB3amNyTENTZ2EzTGlaMDljd3lINjZFME1wUTBVeVZuSkJPVkk5aFZB?oc=5",
+          "published": "2026-09-03T15:55:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Zeliha SARAÇ: Enflasyon düşüyor ama hayat neden hâlâ pahalı? - Borsatek",
+          "source": "Borsatek",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WTWVYZmQyRFdSNGFmN3RlNFNJMEF2S3kyVkJuZkRTQVgyTEdOMVM4V3NCaUF5Y04zZ0dpQWxWMlRGZlItdE0yS3BsRlNQVU5zOUJYclJhWFZheWZob2h4cGJzV2lzS0pZWVVpRi1NNEpTWjNkcW9Gb3d4VQ?oc=5",
+          "published": "2026-09-03T15:38:19+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Citi'den Türkiye raporu! Yıl sonu 'faiz ve enflasyon' tahminini açıkladı - Türkiye Gazetesi",
+          "source": "Türkiye Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRFlCR0NUZWM4dmhUWTZvN1lYSG1RNWRXak5NNDJJbkYyTlZzT1pIMHNpZzFUMVpaVUtYN3dXSkVkMHhJQWlhaEpCRXJFTkJfbE11SkxjbHI1NEp4UW05TVZkOGNvd1lXMVJWZ2lRSHJLV1NKQnRRcnVGcmJXN1NCNWtzRElzdkpaUjBmQ2cxeGRHeGN1UU5yMGE1N2lEcTJ4YWluNVNRcTZmQ2ZWVDJ0NHBNU3dLZDdSMEpB?oc=5",
+          "published": "2026-09-03T14:16:18+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Citi: Türkiye’de enflasyon baskıları yapısal hale geldi - Paratic Haber",
           "source": "Paratic Haber",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5paHFUNEVvN2phUUYteFBJbFV5Mkx5Y1Z1dTk4STZHZ2Z2dG5Vczc2TVlDRzZSbHVtR2p0ZU0xa2V5XzdkbFFUcVh1WFMtNDctQmNsZkw4R2tvOHlDQzBRRy1tT2lHc3dmTlFpN3M1cVlzZTNsNjBUUEQ3UzktUFk?oc=5",
@@ -155,20 +205,10 @@
           "weight": 0.8
         },
         {
-          "title": "Citi'den Türkiye enflasyonu ve TCMB analiz - Sigorta Gündem",
-          "source": "Sigorta Gündem",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKZ3A4YTE5S2FLc18tX0FDLWU4M0JYbURjR3paZmVuYnVOSDBWS1NQSlFiLXVfcGMyR0kwRlh4WkZScHN6bVY1UHhGNkJvNElWT0dBRy13YVREOWFMWHlCa3p5UjRxTG9NRDRDd0V2TElSWUU2YmVV?oc=5",
-          "published": "2026-09-03T11:18:27+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Bakan Şimşek: Yıllık kira enflasyonu son 46 ayın en düşük seviyesine indi - Anadolu Ajansı",
-          "source": "Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeDAtTWtOT1J0MllyRFZCLTNpSTNMWUxZZmZmdlR4aTJHVUpwMzRySmNKSlctTkROZmtfMDZTNHluUmJNZ1dOV21wZkdrV00xRjZiOXV1a1lSWXFnVjhmYWZZLV9ybjZxYVlZMHlQV1FORktYR1JVU0pONWRUUElkYl9UbndkaFU5TWNIN2UzY2hxT2ZZZ2hpTm9zdktscm9NVlV5RHJ3azBlVVB0VWZudTE1dw?oc=5",
-          "published": "2026-09-03T08:22:38+00:00",
+          "title": "İYİ Parti'li Usta: Samsun'da pazar enflasyonu TÜİK verilerinin üzerinde - Son Dakika",
+          "source": "Son Dakika",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQVZQS3pWdmljZkNUMGFKMlZOU0NmaW0xMFFuYzkwWnR1eldGSE5pNldCeTZlVFZmbGdULVNVamJiNTB6eGxDWEpWcmN4QnlLZXBjVUIzYWhaQ19xaXB2MWNrblp0R3piaXd6N1N4RS03LVY4VjRaa3JNZ3QwZEFsT3JWUTFFQ3UzMlVFdXdZRmxKYlpuSHA0UndlS1BtTUFk0gGcAUFVX3lxTE5MM0FfbjQtQ1czVzVIS09NbG9VUm40N19tZGlUaXJpbXBzQ3hYbE5jRS1ZaV9iU1FPN0xuWWI2ZnJtSTMyVndvV3Ntd1VEOV9wdE5lb3NlR1dOWFBVWDNBTmNJaWVnN215Y3F4bVUtWFdoUmloUjNQbDk4aXBHc2ppLWlOT1pmNHJZSjVKNkR2b2hlVExIWHJoU2s2Rg?oc=5",
+          "published": "2026-09-03T10:37:13+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -178,7 +218,17 @@
           "title": "SON DAKİKA: Türkiye’de Ağustos 2026 Enflasyon Oranı Açıklandı! - Coin Mühendisi",
           "source": "Coin Mühendisi",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNTFaY2MwdzBZRjZxeVdZT0FvV2prTXRQTU16aHFoT2d5V082bEJrQUxCQUZ4cUtFMUcwQ212M3BXTk9NamZpYVNRS21PblNzSVlJQUZKOEVaMWVreHBVSVNfQWpWaGVjZVRUcTFSTVRUMGVCUWc3Q3hKblJmMEM4aWE1UFVvemJNYmFLeUI1Y09tMWJ2YVE?oc=5",
-          "published": "2026-09-03T07:30:45+00:00",
+          "published": "2026-09-03T09:30:28+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "\"Türkiye, enflasyonu düşürme ile sanayisini baskılama arasında ikilem yaşamamalı\" - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb01hOVllZlVxRDFzNzl2U2ZERFFrbTNkdjhWOGEzeUNudkdvNWVXNHJMdEVoWHd5ODRORnVERTllSUdVN3JVdGY0ejJfSDlNQVdwN0dTcHdPOFBGMFI4elE3d2JaRFFkOGNJaWZvbU5rM0RBMk9jaTdBOTl3RV9tMThaTUdrZmtVOUlBZHQ3ZkN5QlZRdGFSSTk3UDBaNXkzS2V5aEJDcTVoRldhMVVUN0t4UEw?oc=5",
+          "published": "2026-09-03T08:01:27+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -189,56 +239,6 @@
           "source": "Rudaw",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yeE85bHNpa0JhZlQxR0t3TXM4cXhIWTNVcVNjM2l4TGNvUC1TQmhnVGNFOVgxSkp0TzlkMERGcnlrTVRSVThnZ1puWTRIQU5RazRvbzZKeXZGcHpKTEVRaXZ3bEF4VDQ?oc=5",
           "published": "2026-09-03T07:26:53+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "SON DAKİKA | Ağustos ayı enflasyon ne kadar oldu? TÜİK açıkladı | Türkiye Ekonomisi Haberleri - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ0FvMDdweVY1aFRUcE9rOTAtc3lvU0Jsa0p6UVVJVzFTZWFkc3ZkbzFKdmxTZEdOUzJ5VEkycENlSXlXcnZQVGJzd1ZvbUUxbkg4V01FM0Mxbm5zV0dsRmJpTXEyX2ZrRl80OUZMelpvV2h5WkZHSm5oYXFrbVFNNWFKSTlTS04wdXNZaUVYSU00cDBlSS1oYXJ0NDY?oc=5",
-          "published": "2026-09-03T07:01:37+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "TÜİK Ağustos ayı enflasyon verilerini açıkladı: Aylık yüzde 1,84! Bakan Şimşek açıkladı: 6 yıl sonra en düşük seviye - Takvim",
-          "source": "Takvim",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkWjV6UlVILVo5MkgwSWtObmtaVktlVTBVSEcxTndOaHRncHg1STFwYTlReDcwaWZySVJOM1ZubDZqX3RxUDBaOWR5ZlE2UXBBZDFoa3prcXdjclVUVmJMamNkY0IwczR6WU5uQ2tiNmd0WWVfNnJiN1JkVQ?oc=5",
-          "published": "2026-09-03T06:22:31+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Dünyada Hazine tahvil satışları hızlanırken, borçlanma maliyeti de son yılların en yüksek seviyesine çıktı. 🔗 https://www.fortuneturkey.com/global-tahvil-piyasalarinda-enflasyon-panigi - instagram.com",
-          "source": "instagram.com",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NeVV0alhfQ2d0MzJqVlhOZXAyaHlnREttSnFtWWpabnlDSUZZUnE0VDk2MGZiXzNibUdVMVNLQVQ3NUZQMi1ja1RGS0Q0RTAyeWc?oc=5",
-          "published": "2026-09-02T12:35:44+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Japonya’nın 10 yıllık tahvil faizleri Eylül 1996’dan beri ilk kez yüzde 3 oranına ulaştı; yatırımcıların enflasyon, mali durumla ilgili endişeleri ve faiz oranlarını daha hızlı artırması için merkez bankası üzerindeki artan baskı bono faizlerini yukarı taşıyor. 🔗 https://ww - instagram.com",
-          "source": "instagram.com",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIRWZLZHJ0RWpLcnZGUTRjRFZWZGRBWXlCZjItaWI5X0hPa2xKd2VWNjQwT29RLTFQQnlUQU0za0VZQl9ncGxES2VqV2NJcFFqQUE?oc=5",
-          "published": "2026-09-02T08:00:30+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "\"Deprem bölgesinde konut arzı arttı, kira enflasyonu yavaşladı\" - Bloomberght",
-          "source": "Bloomberght",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU0xlTktIQjRjSTZxNkR4OXBUcGdhRzdyaERPczA2dW1DMDRzeVJqVTllUHcwWnJvTW51UksxTktPTk5QOEpXdDhkQ1dPVEhscUlSY181S29zQnNYdkVIQm5obzNvcFZWSEJ6LVBYUFpqTkpZN2lORDc4Z1dHQWtkWHVCaHEybDNESF9HajJBZ0h3ZlRzVk9MN21Cb3I?oc=5",
-          "published": "2026-09-02T05:48:10+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -376,6 +376,11 @@
     {
       "generated": "2026-09-03T11:54:48.803401+00:00",
       "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-03T16:54:56.500647+00:00",
+      "score": 0.4,
       "status": "BASELINE"
     }
   ],
