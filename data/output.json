@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-02T21:34:54.454698+00:00",
+    "generated": "2026-09-03T05:27:39.717534+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
+      "coverage": 126,
       "latest_date": "2026-09-02",
       "latest_value": 48.2075,
       "change_5d_pct": 0.37,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 121,
+      "coverage": 120,
       "latest_date": "2026-09-01",
       "latest_value": 4627.1,
       "change_5d_pct": 3.99,
@@ -118,14 +118,14 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 134,
-      "matched": 9,
-      "weighted_density": 0.082,
+      "coverage": 135,
+      "matched": 12,
+      "weighted_density": 0.086,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Ekonomi ne zaman düzelecek? - İşsizlik, banka borçları, icra iflaslar, sanayinin durumu - Yeni Asya",
-          "source": "Yeni Asya",
+          "title": "Ekonomi ne zaman düzelecek? - İşsizlik, banka borçları, icra iflaslar, sanayinin durumu - yeniasya.com.tr",
+          "source": "yeniasya.com.tr",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWDJsbHQ3cWNUUlRFV0w5TFBFZ3ZOVm9kV05aQ0Q0RzR2SnFacUVZeUszSzZEdmJ4UWp4Qi0yTHhpQlZuTU9pVUJVaHExZWRqdzItMUlvWmZVQUw2TU1UVmhGUjk4Z0Z3TW1Fa1lYNnZYeFl3RjY0N0JxWXRnaHNTTmtCSzcySmliV05WdU9oeVd2X0c0eVVSOXpqdno5NUg0T29NWkV6ZTZ4dkV0S1FvYVRkaGdNa1NGNndBc3ltMXNyZw?oc=5",
           "published": "2026-09-01T17:56:00+00:00",
           "terms": [
@@ -145,14 +145,14 @@
           "weight": 2.0
         },
         {
-          "title": "Deri sektöründe kriz büyüyor: Artık yoğun bakımdayız - Son Dakika",
-          "source": "Son Dakika",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWHpRbXZseG9PcVppSndFSVBxZFJ3bHAyWHpPSV96Y0wtdnFndmVZdkd5Zi1fbzFWUjF5UV96VmphZUVkUWlGRVBzTHRxa2lTTWwtblY1d0ptNldWa29VOXhJLWVCbE1EYzNJbEZKaFI5VkVXajVJSWRIb2Q5OWJFYk42aHJ4dGVHU2RrRzJIWl9FQdIBjwFBVV95cUxNZXFlejlqcHRpUXJBdmMtaEt1eDEtTE1oNWJBUkJpbXNqdTFZa1M4ZnJOWDZDeFBYYW5Jck1qbTRQY2h4Uzl1MHM2NHZMYUpHR2JBZlExRTJibTVxQmNHemhMbTRLV1VTaFU3VlIyRGhKcW5OaVFOemJoS08wZGNHdjZ0WlVJYl80UUxhS05zaw?oc=5",
-          "published": "2026-08-31T11:48:17+00:00",
+          "title": "Dünyada Hazine tahvil satışları hızlanırken, borçlanma maliyeti de son yılların en yüksek seviyesine çıktı. 🔗 https://www.fortuneturkey.com/global-tahvil-piyasalarinda-enflasyon-panigi - instagram.com",
+          "source": "instagram.com",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NeVV0alhfQ2d0MzJqVlhOZXAyaHlnREttSnFtWWpabnlDSUZZUnE0VDk2MGZiXzNibUdVMVNLQVQ3NUZQMi1ja1RGS0Q0RTAyeWc?oc=5",
+          "published": "2026-09-02T12:35:44+00:00",
           "terms": [
-            "kriz"
+            "enflasyon"
           ],
-          "weight": 2.0
+          "weight": 0.8
         },
         {
           "title": "Ekonomi gündemi hızlanıyor: Büyüme, enflasyon ve faiz verileri açıklanacak - ekotürk",
@@ -195,8 +195,28 @@
           "weight": 0.8
         },
         {
-          "title": "FED faiz kararı ne zaman açıklanacak? 2026 Eylül FED faiz kararı ne olur, beklenti ne yönde? | Özgün Haberler - yenisafak.com",
-          "source": "yenisafak.com",
+          "title": "Türkiye'nin en ucuz otomobiline zam: Eylül fiyatlarını açıkladı - haber7.com",
+          "source": "haber7.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVXdvNEYxSXhnNEpKbHFZSTlYd0ZTRnNBak1weTFOMFdsVE1VOENvUkgwbXdwWTFNQUd3T3JKRXR3RU05X3lqVjZ1SjY0SDBtXzJyZHd5OHFsNzNmdW5CSThfUkhJLUxMSEFCR2JCaXN3MGJXQlZPbGkwSmlIMTVmMTdJZUxvb0FGaWZNWFZsclJNUnpZSzRjcmJ6RnltcjJWT25Ga1VUNXlzNUxvMU13X1Jn0gGyAUFVX3lxTE1Vd280RjFJeGc0SkpscVlJOVh3RlNGc0FqTXB5MU4wV2xUTVU4Q29SSDBtd3BZMU1BR3dPckpFdHdFTTlfeWpWNnVKNjRIMG1fMnJkd3k4cWw3M2Z1bkJJOF9SSEktTExIQUJHYkJpc3cwYldCVk9saTBKaUgxNWYxN0llTG9vQUZpZk1YVmxyUk1SellLNGNyYnpGeW1yMlZPbkZrVVQ1eXM1TG8xTXdfUmc?oc=5",
+          "published": "2026-09-01T15:35:00+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
+        },
+        {
+          "title": "Türkiye’de motorin fiyatlarına ÖTV ve KDV zammı - Rudaw",
+          "source": "Rudaw",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12cmkwRTQyMUFaZ2VlYzR0YVI1TGxNVW1IYl85VE5RLUhxYWZhR21IclZkY2NqM0w4NWlvZGhla1NxbmNTbS03TE1jLTRNOUNSaERXMXRscm9ic1FjaWgtMGFWenhCclhX?oc=5",
+          "published": "2026-09-01T06:45:36+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
+        },
+        {
+          "title": "FED faiz kararı ne zaman açıklanacak? 2026 Eylül FED faiz kararı ne olur, beklenti ne yönde? | Özgün Haberler - Yeni Şafak",
+          "source": "Yeni Şafak",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcUViVUpyRm0xZ3BpSExaaVQ5STNUR0d4aGlfanU1ai1Qc0dmT2FIMENHWlZSbDBHNUpTUkNSVVdiMVJ5UjhzVjZQLWlzRGM2X2hoVDZQYkkxZmVVTWd4M3NVTU5lbjlWN1FuM3BjWGtqU291eklHWU9US2tOTVo1VVA3LThsbVpnVXZrV3JCdWRyQXUweDYtb3UxcEdxUHVuS09ZMm5ZcGpoLXRCVU9GR0l1cW9mRDZweUxoREw2SjlrLVFqQ2s3dWNWeUYxaFFmV3c?oc=5",
           "published": "2026-09-01T06:28:00+00:00",
           "terms": [
@@ -205,10 +225,20 @@
           "weight": 0.6
         },
         {
-          "title": "Merkez Bankası faiz kararı ne zaman? Faiz artar mı, düşer mi? - Haber 7",
-          "source": "Haber 7",
+          "title": "Merkez Bankası faiz kararı ne zaman? Faiz artar mı, düşer mi? - haber7.com",
+          "source": "haber7.com",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXhsVUQwSHkwQlpmWFB6M3puNVVXQXJLYW1EVTA5M1FVR016U2tYcS1rNkJRbUlzOTQtanBnUFpwdjY2SXpUMXZfeExMM3dGQWlEYk9xMzNDQ3RybmctTFAtcGZkbGU2SkRhYW16akU5LUF0alM0NzhWd3lTQ0cwNG16QTlxa2djRUZFemVfQWpXQ0pmWXlCN2VRWXlWNjNRTGhzaUJfbDB5ZU10eHfSAa4BQVVfeXFMTml4bFVEMEh5MEJaZlhQejN6bjVVV0FyS2FtRFUwOTNRVUdNelNrWHEtazZCUW1Jczk0LWpwZ1BacHY2Nkl6VDF2X3hMTDN3RkFpRGJPcTMzQ0N0cm5nLUxQLXBmZGxlNkpEYWFtempFOS1BdGpTNDc4Vnd5U0NHMDRtekE5cWtnY0VGRXplX0FqV0NKZll5QjdlUVl5VjYzUUxoc2lCX2wweWVNdHh3?oc=5",
           "published": "2026-08-31T12:08:00+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
+        },
+        {
+          "title": "FÖŞ kükredi: TCMB Ne Zaman Faiz İndirecek? Döviz Kuru Ne Yöne Gidecek? - Para Analiz",
+          "source": "Para Analiz",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTExyV3lCMGRfMHB3d1FqYlZDSmtFdUwxU0E1YzlGX3YwamsyR2tvSEtPSDVRRGtPRVFyWmVNR2RaQkE0cFlqS2k1ckgyaEFkaVRhVXFIRXZvYmxCcHdMTjM3aFk2WC1PdXVNMlBYSkFRM1FjaHd0Y0dSdkFTU250WjF1dEV6M3ZaRFViV1BSVVVSbVFfRlkwdjBQdktTd1Awd2hXSGJB?oc=5",
+          "published": "2026-08-27T11:00:13+00:00",
           "terms": [
             "zam"
           ],
@@ -335,6 +365,11 @@
     },
     {
       "generated": "2026-09-02T21:34:54.454698+00:00",
+      "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-03T05:27:39.717534+00:00",
       "score": 0,
       "status": "BASELINE"
     }
