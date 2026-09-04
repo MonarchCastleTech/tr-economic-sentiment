@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-04T11:57:52.566310+00:00",
+    "generated": "2026-09-04T16:43:04.372679+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,19 +26,19 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "latest_date": "2026-09-03",
-      "latest_value": 48.2238,
-      "change_5d_pct": 0.37,
-      "return_z": -1.31,
+      "coverage": 127,
+      "latest_date": "2026-09-04",
+      "latest_value": 48.2326,
+      "change_5d_pct": 0.33,
+      "return_z": -4.89,
       "volatility_20d": 0.07,
-      "volatility_z": -1.11,
+      "volatility_z": -0.91,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.2238,
-          "date": "2026-09-03",
+          "value": 48.2326,
+          "date": "2026-09-04",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -113,26 +113,25 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 4.2,
+      "score": 4.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 164,
+      "coverage": 159,
       "matched": 30,
-      "weighted_density": 0.157,
+      "weighted_density": 0.155,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Ekonomi ne zaman düzelecek? - İşsizlik, banka borçları, icra iflaslar, sanayinin durumu - Yeni Asya",
-          "source": "Yeni Asya",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWDJsbHQ3cWNUUlRFV0w5TFBFZ3ZOVm9kV05aQ0Q0RzR2SnFacUVZeUszSzZEdmJ4UWp4Qi0yTHhpQlZuTU9pVUJVaHExZWRqdzItMUlvWmZVQUw2TU1UVmhGUjk4Z0Z3TW1Fa1lYNnZYeFl3RjY0N0JxWXRnaHNTTmtCSzcySmliV05WdU9oeVd2X0c0eVVSOXpqdno5NUg0T29NWkV6ZTZ4dkV0S1FvYVRkaGdNa1NGNndBc3ltMXNyZw?oc=5",
-          "published": "2026-09-01T17:56:00+00:00",
+          "title": "TÜİK işsizlik rakamlarını açıkladı! - Haber 7",
+          "source": "Haber 7",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWFpSd1hlQnEwOHhZRkxOUjY0TUFMWmg5b3lnT1BlVkRlQlAwZ0xFUTNEZzZtc3VDcHo2Tld2alJEOGZvUUZObU5jRzZvMzR5UHIzdFpERWgzdUVxMU5NbFNEek9pcDk3VldCa0NGSjZ2UDY1WEJ1Q2xnZmRrZnpsZU5vLWRCX1piVkZZ0gGOAUFVX3lxTE1xeE9rYmh2T3lTdjUzQk5fbEI0cDN6VzVvOTA5Nk1jOGRCc3F5U2ZLN3NfbmcxQmU1X2NTeFpwS1p3U1NYaUtYcHRjY3NBdXM3M3pRVVd1ZjNFMk5kWHZTdDMzdlAzVHBnc0lJVTFyR1NIZ1gyRFRvblRPZ2JmcmNjYWxWaFVqNjlJa3g1bEE?oc=5",
+          "published": "2026-08-31T07:59:00+00:00",
           "terms": [
-            "iflas",
-            "zam"
+            "işsizlik"
           ],
-          "weight": 2.6
+          "weight": 1.5
         },
         {
           "title": "BBVA Research Türkiye Enflasyon ve Faiz Tahminini Güncelledi: Faiz İndirimi Ne Zaman? - Para Analiz",
@@ -146,18 +145,28 @@
           "weight": 1.4
         },
         {
-          "title": "Kurumlardan faiz ve enflasyon değerlendirmesi - borsagundem.com.tr",
-          "source": "borsagundem.com.tr",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMFRIR0o3UVp2YmRJQXhVZFJERWh5NGhUM0Jjd1hNRnNPbGY4OWdKYXVUaWZYV2t0NUwzc1pFUmRLTDdkeWhkVlNlcU9scEN0LWJzcEJQUFMwS3NnOEhhNmEwa2NLYWdkaEgwMEJIXzVoZkpmdWd2R1BuV3hGUHJRZDFR?oc=5",
-          "published": "2026-09-04T09:24:00+00:00",
+          "title": "Yıl sonunda faiz ve enflasyon ne olacak? Goldman Sachs'tan dikkat çeken Türkiye raporu - Türkiye Gazetesi",
+          "source": "Türkiye Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR2ZJeVE3SDJ4ZzgybHJIUUwxdUw2N0FvS2ZYdkhENTYxUzdTaUoyVUVvMF9KdG0tY2loRTB6Mlc2bXY3MGtGREdSUlY1UHpyUFBsV1lUdDR1RW9EM3VTT0pNaXhRUU54eDh6d2NFdExDWGpqdmhMdk1zcWduQUtDaGtyUWtBRnNzSGdHcFhIaERxNGZyQjhOcnJ3aHhYbThJcnhkY1QyUXlROXRoVWRUSVdvcHp1WlZuUk9FUnptQThLWmVDdjRQNlpGaDdCQ2lC?oc=5",
+          "published": "2026-09-04T12:58:59+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "Goldman'ın Türkiye enflasyon analizinde 'enerji' vurgusu - Bloomberght",
-          "source": "Bloomberght",
+          "title": "Türkiye, enflasyonda Avrupa'da ilk, dünyada beşinci sırada - Kısa Dalga",
+          "source": "Kısa Dalga",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaHo1X3F0bVdXT0xSdTVmTmFVR0J1UXkzQU90NUNDS21EeXFHTG5YdXZkb3FaaXVIOENRMHJxQThPU1g0LXpKWjFfVnBVTDBsTW13QXJocTBjS2JqSFBNT080Nkc2dXVEZjFBb21malJaOXZsMm1tUUtPZWpPZkdxLUNlMmh0M1dSV2Z1OHd6emlqY1JPa0VLSzJzbGpHUHPSAaQBQVVfeXFMUHdyVENjQ1pOMkJ6V3pLUFdRc2d0OUh4MWxVUjBMb3M5akVla3o1aXJqRlBBTHZibUlwRjhXa3ItYzZUZTJMTUJaOE80MXJZWkZsdDJVNl9MSld4b3VfclJ3dlFIeGkxcDRDelp1Ny1MWEUtVG14cGQtcVhWbTNCVmxOTDRRM0hQb3JZaU5yZWV0S2FCY3FFYWh6WTQ4Z1h1NTFDYWk?oc=5",
+          "published": "2026-09-04T09:03:55+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Goldman'ın Türkiye enflasyon analizinde 'enerji' vurgusu - bloomberght.com",
+          "source": "bloomberght.com",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcF9OLU1yb3pFdmEwZEVQY1FQQm9wTFJPa19QZHBIRVBIVUwwT3RGSmdYNTBwakhJRm00ckVCSUpxZFFIN2gyY2lEbndWWnlzSEJxNW5pZ01xZWwzVmZzLXJfTGJsZlYwblRyQWZZdFhDS1Z0S1RjTUtnS1hrcXFtbWdSdDdlVW4xeGxpWGJqeVVpWHEz?oc=5",
           "published": "2026-09-04T07:49:18+00:00",
           "terms": [
@@ -186,8 +195,8 @@
           "weight": 0.8
         },
         {
-          "title": "BBVA’dan Türkiye ekonomisi için faiz ve enflasyon tahmini - paratic.com",
-          "source": "paratic.com",
+          "title": "BBVA’dan Türkiye ekonomisi için faiz ve enflasyon tahmini - Paratic Haber",
+          "source": "Paratic Haber",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaVF4MjBDcGl0YXdJXzhDNmdqYVh4UEZyYVpuQzZ6V29qN3RZMjNzNmtvOVlYaFFjeUViR3JfUjZUNDhLOGFaMmRaZWN0YVl3LXlYenQzS0JGa3phWEd1aU1qZERqOEdtV2ZraUFwYTR4S3c3cWp1LUJ5VDYwQnBQeHZvMA?oc=5",
           "published": "2026-09-04T06:37:06+00:00",
           "terms": [
@@ -230,16 +239,6 @@
           "source": "Habertürk",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS2w4VlQzY1JKcVBtUFRndWxRWEJQNlhReDlib1dka09CQ1pZam5tOEN5TGZNMk52cUlmN0tSeTdyVm9OeUxrTUI2aHAtVmc3LVJtejIxSnFfc05XQlZjVDBFZlNVSVlOUEJubTZhMk0wVTNBcy1DSVl4eXpHTHp6R1AtSWxxVHNVM05uR1pkTTJ0UVpENVoyN2Z4VS1zUjdLV1lCcGdjT2ZfRVVPbjhlNERLNF9uWjhKcVpvU0xEQUljdw?oc=5",
           "published": "2026-09-04T05:22:52+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Gözler yeni OVP'de: Enflasyon ve cari açık hedefleri şaştı - DW.com",
-          "source": "DW.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdWtQT3VLNkZuUHNVcV95Y2s0UTNkVk1kekFrekg3aGZ4NU43VVBxalhIdW9ISkRlNUpBMVh2Z0syZFpXNDhYeXhxa0VPWDBYa2Q2Z3dHQUh2d3RCTzdtdFJiZ3kzTjZON0x5eE05U1NrUUk3SDBDRnZFb2N0UjJuU3c5VGQxQlFpdFVTT3lHMDRBcGtIdExwcHU0dVo4VW94WmltSFRXSml5V0hCSy0xbENHRkxVM0RxSE9N0gG7AUFVX3lxTE51a1BPdUs2Rm5Qc1VxX3ljazRRM2RWTWR6QWt6SDdoZng1TjdVUHFqWEh1b0hKRGU1SkExWHZnSzJkWlc0OFh5eHFrRU9YMFhrZDZnd0dBSHZ3dEJPN210UmJneTNONk43THl4TTlTU2tRSTdIMENGdkVvY3RSMm5TdzlUZDFCUWl0VVNPeUcwNEFwa0h0THBwdTR1WjhVb3haaW1IVFdKaXlXSEJLLTFsQ0dGTFUzRHFIT00?oc=5",
-          "published": "2026-09-04T04:24:53+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -396,6 +395,11 @@
     },
     {
       "generated": "2026-09-04T11:57:52.566310+00:00",
+      "score": 0.4,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-04T16:43:04.372679+00:00",
       "score": 0.4,
       "status": "BASELINE"
     }
