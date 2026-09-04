@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-04T16:43:04.372679+00:00",
+    "generated": "2026-09-04T21:13:23.123438+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.4,
-    "raw_score": 0.4,
+    "score": 0.5,
+    "raw_score": 0.5,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.4/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 4.0,
+      "score": 4.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 159,
-      "matched": 30,
-      "weighted_density": 0.155,
+      "coverage": 161,
+      "matched": 32,
+      "weighted_density": 0.162,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -145,10 +145,30 @@
           "weight": 1.4
         },
         {
-          "title": "Yıl sonunda faiz ve enflasyon ne olacak? Goldman Sachs'tan dikkat çeken Türkiye raporu - Türkiye Gazetesi",
-          "source": "Türkiye Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR2ZJeVE3SDJ4ZzgybHJIUUwxdUw2N0FvS2ZYdkhENTYxUzdTaUoyVUVvMF9KdG0tY2loRTB6Mlc2bXY3MGtGREdSUlY1UHpyUFBsV1lUdDR1RW9EM3VTT0pNaXhRUU54eDh6d2NFdExDWGpqdmhMdk1zcWduQUtDaGtyUWtBRnNzSGdHcFhIaERxNGZyQjhOcnJ3aHhYbThJcnhkY1QyUXlROXRoVWRUSVdvcHp1WlZuUk9FUnptQThLWmVDdjRQNlpGaDdCQ2lC?oc=5",
-          "published": "2026-09-04T12:58:59+00:00",
+          "title": "Goldman Sachs enflasyon tahminini değiştirmedi! Gözler TCMB’nin faiz kararında - Haber 7",
+          "source": "Haber 7",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNEhGbkFjd2RxQlNjVE94V1VKaXlaR0d2V2pqRFBHcERaTlcwM1FEcUI1cl9KeXFfaS1kcUpQeEF1MTA5WmhGZFdfOUpQSlE1a3BzMUFneVVKOC1ab2hIeFhENHVLcnQxN0pBU0VVMVJhdUFSYTYteVlFR0pLVWNHc3lWUkltZk8xMjZoSWFGd3BlbkdDUVlSSk9jQk0zUWp3RjhaaFgzVENBbG5pMS1wdVVZaWVtaUE0c2pZa2pBNk9HZlHSAcYBQVVfeXFMUFJ2NjBEdi0wR3FGZVd3VG51b1RIMHN6al8xVTNwb19yQ04ya3hqN05BMlQ3NUZ6SUVyVnpuTnpvbmI3Z1hCVHVLbjdvSWRXOW5SdkxXbFNudnpFWVRvckVOcUU0ZU54Zld4TEwzMHBBRzlsX01zSl80eXUxX0VXMG1UXzBDSEIxa0FOZDlSVUNmdWtqZTdQSzdySG5WY0l1dkI5aXJQa0hoTjJGckdYMktOSDM2UWJuMGFFN1JONEFMdWJVV2lB?oc=5",
+          "published": "2026-09-04T14:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "MUFG’nin Türkiye senaryosu belli oldu: Enflasyon ve dolar/TL tahmini haberi - Finans Gündem",
+          "source": "Finans Gündem",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeS1nZkVFSW45UXVrdHZjUlNHcFpoQzI4UGxTWFFqSWRzYjUxbGhoMHNvcldHMkxSS1o1QlByblpwQjBiOG5aQTl4bFBZdmxkM3BucmJsb1o3b2QzRlRzbzZOemtPbWZRR0JpbS1YVnd0SC1Nc214dDJZQlRObElVWkY3ZktnYXVIRjVhMktMQTBmYXd2bl9SNTJuXy1qbVkyaDc3MUQ1NmxJaWJjd2FvRg?oc=5",
+          "published": "2026-09-04T11:37:13+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Türkiye enflasyonda dünyada 5. sırada: Faiz neden yüksek? - Urfanın Nabzı",
+          "source": "Urfanın Nabzı",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMlFRa1NIaHdCSmxXdmtQdFk5bktrSVpJY19rUHpJZURDUkVCZzhhZ2RDTkV2Nmk0V0R4Wm04SmdaNjJvX0JxSC04STJobzUzV2NtWTFyb3FEUzNULXZSeVIyRHFWYlpLT0Rfano0VnBNRHBJSG5JUkFGUk52SzY5U1ptUHBtOUVxcklSaUYzUEZ5Tmts0gGiAUFVX3lxTE94Z1RpVHJkbjFfTDlnek1IVGlfR1g3M28xdUF1c2Q5U0NOaldRT1lidFRqaE5oU2F3NXhtV1kxSnpmWXNYaWNoN29BTkg5SjIzdExqaXJLRXA5WEZ6ek5TOXYxX3NxeDRHNWpwX2ZsNGFoSUlMODE2cjdXMzV3eWdncWNCWjhHZWllRUpnN3U1bHBES0ktM1dnaTY1VXBlcjJqZw?oc=5",
+          "published": "2026-09-04T09:10:29+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -165,8 +185,8 @@
           "weight": 0.8
         },
         {
-          "title": "Goldman'ın Türkiye enflasyon analizinde 'enerji' vurgusu - bloomberght.com",
-          "source": "bloomberght.com",
+          "title": "Goldman'ın Türkiye enflasyon analizinde 'enerji' vurgusu - Bloomberght",
+          "source": "Bloomberght",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcF9OLU1yb3pFdmEwZEVQY1FQQm9wTFJPa19QZHBIRVBIVUwwT3RGSmdYNTBwakhJRm00ckVCSUpxZFFIN2gyY2lEbndWWnlzSEJxNW5pZ01xZWwzVmZzLXJfTGJsZlYwblRyQWZZdFhDS1Z0S1RjTUtnS1hrcXFtbWdSdDdlVW4xeGxpWGJqeVVpWHEz?oc=5",
           "published": "2026-09-04T07:49:18+00:00",
           "terms": [
@@ -219,26 +239,6 @@
           "source": "CNBC-e",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLUxMR0NhR0FNWmxCOGc3ZUV4UTl3RTVLRnFVdVRYZFRvTVExbVNqUVRRZUtnR3VJaWZJRlUwWHFfb3d2UUFEUW1LLS1QZmVyeUtTVlN0bHVNUnBUYzlGeV9BREExVEdLOTdHbFNLMThUbzgwMmRxLXpfNGRwbWxRamRLTzA5dnZJVThVZ0pFLXBNRmNhVWtfQy1ldmUxMEVhallPU3JITlJUTjI2?oc=5",
           "published": "2026-09-04T06:15:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "BBVA'dan enflasyon sonrası kritik tahmin: Faiz indirimi beklentisi öne çekildi - Dünya Gazetesi",
-          "source": "Dünya Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMkdrbm5LYUhiUGFxM3BWVF96eWF2ZzFkeGkyakc4R3pJUXFaSlUydGU1ZXJvTUY1dVhZZ0hYRFJkR3p5UlA1V0k5Rk1WWTlfaFFDOHk0X1pzeW9BOExUX1lzS3Z4UWlJblZIN2NpZ0Y1em5idE5fV3JQNS1XUzVMRE5kY0tFN2FHTGhlbGRSUGI2UEtrRXFfQmFFTWhhQzE2RmxsZ280bVgxTklsV0ZGOVA3ZV9oTm1aMmhLbw?oc=5",
-          "published": "2026-09-04T06:01:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "İTO: \"Türkiye, enflasyonu düşürme ile sanayisini baskılama arasında ikilem yaşamamalı\" - Habertürk",
-          "source": "Habertürk",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS2w4VlQzY1JKcVBtUFRndWxRWEJQNlhReDlib1dka09CQ1pZam5tOEN5TGZNMk52cUlmN0tSeTdyVm9OeUxrTUI2aHAtVmc3LVJtejIxSnFfc05XQlZjVDBFZlNVSVlOUEJubTZhMk0wVTNBcy1DSVl4eXpHTHp6R1AtSWxxVHNVM05uR1pkTTJ0UVpENVoyN2Z4VS1zUjdLV1lCcGdjT2ZfRVVPbjhlNERLNF9uWjhKcVpvU0xEQUljdw?oc=5",
-          "published": "2026-09-04T05:22:52+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -401,6 +401,11 @@
     {
       "generated": "2026-09-04T16:43:04.372679+00:00",
       "score": 0.4,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-04T21:13:23.123438+00:00",
+      "score": 0.5,
       "status": "BASELINE"
     }
   ],
