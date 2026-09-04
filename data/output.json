@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-04T05:28:19.287071+00:00",
+    "generated": "2026-09-04T11:57:52.566310+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0,
-    "raw_score": 0.0,
+    "score": 0.4,
+    "raw_score": 0.4,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.4/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,19 +113,19 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0,
+      "score": 4.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 102,
-      "matched": 6,
-      "weighted_density": 0.065,
+      "coverage": 164,
+      "matched": 30,
+      "weighted_density": 0.157,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Ekonomi ne zaman düzelecek? - İşsizlik, banka borçları, icra iflaslar, sanayinin durumu - YENİ ASYA",
-          "source": "YENİ ASYA",
+          "title": "Ekonomi ne zaman düzelecek? - İşsizlik, banka borçları, icra iflaslar, sanayinin durumu - Yeni Asya",
+          "source": "Yeni Asya",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWDJsbHQ3cWNUUlRFV0w5TFBFZ3ZOVm9kV05aQ0Q0RzR2SnFacUVZeUszSzZEdmJ4UWp4Qi0yTHhpQlZuTU9pVUJVaHExZWRqdzItMUlvWmZVQUw2TU1UVmhGUjk4Z0Z3TW1Fa1lYNnZYeFl3RjY0N0JxWXRnaHNTTmtCSzcySmliV05WdU9oeVd2X0c0eVVSOXpqdno5NUg0T29NWkV6ZTZ4dkV0S1FvYVRkaGdNa1NGNndBc3ltMXNyZw?oc=5",
           "published": "2026-09-01T17:56:00+00:00",
           "terms": [
@@ -135,50 +135,111 @@
           "weight": 2.6
         },
         {
+          "title": "BBVA Research Türkiye Enflasyon ve Faiz Tahminini Güncelledi: Faiz İndirimi Ne Zaman? - Para Analiz",
+          "source": "Para Analiz",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRjVIb3ExTVZBSmgzbm43ekVuY0Vwa0d1S0NkLWYzYWtLZDY3a2ZKeloyVERaQVFDNC1HYW0wTmN6OWlxV0RmbG41aVBPSUtZcXhGSmxMUTdDdlpUTDYtLTBaT3VxSGxESllfT1hFNVF1QzRma2J3Z1FEeFQ1bUttZDZLMnBzakhSVUdDNkVmTkRCU1FfNTdKTEs4N1FmQk5sVHhJV3R4UGMyU1ZZZkZwNVQ5eDIzY3M?oc=5",
+          "published": "2026-09-04T07:02:59+00:00",
+          "terms": [
+            "zam",
+            "enflasyon"
+          ],
+          "weight": 1.4
+        },
+        {
+          "title": "Kurumlardan faiz ve enflasyon değerlendirmesi - borsagundem.com.tr",
+          "source": "borsagundem.com.tr",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMFRIR0o3UVp2YmRJQXhVZFJERWh5NGhUM0Jjd1hNRnNPbGY4OWdKYXVUaWZYV2t0NUwzc1pFUmRLTDdkeWhkVlNlcU9scEN0LWJzcEJQUFMwS3NnOEhhNmEwa2NLYWdkaEgwMEJIXzVoZkpmdWd2R1BuV3hGUHJRZDFR?oc=5",
+          "published": "2026-09-04T09:24:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Goldman'ın Türkiye enflasyon analizinde 'enerji' vurgusu - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcF9OLU1yb3pFdmEwZEVQY1FQQm9wTFJPa19QZHBIRVBIVUwwT3RGSmdYNTBwakhJRm00ckVCSUpxZFFIN2gyY2lEbndWWnlzSEJxNW5pZ01xZWwzVmZzLXJfTGJsZlYwblRyQWZZdFhDS1Z0S1RjTUtnS1hrcXFtbWdSdDdlVW4xeGxpWGJqeVVpWHEz?oc=5",
+          "published": "2026-09-04T07:49:18+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Fed’de enflasyon baskıları hafifliyor vurgusu: Eylül faiz beklentisi düştü - Yorumla.Net",
+          "source": "Yorumla.Net",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVWxwQ1pMcEtOWl9ZcjVING53dnU0WnN3WGNwMGRRaFhZYk9HcTNVbEtHWFpNTXBPVHhhdmJuV1JIX0NJY1AtaXBaSzRlTFlnWHhfc3N3d3VsaTZHb0VKWGNtdmRtRElpbkNtZWhsUUlFUlhiRFBQSDc1RGhkSHBxZUZxU0xVYzBJZjJYN3l4aUs2S3dqVkRIN0Q3M0R0d0RNTnVwN3NpQzNiejBiUl8xaHVqUGRSMXNQZmc?oc=5",
+          "published": "2026-09-04T07:03:21+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "BBVA: Enflasyon Beklentisi Aynı, Faiz İndirimi Ekim'de - Finans Hattı",
+          "source": "Finans Hattı",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPanVFU0lKY0UxRW9RVDAxYU0tV3F3VlFKRHpKNVFMQzNhV05JaTJFQTNvekxDVHpBQVdOTkgwRTRnN2JCN0dmS05panlXOHhkQ01oNXE2S0djTl9ZZVNSdEFkeGNxNUQ4ZTlVb3Z0UGE4M0lQT1ctOWFLTDl5cEpncWsxeFVhdEI3THRlNkdMVDVrelNCbFhnQTFmVk8?oc=5",
+          "published": "2026-09-04T06:52:57+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "BBVA’dan Türkiye ekonomisi için faiz ve enflasyon tahmini - paratic.com",
+          "source": "paratic.com",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaVF4MjBDcGl0YXdJXzhDNmdqYVh4UEZyYVpuQzZ6V29qN3RZMjNzNmtvOVlYaFFjeUViR3JfUjZUNDhLOGFaMmRaZWN0YVl3LXlYenQzS0JGa3phWEd1aU1qZERqOEdtV2ZraUFwYTR4S3c3cWp1LUJ5VDYwQnBQeHZvMA?oc=5",
+          "published": "2026-09-04T06:37:06+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Enflasyon beklentilerinde kırılgan denge - Yeni Ankara",
+          "source": "Yeni Ankara",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPajQ3TG40ZUtNU2pBRDJheHdncHVlcFU5MlhHN2ZSbktJR3VTRmlWcFVvcEZCaU1MdjktMnhxdGxZYUNabFBMbUFVUUxUbTB6cGpndnFoQ2xOWVhSdjdXLTNrMy1EeUtqRFM5MFJLVXEtRTgxM0NVOGRHWTFQSFVHLUczby02V0RpbUdGRERNUDh1TzdPcVVfZHBMLWRyQ19WaGfSAacBQVVfeXFMUGV3M1RjRWpzOTY2d25ic2o2M3FsamRlMGg0U1VNRGZhRWxSWkpjT2szdXNoRXpSTGpicjJzOXp5bll2emw3dWdOUDN3OENYc0ZkZFQ3bTdqMndXZWp1ZDd6bTFNNHFFUXFjSG8tY0IwbGR0SjNzcmNWS3JLYm5PYlJxc19IQVF6MnlTSWE0U1V5cEpTMGltUEZ1RVFVMVlrYkxvYnRxNEk?oc=5",
+          "published": "2026-09-04T06:17:10+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "BBVA'dan enflasyon verisi sonrası güncelleme: Faiz indirimi bir adım öne! - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLUxMR0NhR0FNWmxCOGc3ZUV4UTl3RTVLRnFVdVRYZFRvTVExbVNqUVRRZUtnR3VJaWZJRlUwWHFfb3d2UUFEUW1LLS1QZmVyeUtTVlN0bHVNUnBUYzlGeV9BREExVEdLOTdHbFNLMThUbzgwMmRxLXpfNGRwbWxRamRLTzA5dnZJVThVZ0pFLXBNRmNhVWtfQy1ldmUxMEVhallPU3JITlJUTjI2?oc=5",
+          "published": "2026-09-04T06:15:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "BBVA'dan enflasyon sonrası kritik tahmin: Faiz indirimi beklentisi öne çekildi - Dünya Gazetesi",
+          "source": "Dünya Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMkdrbm5LYUhiUGFxM3BWVF96eWF2ZzFkeGkyakc4R3pJUXFaSlUydGU1ZXJvTUY1dVhZZ0hYRFJkR3p5UlA1V0k5Rk1WWTlfaFFDOHk0X1pzeW9BOExUX1lzS3Z4UWlJblZIN2NpZ0Y1em5idE5fV3JQNS1XUzVMRE5kY0tFN2FHTGhlbGRSUGI2UEtrRXFfQmFFTWhhQzE2RmxsZ280bVgxTklsV0ZGOVA3ZV9oTm1aMmhLbw?oc=5",
+          "published": "2026-09-04T06:01:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "İTO: \"Türkiye, enflasyonu düşürme ile sanayisini baskılama arasında ikilem yaşamamalı\" - Habertürk",
+          "source": "Habertürk",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS2w4VlQzY1JKcVBtUFRndWxRWEJQNlhReDlib1dka09CQ1pZam5tOEN5TGZNMk52cUlmN0tSeTdyVm9OeUxrTUI2aHAtVmc3LVJtejIxSnFfc05XQlZjVDBFZlNVSVlOUEJubTZhMk0wVTNBcy1DSVl4eXpHTHp6R1AtSWxxVHNVM05uR1pkTTJ0UVpENVoyN2Z4VS1zUjdLV1lCcGdjT2ZfRVVPbjhlNERLNF9uWjhKcVpvU0xEQUljdw?oc=5",
+          "published": "2026-09-04T05:22:52+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Gözler yeni OVP'de: Enflasyon ve cari açık hedefleri şaştı - DW.com",
           "source": "DW.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVUh5c0VXWnM1cDBHVVFPQUVoSHMtQVkzZ2ZtOWx4bUxsNmsxNDhaV1BiaF9ySU9QZzFEWHlMU1R6enJzdmhfQktqVUpkcDVRcW9HSG1LWkN0dXZOWDVjSTY3d19ENlFqUkgtQkdCOTY1U0h3bEdRNG84SU90d1o2Yk1DNDU5a0RuUXZUVEk5b3RfZWhYQi1kOVFiajNrVEZqME1ZQjBvSWd2TlZlaFRwenVZelJrWXFNMndn0gG7AUFVX3lxTE51a1BPdUs2Rm5Qc1VxX3ljazRRM2RWTWR6QWt6SDdoZng1TjdVUHFqWEh1b0hKRGU1SkExWHZnSzJkWlc0OFh5eHFrRU9YMFhrZDZnd0dBSHZ3dEJPN210UmJneTNONk43THl4TTlTU2tRSTdIMENGdkVvY3RSMm5TdzlUZDFCUWl0VVNPeUcwNEFwa0h0THBwdTR1WjhVb3haaW1IVFdKaXlXSEJLLTFsQ0dGTFUzRHFIT00?oc=5",
-          "published": "2026-09-04T04:24:51+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Yıllık enflasyon yüzde 31.51 - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hSnBodkxzLUVrLXNjeUE1U3pFcU95RFh3eTJnNWItSU94bXc5c3ZNeFJ0ajhWTkhWVDd1TE9qLXM0MEE3V3AyZDF5MEtGay1FcEY2cFh2dnBxZGt4Q1QyZVZQcjk4b1lJV2V3NnRQT3NwNk1zeUxEX9IBgwFBVV95cUxPVDAwcFVJN0FpalhRRzB1ZWxTMTEyZ1Y0NEdfektOSnEwTGx6UUd0Q3ZFSFNWY3NNY3hwRHR6SmFSTTZ6VFBVQzhlbGxtWXR5OUlQdk9HUktVbldOZzVUTnREWUllaE9Sc05tMTR0LVl3SDFfM1pKTWlwRjU1d3lCMXJ0dw?oc=5",
-          "published": "2026-09-04T01:00:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "\"Türkiye, enflasyonu düşürme ile sanayisini baskılama arasında ikilem yaşamamalı\" - Bloomberght",
-          "source": "Bloomberght",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb01hOVllZlVxRDFzNzl2U2ZERFFrbTNkdjhWOGEzeUNudkdvNWVXNHJMdEVoWHd5ODRORnVERTllSUdVN3JVdGY0ejJfSDlNQVdwN0dTcHdPOFBGMFI4elE3d2JaRFFkOGNJaWZvbU5rM0RBMk9jaTdBOTl3RV9tMThaTUdrZmtVOUlBZHQ3ZkN5QlZRdGFSSTk3UDBaNXkzS2V5aEJDcTVoRldhMVVUN0t4UEw?oc=5",
-          "published": "2026-09-03T08:01:27+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Türkiye’de Enflasyon ağustosta yüzde 1,84 arttı - Rudaw",
-          "source": "Rudaw",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yeE85bHNpa0JhZlQxR0t3TXM4cXhIWTNVcVNjM2l4TGNvUC1TQmhnVGNFOVgxSkp0TzlkMERGcnlrTVRSVThnZ1puWTRIQU5RazRvbzZKeXZGcHpKTEVRaXZ3bEF4VDQ?oc=5",
-          "published": "2026-09-03T07:21:31+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "TÜİK ağustos ayı enflasyon oranını açıkladı - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTS1xc2Y0MmpBVjlxdk1mYS1pUk1SbHgydFRLT1YxdjNRZHBJRmxMZTRGQTVWOU5XdEw3WUhleVRrOXBWX0wwVWY0WlJ0VUl6RGlHTGU4RVJDLU54cTdJSHJZTk5QODdnbzdJeTJULUM0eDBjdUc0aW5ScW5UTkJDdUFWQjNfRVo2cEJGbDd30gGYAUFVX3lxTE9ObEdrR3B6aUMwUm5NY1RXR1ZFYk9pYzFkTmo2bXpTYzg0cnpyV3lhTHpWSnNpNUxXUWpjZ1hsRl96X3FzMHhOV0NKUnJTV1hyRDh5NTJXNlFmS2tRdk4tUnlpYndQcUsyUDBFUmg1R3F3YTA3eURyVUxKM3ZIbnlBWUVuRmVadThsMXdTa0lpQmFNZmt1TkhQ?oc=5",
-          "published": "2026-09-03T07:01:44+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdWtQT3VLNkZuUHNVcV95Y2s0UTNkVk1kekFrekg3aGZ4NU43VVBxalhIdW9ISkRlNUpBMVh2Z0syZFpXNDhYeXhxa0VPWDBYa2Q2Z3dHQUh2d3RCTzdtdFJiZ3kzTjZON0x5eE05U1NrUUk3SDBDRnZFb2N0UjJuU3c5VGQxQlFpdFVTT3lHMDRBcGtIdExwcHU0dVo4VW94WmltSFRXSml5V0hCSy0xbENHRkxVM0RxSE9N0gG7AUFVX3lxTE51a1BPdUs2Rm5Qc1VxX3ljazRRM2RWTWR6QWt6SDdoZng1TjdVUHFqWEh1b0hKRGU1SkExWHZnSzJkWlc0OFh5eHFrRU9YMFhrZDZnd0dBSHZ3dEJPN210UmJneTNONk43THl4TTlTU2tRSTdIMENGdkVvY3RSMm5TdzlUZDFCUWl0VVNPeUcwNEFwa0h0THBwdTR1WjhVb3haaW1IVFdKaXlXSEJLLTFsQ0dGTFUzRHFIT00?oc=5",
+          "published": "2026-09-04T04:24:53+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -331,6 +392,11 @@
     {
       "generated": "2026-09-04T05:28:19.287071+00:00",
       "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-04T11:57:52.566310+00:00",
+      "score": 0.4,
       "status": "BASELINE"
     }
   ],
