@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-05T05:14:26.536496+00:00",
+    "generated": "2026-09-05T11:07:03.850703+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.5,
-    "raw_score": 0.5,
+    "score": 0.4,
+    "raw_score": 0.4,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.5/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.4/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 4.6,
+      "score": 4.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 161,
-      "matched": 32,
-      "weighted_density": 0.161,
+      "matched": 31,
+      "weighted_density": 0.158,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -145,6 +145,26 @@
           "weight": 1.4
         },
         {
+          "title": "Küresel piyasalarda gözler ABD enflasyonu ve ECB kararında - Türkiye İş Dünyası Haberleri",
+          "source": "Türkiye İş Dünyası Haberleri",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwbS1taUZZc25uOFZ1X0diUVZiZHhxSDJqeFpMLXFXV3Myd1Y5VEQ2SDBmejVpMVQwYXF4X3daTUtPN3Vnb0VwZ0pzTWxXeW92bW9Fc0I2dGREcjEtTm9QVE9tOUFhS2ZhcGc?oc=5",
+          "published": "2026-09-05T09:59:23+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Eylül ekonomisinde kritik viraj: Enflasyon, OVP ve faiz üçgeni - ekonomidunya.com",
+          "source": "ekonomidunya.com",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOek9yRXBKX25mdTNLN25qckNrQzY2R244SUJBRVJ3a3VjYmpUTy1PZHNubGhLOVY3ekZuY2UtMktFWks5d01ZY3YxaklXdmNUMVVoMjZDNFlIZGREc0lnaUtnSnZpcVZzZDlUVDJ5RHhEdXFMaDBVdEFMUlhjX2szZjQ5R3FwN0VEUDFZY05MbHV6cWRhOW9oZU5BRXg?oc=5",
+          "published": "2026-09-05T08:33:41+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Goldman Sachs enflasyon tahminini değiştirmedi! Gözler TCMB’nin faiz kararında - Haber 7",
           "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNEhGbkFjd2RxQlNjVE94V1VKaXlaR0d2V2pqRFBHcERaTlcwM1FEcUI1cl9KeXFfaS1kcUpQeEF1MTA5WmhGZFdfOUpQSlE1a3BzMUFneVVKOC1ab2hIeFhENHVLcnQxN0pBU0VVMVJhdUFSYTYteVlFR0pLVWNHc3lWUkltZk8xMjZoSWFGd3BlbkdDUVlSSk9jQk0zUWp3RjhaaFgzVENBbG5pMS1wdVVZaWVtaUE0c2pZa2pBNk9HZlHSAcYBQVVfeXFMUFJ2NjBEdi0wR3FGZVd3VG51b1RIMHN6al8xVTNwb19yQ04ya3hqN05BMlQ3NUZ6SUVyVnpuTnpvbmI3Z1hCVHVLbjdvSWRXOW5SdkxXbFNudnpFWVRvckVOcUU0ZU54Zld4TEwzMHBBRzlsX01zSl80eXUxX0VXMG1UXzBDSEIxa0FOZDlSVUNmdWtqZTdQSzdySG5WY0l1dkI5aXJQa0hoTjJGckdYMktOSDM2UWJuMGFFN1JONEFMdWJVV2lB?oc=5",
@@ -165,8 +185,8 @@
           "weight": 0.8
         },
         {
-          "title": "Türkiye enflasyonda dünyada 5. sırada: Faiz neden yüksek? - urfaninnabzi.com",
-          "source": "urfaninnabzi.com",
+          "title": "Türkiye enflasyonda dünyada 5. sırada: Faiz neden yüksek? - Urfanın Nabzı",
+          "source": "Urfanın Nabzı",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMlFRa1NIaHdCSmxXdmtQdFk5bktrSVpJY19rUHpJZURDUkVCZzhhZ2RDTkV2Nmk0V0R4Wm04SmdaNjJvX0JxSC04STJobzUzV2NtWTFyb3FEUzNULXZSeVIyRHFWYlpLT0Rfano0VnBNRHBJSG5JUkFGUk52SzY5U1ptUHBtOUVxcklSaUYzUEZ5Tmts0gGiAUFVX3lxTE94Z1RpVHJkbjFfTDlnek1IVGlfR1g3M28xdUF1c2Q5U0NOaldRT1lidFRqaE5oU2F3NXhtV1kxSnpmWXNYaWNoN29BTkg5SjIzdExqaXJLRXA5WEZ6ek5TOXYxX3NxeDRHNWpwX2ZsNGFoSUlMODE2cjdXMzV3eWdncWNCWjhHZWllRUpnN3U1bHBES0ktM1dnaTY1VXBlcjJqZw?oc=5",
           "published": "2026-09-04T09:10:29+00:00",
           "terms": [
@@ -195,16 +215,6 @@
           "weight": 0.8
         },
         {
-          "title": "Fed’de enflasyon baskıları hafifliyor vurgusu: Eylül faiz beklentisi düştü - Yorumla.Net",
-          "source": "Yorumla.Net",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVWxwQ1pMcEtOWl9ZcjVING53dnU0WnN3WGNwMGRRaFhZYk9HcTNVbEtHWFpNTXBPVHhhdmJuV1JIX0NJY1AtaXBaSzRlTFlnWHhfc3N3d3VsaTZHb0VKWGNtdmRtRElpbkNtZWhsUUlFUlhiRFBQSDc1RGhkSHBxZUZxU0xVYzBJZjJYN3l4aUs2S3dqVkRIN0Q3M0R0d0RNTnVwN3NpQzNiejBiUl8xaHVqUGRSMXNQZmc?oc=5",
-          "published": "2026-09-04T07:03:21+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "BBVA’dan Türkiye ekonomisi için faiz ve enflasyon tahmini - Paratic Haber",
           "source": "Paratic Haber",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaVF4MjBDcGl0YXdJXzhDNmdqYVh4UEZyYVpuQzZ6V29qN3RZMjNzNmtvOVlYaFFjeUViR3JfUjZUNDhLOGFaMmRaZWN0YVl3LXlYenQzS0JGa3phWEd1aU1qZERqOEdtV2ZraUFwYTR4S3c3cWp1LUJ5VDYwQnBQeHZvMA?oc=5",
@@ -225,20 +235,10 @@
           "weight": 0.8
         },
         {
-          "title": "BBVA'dan enflasyon verisi sonrası güncelleme: Faiz indirimi bir adım öne! - cnbce.com",
-          "source": "cnbce.com",
+          "title": "BBVA'dan enflasyon verisi sonrası güncelleme: Faiz indirimi bir adım öne! - CNBC-e",
+          "source": "CNBC-e",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLUxMR0NhR0FNWmxCOGc3ZUV4UTl3RTVLRnFVdVRYZFRvTVExbVNqUVRRZUtnR3VJaWZJRlUwWHFfb3d2UUFEUW1LLS1QZmVyeUtTVlN0bHVNUnBUYzlGeV9BREExVEdLOTdHbFNLMThUbzgwMmRxLXpfNGRwbWxRamRLTzA5dnZJVThVZ0pFLXBNRmNhVWtfQy1ldmUxMEVhallPU3JITlJUTjI2?oc=5",
           "published": "2026-09-04T06:15:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "BBVA'dan enflasyon sonrası kritik tahmin: Faiz indirimi beklentisi öne çekildi - Dünya Gazetesi",
-          "source": "Dünya Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMkdrbm5LYUhiUGFxM3BWVF96eWF2ZzFkeGkyakc4R3pJUXFaSlUydGU1ZXJvTUY1dVhZZ0hYRFJkR3p5UlA1V0k5Rk1WWTlfaFFDOHk0X1pzeW9BOExUX1lzS3Z4UWlJblZIN2NpZ0Y1em5idE5fV3JQNS1XUzVMRE5kY0tFN2FHTGhlbGRSUGI2UEtrRXFfQmFFTWhhQzE2RmxsZ280bVgxTklsV0ZGOVA3ZV9oTm1aMmhLbw?oc=5",
-          "published": "2026-09-04T06:01:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -411,6 +411,11 @@
     {
       "generated": "2026-09-05T05:14:26.536496+00:00",
       "score": 0.5,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-05T11:07:03.850703+00:00",
+      "score": 0.4,
       "status": "BASELINE"
     }
   ],
