@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-04T21:13:23.123438+00:00",
+    "generated": "2026-09-05T05:14:26.536496+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
+      "coverage": 126,
       "latest_date": "2026-09-04",
       "latest_value": 48.2326,
       "change_5d_pct": 0.33,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 119,
+      "coverage": 118,
       "latest_date": "2026-09-01",
       "latest_value": 4627.1,
       "change_5d_pct": 3.99,
@@ -72,7 +72,7 @@
       "weight": 0.2,
       "available": true,
       "retained": false,
-      "coverage": 59,
+      "coverage": 58,
       "latest_date": "2026-07-01",
       "latest_value": 63785.05,
       "change_1m_pct": 19.97,
@@ -95,7 +95,7 @@
       "weight": 0.15,
       "available": true,
       "retained": false,
-      "coverage": 58,
+      "coverage": 57,
       "latest_date": "2026-06-01",
       "latest_value": 87.9,
       "change_1m_pct": 2.45,
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 4.8,
+      "score": 4.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 161,
       "matched": 32,
-      "weighted_density": 0.162,
+      "weighted_density": 0.161,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -165,8 +165,8 @@
           "weight": 0.8
         },
         {
-          "title": "Türkiye enflasyonda dünyada 5. sırada: Faiz neden yüksek? - Urfanın Nabzı",
-          "source": "Urfanın Nabzı",
+          "title": "Türkiye enflasyonda dünyada 5. sırada: Faiz neden yüksek? - urfaninnabzi.com",
+          "source": "urfaninnabzi.com",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMlFRa1NIaHdCSmxXdmtQdFk5bktrSVpJY19rUHpJZURDUkVCZzhhZ2RDTkV2Nmk0V0R4Wm04SmdaNjJvX0JxSC04STJobzUzV2NtWTFyb3FEUzNULXZSeVIyRHFWYlpLT0Rfano0VnBNRHBJSG5JUkFGUk52SzY5U1ptUHBtOUVxcklSaUYzUEZ5Tmts0gGiAUFVX3lxTE94Z1RpVHJkbjFfTDlnek1IVGlfR1g3M28xdUF1c2Q5U0NOaldRT1lidFRqaE5oU2F3NXhtV1kxSnpmWXNYaWNoN29BTkg5SjIzdExqaXJLRXA5WEZ6ek5TOXYxX3NxeDRHNWpwX2ZsNGFoSUlMODE2cjdXMzV3eWdncWNCWjhHZWllRUpnN3U1bHBES0ktM1dnaTY1VXBlcjJqZw?oc=5",
           "published": "2026-09-04T09:10:29+00:00",
           "terms": [
@@ -205,16 +205,6 @@
           "weight": 0.8
         },
         {
-          "title": "BBVA: Enflasyon Beklentisi Aynı, Faiz İndirimi Ekim'de - Finans Hattı",
-          "source": "Finans Hattı",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPanVFU0lKY0UxRW9RVDAxYU0tV3F3VlFKRHpKNVFMQzNhV05JaTJFQTNvekxDVHpBQVdOTkgwRTRnN2JCN0dmS05panlXOHhkQ01oNXE2S0djTl9ZZVNSdEFkeGNxNUQ4ZTlVb3Z0UGE4M0lQT1ctOWFLTDl5cEpncWsxeFVhdEI3THRlNkdMVDVrelNCbFhnQTFmVk8?oc=5",
-          "published": "2026-09-04T06:52:57+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "BBVA’dan Türkiye ekonomisi için faiz ve enflasyon tahmini - Paratic Haber",
           "source": "Paratic Haber",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaVF4MjBDcGl0YXdJXzhDNmdqYVh4UEZyYVpuQzZ6V29qN3RZMjNzNmtvOVlYaFFjeUViR3JfUjZUNDhLOGFaMmRaZWN0YVl3LXlYenQzS0JGa3phWEd1aU1qZERqOEdtV2ZraUFwYTR4S3c3cWp1LUJ5VDYwQnBQeHZvMA?oc=5",
@@ -235,10 +225,20 @@
           "weight": 0.8
         },
         {
-          "title": "BBVA'dan enflasyon verisi sonrası güncelleme: Faiz indirimi bir adım öne! - CNBC-e",
-          "source": "CNBC-e",
+          "title": "BBVA'dan enflasyon verisi sonrası güncelleme: Faiz indirimi bir adım öne! - cnbce.com",
+          "source": "cnbce.com",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLUxMR0NhR0FNWmxCOGc3ZUV4UTl3RTVLRnFVdVRYZFRvTVExbVNqUVRRZUtnR3VJaWZJRlUwWHFfb3d2UUFEUW1LLS1QZmVyeUtTVlN0bHVNUnBUYzlGeV9BREExVEdLOTdHbFNLMThUbzgwMmRxLXpfNGRwbWxRamRLTzA5dnZJVThVZ0pFLXBNRmNhVWtfQy1ldmUxMEVhallPU3JITlJUTjI2?oc=5",
           "published": "2026-09-04T06:15:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "BBVA'dan enflasyon sonrası kritik tahmin: Faiz indirimi beklentisi öne çekildi - Dünya Gazetesi",
+          "source": "Dünya Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMkdrbm5LYUhiUGFxM3BWVF96eWF2ZzFkeGkyakc4R3pJUXFaSlUydGU1ZXJvTUY1dVhZZ0hYRFJkR3p5UlA1V0k5Rk1WWTlfaFFDOHk0X1pzeW9BOExUX1lzS3Z4UWlJblZIN2NpZ0Y1em5idE5fV3JQNS1XUzVMRE5kY0tFN2FHTGhlbGRSUGI2UEtrRXFfQmFFTWhhQzE2RmxsZ280bVgxTklsV0ZGOVA3ZV9oTm1aMmhLbw?oc=5",
+          "published": "2026-09-04T06:01:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -405,6 +405,11 @@
     },
     {
       "generated": "2026-09-04T21:13:23.123438+00:00",
+      "score": 0.5,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-05T05:14:26.536496+00:00",
       "score": 0.5,
       "status": "BASELINE"
     }
