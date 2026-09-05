@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-05T15:45:59.633430+00:00",
+    "generated": "2026-09-05T20:55:17.002495+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.3,
-    "raw_score": 0.3,
+    "score": 0.5,
+    "raw_score": 0.5,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.3/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,19 +113,29 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 3.2,
+      "score": 5.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 161,
-      "matched": 29,
-      "weighted_density": 0.148,
+      "coverage": 163,
+      "matched": 32,
+      "weighted_density": 0.167,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "TÜİK işsizlik rakamlarını açıkladı! - Ekotrent",
-          "source": "Ekotrent",
+          "title": "İYİ Partili Türkeş: “Ekonomik krizin sorumlusu yanlış yönetim” - Anka Haber",
+          "source": "Anka Haber",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUW82M0t4NE9BZTZXYUVDd3F6cHJpV0xDQ3VqcU9USGI5T2EtZUJmZ3MtLWNwVzVFNUMzRXlyV2dHbV9sQXNLLVdlQVRwUk5hanpXSkxOSHNDc0V1R2h3UDZseHVCenFnX01CRE81dVdsczVhQ2hiRUpsby1vdTZvYktBcVp4RlZkY3BWOE5OdW83YlkxVVdvSkNQeWo?oc=5",
+          "published": "2026-09-05T07:04:18+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "TÜİK işsizlik rakamlarını açıkladı! - Haber 7",
+          "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWFpSd1hlQnEwOHhZRkxOUjY0TUFMWmg5b3lnT1BlVkRlQlAwZ0xFUTNEZzZtc3VDcHo2Tld2alJEOGZvUUZObU5jRzZvMzR5UHIzdFpERWgzdUVxMU5NbFNEek9pcDk3VldCa0NGSjZ2UDY1WEJ1Q2xnZmRrZnpsZU5vLWRCX1piVkZZ0gGOAUFVX3lxTE1xeE9rYmh2T3lTdjUzQk5fbEI0cDN6VzVvOTA5Nk1jOGRCc3F5U2ZLN3NfbmcxQmU1X2NTeFpwS1p3U1NYaUtYcHRjY3NBdXM3M3pRVVd1ZjNFMk5kWHZTdDMzdlAzVHBnc0lJVTFyR1NIZ1gyRFRvblRPZ2JmcmNjYWxWaFVqNjlJa3g1bEE?oc=5",
           "published": "2026-08-31T07:59:00+00:00",
           "terms": [
@@ -165,8 +175,8 @@
           "weight": 0.8
         },
         {
-          "title": "Goldman Sachs enflasyon tahminini değiştirmedi! Gözler TCMB’nin faiz kararında - Ekotrent",
-          "source": "Ekotrent",
+          "title": "Goldman Sachs enflasyon tahminini değiştirmedi! Gözler TCMB’nin faiz kararında - Haber 7",
+          "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNEhGbkFjd2RxQlNjVE94V1VKaXlaR0d2V2pqRFBHcERaTlcwM1FEcUI1cl9KeXFfaS1kcUpQeEF1MTA5WmhGZFdfOUpQSlE1a3BzMUFneVVKOC1ab2hIeFhENHVLcnQxN0pBU0VVMVJhdUFSYTYteVlFR0pLVWNHc3lWUkltZk8xMjZoSWFGd3BlbkdDUVlSSk9jQk0zUWp3RjhaaFgzVENBbG5pMS1wdVVZaWVtaUE0c2pZa2pBNk9HZlHSAcYBQVVfeXFMUFJ2NjBEdi0wR3FGZVd3VG51b1RIMHN6al8xVTNwb19yQ04ya3hqN05BMlQ3NUZ6SUVyVnpuTnpvbmI3Z1hCVHVLbjdvSWRXOW5SdkxXbFNudnpFWVRvckVOcUU0ZU54Zld4TEwzMHBBRzlsX01zSl80eXUxX0VXMG1UXzBDSEIxa0FOZDlSVUNmdWtqZTdQSzdySG5WY0l1dkI5aXJQa0hoTjJGckdYMktOSDM2UWJuMGFFN1JONEFMdWJVV2lB?oc=5",
           "published": "2026-09-04T14:00:00+00:00",
           "terms": [
@@ -187,8 +197,18 @@
         {
           "title": "Türkiye enflasyonda dünyada 5. sırada: Faiz neden yüksek? - Urfanın Nabzı",
           "source": "Urfanın Nabzı",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMlFRa1NIaHdCSmxXdmtQdFk5bktrSVpJY19rUHpJZURDUkVCZzhhZ2RDTkV2Nmk0V0R4Wm04SmdaNjJvX0JxSC04STJobzUzV2NtWTFyb3FEUzNULXZSeVIyRHFWYlpLT0Rfano0VnBNRHBJSG5JUkFGUk52SzY5U1ptUHBtOUVxcklSaUYzUEZ5Tmts0gGiAUFVX3lxTE94Z1RpVHJkbjFfTDlnek1IVGlfR1g3M28xdUF1c2Q5U0NOaldRT1lidFRqaE5oU2F3NXhtV1kxSnpmWXNYaWNoN29BTkg5SjIzdExqaXJLRXA5WEZ6ek5TOXYxX3NxeDRHNWpwX2ZsNGFoSUlMODE2cjdXMzV3eWdncWNCWjhHZWllRUpnN3U1bHBES0ktM1dnaTY1VXBlcjJqZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeGdUaVRyZG4xX0w5Z3pNSFRpX0dYNzNvMXVBdXNkOVNDTmpXUU9ZYnRUamhOaFNhdzV4bVdZMUp6ZllzWGljaDdvQU5IOUoyM3RMamlyS0VwOVhGenpOUzl2MV9zcXg0RzVqcF9mbDRhaElJTDgxNnI3VzM1d3lnZ3FjQlo4R2VpZUVKZzd1NWxwREtJLTNXZ2k2NVVwZXIyamfSAaIBQVVfeXFMT3hnVGlUcmRuMV9MOWd6TUhUaV9HWDczbzF1QXVzZDlTQ05qV1FPWWJ0VGpoTmhTYXc1eG1XWTFKemZZc1hpY2g3b0FOSDlKMjN0TGppcktFcDlYRnp6TlM5djFfc3F4NEc1anBfZmw0YWhJSUw4MTZyN1czNXd5Z2dxY0JaOEdlaWVFSmc3dTVscERLSS0zV2dpNjVVcGVyMmpn?oc=5",
           "published": "2026-09-04T09:10:29+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Türkiye, enflasyonda Avrupa'da ilk, dünyada beşinci sırada - Kısa Dalga",
+          "source": "Kısa Dalga",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaHo1X3F0bVdXT0xSdTVmTmFVR0J1UXkzQU90NUNDS21EeXFHTG5YdXZkb3FaaXVIOENRMHJxQThPU1g0LXpKWjFfVnBVTDBsTW13QXJocTBjS2JqSFBNT080Nkc2dXVEZjFBb21malJaOXZsMm1tUUtPZWpPZkdxLUNlMmh0M1dSV2Z1OHd6emlqY1JPa0VLSzJzbGpHUHPSAaQBQVVfeXFMUHdyVENjQ1pOMkJ6V3pLUFdRc2d0OUh4MWxVUjBMb3M5akVla3o1aXJqRlBBTHZibUlwRjhXa3ItYzZUZTJMTUJaOE80MXJZWkZsdDJVNl9MSld4b3VfclJ3dlFIeGkxcDRDelp1Ny1MWEUtVG14cGQtcVhWbTNCVmxOTDRRM0hQb3JZaU5yZWV0S2FCY3FFYWh6WTQ4Z1h1NTFDYWk?oc=5",
+          "published": "2026-09-04T09:03:55+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -205,8 +225,8 @@
           "weight": 0.8
         },
         {
-          "title": "BBVA’dan Türkiye ekonomisi için faiz ve enflasyon tahmini - Paratic Haber",
-          "source": "Paratic Haber",
+          "title": "BBVA’dan Türkiye ekonomisi için faiz ve enflasyon tahmini - paratic.com",
+          "source": "paratic.com",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaVF4MjBDcGl0YXdJXzhDNmdqYVh4UEZyYVpuQzZ6V29qN3RZMjNzNmtvOVlYaFFjeUViR3JfUjZUNDhLOGFaMmRaZWN0YVl3LXlYenQzS0JGa3phWEd1aU1qZERqOEdtV2ZraUFwYTR4S3c3cWp1LUJ5VDYwQnBQeHZvMA?oc=5",
           "published": "2026-09-04T06:37:06+00:00",
           "terms": [
@@ -219,26 +239,6 @@
           "source": "Yeni Ankara",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPajQ3TG40ZUtNU2pBRDJheHdncHVlcFU5MlhHN2ZSbktJR3VTRmlWcFVvcEZCaU1MdjktMnhxdGxZYUNabFBMbUFVUUxUbTB6cGpndnFoQ2xOWVhSdjdXLTNrMy1EeUtqRFM5MFJLVXEtRTgxM0NVOGRHWTFQSFVHLUczby02V0RpbUdGRERNUDh1TzdPcVVfZHBMLWRyQ19WaGfSAacBQVVfeXFMUGV3M1RjRWpzOTY2d25ic2o2M3FsamRlMGg0U1VNRGZhRWxSWkpjT2szdXNoRXpSTGpicjJzOXp5bll2emw3dWdOUDN3OENYc0ZkZFQ3bTdqMndXZWp1ZDd6bTFNNHFFUXFjSG8tY0IwbGR0SjNzcmNWS3JLYm5PYlJxc19IQVF6MnlTSWE0U1V5cEpTMGltUEZ1RVFVMVlrYkxvYnRxNEk?oc=5",
           "published": "2026-09-04T06:17:10+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "BBVA'dan enflasyon verisi sonrası güncelleme: Faiz indirimi bir adım öne! - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLUxMR0NhR0FNWmxCOGc3ZUV4UTl3RTVLRnFVdVRYZFRvTVExbVNqUVRRZUtnR3VJaWZJRlUwWHFfb3d2UUFEUW1LLS1QZmVyeUtTVlN0bHVNUnBUYzlGeV9BREExVEdLOTdHbFNLMThUbzgwMmRxLXpfNGRwbWxRamRLTzA5dnZJVThVZ0pFLXBNRmNhVWtfQy1ldmUxMEVhallPU3JITlJUTjI2?oc=5",
-          "published": "2026-09-04T06:15:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "BBVA'dan enflasyon sonrası kritik tahmin: Faiz indirimi beklentisi öne çekildi - Dünya Gazetesi",
-          "source": "Dünya Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMkdrbm5LYUhiUGFxM3BWVF96eWF2ZzFkeGkyakc4R3pJUXFaSlUydGU1ZXJvTUY1dVhZZ0hYRFJkR3p5UlA1V0k5Rk1WWTlfaFFDOHk0X1pzeW9BOExUX1lzS3Z4UWlJblZIN2NpZ0Y1em5idE5fV3JQNS1XUzVMRE5kY0tFN2FHTGhlbGRSUGI2UEtrRXFfQmFFTWhhQzE2RmxsZ280bVgxTklsV0ZGOVA3ZV9oTm1aMmhLbw?oc=5",
-          "published": "2026-09-04T06:01:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -421,6 +421,11 @@
     {
       "generated": "2026-09-05T15:45:59.633430+00:00",
       "score": 0.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-05T20:55:17.002495+00:00",
+      "score": 0.5,
       "status": "BASELINE"
     }
   ],
