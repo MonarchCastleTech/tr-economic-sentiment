@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-05T20:55:17.002495+00:00",
+    "generated": "2026-09-06T05:28:45.720681+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.5,
-    "raw_score": 0.5,
+    "score": 0.7,
+    "raw_score": 0.7,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.5/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.7/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
+      "coverage": 125,
       "latest_date": "2026-09-04",
       "latest_value": 48.2326,
       "change_5d_pct": 0.33,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 118,
+      "coverage": 117,
       "latest_date": "2026-09-01",
       "latest_value": 4627.1,
       "change_5d_pct": 3.99,
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 5.4,
+      "score": 6.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 163,
-      "matched": 32,
-      "weighted_density": 0.167,
+      "matched": 34,
+      "weighted_density": 0.177,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -175,18 +175,18 @@
           "weight": 0.8
         },
         {
-          "title": "Goldman Sachs enflasyon tahminini değiştirmedi! Gözler TCMB’nin faiz kararında - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNEhGbkFjd2RxQlNjVE94V1VKaXlaR0d2V2pqRFBHcERaTlcwM1FEcUI1cl9KeXFfaS1kcUpQeEF1MTA5WmhGZFdfOUpQSlE1a3BzMUFneVVKOC1ab2hIeFhENHVLcnQxN0pBU0VVMVJhdUFSYTYteVlFR0pLVWNHc3lWUkltZk8xMjZoSWFGd3BlbkdDUVlSSk9jQk0zUWp3RjhaaFgzVENBbG5pMS1wdVVZaWVtaUE0c2pZa2pBNk9HZlHSAcYBQVVfeXFMUFJ2NjBEdi0wR3FGZVd3VG51b1RIMHN6al8xVTNwb19yQ04ya3hqN05BMlQ3NUZ6SUVyVnpuTnpvbmI3Z1hCVHVLbjdvSWRXOW5SdkxXbFNudnpFWVRvckVOcUU0ZU54Zld4TEwzMHBBRzlsX01zSl80eXUxX0VXMG1UXzBDSEIxa0FOZDlSVUNmdWtqZTdQSzdySG5WY0l1dkI5aXJQa0hoTjJGckdYMktOSDM2UWJuMGFFN1JONEFMdWJVV2lB?oc=5",
-          "published": "2026-09-04T14:00:00+00:00",
+          "title": "Yıl sonunda faiz ve enflasyon ne olacak? Goldman Sachs'tan dikkat çeken Türkiye raporu - Türkiye Gazetesi",
+          "source": "Türkiye Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR2ZJeVE3SDJ4ZzgybHJIUUwxdUw2N0FvS2ZYdkhENTYxUzdTaUoyVUVvMF9KdG0tY2loRTB6Mlc2bXY3MGtGREdSUlY1UHpyUFBsV1lUdDR1RW9EM3VTT0pNaXhRUU54eDh6d2NFdExDWGpqdmhMdk1zcWduQUtDaGtyUWtBRnNzSGdHcFhIaERxNGZyQjhOcnJ3aHhYbThJcnhkY1QyUXlROXRoVWRUSVdvcHp1WlZuUk9FUnptQThLWmVDdjRQNlpGaDdCQ2lC?oc=5",
+          "published": "2026-09-04T12:58:59+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "MUFG’nin Türkiye senaryosu belli oldu: Enflasyon ve dolar/TL tahmini haberi - Finans Gündem",
-          "source": "Finans Gündem",
+          "title": "MUFG’nin Türkiye senaryosu belli oldu: Enflasyon ve dolar/TL tahmini haberi - finansingundemi.com",
+          "source": "finansingundemi.com",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeS1nZkVFSW45UXVrdHZjUlNHcFpoQzI4UGxTWFFqSWRzYjUxbGhoMHNvcldHMkxSS1o1QlByblpwQjBiOG5aQTl4bFBZdmxkM3BucmJsb1o3b2QzRlRzbzZOemtPbWZRR0JpbS1YVnd0SC1Nc214dDJZQlRObElVWkY3ZktnYXVIRjVhMktMQTBmYXd2bl9SNTJuXy1qbVkyaDc3MUQ1NmxJaWJjd2FvRg?oc=5",
           "published": "2026-09-04T11:37:13+00:00",
           "terms": [
@@ -215,10 +215,20 @@
           "weight": 0.8
         },
         {
-          "title": "Goldman'ın Türkiye enflasyon analizinde 'enerji' vurgusu - Bloomberght",
-          "source": "Bloomberght",
+          "title": "Goldman'ın Türkiye enflasyon analizinde 'enerji' vurgusu - bloomberght.com",
+          "source": "bloomberght.com",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcF9OLU1yb3pFdmEwZEVQY1FQQm9wTFJPa19QZHBIRVBIVUwwT3RGSmdYNTBwakhJRm00ckVCSUpxZFFIN2gyY2lEbndWWnlzSEJxNW5pZ01xZWwzVmZzLXJfTGJsZlYwblRyQWZZdFhDS1Z0S1RjTUtnS1hrcXFtbWdSdDdlVW4xeGxpWGJqeVVpWHEz?oc=5",
           "published": "2026-09-04T07:49:18+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Fed’de enflasyon baskıları hafifliyor vurgusu: Eylül faiz beklentisi düştü - Yorumla.Net",
+          "source": "Yorumla.Net",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVWxwQ1pMcEtOWl9ZcjVING53dnU0WnN3WGNwMGRRaFhZYk9HcTNVbEtHWFpNTXBPVHhhdmJuV1JIX0NJY1AtaXBaSzRlTFlnWHhfc3N3d3VsaTZHb0VKWGNtdmRtRElpbkNtZWhsUUlFUlhiRFBQSDc1RGhkSHBxZUZxU0xVYzBJZjJYN3l4aUs2S3dqVkRIN0Q3M0R0d0RNTnVwN3NpQzNiejBiUl8xaHVqUGRSMXNQZmc?oc=5",
+          "published": "2026-09-04T07:03:21+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -229,16 +239,6 @@
           "source": "paratic.com",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaVF4MjBDcGl0YXdJXzhDNmdqYVh4UEZyYVpuQzZ6V29qN3RZMjNzNmtvOVlYaFFjeUViR3JfUjZUNDhLOGFaMmRaZWN0YVl3LXlYenQzS0JGa3phWEd1aU1qZERqOEdtV2ZraUFwYTR4S3c3cWp1LUJ5VDYwQnBQeHZvMA?oc=5",
           "published": "2026-09-04T06:37:06+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Enflasyon beklentilerinde kırılgan denge - Yeni Ankara",
-          "source": "Yeni Ankara",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPajQ3TG40ZUtNU2pBRDJheHdncHVlcFU5MlhHN2ZSbktJR3VTRmlWcFVvcEZCaU1MdjktMnhxdGxZYUNabFBMbUFVUUxUbTB6cGpndnFoQ2xOWVhSdjdXLTNrMy1EeUtqRFM5MFJLVXEtRTgxM0NVOGRHWTFQSFVHLUczby02V0RpbUdGRERNUDh1TzdPcVVfZHBMLWRyQ19WaGfSAacBQVVfeXFMUGV3M1RjRWpzOTY2d25ic2o2M3FsamRlMGg0U1VNRGZhRWxSWkpjT2szdXNoRXpSTGpicjJzOXp5bll2emw3dWdOUDN3OENYc0ZkZFQ3bTdqMndXZWp1ZDd6bTFNNHFFUXFjSG8tY0IwbGR0SjNzcmNWS3JLYm5PYlJxc19IQVF6MnlTSWE0U1V5cEpTMGltUEZ1RVFVMVlrYkxvYnRxNEk?oc=5",
-          "published": "2026-09-04T06:17:10+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -426,6 +426,11 @@
     {
       "generated": "2026-09-05T20:55:17.002495+00:00",
       "score": 0.5,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-06T05:28:45.720681+00:00",
+      "score": 0.7,
       "status": "BASELINE"
     }
   ],
