@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-06T15:58:06.538249+00:00",
+    "generated": "2026-09-06T21:01:42.438442+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.7,
-    "raw_score": 0.7,
+    "score": 0.8,
+    "raw_score": 0.8,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.8/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 7.1,
+      "score": 8.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 163,
-      "matched": 36,
-      "weighted_density": 0.182,
+      "coverage": 162,
+      "matched": 38,
+      "weighted_density": 0.192,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -145,6 +145,26 @@
           "weight": 1.4
         },
         {
+          "title": "Türkiye’de Yıllık Enflasyon: 2029’da Yüzde 9’a Gerilemesi Bekleniyor - سانا",
+          "source": "سانا",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE42ZTdXSjNsUUp3RExkUF83Y0k4VTZhZDFCeHdmSlZhSHBvUUZxeEhWM1JycnBDaWMyQ2o5elRwbVcyaERxbXRDdEhmNA?oc=5",
+          "published": "2026-09-06T16:06:23+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Türkiye’nin orta vadeli ekonomi program açıklandı, yıl sonu enflasyon hedefi yukarı çekildi - Rudaw",
+          "source": "Rudaw",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGRmUwU3ppLXJ6dUtRTEV6NnNZY2pEUkpPaXE4RXBOYnJhdFNXT2NVa3BTNUJtSExWNzAzZW5NQW44RGZFN1BURFY4eGdOYWtJN3U5WkpzVFZqOWhaWUI2NUxvSW9BenMt?oc=5",
+          "published": "2026-09-06T14:57:10+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Enflasyon, faiz, finansman... Yeni OVP’ye Bakanlar ve iş dünyasından ilk mesajlar - turkiyegazetesi.com.tr",
           "source": "turkiyegazetesi.com.tr",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTUhvQmtvcjhqdlZqYmpnWW80TnNneE9wSllDZjFYenZQR0lOaEhrb3VKZEdsMHgtTGxia3NHNFhoQmtGSVpITnpVNEdqbUtTTTZZX1JmUDZ0X1QzWkJJV0tSTFZCYlFueDVxQVhfWVI1NjV3Sld5Y00tSjBUTUR5a1VWMkkxUnZQWC0ycmZfVlhSVzFVZng5dEdHMEIxcUJ1a3JqWHhBOUg2ckU3Nld6X255Z1pmYU5ZZXRhZzlPRHBYanhF?oc=5",
@@ -155,8 +175,18 @@
           "weight": 0.8
         },
         {
-          "title": "Türkiye yıl sonu enflasyon tahminini yüzde 28,4'e yükseltti - Euronews.com",
-          "source": "Euronews.com",
+          "title": "Türkiye’nin 3 yıllık ekonomi yol haritası belli oldu! Enflasyon hedefi yüzde 9 - Radikal",
+          "source": "Radikal",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORHNVVk9MWkN6WDBRUnRubGw2SEFPTXNwTGFMbGduVE4xRWdKR0wyMHBMV1lHVDc0dHozWFBsVWZma2YzeXYyVEJvNEp3Q20wT0ZzOENHbElHZmZyMG9hclQwY1EzRncwX2xEVzdIZGRUdDJXcUttUHAyTTNXbmF4QW9TWEFKZXhhNGpacEtMSU5ERy1mdHQwYXc5a0J5OEplbEc3WTd2M1FOWmlLRUZJSk50cGVBNHdmMFE?oc=5",
+          "published": "2026-09-06T11:36:07+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Türkiye yıl sonu enflasyon tahminini yüzde 28,4'e yükseltti - Euronews",
+          "source": "Euronews",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUl9rS2pOWU9KdWRmeFczZEc5Z1BWT1pZZEVLWEZMSjhiRDJXT1ZiNHVZTGFfZFRQYW5yRUt2TjNPUklUZmRJcW0xbmFtOGxraWwtblU2Y1o4WVNDdFhYX1dma3hTa1lzVzVLTEFaUERJNDQxUmFEc2FlYVE4LVZIM0cxUW05eDhMMjZDRXVvM3Z2dG1IVFh2VFdVcl9ETmRpSDBkZ1pxSnpBeFV2M0l1czNiUDFNYUYtYS1iVmF0UnVSVWo0TDhzSi1TT0Rldjg?oc=5",
           "published": "2026-09-06T11:27:44+00:00",
           "terms": [
@@ -165,8 +195,8 @@
           "weight": 0.8
         },
         {
-          "title": "Türkiye ekonomisinin 3 yıllık yol haritası açıklandı: Enflasyon ne olacak? - rudaw.net",
-          "source": "rudaw.net",
+          "title": "Türkiye ekonomisinin 3 yıllık yol haritası açıklandı: Enflasyon ne olacak? - Rudaw",
+          "source": "Rudaw",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11dnNtZ2p0ek90cWNpZFBxLXRCRnV1c1IzR3NiRGF4anNrZ1RvS1Y4RTVseER2Q1U0c2FvOXFSUHB2cXRLMmhTT1kxM0tOQTRSQnl4SVBWcTMzQjU1cHp3Qw?oc=5",
           "published": "2026-09-06T10:21:55+00:00",
           "terms": [
@@ -195,8 +225,8 @@
           "weight": 0.8
         },
         {
-          "title": "Orta Vadeli Program'da yıl sonu enflasyon tahmini yükseldi - bloomberght.com",
-          "source": "bloomberght.com",
+          "title": "Orta Vadeli Program'da yıl sonu enflasyon tahmini yükseldi - Bloomberght",
+          "source": "Bloomberght",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd2hTM2Q4QzhPMDZXNEpLS0VaTzVmRU01UHJIU2hkeDVuaUFGVWtwZGRLTEpMZ3VyT2xFVWNaeHlnSmxnYXg2aW5OdXFRbEhUay1rQWxLa29JNk53dkJMVmhTTy1WNG9nZm9xU1gwUXRGaUJJUWY2SmlEZlNIVU92d0ozUzFsUQ?oc=5",
           "published": "2026-09-06T08:05:54+00:00",
           "terms": [
@@ -205,40 +235,10 @@
           "weight": 0.8
         },
         {
-          "title": "Son dakika... OVP açıklandı! İşte Türkiye'nin ekonomideki 3 yıllık büyüme ve enflasyon tahminleri - Uzmanpara",
-          "source": "Uzmanpara",
+          "title": "Son dakika... OVP açıklandı! İşte Türkiye'nin ekonomideki 3 yıllık büyüme ve enflasyon tahminleri - uzmanpara.milliyet.com.tr",
+          "source": "uzmanpara.milliyet.com.tr",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQc09HVXFtV0NXVnJaekJsajgxYkJ0YUNnemVSY3o0bFM3Qi1GV2NvVURBWGljWFFyNVYzX3pFTTVpM242VmlsWjRJQTFJcXJaMmNrMWl4ejV0M2JMRWRtRTV5NUFuWEgtLVlrV2JnUjVhUnozZlFRMHJweHc2ZGNfTDcyVW15YmtsR3RjbkpUdFZtUklEWGpKRlFab2FaWUQ1N2hPeElmejJWMWZhN3JNU2M5SzhNdjRHZHh4NXZHdWkxVW9ZUk9leER0dGpVbGhPN3pWRTRpdkhmVTVv?oc=5",
           "published": "2026-09-06T08:02:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Küresel piyasalarda gözler ABD enflasyonu ve ECB kararında - Türkiye İş Dünyası Haberleri",
-          "source": "Türkiye İş Dünyası Haberleri",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwbS1taUZZc25uOFZ1X0diUVZiZHhxSDJqeFpMLXFXV3Myd1Y5VEQ2SDBmejVpMVQwYXF4X3daTUtPN3Vnb0VwZ0pzTWxXeW92bW9Fc0I2dGREcjEtTm9QVE9tOUFhS2ZhcGc?oc=5",
-          "published": "2026-09-05T09:59:23+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Eylül ekonomisinde kritik viraj: Enflasyon, OVP ve faiz üçgeni - Ekonomi Dünya",
-          "source": "Ekonomi Dünya",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOek9yRXBKX25mdTNLN25qckNrQzY2R244SUJBRVJ3a3VjYmpUTy1PZHNubGhLOVY3ekZuY2UtMktFWks5d01ZY3YxaklXdmNUMVVoMjZDNFlIZGREc0lnaUtnSnZpcVZzZDlUVDJ5RHhEdXFMaDBVdEFMUlhjX2szZjQ5R3FwN0VEUDFZY05MbHV6cWRhOW9oZU5BRXg?oc=5",
-          "published": "2026-09-05T08:33:41+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Yıl sonunda faiz ve enflasyon ne olacak? Goldman Sachs'tan dikkat çeken Türkiye raporu - turkiyegazetesi.com.tr",
-          "source": "turkiyegazetesi.com.tr",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR2ZJeVE3SDJ4ZzgybHJIUUwxdUw2N0FvS2ZYdkhENTYxUzdTaUoyVUVvMF9KdG0tY2loRTB6Mlc2bXY3MGtGREdSUlY1UHpyUFBsV1lUdDR1RW9EM3VTT0pNaXhRUU54eDh6d2NFdExDWGpqdmhMdk1zcWduQUtDaGtyUWtBRnNzSGdHcFhIaERxNGZyQjhOcnJ3aHhYbThJcnhkY1QyUXlROXRoVWRUSVdvcHp1WlZuUk9FUnptQThLWmVDdjRQNlpGaDdCQ2lC?oc=5",
-          "published": "2026-09-04T12:58:59+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -441,6 +441,11 @@
     {
       "generated": "2026-09-06T15:58:06.538249+00:00",
       "score": 0.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-06T21:01:42.438442+00:00",
+      "score": 0.8,
       "status": "BASELINE"
     }
   ],
