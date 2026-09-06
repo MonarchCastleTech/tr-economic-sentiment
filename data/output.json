@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-06T05:28:45.720681+00:00",
+    "generated": "2026-09-06T11:30:09.187374+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.7,
-    "raw_score": 0.7,
+    "score": 0.6,
+    "raw_score": 0.6,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.6/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,26 +113,16 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 6.5,
+      "score": 5.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 163,
+      "coverage": 162,
       "matched": 34,
-      "weighted_density": 0.177,
+      "weighted_density": 0.171,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
-        {
-          "title": "İYİ Partili Türkeş: “Ekonomik krizin sorumlusu yanlış yönetim” - Anka Haber",
-          "source": "Anka Haber",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUW82M0t4NE9BZTZXYUVDd3F6cHJpV0xDQ3VqcU9USGI5T2EtZUJmZ3MtLWNwVzVFNUMzRXlyV2dHbV9sQXNLLVdlQVRwUk5hanpXSkxOSHNDc0V1R2h3UDZseHVCenFnX01CRE81dVdsczVhQ2hiRUpsby1vdTZvYktBcVp4RlZkY3BWOE5OdW83YlkxVVdvSkNQeWo?oc=5",
-          "published": "2026-09-05T07:04:18+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
         {
           "title": "TÜİK işsizlik rakamlarını açıkladı! - Haber 7",
           "source": "Haber 7",
@@ -155,8 +145,38 @@
           "weight": 1.4
         },
         {
-          "title": "Küresel piyasalarda gözler ABD enflasyonu ve ECB kararında - Türkiye İş Dünyası Haberleri",
-          "source": "Türkiye İş Dünyası Haberleri",
+          "title": "Türkiye ekonomisinin 3 yıllık yol haritası açıklandı: Enflasyon ne olacak? - Rudaw",
+          "source": "Rudaw",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11dnNtZ2p0ek90cWNpZFBxLXRCRnV1c1IzR3NiRGF4anNrZ1RvS1Y4RTVseER2Q1U0c2FvOXFSUHB2cXRLMmhTT1kxM0tOQTRSQnl4SVBWcTMzQjU1cHp3Qw?oc=5",
+          "published": "2026-09-06T10:21:55+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Savaşın Türkiye'ye enflasyon faturası belli oldu: Tam 7 puan - Haberler",
+          "source": "Haberler",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNazRYU05ueE84cUhCUFRRVG0zTUJuMHhEeGlzbWxBdWtJMFdLRFVUeV9qN215M2JGOU1WOFFaY2ZNN1BRTEoxTzk3UnFLR1dtSlR4SVZ4RkV5V2x5ZTdtWTQ3Nlphd04tYjAySmt4ZjdsRU52YWNyLWwtREhHaDVyQ09haTE1UVRuNURvX0RGck1FVFFNQm4yOGx3VEZZUUnSAZgBQVVfeXFMT3U2RWJsSWYzX1ZadU5oMzJsZW0wZE5kSnRsZHI0VUtMWUxEMW9aUkhIZE5vbVdHVTFyQjJEbUFSXzBxOXh5UlBCYVllVndpc1ZYTWs0R09CeDZrQnJLckQ0UjF0SUx4WmZGTURsLXBLaWVEMFUxQXdrSW4za0Rqc2ptT05idGNEMnR2aE5WX2laZUtMbGZCOFQ?oc=5",
+          "published": "2026-09-06T08:44:48+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Son dakika... OVP açıklandı! İşte Türkiye'nin ekonomideki 3 yıllık büyüme ve enflasyon tahminleri - Uzmanpara",
+          "source": "Uzmanpara",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQc09HVXFtV0NXVnJaekJsajgxYkJ0YUNnemVSY3o0bFM3Qi1GV2NvVURBWGljWFFyNVYzX3pFTTVpM242VmlsWjRJQTFJcXJaMmNrMWl4ejV0M2JMRWRtRTV5NUFuWEgtLVlrV2JnUjVhUnozZlFRMHJweHc2ZGNfTDcyVW15YmtsR3RjbkpUdFZtUklEWGpKRlFab2FaWUQ1N2hPeElmejJWMWZhN3JNU2M5SzhNdjRHZHh4NXZHdWkxVW9ZUk9leER0dGpVbGhPN3pWRTRpdkhmVTVv?oc=5",
+          "published": "2026-09-06T08:02:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Küresel piyasalarda gözler ABD enflasyonu ve ECB kararında - turkiyedeisdunyasi.com",
+          "source": "turkiyedeisdunyasi.com",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwbS1taUZZc25uOFZ1X0diUVZiZHhxSDJqeFpMLXFXV3Myd1Y5VEQ2SDBmejVpMVQwYXF4X3daTUtPN3Vnb0VwZ0pzTWxXeW92bW9Fc0I2dGREcjEtTm9QVE9tOUFhS2ZhcGc?oc=5",
           "published": "2026-09-05T09:59:23+00:00",
           "terms": [
@@ -185,16 +205,6 @@
           "weight": 0.8
         },
         {
-          "title": "MUFG’nin Türkiye senaryosu belli oldu: Enflasyon ve dolar/TL tahmini haberi - finansingundemi.com",
-          "source": "finansingundemi.com",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeS1nZkVFSW45UXVrdHZjUlNHcFpoQzI4UGxTWFFqSWRzYjUxbGhoMHNvcldHMkxSS1o1QlByblpwQjBiOG5aQTl4bFBZdmxkM3BucmJsb1o3b2QzRlRzbzZOemtPbWZRR0JpbS1YVnd0SC1Nc214dDJZQlRObElVWkY3ZktnYXVIRjVhMktMQTBmYXd2bl9SNTJuXy1qbVkyaDc3MUQ1NmxJaWJjd2FvRg?oc=5",
-          "published": "2026-09-04T11:37:13+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "Türkiye enflasyonda dünyada 5. sırada: Faiz neden yüksek? - Urfanın Nabzı",
           "source": "Urfanın Nabzı",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeGdUaVRyZG4xX0w5Z3pNSFRpX0dYNzNvMXVBdXNkOVNDTmpXUU9ZYnRUamhOaFNhdzV4bVdZMUp6ZllzWGljaDdvQU5IOUoyM3RMamlyS0VwOVhGenpOUzl2MV9zcXg0RzVqcF9mbDRhaElJTDgxNnI3VzM1d3lnZ3FjQlo4R2VpZUVKZzd1NWxwREtJLTNXZ2k2NVVwZXIyamfSAaIBQVVfeXFMT3hnVGlUcmRuMV9MOWd6TUhUaV9HWDczbzF1QXVzZDlTQ05qV1FPWWJ0VGpoTmhTYXc1eG1XWTFKemZZc1hpY2g3b0FOSDlKMjN0TGppcktFcDlYRnp6TlM5djFfc3F4NEc1anBfZmw0YWhJSUw4MTZyN1czNXd5Z2dxY0JaOEdlaWVFSmc3dTVscERLSS0zV2dpNjVVcGVyMmpn?oc=5",
@@ -215,8 +225,8 @@
           "weight": 0.8
         },
         {
-          "title": "Goldman'ın Türkiye enflasyon analizinde 'enerji' vurgusu - bloomberght.com",
-          "source": "bloomberght.com",
+          "title": "Goldman'ın Türkiye enflasyon analizinde 'enerji' vurgusu - Bloomberght",
+          "source": "Bloomberght",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcF9OLU1yb3pFdmEwZEVQY1FQQm9wTFJPa19QZHBIRVBIVUwwT3RGSmdYNTBwakhJRm00ckVCSUpxZFFIN2gyY2lEbndWWnlzSEJxNW5pZ01xZWwzVmZzLXJfTGJsZlYwblRyQWZZdFhDS1Z0S1RjTUtnS1hrcXFtbWdSdDdlVW4xeGxpWGJqeVVpWHEz?oc=5",
           "published": "2026-09-04T07:49:18+00:00",
           "terms": [
@@ -225,18 +235,8 @@
           "weight": 0.8
         },
         {
-          "title": "Fed’de enflasyon baskıları hafifliyor vurgusu: Eylül faiz beklentisi düştü - Yorumla.Net",
-          "source": "Yorumla.Net",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVWxwQ1pMcEtOWl9ZcjVING53dnU0WnN3WGNwMGRRaFhZYk9HcTNVbEtHWFpNTXBPVHhhdmJuV1JIX0NJY1AtaXBaSzRlTFlnWHhfc3N3d3VsaTZHb0VKWGNtdmRtRElpbkNtZWhsUUlFUlhiRFBQSDc1RGhkSHBxZUZxU0xVYzBJZjJYN3l4aUs2S3dqVkRIN0Q3M0R0d0RNTnVwN3NpQzNiejBiUl8xaHVqUGRSMXNQZmc?oc=5",
-          "published": "2026-09-04T07:03:21+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "BBVA’dan Türkiye ekonomisi için faiz ve enflasyon tahmini - paratic.com",
-          "source": "paratic.com",
+          "title": "BBVA’dan Türkiye ekonomisi için faiz ve enflasyon tahmini - Paratic Haber",
+          "source": "Paratic Haber",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaVF4MjBDcGl0YXdJXzhDNmdqYVh4UEZyYVpuQzZ6V29qN3RZMjNzNmtvOVlYaFFjeUViR3JfUjZUNDhLOGFaMmRaZWN0YVl3LXlYenQzS0JGa3phWEd1aU1qZERqOEdtV2ZraUFwYTR4S3c3cWp1LUJ5VDYwQnBQeHZvMA?oc=5",
           "published": "2026-09-04T06:37:06+00:00",
           "terms": [
@@ -431,6 +431,11 @@
     {
       "generated": "2026-09-06T05:28:45.720681+00:00",
       "score": 0.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-06T11:30:09.187374+00:00",
+      "score": 0.6,
       "status": "BASELINE"
     }
   ],
