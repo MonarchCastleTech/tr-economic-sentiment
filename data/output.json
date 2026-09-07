@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-07T05:39:44.345098+00:00",
+    "generated": "2026-09-07T13:15:59.010781+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.6,
-    "raw_score": 0.6,
+    "score": 0.8,
+    "raw_score": 0.8,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.6/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.8/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,19 +26,19 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 125,
-      "latest_date": "2026-09-04",
-      "latest_value": 48.2326,
-      "change_5d_pct": 0.33,
-      "return_z": -4.89,
+      "coverage": 126,
+      "latest_date": "2026-09-07",
+      "latest_value": 48.3465,
+      "change_5d_pct": 0.36,
+      "return_z": -2.39,
       "volatility_20d": 0.07,
-      "volatility_z": -0.91,
+      "volatility_z": -0.31,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.2326,
-          "date": "2026-09-04",
+          "value": 48.3465,
+          "date": "2026-09-07",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -113,25 +113,26 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 5.8,
+      "score": 7.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 155,
-      "matched": 32,
-      "weighted_density": 0.171,
+      "coverage": 162,
+      "matched": 36,
+      "weighted_density": 0.188,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "TÜİK işsizlik rakamlarını açıkladı! - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWFpSd1hlQnEwOHhZRkxOUjY0TUFMWmg5b3lnT1BlVkRlQlAwZ0xFUTNEZzZtc3VDcHo2Tld2alJEOGZvUUZObU5jRzZvMzR5UHIzdFpERWgzdUVxMU5NbFNEek9pcDk3VldCa0NGSjZ2UDY1WEJ1Q2xnZmRrZnpsZU5vLWRCX1piVkZZ0gGOAUFVX3lxTE1xeE9rYmh2T3lTdjUzQk5fbEI0cDN6VzVvOTA5Nk1jOGRCc3F5U2ZLN3NfbmcxQmU1X2NTeFpwS1p3U1NYaUtYcHRjY3NBdXM3M3pRVVd1ZjNFMk5kWHZTdDMzdlAzVHBnc0lJVTFyR1NIZ1gyRFRvblRPZ2JmcmNjYWxWaFVqNjlJa3g1bEE?oc=5",
-          "published": "2026-08-31T07:59:00+00:00",
+          "title": "Enflasyon, işsizlik, altın ve döviz... Ekonominin haftalık görünümü açıklandı - kayserihaber.com",
+          "source": "kayserihaber.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45SnFkT1dyRWNWMERXUFhLQTRhb2hVM1ZfNmpnbTU2WXlURnRYbDZNckpPdFgtcjRMcm02MkgzX2t0TFpLU2poc2NMUVg5dXc1RUFZTnhtNjhRMXNMYktRdmVZZGZFTFJ0dWR1T2ZiT2VsbFB4c3c?oc=5",
+          "published": "2026-09-07T12:05:00+00:00",
           "terms": [
-            "işsizlik"
+            "işsizlik",
+            "enflasyon"
           ],
-          "weight": 1.5
+          "weight": 2.3
         },
         {
           "title": "BBVA Research Türkiye Enflasyon ve Faiz Tahminini Güncelledi: Faiz İndirimi Ne Zaman? - Para Analiz",
@@ -145,9 +146,89 @@
           "weight": 1.4
         },
         {
-          "title": "Orta Vadeli Program açıklandı Türkiye ekonomisinin 3 yıllık yol haritası belli oldu: Hedef tek haneli enflasyon ve istihdamı artırmak - bigpara.hurriyet.com.tr",
-          "source": "bigpara.hurriyet.com.tr",
+          "title": "Egeli ihracatçılardan, OVP sonrası dikkat çeken çağrı... \"Enflasyon, faiz ve ve kurla mücadele ediyoruz, önümüze bakalım\" - Son Mühür",
+          "source": "Son Mühür",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY3RLQllGN2szaWVwS1puSVpWVV9ET050NGJRYUZFbDZsaUpKdml0YlpKMnZvMFR0N3h5UHNfUW0tZ1JfbGFDZTJXNGFGSS1fdTVZc2pjTHVrMlkyN1J4RGR3Q1gwSjdDQldzb0pRNUI1RlNmaFZhN2hSNUdKY3BiaThyejhod0lGaGlzY2tkLTVEQ1k2RUJ1WUJ3N2dvNFpXOWY3TFZtNjE5QmdXLWRvbTBodUVWakQydFE0VGZQdGRseGNsUExpb3NDS0NvY0thcnlWZw?oc=5",
+          "published": "2026-09-07T11:50:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "ING'den OVP yorumu: Enflasyon hedefine ulaşmak daha uzun sürecek - Doviz.com",
+          "source": "Doviz.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdjNROTFGOEVUYm1ac1F0b1QwTlBZU3hmX1lnWFdjYjJZN0I2V2NkRlZwRExUUVpjRklaVWVnN2twNnc2TDFmd1FENHBxQ0dDdWtyVWM5VWhoVE9RcV9RZFdDVTZqQ0FmTFBzaV95YVpOaWk4TUxvQjRtZE9xdTBMNWRLNzV3SlFxZjV5NDV4czNadFppYWNBZkp4Y0EtQk16SjNLNXQzNkktU09ub2t6WNIBuAFBVV95cUxQRHNtN0pjR3FZbGxaeUVmaWlJSVZIRWQwbTQtVUY1MzlnMWRsSlNacmpNZTktUks0S0k1UkYxUXljSktmTlBNWFdWOUkyZlpoUThaLWhvZWxtWmlNWDd5R3IxbUdyZFdNV2tmYVdvODQtR3hYWDR2Y19tckNhX05uNzN1VDN6S21pc19SMmZoYUpZMHlpRkJWU0NSVEtVQU4wOE96Z1RiWTExNXZ1NHc4NkI1TEV1cHhu?oc=5",
+          "published": "2026-09-07T08:45:23+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Goldman Sachs: Fed’in faiz kararında enflasyon belirleyici olacak - ticarigm360.com",
+          "source": "ticarigm360.com",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMXdPa1NVS3A2MDRWdHZ6NHhRdTl3VW94WGt2b1JHR0lEYVpJVEdhRWhlN1IzSDBYRTlUN0lzTy1GOVBkdlFUN3RUeExmcGg0R3NYRGZjVXpSRS1NZnptTHRSMm5td3RqbkJNdTUyQXIyWDgxX2pRVkhyRldkVmJUeVVvMDNDTmJtbjUwT3RreGtFTEduYXM4?oc=5",
+          "published": "2026-09-07T08:23:13+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Türkiye için kritik enflasyon uyarısı: Goldman Sachs risk gördü - Finans haberlerinin doğru adresi - Mynet Finans Haber - Mynet Finans",
+          "source": "Mynet Finans",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbmdHTVBLTktKOEdUbGxZUWJsZlBfNzh0SW1xQTBsNUtTRTNoaWl6ekI3Mllha3hxc2UxbVI3OXpOZzhUQndiRXZwQjdEQUhKRV9XdFJDcFU2TnZPNFd2elpVN0wzWVZQVDN4d3I2VlVzQkhENGZtMlJuQ1pIZG5yOVk0ak4wU0xTQUhvNEhYRGdrVTZIUmFWZHhZOVkzVldqTTg2clJwcDc2d3lHeEEzYzZZTHBvZ9IBpAFBVV95cUxOenN3c2doOGRKdTNzZlVuUnRaOTZHMXB3R1lVekRzZlMtS00yWEhDenB3WVFJNmUxX25MYUpINXgzUVkyZ0lvR1lCS2dKWEtuLUdzZHA4QTdpTjUtZGF3VnZtcXQzSkFFQnVjTE9mNjZKRjFyTXF4cWkwam03NHVERGRIN0c5VmUza2xvR0xhbzliUEs0M01fYWFGYmgySHB2aXJjVA?oc=5",
+          "published": "2026-09-07T06:52:54+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Türkiye enflasyon tahminini Orta Doğu'daki savaş nedeniyle yüzde 28,4'e yükseltti - Euronews.com",
+          "source": "Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLTZma01IaFp5cXVvQXdiT2JsbWsyc2ZOOEhzdXFLd0I3S2lIZ01zQVM5QUp4TFBTcVpPZHBmUnRTVFJfWnpMY1FIQ2taSlg3Qk5NOWhjM0pGX1ZlVHN1bVFmLVNtQVZINkgtTzNJdjZHM1QxSF8ybWJDZEZ5cV9BNDFKX2FxQnZaYk9rN1J3R3VmR1U4UHlFODlFNExWOG5FVi1lM1N0cHJLcXdiZzEzZTRiajJHQQ?oc=5",
+          "published": "2026-09-07T06:15:27+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Yeni OVP açıklandı! Enflasyon yüzde 9'a inecek, 2,1 milyon kişiye yeni iş - A Haber",
+          "source": "A Haber",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTERpNkljR2RGaUlKOElKZlFVOVppY2xzQkJYMXdIdlFfVU44QlRaMzFPengzMFdITkZtQlhFTUF3ZWhZUGNKeXp0V2pVN3FCRzh5ZWxkSnRERi1BMXRHdFR2MVZmR21VZ2hzSEJaa2tmUDZyRXAweTRQRGE4YzFRNUlpM2xKemQzd3l5UHVSZGNMby1OSHJUTjJ0Mmw?oc=5",
+          "published": "2026-09-07T04:57:50+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Dev banka duyurdu: Eylül faiz kararında enflasyon belirleyici olacak, gözler kritik haftada - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNck96NndlZ0pxX0dORnRNOUJXMFNpaURESC0ta0xlWVpLMjMwdnRBTFlWNWtORXRudUN6LThMRXhVampyQmN6blM4Sk82MUI2bEJmTGltdndSNGNZZzhHalVCdDhiZWlFYk9icTRDeHlrRU56TFFkNlZETENrbVNsUlJYWE5WYlBSYTdOb3BiTGh4cEFHMV9oS2V2bl9Yc2RFVXpQYW9ZLWkweWltZVZCM3dQdnpIeHEyUE50eVNTYy0?oc=5",
+          "published": "2026-09-07T04:35:20+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Orta Vadeli Program açıklandı Türkiye ekonomisinin 3 yıllık yol haritası belli oldu: Hedef tek haneli enflasyon ve istihdamı artırmak - Bigpara",
+          "source": "Bigpara",
           "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQbU5YUF9iMU80TXdqM3pNbm1POGljSVFHNlExRTFXanFJWDRUOU0xUnA2YnJ0T0QwMEQzRVdIUmNINElvbTgtOGJGbFNiMFpRWl96VmZBWGMycEtJaEZTcnpBbnF3aHJZOUZjNTREc2dYY3ViUlZjTWVCN1VoNDNGMkczc3JrOFRjbHNDemp2NDhLcHFHVXlGUElmYW9IVmx6YzdxV05TZlIycjdpMmNIemVFWU16VVk2N1RBajNHcVpRbTlmemZSOExodVhTS3RPeGUtaXNhTFgtTGZ0NGJvWUdMX0JtSGttQUxXSGs2YXlvQ1hObkswQ2psblV2SWRmdEh1OWdVWThtbjhsTnJMX29lMA?oc=5",
+          "published": "2026-09-07T01:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Enflasyonda tek hane 2029’da - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ncXM4NmhTYnEwaU84YkVBY0pKb1FHZzVKbWhtbzMzbU9lb181N2MtaG5XQXhNZVM5Z1B2dHB1Z1VCNEtqTGxpemdRQS12N3NaR2s3RkQ3TDdraWpUcVBZdUpOUXhNLXJXTFdGWGZCeTVHX05UcjhYQtIBgwFBVV95cUxQbHVqbGRmTmZGSUFlMlN2cXdhbWt6ZXRKN2lSLS1SYWxKTUM0TS1YVzNjVE1mWHlCdHBZTnVvX1pvVTJwQVZSMVgwaUxBLWNFeXRpUm52ckVNS2ZCWTZxUGhQMC1KbzVQWmthMDI0T3VCZ25OVUpzMzhJS0E0bGpSaFJKSQ?oc=5",
           "published": "2026-09-07T01:00:00+00:00",
           "terms": [
             "enflasyon"
@@ -159,86 +240,6 @@
           "source": "سانا",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE42ZTdXSjNsUUp3RExkUF83Y0k4VTZhZDFCeHdmSlZhSHBvUUZxeEhWM1JycnBDaWMyQ2o5elRwbVcyaERxbXRDdEhmNA?oc=5",
           "published": "2026-09-06T16:06:23+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Türkiye’nin orta vadeli ekonomi program açıklandı, yıl sonu enflasyon hedefi yukarı çekildi - Rudaw",
-          "source": "Rudaw",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGRmUwU3ppLXJ6dUtRTEV6NnNZY2pEUkpPaXE4RXBOYnJhdFNXT2NVa3BTNUJtSExWNzAzZW5NQW44RGZFN1BURFY4eGdOYWtJN3U5WkpzVFZqOWhaWUI2NUxvSW9BenMt?oc=5",
-          "published": "2026-09-06T14:57:10+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Enflasyon, faiz, finansman... Yeni OVP’ye Bakanlar ve iş dünyasından ilk mesajlar - Türkiye Gazetesi",
-          "source": "Türkiye Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTUhvQmtvcjhqdlZqYmpnWW80TnNneE9wSllDZjFYenZQR0lOaEhrb3VKZEdsMHgtTGxia3NHNFhoQmtGSVpITnpVNEdqbUtTTTZZX1JmUDZ0X1QzWkJJV0tSTFZCYlFueDVxQVhfWVI1NjV3Sld5Y00tSjBUTUR5a1VWMkkxUnZQWC0ycmZfVlhSVzFVZng5dEdHMEIxcUJ1a3JqWHhBOUg2ckU3Nld6X255Z1pmYU5ZZXRhZzlPRHBYanhF?oc=5",
-          "published": "2026-09-06T14:17:13+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Türkiye’nin 3 yıllık ekonomi yol haritası belli oldu! Enflasyon hedefi yüzde 9 - Radikal",
-          "source": "Radikal",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORHNVVk9MWkN6WDBRUnRubGw2SEFPTXNwTGFMbGduVE4xRWdKR0wyMHBMV1lHVDc0dHozWFBsVWZma2YzeXYyVEJvNEp3Q20wT0ZzOENHbElHZmZyMG9hclQwY1EzRncwX2xEVzdIZGRUdDJXcUttUHAyTTNXbmF4QW9TWEFKZXhhNGpacEtMSU5ERy1mdHQwYXc5a0J5OEplbEc3WTd2M1FOWmlLRUZJSk50cGVBNHdmMFE?oc=5",
-          "published": "2026-09-06T11:36:07+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Türkiye yıl sonu enflasyon tahminini yüzde 28,4'e yükseltti - Euronews",
-          "source": "Euronews",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUl9rS2pOWU9KdWRmeFczZEc5Z1BWT1pZZEVLWEZMSjhiRDJXT1ZiNHVZTGFfZFRQYW5yRUt2TjNPUklUZmRJcW0xbmFtOGxraWwtblU2Y1o4WVNDdFhYX1dma3hTa1lzVzVLTEFaUERJNDQxUmFEc2FlYVE4LVZIM0cxUW05eDhMMjZDRXVvM3Z2dG1IVFh2VFdVcl9ETmRpSDBkZ1pxSnpBeFV2M0l1czNiUDFNYUYtYS1iVmF0UnVSVWo0TDhzSi1TT0Rldjg?oc=5",
-          "published": "2026-09-06T11:27:44+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Türkiye ekonomisinin 3 yıllık yol haritası açıklandı: Enflasyon ne olacak? - Rudaw",
-          "source": "Rudaw",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11dnNtZ2p0ek90cWNpZFBxLXRCRnV1c1IzR3NiRGF4anNrZ1RvS1Y4RTVseER2Q1U0c2FvOXFSUHB2cXRLMmhTT1kxM0tOQTRSQnl4SVBWcTMzQjU1cHp3Qw?oc=5",
-          "published": "2026-09-06T10:21:55+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Üç yıllık yol haritası netleşti: Enflasyon ve büyüme tahminleri belli oldu - Doviz.com",
-          "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLVRGT3JzUFM1U3lnREREdFZEZkZTQjdlSllPLUJOdjBZV3A5RFVZT0l2M1NGWUE3empzQTdrNmdkNUJROFpMT0VMcWo2VHpEc05idnRIam01SGpBTXFZYUs4a3RzVTVLbGcyOTdEd3U0Z0t1T1llS0Rub3FUb2ZibklpWXl6X2hsbHpIRjRzcmR2dWdVS19kbjZ6S25sRV91Q3VCYkFHM3d6YXk4RUVud21PR2JwZlQxbF80dkp30gHGAUFVX3lxTE9oQlh2eFZIdGNSdGJoYVlEV09ZYWRxLUFTelkwc2d6bXBOLW1VWExhMWdRQjY1ZGJPcld6MllwcXE5ZFNfaEFXMWUzaHY0T243TVlEdVRhZ0ZXeF8yUEVwSkExY0JtOG9sNkt6NFlsanhPY2JtVUF0UHpLVHVCb2hDRWxxdFZoY3F5NlNGTHpxWGVuYVVlNWN3c1R1N05kX3BRbnoyWUl3OWhLbGZQU0k1dWx0TVFXSUtxM3VyWmctNkE3eTAxZw?oc=5",
-          "published": "2026-09-06T08:52:19+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Savaşın Türkiye'ye enflasyon faturası belli oldu: Tam 7 puan - Haberler",
-          "source": "Haberler",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNazRYU05ueE84cUhCUFRRVG0zTUJuMHhEeGlzbWxBdWtJMFdLRFVUeV9qN215M2JGOU1WOFFaY2ZNN1BRTEoxTzk3UnFLR1dtSlR4SVZ4RkV5V2x5ZTdtWTQ3Nlphd04tYjAySmt4ZjdsRU52YWNyLWwtREhHaDVyQ09haTE1UVRuNURvX0RGck1FVFFNQm4yOGx3VEZZUUnSAZgBQVVfeXFMT3U2RWJsSWYzX1ZadU5oMzJsZW0wZE5kSnRsZHI0VUtMWUxEMW9aUkhIZE5vbVdHVTFyQjJEbUFSXzBxOXh5UlBCYVllVndpc1ZYTWs0R09CeDZrQnJLckQ0UjF0SUx4WmZGTURsLXBLaWVEMFUxQXdrSW4za0Rqc2ptT05idGNEMnR2aE5WX2laZUtMbGZCOFQ?oc=5",
-          "published": "2026-09-06T08:44:48+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Son dakika... OVP açıklandı! İşte Türkiye'nin ekonomideki 3 yıllık büyüme ve enflasyon tahminleri - Uzmanpara",
-          "source": "Uzmanpara",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQc09HVXFtV0NXVnJaekJsajgxYkJ0YUNnemVSY3o0bFM3Qi1GV2NvVURBWGljWFFyNVYzX3pFTTVpM242VmlsWjRJQTFJcXJaMmNrMWl4ejV0M2JMRWRtRTV5NUFuWEgtLVlrV2JnUjVhUnozZlFRMHJweHc2ZGNfTDcyVW15YmtsR3RjbkpUdFZtUklEWGpKRlFab2FaWUQ1N2hPeElmejJWMWZhN3JNU2M5SzhNdjRHZHh4NXZHdWkxVW9ZUk9leER0dGpVbGhPN3pWRTRpdkhmVTVv?oc=5",
-          "published": "2026-09-06T08:02:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -451,6 +452,11 @@
     {
       "generated": "2026-09-07T05:39:44.345098+00:00",
       "score": 0.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-07T13:15:59.010781+00:00",
+      "score": 0.8,
       "status": "BASELINE"
     }
   ],
