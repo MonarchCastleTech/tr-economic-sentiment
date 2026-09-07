@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-07T13:15:59.010781+00:00",
+    "generated": "2026-09-07T21:54:13.830128+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.8,
-    "raw_score": 0.8,
+    "score": 1.0,
+    "raw_score": 1.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.8/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 7.8,
+      "score": 10.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 162,
-      "matched": 36,
-      "weighted_density": 0.188,
+      "coverage": 164,
+      "matched": 40,
+      "weighted_density": 0.212,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -133,6 +133,16 @@
             "enflasyon"
           ],
           "weight": 2.3
+        },
+        {
+          "title": "Rahmi Aşkın Türeli: \"Türkiye Ekonomik, Sosyal ve Siyasal Bir Kriz İçinde\" - Cumhuriyet Halk Partisi",
+          "source": "Cumhuriyet Halk Partisi",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1FKTUFtU0k1bFA1Mlp1NFRDTjBLSHZXR1diRnRQUEFodVpDRnBmZmpNbXpxZDZpVkdzbTdnMV92VkljVnN3WVRmMDRBRmFLRHVNNUc3SWIxcVByUlp0NE9PZDNEV1RkYWJublJxWHl3S2VCakFJWTBWUGxjY1c0MUVPdmZoQ1AxZTBrckdpOWZMbTBoNWtXNTBVMFE?oc=5",
+          "published": "2026-09-07T13:28:51+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
         },
         {
           "title": "BBVA Research Türkiye Enflasyon ve Faiz Tahminini Güncelledi: Faiz İndirimi Ne Zaman? - Para Analiz",
@@ -176,10 +186,40 @@
           "weight": 0.8
         },
         {
+          "title": "ING Türkiye'den OVP değerlendirmesi: \"2027'de daha yavaş bir dezenflasyon\" - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc2tPU185a0hoQkhTa0s3SEVxWW9KdGdzRTloMGVoOUx3QVE4TmlyWWRzUDRWOXFGRGlCaFh0UWU3NWlhVjNsR2ZMb09BZDZKS0JoWVRwTEdWUjZPcHBqLV9Md0RZSF9EMnZfcEo0WTIxMUx4bUtpOEZuRXFhUTlBTFBSdFpWWEMzejNULWpsT1lmSUtrUHh3OXVWX21ySm1jYWZWbTJBYlQ5UVU?oc=5",
+          "published": "2026-09-07T07:55:14+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Anket: Türkiye ekonomisinin en önemli sorunları enflasyon, gıda fiyatları ve kiraların yüksekliği - T24",
+          "source": "T24",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdlV0S2ZiaWgxWUhOaUNtbllmWlVicWVOT1JmRzkwUXJqdDJ3cWRBVW9PeUo3Q1pzNmR3Z3FZMURuWnNLOXUtTFNxSEhESXlyNzlveGR1bVRZaUkxVHZIcWM0Y29PX2RHRUJNNGxUd3JCV19sTzMzUGNfUjFNbG5kbWZNbXgxaXFJbTJwMDhLejRDQ0hCRzJLZVFIdTBKRnc2cnhJanpVa292dDdPczJ4cUNESWRueGV1Nm41TWEtM2JTQ045ZzMwMEZR?oc=5",
+          "published": "2026-09-07T07:27:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Türkiye için kritik enflasyon uyarısı: Goldman Sachs risk gördü - Finans haberlerinin doğru adresi - Mynet Finans Haber - Mynet Finans",
           "source": "Mynet Finans",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbmdHTVBLTktKOEdUbGxZUWJsZlBfNzh0SW1xQTBsNUtTRTNoaWl6ekI3Mllha3hxc2UxbVI3OXpOZzhUQndiRXZwQjdEQUhKRV9XdFJDcFU2TnZPNFd2elpVN0wzWVZQVDN4d3I2VlVzQkhENGZtMlJuQ1pIZG5yOVk0ak4wU0xTQUhvNEhYRGdrVTZIUmFWZHhZOVkzVldqTTg2clJwcDc2d3lHeEEzYzZZTHBvZ9IBpAFBVV95cUxOenN3c2doOGRKdTNzZlVuUnRaOTZHMXB3R1lVekRzZlMtS00yWEhDenB3WVFJNmUxX25MYUpINXgzUVkyZ0lvR1lCS2dKWEtuLUdzZHA4QTdpTjUtZGF3VnZtcXQzSkFFQnVjTE9mNjZKRjFyTXF4cWkwam03NHVERGRIN0c5VmUza2xvR0xhbzliUEs0M01fYWFGYmgySHB2aXJjVA?oc=5",
           "published": "2026-09-07T06:52:54+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Haftanın gündeminde TCMB ve ABD enflasyon verileri öne çıkıyor - hibya.com",
+          "source": "hibya.com",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUjV1dGdIbS1OWjBYVmRuZVpwSHlWMWFYTEdHOHdLc2hubGswZGhZUF9scDM2Vjd3QW5lNW9ucnBUeUgxdXBRRE1jbzR0ZXk3OHNVWXY4UjhIc2ZrTHMwWEpGNFQtbTZIRXBPSzg2VHF2amhySy1nRl8xUnhUZ2k4WjhVamFFYlR0a2ZRMUZFMUk?oc=5",
+          "published": "2026-09-07T06:35:44+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -200,46 +240,6 @@
           "source": "A Haber",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTERpNkljR2RGaUlKOElKZlFVOVppY2xzQkJYMXdIdlFfVU44QlRaMzFPengzMFdITkZtQlhFTUF3ZWhZUGNKeXp0V2pVN3FCRzh5ZWxkSnRERi1BMXRHdFR2MVZmR21VZ2hzSEJaa2tmUDZyRXAweTRQRGE4YzFRNUlpM2xKemQzd3l5UHVSZGNMby1OSHJUTjJ0Mmw?oc=5",
           "published": "2026-09-07T04:57:50+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Dev banka duyurdu: Eylül faiz kararında enflasyon belirleyici olacak, gözler kritik haftada - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNck96NndlZ0pxX0dORnRNOUJXMFNpaURESC0ta0xlWVpLMjMwdnRBTFlWNWtORXRudUN6LThMRXhVampyQmN6blM4Sk82MUI2bEJmTGltdndSNGNZZzhHalVCdDhiZWlFYk9icTRDeHlrRU56TFFkNlZETENrbVNsUlJYWE5WYlBSYTdOb3BiTGh4cEFHMV9oS2V2bl9Yc2RFVXpQYW9ZLWkweWltZVZCM3dQdnpIeHEyUE50eVNTYy0?oc=5",
-          "published": "2026-09-07T04:35:20+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Orta Vadeli Program açıklandı Türkiye ekonomisinin 3 yıllık yol haritası belli oldu: Hedef tek haneli enflasyon ve istihdamı artırmak - Bigpara",
-          "source": "Bigpara",
-          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQbU5YUF9iMU80TXdqM3pNbm1POGljSVFHNlExRTFXanFJWDRUOU0xUnA2YnJ0T0QwMEQzRVdIUmNINElvbTgtOGJGbFNiMFpRWl96VmZBWGMycEtJaEZTcnpBbnF3aHJZOUZjNTREc2dYY3ViUlZjTWVCN1VoNDNGMkczc3JrOFRjbHNDemp2NDhLcHFHVXlGUElmYW9IVmx6YzdxV05TZlIycjdpMmNIemVFWU16VVk2N1RBajNHcVpRbTlmemZSOExodVhTS3RPeGUtaXNhTFgtTGZ0NGJvWUdMX0JtSGttQUxXSGs2YXlvQ1hObkswQ2psblV2SWRmdEh1OWdVWThtbjhsTnJMX29lMA?oc=5",
-          "published": "2026-09-07T01:00:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Enflasyonda tek hane 2029’da - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ncXM4NmhTYnEwaU84YkVBY0pKb1FHZzVKbWhtbzMzbU9lb181N2MtaG5XQXhNZVM5Z1B2dHB1Z1VCNEtqTGxpemdRQS12N3NaR2s3RkQ3TDdraWpUcVBZdUpOUXhNLXJXTFdGWGZCeTVHX05UcjhYQtIBgwFBVV95cUxQbHVqbGRmTmZGSUFlMlN2cXdhbWt6ZXRKN2lSLS1SYWxKTUM0TS1YVzNjVE1mWHlCdHBZTnVvX1pvVTJwQVZSMVgwaUxBLWNFeXRpUm52ckVNS2ZCWTZxUGhQMC1KbzVQWmthMDI0T3VCZ25OVUpzMzhJS0E0bGpSaFJKSQ?oc=5",
-          "published": "2026-09-07T01:00:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Türkiye’de Yıllık Enflasyon: 2029’da Yüzde 9’a Gerilemesi Bekleniyor - سانا",
-          "source": "سانا",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE42ZTdXSjNsUUp3RExkUF83Y0k4VTZhZDFCeHdmSlZhSHBvUUZxeEhWM1JycnBDaWMyQ2o5elRwbVcyaERxbXRDdEhmNA?oc=5",
-          "published": "2026-09-06T16:06:23+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -457,6 +457,11 @@
     {
       "generated": "2026-09-07T13:15:59.010781+00:00",
       "score": 0.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-07T21:54:13.830128+00:00",
+      "score": 1.0,
       "status": "BASELINE"
     }
   ],
