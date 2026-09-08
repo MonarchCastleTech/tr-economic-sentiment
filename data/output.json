@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-07T21:54:13.830128+00:00",
+    "generated": "2026-09-08T05:35:01.395279+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.0,
-    "raw_score": 1.0,
+    "score": 1.1,
+    "raw_score": 1.1,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 10.4,
+      "score": 10.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 164,
-      "matched": 40,
-      "weighted_density": 0.212,
+      "coverage": 162,
+      "matched": 41,
+      "weighted_density": 0.215,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -143,17 +143,6 @@
             "kriz"
           ],
           "weight": 2.0
-        },
-        {
-          "title": "BBVA Research Türkiye Enflasyon ve Faiz Tahminini Güncelledi: Faiz İndirimi Ne Zaman? - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRjVIb3ExTVZBSmgzbm43ekVuY0Vwa0d1S0NkLWYzYWtLZDY3a2ZKeloyVERaQVFDNC1HYW0wTmN6OWlxV0RmbG41aVBPSUtZcXhGSmxMUTdDdlpUTDYtLTBaT3VxSGxESllfT1hFNVF1QzRma2J3Z1FEeFQ1bUttZDZLMnBzakhSVUdDNkVmTkRCU1FfNTdKTEs4N1FmQk5sVHhJV3R4UGMyU1ZZZkZwNVQ5eDIzY3M?oc=5",
-          "published": "2026-09-04T07:02:59+00:00",
-          "terms": [
-            "zam",
-            "enflasyon"
-          ],
-          "weight": 1.4
         },
         {
           "title": "Egeli ihracatçılardan, OVP sonrası dikkat çeken çağrı... \"Enflasyon, faiz ve ve kurla mücadele ediyoruz, önümüze bakalım\" - Son Mühür",
@@ -190,6 +179,16 @@
           "source": "CNBC-e",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc2tPU185a0hoQkhTa0s3SEVxWW9KdGdzRTloMGVoOUx3QVE4TmlyWWRzUDRWOXFGRGlCaFh0UWU3NWlhVjNsR2ZMb09BZDZKS0JoWVRwTEdWUjZPcHBqLV9Md0RZSF9EMnZfcEo0WTIxMUx4bUtpOEZuRXFhUTlBTFBSdFpWWEMzejNULWpsT1lmSUtrUHh3OXVWX21ySm1jYWZWbTJBYlQ5UVU?oc=5",
           "published": "2026-09-07T07:55:14+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "ING: Türkiye’nin 2027 enflasyon hedefi daha az iddialı hale geldi - ekotürk",
+          "source": "ekotürk",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajhvVTg0WjQwT09uMjdPbi1pWHdlb2ZMWjZwWWlzRnc2OXY5RHJlWHV0aFd4TG9JR3ozNW5Henp4NHpTNmRoSHJzVWg5cHh6SC0teFBLNFNSVnZjYkVVdHRqbXZPaVdGb051S2RybzQteWdDUkpkYkdHcVgwZEFDRmNXX2QyVFlNdUIweEJkMzF4SjM2R05xN1FUZE5HUVh4N2tRRnc3cXM?oc=5",
+          "published": "2026-09-07T07:47:18+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -462,6 +461,11 @@
     {
       "generated": "2026-09-07T21:54:13.830128+00:00",
       "score": 1.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-08T05:35:01.395279+00:00",
+      "score": 1.1,
       "status": "BASELINE"
     }
   ],
