@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-08T05:35:01.395279+00:00",
+    "generated": "2026-09-08T11:57:39.517875+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.1,
-    "raw_score": 1.1,
+    "score": 1.0,
+    "raw_score": 1.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.1/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,26 +113,25 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 10.8,
+      "score": 9.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 162,
-      "matched": 41,
-      "weighted_density": 0.215,
+      "coverage": 166,
+      "matched": 40,
+      "weighted_density": 0.204,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Enflasyon, işsizlik, altın ve döviz... Ekonominin haftalık görünümü açıklandı - kayserihaber.com",
-          "source": "kayserihaber.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45SnFkT1dyRWNWMERXUFhLQTRhb2hVM1ZfNmpnbTU2WXlURnRYbDZNckpPdFgtcjRMcm02MkgzX2t0TFpLU2poc2NMUVg5dXc1RUFZTnhtNjhRMXNMYktRdmVZZGZFTFJ0dWR1T2ZiT2VsbFB4c3c?oc=5",
-          "published": "2026-09-07T12:05:00+00:00",
+          "title": "Türkiye'nin köklü şirketi iflas etti! - babaocagi.com.tr",
+          "source": "babaocagi.com.tr",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hVXJiTHJaTDBPNUpwR1A5MEd5RVRPYU1HMEQxaV9pZTU4WW9kU3FSM09sS09VbS1vQ0VwZUlCaG5tdUJxenlld0NsRVVjMlBOYWxBQURGQlZZTWpoam5xWFB2alVPUXMxQXIxVGVKRVVLZ9IBd0FVX3lxTE5SWE5BM244c0hjVlJwLWt5d2pTT3JJOWNLZVU3TjVESGh4OHY3NnN4TVNPY1dUQjI2RGdxM2JfQlJHWU1vbHhFcEEtMzMtMzRTY095cTUzVXN5MmFlSVRiUktNcW5mTWZWQk9rVHVkTFNnRmcyTksw?oc=5",
+          "published": "2026-09-08T11:51:00+00:00",
           "terms": [
-            "işsizlik",
-            "enflasyon"
+            "iflas"
           ],
-          "weight": 2.3
+          "weight": 2.0
         },
         {
           "title": "Rahmi Aşkın Türeli: \"Türkiye Ekonomik, Sosyal ve Siyasal Bir Kriz İçinde\" - Cumhuriyet Halk Partisi",
@@ -143,6 +142,36 @@
             "kriz"
           ],
           "weight": 2.0
+        },
+        {
+          "title": "Ekonomide ezberler yeniden tartışılıyor! Ekonomist Cüneyt Dirican’dan faiz, enflasyon ve rezerv açıklaması - turkinform.com.tr",
+          "source": "turkinform.com.tr",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT3I4aE5nOFRjQkJFYXdWV2hMN1BUVkJzRjRlcG1HVmRTRUoyNmVLWGZBeGJuaVhFRlh3Qnl4TVJDb2VsX2FCVmc4b3Q4UjBSRlh4Q3JJZGZEQ1FUTmg5U1k2VXRzaG9zX1hrLWF2R2JLWXJyRmFEcWV3SFVZek1rd2JFZUcyRXdxUENOaHpJbmtYSkFuU25fcUhmTkJxSk9xZi1XelgzTk5rZWEtSG9HdVItblR4MDJSSG5jemdzZDJRbTUzQmR6TA?oc=5",
+          "published": "2026-09-08T08:12:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "EİB Koordinatör Başkanı Öztürk: Kur, enflasyon, faizle aynı anda mücadele ediyoruz - Tek Referans",
+          "source": "Tek Referans",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWVDNmZ2QmNnR3p3WU1JUkdrMVlVeEI1bC1PTVl3NjZJeWdxQk12WmZ4UWxLNFFWckhXRlJLYUV1UEhlWUszcWlRQXc2M1AwTWh2YmRUTnV4akE3RGh6QUdHbjZ2eVRpT2tYbHl4SlZNY3V5aENwN01PQW5PeWdyZWZvUjVIdm5ONTdWYjRaTXBqZXN5SmlIdkxGM005cTF5MlYyTlhNaVN0Q001TlZqSUtTME4xN3ZWdmF6Y0tR?oc=5",
+          "published": "2026-09-08T06:38:48+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Orta Vadeli Program'da yıl sonu enflasyon tahmini yükseldi - bloomberght.com",
+          "source": "bloomberght.com",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd2hTM2Q4QzhPMDZXNEpLS0VaTzVmRU01UHJIU2hkeDVuaUFGVWtwZGRLTEpMZ3VyT2xFVWNaeHlnSmxnYXg2aW5OdXFRbEhUay1rQWxLa29JNk53dkJMVmhTTy1WNG9nZm9xU1gwUXRGaUJJUWY2SmlEZlNIVU92d0ozUzFsUQ?oc=5",
+          "published": "2026-09-07T12:18:48+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         },
         {
           "title": "Egeli ihracatçılardan, OVP sonrası dikkat çeken çağrı... \"Enflasyon, faiz ve ve kurla mücadele ediyoruz, önümüze bakalım\" - Son Mühür",
@@ -209,36 +238,6 @@
           "source": "Mynet Finans",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbmdHTVBLTktKOEdUbGxZUWJsZlBfNzh0SW1xQTBsNUtTRTNoaWl6ekI3Mllha3hxc2UxbVI3OXpOZzhUQndiRXZwQjdEQUhKRV9XdFJDcFU2TnZPNFd2elpVN0wzWVZQVDN4d3I2VlVzQkhENGZtMlJuQ1pIZG5yOVk0ak4wU0xTQUhvNEhYRGdrVTZIUmFWZHhZOVkzVldqTTg2clJwcDc2d3lHeEEzYzZZTHBvZ9IBpAFBVV95cUxOenN3c2doOGRKdTNzZlVuUnRaOTZHMXB3R1lVekRzZlMtS00yWEhDenB3WVFJNmUxX25MYUpINXgzUVkyZ0lvR1lCS2dKWEtuLUdzZHA4QTdpTjUtZGF3VnZtcXQzSkFFQnVjTE9mNjZKRjFyTXF4cWkwam03NHVERGRIN0c5VmUza2xvR0xhbzliUEs0M01fYWFGYmgySHB2aXJjVA?oc=5",
           "published": "2026-09-07T06:52:54+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Haftanın gündeminde TCMB ve ABD enflasyon verileri öne çıkıyor - hibya.com",
-          "source": "hibya.com",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUjV1dGdIbS1OWjBYVmRuZVpwSHlWMWFYTEdHOHdLc2hubGswZGhZUF9scDM2Vjd3QW5lNW9ucnBUeUgxdXBRRE1jbzR0ZXk3OHNVWXY4UjhIc2ZrTHMwWEpGNFQtbTZIRXBPSzg2VHF2amhySy1nRl8xUnhUZ2k4WjhVamFFYlR0a2ZRMUZFMUk?oc=5",
-          "published": "2026-09-07T06:35:44+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Türkiye enflasyon tahminini Orta Doğu'daki savaş nedeniyle yüzde 28,4'e yükseltti - Euronews.com",
-          "source": "Euronews.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLTZma01IaFp5cXVvQXdiT2JsbWsyc2ZOOEhzdXFLd0I3S2lIZ01zQVM5QUp4TFBTcVpPZHBmUnRTVFJfWnpMY1FIQ2taSlg3Qk5NOWhjM0pGX1ZlVHN1bVFmLVNtQVZINkgtTzNJdjZHM1QxSF8ybWJDZEZ5cV9BNDFKX2FxQnZaYk9rN1J3R3VmR1U4UHlFODlFNExWOG5FVi1lM1N0cHJLcXdiZzEzZTRiajJHQQ?oc=5",
-          "published": "2026-09-07T06:15:27+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Yeni OVP açıklandı! Enflasyon yüzde 9'a inecek, 2,1 milyon kişiye yeni iş - A Haber",
-          "source": "A Haber",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTERpNkljR2RGaUlKOElKZlFVOVppY2xzQkJYMXdIdlFfVU44QlRaMzFPengzMFdITkZtQlhFTUF3ZWhZUGNKeXp0V2pVN3FCRzh5ZWxkSnRERi1BMXRHdFR2MVZmR21VZ2hzSEJaa2tmUDZyRXAweTRQRGE4YzFRNUlpM2xKemQzd3l5UHVSZGNMby1OSHJUTjJ0Mmw?oc=5",
-          "published": "2026-09-07T04:57:50+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -466,6 +465,11 @@
     {
       "generated": "2026-09-08T05:35:01.395279+00:00",
       "score": 1.1,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-08T11:57:39.517875+00:00",
+      "score": 1.0,
       "status": "BASELINE"
     }
   ],
