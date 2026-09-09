@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-09T05:42:03.583637+00:00",
+    "generated": "2026-09-09T12:08:31.155731+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.9,
-    "raw_score": 0.9,
+    "score": 1.2,
+    "raw_score": 1.2,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.9/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.2/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,16 +113,26 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.7,
+      "score": 12.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 168,
-      "matched": 36,
-      "weighted_density": 0.196,
+      "coverage": 166,
+      "matched": 41,
+      "weighted_density": 0.225,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "YeniŞafak: Yüksek faizle 2.2 milyon şirket iflasa sürükleniyor - gazetememur.com",
+          "source": "gazetememur.com",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQzJuYXpvSWh4MlJlODlBcVMxdTFUVHBpSjZzd2k0TTU1Q2V4aDczdFRpNTNFcUk3cldmNjA0alhyaEM1SXlsNDF1b1JWZHl6ZTNLcDJZWThoT2dBNWM4OTJ2SS1TeENZOXhZRGdyRW02a3l0Nk5rdzVqVF9VcHNMNWsxU3Y2NFhNQWtnaDBTS2FVUC1XSmVZaHNrTERWMUs0aF93b0ZiekhtVU54c3lFMDVyaDMtb2ZrblNwTkVVTW1WVXhBSG9lUlBEeGRMSUNmZ0Z5YmV1MndCQzJtbFVYeU1DWVRtYU1vbDFCamFzSWc?oc=5",
+          "published": "2026-09-09T06:16:24+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "Dövizden vergi alınmıyor: Yüksek faizle 2.2 milyon şirket iflasa sürükleniyor - Yeni Şafak",
           "source": "Yeni Şafak",
@@ -184,8 +194,8 @@
           "weight": 0.8
         },
         {
-          "title": "EİB Koordinatör Başkanı Öztürk: Kur, enflasyon, faizle aynı anda mücadele ediyoruz - tekreferans.com",
-          "source": "tekreferans.com",
+          "title": "EİB Koordinatör Başkanı Öztürk: Kur, enflasyon, faizle aynı anda mücadele ediyoruz - Tek Referans",
+          "source": "Tek Referans",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWVDNmZ2QmNnR3p3WU1JUkdrMVlVeEI1bC1PTVl3NjZJeWdxQk12WmZ4UWxLNFFWckhXRlJLYUV1UEhlWUszcWlRQXc2M1AwTWh2YmRUTnV4akE3RGh6QUdHbjZ2eVRpT2tYbHl4SlZNY3V5aENwN01PQW5PeWdyZWZvUjVIdm5ONTdWYjRaTXBqZXN5SmlIdkxGM005cTF5MlYyTlhNaVN0Q001TlZqSUtTME4xN3ZWdmF6Y0tR?oc=5",
           "published": "2026-09-08T06:38:48+00:00",
           "terms": [
@@ -194,8 +204,8 @@
           "weight": 0.8
         },
         {
-          "title": "Orta Vadeli Program'da yıl sonu enflasyon tahmini yükseldi - Bloomberght",
-          "source": "Bloomberght",
+          "title": "Orta Vadeli Program'da yıl sonu enflasyon tahmini yükseldi - bloomberght.com",
+          "source": "bloomberght.com",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd2hTM2Q4QzhPMDZXNEpLS0VaTzVmRU01UHJIU2hkeDVuaUFGVWtwZGRLTEpMZ3VyT2xFVWNaeHlnSmxnYXg2aW5OdXFRbEhUay1rQWxLa29JNk53dkJMVmhTTy1WNG9nZm9xU1gwUXRGaUJJUWY2SmlEZlNIVU92d0ozUzFsUQ?oc=5",
           "published": "2026-09-07T12:18:48+00:00",
           "terms": [
@@ -204,28 +214,8 @@
           "weight": 0.8
         },
         {
-          "title": "Goldman Sachs: Fed’in faiz kararında enflasyon belirleyici olacak - ticarigm360.com",
-          "source": "ticarigm360.com",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMXdPa1NVS3A2MDRWdHZ6NHhRdTl3VW94WGt2b1JHR0lEYVpJVEdhRWhlN1IzSDBYRTlUN0lzTy1GOVBkdlFUN3RUeExmcGg0R3NYRGZjVXpSRS1NZnptTHRSMm5td3RqbkJNdTUyQXIyWDgxX2pRVkhyRldkVmJUeVVvMDNDTmJtbjUwT3RreGtFTEduYXM4?oc=5",
-          "published": "2026-09-07T08:23:13+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "ING Türkiye'den OVP değerlendirmesi: \"2027'de daha yavaş bir dezenflasyon\" - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc2tPU185a0hoQkhTa0s3SEVxWW9KdGdzRTloMGVoOUx3QVE4TmlyWWRzUDRWOXFGRGlCaFh0UWU3NWlhVjNsR2ZMb09BZDZKS0JoWVRwTEdWUjZPcHBqLV9Md0RZSF9EMnZfcEo0WTIxMUx4bUtpOEZuRXFhUTlBTFBSdFpWWEMzejNULWpsT1lmSUtrUHh3OXVWX21ySm1jYWZWbTJBYlQ5UVU?oc=5",
-          "published": "2026-09-07T07:55:14+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Anket: Türkiye ekonomisinin en önemli sorunları enflasyon, gıda fiyatları ve kiraların yüksekliği - T24",
-          "source": "T24",
+          "title": "Anket: Türkiye ekonomisinin en önemli sorunları enflasyon, gıda fiyatları ve kiraların yüksekliği - t24.com.tr",
+          "source": "t24.com.tr",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdlV0S2ZiaWgxWUhOaUNtbllmWlVicWVOT1JmRzkwUXJqdDJ3cWRBVW9PeUo3Q1pzNmR3Z3FZMURuWnNLOXUtTFNxSEhESXlyNzlveGR1bVRZaUkxVHZIcWM0Y29PX2RHRUJNNGxUd3JCV19sTzMzUGNfUjFNbG5kbWZNbXgxaXFJbTJwMDhLejRDQ0hCRzJLZVFIdTBKRnc2cnhJanpVa292dDdPczJ4cUNESWRueGV1Nm41TWEtM2JTQ045ZzMwMEZR?oc=5",
           "published": "2026-09-07T07:27:00+00:00",
           "terms": [
@@ -238,6 +228,16 @@
           "source": "Mynet",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOenN3c2doOGRKdTNzZlVuUnRaOTZHMXB3R1lVekRzZlMtS00yWEhDenB3WVFJNmUxX25MYUpINXgzUVkyZ0lvR1lCS2dKWEtuLUdzZHA4QTdpTjUtZGF3VnZtcXQzSkFFQnVjTE9mNjZKRjFyTXF4cWkwam03NHVERGRIN0c5VmUza2xvR0xhbzliUEs0M01fYWFGYmgySHB2aXJjVNIBpAFBVV95cUxOenN3c2doOGRKdTNzZlVuUnRaOTZHMXB3R1lVekRzZlMtS00yWEhDenB3WVFJNmUxX25MYUpINXgzUVkyZ0lvR1lCS2dKWEtuLUdzZHA4QTdpTjUtZGF3VnZtcXQzSkFFQnVjTE9mNjZKRjFyTXF4cWkwam03NHVERGRIN0c5VmUza2xvR0xhbzliUEs0M01fYWFGYmgySHB2aXJjVA?oc=5",
           "published": "2026-09-07T06:52:54+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Haftanın gündeminde TCMB ve ABD enflasyon verileri öne çıkıyor - hibya.com",
+          "source": "hibya.com",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUjV1dGdIbS1OWjBYVmRuZVpwSHlWMWFYTEdHOHdLc2hubGswZGhZUF9scDM2Vjd3QW5lNW9ucnBUeUgxdXBRRE1jbzR0ZXk3OHNVWXY4UjhIc2ZrTHMwWEpGNFQtbTZIRXBPSzg2VHF2amhySy1nRl8xUnhUZ2k4WjhVamFFYlR0a2ZRMUZFMUk?oc=5",
+          "published": "2026-09-07T06:35:44+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -485,6 +485,11 @@
     {
       "generated": "2026-09-09T05:42:03.583637+00:00",
       "score": 0.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-09T12:08:31.155731+00:00",
+      "score": 1.2,
       "status": "BASELINE"
     }
   ],
