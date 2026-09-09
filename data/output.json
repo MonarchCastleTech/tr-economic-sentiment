@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-08T21:32:42.837468+00:00",
+    "generated": "2026-09-09T05:42:03.583637+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.8,
-    "raw_score": 0.8,
+    "score": 0.9,
+    "raw_score": 0.9,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.8/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.9/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
+      "coverage": 126,
       "latest_date": "2026-09-08",
       "latest_value": 48.3727,
       "change_5d_pct": 0.38,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 117,
+      "coverage": 116,
       "latest_date": "2026-09-01",
       "latest_value": 4627.1,
       "change_5d_pct": 3.99,
@@ -113,21 +113,31 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.0,
+      "score": 8.7,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 167,
+      "coverage": 168,
       "matched": 36,
-      "weighted_density": 0.19,
+      "weighted_density": 0.196,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Türkiye'nin köklü iplik şirketi iflas etti! Konkordato çözüm olmadı - drttv.com",
-          "source": "drttv.com",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRGZNWWtQZFI2Y05NUkcwZEhweUpiMTVSVGNNbVdIQTZDUzVtZElsTGNGRnZlQmkwZnY1Zk5ELUJNSjJXUGg0amlCZHJvRGM0TTRLWWNhMEZGSjJGY0hPeEpfVVA2R2dqQkV0T0FoY0NINmhITXZkQWZTTUFSaWFGbS1aRS13N1Q5Nlo1UHIySVY?oc=5",
-          "published": "2026-09-08T17:30:00+00:00",
+          "title": "Dövizden vergi alınmıyor: Yüksek faizle 2.2 milyon şirket iflasa sürükleniyor - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNM3lMYjBGdmdYdndvUUJLOFBDVjJ3Q2VXSmRXa2dlUHh5Wi1BcUpERlh1WllsM0FFWVR4TnVZZjJmbGV4dnh0ZkN6WlMxVlVwWmVmRWtEclVyOUlCX0JEZGZtWUpoSXVQWEdjMENVbWZ5NEUtWXBJOXRpaUVaR2t2YlQ4M2E5c1dqSnpUM05PNGFnTG1VS1pTWDc0VkwyY0oybUwycEJ5TEEzbENUQ0JNVXU3ZVZLTExG0gHDAUFVX3lxTE5Na2hlR0p5d280VkYzNDdjTmhfTVdTVmgtSlBUT3ZsZFpuWnMwN05IN0FUQXZfZUI5d1MtYmxwR2lVdEE2YmozZ0NCUV80cnhTSGp0ak9qTWhtdURJQkNkZjhQZWlvek96eEtEaDhveGhTYmhxOWFfOW43UTJSLTJacXdfOVNTRE02RWZUUkpIZmxhUUZiM09wb05RbWl6d3BBRERpM0FISF8wUUtvN0d4RmlJNTNxWFc5NHhfQlNOTGZObw?oc=5",
+          "published": "2026-09-09T01:00:00+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Dövizden vergi alınmıyor: Yüksek faizle 2.2 milyon şirket iflasa sürükleniyor - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTWtoZUdKeXdvNFZGMzQ3Y05oX01XU1ZoLUpQVE92bGRablpzMDdOSDdBVEF2X2VCOXdTLWJscEdpVXRBNmJqM2dDQlFfNHJ4U0hqdGpPak1obXVESUJDZGY4UGVpb3pPenhLRGg4b3hoU2JocTlhXzluN1EyUi0yWnF3XzlTU0RNNkVmVFJKSGZsYVFGYjNPcG9OUW1pendwQUREaTNBSEhfMFFLbzdHeEZpSTUzcVhXOTR4X0JTTkxmTm_SAcMBQVVfeXFMTk1raGVHSnl3bzRWRjM0N2NOaF9NV1NWaC1KUFRPdmxkWm5aczA3Tkg3QVRBdl9lQjl3Uy1ibHBHaVV0QTZiajNnQ0JRXzRyeFNIanRqT2pNaG11RElCQ2RmOFBlaW96T3p4S0RoOG94aFNiaHE5YV85bjdRMlItMlpxd185U1NETTZFZlRSSkhmbGFRRmIzT3BvTlFtaXp3cEFERGkzQUhIXzBRS283R3hGaUk1M3FYVzk0eF9CU05MZk5v?oc=5",
+          "published": "2026-09-09T01:00:00+00:00",
           "terms": [
             "iflas"
           ],
@@ -174,10 +184,20 @@
           "weight": 0.8
         },
         {
-          "title": "EİB Koordinatör Başkanı Öztürk: Kur, enflasyon, faizle aynı anda mücadele ediyoruz - Tek Referans",
-          "source": "Tek Referans",
+          "title": "EİB Koordinatör Başkanı Öztürk: Kur, enflasyon, faizle aynı anda mücadele ediyoruz - tekreferans.com",
+          "source": "tekreferans.com",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWVDNmZ2QmNnR3p3WU1JUkdrMVlVeEI1bC1PTVl3NjZJeWdxQk12WmZ4UWxLNFFWckhXRlJLYUV1UEhlWUszcWlRQXc2M1AwTWh2YmRUTnV4akE3RGh6QUdHbjZ2eVRpT2tYbHl4SlZNY3V5aENwN01PQW5PeWdyZWZvUjVIdm5ONTdWYjRaTXBqZXN5SmlIdkxGM005cTF5MlYyTlhNaVN0Q001TlZqSUtTME4xN3ZWdmF6Y0tR?oc=5",
           "published": "2026-09-08T06:38:48+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Orta Vadeli Program'da yıl sonu enflasyon tahmini yükseldi - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd2hTM2Q4QzhPMDZXNEpLS0VaTzVmRU01UHJIU2hkeDVuaUFGVWtwZGRLTEpMZ3VyT2xFVWNaeHlnSmxnYXg2aW5OdXFRbEhUay1rQWxLa29JNk53dkJMVmhTTy1WNG9nZm9xU1gwUXRGaUJJUWY2SmlEZlNIVU92d0ozUzFsUQ?oc=5",
+          "published": "2026-09-07T12:18:48+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -214,30 +234,10 @@
           "weight": 0.8
         },
         {
-          "title": "Türkiye için kritik enflasyon uyarısı: Goldman Sachs risk gördü - Finans haberlerinin doğru adresi - Mynet Finans Haber - mynet.com",
-          "source": "mynet.com",
+          "title": "Türkiye için kritik enflasyon uyarısı: Goldman Sachs risk gördü - Finans haberlerinin doğru adresi - Mynet Finans Haber - Mynet",
+          "source": "Mynet",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOenN3c2doOGRKdTNzZlVuUnRaOTZHMXB3R1lVekRzZlMtS00yWEhDenB3WVFJNmUxX25MYUpINXgzUVkyZ0lvR1lCS2dKWEtuLUdzZHA4QTdpTjUtZGF3VnZtcXQzSkFFQnVjTE9mNjZKRjFyTXF4cWkwam03NHVERGRIN0c5VmUza2xvR0xhbzliUEs0M01fYWFGYmgySHB2aXJjVNIBpAFBVV95cUxOenN3c2doOGRKdTNzZlVuUnRaOTZHMXB3R1lVekRzZlMtS00yWEhDenB3WVFJNmUxX25MYUpINXgzUVkyZ0lvR1lCS2dKWEtuLUdzZHA4QTdpTjUtZGF3VnZtcXQzSkFFQnVjTE9mNjZKRjFyTXF4cWkwam03NHVERGRIN0c5VmUza2xvR0xhbzliUEs0M01fYWFGYmgySHB2aXJjVA?oc=5",
           "published": "2026-09-07T06:52:54+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Haftanın gündeminde TCMB ve ABD enflasyon verileri öne çıkıyor - hibya.com",
-          "source": "hibya.com",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUjV1dGdIbS1OWjBYVmRuZVpwSHlWMWFYTEdHOHdLc2hubGswZGhZUF9scDM2Vjd3QW5lNW9ucnBUeUgxdXBRRE1jbzR0ZXk3OHNVWXY4UjhIc2ZrTHMwWEpGNFQtbTZIRXBPSzg2VHF2amhySy1nRl8xUnhUZ2k4WjhVamFFYlR0a2ZRMUZFMUk?oc=5",
-          "published": "2026-09-07T06:35:44+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Yeni OVP açıklandı! Enflasyon yüzde 9'a inecek, 2,1 milyon kişiye yeni iş - A Haber",
-          "source": "A Haber",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTERpNkljR2RGaUlKOElKZlFVOVppY2xzQkJYMXdIdlFfVU44QlRaMzFPengzMFdITkZtQlhFTUF3ZWhZUGNKeXp0V2pVN3FCRzh5ZWxkSnRERi1BMXRHdFR2MVZmR21VZ2hzSEJaa2tmUDZyRXAweTRQRGE4YzFRNUlpM2xKemQzd3l5UHVSZGNMby1OSHJUTjJ0Mmw?oc=5",
-          "published": "2026-09-07T04:57:50+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -480,6 +480,11 @@
     {
       "generated": "2026-09-08T21:32:42.837468+00:00",
       "score": 0.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-09T05:42:03.583637+00:00",
+      "score": 0.9,
       "status": "BASELINE"
     }
   ],
