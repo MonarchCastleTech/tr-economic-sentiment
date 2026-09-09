@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-09T17:01:09.640230+00:00",
+    "generated": "2026-09-09T21:29:25.668247+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.1,
-    "raw_score": 1.1,
+    "score": 1.2,
+    "raw_score": 1.2,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.1/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.2/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 11.0,
+      "score": 11.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 166,
-      "matched": 39,
-      "weighted_density": 0.217,
+      "matched": 40,
+      "weighted_density": 0.222,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -174,8 +174,8 @@
           "weight": 2.0
         },
         {
-          "title": "Ekonomide ezberler yeniden tartışılıyor! Ekonomist Cüneyt Dirican’dan faiz, enflasyon ve rezerv açıklaması - Türkinform",
-          "source": "Türkinform",
+          "title": "Ekonomide ezberler yeniden tartışılıyor! Ekonomist Cüneyt Dirican’dan faiz, enflasyon ve rezerv açıklaması - turkinform.com.tr",
+          "source": "turkinform.com.tr",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT3I4aE5nOFRjQkJFYXdWV2hMN1BUVkJzRjRlcG1HVmRTRUoyNmVLWGZBeGJuaVhFRlh3Qnl4TVJDb2VsX2FCVmc4b3Q4UjBSRlh4Q3JJZGZEQ1FUTmg5U1k2VXRzaG9zX1hrLWF2R2JLWXJyRmFEcWV3SFVZek1rd2JFZUcyRXdxUENOaHpJbmtYSkFuU25fcUhmTkJxSk9xZi1XelgzTk5rZWEtSG9HdVItblR4MDJSSG5jemdzZDJRbTUzQmR6TA?oc=5",
           "published": "2026-09-08T08:12:00+00:00",
           "terms": [
@@ -184,8 +184,8 @@
           "weight": 0.8
         },
         {
-          "title": "TEPAV: Enflasyon katı, faiz indirimi için erken - paratic.com",
-          "source": "paratic.com",
+          "title": "TEPAV: Enflasyon katı, faiz indirimi için erken - Paratic Haber",
+          "source": "Paratic Haber",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yc1V2dFFSWXBrRWR4SHBqTHVjT1RBUzVtVWV5ejM5dGU4YUQ3dDhXb1VzT0RHQUUtMUU4TnBDU19iTjlwU0JpLTNqMGEtUjIxdjJJbWVVcGtQb1hYX25sN1Fka3JZNHA1aVJXblVGZk5IUnNY?oc=5",
           "published": "2026-09-08T08:03:32+00:00",
           "terms": [
@@ -495,6 +495,11 @@
     {
       "generated": "2026-09-09T17:01:09.640230+00:00",
       "score": 1.1,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-09T21:29:25.668247+00:00",
+      "score": 1.2,
       "status": "BASELINE"
     }
   ],
