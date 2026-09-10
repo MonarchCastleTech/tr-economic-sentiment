@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-10T05:34:30.806652+00:00",
+    "generated": "2026-09-10T12:02:29.905322+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.4,
-    "raw_score": 1.4,
+    "score": 1.0,
+    "raw_score": 1.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.4/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 13.8,
+      "score": 9.9,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 165,
-      "matched": 43,
-      "weighted_density": 0.241,
+      "matched": 35,
+      "weighted_density": 0.207,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -184,30 +184,21 @@
           "weight": 2.0
         },
         {
-          "title": "Altın yatırımcısı cuma gününü bekliyor; ABD enflasyon verisi yönü belirleyebilir! - T24",
-          "source": "T24",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSU5uYXJFbjBKUnJqSEZicDRuRGdCNW9URVpuN2o0WTBpVUpETFRRRnE5cWNkWDRDX1NGdXJnVVFTSEdvLWMtdzMzVHE4dkVQTjZfYzA2WjVTQ0RILTlDSDFRNDRuN0dWc09pR0J3ZlA2WVVqUi1XeWZTQUJzTHJRU2lOaC1xSHg3bHFCbjNOMTBHWFEwX3l3bVd6VnZOZWpab3VyaFVOSG44ODBQU0dVYkt3SnI?oc=5",
-          "published": "2026-09-09T04:33:00+00:00",
+          "title": "ABD ENFLASYON RAKAMLARI NE ZAMAN, SAAT KAÇTA AÇIKLANACAK? 10 Eylül ABD üretici fiyat endeksi (ÜFE) verisi - CNN Türk",
+          "source": "CNN Türk",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLUJvWG9jM1BjUkxfSDhOQnI3bUZ1TF90b3NPWFBnaXFCT3BaeDFYT0RHSHZZQzk0U3NiQnBjUXdoNUg0bGtTbHNTd0tqdDBHbm9XOF9PVnVDSzlnd0ZWSThHMkRwcG1vM0lZQkc4LTR0VFU0TFBtN3YwM3F5RV9tZ2tuMFZ2WGxEME1IMmQ5VEVpcTkwZHRYNGQ5bVAxZG53S2V6RllIbjRnZFJMOV9pUzBpZkVkWFp5RUMwaVRPaGFRSV84RnhpQlZCTkJsMy1ONTRmLVdCV2w?oc=5",
+          "published": "2026-09-10T10:40:00+00:00",
           "terms": [
+            "zam",
             "enflasyon"
           ],
-          "weight": 0.8
+          "weight": 1.4
         },
         {
           "title": "Ekonomide ezberler yeniden tartışılıyor! Ekonomist Cüneyt Dirican’dan faiz, enflasyon ve rezerv açıklaması - Türkinform",
           "source": "Türkinform",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT3I4aE5nOFRjQkJFYXdWV2hMN1BUVkJzRjRlcG1HVmRTRUoyNmVLWGZBeGJuaVhFRlh3Qnl4TVJDb2VsX2FCVmc4b3Q4UjBSRlh4Q3JJZGZEQ1FUTmg5U1k2VXRzaG9zX1hrLWF2R2JLWXJyRmFEcWV3SFVZek1rd2JFZUcyRXdxUENOaHpJbmtYSkFuU25fcUhmTkJxSk9xZi1XelgzTk5rZWEtSG9HdVItblR4MDJSSG5jemdzZDJRbTUzQmR6TA?oc=5",
           "published": "2026-09-08T08:12:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "EİB Koordinatör Başkanı Öztürk: Kur, enflasyon, faizle aynı anda mücadele ediyoruz - Tek Referans",
-          "source": "Tek Referans",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWVDNmZ2QmNnR3p3WU1JUkdrMVlVeEI1bC1PTVl3NjZJeWdxQk12WmZ4UWxLNFFWckhXRlJLYUV1UEhlWUszcWlRQXc2M1AwTWh2YmRUTnV4akE3RGh6QUdHbjZ2eVRpT2tYbHl4SlZNY3V5aENwN01PQW5PeWdyZWZvUjVIdm5ONTdWYjRaTXBqZXN5SmlIdkxGM005cTF5MlYyTlhNaVN0Q001TlZqSUtTME4xN3ZWdmF6Y0tR?oc=5",
-          "published": "2026-09-08T06:38:48+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -234,10 +225,20 @@
           "weight": 0.8
         },
         {
-          "title": "Anket: Türkiye ekonomisinin en önemli sorunları enflasyon, gıda fiyatları ve kiraların yüksekliği - T24",
-          "source": "T24",
+          "title": "Anket: Türkiye ekonomisinin en önemli sorunları enflasyon, gıda fiyatları ve kiraların yüksekliği - t24.com.tr",
+          "source": "t24.com.tr",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdlV0S2ZiaWgxWUhOaUNtbllmWlVicWVOT1JmRzkwUXJqdDJ3cWRBVW9PeUo3Q1pzNmR3Z3FZMURuWnNLOXUtTFNxSEhESXlyNzlveGR1bVRZaUkxVHZIcWM0Y29PX2RHRUJNNGxUd3JCV19sTzMzUGNfUjFNbG5kbWZNbXgxaXFJbTJwMDhLejRDQ0hCRzJLZVFIdTBKRnc2cnhJanpVa292dDdPczJ4cUNESWRueGV1Nm41TWEtM2JTQ045ZzMwMEZR?oc=5",
           "published": "2026-09-07T07:27:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Türkiye için kritik enflasyon uyarısı: Goldman Sachs risk gördü - Finans haberlerinin doğru adresi - Mynet Finans Haber - Mynet",
+          "source": "Mynet",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOenN3c2doOGRKdTNzZlVuUnRaOTZHMXB3R1lVekRzZlMtS00yWEhDenB3WVFJNmUxX25MYUpINXgzUVkyZ0lvR1lCS2dKWEtuLUdzZHA4QTdpTjUtZGF3VnZtcXQzSkFFQnVjTE9mNjZKRjFyTXF4cWkwam03NHVERGRIN0c5VmUza2xvR0xhbzliUEs0M01fYWFGYmgySHB2aXJjVNIBpAFBVV95cUxOenN3c2doOGRKdTNzZlVuUnRaOTZHMXB3R1lVekRzZlMtS00yWEhDenB3WVFJNmUxX25MYUpINXgzUVkyZ0lvR1lCS2dKWEtuLUdzZHA4QTdpTjUtZGF3VnZtcXQzSkFFQnVjTE9mNjZKRjFyTXF4cWkwam03NHVERGRIN0c5VmUza2xvR0xhbzliUEs0M01fYWFGYmgySHB2aXJjVA?oc=5",
+          "published": "2026-09-07T06:52:54+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -505,6 +506,11 @@
     {
       "generated": "2026-09-10T05:34:30.806652+00:00",
       "score": 1.4,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-10T12:02:29.905322+00:00",
+      "score": 1.0,
       "status": "BASELINE"
     }
   ],
