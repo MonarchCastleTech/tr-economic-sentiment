@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-09T21:29:25.668247+00:00",
+    "generated": "2026-09-10T05:34:30.806652+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.2,
-    "raw_score": 1.2,
+    "score": 1.4,
+    "raw_score": 1.4,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.2/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.4/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
+      "coverage": 126,
       "latest_date": "2026-09-09",
       "latest_value": 48.3905,
       "change_5d_pct": 0.38,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 116,
+      "coverage": 115,
       "latest_date": "2026-09-01",
       "latest_value": 4627.1,
       "change_5d_pct": 3.99,
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 11.6,
+      "score": 13.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 166,
-      "matched": 40,
-      "weighted_density": 0.222,
+      "coverage": 165,
+      "matched": 43,
+      "weighted_density": 0.241,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -128,6 +128,16 @@
           "source": "gazetememur.com",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQzJuYXpvSWh4MlJlODlBcVMxdTFUVHBpSjZzd2k0TTU1Q2V4aDczdFRpNTNFcUk3cldmNjA0alhyaEM1SXlsNDF1b1JWZHl6ZTNLcDJZWThoT2dBNWM4OTJ2SS1TeENZOXhZRGdyRW02a3l0Nk5rdzVqVF9VcHNMNWsxU3Y2NFhNQWtnaDBTS2FVUC1XSmVZaHNrTERWMUs0aF93b0ZiekhtVU54c3lFMDVyaDMtb2ZrblNwTkVVTW1WVXhBSG9lUlBEeGRMSUNmZ0Z5YmV1MndCQzJtbFVYeU1DWVRtYU1vbDFCamFzSWc?oc=5",
           "published": "2026-09-09T06:16:24+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Yeni Şafak'tan eleştirmeye devam ediyor: Mehmet Şimşek yüksek faizle 2.2 milyon şirketi iflasa sürükleniyor - El-Aziz Gazetesi",
+          "source": "El-Aziz Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOU0J5T25leWdyV3F1SlJnbmhFcmF4Z1RXZ0M2SjRndmd0WFZIcm9NOHBTSG1ZYlFIZEdBUTVQT29UWmotaW9HN01wUFhxVGxSd2Z1S1hIeXdpWVlrZkM1N2V3YmV4eGxqdlBiWmpONHFBc0dCTGk5WmxHVTlrSXdhSFlkUloxTF9HSDc2QVV2TDFiejR5V2R0V2V5TnZOdV8wTno4U1lFTVZpblE3cWZLTnUzdmh4SjQ2UU9LOGwxd1U3N0t2eE9jUmRKa0FJc01QbVJfRlRn0gHbAUFVX3lxTE1GNkpON0lwTnN0ZTYzVngzZDRyN3UzbWZKcWZaQzA2QlpvRDByNTJaTWhzVDdTMFRwb0Z4dW9WcGRFZzROYnJiSW0xbnE3bmRVa25hNmh2ZUpkSnd3bkg1Q2pudWJ5TGpmVVNfS0lUbjl4Q05QLUlHem9lckh6Sll1RFU4bjNjRXFCOWRkYjNwbzNMZ0FNbTk2Vm1sRHdFZ00ybDRkUEFSOHdIWl9haDV4T0syU3RVZmk2bEl3UkgtbV9PUGlEOTM3R05CVVZ2Zm9mVEdnVXNZM0lMRQ?oc=5",
+          "published": "2026-09-09T06:02:00+00:00",
           "terms": [
             "iflas"
           ],
@@ -174,20 +184,20 @@
           "weight": 2.0
         },
         {
-          "title": "Ekonomide ezberler yeniden tartışılıyor! Ekonomist Cüneyt Dirican’dan faiz, enflasyon ve rezerv açıklaması - turkinform.com.tr",
-          "source": "turkinform.com.tr",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT3I4aE5nOFRjQkJFYXdWV2hMN1BUVkJzRjRlcG1HVmRTRUoyNmVLWGZBeGJuaVhFRlh3Qnl4TVJDb2VsX2FCVmc4b3Q4UjBSRlh4Q3JJZGZEQ1FUTmg5U1k2VXRzaG9zX1hrLWF2R2JLWXJyRmFEcWV3SFVZek1rd2JFZUcyRXdxUENOaHpJbmtYSkFuU25fcUhmTkJxSk9xZi1XelgzTk5rZWEtSG9HdVItblR4MDJSSG5jemdzZDJRbTUzQmR6TA?oc=5",
-          "published": "2026-09-08T08:12:00+00:00",
+          "title": "Altın yatırımcısı cuma gününü bekliyor; ABD enflasyon verisi yönü belirleyebilir! - T24",
+          "source": "T24",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSU5uYXJFbjBKUnJqSEZicDRuRGdCNW9URVpuN2o0WTBpVUpETFRRRnE5cWNkWDRDX1NGdXJnVVFTSEdvLWMtdzMzVHE4dkVQTjZfYzA2WjVTQ0RILTlDSDFRNDRuN0dWc09pR0J3ZlA2WVVqUi1XeWZTQUJzTHJRU2lOaC1xSHg3bHFCbjNOMTBHWFEwX3l3bVd6VnZOZWpab3VyaFVOSG44ODBQU0dVYkt3SnI?oc=5",
+          "published": "2026-09-09T04:33:00+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "TEPAV: Enflasyon katı, faiz indirimi için erken - Paratic Haber",
-          "source": "Paratic Haber",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yc1V2dFFSWXBrRWR4SHBqTHVjT1RBUzVtVWV5ejM5dGU4YUQ3dDhXb1VzT0RHQUUtMUU4TnBDU19iTjlwU0JpLTNqMGEtUjIxdjJJbWVVcGtQb1hYX25sN1Fka3JZNHA1aVJXblVGZk5IUnNY?oc=5",
-          "published": "2026-09-08T08:03:32+00:00",
+          "title": "Ekonomide ezberler yeniden tartışılıyor! Ekonomist Cüneyt Dirican’dan faiz, enflasyon ve rezerv açıklaması - Türkinform",
+          "source": "Türkinform",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT3I4aE5nOFRjQkJFYXdWV2hMN1BUVkJzRjRlcG1HVmRTRUoyNmVLWGZBeGJuaVhFRlh3Qnl4TVJDb2VsX2FCVmc4b3Q4UjBSRlh4Q3JJZGZEQ1FUTmg5U1k2VXRzaG9zX1hrLWF2R2JLWXJyRmFEcWV3SFVZek1rd2JFZUcyRXdxUENOaHpJbmtYSkFuU25fcUhmTkJxSk9xZi1XelgzTk5rZWEtSG9HdVItblR4MDJSSG5jemdzZDJRbTUzQmR6TA?oc=5",
+          "published": "2026-09-08T08:12:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -228,16 +238,6 @@
           "source": "T24",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdlV0S2ZiaWgxWUhOaUNtbllmWlVicWVOT1JmRzkwUXJqdDJ3cWRBVW9PeUo3Q1pzNmR3Z3FZMURuWnNLOXUtTFNxSEhESXlyNzlveGR1bVRZaUkxVHZIcWM0Y29PX2RHRUJNNGxUd3JCV19sTzMzUGNfUjFNbG5kbWZNbXgxaXFJbTJwMDhLejRDQ0hCRzJLZVFIdTBKRnc2cnhJanpVa292dDdPczJ4cUNESWRueGV1Nm41TWEtM2JTQ045ZzMwMEZR?oc=5",
           "published": "2026-09-07T07:27:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Türkiye için kritik enflasyon uyarısı: Goldman Sachs risk gördü - Finans haberlerinin doğru adresi - Mynet Finans Haber - Mynet",
-          "source": "Mynet",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOenN3c2doOGRKdTNzZlVuUnRaOTZHMXB3R1lVekRzZlMtS00yWEhDenB3WVFJNmUxX25MYUpINXgzUVkyZ0lvR1lCS2dKWEtuLUdzZHA4QTdpTjUtZGF3VnZtcXQzSkFFQnVjTE9mNjZKRjFyTXF4cWkwam03NHVERGRIN0c5VmUza2xvR0xhbzliUEs0M01fYWFGYmgySHB2aXJjVNIBpAFBVV95cUxOenN3c2doOGRKdTNzZlVuUnRaOTZHMXB3R1lVekRzZlMtS00yWEhDenB3WVFJNmUxX25MYUpINXgzUVkyZ0lvR1lCS2dKWEtuLUdzZHA4QTdpTjUtZGF3VnZtcXQzSkFFQnVjTE9mNjZKRjFyTXF4cWkwam03NHVERGRIN0c5VmUza2xvR0xhbzliUEs0M01fYWFGYmgySHB2aXJjVA?oc=5",
-          "published": "2026-09-07T06:52:54+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -500,6 +500,11 @@
     {
       "generated": "2026-09-09T21:29:25.668247+00:00",
       "score": 1.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-10T05:34:30.806652+00:00",
+      "score": 1.4,
       "status": "BASELINE"
     }
   ],
