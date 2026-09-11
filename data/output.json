@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-11T12:00:24.139915+00:00",
+    "generated": "2026-09-11T16:54:15.458938+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,34 +11,34 @@
     "source_notes": []
   },
   "warning": {
-    "score": 6.4,
-    "raw_score": 6.4,
+    "score": 25.6,
+    "raw_score": 25.6,
     "concurrence_bonus": 0.0,
-    "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 6.4/100.",
+    "status": "WATCH",
+    "headline": "Türkiye economic-strain pressure is watch at 25.6/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 0.0,
-      "status": "BASELINE",
+      "score": 65.0,
+      "status": "HIGH",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "latest_date": "2026-09-10",
-      "latest_value": 48.4069,
-      "change_5d_pct": 0.38,
-      "return_z": -0.16,
+      "coverage": 127,
+      "latest_date": "2026-09-11",
+      "latest_value": 48.4305,
+      "change_5d_pct": 0.41,
+      "return_z": 3.1,
       "volatility_20d": 0.07,
-      "volatility_z": -0.23,
+      "volatility_z": -0.15,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.4069,
-          "date": "2026-09-10",
+          "value": 48.4305,
+          "date": "2026-09-11",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -113,26 +113,16 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 10.7,
+      "score": 7.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 157,
-      "matched": 32,
-      "weighted_density": 0.214,
+      "coverage": 154,
+      "matched": 29,
+      "weighted_density": 0.187,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
-        {
-          "title": "YeniŞafak: Yüksek faizle 2.2 milyon şirket iflasa sürükleniyor - gazetememur.com",
-          "source": "gazetememur.com",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQzJuYXpvSWh4MlJlODlBcVMxdTFUVHBpSjZzd2k0TTU1Q2V4aDczdFRpNTNFcUk3cldmNjA0alhyaEM1SXlsNDF1b1JWZHl6ZTNLcDJZWThoT2dBNWM4OTJ2SS1TeENZOXhZRGdyRW02a3l0Nk5rdzVqVF9VcHNMNWsxU3Y2NFhNQWtnaDBTS2FVUC1XSmVZaHNrTERWMUs0aF93b0ZiekhtVU54c3lFMDVyaDMtb2ZrblNwTkVVTW1WVXhBSG9lUlBEeGRMSUNmZ0Z5YmV1MndCQzJtbFVYeU1DWVRtYU1vbDFCamFzSWc?oc=5",
-          "published": "2026-09-09T06:16:24+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
         {
           "title": "Yeni Şafak'tan eleştirmeye devam ediyor: Mehmet Şimşek yüksek faizle 2.2 milyon şirketi iflasa sürükleniyor - El-Aziz Gazetesi",
           "source": "El-Aziz Gazetesi",
@@ -158,16 +148,6 @@
           "source": "Yeni Şafak",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTWtoZUdKeXdvNFZGMzQ3Y05oX01XU1ZoLUpQVE92bGRablpzMDdOSDdBVEF2X2VCOXdTLWJscEdpVXRBNmJqM2dDQlFfNHJ4U0hqdGpPak1obXVESUJDZGY4UGVpb3pPenhLRGg4b3hoU2JocTlhXzluN1EyUi0yWnF3XzlTU0RNNkVmVFJKSGZsYVFGYjNPcG9OUW1pendwQUREaTNBSEhfMFFLbzdHeEZpSTUzcVhXOTR4X0JTTkxmTm_SAcMBQVVfeXFMTk1raGVHSnl3bzRWRjM0N2NOaF9NV1NWaC1KUFRPdmxkWm5aczA3Tkg3QVRBdl9lQjl3Uy1ibHBHaVV0QTZiajNnQ0JRXzRyeFNIanRqT2pNaG11RElCQ2RmOFBlaW96T3p4S0RoOG94aFNiaHE5YV85bjdRMlItMlpxd185U1NETTZFZlRSSkhmbGFRRmIzT3BvTlFtaXp3cEFERGkzQUhIXzBRS283R3hGaUk1M3FYVzk0eF9CU05MZk5v?oc=5",
           "published": "2026-09-09T01:00:00+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye'nin köklü şirketi iflas etti! - babaocagi.com.tr",
-          "source": "babaocagi.com.tr",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5SWE5BM244c0hjVlJwLWt5d2pTT3JJOWNLZVU3TjVESGh4OHY3NnN4TVNPY1dUQjI2RGdxM2JfQlJHWU1vbHhFcEEtMzMtMzRTY095cTUzVXN5MmFlSVRiUktNcW5mTWZWQk9rVHVkTFNnRmcyTksw0gF3QVVfeXFMTlJYTkEzbjhzSGNWUnAta3l3alNPckk5Y0tlVTdONURIaHg4djc2c3hNU09jV1RCMjZEZ3EzYl9CUkdZTW9seEVwQS0zMy0zNFNjT3lxNTNVc3kyYWVJVGJSS01xbmZNZlZCT2tUdWRMU2dGZzJOSzA?oc=5",
-          "published": "2026-09-08T11:51:00+00:00",
           "terms": [
             "iflas"
           ],
@@ -205,6 +185,26 @@
           "weight": 1.4
         },
         {
+          "title": "TCMB anketi açıklandı: Yıl sonu enflasyon beklentisi OVP’yi geçti - takagazete.com.tr",
+          "source": "takagazete.com.tr",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVnY1Y2JGWUpoS0Z3V1BEdkJEbktGZXRGVGQ3MEk4Z2MwbVBQMDZYYmJTenJzSENKNEh4SnZfbHh6bGRBclp2ZGJIcTc1SlJpX3M5U1didU9XYkZQSXE2UmhralVKSENEak42TVU5c2I5WW9NYldFT2RtZnVPcngzSTRCNWNjNGgyOVV1aU5rS2d6ZV9uODNLNQ?oc=5",
+          "published": "2026-09-11T12:32:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Merkez Bankası Anketi Açıklandı: Yıl Sonu Dolar ve Enflasyon Beklentisi Değişti - Para Durumu",
+          "source": "Para Durumu",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMnZnaE5mMmlfNFI1TmxHMjc3dl85NGg5V3JYT3U0TWZQSW80eW93LVQ0bHpYdFh0WXJ6T25iMUlSWkdFSHhwcnA0VE1zdDNzc2hSdF9IUk9wVWJ4MmJ6MWlzd1NnbTcxTFBaa0Z4bzRGVktZeTd3NUJMLUNScnJ4R1pBLVR3TnB2UGpPLURidmpVOU10d0h5SUNEcmV5VHh3LUNXeDBUcG9rUXZScVVwT3dqZFhhVGpDWHFF0gHAAUFVX3lxTE0zVWVibGx6cXhHczdFeXh6MS1nRVhNXzRGbGhaaUVnanNzYjF0RXRlamlSWndPejJSY0x5OWQwdW9wOHViSmZfaS1jMXF0UDI5UVV3MFhLd21lREFiVjRaWXNhS0d0SzJxQjQ3dnlLdEFUeHQtb3dzenhHNGF2NVVqX0dlRDVPSGtuNWFBRHJuZ242Z1ZRUUFrUTd5QXA0RUpnTDU4X3lzbjZDc3d3cUItZWhCOGtCdWMtRUJiQmU0dw?oc=5",
+          "published": "2026-09-11T10:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Deutsche Bank’tan Türkiye ekonomisi için faiz ve enflasyon öngörüsü - Paratic Haber",
           "source": "Paratic Haber",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdUJWS1NXdVRuZzU0ek05V2dvZEpFMEFjMWl2WEJLTjVsQ2cxQ3NVYTdPUXdhLVB4Vmx5c0FfenJtN2wwMjBveEVteWZBX1lYdVJtSzBfcE1Qb2RodlVfR0dsVnNYUHloQWpDMzIybFR6RTkxRHhvLVhXTExIdEhGdExaN0JRNGpRaGhSTmVMOTY?oc=5",
@@ -218,17 +218,7 @@
           "title": "İKİ BANKADAN FAİZ VE ENFLASYON TAHMİNİ - Analiz Gazetesi",
           "source": "Analiz Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdmxvUkxkM0NxR3gzbXZaOU9sWnFzRlhKbVZxQjJHb2hlR1p2ZWN3Sk5Nb0lvcUVBY1V0X0lMZ1V1UTdxa1NaNVc2N0xaRWVZUVhLUy1CZ3ZBMnZNbVN0WjJ1bjZUNWVwdzJaRzFhMk5VTHotRmlsN0U2Wk84TXlWb3ZDeWtDVU0?oc=5",
-          "published": "2026-09-11T08:31:49+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Deutsche Bank'tan, enflasyon ve TCMB faiz tahmini - borsagundem.com.tr",
-          "source": "borsagundem.com.tr",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNczVaN180bXR3ZkFWVXY2a0hpRXNSeVQ4b2JWSWxndUllcFJyXzVjVVVTNk9EVkMxU1o0Q0xqRWROUEdmWWo3bGRpLV9UcDRzZ3BFV1d3b3hIMzMxLThGZjhqRG90TlU5c2hLQ0EySnFJWFU3RzZIZkJYTXR6WmtyVWk1Snk?oc=5",
-          "published": "2026-09-11T08:06:00+00:00",
+          "published": "2026-09-11T08:32:06+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -239,6 +229,16 @@
           "source": "Kamudanhaber",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeUIwbmRIX1JLcmNrb29XXzY1NkprYkRnZ1Z1MHdXRno2VGJSVEdrOHhKWGIyUlBkVTdEVGZTUU96Tkl1SWJ3WUJBNXl5NzJoc3JCY2gwWjl4VXlTQ3JaYjVLaFRWZE9Ha2ZDTk1xNm9QYVBMTDhJY2VjUUhqbDByY0JwbUlVaHJEckVjT3A3ZTh4T0k?oc=5",
           "published": "2026-09-11T08:02:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "TCBM anketi yayınlandı! Yıl sonu dolar ve enflasyon tahmini değişti - Türkiye Gazetesi",
+          "source": "Türkiye Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbUQ0c21TdEVHaUZEajMyWGdCVGo4U3JLaHMzTXpYd2s3eEFzZktOZU9obWVyNEJzbER2WDVPVU9mb0UxZ2RLZFdYalpmVENSZi01YkJVdE82NDNZNVptYWxVZ1ZhX2VrRHFjREh3eWc1a0N2U2R0SDdXb3YxMkx6R3g1cWFkcEpFNnNVUnBNRVNpaExoOXBQMWZwVVZfNDc4SzNyR1JJSWFnSXMydEhjckNER1E1VnJyWF9ndzRFUmNzQTIw?oc=5",
+          "published": "2026-09-11T07:57:50+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -532,6 +532,11 @@
       "generated": "2026-09-11T12:00:24.139915+00:00",
       "score": 6.4,
       "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-11T16:54:15.458938+00:00",
+      "score": 25.6,
+      "status": "WATCH"
     }
   ],
   "sources": [
