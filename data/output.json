@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-12T05:23:11.415720+00:00",
+    "generated": "2026-09-12T11:27:04.806078+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 25.7,
-    "raw_score": 25.7,
+    "score": 25.6,
+    "raw_score": 25.6,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 25.7/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 25.6/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,31 +113,31 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.9,
+      "score": 8.1,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 156,
       "matched": 32,
-      "weighted_density": 0.199,
+      "weighted_density": 0.191,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Yeni Şafak'tan eleştirmeye devam ediyor: Mehmet Şimşek yüksek faizle 2.2 milyon şirketi iflasa sürükleniyor - El-Aziz Gazetesi",
-          "source": "El-Aziz Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOU0J5T25leWdyV3F1SlJnbmhFcmF4Z1RXZ0M2SjRndmd0WFZIcm9NOHBTSG1ZYlFIZEdBUTVQT29UWmotaW9HN01wUFhxVGxSd2Z1S1hIeXdpWVlrZkM1N2V3YmV4eGxqdlBiWmpONHFBc0dCTGk5WmxHVTlrSXdhSFlkUloxTF9HSDc2QVV2TDFiejR5V2R0V2V5TnZOdV8wTno4U1lFTVZpblE3cWZLTnUzdmh4SjQ2UU9LOGwxd1U3N0t2eE9jUmRKa0FJc01QbVJfRlRn0gHbAUFVX3lxTE1GNkpON0lwTnN0ZTYzVngzZDRyN3UzbWZKcWZaQzA2QlpvRDByNTJaTWhzVDdTMFRwb0Z4dW9WcGRFZzROYnJiSW0xbnE3bmRVa25hNmh2ZUpkSnd3bkg1Q2pudWJ5TGpmVVNfS0lUbjl4Q05QLUlHem9lckh6Sll1RFU4bjNjRXFCOWRkYjNwbzNMZ0FNbTk2Vm1sRHdFZ00ybDRkUEFSOHdIWl9haDV4T0syU3RVZmk2bEl3UkgtbV9PUGlEOTM3R05CVVZ2Zm9mVEdnVXNZM0lMRQ?oc=5",
-          "published": "2026-09-09T06:02:00+00:00",
+          "title": "Yeni Şafak'tan iktidara ekonomi eleştirisi: 'Şirketler yüksek faizle iflasa sürükleniyor' - notbir.com.tr",
+          "source": "notbir.com.tr",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNjFQN3B4MUlvTG1ycmU3SXpCc0dIVnFJckkzZFowVTVEWlR1UzIzajNfYUFXeTNZdldFM3I2ald3dkRteEZkUlc0WG5pTXQ2WXpCeUMxSDB5elkyWFRWSmlrWkdPOFROQjl0SUVPeGNXQklGbXRYNFNkRDM5QU9YMnVCVUkzZDZaQ3dWb21CYkhzQ1RCTXoxclZBTk9zT2docklYWlBkN3hqQTNjeTU0SmFvNTRxNzA?oc=5",
+          "published": "2026-09-09T08:51:56+00:00",
           "terms": [
             "iflas"
           ],
           "weight": 2.0
         },
         {
-          "title": "YeniŞafak: Yüksek faizle 2.2 milyon şirket iflasa sürükleniyor - gazetememur.com",
-          "source": "gazetememur.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUm80blBLQUhyaXpSUWNTQVdzMVc1QXF4V3VGWEgzb2h1ODh4dTRhZlIzaVZkWmU2NFV2Xy1nb2VJaV91OUUtd2t3LVE2Ym5qd2s0Y25MN05vS0QtT0FlVTFROG5MU3JEbTExTHJlTVhWLWtBd0RsV3Z0d09jSjZxeWVFS1dCMWJPVk0yZ05pOS1tODlQR0F0UUFxNFN3X2xsbkt1eHRWeHlBX0dBN0E3UXFraUFHUQ?oc=5",
-          "published": "2026-09-09T06:01:36+00:00",
+          "title": "Yeni Şafak'tan eleştirmeye devam ediyor: Mehmet Şimşek yüksek faizle 2.2 milyon şirketi iflasa sürükleniyor - El-Aziz Gazetesi",
+          "source": "El-Aziz Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOU0J5T25leWdyV3F1SlJnbmhFcmF4Z1RXZ0M2SjRndmd0WFZIcm9NOHBTSG1ZYlFIZEdBUTVQT29UWmotaW9HN01wUFhxVGxSd2Z1S1hIeXdpWVlrZkM1N2V3YmV4eGxqdlBiWmpONHFBc0dCTGk5WmxHVTlrSXdhSFlkUloxTF9HSDc2QVV2TDFiejR5V2R0V2V5TnZOdV8wTno4U1lFTVZpblE3cWZLTnUzdmh4SjQ2UU9LOGwxd1U3N0t2eE9jUmRKa0FJc01QbVJfRlRn0gHbAUFVX3lxTE1GNkpON0lwTnN0ZTYzVngzZDRyN3UzbWZKcWZaQzA2QlpvRDByNTJaTWhzVDdTMFRwb0Z4dW9WcGRFZzROYnJiSW0xbnE3bmRVa25hNmh2ZUpkSnd3bkg1Q2pudWJ5TGpmVVNfS0lUbjl4Q05QLUlHem9lckh6Sll1RFU4bjNjRXFCOWRkYjNwbzNMZ0FNbTk2Vm1sRHdFZ00ybDRkUEFSOHdIWl9haDV4T0syU3RVZmk2bEl3UkgtbV9PUGlEOTM3R05CVVZ2Zm9mVEdnVXNZM0lMRQ?oc=5",
+          "published": "2026-09-09T06:02:00+00:00",
           "terms": [
             "iflas"
           ],
@@ -154,18 +154,8 @@
           "weight": 2.0
         },
         {
-          "title": "Uluslararası sertifikalı Türk tekstil şirketi iflas etti! - Sözcü Gazetesi",
-          "source": "Sözcü Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVFNhY2lBVVhSY3pTRVRnTXhIaUQwYjA0aFJOaEFqbERjTmVGVHdPUFpCQkFyTUVNZ091dndPc2pRSGd2ajJmczVqV0tRM05tRVlrWi1lX1lwLVdkc2V2VXkzZEZhVVkzandfN1lWYWEyd2U0S2lwY09NWHZ1QVJaU0hsRFdnOTBsYl9fT0JKdjlWbFk?oc=5",
-          "published": "2026-09-08T07:33:00+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Rahmi Aşkın Türeli: \"Türkiye Ekonomik, Sosyal ve Siyasal Bir Kriz İçinde\" - chp.org.tr",
-          "source": "chp.org.tr",
+          "title": "Rahmi Aşkın Türeli: \"Türkiye Ekonomik, Sosyal ve Siyasal Bir Kriz İçinde\" - Cumhuriyet Halk Partisi",
+          "source": "Cumhuriyet Halk Partisi",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1FKTUFtU0k1bFA1Mlp1NFRDTjBLSHZXR1diRnRQUEFodVpDRnBmZmpNbXpxZDZpVkdzbTdnMV92VkljVnN3WVRmMDRBRmFLRHVNNUc3SWIxcVByUlp0NE9PZDNEV1RkYWJublJxWHl3S2VCakFJWTBWUGxjY1c0MUVPdmZoQ1AxZTBrckdpOWZMbTBoNWtXNTBVMFE?oc=5",
           "published": "2026-09-07T13:28:51+00:00",
           "terms": [
@@ -174,8 +164,8 @@
           "weight": 2.0
         },
         {
-          "title": "ABD ENFLASYON RAKAMLARI NE ZAMAN, SAAT KAÇTA AÇIKLANACAK? 10 Eylül ABD üretici fiyat endeksi (ÜFE) verisi - CNN Türk",
-          "source": "CNN Türk",
+          "title": "ABD ENFLASYON RAKAMLARI NE ZAMAN, SAAT KAÇTA AÇIKLANACAK? 10 Eylül ABD üretici fiyat endeksi (ÜFE) verisi - cnnturk.com",
+          "source": "cnnturk.com",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLUJvWG9jM1BjUkxfSDhOQnI3bUZ1TF90b3NPWFBnaXFCT3BaeDFYT0RHSHZZQzk0U3NiQnBjUXdoNUg0bGtTbHNTd0tqdDBHbm9XOF9PVnVDSzlnd0ZWSThHMkRwcG1vM0lZQkc4LTR0VFU0TFBtN3YwM3F5RV9tZ2tuMFZ2WGxEME1IMmQ5VEVpcTkwZHRYNGQ5bVAxZG53S2V6RllIbjRnZFJMOV9pUzBpZkVkWFp5RUMwaVRPaGFRSV84RnhpQlZCTkJsMy1ONTRmLVdCV2w?oc=5",
           "published": "2026-09-10T12:11:00+00:00",
           "terms": [
@@ -185,10 +175,40 @@
           "weight": 1.4
         },
         {
-          "title": "TCMB Başkanı Karahan'dan enflasyon ve faiz mesajı - cnbce.com",
-          "source": "cnbce.com",
+          "title": "Ekonomi Gündeminde Faiz, Enflasyon ve Cari Denge Öne Çıktı - RayHaber",
+          "source": "RayHaber",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbDRhdlFtdDZIQk94NjZzNE5BWjVVRVJENVNiMGkzdzBsTVRCcWw0NWhNSUdCU0MxRHBjYi1oMVNCMXByV3pmU1ZjRGYxbUY3b3pQOE9kNU8zMHYwUUU3cTg0YmxHVm9ZeDYzaTdjTjJWb2FmSkV1VU9KVVNrZm81VmVnSER6YTFKak9aVGk2cDk?oc=5",
+          "published": "2026-09-12T10:53:27+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Karahan'dan dikkat çeken enflasyon ve faiz mesajı: İhtiyatlı yaklaşım sürecek - Sabah",
+          "source": "Sabah",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUhMMWZQb3RYVXJCaldfeGVjRk03MXhQeXFPSGNDTUozdEhTMmFfQ3o0aHV4RHdHemlCekZoT25mT19DTTVhTmg1TWZFa09tWDVGUmJvbDFlVzFRU1NveFhITDItYXdxbXlEMm1zQTNyc0JHZmJTMFR5WjFYVXItNGRZRnhicUYyNEg3ZERuQTR0VWE0UWhvZGoyMUtPYWNmM29qaERZdWI2UWp6N0NNcHV5YjRMUmM?oc=5",
+          "published": "2026-09-12T06:23:07+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "TCMB Başkanı Karahan'dan enflasyon ve faiz mesajı - CNBC-e",
+          "source": "CNBC-e",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcWdiXzdqRER5Vm1JZTFFM0I0aXl1anFEWWdWTVJiWjF1RmppVjJpMEpSUkZaQ003Q1ZiazlkZEZJQzJrMWNOcjliN09DQlZjTi1hdHAyVkoyeHA2QUdJMG9aZjFlNWhfU0tOZ2NzS2I1RFY3anByWW13dHlNOXhZQjF1YWM3anlVS1kybDdzZjM3ejFXR3V3Y3k4SEpyWDdPbndiWkdhSmxHNkQ1Wk0wQUZhVmtFMERwZmNVU0xYSXlyT2t0X3FVdlhIOFdkTlpBTkJyUEJlTHZKUQ?oc=5",
           "published": "2026-09-11T18:37:01+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "ABD'de enflasyon ağustosta aylık yüzde 0,4 arttı - CNN Türk Finans",
+          "source": "CNN Türk Finans",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc25NLTItbTNGNEZOcENVaEV4S0lYQ2laM1h1VDBNbThfYXo4S2ZYOXdmTS1OZVFubmgzQnpoWm1OUXVUZDNIUnhsRVhQNHl3Q2FyRXdPeXNuOWFtR0h0ZGZ1OVpQaUk2WUZGRnRtbF9rQmZ0dE5CcUNvZVlsbjczR0dtcjhlMHFIcW9zbkwwNDlDMWd2YjAxdWphMXVUalU?oc=5",
+          "published": "2026-09-11T13:15:03+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -223,36 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "İKİ BANKADAN FAİZ VE ENFLASYON TAHMİNİ - Analiz Gazetesi",
-          "source": "Analiz Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdmxvUkxkM0NxR3gzbXZaOU9sWnFzRlhKbVZxQjJHb2hlR1p2ZWN3Sk5Nb0lvcUVBY1V0X0lMZ1V1UTdxa1NaNVc2N0xaRWVZUVhLUy1CZ3ZBMnZNbVN0WjJ1bjZUNWVwdzJaRzFhMk5VTHotRmlsN0U2Wk84TXlWb3ZDeWtDVU0?oc=5",
-          "published": "2026-09-11T08:32:06+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "TCMB anketi yayımlandı: Enflasyon ve dolar beklentisi değişti - kamudanhaber.net",
-          "source": "kamudanhaber.net",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeUIwbmRIX1JLcmNrb29XXzY1NkprYkRnZ1Z1MHdXRno2VGJSVEdrOHhKWGIyUlBkVTdEVGZTUU96Tkl1SWJ3WUJBNXl5NzJoc3JCY2gwWjl4VXlTQ3JaYjVLaFRWZE9Ha2ZDTk1xNm9QYVBMTDhJY2VjUUhqbDByY0JwbUlVaHJEckVjT3A3ZTh4T0k?oc=5",
-          "published": "2026-09-11T08:02:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-08-27T23:26:55.498704+00:00",
-      "score": 0.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-08-27T23:35:18.659270+00:00",
       "score": 0.1,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-09-12T05:23:11.415720+00:00",
       "score": 25.7,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-09-12T11:27:04.806078+00:00",
+      "score": 25.6,
       "status": "WATCH"
     }
   ],
