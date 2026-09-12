@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-12T15:58:39.150938+00:00",
+    "generated": "2026-09-12T21:11:35.639161+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 25.6,
-    "raw_score": 25.6,
+    "score": 25.7,
+    "raw_score": 25.7,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 25.6/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 25.7/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,19 +113,19 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.4,
+      "score": 8.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 156,
-      "matched": 31,
-      "weighted_density": 0.194,
+      "coverage": 158,
+      "matched": 32,
+      "weighted_density": 0.197,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Yeni Şafak'tan iktidara ekonomi eleştirisi: 'Şirketler yüksek faizle iflasa sürükleniyor' - notbir.com.tr",
-          "source": "notbir.com.tr",
+          "title": "Yeni Şafak'tan iktidara ekonomi eleştirisi: 'Şirketler yüksek faizle iflasa sürükleniyor' - Notbir",
+          "source": "Notbir",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNjFQN3B4MUlvTG1ycmU3SXpCc0dIVnFJckkzZFowVTVEWlR1UzIzajNfYUFXeTNZdldFM3I2ald3dkRteEZkUlc0WG5pTXQ2WXpCeUMxSDB5elkyWFRWSmlrWkdPOFROQjl0SUVPeGNXQklGbXRYNFNkRDM5QU9YMnVCVUkzZDZaQ3dWb21CYkhzQ1RCTXoxclZBTk9zT2docklYWlBkN3hqQTNjeTU0SmFvNTRxNzA?oc=5",
           "published": "2026-09-09T08:51:56+00:00",
           "terms": [
@@ -164,8 +164,8 @@
           "weight": 2.0
         },
         {
-          "title": "Rahmi Aşkın Türeli: \"Türkiye Ekonomik, Sosyal ve Siyasal Bir Kriz İçinde\" - Cumhuriyet Halk Partisi",
-          "source": "Cumhuriyet Halk Partisi",
+          "title": "Rahmi Aşkın Türeli: \"Türkiye Ekonomik, Sosyal ve Siyasal Bir Kriz İçinde\" - chp.org.tr",
+          "source": "chp.org.tr",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1FKTUFtU0k1bFA1Mlp1NFRDTjBLSHZXR1diRnRQUEFodVpDRnBmZmpNbXpxZDZpVkdzbTdnMV92VkljVnN3WVRmMDRBRmFLRHVNNUc3SWIxcVByUlp0NE9PZDNEV1RkYWJublJxWHl3S2VCakFJWTBWUGxjY1c0MUVPdmZoQ1AxZTBrckdpOWZMbTBoNWtXNTBVMFE?oc=5",
           "published": "2026-09-07T13:28:51+00:00",
           "terms": [
@@ -248,11 +248,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-08-27T23:36:43.345951+00:00",
-      "score": 0.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-08-27T23:38:50.150156+00:00",
       "score": 0.1,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-09-12T15:58:39.150938+00:00",
       "score": 25.6,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-09-12T21:11:35.639161+00:00",
+      "score": 25.7,
       "status": "WATCH"
     }
   ],
