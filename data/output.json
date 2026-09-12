@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-12T11:27:04.806078+00:00",
+    "generated": "2026-09-12T15:58:39.150938+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.1,
+      "score": 8.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 156,
-      "matched": 32,
-      "weighted_density": 0.191,
+      "matched": 31,
+      "weighted_density": 0.194,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -138,6 +138,16 @@
           "source": "El-Aziz Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOU0J5T25leWdyV3F1SlJnbmhFcmF4Z1RXZ0M2SjRndmd0WFZIcm9NOHBTSG1ZYlFIZEdBUTVQT29UWmotaW9HN01wUFhxVGxSd2Z1S1hIeXdpWVlrZkM1N2V3YmV4eGxqdlBiWmpONHFBc0dCTGk5WmxHVTlrSXdhSFlkUloxTF9HSDc2QVV2TDFiejR5V2R0V2V5TnZOdV8wTno4U1lFTVZpblE3cWZLTnUzdmh4SjQ2UU9LOGwxd1U3N0t2eE9jUmRKa0FJc01QbVJfRlRn0gHbAUFVX3lxTE1GNkpON0lwTnN0ZTYzVngzZDRyN3UzbWZKcWZaQzA2QlpvRDByNTJaTWhzVDdTMFRwb0Z4dW9WcGRFZzROYnJiSW0xbnE3bmRVa25hNmh2ZUpkSnd3bkg1Q2pudWJ5TGpmVVNfS0lUbjl4Q05QLUlHem9lckh6Sll1RFU4bjNjRXFCOWRkYjNwbzNMZ0FNbTk2Vm1sRHdFZ00ybDRkUEFSOHdIWl9haDV4T0syU3RVZmk2bEl3UkgtbV9PUGlEOTM3R05CVVZ2Zm9mVEdnVXNZM0lMRQ?oc=5",
           "published": "2026-09-09T06:02:00+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "YeniŞafak: Yüksek faizle 2.2 milyon şirket iflasa sürükleniyor - gazetememur.com",
+          "source": "gazetememur.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUm80blBLQUhyaXpSUWNTQVdzMVc1QXF4V3VGWEgzb2h1ODh4dTRhZlIzaVZkWmU2NFV2Xy1nb2VJaV91OUUtd2t3LVE2Ym5qd2s0Y25MN05vS0QtT0FlVTFROG5MU3JEbTExTHJlTVhWLWtBd0RsV3Z0d09jSjZxeWVFS1dCMWJPVk0yZ05pOS1tODlQR0F0UUFxNFN3X2xsbkt1eHRWeHlBX0dBN0E3UXFraUFHUQ?oc=5",
+          "published": "2026-09-09T06:01:36+00:00",
           "terms": [
             "iflas"
           ],
@@ -164,8 +174,8 @@
           "weight": 2.0
         },
         {
-          "title": "ABD ENFLASYON RAKAMLARI NE ZAMAN, SAAT KAÇTA AÇIKLANACAK? 10 Eylül ABD üretici fiyat endeksi (ÜFE) verisi - cnnturk.com",
-          "source": "cnnturk.com",
+          "title": "ABD ENFLASYON RAKAMLARI NE ZAMAN, SAAT KAÇTA AÇIKLANACAK? 10 Eylül ABD üretici fiyat endeksi (ÜFE) verisi - CNN Türk",
+          "source": "CNN Türk",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLUJvWG9jM1BjUkxfSDhOQnI3bUZ1TF90b3NPWFBnaXFCT3BaeDFYT0RHSHZZQzk0U3NiQnBjUXdoNUg0bGtTbHNTd0tqdDBHbm9XOF9PVnVDSzlnd0ZWSThHMkRwcG1vM0lZQkc4LTR0VFU0TFBtN3YwM3F5RV9tZ2tuMFZ2WGxEME1IMmQ5VEVpcTkwZHRYNGQ5bVAxZG53S2V6RllIbjRnZFJMOV9pUzBpZkVkWFp5RUMwaVRPaGFRSV84RnhpQlZCTkJsMy1ONTRmLVdCV2w?oc=5",
           "published": "2026-09-10T12:11:00+00:00",
           "terms": [
@@ -175,10 +185,10 @@
           "weight": 1.4
         },
         {
-          "title": "Ekonomi Gündeminde Faiz, Enflasyon ve Cari Denge Öne Çıktı - RayHaber",
-          "source": "RayHaber",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbDRhdlFtdDZIQk94NjZzNE5BWjVVRVJENVNiMGkzdzBsTVRCcWw0NWhNSUdCU0MxRHBjYi1oMVNCMXByV3pmU1ZjRGYxbUY3b3pQOE9kNU8zMHYwUUU3cTg0YmxHVm9ZeDYzaTdjTjJWb2FmSkV1VU9KVVNrZm81VmVnSER6YTFKak9aVGk2cDk?oc=5",
-          "published": "2026-09-12T10:53:27+00:00",
+          "title": "Dolar ve Enflasyon İçin Yeni Rakamlar Açıklandı: Yıl Sonu Beklentisi Değişti - siirthaberci.com",
+          "source": "siirthaberci.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMzIxb0dBclp1Ym5PMmxUMWNyejlnWEJIaS1oc1VtMTJ4WXQzUnRFU1V6bXFIZE9wdDFMZGJ0VXI0WGc2QlAwOGxXN3AzLTkxLXBmOEF2TVMyU1lQOTJPY3V4dmMxY2h0U2JJM2JoZTM3Y2RjWHFNQkVIb0MyanRiT2tKcWZTY0tCV0RpeThYbUUtTlB1QVRIWHVjT2JEcWJTVTI0OVZuLUpKRFlvaDFGdTB1bEtZNGdu?oc=5",
+          "published": "2026-09-12T08:13:06+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -233,26 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "Deutsche Bank’tan Türkiye ekonomisi için faiz ve enflasyon öngörüsü - Paratic Haber",
-          "source": "Paratic Haber",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdUJWS1NXdVRuZzU0ek05V2dvZEpFMEFjMWl2WEJLTjVsQ2cxQ3NVYTdPUXdhLVB4Vmx5c0FfenJtN2wwMjBveEVteWZBX1lYdVJtSzBfcE1Qb2RodlVfR0dsVnNYUHloQWpDMzIybFR6RTkxRHhvLVhXTExIdEhGdExaN0JRNGpRaGhSTmVMOTY?oc=5",
-          "published": "2026-09-11T08:45:24+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-08-27T23:35:18.659270+00:00",
-      "score": 0.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-08-27T23:36:43.345951+00:00",
       "score": 0.1,
@@ -545,6 +540,11 @@
     },
     {
       "generated": "2026-09-12T11:27:04.806078+00:00",
+      "score": 25.6,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-09-12T15:58:39.150938+00:00",
       "score": 25.6,
       "status": "WATCH"
     }
