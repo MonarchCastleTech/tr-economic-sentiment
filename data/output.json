@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-13T12:31:36.070261+00:00",
+    "generated": "2026-09-13T16:48:57.872774+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 25.6,
-    "raw_score": 25.6,
+    "score": 25.5,
+    "raw_score": 25.5,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 25.6/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 25.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 7.9,
+      "score": 7.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 158,
-      "matched": 32,
-      "weighted_density": 0.19,
+      "coverage": 159,
+      "matched": 31,
+      "weighted_density": 0.184,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -134,8 +134,8 @@
           "weight": 2.0
         },
         {
-          "title": "Yeni Şafak'tan eleştirmeye devam ediyor: Mehmet Şimşek yüksek faizle 2.2 milyon şirketi iflasa sürükleniyor - El-Aziz Gazetesi",
-          "source": "El-Aziz Gazetesi",
+          "title": "Yeni Şafak'tan eleştirmeye devam ediyor: Mehmet Şimşek yüksek faizle 2.2 milyon şirketi iflasa sürükleniyor - el-aziz.com",
+          "source": "el-aziz.com",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOU0J5T25leWdyV3F1SlJnbmhFcmF4Z1RXZ0M2SjRndmd0WFZIcm9NOHBTSG1ZYlFIZEdBUTVQT29UWmotaW9HN01wUFhxVGxSd2Z1S1hIeXdpWVlrZkM1N2V3YmV4eGxqdlBiWmpONHFBc0dCTGk5WmxHVTlrSXdhSFlkUloxTF9HSDc2QVV2TDFiejR5V2R0V2V5TnZOdV8wTno4U1lFTVZpblE3cWZLTnUzdmh4SjQ2UU9LOGwxd1U3N0t2eE9jUmRKa0FJc01QbVJfRlRn0gHbAUFVX3lxTE1GNkpON0lwTnN0ZTYzVngzZDRyN3UzbWZKcWZaQzA2QlpvRDByNTJaTWhzVDdTMFRwb0Z4dW9WcGRFZzROYnJiSW0xbnE3bmRVa25hNmh2ZUpkSnd3bkg1Q2pudWJ5TGpmVVNfS0lUbjl4Q05QLUlHem9lckh6Sll1RFU4bjNjRXFCOWRkYjNwbzNMZ0FNbTk2Vm1sRHdFZ00ybDRkUEFSOHdIWl9haDV4T0syU3RVZmk2bEl3UkgtbV9PUGlEOTM3R05CVVZ2Zm9mVEdnVXNZM0lMRQ?oc=5",
           "published": "2026-09-09T06:02:00+00:00",
           "terms": [
@@ -185,10 +185,30 @@
           "weight": 0.8
         },
         {
+          "title": "TCMB Başkanı Karahan: Enflasyonun ana eğilimindeki yavaşlama sürüyor - Haber 7",
+          "source": "Haber 7",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVExPMkc5eE9OQTZnR3IwRWpaTnhWYy1mZjZuWVpRc1BjZTJfc05FMVVUNDlWdV85X1lHTElfRF9kRWh1dWFrNnpBbllCMkVXUG9OeUhtb2k1bWxGZmJMQ2JCUXZVNXJab19BT0duZlNwYmtOR2s5M2pWc2hUZzdZbW9mLThKRzhNLW44Qk5Zc00wTHZRNElHMk1NV18tRTJZWHZwMDVjdkdUdzRla1pfVlBlaDc2c03SAboBQVVfeXFMTVZiQW1LRjdESEJBRkp2cXhGWERxRE5ydm5Ka29qd203anNacXpaWEpzOENOT2ZOd1dYb3VUZlI2TjdWQmdpVjd3QjJjVTFGc3BNT3pjLWJCN2d5NGhtRnptanFqZmNkeUpFd2Ftck1UM1lKUlFSVWFRcEpFSlRQYVFMQ0pLUWhva1UzZDRWd204V1FETWtucUZnb2VZbHUycWRzaHBDMHBWRUh1N29JVjQzSHZQMFJZR2dB?oc=5",
+          "published": "2026-09-12T06:33:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Karahan'dan dikkat çeken enflasyon ve faiz mesajı: İhtiyatlı yaklaşım sürecek - Sabah",
           "source": "Sabah",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUhMMWZQb3RYVXJCaldfeGVjRk03MXhQeXFPSGNDTUozdEhTMmFfQ3o0aHV4RHdHemlCekZoT25mT19DTTVhTmg1TWZFa09tWDVGUmJvbDFlVzFRU1NveFhITDItYXdxbXlEMm1zQTNyc0JHZmJTMFR5WjFYVXItNGRZRnhicUYyNEg3ZERuQTR0VWE0UWhvZGoyMUtPYWNmM29qaERZdWI2UWp6N0NNcHV5YjRMUmM?oc=5",
           "published": "2026-09-12T06:23:07+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "TCMB yıl sonu enflasyon beklentisi yüzde 29,61 - Erzurum Gazetesi",
+          "source": "Erzurum Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbHN0SVhRR090T1VJanZrcmh3YS13ektRNUVGYTVsMGtoSlRVb2hscklVc21MZkRxNWE5RDdWcXRhTXR2dkE1UEIycEZIcTdIOWszeW9CLTBuanRUYXo5TE9ESFc4Y0Y2X3UxdzhKNlZNdjhJVW5ycW1DWmhtNDFrMDlnRlB4VVR5ZzVHWlBEcG9lWFE5OWRYc2dn?oc=5",
+          "published": "2026-09-11T23:09:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -223,36 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "Merkez Bankası Anketi Açıklandı: Yıl Sonu Dolar ve Enflasyon Beklentisi Değişti - Para Durumu",
-          "source": "Para Durumu",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMnZnaE5mMmlfNFI1TmxHMjc3dl85NGg5V3JYT3U0TWZQSW80eW93LVQ0bHpYdFh0WXJ6T25iMUlSWkdFSHhwcnA0VE1zdDNzc2hSdF9IUk9wVWJ4MmJ6MWlzd1NnbTcxTFBaa0Z4bzRGVktZeTd3NUJMLUNScnJ4R1pBLVR3TnB2UGpPLURidmpVOU10d0h5SUNEcmV5VHh3LUNXeDBUcG9rUXZScVVwT3dqZFhhVGpDWHFF0gHAAUFVX3lxTE0zVWVibGx6cXhHczdFeXh6MS1nRVhNXzRGbGhaaUVnanNzYjF0RXRlamlSWndPejJSY0x5OWQwdW9wOHViSmZfaS1jMXF0UDI5UVV3MFhLd21lREFiVjRaWXNhS0d0SzJxQjQ3dnlLdEFUeHQtb3dzenhHNGF2NVVqX0dlRDVPSGtuNWFBRHJuZ242Z1ZRUUFrUTd5QXA0RUpnTDU4X3lzbjZDc3d3cUItZWhCOGtCdWMtRUJiQmU0dw?oc=5",
-          "published": "2026-09-11T10:00:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Deutsche Bank’tan Türkiye ekonomisi için faiz ve enflasyon öngörüsü - Paratic Haber",
-          "source": "Paratic Haber",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdUJWS1NXdVRuZzU0ek05V2dvZEpFMEFjMWl2WEJLTjVsQ2cxQ3NVYTdPUXdhLVB4Vmx5c0FfenJtN2wwMjBveEVteWZBX1lYdVJtSzBfcE1Qb2RodlVfR0dsVnNYUHloQWpDMzIybFR6RTkxRHhvLVhXTExIdEhGdExaN0JRNGpRaGhSTmVMOTY?oc=5",
-          "published": "2026-09-11T08:45:24+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-08-28T22:52:28.033575+00:00",
-      "score": 11.0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-08-29T07:39:02.932537+00:00",
       "score": 10.9,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-09-13T12:31:36.070261+00:00",
       "score": 25.6,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-09-13T16:48:57.872774+00:00",
+      "score": 25.5,
       "status": "WATCH"
     }
   ],
