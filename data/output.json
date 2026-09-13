@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-12T21:11:35.639161+00:00",
+    "generated": "2026-09-13T05:38:37.277033+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 25.7,
-    "raw_score": 25.7,
+    "score": 25.9,
+    "raw_score": 25.9,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 25.7/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 25.9/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
+      "coverage": 125,
       "latest_date": "2026-09-11",
       "latest_value": 48.4305,
       "change_5d_pct": 0.41,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 119,
+      "coverage": 118,
       "latest_date": "2026-09-09",
       "latest_value": 5299.2,
       "change_5d_pct": 12.64,
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.8,
+      "score": 10.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 158,
-      "matched": 32,
-      "weighted_density": 0.197,
+      "matched": 35,
+      "weighted_density": 0.213,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -164,8 +164,8 @@
           "weight": 2.0
         },
         {
-          "title": "Rahmi Aşkın Türeli: \"Türkiye Ekonomik, Sosyal ve Siyasal Bir Kriz İçinde\" - chp.org.tr",
-          "source": "chp.org.tr",
+          "title": "Rahmi Aşkın Türeli: \"Türkiye Ekonomik, Sosyal ve Siyasal Bir Kriz İçinde\" - Cumhuriyet Halk Partisi",
+          "source": "Cumhuriyet Halk Partisi",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ1FKTUFtU0k1bFA1Mlp1NFRDTjBLSHZXR1diRnRQUEFodVpDRnBmZmpNbXpxZDZpVkdzbTdnMV92VkljVnN3WVRmMDRBRmFLRHVNNUc3SWIxcVByUlp0NE9PZDNEV1RkYWJublJxWHl3S2VCakFJWTBWUGxjY1c0MUVPdmZoQ1AxZTBrckdpOWZMbTBoNWtXNTBVMFE?oc=5",
           "published": "2026-09-07T13:28:51+00:00",
           "terms": [
@@ -205,8 +205,8 @@
           "weight": 0.8
         },
         {
-          "title": "TCMB Başkanı Karahan'dan enflasyon ve faiz mesajı - CNBC-e",
-          "source": "CNBC-e",
+          "title": "TCMB Başkanı Karahan'dan enflasyon ve faiz mesajı - cnbce.com",
+          "source": "cnbce.com",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcWdiXzdqRER5Vm1JZTFFM0I0aXl1anFEWWdWTVJiWjF1RmppVjJpMEpSUkZaQ003Q1ZiazlkZEZJQzJrMWNOcjliN09DQlZjTi1hdHAyVkoyeHA2QUdJMG9aZjFlNWhfU0tOZ2NzS2I1RFY3anByWW13dHlNOXhZQjF1YWM3anlVS1kybDdzZjM3ejFXR3V3Y3k4SEpyWDdPbndiWkdhSmxHNkQ1Wk0wQUZhVmtFMERwZmNVU0xYSXlyT2t0X3FVdlhIOFdkTlpBTkJyUEJlTHZKUQ?oc=5",
           "published": "2026-09-11T18:37:01+00:00",
           "terms": [
@@ -248,11 +248,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-08-27T23:38:50.150156+00:00",
-      "score": 0.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-08-28T12:28:46.762090+00:00",
       "score": 0.4,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-09-12T21:11:35.639161+00:00",
       "score": 25.7,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-09-13T05:38:37.277033+00:00",
+      "score": 25.9,
       "status": "WATCH"
     }
   ],
