@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-15T05:47:14.743799+00:00",
+    "generated": "2026-09-15T12:26:53.126829+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 8.4,
-    "raw_score": 8.4,
+    "score": 8.6,
+    "raw_score": 8.6,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 8.4/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 8.6/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,19 +113,19 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 3.1,
+      "score": 4.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 168,
-      "matched": 26,
-      "weighted_density": 0.148,
+      "matched": 28,
+      "weighted_density": 0.161,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Yeni Şafak'tan iktidara ekonomi eleştirisi: 'Şirketler yüksek faizle iflasa sürükleniyor' - notbir.com.tr",
-          "source": "notbir.com.tr",
+          "title": "Yeni Şafak'tan iktidara ekonomi eleştirisi: 'Şirketler yüksek faizle iflasa sürükleniyor' - Notbir",
+          "source": "Notbir",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNjFQN3B4MUlvTG1ycmU3SXpCc0dIVnFJckkzZFowVTVEWlR1UzIzajNfYUFXeTNZdldFM3I2ald3dkRteEZkUlc0WG5pTXQ2WXpCeUMxSDB5elkyWFRWSmlrWkdPOFROQjl0SUVPeGNXQklGbXRYNFNkRDM5QU9YMnVCVUkzZDZaQ3dWb21CYkhzQ1RCTXoxclZBTk9zT2docklYWlBkN3hqQTNjeTU0SmFvNTRxNzA?oc=5",
           "published": "2026-09-09T08:51:56+00:00",
           "terms": [
@@ -162,6 +162,17 @@
             "iflas"
           ],
           "weight": 2.0
+        },
+        {
+          "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVWJyRE9SbEplZUN0RmwzNkFFYTZNNVg3UW5Hd0prbVF0ZHNpdFFpX1dpSEFTbURIUkY1QUE4LU9KV2lWX0thVWZIaFRuV3pnNlJnWldMNG1HMjhrTVJBLW1oRVVwUTFMZl9HOUJpT1RPa1Z6RzV4U2I1UEZoMW5ucEYyLTVaWnNUdFlOYXp0LXJaSDY5MzRkdUZIa283SG5iQndwb0xyeUlCM2lrc3dZc3JCYUo?oc=5",
+          "published": "2026-09-15T08:48:00+00:00",
+          "terms": [
+            "zam",
+            "faiz artışı"
+          ],
+          "weight": 1.6
         },
         {
           "title": "ABD ENFLASYON RAKAMLARI NE ZAMAN, SAAT KAÇTA AÇIKLANACAK? 10 Eylül ABD üretici fiyat endeksi (ÜFE) verisi - CNN Türk",
@@ -215,16 +226,6 @@
           "weight": 0.8
         },
         {
-          "title": "TCMB Başkanı Karahan'dan enflasyon mesajı - Doviz.com",
-          "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeWE3VklOSmpIOTBQZUxFSHd0RkRsQ21wYTg0YV83NVhjNHhFb005SnJkdGhGVnp5NTFoTmxzbjR5TGNJYm8tUmNPMDIyakFwdFpYZkFkS2VEQTZKTzN2Yk9kNjZZWlhzbDJEUnNoZzgyVTVfaU96bVFpNGtlR0ZFcTNGTWhCQzVONlFQa29RUWlSWEHSAZsBQVVfeXFMT091YUwzTm04RVl6bDdJTTNpemhOLVFLRl9aaWVCNjd5c3pRdWdINllXNDB4cE9QWFFsM255cldmaEsxNk5GX3FjSmhWZFBpWUR0QlJuRXRWOGIwYUtSNnJkSFluVHR0aVBpb0hxRzdNQ09BaVZEZ0hacFFHUnBxOENLQnpZMW9CYlNPWEtlUm9zZ3g0ajNRWXpSSG8?oc=5",
-          "published": "2026-09-12T06:46:48+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "Karahan'dan dikkat çeken enflasyon ve faiz mesajı: İhtiyatlı yaklaşım sürecek - Sabah",
           "source": "Sabah",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUhMMWZQb3RYVXJCaldfeGVjRk03MXhQeXFPSGNDTUozdEhTMmFfQ3o0aHV4RHdHemlCekZoT25mT19DTTVhTmg1TWZFa09tWDVGUmJvbDFlVzFRU1NveFhITDItYXdxbXlEMm1zQTNyc0JHZmJTMFR5WjFYVXItNGRZRnhicUYyNEg3ZERuQTR0VWE0UWhvZGoyMUtPYWNmM29qaERZdWI2UWp6N0NNcHV5YjRMUmM?oc=5",
@@ -248,11 +249,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-08-30T17:11:34.718957+00:00",
-      "score": 10.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-08-30T21:49:36.663543+00:00",
       "score": 10.9,
@@ -546,6 +542,11 @@
     {
       "generated": "2026-09-15T05:47:14.743799+00:00",
       "score": 8.4,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-15T12:26:53.126829+00:00",
+      "score": 8.6,
       "status": "BASELINE"
     }
   ],
