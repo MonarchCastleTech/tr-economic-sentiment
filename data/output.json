@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-15T21:54:28.725197+00:00",
+    "generated": "2026-09-16T05:37:13.209642+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 6.2,
-    "raw_score": 6.2,
+    "score": 6.0,
+    "raw_score": 6.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 6.2/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 6.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
+      "coverage": 126,
       "latest_date": "2026-09-15",
       "latest_value": 48.5585,
       "change_5d_pct": 0.38,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 118,
+      "coverage": 117,
       "latest_date": "2026-09-09",
       "latest_value": 5299.2,
       "change_5d_pct": 12.64,
@@ -113,19 +113,19 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 5.3,
+      "score": 2.9,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 169,
-      "matched": 29,
-      "weighted_density": 0.167,
+      "coverage": 168,
+      "matched": 26,
+      "weighted_density": 0.145,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Yeni Şafak'tan iktidara ekonomi eleştirisi: 'Şirketler yüksek faizle iflasa sürükleniyor' - Notbir",
-          "source": "Notbir",
+          "title": "Yeni Şafak'tan iktidara ekonomi eleştirisi: 'Şirketler yüksek faizle iflasa sürükleniyor' - notbir.com.tr",
+          "source": "notbir.com.tr",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNjFQN3B4MUlvTG1ycmU3SXpCc0dIVnFJckkzZFowVTVEWlR1UzIzajNfYUFXeTNZdldFM3I2ald3dkRteEZkUlc0WG5pTXQ2WXpCeUMxSDB5elkyWFRWSmlrWkdPOFROQjl0SUVPeGNXQklGbXRYNFNkRDM5QU9YMnVCVUkzZDZaQ3dWb21CYkhzQ1RCTXoxclZBTk9zT2docklYWlBkN3hqQTNjeTU0SmFvNTRxNzA?oc=5",
           "published": "2026-09-09T08:51:56+00:00",
           "terms": [
@@ -154,16 +154,6 @@
           "weight": 2.0
         },
         {
-          "title": "Dövizden vergi alınmıyor: Yüksek faizle 2.2 milyon şirket iflasa sürükleniyor - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNM3lMYjBGdmdYdndvUUJLOFBDVjJ3Q2VXSmRXa2dlUHh5Wi1BcUpERlh1WllsM0FFWVR4TnVZZjJmbGV4dnh0ZkN6WlMxVlVwWmVmRWtEclVyOUlCX0JEZGZtWUpoSXVQWEdjMENVbWZ5NEUtWXBJOXRpaUVaR2t2YlQ4M2E5c1dqSnpUM05PNGFnTG1VS1pTWDc0VkwyY0oybUwycEJ5TEEzbENUQ0JNVXU3ZVZLTExG0gHDAUFVX3lxTE5Na2hlR0p5d280VkYzNDdjTmhfTVdTVmgtSlBUT3ZsZFpuWnMwN05IN0FUQXZfZUI5d1MtYmxwR2lVdEE2YmozZ0NCUV80cnhTSGp0ak9qTWhtdURJQkNkZjhQZWlvek96eEtEaDhveGhTYmhxOWFfOW43UTJSLTJacXdfOVNTRE02RWZUUkpIZmxhUUZiM09wb05RbWl6d3BBRERpM0FISF8wUUtvN0d4RmlJNTNxWFc5NHhfQlNOTGZObw?oc=5",
-          "published": "2026-09-09T01:00:00+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
           "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - Yeni Şafak",
           "source": "Yeni Şafak",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVWJyRE9SbEplZUN0RmwzNkFFYTZNNVg3UW5Hd0prbVF0ZHNpdFFpX1dpSEFTbURIUkY1QUE4LU9KV2lWX0thVWZIaFRuV3pnNlJnWldMNG1HMjhrTVJBLW1oRVVwUTFMZl9HOUJpT1RPa1Z6RzV4U2I1UEZoMW5ucEYyLTVaWnNUdFlOYXp0LXJaSDY5MzRkdUZIa283SG5iQndwb0xyeUlCM2lrc3dZc3JCYUo?oc=5",
@@ -186,10 +176,10 @@
           "weight": 1.4
         },
         {
-          "title": "Petrol'ün üzerine bir de Fed faiz artışı gelirse... - Ekonomim",
-          "source": "Ekonomim",
+          "title": "Petrolün üzerine bir de Fed faiz artışı gelirse... - ekonomim.com",
+          "source": "ekonomim.com",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSC12b19fRTZLTUNYczEwZl9GYS1tbWMxNGdvS0ppc3JXZzNTY1hyWThkakMwYjk5amUyZDI5NDlCU1h6Nl9YQ2hjWFRTT1lVSGxJbklXbmcyTGJwanFHMDQ1UFM4bVMwTjA2UW9hN1lZaVY0Y3hfMTJyUVlXaVdybXYyN19ZcVhXU0NPWEp5U29DaVJ1Mmc?oc=5",
-          "published": "2026-09-15T21:00:00+00:00",
+          "published": "2026-09-16T03:52:42+00:00",
           "terms": [
             "faiz artışı"
           ],
@@ -244,16 +234,21 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Karahan'dan dikkat çeken enflasyon ve faiz mesajı: İhtiyatlı yaklaşım sürecek - Sabah",
+          "source": "Sabah",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUhMMWZQb3RYVXJCaldfeGVjRk03MXhQeXFPSGNDTUozdEhTMmFfQ3o0aHV4RHdHemlCekZoT25mT19DTTVhTmg1TWZFa09tWDVGUmJvbDFlVzFRU1NveFhITDItYXdxbXlEMm1zQTNyc0JHZmJTMFR5WjFYVXItNGRZRnhicUYyNEg3ZERuQTR0VWE0UWhvZGoyMUtPYWNmM29qaERZdWI2UWp6N0NNcHV5YjRMUmM?oc=5",
+          "published": "2026-09-12T06:23:07+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-08-31T14:49:27.688709+00:00",
-      "score": 0.0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-08-31T23:06:04.240268+00:00",
       "score": 0,
@@ -547,6 +542,11 @@
     {
       "generated": "2026-09-15T21:54:28.725197+00:00",
       "score": 6.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-16T05:37:13.209642+00:00",
+      "score": 6.0,
       "status": "BASELINE"
     }
   ],
