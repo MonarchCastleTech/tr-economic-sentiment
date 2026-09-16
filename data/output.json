@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-16T12:24:24.187795+00:00",
+    "generated": "2026-09-16T17:27:05.592359+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,56 +11,56 @@
     "source_notes": []
   },
   "warning": {
-    "score": 5.7,
-    "raw_score": 5.7,
+    "score": 13.1,
+    "raw_score": 13.1,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 5.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 13.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 1.3,
+      "score": 6.2,
       "status": "BASELINE",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "latest_date": "2026-09-15",
-      "latest_value": 48.5585,
-      "change_5d_pct": 0.38,
-      "return_z": 0.32,
+      "coverage": 127,
+      "latest_date": "2026-09-16",
+      "latest_value": 48.5779,
+      "change_5d_pct": 0.39,
+      "return_z": 0.69,
       "volatility_20d": 0.07,
       "volatility_z": 0.59,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.5585,
-          "date": "2026-09-15",
+          "value": 48.5779,
+          "date": "2026-09-16",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
     },
     "imported_energy": {
       "key": "imported_energy",
-      "score": 21.2,
-      "status": "BASELINE",
+      "score": 44.6,
+      "status": "WATCH",
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 117,
-      "latest_date": "2026-09-09",
-      "latest_value": 5299.2,
-      "change_5d_pct": 12.64,
-      "return_z": 1.03,
+      "coverage": 121,
+      "latest_date": "2026-09-15",
+      "latest_value": 6351.5,
+      "change_5d_pct": 23.73,
+      "return_z": 1.62,
       "method": "Five-observation robust anomaly in Brent priced in TRY (Brent USD × USD/TRY).",
       "evidence": [
         {
           "label": "Brent in TRY proxy",
-          "value": 5299.2,
-          "date": "2026-09-09",
+          "value": 6351.5,
+          "date": "2026-09-15",
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ]
@@ -113,19 +113,29 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0,
+      "score": 1.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 164,
-      "matched": 22,
-      "weighted_density": 0.111,
+      "coverage": 166,
+      "matched": 24,
+      "weighted_density": 0.129,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - Yeni Şafak",
-          "source": "Yeni Şafak",
+          "title": "Türkiye’yi Ekonomik Anlamda Batırdınız, Iflas Ettirdiniz. - Yeniden Refah Partisi",
+          "source": "Yeniden Refah Partisi",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjN0ZFpPc0VWdFk1LS05dFMtX0Y0QV9GckpwOXJPQTFIQUhPNEtqa3N0TkFScE1jWThxREJVY3p0dTRFUU10aXhlck1rY2paaHRiNnNWRmNLdjl4S3A2WFNjcE9mOHVESFlnQWNEUHo5ZHpjc2k2VGtMa09CSHNmMmlPV2VYcTh1S3B6TzNlQnRpcHRwT1pXWVRoSHRoTWtTV1ZR?oc=5",
+          "published": "2026-09-16T10:34:37+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - yenisafak.com",
+          "source": "yenisafak.com",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVWJyRE9SbEplZUN0RmwzNkFFYTZNNVg3UW5Hd0prbVF0ZHNpdFFpX1dpSEFTbURIUkY1QUE4LU9KV2lWX0thVWZIaFRuV3pnNlJnWldMNG1HMjhrTVJBLW1oRVVwUTFMZl9HOUJpT1RPa1Z6RzV4U2I1UEZoMW5ucEYyLTVaWnNUdFlOYXp0LXJaSDY5MzRkdUZIa283SG5iQndwb0xyeUlCM2lrc3dZc3JCYUo?oc=5",
           "published": "2026-09-14T07:29:00+00:00",
           "terms": [
@@ -146,6 +156,16 @@
           "weight": 1.4
         },
         {
+          "title": "FED'den Faiz Artışı Mı Geliyor? Eylül Toplantısı İçin Kritik Beklenti... I Paranın Rotası | A Para - A Para",
+          "source": "A Para",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMnZMeHRDaDhOSHowLUV4QURnU2k4STRUNnlPVkJpbzA1UVpDUURvc002SUl4ZmlRS3lKRW5uMmZPdkdtRkhyM1oydldjRDVlcll6MTVJNXlKSnRDOGttcHZ2cWh5YUZ0b2JCZjZQLS1oWVpvYl9tTVV5QXU2SUtwUnpTN0xLUmkyd0M0b2lJNk5oVTJrb1g0eU9MQmFWMGYyc2c1aEYtQ2tfNHZNcExLbHo0ZE5IdnVYbHdERk9CSklkT3J0cWNXMnFTdkJtb0hxM1Rz?oc=5",
+          "published": "2026-09-16T08:58:40+00:00",
+          "terms": [
+            "faiz artışı"
+          ],
+          "weight": 1.0
+        },
+        {
           "title": "Petrolün üzerine bir de Fed faiz artışı gelirse... - Ekonomim",
           "source": "Ekonomim",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSC12b19fRTZLTUNYczEwZl9GYS1tbWMxNGdvS0ppc3JXZzNTY1hyWThkakMwYjk5amUyZDI5NDlCU1h6Nl9YQ2hjWFRTT1lVSGxJbklXbmcyTGJwanFHMDQ1UFM4bVMwTjA2UW9hN1lZaVY0Y3hfMTJyUVlXaVdybXYyN19ZcVhXU0NPWEp5U29DaVJ1Mmc?oc=5",
@@ -156,18 +176,18 @@
           "weight": 1.0
         },
         {
-          "title": "Hazine ve Maliye Bakanı Şimşek: Seçim sürecinde de dezenflasyondan vazgeçmeyeceğiz - Anadolu Ajansı",
-          "source": "Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRUg2R3dLN1RQYUZZcEE2VEdKd3FYclNoY0tJSjByTzZ1ZU5nUGloTEQxVGd5dTlLbFI1WV9CMjBKVUNpdGZRdjlveVNXelN5eXBXM0JPQ09fRFllSEpLOHpyQ3EyQWIzam9McDlhSURSbEVSS2NsWmtRUkt2N3hvOWMyaGYtQ3FHSVdnRHdsZjREd3MyMWxybG9zMFlNa3lLcFNwamFvZUFPUUpsRWFwazdTaF9DTG5ORmI1NkgyNA?oc=5",
-          "published": "2026-09-16T11:23:59+00:00",
+          "title": "Güncel Kur Listesi: Döviz Piyasaları Merkez Bankası Verilerine ve Enflasyon Beklentilerine Odaklandı - HaberGo",
+          "source": "HaberGo",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVDEzLXBlMnlHc19yTzI1eE1Qb1l5U2NyLVFCZFM5VGc3b291anp2bEIxMzFVXzZPT09jYnBBVWpnWXNjcmdHRGRwLUsteWl1QmFQX3ozb19RaWNXLTRZYkt0T0x0VjQ3aC04X1YzWF9YQTBpZmdTM0s5UzZNRnROYUlDdEptd2NxVHVNbUF4WEVCMndWY2lQTHVfUWNGQUdJWkVVa1hQRjlpUmRGZ251R2EwbU9FY2pTQ3NDSHhRZWo5RVYzSjA0TG1TbVbSAdIBQVVfeXFMUFpMMVRFaldEZ0hhVENUQ0Q5eFV5c1ZJY3VYYjBVRVdKMjNGWGJPRUNxLUNCbXVjR3dwLWVHLVhHY081anpXQUdraHVpWHFyZ044RjFDejBCaXRWOFBIZmtjNk1yMDdXX2tEQ0RBb3V0SXpRbWFDWVJwUEU0U2tPVlcwWU9TOXRILUNWei1LRXZGUzlBX0F5dFB2NkNVY0ZmcTdMZEhlLXVpVnZYU1lFY3hSV2hselA3b2Y4TlBaNzFPYk9oWDlRZzNRTGJtcV9yNlp3?oc=5",
+          "published": "2026-09-16T12:52:33+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "Faiz sebep, enflasyon sonuç! - Yeni Şafak",
-          "source": "Yeni Şafak",
+          "title": "Faiz sebep, enflasyon sonuç! - yenisafak.com",
+          "source": "yenisafak.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN2xKX1RDQWhwWDNzYzg3dmtrTVdwMmFqWk5UMFk0b21QRUdSVXQwdWM5eTMxRGhZNkZsVkZqbE9tY2l6SmdLVExMckdJazFfekVxZ3FZYVN1TDRZc1pVdHhtRUM4dE1wUmF4Ml9GSzJuSDBmT2RHVl91NTNVTUZhei1kQi1pMFNKN3Z2RFl1T2ZaQQ?oc=5",
           "published": "2026-09-16T01:00:00+00:00",
           "terms": [
@@ -196,8 +216,8 @@
           "weight": 0.8
         },
         {
-          "title": "Karahan'dan dikkat çeken enflasyon ve faiz mesajı: İhtiyatlı yaklaşım sürecek - sabah.com.tr",
-          "source": "sabah.com.tr",
+          "title": "Karahan'dan dikkat çeken enflasyon ve faiz mesajı: İhtiyatlı yaklaşım sürecek - Sabah",
+          "source": "Sabah",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUhMMWZQb3RYVXJCaldfeGVjRk03MXhQeXFPSGNDTUozdEhTMmFfQ3o0aHV4RHdHemlCekZoT25mT19DTTVhTmg1TWZFa09tWDVGUmJvbDFlVzFRU1NveFhITDItYXdxbXlEMm1zQTNyc0JHZmJTMFR5WjFYVXItNGRZRnhicUYyNEg3ZERuQTR0VWE0UWhvZGoyMUtPYWNmM29qaERZdWI2UWp6N0NNcHV5YjRMUmM?oc=5",
           "published": "2026-09-12T06:23:07+00:00",
           "terms": [
@@ -224,36 +244,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "TCMB anketi açıklandı: Yıl sonu enflasyon beklentisi OVP’yi geçti - Taka Gazete",
-          "source": "Taka Gazete",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVnY1Y2JGWUpoS0Z3V1BEdkJEbktGZXRGVGQ3MEk4Z2MwbVBQMDZYYmJTenJzSENKNEh4SnZfbHh6bGRBclp2ZGJIcTc1SlJpX3M5U1didU9XYkZQSXE2UmhralVKSENEak42TVU5c2I5WW9NYldFT2RtZnVPcngzSTRCNWNjNGgyOVV1aU5rS2d6ZV9uODNLNQ?oc=5",
-          "published": "2026-09-11T12:32:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Merkez Bankası Anketi Açıklandı: Yıl Sonu Dolar ve Enflasyon Beklentisi Değişti - Para Durumu",
-          "source": "Para Durumu",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMnZnaE5mMmlfNFI1TmxHMjc3dl85NGg5V3JYT3U0TWZQSW80eW93LVQ0bHpYdFh0WXJ6T25iMUlSWkdFSHhwcnA0VE1zdDNzc2hSdF9IUk9wVWJ4MmJ6MWlzd1NnbTcxTFBaa0Z4bzRGVktZeTd3NUJMLUNScnJ4R1pBLVR3TnB2UGpPLURidmpVOU10d0h5SUNEcmV5VHh3LUNXeDBUcG9rUXZScVVwT3dqZFhhVGpDWHFF0gHAAUFVX3lxTE0zVWVibGx6cXhHczdFeXh6MS1nRVhNXzRGbGhaaUVnanNzYjF0RXRlamlSWndPejJSY0x5OWQwdW9wOHViSmZfaS1jMXF0UDI5UVV3MFhLd21lREFiVjRaWXNhS0d0SzJxQjQ3dnlLdEFUeHQtb3dzenhHNGF2NVVqX0dlRDVPSGtuNWFBRHJuZ242Z1ZRUUFrUTd5QXA0RUpnTDU4X3lzbjZDc3d3cUItZWhCOGtCdWMtRUJiQmU0dw?oc=5",
-          "published": "2026-09-11T10:00:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-01T06:00:17.720169+00:00",
-      "score": 0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-01T12:20:11.195474+00:00",
       "score": 0,
@@ -547,6 +542,11 @@
     {
       "generated": "2026-09-16T12:24:24.187795+00:00",
       "score": 5.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-16T17:27:05.592359+00:00",
+      "score": 13.1,
       "status": "BASELINE"
     }
   ],
