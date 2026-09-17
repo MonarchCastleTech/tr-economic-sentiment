@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-17T17:27:02.807609+00:00",
+    "generated": "2026-09-17T21:55:17.442985+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -118,9 +118,9 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 158,
+      "coverage": 155,
       "matched": 19,
-      "weighted_density": 0.106,
+      "weighted_density": 0.108,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -134,8 +134,8 @@
           "weight": 2.0
         },
         {
-          "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - yenisafak.com",
-          "source": "yenisafak.com",
+          "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - Yeni Şafak",
+          "source": "Yeni Şafak",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVWJyRE9SbEplZUN0RmwzNkFFYTZNNVg3UW5Hd0prbVF0ZHNpdFFpX1dpSEFTbURIUkY1QUE4LU9KV2lWX0thVWZIaFRuV3pnNlJnWldMNG1HMjhrTVJBLW1oRVVwUTFMZl9HOUJpT1RPa1Z6RzV4U2I1UEZoMW5ucEYyLTVaWnNUdFlOYXp0LXJaSDY5MzRkdUZIa283SG5iQndwb0xyeUlCM2lrc3dZc3JCYUo?oc=5",
           "published": "2026-09-14T07:29:00+00:00",
           "terms": [
@@ -155,8 +155,8 @@
           "weight": 1.0
         },
         {
-          "title": "TCMB’den Enflasyon ve Para Politikası Mesajı - rayhaber.com",
-          "source": "rayhaber.com",
+          "title": "TCMB’den Enflasyon ve Para Politikası Mesajı - RayHaber",
+          "source": "RayHaber",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5GM0NGbWhfRFplMGhyZy1ORFU2VGxFV2U2T2h1dHFTZVlsMG8tV1pDVVBwS3NqaU9oSmhFQk5GdnJTVERackIwX2NtWHJzaU5WY3NWTjFvRnNmV0VJQ1NQUnJ0ZXI0WmpFaWhOTEI3azRyS2ZoSEU1YklLWk5wZw?oc=5",
           "published": "2026-09-17T07:30:32+00:00",
           "terms": [
@@ -165,8 +165,8 @@
           "weight": 0.8
         },
         {
-          "title": "Faiz sebep, enflasyon sonuç! - yenisafak.com",
-          "source": "yenisafak.com",
+          "title": "Faiz sebep, enflasyon sonuç! - Yeni Şafak",
+          "source": "Yeni Şafak",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN2xKX1RDQWhwWDNzYzg3dmtrTVdwMmFqWk5UMFk0b21QRUdSVXQwdWM5eTMxRGhZNkZsVkZqbE9tY2l6SmdLVExMckdJazFfekVxZ3FZYVN1TDRZc1pVdHhtRUM4dE1wUmF4Ml9GSzJuSDBmT2RHVl91NTNVTUZhei1kQi1pMFNKN3Z2RFl1T2ZaQQ?oc=5",
           "published": "2026-09-16T01:00:00+00:00",
           "terms": [
@@ -248,11 +248,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-02T11:56:17.594537+00:00",
-      "score": 0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-02T16:58:21.236702+00:00",
       "score": 0,
@@ -545,6 +540,11 @@
     },
     {
       "generated": "2026-09-17T17:27:02.807609+00:00",
+      "score": 12.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-17T21:55:17.442985+00:00",
       "score": 12.6,
       "status": "BASELINE"
     }
