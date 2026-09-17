@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-17T12:24:28.658703+00:00",
+    "generated": "2026-09-17T17:27:02.807609+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,34 +11,34 @@
     "source_notes": []
   },
   "warning": {
-    "score": 13.0,
-    "raw_score": 13.0,
+    "score": 12.6,
+    "raw_score": 12.6,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 13.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 12.6/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 6.2,
+      "score": 4.9,
       "status": "BASELINE",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "latest_date": "2026-09-16",
-      "latest_value": 48.5779,
-      "change_5d_pct": 0.39,
-      "return_z": 0.69,
-      "volatility_20d": 0.07,
-      "volatility_z": 0.59,
+      "coverage": 127,
+      "latest_date": "2026-09-17",
+      "latest_value": 48.5873,
+      "change_5d_pct": 0.37,
+      "return_z": -0.94,
+      "volatility_20d": 0.08,
+      "volatility_z": 0.85,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.5779,
-          "date": "2026-09-16",
+          "value": 48.5873,
+          "date": "2026-09-17",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -118,14 +118,14 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 166,
+      "coverage": 158,
       "matched": 19,
-      "weighted_density": 0.101,
+      "weighted_density": 0.106,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Türkiye’yi Ekonomik Anlamda Batırdınız, Iflas Ettirdiniz. - yenidenrefahpartisi.org.tr",
-          "source": "yenidenrefahpartisi.org.tr",
+          "title": "Türkiye’yi Ekonomik Anlamda Batırdınız, Iflas Ettirdiniz. - Yeniden Refah Partisi",
+          "source": "Yeniden Refah Partisi",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjN0ZFpPc0VWdFk1LS05dFMtX0Y0QV9GckpwOXJPQTFIQUhPNEtqa3N0TkFScE1jWThxREJVY3p0dTRFUU10aXhlck1rY2paaHRiNnNWRmNLdjl4S3A2WFNjcE9mOHVESFlnQWNEUHo5ZHpjc2k2VGtMa09CSHNmMmlPV2VYcTh1S3B6TzNlQnRpcHRwT1pXWVRoSHRoTWtTV1ZR?oc=5",
           "published": "2026-09-16T10:34:37+00:00",
           "terms": [
@@ -134,8 +134,8 @@
           "weight": 2.0
         },
         {
-          "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - Yeni Şafak",
-          "source": "Yeni Şafak",
+          "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - yenisafak.com",
+          "source": "yenisafak.com",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVWJyRE9SbEplZUN0RmwzNkFFYTZNNVg3UW5Hd0prbVF0ZHNpdFFpX1dpSEFTbURIUkY1QUE4LU9KV2lWX0thVWZIaFRuV3pnNlJnWldMNG1HMjhrTVJBLW1oRVVwUTFMZl9HOUJpT1RPa1Z6RzV4U2I1UEZoMW5ucEYyLTVaWnNUdFlOYXp0LXJaSDY5MzRkdUZIa283SG5iQndwb0xyeUlCM2lrc3dZc3JCYUo?oc=5",
           "published": "2026-09-14T07:29:00+00:00",
           "terms": [
@@ -155,8 +155,8 @@
           "weight": 1.0
         },
         {
-          "title": "TCMB’den Enflasyon ve Para Politikası Mesajı - RayHaber",
-          "source": "RayHaber",
+          "title": "TCMB’den Enflasyon ve Para Politikası Mesajı - rayhaber.com",
+          "source": "rayhaber.com",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5GM0NGbWhfRFplMGhyZy1ORFU2VGxFV2U2T2h1dHFTZVlsMG8tV1pDVVBwS3NqaU9oSmhFQk5GdnJTVERackIwX2NtWHJzaU5WY3NWTjFvRnNmV0VJQ1NQUnJ0ZXI0WmpFaWhOTEI3azRyS2ZoSEU1YklLWk5wZw?oc=5",
           "published": "2026-09-17T07:30:32+00:00",
           "terms": [
@@ -165,8 +165,8 @@
           "weight": 0.8
         },
         {
-          "title": "Faiz sebep, enflasyon sonuç! - Yeni Şafak",
-          "source": "Yeni Şafak",
+          "title": "Faiz sebep, enflasyon sonuç! - yenisafak.com",
+          "source": "yenisafak.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN2xKX1RDQWhwWDNzYzg3dmtrTVdwMmFqWk5UMFk0b21QRUdSVXQwdWM5eTMxRGhZNkZsVkZqbE9tY2l6SmdLVExMckdJazFfekVxZ3FZYVN1TDRZc1pVdHhtRUM4dE1wUmF4Ml9GSzJuSDBmT2RHVl91NTNVTUZhei1kQi1pMFNKN3Z2RFl1T2ZaQQ?oc=5",
           "published": "2026-09-16T01:00:00+00:00",
           "terms": [
@@ -215,8 +215,8 @@
           "weight": 0.8
         },
         {
-          "title": "TCMB Başkanı Karahan'dan enflasyon ve faiz mesajı - cnbce.com",
-          "source": "cnbce.com",
+          "title": "TCMB Başkanı Karahan'dan enflasyon ve faiz mesajı - CNBC-e",
+          "source": "CNBC-e",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcWdiXzdqRER5Vm1JZTFFM0I0aXl1anFEWWdWTVJiWjF1RmppVjJpMEpSUkZaQ003Q1ZiazlkZEZJQzJrMWNOcjliN09DQlZjTi1hdHAyVkoyeHA2QUdJMG9aZjFlNWhfU0tOZ2NzS2I1RFY3anByWW13dHlNOXhZQjF1YWM3anlVS1kybDdzZjM3ejFXR3V3Y3k4SEpyWDdPbndiWkdhSmxHNkQ1Wk0wQUZhVmtFMERwZmNVU0xYSXlyT2t0X3FVdlhIOFdkTlpBTkJyUEJlTHZKUQ?oc=5",
           "published": "2026-09-11T18:37:01+00:00",
           "terms": [
@@ -248,11 +248,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-02T05:25:55.610159+00:00",
-      "score": 0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-02T11:56:17.594537+00:00",
       "score": 0,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-09-17T12:24:28.658703+00:00",
       "score": 13.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-17T17:27:02.807609+00:00",
+      "score": 12.6,
       "status": "BASELINE"
     }
   ],
