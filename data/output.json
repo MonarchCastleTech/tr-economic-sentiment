@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-18T05:32:16.197542+00:00",
+    "generated": "2026-09-18T12:03:15.447082+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0.2,
+      "score": 0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 156,
-      "matched": 22,
-      "weighted_density": 0.122,
+      "coverage": 142,
+      "matched": 16,
+      "weighted_density": 0.101,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -143,6 +143,16 @@
             "faiz artışı"
           ],
           "weight": 1.6
+        },
+        {
+          "title": "Yen, BOJ faiz artışına rağmen düştü: Ueda agresif sıkılaştırmayı dışladı - Investing.com Türkiye",
+          "source": "Investing.com Türkiye",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSVBya0NYV3NoTlUydEkyNjJTcjhYNjh1Y2I4dW5rWmkyeGxkUjVmWmkyUzVnSXA2ak5xSURXSC1td19aT0dsaVV6UEs2SW9VanlFNkNKVnczZ3l3dkQ0Rk9rb1p5MDREQnlVOG1JU2laMThhM0NJVkN4RkN2VXJaRlNTYWtXZ3ZXTVpfcGVCSjNVMXBNMkx1TW5nT3RaUTlsbFRNRw?oc=5",
+          "published": "2026-09-18T06:47:00+00:00",
+          "terms": [
+            "faiz artışı"
+          ],
+          "weight": 1.0
         },
         {
           "title": "Petrolün üzerine bir de Fed faiz artışı gelirse... - Ekonomim",
@@ -169,16 +179,6 @@
           "source": "RayHaber",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5GM0NGbWhfRFplMGhyZy1ORFU2VGxFV2U2T2h1dHFTZVlsMG8tV1pDVVBwS3NqaU9oSmhFQk5GdnJTVERackIwX2NtWHJzaU5WY3NWTjFvRnNmV0VJQ1NQUnJ0ZXI0WmpFaWhOTEI3azRyS2ZoSEU1YklLWk5wZw?oc=5",
           "published": "2026-09-17T07:30:32+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Güncel Kur Listesi: Döviz Piyasaları Merkez Bankası Verilerine ve Enflasyon Beklentilerine Odaklandı - HaberGo",
-          "source": "HaberGo",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVDEzLXBlMnlHc19yTzI1eE1Qb1l5U2NyLVFCZFM5VGc3b291anp2bEIxMzFVXzZPT09jYnBBVWpnWXNjcmdHRGRwLUsteWl1QmFQX3ozb19RaWNXLTRZYkt0T0x0VjQ3aC04X1YzWF9YQTBpZmdTM0s5UzZNRnROYUlDdEptd2NxVHVNbUF4WEVCMndWY2lQTHVfUWNGQUdJWkVVa1hQRjlpUmRGZ251R2EwbU9FY2pTQ3NDSHhRZWo5RVYzSjA0TG1TbVbSAdIBQVVfeXFMUFpMMVRFaldEZ0hhVENUQ0Q5eFV5c1ZJY3VYYjBVRVdKMjNGWGJPRUNxLUNCbXVjR3dwLWVHLVhHY081anpXQUdraHVpWHFyZ044RjFDejBCaXRWOFBIZmtjNk1yMDdXX2tEQ0RBb3V0SXpRbWFDWVJwUEU0U2tPVlcwWU9TOXRILUNWei1LRXZGUzlBX0F5dFB2NkNVY0ZmcTdMZEhlLXVpVnZYU1lFY3hSV2hselA3b2Y4TlBaNzFPYk9oWDlRZzNRTGJtcV9yNlp3?oc=5",
-          "published": "2026-09-16T13:10:01+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -248,11 +248,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-02T21:34:54.454698+00:00",
-      "score": 0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-03T05:27:39.717534+00:00",
       "score": 0,
@@ -545,6 +540,11 @@
     },
     {
       "generated": "2026-09-18T05:32:16.197542+00:00",
+      "score": 12.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-18T12:03:15.447082+00:00",
       "score": 12.6,
       "status": "BASELINE"
     }
