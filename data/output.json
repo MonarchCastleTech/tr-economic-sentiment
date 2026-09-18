@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-18T16:55:21.427760+00:00",
+    "generated": "2026-09-18T21:24:19.675175+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,34 +11,34 @@
     "source_notes": []
   },
   "warning": {
-    "score": 12.6,
-    "raw_score": 12.6,
+    "score": 11.9,
+    "raw_score": 11.9,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 12.6/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 11.9/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 4.9,
+      "score": 2.5,
       "status": "BASELINE",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "latest_date": "2026-09-17",
-      "latest_value": 48.5873,
+      "coverage": 127,
+      "latest_date": "2026-09-18",
+      "latest_value": 48.6116,
       "change_5d_pct": 0.37,
-      "return_z": -0.94,
-      "volatility_20d": 0.08,
-      "volatility_z": 0.85,
+      "return_z": -0.79,
+      "volatility_20d": 0.07,
+      "volatility_z": 0.68,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.5873,
-          "date": "2026-09-17",
+          "value": 48.6116,
+          "date": "2026-09-18",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -118,11 +118,21 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 145,
-      "matched": 15,
-      "weighted_density": 0.095,
+      "coverage": 142,
+      "matched": 16,
+      "weighted_density": 0.11,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Borsadaki fon krizi küçük yatırımcı için ne anlama geliyor? - BBC",
+          "source": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xb0RzZXZpLTBnT2lPc3FkVEtoaUdlV2c1aWRGWks0a1ltU0dtc3NkaU9oQWdWVURBYmtva2k2dHlhQ1JrbE5PVXVPMXcyWk9LZkFyb0J1UGlGYmhySUHSAWNBVV95cUxQZlFIRmc5cmFEb19fQXJSOGhjajlhYzc0dlJQaTN5SzlPemFiektwTFJZN1lkTmpTdVpLSlRLaGdQQWdzMFl2Wk5MaklKdnRYMWp3b21wWEJnZHpwTVllTXVkbW8?oc=5",
+          "published": "2026-09-18T09:47:10+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "Türkiye’yi Ekonomik Anlamda Batırdınız, Iflas Ettirdiniz. - Yeniden Refah Partisi",
           "source": "Yeniden Refah Partisi",
@@ -134,8 +144,8 @@
           "weight": 2.0
         },
         {
-          "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - Yeni Şafak",
-          "source": "Yeni Şafak",
+          "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - yenisafak.com",
+          "source": "yenisafak.com",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVWJyRE9SbEplZUN0RmwzNkFFYTZNNVg3UW5Hd0prbVF0ZHNpdFFpX1dpSEFTbURIUkY1QUE4LU9KV2lWX0thVWZIaFRuV3pnNlJnWldMNG1HMjhrTVJBLW1oRVVwUTFMZl9HOUJpT1RPa1Z6RzV4U2I1UEZoMW5ucEYyLTVaWnNUdFlOYXp0LXJaSDY5MzRkdUZIa283SG5iQndwb0xyeUlCM2lrc3dZc3JCYUo?oc=5",
           "published": "2026-09-14T07:29:00+00:00",
           "terms": [
@@ -145,8 +155,8 @@
           "weight": 1.6
         },
         {
-          "title": "Yen, BOJ faiz artışına rağmen düştü: Ueda agresif sıkılaştırmayı dışladı - Investing.com Türkiye",
-          "source": "Investing.com Türkiye",
+          "title": "Yen, BOJ faiz artışına rağmen düştü: Ueda agresif sıkılaştırmayı dışladı - tr.investing.com",
+          "source": "tr.investing.com",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSVBya0NYV3NoTlUydEkyNjJTcjhYNjh1Y2I4dW5rWmkyeGxkUjVmWmkyUzVnSXA2ak5xSURXSC1td19aT0dsaVV6UEs2SW9VanlFNkNKVnczZ3l3dkQ0Rk9rb1p5MDREQnlVOG1JU2laMThhM0NJVkN4RkN2VXJaRlNTYWtXZ3ZXTVpfcGVCSjNVMXBNMkx1TW5nT3RaUTlsbFRNRw?oc=5",
           "published": "2026-09-18T06:47:00+00:00",
           "terms": [
@@ -175,8 +185,8 @@
           "weight": 0.8
         },
         {
-          "title": "Faiz sebep, enflasyon sonuç! - Yeni Şafak",
-          "source": "Yeni Şafak",
+          "title": "Faiz sebep, enflasyon sonuç! - yenisafak.com",
+          "source": "yenisafak.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN2xKX1RDQWhwWDNzYzg3dmtrTVdwMmFqWk5UMFk0b21QRUdSVXQwdWM5eTMxRGhZNkZsVkZqbE9tY2l6SmdLVExMckdJazFfekVxZ3FZYVN1TDRZc1pVdHhtRUM4dE1wUmF4Ml9GSzJuSDBmT2RHVl91NTNVTUZhei1kQi1pMFNKN3Z2RFl1T2ZaQQ?oc=5",
           "published": "2026-09-16T01:00:00+00:00",
           "terms": [
@@ -185,8 +195,8 @@
           "weight": 0.8
         },
         {
-          "title": "OVP gölgesinde Antalya resort turizmi: Kur-enflasyon kıskacı - Turizm Ekonomi",
-          "source": "Turizm Ekonomi",
+          "title": "OVP gölgesinde Antalya resort turizmi: Kur-enflasyon kıskacı - turizmekonomi.com",
+          "source": "turizmekonomi.com",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdmdhaDhVVlVkVzhUcnV4Z3FoX0k1SzFuVTlHbVRZUXNPRE5pMGFZUUc4cnlWaENxOEJsdGlxdXBmODYxNmliMmZlMFl2MWsxZHliblRveml5dzI4SkR5aERQSVN2Z25zX09WWWRBd3cxcEVuX096NUM1ZFNwQTRvUWs0Z0VqSWlPeVpNbV9aSUNHalU?oc=5",
           "published": "2026-09-14T06:26:00+00:00",
           "terms": [
@@ -233,26 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "TCMB Başkanı Karahan'dan enflasyon ve faiz mesajı - cnbce.com",
-          "source": "cnbce.com",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcWdiXzdqRER5Vm1JZTFFM0I0aXl1anFEWWdWTVJiWjF1RmppVjJpMEpSUkZaQ003Q1ZiazlkZEZJQzJrMWNOcjliN09DQlZjTi1hdHAyVkoyeHA2QUdJMG9aZjFlNWhfU0tOZ2NzS2I1RFY3anByWW13dHlNOXhZQjF1YWM3anlVS1kybDdzZjM3ejFXR3V3Y3k4SEpyWDdPbndiWkdhSmxHNkQ1Wk0wQUZhVmtFMERwZmNVU0xYSXlyT2t0X3FVdlhIOFdkTlpBTkJyUEJlTHZKUQ?oc=5",
-          "published": "2026-09-11T18:37:01+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-03T11:54:48.803401+00:00",
-      "score": 0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-03T16:54:56.500647+00:00",
       "score": 0.4,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-09-18T16:55:21.427760+00:00",
       "score": 12.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-18T21:24:19.675175+00:00",
+      "score": 11.9,
       "status": "BASELINE"
     }
   ],
