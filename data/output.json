@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-18T12:03:15.447082+00:00",
+    "generated": "2026-09-18T16:55:21.427760+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -118,9 +118,9 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 142,
-      "matched": 16,
-      "weighted_density": 0.101,
+      "coverage": 145,
+      "matched": 15,
+      "weighted_density": 0.095,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -175,16 +175,6 @@
           "weight": 0.8
         },
         {
-          "title": "TCMB’den Enflasyon ve Para Politikası Mesajı - RayHaber",
-          "source": "RayHaber",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5GM0NGbWhfRFplMGhyZy1ORFU2VGxFV2U2T2h1dHFTZVlsMG8tV1pDVVBwS3NqaU9oSmhFQk5GdnJTVERackIwX2NtWHJzaU5WY3NWTjFvRnNmV0VJQ1NQUnJ0ZXI0WmpFaWhOTEI3azRyS2ZoSEU1YklLWk5wZw?oc=5",
-          "published": "2026-09-17T07:30:32+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "Faiz sebep, enflasyon sonuç! - Yeni Şafak",
           "source": "Yeni Şafak",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN2xKX1RDQWhwWDNzYzg3dmtrTVdwMmFqWk5UMFk0b21QRUdSVXQwdWM5eTMxRGhZNkZsVkZqbE9tY2l6SmdLVExMckdJazFfekVxZ3FZYVN1TDRZc1pVdHhtRUM4dE1wUmF4Ml9GSzJuSDBmT2RHVl91NTNVTUZhei1kQi1pMFNKN3Z2RFl1T2ZaQQ?oc=5",
@@ -205,10 +195,20 @@
           "weight": 0.8
         },
         {
+          "title": "Petrol şoku Yeniden Enflasyonu Sahneye çıkardı. - Analiz Gazetesi",
+          "source": "Analiz Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNEp2eGVfeDQ4WG9tV1N5YWtvQk04eUJvb3BKb3loWlBsQXlGZnZhQVVHYzZrQTlqTjMtczlWbGRZWXE0cVBMRWsxWk1MWW9SZlpkZk4weGR6MlFoY3poUDgwTWdDcENDZnFwUm54OWdYVTZNYVg3cUpLTG44THd3MEVZMS1YUU1PbTBQTm1oX0tYUQ?oc=5",
+          "published": "2026-09-12T23:51:48+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Dolar ve Enflasyon İçin Yeni Rakamlar Açıklandı: Yıl Sonu Beklentisi Değişti - siirthaberci.com",
           "source": "siirthaberci.com",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV1Jub0kxblJQV183MV9VNkxiNFBLaS1yTmxvaW9Td3VkTm1JNmVMenhtSDRpeWN0ek1iY3V4MEI0emE4Vm5KXzFYNnFjYnVUcWJaRVpfU2l1RzFGZjdKUzgyeGdMWE5STkc3Nk9hRWl4OE1ZT2NMMFNRUDF0NFFPYlFRdTB0ZFB5Z2xoVzFsQk13T05FMjFrSlJIb3c4RUxkaUstZ0QycWItU1dySnNpMGk5QkY4RDE2VmkycEpn?oc=5",
-          "published": "2026-09-12T08:12:00+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMzIxb0dBclp1Ym5PMmxUMWNyejlnWEJIaS1oc1VtMTJ4WXQzUnRFU1V6bXFIZE9wdDFMZGJ0VXI0WGc2QlAwOGxXN3AzLTkxLXBmOEF2TVMyU1lQOTJPY3V4dmMxY2h0U2JJM2JoZTM3Y2RjWHFNQkVIb0MyanRiT2tKcWZTY0tCV0RpeThYbUUtTlB1QVRIWHVjT2JEcWJTVTI0OVZuLUpKRFlvaDFGdTB1bEtZNGdu?oc=5",
+          "published": "2026-09-12T08:13:06+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -235,8 +235,8 @@
           "weight": 0.8
         },
         {
-          "title": "TCMB Başkanı Karahan'dan enflasyon ve faiz mesajı - CNBC-e",
-          "source": "CNBC-e",
+          "title": "TCMB Başkanı Karahan'dan enflasyon ve faiz mesajı - cnbce.com",
+          "source": "cnbce.com",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcWdiXzdqRER5Vm1JZTFFM0I0aXl1anFEWWdWTVJiWjF1RmppVjJpMEpSUkZaQ003Q1ZiazlkZEZJQzJrMWNOcjliN09DQlZjTi1hdHAyVkoyeHA2QUdJMG9aZjFlNWhfU0tOZ2NzS2I1RFY3anByWW13dHlNOXhZQjF1YWM3anlVS1kybDdzZjM3ejFXR3V3Y3k4SEpyWDdPbndiWkdhSmxHNkQ1Wk0wQUZhVmtFMERwZmNVU0xYSXlyT2t0X3FVdlhIOFdkTlpBTkJyUEJlTHZKUQ?oc=5",
           "published": "2026-09-11T18:37:01+00:00",
           "terms": [
@@ -248,11 +248,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-03T05:27:39.717534+00:00",
-      "score": 0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-03T11:54:48.803401+00:00",
       "score": 0,
@@ -545,6 +540,11 @@
     },
     {
       "generated": "2026-09-18T12:03:15.447082+00:00",
+      "score": 12.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-18T16:55:21.427760+00:00",
       "score": 12.6,
       "status": "BASELINE"
     }
