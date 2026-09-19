@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-19T11:46:32.544515+00:00",
+    "generated": "2026-09-19T16:13:07.974179+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -118,9 +118,9 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 135,
-      "matched": 12,
-      "weighted_density": 0.074,
+      "coverage": 137,
+      "matched": 11,
+      "weighted_density": 0.069,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -135,8 +135,8 @@
           "weight": 1.6
         },
         {
-          "title": "Yen, BOJ faiz artışına rağmen düştü: Ueda agresif sıkılaştırmayı dışladı - Investing.com Türkiye",
-          "source": "Investing.com Türkiye",
+          "title": "Yen, BOJ faiz artışına rağmen düştü: Ueda agresif sıkılaştırmayı dışladı - tr.investing.com",
+          "source": "tr.investing.com",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSVBya0NYV3NoTlUydEkyNjJTcjhYNjh1Y2I4dW5rWmkyeGxkUjVmWmkyUzVnSXA2ak5xSURXSC1td19aT0dsaVV6UEs2SW9VanlFNkNKVnczZ3l3dkQ0Rk9rb1p5MDREQnlVOG1JU2laMThhM0NJVkN4RkN2VXJaRlNTYWtXZ3ZXTVpfcGVCSjNVMXBNMkx1TW5nT3RaUTlsbFRNRw?oc=5",
           "published": "2026-09-18T06:47:00+00:00",
           "terms": [
@@ -165,20 +165,10 @@
           "weight": 0.8
         },
         {
-          "title": "Merkez Bankası’ndan enflasyon mesajı: Enerji fiyatları risk oluşturmaya devam ediyor - Doviz.com",
-          "source": "Doviz.com",
+          "title": "Merkez Bankası’ndan enflasyon mesajı: Enerji fiyatları risk oluşturmaya devam ediyor - haber.doviz.com",
+          "source": "haber.doviz.com",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM1F5MXBEM2ZlaWNiRlc4UUI3N0t2UkdoaUJ5MzVISjA3ZmU3VlFZNXQyYzJiaXB4NVFEbkpfejkxWnhZUzFNWXlZSVNTdkRWOXpLRDhhMHFoTXd0b2FuZzJYOTBBZ0dJdnhHRUpheElTNjEwRm4yOVZnUWlrOGNYel8xaWZkeVdrUGhzOVJRMDRvZ1lPX3Uzb2ZQUTFPTkhZWG05bHNFalhDMEpRc05mdGZVbXNTSGhqbzF3M1ZnSk9DMVk3Wm5paUJPb9IB0wFBVV95cUxNWWlzZndBQWdRZ0tiMTdlWl9SWk1GUEtGNjVDZExOMXVKZmh6cE1BNE1kbGI4cTAtaFRaaEJYdVlzQ1JEMkpnQTY0MEF0UG1oQU10ODIxbm4zbWNUVjA3UHF6M2ZqS3VvaWd5RTBDLVNmUmNicFJTbUxnUEszZlZEcjVjaFhvdFNmdDRmRFBJTXhuUFlhMDMwT2EwT3d4SnhSTm9sNWs0bmdwaktsVWpSYnVfY0NhbGY2NVRtemladHVMMTUzZWpJdDNRTWlYUUlhWGdV?oc=5",
           "published": "2026-09-17T11:24:36+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Güncel Kur Listesi: Döviz Piyasaları Merkez Bankası Verilerine ve Enflasyon Beklentilerine Odaklandı - HaberGo",
-          "source": "HaberGo",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVDEzLXBlMnlHc19yTzI1eE1Qb1l5U2NyLVFCZFM5VGc3b291anp2bEIxMzFVXzZPT09jYnBBVWpnWXNjcmdHRGRwLUsteWl1QmFQX3ozb19RaWNXLTRZYkt0T0x0VjQ3aC04X1YzWF9YQTBpZmdTM0s5UzZNRnROYUlDdEptd2NxVHVNbUF4WEVCMndWY2lQTHVfUWNGQUdJWkVVa1hQRjlpUmRGZ251R2EwbU9FY2pTQ3NDSHhRZWo5RVYzSjA0TG1TbVbSAdIBQVVfeXFMUFpMMVRFaldEZ0hhVENUQ0Q5eFV5c1ZJY3VYYjBVRVdKMjNGWGJPRUNxLUNCbXVjR3dwLWVHLVhHY081anpXQUdraHVpWHFyZ044RjFDejBCaXRWOFBIZmtjNk1yMDdXX2tEQ0RBb3V0SXpRbWFDWVJwUEU0U2tPVlcwWU9TOXRILUNWei1LRXZGUzlBX0F5dFB2NkNVY0ZmcTdMZEhlLXVpVnZYU1lFY3hSV2hselA3b2Y4TlBaNzFPYk9oWDlRZzNRTGJtcV9yNlp3?oc=5",
-          "published": "2026-09-16T13:10:01+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -205,18 +195,18 @@
           "weight": 0.8
         },
         {
-          "title": "İstanbul'dan tüm zamanların en yüksek ağustos ihracatı: 8,8 milyar dolar | Türkiye Ekonomisi Haberleri - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVzdkbE5ndmlOdjdiUkNEaFdRbEFPek5EeU1MNS0zMk0xbEJ5eDdpZk5fWVZzNzV6MzVPVU5tN0UwUTFvTWFMTkNyVloyN3pDVWxrME1SOFJZTV9QdnFySFA0WFZ6TjJGQ2lqWDA2bFhHY0gwQUNubkhpX3k2YWc5N09NQzJqY0JtMHRGRkRFcHhCWXU1aHZkTUdRcWNLOUt4RGdibEJEWTk?oc=5",
-          "published": "2026-09-17T09:16:16+00:00",
+          "title": "Petrol şoku Yeniden Enflasyonu Sahneye çıkardı. - Analiz Gazetesi",
+          "source": "Analiz Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNEp2eGVfeDQ4WG9tV1N5YWtvQk04eUJvb3BKb3loWlBsQXlGZnZhQVVHYzZrQTlqTjMtczlWbGRZWXE0cVBMRWsxWk1MWW9SZlpkZk4weGR6MlFoY3poUDgwTWdDcENDZnFwUm54OWdYVTZNYVg3cUpLTG44THd3MEVZMS1YUU1PbTBQTm1oX0tYUQ?oc=5",
+          "published": "2026-09-12T23:51:48+00:00",
           "terms": [
-            "zam"
+            "enflasyon"
           ],
-          "weight": 0.6
+          "weight": 0.8
         },
         {
-          "title": "Gül Alışar | 2026’nın Son Çeyreğinde Lojistik: Belirsizlikleri Yönetme Zamanı - ekonomidunya.com",
-          "source": "ekonomidunya.com",
+          "title": "Gül Alışar | 2026’nın Son Çeyreğinde Lojistik: Belirsizlikleri Yönetme Zamanı - Ekonomi Dünya",
+          "source": "Ekonomi Dünya",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMG8yMEpNdlZKczlHWVhHdXlHc1ZuT1pLSGdoaDF1Z0oydThQaUc1N2MtbG1xTUJBbWhmaW1YRTE5NGlzX2RQaE40REU3OHJISkRvNWM2OWJKWXVEdXdpaVh4VGFwZDZ2bGp4UHp3ZW4wMHhtMnRJUmQwZmxBWkZOVGtLS254WFJadFVMMzkzbVlQQk56cnZiNWJoWUlvQ3Z5ZzBLUDBwSXdVNzRLLU5GamRfVFFWUFN3Vmc?oc=5",
           "published": "2026-09-16T10:08:52+00:00",
           "terms": [
@@ -248,11 +238,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-04T05:28:19.287071+00:00",
-      "score": 0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-04T11:57:52.566310+00:00",
       "score": 0.4,
@@ -545,6 +530,11 @@
     },
     {
       "generated": "2026-09-19T11:46:32.544515+00:00",
+      "score": 11.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-19T16:13:07.974179+00:00",
       "score": 11.9,
       "status": "BASELINE"
     }
