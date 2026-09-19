@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-18T21:24:19.675175+00:00",
+    "generated": "2026-09-19T05:28:41.319670+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
+      "coverage": 126,
       "latest_date": "2026-09-18",
       "latest_value": 48.6116,
       "change_5d_pct": 0.37,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 119,
+      "coverage": 118,
       "latest_date": "2026-09-15",
       "latest_value": 6351.5,
       "change_5d_pct": 23.73,
@@ -118,9 +118,9 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 142,
-      "matched": 16,
-      "weighted_density": 0.11,
+      "coverage": 137,
+      "matched": 15,
+      "weighted_density": 0.099,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -134,18 +134,8 @@
           "weight": 2.0
         },
         {
-          "title": "Türkiye’yi Ekonomik Anlamda Batırdınız, Iflas Ettirdiniz. - Yeniden Refah Partisi",
-          "source": "Yeniden Refah Partisi",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjN0ZFpPc0VWdFk1LS05dFMtX0Y0QV9GckpwOXJPQTFIQUhPNEtqa3N0TkFScE1jWThxREJVY3p0dTRFUU10aXhlck1rY2paaHRiNnNWRmNLdjl4S3A2WFNjcE9mOHVESFlnQWNEUHo5ZHpjc2k2VGtMa09CSHNmMmlPV2VYcTh1S3B6TzNlQnRpcHRwT1pXWVRoSHRoTWtTV1ZR?oc=5",
-          "published": "2026-09-16T10:34:37+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - yenisafak.com",
-          "source": "yenisafak.com",
+          "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - Yeni Şafak",
+          "source": "Yeni Şafak",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVWJyRE9SbEplZUN0RmwzNkFFYTZNNVg3UW5Hd0prbVF0ZHNpdFFpX1dpSEFTbURIUkY1QUE4LU9KV2lWX0thVWZIaFRuV3pnNlJnWldMNG1HMjhrTVJBLW1oRVVwUTFMZl9HOUJpT1RPa1Z6RzV4U2I1UEZoMW5ucEYyLTVaWnNUdFlOYXp0LXJaSDY5MzRkdUZIa283SG5iQndwb0xyeUlCM2lrc3dZc3JCYUo?oc=5",
           "published": "2026-09-14T07:29:00+00:00",
           "terms": [
@@ -155,8 +145,8 @@
           "weight": 1.6
         },
         {
-          "title": "Yen, BOJ faiz artışına rağmen düştü: Ueda agresif sıkılaştırmayı dışladı - tr.investing.com",
-          "source": "tr.investing.com",
+          "title": "Yen, BOJ faiz artışına rağmen düştü: Ueda agresif sıkılaştırmayı dışladı - Investing.com Türkiye",
+          "source": "Investing.com Türkiye",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSVBya0NYV3NoTlUydEkyNjJTcjhYNjh1Y2I4dW5rWmkyeGxkUjVmWmkyUzVnSXA2ak5xSURXSC1td19aT0dsaVV6UEs2SW9VanlFNkNKVnczZ3l3dkQ0Rk9rb1p5MDREQnlVOG1JU2laMThhM0NJVkN4RkN2VXJaRlNTYWtXZ3ZXTVpfcGVCSjNVMXBNMkx1TW5nT3RaUTlsbFRNRw?oc=5",
           "published": "2026-09-18T06:47:00+00:00",
           "terms": [
@@ -185,8 +175,18 @@
           "weight": 0.8
         },
         {
-          "title": "Faiz sebep, enflasyon sonuç! - yenisafak.com",
-          "source": "yenisafak.com",
+          "title": "Hazine ve Maliye Bakanı Şimşek: Seçim sürecinde de dezenflasyondan vazgeçmeyeceğiz - Anadolu Ajansı",
+          "source": "Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRUg2R3dLN1RQYUZZcEE2VEdKd3FYclNoY0tJSjByTzZ1ZU5nUGloTEQxVGd5dTlLbFI1WV9CMjBKVUNpdGZRdjlveVNXelN5eXBXM0JPQ09fRFllSEpLOHpyQ3EyQWIzam9McDlhSURSbEVSS2NsWmtRUkt2N3hvOWMyaGYtQ3FHSVdnRHdsZjREd3MyMWxybG9zMFlNa3lLcFNwamFvZUFPUUpsRWFwazdTaF9DTG5ORmI1NkgyNA?oc=5",
+          "published": "2026-09-16T11:23:59+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Faiz sebep, enflasyon sonuç! - Yeni Şafak",
+          "source": "Yeni Şafak",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN2xKX1RDQWhwWDNzYzg3dmtrTVdwMmFqWk5UMFk0b21QRUdSVXQwdWM5eTMxRGhZNkZsVkZqbE9tY2l6SmdLVExMckdJazFfekVxZ3FZYVN1TDRZc1pVdHhtRUM4dE1wUmF4Ml9GSzJuSDBmT2RHVl91NTNVTUZhei1kQi1pMFNKN3Z2RFl1T2ZaQQ?oc=5",
           "published": "2026-09-16T01:00:00+00:00",
           "terms": [
@@ -195,8 +195,8 @@
           "weight": 0.8
         },
         {
-          "title": "OVP gölgesinde Antalya resort turizmi: Kur-enflasyon kıskacı - turizmekonomi.com",
-          "source": "turizmekonomi.com",
+          "title": "OVP gölgesinde Antalya resort turizmi: Kur-enflasyon kıskacı - Turizm Ekonomi",
+          "source": "Turizm Ekonomi",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdmdhaDhVVlVkVzhUcnV4Z3FoX0k1SzFuVTlHbVRZUXNPRE5pMGFZUUc4cnlWaENxOEJsdGlxdXBmODYxNmliMmZlMFl2MWsxZHliblRveml5dzI4SkR5aERQSVN2Z25zX09WWWRBd3cxcEVuX096NUM1ZFNwQTRvUWs0Z0VqSWlPeVpNbV9aSUNHalU?oc=5",
           "published": "2026-09-14T06:26:00+00:00",
           "terms": [
@@ -235,24 +235,19 @@
           "weight": 0.8
         },
         {
-          "title": "TCMB yıl sonu enflasyon beklentisi yüzde 29,61 - Erzurum Gazetesi",
-          "source": "Erzurum Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbHN0SVhRR090T1VJanZrcmh3YS13ektRNUVGYTVsMGtoSlRVb2hscklVc21MZkRxNWE5RDdWcXRhTXR2dkE1UEIycEZIcTdIOWszeW9CLTBuanRUYXo5TE9ESFc4Y0Y2X3UxdzhKNlZNdjhJVW5ycW1DWmhtNDFrMDlnRlB4VVR5ZzVHWlBEcG9lWFE5OWRYc2dn?oc=5",
-          "published": "2026-09-11T23:09:00+00:00",
+          "title": "İstanbul'dan tüm zamanların en yüksek ağustos ihracatı: 8,8 milyar dolar | Türkiye Ekonomisi Haberleri - GZT",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVzdkbE5ndmlOdjdiUkNEaFdRbEFPek5EeU1MNS0zMk0xbEJ5eDdpZk5fWVZzNzV6MzVPVU5tN0UwUTFvTWFMTkNyVloyN3pDVWxrME1SOFJZTV9QdnFySFA0WFZ6TjJGQ2lqWDA2bFhHY0gwQUNubkhpX3k2YWc5N09NQzJqY0JtMHRGRkRFcHhCWXU1aHZkTUdRcWNLOUt4RGdibEJEWTk?oc=5",
+          "published": "2026-09-17T09:16:16+00:00",
           "terms": [
-            "enflasyon"
+            "zam"
           ],
-          "weight": 0.8
+          "weight": 0.6
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-03T16:54:56.500647+00:00",
-      "score": 0.4,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-03T21:33:17.328996+00:00",
       "score": 0.4,
@@ -545,6 +540,11 @@
     },
     {
       "generated": "2026-09-18T21:24:19.675175+00:00",
+      "score": 11.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-19T05:28:41.319670+00:00",
       "score": 11.9,
       "status": "BASELINE"
     }
