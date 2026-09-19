@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-19T05:28:41.319670+00:00",
+    "generated": "2026-09-19T11:46:32.544515+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -118,21 +118,11 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 137,
-      "matched": 15,
-      "weighted_density": 0.099,
+      "coverage": 135,
+      "matched": 12,
+      "weighted_density": 0.074,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
-        {
-          "title": "Borsadaki fon krizi küçük yatırımcı için ne anlama geliyor? - BBC",
-          "source": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xb0RzZXZpLTBnT2lPc3FkVEtoaUdlV2c1aWRGWks0a1ltU0dtc3NkaU9oQWdWVURBYmtva2k2dHlhQ1JrbE5PVXVPMXcyWk9LZkFyb0J1UGlGYmhySUHSAWNBVV95cUxQZlFIRmc5cmFEb19fQXJSOGhjajlhYzc0dlJQaTN5SzlPemFiektwTFJZN1lkTmpTdVpLSlRLaGdQQWdzMFl2Wk5MaklKdnRYMWp3b21wWEJnZHpwTVllTXVkbW8?oc=5",
-          "published": "2026-09-18T09:47:10+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
         {
           "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - Yeni Şafak",
           "source": "Yeni Şafak",
@@ -165,6 +155,16 @@
           "weight": 1.0
         },
         {
+          "title": "Dünya Ekonomisinde Rota Değişti: Petrol, Enflasyon ve Faiz Baskısı Artıyor - Kilis Postası",
+          "source": "Kilis Postası",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTlU2R3dtWTVob1hrc3g5TV9wYXdqNl9LUkxfUnhnWjZNX2ZVTThjdVh6ZVFpRmZDOE0yX1YzajdlR0JiUjBUYnRIeVMwdkxVVHVWU1VfWTJBYmN1T2Mza0ZCT1BoeUVESDVTZzNOSjVGX2t0djJQN28tcDMyZndVTml2WG4xQ2xaQXNoelNlZFNvRnBKWXZSOW1tZDc2SDNEUkxnZDYzeERIdW1ldTFR?oc=5",
+          "published": "2026-09-19T06:51:41+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Merkez Bankası’ndan enflasyon mesajı: Enerji fiyatları risk oluşturmaya devam ediyor - Doviz.com",
           "source": "Doviz.com",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM1F5MXBEM2ZlaWNiRlc4UUI3N0t2UkdoaUJ5MzVISjA3ZmU3VlFZNXQyYzJiaXB4NVFEbkpfejkxWnhZUzFNWXlZSVNTdkRWOXpLRDhhMHFoTXd0b2FuZzJYOTBBZ0dJdnhHRUpheElTNjEwRm4yOVZnUWlrOGNYel8xaWZkeVdrUGhzOVJRMDRvZ1lPX3Uzb2ZQUTFPTkhZWG05bHNFalhDMEpRc05mdGZVbXNTSGhqbzF3M1ZnSk9DMVk3Wm5paUJPb9IB0wFBVV95cUxNWWlzZndBQWdRZ0tiMTdlWl9SWk1GUEtGNjVDZExOMXVKZmh6cE1BNE1kbGI4cTAtaFRaaEJYdVlzQ1JEMkpnQTY0MEF0UG1oQU10ODIxbm4zbWNUVjA3UHF6M2ZqS3VvaWd5RTBDLVNmUmNicFJTbUxnUEszZlZEcjVjaFhvdFNmdDRmRFBJTXhuUFlhMDMwT2EwT3d4SnhSTm9sNWs0bmdwaktsVWpSYnVfY0NhbGY2NVRtemladHVMMTUzZWpJdDNRTWlYUUlhWGdV?oc=5",
@@ -175,10 +175,10 @@
           "weight": 0.8
         },
         {
-          "title": "Hazine ve Maliye Bakanı Şimşek: Seçim sürecinde de dezenflasyondan vazgeçmeyeceğiz - Anadolu Ajansı",
-          "source": "Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRUg2R3dLN1RQYUZZcEE2VEdKd3FYclNoY0tJSjByTzZ1ZU5nUGloTEQxVGd5dTlLbFI1WV9CMjBKVUNpdGZRdjlveVNXelN5eXBXM0JPQ09fRFllSEpLOHpyQ3EyQWIzam9McDlhSURSbEVSS2NsWmtRUkt2N3hvOWMyaGYtQ3FHSVdnRHdsZjREd3MyMWxybG9zMFlNa3lLcFNwamFvZUFPUUpsRWFwazdTaF9DTG5ORmI1NkgyNA?oc=5",
-          "published": "2026-09-16T11:23:59+00:00",
+          "title": "Güncel Kur Listesi: Döviz Piyasaları Merkez Bankası Verilerine ve Enflasyon Beklentilerine Odaklandı - HaberGo",
+          "source": "HaberGo",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVDEzLXBlMnlHc19yTzI1eE1Qb1l5U2NyLVFCZFM5VGc3b291anp2bEIxMzFVXzZPT09jYnBBVWpnWXNjcmdHRGRwLUsteWl1QmFQX3ozb19RaWNXLTRZYkt0T0x0VjQ3aC04X1YzWF9YQTBpZmdTM0s5UzZNRnROYUlDdEptd2NxVHVNbUF4WEVCMndWY2lQTHVfUWNGQUdJWkVVa1hQRjlpUmRGZ251R2EwbU9FY2pTQ3NDSHhRZWo5RVYzSjA0TG1TbVbSAdIBQVVfeXFMUFpMMVRFaldEZ0hhVENUQ0Q5eFV5c1ZJY3VYYjBVRVdKMjNGWGJPRUNxLUNCbXVjR3dwLWVHLVhHY081anpXQUdraHVpWHFyZ044RjFDejBCaXRWOFBIZmtjNk1yMDdXX2tEQ0RBb3V0SXpRbWFDWVJwUEU0U2tPVlcwWU9TOXRILUNWei1LRXZGUzlBX0F5dFB2NkNVY0ZmcTdMZEhlLXVpVnZYU1lFY3hSV2hselA3b2Y4TlBaNzFPYk9oWDlRZzNRTGJtcV9yNlp3?oc=5",
+          "published": "2026-09-16T13:10:01+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -205,40 +205,40 @@
           "weight": 0.8
         },
         {
-          "title": "Petrol şoku Yeniden Enflasyonu Sahneye çıkardı. - Analiz Gazetesi",
-          "source": "Analiz Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNEp2eGVfeDQ4WG9tV1N5YWtvQk04eUJvb3BKb3loWlBsQXlGZnZhQVVHYzZrQTlqTjMtczlWbGRZWXE0cVBMRWsxWk1MWW9SZlpkZk4weGR6MlFoY3poUDgwTWdDcENDZnFwUm54OWdYVTZNYVg3cUpLTG44THd3MEVZMS1YUU1PbTBQTm1oX0tYUQ?oc=5",
-          "published": "2026-09-12T23:51:48+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Dolar ve Enflasyon İçin Yeni Rakamlar Açıklandı: Yıl Sonu Beklentisi Değişti - siirthaberci.com",
-          "source": "siirthaberci.com",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMzIxb0dBclp1Ym5PMmxUMWNyejlnWEJIaS1oc1VtMTJ4WXQzUnRFU1V6bXFIZE9wdDFMZGJ0VXI0WGc2QlAwOGxXN3AzLTkxLXBmOEF2TVMyU1lQOTJPY3V4dmMxY2h0U2JJM2JoZTM3Y2RjWHFNQkVIb0MyanRiT2tKcWZTY0tCV0RpeThYbUUtTlB1QVRIWHVjT2JEcWJTVTI0OVZuLUpKRFlvaDFGdTB1bEtZNGdu?oc=5",
-          "published": "2026-09-12T08:13:06+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Karahan'dan dikkat çeken enflasyon ve faiz mesajı: İhtiyatlı yaklaşım sürecek - Sabah",
-          "source": "Sabah",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUhMMWZQb3RYVXJCaldfeGVjRk03MXhQeXFPSGNDTUozdEhTMmFfQ3o0aHV4RHdHemlCekZoT25mT19DTTVhTmg1TWZFa09tWDVGUmJvbDFlVzFRU1NveFhITDItYXdxbXlEMm1zQTNyc0JHZmJTMFR5WjFYVXItNGRZRnhicUYyNEg3ZERuQTR0VWE0UWhvZGoyMUtPYWNmM29qaERZdWI2UWp6N0NNcHV5YjRMUmM?oc=5",
-          "published": "2026-09-12T06:23:07+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "İstanbul'dan tüm zamanların en yüksek ağustos ihracatı: 8,8 milyar dolar | Türkiye Ekonomisi Haberleri - GZT",
           "source": "GZT",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVzdkbE5ndmlOdjdiUkNEaFdRbEFPek5EeU1MNS0zMk0xbEJ5eDdpZk5fWVZzNzV6MzVPVU5tN0UwUTFvTWFMTkNyVloyN3pDVWxrME1SOFJZTV9QdnFySFA0WFZ6TjJGQ2lqWDA2bFhHY0gwQUNubkhpX3k2YWc5N09NQzJqY0JtMHRGRkRFcHhCWXU1aHZkTUdRcWNLOUt4RGdibEJEWTk?oc=5",
           "published": "2026-09-17T09:16:16+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
+        },
+        {
+          "title": "Gül Alışar | 2026’nın Son Çeyreğinde Lojistik: Belirsizlikleri Yönetme Zamanı - ekonomidunya.com",
+          "source": "ekonomidunya.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMG8yMEpNdlZKczlHWVhHdXlHc1ZuT1pLSGdoaDF1Z0oydThQaUc1N2MtbG1xTUJBbWhmaW1YRTE5NGlzX2RQaE40REU3OHJISkRvNWM2OWJKWXVEdXdpaVh4VGFwZDZ2bGp4UHp3ZW4wMHhtMnRJUmQwZmxBWkZOVGtLS254WFJadFVMMzkzbVlQQk56cnZiNWJoWUlvQ3Z5ZzBLUDBwSXdVNzRLLU5GamRfVFFWUFN3Vmc?oc=5",
+          "published": "2026-09-16T10:08:52+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
+        },
+        {
+          "title": "FED faiz kararı ne zaman, saat kaçta açıklanacak? - Yeni Bakış Gazetesi İzmir",
+          "source": "Yeni Bakış Gazetesi İzmir",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZGttWEo0M21lNXdkbDNibWh3Qi11MElFMzZYWTV1bk1QblJ4YzJaVFZUTHdDbVBvZ21XY3NCbHc4V2hNbFpCOVhBMUxPa2N4V055NnFwYkxkQjZTTFVoQ254dnJFZWZQcXZZSEdVUnQyS091QkhFemdXeVBlSTlScTA2N18?oc=5",
+          "published": "2026-09-15T10:26:00+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
+        },
+        {
+          "title": "Fed faiz kararı ne zaman, saat kaçta açıklanacak? 2026 Eylül FED faiz beklentisi ne yönde? - Medyaradar",
+          "source": "Medyaradar",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcXBlVndaX1R2dGdhakE1R2RpU21NdVhYV08zQXVpeWN4U2pWZ0xUVEw5YUFDOC14V2tyWWMwcndqbjZlMXREZ1dvbU82RFU4eHRzWkxWYV9SY19ZdDVHS1pUVkVpcWJoZTh3QkZMZTREUUhFQmp0MnNDcTFqdUtMLU80aFM2Q3FEZnJBV1JTYVdLVmZ5QjVMYVVqdm9GR1hiU3VHZ2hkLWhXaE9weTNsaS1pb2llTDBoTllpcHh4cXc4eGNlRXJacQ?oc=5",
+          "published": "2026-09-14T17:02:00+00:00",
           "terms": [
             "zam"
           ],
@@ -248,11 +248,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-03T21:33:17.328996+00:00",
-      "score": 0.4,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-04T05:28:19.287071+00:00",
       "score": 0,
@@ -545,6 +540,11 @@
     },
     {
       "generated": "2026-09-19T05:28:41.319670+00:00",
+      "score": 11.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-19T11:46:32.544515+00:00",
       "score": 11.9,
       "status": "BASELINE"
     }
