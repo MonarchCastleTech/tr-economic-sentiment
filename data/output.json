@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-19T21:17:10.450209+00:00",
+    "generated": "2026-09-20T05:41:19.911791+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
+      "coverage": 125,
       "latest_date": "2026-09-18",
       "latest_value": 48.6116,
       "change_5d_pct": 0.37,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 118,
+      "coverage": 117,
       "latest_date": "2026-09-15",
       "latest_value": 6351.5,
       "change_5d_pct": 23.73,
@@ -118,9 +118,9 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 135,
-      "matched": 10,
-      "weighted_density": 0.064,
+      "coverage": 134,
+      "matched": 9,
+      "weighted_density": 0.06,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -155,8 +155,8 @@
           "weight": 1.0
         },
         {
-          "title": "Dünya Ekonomisinde Rota Değişti: Petrol, Enflasyon ve Faiz Baskısı Artıyor - kilispostasi.com",
-          "source": "kilispostasi.com",
+          "title": "Dünya Ekonomisinde Rota Değişti: Petrol, Enflasyon ve Faiz Baskısı Artıyor - Kilis Postası",
+          "source": "Kilis Postası",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTlU2R3dtWTVob1hrc3g5TV9wYXdqNl9LUkxfUnhnWjZNX2ZVTThjdVh6ZVFpRmZDOE0yX1YzajdlR0JiUjBUYnRIeVMwdkxVVHVWU1VfWTJBYmN1T2Mza0ZCT1BoeUVESDVTZzNOSjVGX2t0djJQN28tcDMyZndVTml2WG4xQ2xaQXNoelNlZFNvRnBKWXZSOW1tZDc2SDNEUkxnZDYzeERIdW1ldTFR?oc=5",
           "published": "2026-09-19T06:51:41+00:00",
           "terms": [
@@ -195,20 +195,10 @@
           "weight": 0.8
         },
         {
-          "title": "Gül Alışar | 2026’nın Son Çeyreğinde Lojistik: Belirsizlikleri Yönetme Zamanı - Ekonomi Dünya",
-          "source": "Ekonomi Dünya",
+          "title": "Gül Alışar | 2026’nın Son Çeyreğinde Lojistik: Belirsizlikleri Yönetme Zamanı - ekonomidunya.com",
+          "source": "ekonomidunya.com",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMG8yMEpNdlZKczlHWVhHdXlHc1ZuT1pLSGdoaDF1Z0oydThQaUc1N2MtbG1xTUJBbWhmaW1YRTE5NGlzX2RQaE40REU3OHJISkRvNWM2OWJKWXVEdXdpaVh4VGFwZDZ2bGp4UHp3ZW4wMHhtMnRJUmQwZmxBWkZOVGtLS254WFJadFVMMzkzbVlQQk56cnZiNWJoWUlvQ3Z5ZzBLUDBwSXdVNzRLLU5GamRfVFFWUFN3Vmc?oc=5",
           "published": "2026-09-16T10:08:52+00:00",
-          "terms": [
-            "zam"
-          ],
-          "weight": 0.6
-        },
-        {
-          "title": "FED faiz kararı ne zaman, saat kaçta açıklanacak? - Yeni Bakış Gazetesi İzmir",
-          "source": "Yeni Bakış Gazetesi İzmir",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZGttWEo0M21lNXdkbDNibWh3Qi11MElFMzZYWTV1bk1QblJ4YzJaVFZUTHdDbVBvZ21XY3NCbHc4V2hNbFpCOVhBMUxPa2N4V055NnFwYkxkQjZTTFVoQ254dnJFZWZQcXZZSEdVUnQyS091QkhFemdXeVBlSTlScTA2N18?oc=5",
-          "published": "2026-09-15T10:26:00+00:00",
           "terms": [
             "zam"
           ],
@@ -228,11 +218,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-04T16:43:04.372679+00:00",
-      "score": 0.4,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-04T21:13:23.123438+00:00",
       "score": 0.5,
@@ -525,6 +510,11 @@
     },
     {
       "generated": "2026-09-19T21:17:10.450209+00:00",
+      "score": 11.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-20T05:41:19.911791+00:00",
       "score": 11.9,
       "status": "BASELINE"
     }
