@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-20T05:41:19.911791+00:00",
+    "generated": "2026-09-20T12:00:32.346169+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -118,11 +118,21 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 134,
-      "matched": 9,
-      "weighted_density": 0.06,
+      "coverage": 137,
+      "matched": 10,
+      "weighted_density": 0.073,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Hakan Kara ve Kerim Rota’dan fon krizi uyarıları: Faiz indirimi alanı açabilir, dövize kaçış riski var - Para Analiz",
+          "source": "Para Analiz",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRHNZakpMUEl4bmJEN2hpRmxob213azNrX3FXUGVpTUZQZDR0YTYzZnR5ckotN2s2bmJmVENvQ3h1czV1dWVXdUZScjc0NkdxSGFxOXROVGF2ek54OU5jSFZLYS1yWDRiMGN2V3JWQ25mWjJHcnFaRG1XZGdfWldnNEJoWnFkazlvN3gtc1p3VUN4aGNXM0NZdl9wS1NwVjlqaG1PRGZLV0lYTHFRekVMVVNYNmQwSG8?oc=5",
+          "published": "2026-09-20T08:08:27+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "Fed faiz kararı ne zaman? Faiz artışı olacak mı, beklentiler ne yönde? - Yeni Şafak",
           "source": "Yeni Şafak",
@@ -145,8 +155,8 @@
           "weight": 1.0
         },
         {
-          "title": "Petrolün üzerine bir de Fed faiz artışı gelirse... - Ekonomim",
-          "source": "Ekonomim",
+          "title": "Petrolün üzerine bir de Fed faiz artışı gelirse... - ekonomim.com",
+          "source": "ekonomim.com",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSC12b19fRTZLTUNYczEwZl9GYS1tbWMxNGdvS0ppc3JXZzNTY1hyWThkakMwYjk5amUyZDI5NDlCU1h6Nl9YQ2hjWFRTT1lVSGxJbklXbmcyTGJwanFHMDQ1UFM4bVMwTjA2UW9hN1lZaVY0Y3hfMTJyUVlXaVdybXYyN19ZcVhXU0NPWEp5U29DaVJ1Mmc?oc=5",
           "published": "2026-09-15T21:00:00+00:00",
           "terms": [
@@ -155,18 +165,18 @@
           "weight": 1.0
         },
         {
-          "title": "Dünya Ekonomisinde Rota Değişti: Petrol, Enflasyon ve Faiz Baskısı Artıyor - Kilis Postası",
-          "source": "Kilis Postası",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTlU2R3dtWTVob1hrc3g5TV9wYXdqNl9LUkxfUnhnWjZNX2ZVTThjdVh6ZVFpRmZDOE0yX1YzajdlR0JiUjBUYnRIeVMwdkxVVHVWU1VfWTJBYmN1T2Mza0ZCT1BoeUVESDVTZzNOSjVGX2t0djJQN28tcDMyZndVTml2WG4xQ2xaQXNoelNlZFNvRnBKWXZSOW1tZDc2SDNEUkxnZDYzeERIdW1ldTFR?oc=5",
-          "published": "2026-09-19T06:51:41+00:00",
+          "title": "Goldman Sachs’tan Türkiye için yüksek faiz ve enflasyon uyarısı - ekotürk",
+          "source": "ekotürk",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRVpwWlIwSklZZU5xZ2c5TW44dlBEOTFabWZ6dm5abmlCNFZjNXdEWHpwc193bDdDTkc2dWRtaHU2S29DOGg0ZUMxVmNfalItOE03UVZLVUxjZHdyaUNmZlJicTNBTWF3cHB2eGdERVhfTGJuUTdGX09acWlZSV9vTXRfSGlvQXdBNjBHZ1lVbS1Vb0FHWkNyazUzSFU?oc=5",
+          "published": "2026-09-20T08:31:16+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "Merkez Bankası’ndan enflasyon mesajı: Enerji fiyatları risk oluşturmaya devam ediyor - Doviz.com",
-          "source": "Doviz.com",
+          "title": "Merkez Bankası’ndan enflasyon mesajı: Enerji fiyatları risk oluşturmaya devam ediyor - haber.doviz.com",
+          "source": "haber.doviz.com",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM1F5MXBEM2ZlaWNiRlc4UUI3N0t2UkdoaUJ5MzVISjA3ZmU3VlFZNXQyYzJiaXB4NVFEbkpfejkxWnhZUzFNWXlZSVNTdkRWOXpLRDhhMHFoTXd0b2FuZzJYOTBBZ0dJdnhHRUpheElTNjEwRm4yOVZnUWlrOGNYel8xaWZkeVdrUGhzOVJRMDRvZ1lPX3Uzb2ZQUTFPTkhZWG05bHNFalhDMEpRc05mdGZVbXNTSGhqbzF3M1ZnSk9DMVk3Wm5paUJPb9IB0wFBVV95cUxNWWlzZndBQWdRZ0tiMTdlWl9SWk1GUEtGNjVDZExOMXVKZmh6cE1BNE1kbGI4cTAtaFRaaEJYdVlzQ1JEMkpnQTY0MEF0UG1oQU10ODIxbm4zbWNUVjA3UHF6M2ZqS3VvaWd5RTBDLVNmUmNicFJTbUxnUEszZlZEcjVjaFhvdFNmdDRmRFBJTXhuUFlhMDMwT2EwT3d4SnhSTm9sNWs0bmdwaktsVWpSYnVfY0NhbGY2NVRtemladHVMMTUzZWpJdDNRTWlYUUlhWGdV?oc=5",
           "published": "2026-09-17T11:24:36+00:00",
           "terms": [
@@ -218,11 +228,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-04T21:13:23.123438+00:00",
-      "score": 0.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-05T05:14:26.536496+00:00",
       "score": 0.5,
@@ -515,6 +520,11 @@
     },
     {
       "generated": "2026-09-20T05:41:19.911791+00:00",
+      "score": 11.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-20T12:00:32.346169+00:00",
       "score": 11.9,
       "status": "BASELINE"
     }
