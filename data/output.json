@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-22T12:20:12.870573+00:00",
+    "generated": "2026-09-22T17:30:47.893616+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,19 +26,19 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "latest_date": "2026-09-21",
-      "latest_value": 48.7131,
-      "change_5d_pct": 0.37,
-      "return_z": -1.41,
+      "coverage": 127,
+      "latest_date": "2026-09-22",
+      "latest_value": 48.7323,
+      "change_5d_pct": 0.36,
+      "return_z": -2.5,
       "volatility_20d": 0.07,
-      "volatility_z": -0.47,
+      "volatility_z": -0.46,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.7131,
-          "date": "2026-09-21",
+          "value": 48.7323,
+          "date": "2026-09-22",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -118,9 +118,9 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 124,
+      "coverage": 123,
       "matched": 9,
-      "weighted_density": 0.077,
+      "weighted_density": 0.078,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -154,8 +154,8 @@
           "weight": 1.0
         },
         {
-          "title": "Goldman, Macaristan’ın enflasyon hedefi indirimini forint için olumlu görüyor - tr.investing.com",
-          "source": "tr.investing.com",
+          "title": "Goldman, Macaristan’ın enflasyon hedefi indirimini forint için olumlu görüyor - Investing.com Türkiye",
+          "source": "Investing.com Türkiye",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUzBWQ09pV1ljLTMwMEFEN2lHbU5JMkltNkxsVkF1cW5aYW5PWkswcGZlSlBVRGNHXzFYc0txTWZMX0xEWDdxSkFhc0M5Vm44VkdPOUo0LW5uYkxpeTlBbloza2l0T2s2NGlVQnRkdVJqQVVxV0gzOEZpSnV3SUNTMlVUZW5HVXJpTTNiUFVidm4wZm8yekRiVnlPTFhfVVRZOVFEbEJMYUJFRDVram1xR2VsWVlRMmRVbW12QXZUY0cycUF3Umc0?oc=5",
           "published": "2026-09-21T16:01:46+00:00",
           "terms": [
@@ -217,11 +217,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-06T21:01:42.438442+00:00",
-      "score": 0.8,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-07T05:39:44.345098+00:00",
       "score": 0.6,
@@ -514,6 +509,11 @@
     },
     {
       "generated": "2026-09-22T12:20:12.870573+00:00",
+      "score": 11.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-22T17:30:47.893616+00:00",
       "score": 11.2,
       "status": "BASELINE"
     }
