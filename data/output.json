@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-22T05:50:57.168614+00:00",
+    "generated": "2026-09-22T12:20:12.870573+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -118,14 +118,14 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 130,
-      "matched": 11,
-      "weighted_density": 0.086,
+      "coverage": 124,
+      "matched": 9,
+      "weighted_density": 0.077,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Türkiye ekonomisinin finansallaşması ve fon balonu krizi - wsws.org",
-          "source": "wsws.org",
+          "title": "Türkiye ekonomisinin finansallaşması ve fon balonu krizi - World Socialist Web Site",
+          "source": "World Socialist Web Site",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmTzQxU0RPMGY1VFJWZG1uOTVjNndkZjJLYVFBaGRPVjdaMmJOeU9BZHVlX0JXdXUyNUVBLVZCYllOc2stRUprbTJ2T243U09oZUZqY2t2R3h4SXVrTDY1U2ZSS2pHeE8y?oc=5",
           "published": "2026-09-21T06:41:57+00:00",
           "terms": [
@@ -154,8 +154,8 @@
           "weight": 1.0
         },
         {
-          "title": "Goldman, Macaristan’ın enflasyon hedefi indirimini forint için olumlu görüyor - Investing.com Türkiye",
-          "source": "Investing.com Türkiye",
+          "title": "Goldman, Macaristan’ın enflasyon hedefi indirimini forint için olumlu görüyor - tr.investing.com",
+          "source": "tr.investing.com",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUzBWQ09pV1ljLTMwMEFEN2lHbU5JMkltNkxsVkF1cW5aYW5PWkswcGZlSlBVRGNHXzFYc0txTWZMX0xEWDdxSkFhc0M5Vm44VkdPOUo0LW5uYkxpeTlBbloza2l0T2s2NGlVQnRkdVJqQVVxV0gzOEZpSnV3SUNTMlVUZW5HVXJpTTNiUFVidm4wZm8yekRiVnlPTFhfVVRZOVFEbEJMYUJFRDVram1xR2VsWVlRMmRVbW12QXZUY0cycUF3Umc0?oc=5",
           "published": "2026-09-21T16:01:46+00:00",
           "terms": [
@@ -168,26 +168,6 @@
           "source": "Şarkul Avsat Türkçe",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNVRxNW9mZFB4LW01dGpCZjNJUE5yenlhcnh3ZlpoeXU0Y05jajZPY3dLVWRXaW5obHhITlVaUl9rclktTTYxc3JWYjFqbFc5R0ZaYkVycW1HUEpjVXhsVEdZaHcydnlyYmVYVzNyeHl4c1Fobm9NNUR0clVQTFIxWjE3M1RKT0xXQUUtSTFfbXM2QkFYa01lUHR2QTVQbmZoTXJ0dWlCekx4Z01CSnE1ZHlrOXlPUWZWd3M4a2x0Q1BEdjl1R3FqMU9Bam5HckQ5bHpicURPcDZmVGJ0Y2lBY0NsclctX285WlhiVA?oc=5",
           "published": "2026-09-21T05:58:49+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Kesintisiz enflasyon ülkesi - Yeni Dönem Gazetesi",
-          "source": "Yeni Dönem Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzZyVzJMUElMTGdxc1czdW9IS3pwVWh4aTVtUmxPT2JpcHBnZnFQX0tYRkNPWm9NSnJjRmJDd0VCSXFqMkJmYnlFck9mMWxXbjAxY2RCbzRfMDZqMHNrVDJvb3EwVXJ5WEZLMVJJdEtqMjN5TmxNRnh6YzdZRzJpR05STFJyNkJka3RiR1BJRQ?oc=5",
-          "published": "2026-09-20T21:08:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Goldman Sachs’tan Türkiye için yeni enflasyon tahmini - Gazete Arena",
-          "source": "Gazete Arena",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNd1F0WjUwSmNBZTlDb3ZoUWhmX0ZTcVQ4Mk9ZM25VWnNvZjdQV2puYUpBaTBHeTdJNm1ILVVCMlU0eTRfQURPeUtZMUk1aWJYYkNENl9hVUxXSm5SMXo0U1FsRjBuWlU1a2RyOFd4QW5YTG1fVlhDTmwxZFBFaHlwUmZ1Y0NoNDg?oc=5",
-          "published": "2026-09-20T18:38:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -214,8 +194,8 @@
           "weight": 0.8
         },
         {
-          "title": "Faiz sebep, enflasyon sonuç! - yenisafak.com",
-          "source": "yenisafak.com",
+          "title": "Faiz sebep, enflasyon sonuç! - Yeni Şafak",
+          "source": "Yeni Şafak",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN2xKX1RDQWhwWDNzYzg3dmtrTVdwMmFqWk5UMFk0b21QRUdSVXQwdWM5eTMxRGhZNkZsVkZqbE9tY2l6SmdLVExMckdJazFfekVxZ3FZYVN1TDRZc1pVdHhtRUM4dE1wUmF4Ml9GSzJuSDBmT2RHVl91NTNVTUZhei1kQi1pMFNKN3Z2RFl1T2ZaQQ?oc=5",
           "published": "2026-09-16T01:00:00+00:00",
           "terms": [
@@ -237,11 +217,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-06T15:58:06.538249+00:00",
-      "score": 0.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-06T21:01:42.438442+00:00",
       "score": 0.8,
@@ -534,6 +509,11 @@
     },
     {
       "generated": "2026-09-22T05:50:57.168614+00:00",
+      "score": 11.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-22T12:20:12.870573+00:00",
       "score": 11.2,
       "status": "BASELINE"
     }
