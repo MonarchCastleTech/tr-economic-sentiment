@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-21T22:25:21.584893+00:00",
+    "generated": "2026-09-22T05:50:57.168614+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -118,14 +118,14 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 124,
-      "matched": 10,
-      "weighted_density": 0.084,
+      "coverage": 130,
+      "matched": 11,
+      "weighted_density": 0.086,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Türkiye ekonomisinin finansallaşması ve fon balonu krizi - World Socialist Web Site",
-          "source": "World Socialist Web Site",
+          "title": "Türkiye ekonomisinin finansallaşması ve fon balonu krizi - wsws.org",
+          "source": "wsws.org",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmTzQxU0RPMGY1VFJWZG1uOTVjNndkZjJLYVFBaGRPVjdaMmJOeU9BZHVlX0JXdXUyNUVBLVZCYllOc2stRUprbTJ2T243U09oZUZqY2t2R3h4SXVrTDY1U2ZSS2pHeE8y?oc=5",
           "published": "2026-09-21T06:41:57+00:00",
           "terms": [
@@ -174,8 +174,18 @@
           "weight": 0.8
         },
         {
-          "title": "Goldman Sachs’tan Türkiye için yeni enflasyon tahmini - gazetearena.com",
-          "source": "gazetearena.com",
+          "title": "Kesintisiz enflasyon ülkesi - Yeni Dönem Gazetesi",
+          "source": "Yeni Dönem Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzZyVzJMUElMTGdxc1czdW9IS3pwVWh4aTVtUmxPT2JpcHBnZnFQX0tYRkNPWm9NSnJjRmJDd0VCSXFqMkJmYnlFck9mMWxXbjAxY2RCbzRfMDZqMHNrVDJvb3EwVXJ5WEZLMVJJdEtqMjN5TmxNRnh6YzdZRzJpR05STFJyNkJka3RiR1BJRQ?oc=5",
+          "published": "2026-09-20T21:08:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Goldman Sachs’tan Türkiye için yeni enflasyon tahmini - Gazete Arena",
+          "source": "Gazete Arena",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNd1F0WjUwSmNBZTlDb3ZoUWhmX0ZTcVQ4Mk9ZM25VWnNvZjdQV2puYUpBaTBHeTdJNm1ILVVCMlU0eTRfQURPeUtZMUk1aWJYYkNENl9hVUxXSm5SMXo0U1FsRjBuWlU1a2RyOFd4QW5YTG1fVlhDTmwxZFBFaHlwUmZ1Y0NoNDg?oc=5",
           "published": "2026-09-20T18:38:00+00:00",
           "terms": [
@@ -227,11 +237,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-06T11:30:09.187374+00:00",
-      "score": 0.6,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-06T15:58:06.538249+00:00",
       "score": 0.7,
@@ -524,6 +529,11 @@
     },
     {
       "generated": "2026-09-21T22:25:21.584893+00:00",
+      "score": 11.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-22T05:50:57.168614+00:00",
       "score": 11.2,
       "status": "BASELINE"
     }
