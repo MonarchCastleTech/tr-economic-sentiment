@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-22T21:45:45.522623+00:00",
+    "generated": "2026-09-23T05:28:44.490304+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
+      "coverage": 126,
       "latest_date": "2026-09-22",
       "latest_value": 48.7323,
       "change_5d_pct": 0.36,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 117,
+      "coverage": 116,
       "latest_date": "2026-09-15",
       "latest_value": 6351.5,
       "change_5d_pct": 23.73,
@@ -120,7 +120,7 @@
       "retained": false,
       "coverage": 123,
       "matched": 9,
-      "weighted_density": 0.076,
+      "weighted_density": 0.075,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -144,6 +144,16 @@
           "weight": 2.0
         },
         {
+          "title": "Türkiye’nin yeni üçgeni: Yüzde 31,5 enflasyon, yüzde 63 kredi, eksi yüzde 0,3 sanayi - Dünya Gazetesi",
+          "source": "Dünya Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPd0UtM3pTc1UtS0JoMEdCY24yanpPZjFvVU1JSGNpZG1GYU5rbnF5ODZfLUUtcjFqUThQWkp4Tmc0R0Y4Y0RSOGtIYlI5WmhxRG5kNmNhdWVlUTZuSUZqSHZtQVJac0hDMWJmbm9nVjdCUk5ia2dTZXdzUVNfamNUYlA4NmRKM3FyS0hQeVJNN0xOTDc4ZHdxUjEtNTRzallKeHNGeThlaGZ3YjBLUW9KRVZFQ1IwUmxrc0Vv?oc=5",
+          "published": "2026-09-22T21:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Goldman, Macaristan’ın enflasyon hedefi indirimini forint için olumlu görüyor - Investing.com Türkiye",
           "source": "Investing.com Türkiye",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUzBWQ09pV1ljLTMwMEFEN2lHbU5JMkltNkxsVkF1cW5aYW5PWkswcGZlSlBVRGNHXzFYc0txTWZMX0xEWDdxSkFhc0M5Vm44VkdPOUo0LW5uYkxpeTlBbloza2l0T2s2NGlVQnRkdVJqQVVxV0gzOEZpSnV3SUNTMlVUZW5HVXJpTTNiUFVidm4wZm8yekRiVnlPTFhfVVRZOVFEbEJMYUJFRDVram1xR2VsWVlRMmRVbW12QXZUY0cycUF3Umc0?oc=5",
@@ -164,16 +174,6 @@
           "weight": 0.8
         },
         {
-          "title": "Kesintisiz enflasyon ülkesi - Yeni Dönem Gazetesi",
-          "source": "Yeni Dönem Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzZyVzJMUElMTGdxc1czdW9IS3pwVWh4aTVtUmxPT2JpcHBnZnFQX0tYRkNPWm9NSnJjRmJDd0VCSXFqMkJmYnlFck9mMWxXbjAxY2RCbzRfMDZqMHNrVDJvb3EwVXJ5WEZLMVJJdEtqMjN5TmxNRnh6YzdZRzJpR05STFJyNkJka3RiR1BJRQ?oc=5",
-          "published": "2026-09-20T21:08:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "Dev banka Türkiye’nin yıl sonu enflasyon tahminini yükseltti! - Ekonomim",
           "source": "Ekonomim",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMGloS0JYOGF1LVlEMVZva2hnSFB4ZXRwUVlMWVZGbzNYSDR6QnFQRzh3ZFBqcHdaRmEtbWhjbXpMSXVsc09pOHREUHhLS0hUX2d5SWVTVTBLMElQUFJCQTkyMUZBaDFjTnpMbVBDcGU4QVRyMzhLaWVRTXVnYmhkMW5pdTdTU3VPOGV6TjFHcmIwX1VDeUhMQzJpZmFGMFFVZVB6VFpYWnZycmVSVFdiM2h5cHFHY21HOERBa3kzNkhXZm16cnN2NmpqMURLODjSAdQBQVVfeXFMTWlUU3VrT3ZkNnBvY19YVllTOWpkT0h1UTN2U1BLN3BmUkhWaENBMzhsV05UM3hWNXdHQ1hFdXdhZ2xEbXJBV2RDY2J2TWtBNW95MjhCS2VwbHVCWlI5WHo0QWV2RkJhRzJwUGJNWTU1YUdPTmZLZ1dsV3lFeFhmS2hKYlJuN2pMN3NYRjdRd0d2VjBjRkxtVGtNTEZTYTN0SkpfdGZCSm05YUVxdWE4R0h4ZHlWVHlnajNkbkJLVm5WT2lIN0JIU25HeEhFdW0xa0hJazU?oc=5",
@@ -184,8 +184,8 @@
           "weight": 0.8
         },
         {
-          "title": "Goldman Sachs’tan Türkiye için yüksek faiz ve enflasyon uyarısı - ekoturk.com",
-          "source": "ekoturk.com",
+          "title": "Goldman Sachs’tan Türkiye için yüksek faiz ve enflasyon uyarısı - ekotürk",
+          "source": "ekotürk",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRVpwWlIwSklZZU5xZ2c5TW44dlBEOTFabWZ6dm5abmlCNFZjNXdEWHpwc193bDdDTkc2dWRtaHU2S29DOGg0ZUMxVmNfalItOE03UVZLVUxjZHdyaUNmZlJicTNBTWF3cHB2eGdERVhfTGJuUTdGX09acWlZSV9vTXRfSGlvQXdBNjBHZ1lVbS1Vb0FHWkNyazUzSFU?oc=5",
           "published": "2026-09-20T08:31:16+00:00",
           "terms": [
@@ -194,14 +194,14 @@
           "weight": 0.8
         },
         {
-          "title": "Faiz sebep, enflasyon sonuç! - yenisafak.com",
+          "title": "FED FAİZ KARARI SON DAKİKA 2026 AÇIKLANDI MI? FED faiz kararı ne zaman, saat kaçta açıklanacak? - yenisafak.com",
           "source": "yenisafak.com",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN2xKX1RDQWhwWDNzYzg3dmtrTVdwMmFqWk5UMFk0b21QRUdSVXQwdWM5eTMxRGhZNkZsVkZqbE9tY2l6SmdLVExMckdJazFfekVxZ3FZYVN1TDRZc1pVdHhtRUM4dE1wUmF4Ml9GSzJuSDBmT2RHVl91NTNVTUZhei1kQi1pMFNKN3Z2RFl1T2ZaQQ?oc=5",
-          "published": "2026-09-16T01:00:00+00:00",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObzRDZ0dja0tRMHdZcDVYczVqdy03Nzh5M3lqenczN3NRRDM4cExibENjYWdaZXBhWXQwWWJldktVWDVqeTd2c1BlNDh1MUhhT0dVZDBmczlzakNpdnRMcmdNa3RwOFVsUl9iSzgzUXd1NnpfdmNZc21WZVhYUkNtbkwyeU5Icy1MeUlBbGNkWENZdnh1SHZGcS1DY1F6MFQ2dmJNQURVc1A4bVU4djEzTDYtZlFPTTNSRHRuSENQNlMxenpiYU1iYzVJZWk4TF83eDhMalN3?oc=5",
+          "published": "2026-09-16T13:47:00+00:00",
           "terms": [
-            "enflasyon"
+            "zam"
           ],
-          "weight": 0.8
+          "weight": 0.6
         },
         {
           "title": "Gül Alışar | 2026’nın Son Çeyreğinde Lojistik: Belirsizlikleri Yönetme Zamanı - Ekonomi Dünya",
@@ -217,11 +217,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-07T13:15:59.010781+00:00",
-      "score": 0.8,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-07T21:54:13.830128+00:00",
       "score": 1.0,
@@ -514,6 +509,11 @@
     },
     {
       "generated": "2026-09-22T21:45:45.522623+00:00",
+      "score": 11.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-23T05:28:44.490304+00:00",
       "score": 11.2,
       "status": "BASELINE"
     }
