@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-23T22:01:52.199772+00:00",
+    "generated": "2026-09-24T05:50:33.595448+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
+      "coverage": 126,
       "latest_date": "2026-09-23",
       "latest_value": 48.7499,
       "change_5d_pct": 0.35,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 121,
+      "coverage": 120,
       "latest_date": "2026-09-22",
       "latest_value": 5598.9,
       "change_5d_pct": -11.85,
@@ -118,9 +118,9 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 119,
+      "coverage": 118,
       "matched": 14,
-      "weighted_density": 0.114,
+      "weighted_density": 0.115,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -142,6 +142,16 @@
             "kriz"
           ],
           "weight": 2.0
+        },
+        {
+          "title": "EBRD'den Türkiye'ye enflasyon uyarısı: Büyüme beklentisi aşağı çekildi, ihracat kan kaybediyor - Foreks.com",
+          "source": "Foreks.com",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNck1hUVpOQ2p4azNaalZLRXVSU2ktcVpZWF93NTZZWl9MVUxOdlZObU9qTmdEUy00alVRVnRtRkZleTJDUWxXemcxcVN5dzY2Q21PQ2lMRHRhV0k3STZXdXhsd3dZakVaX0NXVjNkeDNkMk95QjI4T2YyS1doOTB2OFpyV0Q2TXo5TjBpOXRfckhUQjNGNXpvQUdVc1RTQ0ExcURpLVg3U2Q1MlFWMERzMlVMMUh1Zmx3LWwxMDJyR3NjRXQ0SjB6bHFmM1YySUVDMGtuSklVeVZOMjluZkotclVrRjZva0xPYVlValRHUnlzS3lDTFNBQmNVVTQ0bXktUWc4?oc=5",
+          "published": "2026-09-24T05:07:38+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         },
         {
           "title": "» OECD, Türkiye için enflasyon tahminini yukarı çekti - 10haber.net",
@@ -194,16 +204,6 @@
           "weight": 0.8
         },
         {
-          "title": "Piyasa Katılımcıları 12 Ay Sonra Yüzde 23,70 Enflasyon Bekliyor - Paranın Rotası | A Para - A Para",
-          "source": "A Para",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcTg4VFlaaWFlYkk5SlFVOV9QMFByb1RYb3BvNFY5ak9OSzROVm1NWDgtVzBhOUxQSDhFbVFnRXhOUkhUMllzdVRFdjFZb3h2a1BvcWV0VjhxNFlTeEtQQWJXQ0hHS0xwcjRBeTk1R29jdWhIMjZrRWU1T0JILUJSNG5pTGExejBVMlJMejd2aWYwRmF6MzA0aTd6TTZaNFotbGN0N0x4ZFhic3BsNmlUdUNTRjFhV2lYSDg2bmdYTm1IWks1NDEtcXpB?oc=5",
-          "published": "2026-09-23T08:58:46+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "ADB Türkiye İçin Büyüme Tahminini Düşürdü, Enflasyon Beklentisini Yükseltti - RayHaber",
           "source": "RayHaber",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMGNGOEs3NmVud1VxMHZ5akczNThSUFhBZ2NWZm9DQms3d0N4X3RvMVJqOURYTnY5NGNIVEl4Rm5SX0Y0eGFtMUpUUGFybVJSRENGSUZlMXlCaGhvY3BrNy1lS1RFY3RsaE5jbFcyREtkMERfTjBoYXdPUDE3MzJ1ZDQ3OVJLd2c4WC1XSlZRbjJiQ19fSmp2WHowbGw1TU53cUx0T3dIcw?oc=5",
@@ -224,8 +224,8 @@
           "weight": 0.8
         },
         {
-          "title": "Petrol faiz hesabını bozdu: BM’den yeni enflasyon uyarısı - dunya.com",
-          "source": "dunya.com",
+          "title": "Petrol faiz hesabını bozdu: BM’den yeni enflasyon uyarısı - Dünya Gazetesi",
+          "source": "Dünya Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZnJqUmNjc0JLS3c0by1zek1vbWpVWmc5MUd6MXdfOFZXNkJ3NGNxTi1oU2F5aURBQXF0dzNQbXFDVEVPVnZfd3daTDd1amJOR0tRUFRHRGpteTBJemxOMDhLTkZfcFVZdmU3RGMyRHFpNGJ6M3hqUWpTdEd4R2wtQnhlczVIdUg4LUhibld5RHp0WXhCcHZTaEtiNkpGUFBh?oc=5",
           "published": "2026-09-23T06:44:00+00:00",
           "terms": [
@@ -247,11 +247,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-08T17:03:22.298521+00:00",
-      "score": 0.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-08T21:32:42.837468+00:00",
       "score": 0.8,
@@ -544,6 +539,11 @@
     },
     {
       "generated": "2026-09-23T22:01:52.199772+00:00",
+      "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-24T05:50:33.595448+00:00",
       "score": 0,
       "status": "BASELINE"
     }
