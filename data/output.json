@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-24T12:32:20.192632+00:00",
+    "generated": "2026-09-24T17:43:49.433997+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -118,9 +118,9 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 116,
-      "matched": 14,
-      "weighted_density": 0.105,
+      "coverage": 115,
+      "matched": 12,
+      "weighted_density": 0.094,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -176,7 +176,7 @@
         {
           "title": "OECD açıkladı: Türkiye’de enflasyon geriliyor, büyüme güçleniyor - Takvim",
           "source": "Takvim",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ2NDRTJNaExkNkc2bHplTUxIU2c1SWQ3UnpOUHVPSUpmaEpGOXFyR2hIa05OYXpSRHpEQ1hKMkpnZjFybWE4czVWWnVFSDZWY3ozU3dFMXhqWkxPcTRHRkc1cS02c1BkMDR2RmVlcU5ON3l6a0R1T0RrRkxBQW1lSW1nRlE2N3Y2TnVYb1lweGpEOW5QVDhmZTZVZnhodw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaTUyQm5Gc0ZpdHNrUW16VVlSVXJvajI1REQ4ZmVYcmE2Y1o0b0hxelEwSDctZ2ZPalNxaFo4eHZYSFZ3QmtKOXdUWURkSWxTaTlxODhtY3ptd2VMaVctbzFRRjd5Sk05MEhnNTBycVBOc0xyNl9HejRPYkhyWnZ5SFlub25yVk1TQldVdVJXWlUyTDU0eGl6czNrcHZya1NMeDNzSkJsZzdhelE?oc=5",
           "published": "2026-09-23T09:42:31+00:00",
           "terms": [
             "enflasyon"
@@ -198,16 +198,6 @@
           "source": "A Para",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcTg4VFlaaWFlYkk5SlFVOV9QMFByb1RYb3BvNFY5ak9OSzROVm1NWDgtVzBhOUxQSDhFbVFnRXhOUkhUMllzdVRFdjFZb3h2a1BvcWV0VjhxNFlTeEtQQWJXQ0hHS0xwcjRBeTk1R29jdWhIMjZrRWU1T0JILUJSNG5pTGExejBVMlJMejd2aWYwRmF6MzA0aTd6TTZaNFotbGN0N0x4ZFhic3BsNmlUdUNTRjFhV2lYSDg2bmdYTm1IWks1NDEtcXpB?oc=5",
           "published": "2026-09-23T08:58:46+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "ADB Türkiye İçin Büyüme Tahminini Düşürdü, Enflasyon Beklentisini Yükseltti - RayHaber",
-          "source": "RayHaber",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMGNGOEs3NmVud1VxMHZ5akczNThSUFhBZ2NWZm9DQms3d0N4X3RvMVJqOURYTnY5NGNIVEl4Rm5SX0Y0eGFtMUpUUGFybVJSRENGSUZlMXlCaGhvY3BrNy1lS1RFY3RsaE5jbFcyREtkMERfTjBoYXdPUDE3MzJ1ZDQ3OVJLd2c4WC1XSlZRbjJiQ19fSmp2WHowbGw1TU53cUx0T3dIcw?oc=5",
-          "published": "2026-09-23T08:49:04+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -242,16 +232,21 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "TCMB/Karahan: Zorlu koşullara rağmen dezenflasyon süreci devam ediyor - Doviz.com",
+          "source": "Doviz.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUHBQTk5PWmVRa1VMdnN2Si10VDZTUy1fYzNDLVFlcHRSVnRNemFzZXAzaG1kc3U5MkxFLUZncmdqUUE1ZlkxZXdtMzFIcEhGS25MUUxLUnc4ejk5dk1CNC03ZU9JU05WcDRETHJqeXgwbVpHdEtyempQUUpEVEw2RWFScDFfSUY2eHMyOWU5ZXRuSXhSRjRmZ0VMRW9kNnl2c3NtdGdmRlRVekZQbnRZYjRGMS03d1pCVlHSAb8BQVVfeXFMTUE3RkRPTk9CTERQTTF5dGJRSVVpQTJ1SlRJczZtckdjZnJWUVRYYVo3aTBCQU5HNjdKYkVRVW5sbWg2SFBqNU1NbElyOVFWdG1GV1VGb1FHZUM0WGdRbV9GZVpPeVRBMW5pSVQ2QV9pQnNiZlVKaXd0WnYzVGxQNjlnVVdqR0tfNjllZWc5NXBlY3FIbXc0TGFqc3JnUjlpbXpzOUVsZGNMUHVpRHRneVlmLU5IUGlsNlBuVThORkE?oc=5",
+          "published": "2026-09-23T06:25:53+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-09T05:42:03.583637+00:00",
-      "score": 0.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-09T12:08:31.155731+00:00",
       "score": 1.2,
@@ -544,6 +539,11 @@
     },
     {
       "generated": "2026-09-24T12:32:20.192632+00:00",
+      "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-24T17:43:49.433997+00:00",
       "score": 0,
       "status": "BASELINE"
     }
