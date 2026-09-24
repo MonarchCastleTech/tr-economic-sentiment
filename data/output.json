@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-24T05:50:33.595448+00:00",
+    "generated": "2026-09-24T12:32:20.192632+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,19 +26,19 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "latest_date": "2026-09-23",
-      "latest_value": 48.7499,
-      "change_5d_pct": 0.35,
-      "return_z": -2.96,
+      "coverage": 127,
+      "latest_date": "2026-09-24",
+      "latest_value": 48.7671,
+      "change_5d_pct": 0.37,
+      "return_z": -1.23,
       "volatility_20d": 0.07,
-      "volatility_z": -0.44,
+      "volatility_z": -0.41,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.7499,
-          "date": "2026-09-23",
+          "value": 48.7671,
+          "date": "2026-09-24",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -118,21 +118,11 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 118,
+      "coverage": 116,
       "matched": 14,
-      "weighted_density": 0.115,
+      "weighted_density": 0.105,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
-        {
-          "title": "Türkiye ekonomisinin finansallaşması ve fon balonu krizi - World Socialist Web Site",
-          "source": "World Socialist Web Site",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmTzQxU0RPMGY1VFJWZG1uOTVjNndkZjJLYVFBaGRPVjdaMmJOeU9BZHVlX0JXdXUyNUVBLVZCYllOc2stRUprbTJ2T243U09oZUZqY2t2R3h4SXVrTDY1U2ZSS2pHeE8y?oc=5",
-          "published": "2026-09-21T06:41:57+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
         {
           "title": "Hakan Kara ve Kerim Rota’dan fon krizi uyarıları: Faiz indirimi alanı açabilir, dövize kaçış riski var - Para Analiz",
           "source": "Para Analiz",
@@ -142,6 +132,16 @@
             "kriz"
           ],
           "weight": 2.0
+        },
+        {
+          "title": "EBRD’den Türkiye için enflasyon ve büyüme uyarısı! haberi - Finans Gündem",
+          "source": "Finans Gündem",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY1A3dmJ6RWROTDNGaWdseFlvZGlDdTNCaFYzZGV1ZzFXXzFYbzQ4ejJRRUJWU2k4VXEyamh1bjhzdU83MTdyR2xmZTRoWDg2emd5Sk41UnhTZ2d2OE80YmNUQWNZUFU4TF95bTZmQjlEdDdGTVVTLWNWZEctZGYxZjZrdVRxZ1l6V3p2MXUwdlpUYjJ2a0E3YlVR?oc=5",
+          "published": "2026-09-24T07:35:49+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         },
         {
           "title": "EBRD'den Türkiye'ye enflasyon uyarısı: Büyüme beklentisi aşağı çekildi, ihracat kan kaybediyor - Foreks.com",
@@ -176,18 +176,8 @@
         {
           "title": "OECD açıkladı: Türkiye’de enflasyon geriliyor, büyüme güçleniyor - Takvim",
           "source": "Takvim",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaTUyQm5Gc0ZpdHNrUW16VVlSVXJvajI1REQ4ZmVYcmE2Y1o0b0hxelEwSDctZ2ZPalNxaFo4eHZYSFZ3QmtKOXdUWURkSWxTaTlxODhtY3ptd2VMaVctbzFRRjd5Sk05MEhnNTBycVBOc0xyNl9HejRPYkhyWnZ5SFlub25yVk1TQldVdVJXWlUyTDU0eGl6czNrcHZya1NMeDNzSkJsZzdhelE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ2NDRTJNaExkNkc2bHplTUxIU2c1SWQ3UnpOUHVPSUpmaEpGOXFyR2hIa05OYXpSRHpEQ1hKMkpnZjFybWE4czVWWnVFSDZWY3ozU3dFMXhqWkxPcTRHRkc1cS02c1BkMDR2RmVlcU5ON3l6a0R1T0RrRkxBQW1lSW1nRlE2N3Y2TnVYb1lweGpEOW5QVDhmZTZVZnhodw?oc=5",
           "published": "2026-09-23T09:42:31+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "OECD’den Türkiye için enflasyon tahmininde sert revizyon! - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLTNDbnFSTFFWQXc2THdyVXk2X0ktOEZfR20ybG9CQS04eUFzU1FTbXJaaG05X1Vrc2ZQZmxLblE2RzhpS3RjNGFXVVl0TzdZRUViQUo2eXoxZnZlQ1RjUThTX09kYmYwMU9FTG9VdDRaV2FuUmJFeUk2OV9hVlZKUXVaSUNhTWZDNkY4Mk5rZzNNTG1OSlVWTHVMS1UzRlZseFQ3ZtIBqgFBVV95cUxQTnhBLVhzWUxUQ2JNX2k3V2JVVlNkc2ZqZ2dONnhUaDd5NkJlSjdqZXdRdGlFMkJ4emczS0RFWlc5Nzl1Nk5LNjFtYzY2UzBmM1U1WUNpZHNfendkUHZvak1oYkJiaUs0LXBiUUpuNndIaVpna1lPZU9xVU5WRHM2YlRVU1p2V0ZQV1haSHlRc2RpTWZUcVNNWUl3TlJ6eWxnVTJmNmp2YUtkdw?oc=5",
-          "published": "2026-09-23T09:36:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -204,6 +194,16 @@
           "weight": 0.8
         },
         {
+          "title": "Piyasa Katılımcıları 12 Ay Sonra Yüzde 23,70 Enflasyon Bekliyor - Paranın Rotası | A Para - A Para",
+          "source": "A Para",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcTg4VFlaaWFlYkk5SlFVOV9QMFByb1RYb3BvNFY5ak9OSzROVm1NWDgtVzBhOUxQSDhFbVFnRXhOUkhUMllzdVRFdjFZb3h2a1BvcWV0VjhxNFlTeEtQQWJXQ0hHS0xwcjRBeTk1R29jdWhIMjZrRWU1T0JILUJSNG5pTGExejBVMlJMejd2aWYwRmF6MzA0aTd6TTZaNFotbGN0N0x4ZFhic3BsNmlUdUNTRjFhV2lYSDg2bmdYTm1IWks1NDEtcXpB?oc=5",
+          "published": "2026-09-23T08:58:46+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "ADB Türkiye İçin Büyüme Tahminini Düşürdü, Enflasyon Beklentisini Yükseltti - RayHaber",
           "source": "RayHaber",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMGNGOEs3NmVud1VxMHZ5akczNThSUFhBZ2NWZm9DQms3d0N4X3RvMVJqOURYTnY5NGNIVEl4Rm5SX0Y0eGFtMUpUUGFybVJSRENGSUZlMXlCaGhvY3BrNy1lS1RFY3RsaE5jbFcyREtkMERfTjBoYXdPUDE3MzJ1ZDQ3OVJLd2c4WC1XSlZRbjJiQ19fSmp2WHowbGw1TU53cUx0T3dIcw?oc=5",
@@ -214,8 +214,8 @@
           "weight": 0.8
         },
         {
-          "title": "OECD'den Türkiye ekonomisi için kötüleşen görünüm: Büyüme tahmini düştü, enflasyon beklentisi yükseldi - Cumhuriyet",
-          "source": "Cumhuriyet",
+          "title": "OECD'den Türkiye ekonomisi için kötüleşen görünüm: Büyüme tahmini düştü, enflasyon beklentisi yükseldi - cumhuriyet.com.tr",
+          "source": "cumhuriyet.com.tr",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdm9PMi1malo5cV91dTVORjVsXzhmaC1pWEhab0pCa29wT0M2S3ZVaFRweUQybmwtR2psOWFYYy1EVXg4N0dQQVJMSWZRWUtDWUdVRnN2Q0RkLUZYaHJ5U1JHUEhRVmVseHNWellHTGJ5NW9DVlNsRWZUaGNTRTQ5TXktZkctTTN4czdRT0NfMUVYYWswdHVvQkdDemx2enJCNUpXSERVOElMSWctODJveGR2akJya01oTE41dGlMazJrTU5GT2lkdDNTc2FmU29pcmNSamdYYzAzMm55RTYxSldB?oc=5",
           "published": "2026-09-23T08:40:00+00:00",
           "terms": [
@@ -247,11 +247,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-08T21:32:42.837468+00:00",
-      "score": 0.8,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-09T05:42:03.583637+00:00",
       "score": 0.9,
@@ -544,6 +539,11 @@
     },
     {
       "generated": "2026-09-24T05:50:33.595448+00:00",
+      "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-24T12:32:20.192632+00:00",
       "score": 0,
       "status": "BASELINE"
     }
