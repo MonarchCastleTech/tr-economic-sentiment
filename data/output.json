@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-24T17:43:49.433997+00:00",
+    "generated": "2026-09-24T21:56:43.372678+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,16 +113,26 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0,
+      "score": 0.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 115,
-      "matched": 12,
-      "weighted_density": 0.094,
+      "coverage": 118,
+      "matched": 14,
+      "weighted_density": 0.12,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "The Economist: Fon krizi, Türkiye'nin gelişmekte olan piyasa statüsünü riske atıyor - T24",
+          "source": "T24",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS09iTHhac2NCN01EMzZvbVhJUkZsSU4xYUU3UUp4dWFJSlFZUWl4Ui14YVNKNmZSVGJNNTl5ZlM1ZVQ2ZWM4bUhCVXJPX0pBRkt1QmxvYWxrQ0hJSGttSWMtelN4RE1pcHV1eWVJVGRnZ1U1dTIzNVBMSTlfQlZkWWR5SDZJajUzTmZrZ0NXSmYyREJPZnY0YlBVOWNEQW14NFl4RjJva0V2aU5WS0EybE04dllVUQ?oc=5",
+          "published": "2026-09-24T18:13:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "Hakan Kara ve Kerim Rota’dan fon krizi uyarıları: Faiz indirimi alanı açabilir, dövize kaçış riski var - Para Analiz",
           "source": "Para Analiz",
@@ -132,6 +142,17 @@
             "kriz"
           ],
           "weight": 2.0
+        },
+        {
+          "title": "Enflasyon oranı ne zaman açıklanacak? Eylül 2026 TÜFE verileri saat kaçta belli olacak? - İnternet Haber",
+          "source": "İnternet Haber",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT0hTM0czOVJNdWlpXzBRbWxlOGNweEd4bUFsZEI1VzI1ZGlKOHI1N1lUOFJTaDZqUGgtajUyejBucTdoUU1yYW1KdF84U3hTVTM1b2Rnbk5MbUh5NllaME9jMEVOV2dFWFljTkVyOHJoYlVHRFNPZEJNUjBTLVBGNmxBT2tpbUxkNENoM1RDUnZZR1JaVTdyck9fY0RjX25DVGJFdzU0eDZXWWFaM1plT1Bac3BuWFlfLWVPLXlHU1RUcDVRVnhR?oc=5",
+          "published": "2026-09-24T19:00:00+00:00",
+          "terms": [
+            "zam",
+            "enflasyon"
+          ],
+          "weight": 1.4
         },
         {
           "title": "EBRD’den Türkiye için enflasyon ve büyüme uyarısı! haberi - Finans Gündem",
@@ -204,8 +225,8 @@
           "weight": 0.8
         },
         {
-          "title": "OECD'den Türkiye ekonomisi için kötüleşen görünüm: Büyüme tahmini düştü, enflasyon beklentisi yükseldi - cumhuriyet.com.tr",
-          "source": "cumhuriyet.com.tr",
+          "title": "OECD'den Türkiye ekonomisi için kötüleşen görünüm: Büyüme tahmini düştü, enflasyon beklentisi yükseldi - Cumhuriyet",
+          "source": "Cumhuriyet",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdm9PMi1malo5cV91dTVORjVsXzhmaC1pWEhab0pCa29wT0M2S3ZVaFRweUQybmwtR2psOWFYYy1EVXg4N0dQQVJMSWZRWUtDWUdVRnN2Q0RkLUZYaHJ5U1JHUEhRVmVseHNWellHTGJ5NW9DVlNsRWZUaGNTRTQ5TXktZkctTTN4czdRT0NfMUVYYWswdHVvQkdDemx2enJCNUpXSERVOElMSWctODJveGR2akJya01oTE41dGlMazJrTU5GT2lkdDNTc2FmU29pcmNSamdYYzAzMm55RTYxSldB?oc=5",
           "published": "2026-09-23T08:40:00+00:00",
           "terms": [
@@ -222,36 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "ADB Türkiye'nin büyüme tahminini düşürdü, enflasyon beklentisini yükseltti - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYklxNDZMWTdVbGtHUGtydkM4dWZRMHBKTERqbEJEc0FFUjJlVERtVWVkMThHa1lCLVdvS1JtQ3h4OXp6U2hhSWVBNEpHTFRwM2tXVmc2ckxadXRyZHRpRVcxS0lxeTJLYTdmelUtcDg5bXJvdVE2U2lsaWhSeGpqTmJTWkVKMEM5T1ZXNGc1azhJWGdwQko0bjF0aGpHZ2lDX1RBdWZsZzZMcEczNEdsUE5TRUxoc25CZElv0gHAAUFVX3lxTE4zcXRlTWh0ZzZ5eUdHS244ZVFoeXJTRVFzMWo5cS12WGdaWE1VWVdsQklqWUtkM05may1za2FhazBwOERjbFg0RGM1cGN5MFdoZXhhbFQwMXFiX3FwV0hxa1VTMHgzaGt3ZC1RblBzSWg2d29uMWFqcnE3Q2JYTkxkSk9UcGZ5cW5CVGh1ZkVlTmF5U2VwVjdZOUtSQ1Q0b3NBa1I1eVFuVFBzNEJTcFp1akROR1o2MXE4XzlJb0dBMw?oc=5",
-          "published": "2026-09-23T06:35:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "TCMB/Karahan: Zorlu koşullara rağmen dezenflasyon süreci devam ediyor - Doviz.com",
-          "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUHBQTk5PWmVRa1VMdnN2Si10VDZTUy1fYzNDLVFlcHRSVnRNemFzZXAzaG1kc3U5MkxFLUZncmdqUUE1ZlkxZXdtMzFIcEhGS25MUUxLUnc4ejk5dk1CNC03ZU9JU05WcDRETHJqeXgwbVpHdEtyempQUUpEVEw2RWFScDFfSUY2eHMyOWU5ZXRuSXhSRjRmZ0VMRW9kNnl2c3NtdGdmRlRVekZQbnRZYjRGMS03d1pCVlHSAb8BQVVfeXFMTUE3RkRPTk9CTERQTTF5dGJRSVVpQTJ1SlRJczZtckdjZnJWUVRYYVo3aTBCQU5HNjdKYkVRVW5sbWg2SFBqNU1NbElyOVFWdG1GV1VGb1FHZUM0WGdRbV9GZVpPeVRBMW5pSVQ2QV9pQnNiZlVKaXd0WnYzVGxQNjlnVVdqR0tfNjllZWc5NXBlY3FIbXc0TGFqc3JnUjlpbXpzOUVsZGNMUHVpRHRneVlmLU5IUGlsNlBuVThORkE?oc=5",
-          "published": "2026-09-23T06:25:53+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-09T12:08:31.155731+00:00",
-      "score": 1.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-09T17:01:09.640230+00:00",
       "score": 1.1,
@@ -544,6 +540,11 @@
     },
     {
       "generated": "2026-09-24T17:43:49.433997+00:00",
+      "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-24T21:56:43.372678+00:00",
       "score": 0,
       "status": "BASELINE"
     }
