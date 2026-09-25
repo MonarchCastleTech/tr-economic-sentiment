@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-25T12:32:40.993628+00:00",
+    "generated": "2026-09-25T17:45:22.252582+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.0,
-    "raw_score": 0.0,
+    "score": 0.5,
+    "raw_score": 0.5,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,16 +113,26 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0.3,
+      "score": 5.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 119,
-      "matched": 15,
-      "weighted_density": 0.123,
+      "coverage": 131,
+      "matched": 22,
+      "weighted_density": 0.168,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Fon krizi sonrası Türkiye'nin gelişmekte olan piyasa statüsü tehlikede - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQlRCdm10dlRLUWVSUEFfd0c3ZTIwSjBTT3YzbEtyM1l6empVd3J1ZkNxaGpIZkVpY0sydkVjLUZoVFROcmJ6OTZBZnNYWEZUdFRPM0dvQTdzNlhiLWlyRWJaY3dXaU5tMWloVUU0c2tLTVl6dm5WTUFVanNuNFYzMmxCRF9VT1RoYjFSY2x3cEZFZW13NmljTUlJQ2ZoMHMxTFhVekdPZlFIcll1WElGZXI4ZkYtSkpGclR3VGU5N19FeC03c1BLWUtR0gHPAUFVX3lxTE9sbS0wQXQ0cFlWSGxOdkNrMzJCaXZ6dy1tdGFnUDlqWm80RmdwWjJDZ2xmVUtXNkh4TVkxendkSlhVbU9uZ2lORGZXdjV6dUVUOC1TTFNra3VQRnBXRHRZZWlfMUxmSlVlalBRWnRNYTBLWVpGNE1UMkd2UHpNbFdTa0FqYkZ4VWxTYW4yVW1wNUVWaU5aRmNjd1hpQ0NGczAwaWNhbE1veVY3TzA0b0lZNTBGRC1RbmNyc3JISG0zbGNMUXplX2F1bzVBMlMwSQ?oc=5",
+          "published": "2026-09-24T22:01:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "The Economist: Fon krizi, Türkiye'nin gelişmekte olan piyasa statüsünü riske atıyor - T24",
           "source": "T24",
@@ -144,6 +154,17 @@
           "weight": 2.0
         },
         {
+          "title": "Eylül enflasyon beklentisi ne kadar? 2026 TÜİK enflasyon oranı ne zaman açıklanacak? - İnternet Haber",
+          "source": "İnternet Haber",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTm5VVDFoNTR4RFlMWEl2Zy0xcjBJbDVNZEtMQjNZUXkyQ3FsUXM1MW1YRGh4bGFsdTlYcUNiSnJLZmFkV01NcjlHX3RaaXBWc3QxRDB3UzdXMGxYbHl4bzJUQVNXNnVCMGJxV05yNHp5NDhNbDZIV1VTRGYzZ0FfbGtvakt4VjNCemI1NFpSNzFlZDlJOVlISTNkQ2tBU0FKYzMtOUtteFJWbWp4SDV2Vl8tcnRXZjluMHNmUW44VUd4a0E?oc=5",
+          "published": "2026-09-25T16:00:00+00:00",
+          "terms": [
+            "zam",
+            "enflasyon"
+          ],
+          "weight": 1.4
+        },
+        {
           "title": "Enflasyon oranı ne zaman açıklanacak? Eylül 2026 TÜFE verileri saat kaçta belli olacak? - İnternet Haber",
           "source": "İnternet Haber",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT0hTM0czOVJNdWlpXzBRbWxlOGNweEd4bUFsZEI1VzI1ZGlKOHI1N1lUOFJTaDZqUGgtajUyejBucTdoUU1yYW1KdF84U3hTVTM1b2Rnbk5MbUh5NllaME9jMEVOV2dFWFljTkVyOHJoYlVHRFNPZEJNUjBTLVBGNmxBT2tpbUxkNENoM1RDUnZZR1JaVTdyck9fY0RjX25DVGJFdzU0eDZXWWFaM1plT1Bac3BuWFlfLWVPLXlHU1RUcDVRVnhR?oc=5",
@@ -155,90 +176,70 @@
           "weight": 1.4
         },
         {
-          "title": "Türkiye'nin Enflasyon Sınavı: Sadece Faizle Değil, Sokaktaki Beklentiyi Yöneterek Kazanılır - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQVF5Y05obW9JRnE0SmpHZEJkTnkySkljUjF2ZDRiWVk0c1M4aEFJeDR0VzJVOXBMSWRPeW9pME9xMDVyZDBmNDNTTmlIcEx6UTFWSkFNYmJfcWpOU05OY0tZV3M2RXR0Y0E2U3ZoaG1rSk54QnJLOFRaMS1hUENPbUxVRHdLRE9qZ3JtUS1LMGhFU0VSMGN4S3UxMGZpbUpuWWJXZDNjNk5mbll4RjlzaHgyNEwtTGh2UzgzOGJCWXdqX3pfM01PNXl6LXlGYXJjd2dQS1E0eWRycUVYR0xmLXdn?oc=5",
-          "published": "2026-09-25T07:40:18+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "EBRD’den Türkiye için enflasyon ve büyüme uyarısı! haberi - Finans Gündem",
-          "source": "Finans Gündem",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY1A3dmJ6RWROTDNGaWdseFlvZGlDdTNCaFYzZGV1ZzFXXzFYbzQ4ejJRRUJWU2k4VXEyamh1bjhzdU83MTdyR2xmZTRoWDg2emd5Sk41UnhTZ2d2OE80YmNUQWNZUFU4TF95bTZmQjlEdDdGTVVTLWNWZEctZGYxZjZrdVRxZ1l6V3p2MXUwdlpUYjJ2a0E3YlVR?oc=5",
-          "published": "2026-09-24T07:35:49+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "EBRD'den Türkiye'ye enflasyon uyarısı: Büyüme beklentisi aşağı çekildi, ihracat kan kaybediyor - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNck1hUVpOQ2p4azNaalZLRXVSU2ktcVpZWF93NTZZWl9MVUxOdlZObU9qTmdEUy00alVRVnRtRkZleTJDUWxXemcxcVN5dzY2Q21PQ2lMRHRhV0k3STZXdXhsd3dZakVaX0NXVjNkeDNkMk95QjI4T2YyS1doOTB2OFpyV0Q2TXo5TjBpOXRfckhUQjNGNXpvQUdVc1RTQ0ExcURpLVg3U2Q1MlFWMERzMlVMMUh1Zmx3LWwxMDJyR3NjRXQ0SjB6bHFmM1YySUVDMGtuSklVeVZOMjluZkotclVrRjZva0xPYVlValRHUnlzS3lDTFNBQmNVVTQ0bXktUWc4?oc=5",
-          "published": "2026-09-24T05:07:38+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "OECD, Türkiye için enflasyon tahminini açıkladı! - Ajans Urfa",
-          "source": "Ajans Urfa",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONWltSzFNUy00Wkp0anZ4SmowMmJod1U3ZmU5bkZWYi1ITFJob0l6MmVmbGh6dHF6ZFJfYlV5eHRfaHZaazNLcEh0NVZXd09pODQwcUpuLWpmb3dVb21rUG56enJELS1xQ25vYnpHV0dhSUR5dC1GSEdoNzZkdXgtekJFeHhDSk5lWWN5Z1F1cGVMVUhoMEHSAZYBQVVfeXFMTjVpbUsxTVMtNFpKdGp2eEpqMDJiaHdVN2ZlOW5GVmItSExSaG9JejJlZmxoenRxemRSX2JVeXh0X2h2WmszS3BIdDVWV3dPaTg0MHFKbi1qZm93VW9ta1BuenpyRC0tcUNub2J6R1dHYUlEeXQtRkhHaDc2ZHV4LXpCRXh4Q0pOZVljeWdRdXBlTFVIaDBB?oc=5",
-          "published": "2026-09-23T14:07:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "OECD'nin Türkiye raporu yayımlandı: İşte büyüme ve enflasyon tahminleri - CNN Türk",
-          "source": "CNN Türk",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSDdhWDhHejU4NFVDT2l6NEdDMUJma2JZcXFISjZnbVB3TVVSdV9ISjNza3ExTjU4QlNXQWEtaVpXazZpNzNsbkNZbDRTam90ZHZ4cGpXcXgzZ3VxNm9iUDlFdHVzWFZaNURGSkFXSnU4aWt5Tml2aHNvS1R6T0Z0QzB5Wnhoa3QwM1JpT2pubU4yYWJ0amV0cF8tUG9KRHBEX2FsN2l3aEVzM1cwNUE?oc=5",
-          "published": "2026-09-23T10:38:54+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "OECD açıkladı: Türkiye’de enflasyon geriliyor, büyüme güçleniyor - takvim.com.tr",
-          "source": "takvim.com.tr",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaTUyQm5Gc0ZpdHNrUW16VVlSVXJvajI1REQ4ZmVYcmE2Y1o0b0hxelEwSDctZ2ZPalNxaFo4eHZYSFZ3QmtKOXdUWURkSWxTaTlxODhtY3ptd2VMaVctbzFRRjd5Sk05MEhnNTBycVBOc0xyNl9HejRPYkhyWnZ5SFlub25yVk1TQldVdVJXWlUyTDU0eGl6czNrcHZya1NMeDNzSkJsZzdhelE?oc=5",
-          "published": "2026-09-23T09:42:31+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "OECD'den Türkiye ekonomisi için kötüleşen görünüm: Büyüme tahmini düştü, enflasyon beklentisi yükseldi - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdm9PMi1malo5cV91dTVORjVsXzhmaC1pWEhab0pCa29wT0M2S3ZVaFRweUQybmwtR2psOWFYYy1EVXg4N0dQQVJMSWZRWUtDWUdVRnN2Q0RkLUZYaHJ5U1JHUEhRVmVseHNWellHTGJ5NW9DVlNsRWZUaGNTRTQ5TXktZkctTTN4czdRT0NfMUVYYWswdHVvQkdDemx2enJCNUpXSERVOElMSWctODJveGR2akJya01oTE41dGlMazJrTU5GT2lkdDNTc2FmU29pcmNSamdYYzAzMm55RTYxSldB?oc=5",
-          "published": "2026-09-23T08:40:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Petrol faiz hesabını bozdu: BM’den yeni enflasyon uyarısı - Dünya Gazetesi",
-          "source": "Dünya Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZnJqUmNjc0JLS3c0by1zek1vbWpVWmc5MUd6MXdfOFZXNkJ3NGNxTi1oU2F5aURBQXF0dzNQbXFDVEVPVnZfd3daTDd1amJOR0tRUFRHRGpteTBJemxOMDhLTkZfcFVZdmU3RGMyRHFpNGJ6M3hqUWpTdEd4R2wtQnhlczVIdUg4LUhibld5RHp0WXhCcHZTaEtiNkpGUFBh?oc=5",
-          "published": "2026-09-23T06:44:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "ADB Türkiye'nin büyüme tahminini düşürdü, enflasyon beklentisini yükseltti - Ekonomim",
+          "title": "Fitch'ten Türkiye için enflasyon ve dolar/TL tahmini - Ekonomim",
           "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYklxNDZMWTdVbGtHUGtydkM4dWZRMHBKTERqbEJEc0FFUjJlVERtVWVkMThHa1lCLVdvS1JtQ3h4OXp6U2hhSWVBNEpHTFRwM2tXVmc2ckxadXRyZHRpRVcxS0lxeTJLYTdmelUtcDg5bXJvdVE2U2lsaWhSeGpqTmJTWkVKMEM5T1ZXNGc1azhJWGdwQko0bjF0aGpHZ2lDX1RBdWZsZzZMcEczNEdsUE5TRUxoc25CZElv0gHAAUFVX3lxTE4zcXRlTWh0ZzZ5eUdHS244ZVFoeXJTRVFzMWo5cS12WGdaWE1VWVdsQklqWUtkM05may1za2FhazBwOERjbFg0RGM1cGN5MFdoZXhhbFQwMXFiX3FwV0hxa1VTMHgzaGt3ZC1RblBzSWg2d29uMWFqcnE3Q2JYTkxkSk9UcGZ5cW5CVGh1ZkVlTmF5U2VwVjdZOUtSQ1Q0b3NBa1I1eVFuVFBzNEJTcFp1akROR1o2MXE4XzlJb0dBMw?oc=5",
-          "published": "2026-09-23T06:35:00+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeTh4MFRBbzJUUWlNenpvZ3kyRVVsZUFpdU4xX2Vxd3gtT1RXd2dKWTRSbEU5NHJXMXlHSUpYWk1EM2lqRjNndGd6LThzTVNNaDNlNFpLdVppbU5qQkJOQ0hJVkxabnZZV0RwYXltUWJXSUR5bEVRakY0ZHc3YTVkQUJZcncxTVJDZW1wd25rcnlreGM1YzRKOVlSakNUZ2lzVERqS1o4Si3SAa4BQVVfeXFMTjdxT0FsNWRzRkFsUFgyNElTTmpfVUoxWGpWN1g1YnFTaXNlZDJSaDJueE5VMzJWYU9oMlh3T1dBTkFfS1lQeUF4SW5HcmFmY01YQ3dlQmJUZFl6dUs0THdzY3FwZW5tTWQ2bFRSSlBDT1VGSFpFTDZ4bjhVU01jM0NrbjRoVG8tMGxwY0JHRTJhRXZCVmxjcjhsams1ZVk4aEwya1hLallGazUxODd3?oc=5",
+          "published": "2026-09-25T16:08:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Fitch’ten 2027 Türkiye tahmini: Enflasyon ve dolar kurunda rakam verdi - Yeniçağ Gazetesi",
+          "source": "Yeniçağ Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaGtCTTdsclVzRS1FVmVPQ2pfRGhBMm9waU8tTnlKM2owQjVMM1dwcmhuS0tSMnh4eGVINHo2ZjVtMVBKa2c1RURoNFZuMFRFeUNuYWFfb1NaYTQwNm5iaXJKWnBXRmF6d19xOV85S3hJYmpKRmpTYXJrVUI4ZlNpNmNOLWhQeHJEY19tSnNEeHRpeENnZUpWblB5aTlIX2JtRkxOc2NwT0hfSEFmMWo0WmJpaw?oc=5",
+          "published": "2026-09-25T15:13:17+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Türkiye’de faiz ve enflasyon için JPMorgan’dan yeni tahmin - Paratic Haber",
+          "source": "Paratic Haber",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONWZYUG5ManprZDNEV3BXTmlydXBzTU1JMTlBemt4MUhIbVpKdkdBZlltX2F6NEZ6THpURXBWaVRjTmZWUmctU1lJYXdVWl9oWUxZaXVSNmlmZTg0TTF6TEk1N0NzZFhqZnVGSFpQOXR3Y3FpQjNvLVdVR1pfSnpDV1FBYw?oc=5",
+          "published": "2026-09-25T14:30:56+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "JPMorgan'dan Faiz Ve Enflasyon Tahmini: TCMB Politikaları - Finans Hattı",
+          "source": "Finans Hattı",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wM3JBTGw4Y0NScXI0aGFiaWhhN3k2ek9JTnNyUHNLcVlYMXgwMk85RkxYTUhRWDZld0ZIZDhBV3BkN1pFN0hWMmZfZmFpbHd1TTFtNzV6V3FQcllZbW9iTklBNFlhZExkOTNTbTdHNA?oc=5",
+          "published": "2026-09-25T14:07:59+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "JPMorgan'dan Türkiye için faiz ve enflasyon tahmini: Ekim ve Aralık'ta üst üste gelecek - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUm9Fejl3eENWNjk0ZkR2Nzc0TDZyR0RNNXhfZWRYTDkyU21IWHkwRkR3ajBKREUwUnRzYXhOdFItWFZWeGxYeTd1M2JwcjFiVEJNcGQ1VGs4c2drNHJRRkYwcGdtRXBBSUxORTF6V2xralJRejVPWkVTbFpISE52TTBtU3J6bUs1SnlIOTlqemMtYlRNYVU1bE95aGFMcGxhNEh2OVZrNGREV21Kb0E2VWFPOG1QUEU1Mmc?oc=5",
+          "published": "2026-09-25T13:55:29+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Fitch'ten Türkiye analizi: Enflasyon ve dolar/TL tahmini - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbjFrZWc1S0FScjVmQ2FxVGxJS2pmNk96Vm40Rl93bGhyWHh5R2o4Zm1hSXJrUGh6SGZ0ajVISWg2SDlJZHItQWlLR1FqZWduSnBGaXFKcDVHVW5qdVJEZWhkREg1WVlZZEJaWjFDMkxUUFpCTUR2bmVGRXZPZ2ZRZEIxZlFhVEtlaE9GRW1FQVRPUExIc1E?oc=5",
+          "published": "2026-09-25T13:13:12+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Fitch: Türkiye'de yüksek enflasyon ve şoklara karşı hassasiyet dengelenmeyi zorluyor - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTlJ0U1NNVVl1aGUtanB4cHJhQmJHVjZzZnl6T0wyLTF3S3UxTGNDVXplZXVoVHZiamNodmlmcHJ6Z2lncWhKSlk2THFBenVacWFFSFVsd21qRWxSdF9PamJIc0o2QTllRXZHWVJuM0RvZkxtMGpDMm81clhIZVdJVU9tSERwejhPMW5HMG56Zm5sekpnVmlVUVl2VGd5d3luVlNuUFFJUHJvRmlYQ29QRzJaa0diT0lORVJz?oc=5",
+          "published": "2026-09-25T13:06:06+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -248,11 +249,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-10T05:34:30.806652+00:00",
-      "score": 1.4,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-10T12:02:29.905322+00:00",
       "score": 1.0,
@@ -546,6 +542,11 @@
     {
       "generated": "2026-09-25T12:32:40.993628+00:00",
       "score": 0.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-25T17:45:22.252582+00:00",
+      "score": 0.5,
       "status": "BASELINE"
     }
   ],
