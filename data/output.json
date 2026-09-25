@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-24T21:56:43.372678+00:00",
+    "generated": "2026-09-25T05:46:59.199197+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0,
-    "raw_score": 0.0,
+    "score": 0.2,
+    "raw_score": 0.2,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.2/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
+      "coverage": 126,
       "latest_date": "2026-09-24",
       "latest_value": 48.7671,
       "change_5d_pct": 0.37,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 120,
+      "coverage": 119,
       "latest_date": "2026-09-22",
       "latest_value": 5598.9,
       "change_5d_pct": -11.85,
@@ -113,16 +113,26 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0.0,
+      "score": 1.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 118,
-      "matched": 14,
-      "weighted_density": 0.12,
+      "matched": 15,
+      "weighted_density": 0.134,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Fon krizi sonrası Türkiye'nin gelişmekte olan piyasa statüsü tehlikede - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQlRCdm10dlRLUWVSUEFfd0c3ZTIwSjBTT3YzbEtyM1l6empVd3J1ZkNxaGpIZkVpY0sydkVjLUZoVFROcmJ6OTZBZnNYWEZUdFRPM0dvQTdzNlhiLWlyRWJaY3dXaU5tMWloVUU0c2tLTVl6dm5WTUFVanNuNFYzMmxCRF9VT1RoYjFSY2x3cEZFZW13NmljTUlJQ2ZoMHMxTFhVekdPZlFIcll1WElGZXI4ZkYtSkpGclR3VGU5N19FeC03c1BLWUtR0gHPAUFVX3lxTE9sbS0wQXQ0cFlWSGxOdkNrMzJCaXZ6dy1tdGFnUDlqWm80RmdwWjJDZ2xmVUtXNkh4TVkxendkSlhVbU9uZ2lORGZXdjV6dUVUOC1TTFNra3VQRnBXRHRZZWlfMUxmSlVlalBRWnRNYTBLWVpGNE1UMkd2UHpNbFdTa0FqYkZ4VWxTYW4yVW1wNUVWaU5aRmNjd1hpQ0NGczAwaWNhbE1veVY3TzA0b0lZNTBGRC1RbmNyc3JISG0zbGNMUXplX2F1bzVBMlMwSQ?oc=5",
+          "published": "2026-09-25T04:06:54+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "The Economist: Fon krizi, Türkiye'nin gelişmekte olan piyasa statüsünü riske atıyor - T24",
           "source": "T24",
@@ -155,8 +165,8 @@
           "weight": 1.4
         },
         {
-          "title": "EBRD’den Türkiye için enflasyon ve büyüme uyarısı! haberi - Finans Gündem",
-          "source": "Finans Gündem",
+          "title": "EBRD’den Türkiye için enflasyon ve büyüme uyarısı! haberi - finansingundemi.com",
+          "source": "finansingundemi.com",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY1A3dmJ6RWROTDNGaWdseFlvZGlDdTNCaFYzZGV1ZzFXXzFYbzQ4ejJRRUJWU2k4VXEyamh1bjhzdU83MTdyR2xmZTRoWDg2emd5Sk41UnhTZ2d2OE80YmNUQWNZUFU4TF95bTZmQjlEdDdGTVVTLWNWZEctZGYxZjZrdVRxZ1l6V3p2MXUwdlpUYjJ2a0E3YlVR?oc=5",
           "published": "2026-09-24T07:35:49+00:00",
           "terms": [
@@ -169,16 +179,6 @@
           "source": "Foreks.com",
           "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNck1hUVpOQ2p4azNaalZLRXVSU2ktcVpZWF93NTZZWl9MVUxOdlZObU9qTmdEUy00alVRVnRtRkZleTJDUWxXemcxcVN5dzY2Q21PQ2lMRHRhV0k3STZXdXhsd3dZakVaX0NXVjNkeDNkMk95QjI4T2YyS1doOTB2OFpyV0Q2TXo5TjBpOXRfckhUQjNGNXpvQUdVc1RTQ0ExcURpLVg3U2Q1MlFWMERzMlVMMUh1Zmx3LWwxMDJyR3NjRXQ0SjB6bHFmM1YySUVDMGtuSklVeVZOMjluZkotclVrRjZva0xPYVlValRHUnlzS3lDTFNBQmNVVTQ0bXktUWc4?oc=5",
           "published": "2026-09-24T05:07:38+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "» OECD, Türkiye için enflasyon tahminini yukarı çekti - 10haber.net",
-          "source": "10haber.net",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZzRrQVpTbHNKWDNKSmNHSW0zTURVbVd0cHBkUm1JS2xWaEp1ZVBINkJ3UVc0aVd5OXkxcjlBSmhIeGdGdHRRcUFLODJfQTRaUWhseTMzVk83Wnk0ajd5ZXBBbDV1TFI4VEFvaUZpbllQZ2JXZjUxajFaUjZRY29DeGlJcC1TYmpuRkRSbXd5UQ?oc=5",
-          "published": "2026-09-23T11:24:42+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -215,16 +215,6 @@
           "weight": 0.8
         },
         {
-          "title": "Piyasa Katılımcıları 12 Ay Sonra Yüzde 23,70 Enflasyon Bekliyor - Paranın Rotası | A Para - A Para",
-          "source": "A Para",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcTg4VFlaaWFlYkk5SlFVOV9QMFByb1RYb3BvNFY5ak9OSzROVm1NWDgtVzBhOUxQSDhFbVFnRXhOUkhUMllzdVRFdjFZb3h2a1BvcWV0VjhxNFlTeEtQQWJXQ0hHS0xwcjRBeTk1R29jdWhIMjZrRWU1T0JILUJSNG5pTGExejBVMlJMejd2aWYwRmF6MzA0aTd6TTZaNFotbGN0N0x4ZFhic3BsNmlUdUNTRjFhV2lYSDg2bmdYTm1IWks1NDEtcXpB?oc=5",
-          "published": "2026-09-23T08:58:46+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "OECD'den Türkiye ekonomisi için kötüleşen görünüm: Büyüme tahmini düştü, enflasyon beklentisi yükseldi - Cumhuriyet",
           "source": "Cumhuriyet",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdm9PMi1malo5cV91dTVORjVsXzhmaC1pWEhab0pCa29wT0M2S3ZVaFRweUQybmwtR2psOWFYYy1EVXg4N0dQQVJMSWZRWUtDWUdVRnN2Q0RkLUZYaHJ5U1JHUEhRVmVseHNWellHTGJ5NW9DVlNsRWZUaGNTRTQ5TXktZkctTTN4czdRT0NfMUVYYWswdHVvQkdDemx2enJCNUpXSERVOElMSWctODJveGR2akJya01oTE41dGlMazJrTU5GT2lkdDNTc2FmU29pcmNSamdYYzAzMm55RTYxSldB?oc=5",
@@ -243,16 +233,21 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "ADB Türkiye'nin büyüme tahminini düşürdü, enflasyon beklentisini yükseltti - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYklxNDZMWTdVbGtHUGtydkM4dWZRMHBKTERqbEJEc0FFUjJlVERtVWVkMThHa1lCLVdvS1JtQ3h4OXp6U2hhSWVBNEpHTFRwM2tXVmc2ckxadXRyZHRpRVcxS0lxeTJLYTdmelUtcDg5bXJvdVE2U2lsaWhSeGpqTmJTWkVKMEM5T1ZXNGc1azhJWGdwQko0bjF0aGpHZ2lDX1RBdWZsZzZMcEczNEdsUE5TRUxoc25CZElv0gHAAUFVX3lxTE4zcXRlTWh0ZzZ5eUdHS244ZVFoeXJTRVFzMWo5cS12WGdaWE1VWVdsQklqWUtkM05may1za2FhazBwOERjbFg0RGM1cGN5MFdoZXhhbFQwMXFiX3FwV0hxa1VTMHgzaGt3ZC1RblBzSWg2d29uMWFqcnE3Q2JYTkxkSk9UcGZ5cW5CVGh1ZkVlTmF5U2VwVjdZOUtSQ1Q0b3NBa1I1eVFuVFBzNEJTcFp1akROR1o2MXE4XzlJb0dBMw?oc=5",
+          "published": "2026-09-23T06:35:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-09T17:01:09.640230+00:00",
-      "score": 1.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-09T21:29:25.668247+00:00",
       "score": 1.2,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-09-24T21:56:43.372678+00:00",
       "score": 0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-25T05:46:59.199197+00:00",
+      "score": 0.2,
       "status": "BASELINE"
     }
   ],
