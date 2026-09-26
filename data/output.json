@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-26T12:03:51.419845+00:00",
+    "generated": "2026-09-26T16:52:05.435253+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.9,
-    "raw_score": 0.9,
+    "score": 1.2,
+    "raw_score": 1.2,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.9/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.2/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,19 +113,30 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.6,
+      "score": 11.7,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 132,
-      "matched": 25,
-      "weighted_density": 0.195,
+      "coverage": 131,
+      "matched": 27,
+      "weighted_density": 0.223,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Fon krizi sonrası Fitch'ten Türkiye ekonomisi için kritik uyarı - odatv.com",
-          "source": "odatv.com",
+          "title": "Fon krizi: Borsa manipülasyonu nasıl işledi, yatırımcı parasını nasıl ve ne zaman geri alacak? - DW.com",
+          "source": "DW.com",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcE4weEplOHBRQVg4U2w4Z2cwRjZObWxid3loa1ZLWjlUU0FSakV3Q3NjdU9jQ2huVk9Kc2pFVjB2Y3JfWktGbDVhSmNxWExfMFdrMWk5cW8yTFFON09KUFo1N1ltTWxTdXQ4YmY5N0xRSVJNRjdock16ZHBLMklhWFZwakpjcVJrUjhPdnZRSjNKMEVhUVJMMUg1MS1UbU95RUxGV2Z30gGmAUFVX3lxTE54Y3dZRDNDR3ZLSzhTWXdSdzZ0R3dnVHZVSFc2VENtQnFtS1N4VmJaVnB1d0pvS3NwX3JCRDhEUnFfNVBieHVlSExoeUpQSU9FcmJKVHZiTkFKa2pBZ3JTaFdFSVJzRmdZV2FnYk56cXhmc0xCWUZEbGtPSHR4OTNZTUxrQWpqOEEyQ2U1OUN3RHF5UDIzMEdNSzVBQUNYN2FPeGloU0E?oc=5",
+          "published": "2026-09-26T06:48:37+00:00",
+          "terms": [
+            "kriz",
+            "zam"
+          ],
+          "weight": 2.6
+        },
+        {
+          "title": "Fon krizi sonrası Fitch'ten Türkiye ekonomisi için kritik uyarı - Odatv",
+          "source": "Odatv",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaTA1SndpcjNMNDFXR1BWSjBhVEc3Sk5NU01EWEJlcFBXU2ljaG01bFFRZFpHNmYtTFVISF9XSmhJVE13WDJXYlFuUEZtam10ZkhjUkUwVjZseDZScW5RVkZrMm80T0hyYnNleTRaNUNKallNa2hzX2cwbWR0dnJUaEI0WjdJMDcwYmFBOF9VMGxNMGFCVFV1ckdHcTNxWFFoYVJWMA?oc=5",
           "published": "2026-09-25T18:05:18+00:00",
           "terms": [
@@ -216,8 +227,8 @@
           "weight": 0.8
         },
         {
-          "title": "Fitch’ten 2027 Türkiye tahmini: Enflasyon ve dolar kurunda rakam verdi - Yeniçağ Gazetesi",
-          "source": "Yeniçağ Gazetesi",
+          "title": "Fitch’ten 2027 Türkiye tahmini: Enflasyon ve dolar kurunda rakam verdi - yenicaggazetesi.com",
+          "source": "yenicaggazetesi.com",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaGtCTTdsclVzRS1FVmVPQ2pfRGhBMm9waU8tTnlKM2owQjVMM1dwcmhuS0tSMnh4eGVINHo2ZjVtMVBKa2c1RURoNFZuMFRFeUNuYWFfb1NaYTQwNm5iaXJKWnBXRmF6d19xOV85S3hJYmpKRmpTYXJrVUI4ZlNpNmNOLWhQeHJEY19tSnNEeHRpeENnZUpWblB5aTlIX2JtRkxOc2NwT0hfSEFmMWo0WmJpaw?oc=5",
           "published": "2026-09-25T15:13:17+00:00",
           "terms": [
@@ -226,20 +237,10 @@
           "weight": 0.8
         },
         {
-          "title": "Türkiye’de faiz ve enflasyon için JPMorgan’dan yeni tahmin - paratic.com",
-          "source": "paratic.com",
+          "title": "Türkiye’de faiz ve enflasyon için JPMorgan’dan yeni tahmin - Paratic Haber",
+          "source": "Paratic Haber",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONWZYUG5ManprZDNEV3BXTmlydXBzTU1JMTlBemt4MUhIbVpKdkdBZlltX2F6NEZ6THpURXBWaVRjTmZWUmctU1lJYXdVWl9oWUxZaXVSNmlmZTg0TTF6TEk1N0NzZFhqZnVGSFpQOXR3Y3FpQjNvLVdVR1pfSnpDV1FBYw?oc=5",
           "published": "2026-09-25T14:30:56+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "JPMorgan'dan Faiz Ve Enflasyon Tahmini: TCMB Politikaları - Finans Hattı",
-          "source": "Finans Hattı",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wM3JBTGw4Y0NScXI0aGFiaWhhN3k2ek9JTnNyUHNLcVlYMXgwMk85RkxYTUhRWDZld0ZIZDhBV3BkN1pFN0hWMmZfZmFpbHd1TTFtNzV6V3FQcllZbW9iTklBNFlhZExkOTNTbTdHNA?oc=5",
-          "published": "2026-09-25T14:07:59+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -249,11 +250,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-11T05:36:07.149073+00:00",
-      "score": 6.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-11T12:00:24.139915+00:00",
       "score": 6.4,
@@ -547,6 +543,11 @@
     {
       "generated": "2026-09-26T12:03:51.419845+00:00",
       "score": 0.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-26T16:52:05.435253+00:00",
+      "score": 1.2,
       "status": "BASELINE"
     }
   ],
