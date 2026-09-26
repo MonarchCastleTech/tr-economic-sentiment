@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-26T05:50:00.429046+00:00",
+    "generated": "2026-09-26T12:03:51.419845+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.6,
-    "raw_score": 0.6,
+    "score": 0.9,
+    "raw_score": 0.9,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.6/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.9/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,19 +113,19 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 6.4,
+      "score": 8.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 135,
-      "matched": 24,
-      "weighted_density": 0.176,
+      "coverage": 132,
+      "matched": 25,
+      "weighted_density": 0.195,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Fon krizi sonrası Fitch'ten Türkiye ekonomisi için kritik uyarı - Odatv",
-          "source": "Odatv",
+          "title": "Fon krizi sonrası Fitch'ten Türkiye ekonomisi için kritik uyarı - odatv.com",
+          "source": "odatv.com",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaTA1SndpcjNMNDFXR1BWSjBhVEc3Sk5NU01EWEJlcFBXU2ljaG01bFFRZFpHNmYtTFVISF9XSmhJVE13WDJXYlFuUEZtam10ZkhjUkUwVjZseDZScW5RVkZrMm80T0hyYnNleTRaNUNKallNa2hzX2cwbWR0dnJUaEI0WjdJMDcwYmFBOF9VMGxNMGFCVFV1ckdHcTNxWFFoYVJWMA?oc=5",
           "published": "2026-09-25T18:05:18+00:00",
           "terms": [
@@ -138,6 +138,16 @@
           "source": "T24",
           "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPdVlYSGVLeXQyWWYtaThKZ0lLQ0VndC16eVBSMng1UGltY3ZzcUc5enlLTFNoSHlCZEJxc2p2c2tlUnp3aElhc0lGbmsyVXJXNUxFT3JUd1UxMG5USFItQmZQSTNpTnItUHRfUkFRU0UwcjJYSW1aUVluOGJuZnhSRkdMUWFSRGNnYW44TXZBYzlvMGE0b0ljaE5sRHBvQk92RjY5QTFFRjZXd0JSUXgyNEE5aWFrWkhtS2g2bHRTV005NjlpcHBJZ2NVTVg5cXpwVnRBWldPUnFteW1RaE5QV3N3eldiX01tdFRweFhvdk81eU1uMzN3ZWJmT2tVX1pldlAzX2xxWG5GU1luQ2NIbzBBc0xjc2dDM2c?oc=5",
           "published": "2026-09-25T11:07:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "The Economist: Fon krizi, Türkiye'nin gelişmekte olan piyasa statüsünü riske atıyor - T24",
+          "source": "T24",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS09iTHhac2NCN01EMzZvbVhJUkZsSU4xYUU3UUp4dWFJSlFZUWl4Ui14YVNKNmZSVGJNNTl5ZlM1ZVQ2ZWM4bUhCVXJPX0pBRkt1QmxvYWxrQ0hJSGttSWMtelN4RE1pcHV1eWVJVGRnZ1U1dTIzNVBMSTlfQlZkWWR5SDZJajUzTmZrZ0NXSmYyREJPZnY0YlBVOWNEQW14NFl4RjJva0V2aU5WS0EybE04dllVUQ?oc=5",
+          "published": "2026-09-24T18:13:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -176,16 +186,6 @@
           "weight": 1.4
         },
         {
-          "title": "Enflasyon ve dolarda rakam ortaya çıktı! 2027 Türkiye tahmini - Habererk.com",
-          "source": "Habererk.com",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOREdmbDBFeTFDZC1kQkpYV3NDbEJSaFlyYzV4QnQyYmJrd1ZoYmozaFoyTzNlQmFEdEJGVnVKelRWZU5SN1hJQ1oySFE4c3JIa2ZBaWFsTlFMam5PbWdQbmo1WHcyMU1RVENZYVNwVUxBeDlkTmljTlJoczNRcGptR21YZnVBRmdncS1BX25DazFGbTFTSWVYdVZDa1pTMHpo?oc=5",
-          "published": "2026-09-25T19:21:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "Fitch'ten Türkiye ekonomisi değerlendirmesi: Kritik enflasyon ve dolar tahmini - Dünya Gazetesi",
           "source": "Dünya Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT3E0Q0ZlS184ZUZJNGJOX21Ua2hCWFZoWnUyV0UtdnFBdXlIdVgtVUc0UHYtY2J3U0NlYlFnWFRzU3QwVmVTWUxUMUZnNy1oZExwQ3JsbElFbEZBNFJMRnF2OU5Pam1Kb2JwSGVid09raU50NlVuWUtLNDZWbG1IM2sxWlZLVnJCSkN3YVAzTHJHX0NBM0V1d0MxVFN5Z0JYNGRPQS1FRU9kZDd2MlFULWR0b28zVUw0c2syeA?oc=5",
@@ -206,6 +206,16 @@
           "weight": 0.8
         },
         {
+          "title": "Fitch'ten kapsamlı Türkiye analizi: Dolar ne kadar olacak, enflasyon düşecek mi? - T24",
+          "source": "T24",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWjFLUU5zam1JcUVMQVpKYUI1ZC0wbTllY3JpaFJNQWF3azZwT3RvXzlZOF9aZHdJdllLeVVwRFZaa3d5ZnNmaVZCV25MRnlwZHhDWlhjVU95cDZVTDcwR0NhN2o3SEZoRFY1TkRMTVhYeDFBNHQzb2xscDd4ckZTTDhpY2RCV1pmZ2FUTWlfV1V6UEhkSmRKdEtzVkYzempRM0k1cHFxV0dIMjdqNUJ0bA?oc=5",
+          "published": "2026-09-25T15:44:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Fitch’ten 2027 Türkiye tahmini: Enflasyon ve dolar kurunda rakam verdi - Yeniçağ Gazetesi",
           "source": "Yeniçağ Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaGtCTTdsclVzRS1FVmVPQ2pfRGhBMm9waU8tTnlKM2owQjVMM1dwcmhuS0tSMnh4eGVINHo2ZjVtMVBKa2c1RURoNFZuMFRFeUNuYWFfb1NaYTQwNm5iaXJKWnBXRmF6d19xOV85S3hJYmpKRmpTYXJrVUI4ZlNpNmNOLWhQeHJEY19tSnNEeHRpeENnZUpWblB5aTlIX2JtRkxOc2NwT0hfSEFmMWo0WmJpaw?oc=5",
@@ -216,8 +226,8 @@
           "weight": 0.8
         },
         {
-          "title": "Türkiye’de faiz ve enflasyon için JPMorgan’dan yeni tahmin - Paratic Haber",
-          "source": "Paratic Haber",
+          "title": "Türkiye’de faiz ve enflasyon için JPMorgan’dan yeni tahmin - paratic.com",
+          "source": "paratic.com",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONWZYUG5ManprZDNEV3BXTmlydXBzTU1JMTlBemt4MUhIbVpKdkdBZlltX2F6NEZ6THpURXBWaVRjTmZWUmctU1lJYXdVWl9oWUxZaXVSNmlmZTg0TTF6TEk1N0NzZFhqZnVGSFpQOXR3Y3FpQjNvLVdVR1pfSnpDV1FBYw?oc=5",
           "published": "2026-09-25T14:30:56+00:00",
           "terms": [
@@ -234,26 +244,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "JPMorgan'dan Türkiye için faiz ve enflasyon tahmini: Ekim ve Aralık'ta üst üste gelecek - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUm9Fejl3eENWNjk0ZkR2Nzc0TDZyR0RNNXhfZWRYTDkyU21IWHkwRkR3ajBKREUwUnRzYXhOdFItWFZWeGxYeTd1M2JwcjFiVEJNcGQ1VGs4c2drNHJRRkYwcGdtRXBBSUxORTF6V2xralJRejVPWkVTbFpISE52TTBtU3J6bUs1SnlIOTlqemMtYlRNYVU1bE95aGFMcGxhNEh2OVZrNGREV21Kb0E2VWFPOG1QUEU1Mmc?oc=5",
-          "published": "2026-09-25T13:55:29+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-10T21:23:02.972868+00:00",
-      "score": 6.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-11T05:36:07.149073+00:00",
       "score": 6.3,
@@ -547,6 +542,11 @@
     {
       "generated": "2026-09-26T05:50:00.429046+00:00",
       "score": 0.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-26T12:03:51.419845+00:00",
+      "score": 0.9,
       "status": "BASELINE"
     }
   ],
