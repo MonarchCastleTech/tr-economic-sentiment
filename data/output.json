@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-25T21:58:29.957737+00:00",
+    "generated": "2026-09-26T05:50:00.429046+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.9,
-    "raw_score": 0.9,
+    "score": 0.6,
+    "raw_score": 0.6,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.9/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.6/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 9.4,
+      "score": 6.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 133,
-      "matched": 27,
-      "weighted_density": 0.203,
+      "coverage": 135,
+      "matched": 24,
+      "weighted_density": 0.176,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -138,16 +138,6 @@
           "source": "T24",
           "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPdVlYSGVLeXQyWWYtaThKZ0lLQ0VndC16eVBSMng1UGltY3ZzcUc5enlLTFNoSHlCZEJxc2p2c2tlUnp3aElhc0lGbmsyVXJXNUxFT3JUd1UxMG5USFItQmZQSTNpTnItUHRfUkFRU0UwcjJYSW1aUVluOGJuZnhSRkdMUWFSRGNnYW44TXZBYzlvMGE0b0ljaE5sRHBvQk92RjY5QTFFRjZXd0JSUXgyNEE5aWFrWkhtS2g2bHRTV005NjlpcHBJZ2NVTVg5cXpwVnRBWldPUnFteW1RaE5QV3N3eldiX01tdFRweFhvdk81eU1uMzN3ZWJmT2tVX1pldlAzX2xxWG5GU1luQ2NIbzBBc0xjc2dDM2c?oc=5",
           "published": "2026-09-25T11:07:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "The Economist: Fon krizi, Türkiye'nin gelişmekte olan piyasa statüsünü riske atıyor - T24",
-          "source": "T24",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS09iTHhac2NCN01EMzZvbVhJUkZsSU4xYUU3UUp4dWFJSlFZUWl4Ui14YVNKNmZSVGJNNTl5ZlM1ZVQ2ZWM4bUhCVXJPX0pBRkt1QmxvYWxrQ0hJSGttSWMtelN4RE1pcHV1eWVJVGRnZ1U1dTIzNVBMSTlfQlZkWWR5SDZJajUzTmZrZ0NXSmYyREJPZnY0YlBVOWNEQW14NFl4RjJva0V2aU5WS0EybE04dllVUQ?oc=5",
-          "published": "2026-09-24T18:13:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -184,6 +174,16 @@
             "enflasyon"
           ],
           "weight": 1.4
+        },
+        {
+          "title": "Enflasyon ve dolarda rakam ortaya çıktı! 2027 Türkiye tahmini - Habererk.com",
+          "source": "Habererk.com",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOREdmbDBFeTFDZC1kQkpYV3NDbEJSaFlyYzV4QnQyYmJrd1ZoYmozaFoyTzNlQmFEdEJGVnVKelRWZU5SN1hJQ1oySFE4c3JIa2ZBaWFsTlFMam5PbWdQbmo1WHcyMU1RVENZYVNwVUxBeDlkTmljTlJoczNRcGptR21YZnVBRmdncS1BX25DazFGbTFTSWVYdVZDa1pTMHpo?oc=5",
+          "published": "2026-09-25T19:21:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         },
         {
           "title": "Fitch'ten Türkiye ekonomisi değerlendirmesi: Kritik enflasyon ve dolar tahmini - Dünya Gazetesi",
@@ -249,11 +249,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-10T16:53:04.858579+00:00",
-      "score": 1.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-10T21:23:02.972868+00:00",
       "score": 6.1,
@@ -547,6 +542,11 @@
     {
       "generated": "2026-09-25T21:58:29.957737+00:00",
       "score": 0.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-26T05:50:00.429046+00:00",
+      "score": 0.6,
       "status": "BASELINE"
     }
   ],
