@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-26T16:52:05.435253+00:00",
+    "generated": "2026-09-26T21:48:17.433652+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.2,
-    "raw_score": 1.2,
+    "score": 1.1,
+    "raw_score": 1.1,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.2/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,26 +113,25 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 11.7,
+      "score": 10.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 131,
-      "matched": 27,
-      "weighted_density": 0.223,
+      "matched": 26,
+      "weighted_density": 0.212,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Fon krizi: Borsa manipülasyonu nasıl işledi, yatırımcı parasını nasıl ve ne zaman geri alacak? - DW.com",
-          "source": "DW.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcE4weEplOHBRQVg4U2w4Z2cwRjZObWxid3loa1ZLWjlUU0FSakV3Q3NjdU9jQ2huVk9Kc2pFVjB2Y3JfWktGbDVhSmNxWExfMFdrMWk5cW8yTFFON09KUFo1N1ltTWxTdXQ4YmY5N0xRSVJNRjdock16ZHBLMklhWFZwakpjcVJrUjhPdnZRSjNKMEVhUVJMMUg1MS1UbU95RUxGV2Z30gGmAUFVX3lxTE54Y3dZRDNDR3ZLSzhTWXdSdzZ0R3dnVHZVSFc2VENtQnFtS1N4VmJaVnB1d0pvS3NwX3JCRDhEUnFfNVBieHVlSExoeUpQSU9FcmJKVHZiTkFKa2pBZ3JTaFdFSVJzRmdZV2FnYk56cXhmc0xCWUZEbGtPSHR4OTNZTUxrQWpqOEEyQ2U1OUN3RHF5UDIzMEdNSzVBQUNYN2FPeGloU0E?oc=5",
-          "published": "2026-09-26T06:48:37+00:00",
+          "title": "Hamsiler balinayı yemese bari: Borsa krizinin küresel Türkiye’ye verdiği zarar - Notbir",
+          "source": "Notbir",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSjZEeVRjNVZkaWRxMUhPbGhDSDJhamllbUIwQmJ0dXBuUDBfMjRKeGwwNV83c3M2cDJrQzdjT1NLTE81NXNYLUVZemlZdHhHVnFiNldGeVh3SG4wTHhCbGljZm03NERzU0gybUprMC1EcEtheU1ZYXhmMGo1NWhrd3JWWVE2ZkZCaE1jd0pFb2gtM1pCeFN5anNKeVBXalJIWjB3RVNnRzg4Mlk?oc=5",
+          "published": "2026-09-26T06:33:14+00:00",
           "terms": [
-            "kriz",
-            "zam"
+            "kriz"
           ],
-          "weight": 2.6
+          "weight": 2.0
         },
         {
           "title": "Fon krizi sonrası Fitch'ten Türkiye ekonomisi için kritik uyarı - Odatv",
@@ -197,6 +196,16 @@
           "weight": 1.4
         },
         {
+          "title": "Enflasyon ve dolarda rakam ortaya çıktı! 2027 Türkiye tahmini - Habererk.com",
+          "source": "Habererk.com",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOREdmbDBFeTFDZC1kQkpYV3NDbEJSaFlyYzV4QnQyYmJrd1ZoYmozaFoyTzNlQmFEdEJGVnVKelRWZU5SN1hJQ1oySFE4c3JIa2ZBaWFsTlFMam5PbWdQbmo1WHcyMU1RVENZYVNwVUxBeDlkTmljTlJoczNRcGptR21YZnVBRmdncS1BX25DazFGbTFTSWVYdVZDa1pTMHpo?oc=5",
+          "published": "2026-09-25T19:21:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Fitch'ten Türkiye ekonomisi değerlendirmesi: Kritik enflasyon ve dolar tahmini - Dünya Gazetesi",
           "source": "Dünya Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT3E0Q0ZlS184ZUZJNGJOX21Ua2hCWFZoWnUyV0UtdnFBdXlIdVgtVUc0UHYtY2J3U0NlYlFnWFRzU3QwVmVTWUxUMUZnNy1oZExwQ3JsbElFbEZBNFJMRnF2OU5Pam1Kb2JwSGVid09raU50NlVuWUtLNDZWbG1IM2sxWlZLVnJCSkN3YVAzTHJHX0NBM0V1d0MxVFN5Z0JYNGRPQS1FRU9kZDd2MlFULWR0b28zVUw0c2syeA?oc=5",
@@ -217,18 +226,8 @@
           "weight": 0.8
         },
         {
-          "title": "Fitch'ten kapsamlı Türkiye analizi: Dolar ne kadar olacak, enflasyon düşecek mi? - T24",
-          "source": "T24",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWjFLUU5zam1JcUVMQVpKYUI1ZC0wbTllY3JpaFJNQWF3azZwT3RvXzlZOF9aZHdJdllLeVVwRFZaa3d5ZnNmaVZCV25MRnlwZHhDWlhjVU95cDZVTDcwR0NhN2o3SEZoRFY1TkRMTVhYeDFBNHQzb2xscDd4ckZTTDhpY2RCV1pmZ2FUTWlfV1V6UEhkSmRKdEtzVkYzempRM0k1cHFxV0dIMjdqNUJ0bA?oc=5",
-          "published": "2026-09-25T15:44:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Fitch’ten 2027 Türkiye tahmini: Enflasyon ve dolar kurunda rakam verdi - yenicaggazetesi.com",
-          "source": "yenicaggazetesi.com",
+          "title": "Fitch’ten 2027 Türkiye tahmini: Enflasyon ve dolar kurunda rakam verdi - Yeniçağ Gazetesi",
+          "source": "Yeniçağ Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaGtCTTdsclVzRS1FVmVPQ2pfRGhBMm9waU8tTnlKM2owQjVMM1dwcmhuS0tSMnh4eGVINHo2ZjVtMVBKa2c1RURoNFZuMFRFeUNuYWFfb1NaYTQwNm5iaXJKWnBXRmF6d19xOV85S3hJYmpKRmpTYXJrVUI4ZlNpNmNOLWhQeHJEY19tSnNEeHRpeENnZUpWblB5aTlIX2JtRkxOc2NwT0hfSEFmMWo0WmJpaw?oc=5",
           "published": "2026-09-25T15:13:17+00:00",
           "terms": [
@@ -250,11 +249,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-11T12:00:24.139915+00:00",
-      "score": 6.4,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-11T16:54:15.458938+00:00",
       "score": 25.6,
@@ -548,6 +542,11 @@
     {
       "generated": "2026-09-26T16:52:05.435253+00:00",
       "score": 1.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-26T21:48:17.433652+00:00",
+      "score": 1.1,
       "status": "BASELINE"
     }
   ],
