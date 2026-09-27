@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-27T17:28:01.502385+00:00",
+    "generated": "2026-09-27T21:50:09.193253+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.8,
-    "raw_score": 0.8,
+    "score": 1.0,
+    "raw_score": 1.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.8/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,19 +113,19 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.4,
+      "score": 9.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 131,
-      "matched": 23,
-      "weighted_density": 0.194,
+      "coverage": 133,
+      "matched": 24,
+      "weighted_density": 0.206,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Ev Var, Ama Barınacak Yer Yok: Türkiye’de Konut Krizinin Ekonomi Politiği - Daktilo1984",
-          "source": "Daktilo1984",
+          "title": "Ev Var, Ama Barınacak Yer Yok: Türkiye’de Konut Krizinin Ekonomi Politiği - daktilo1984.com",
+          "source": "daktilo1984.com",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOamRiUkZlbXJBUEdTOVRzQm1jaGVONTlqenNoUjJBdmp6M1JSaXRUS2hoSUVtODlmUXBmOXVJdVlBNXNnMFI1RmxNUWo1UGdONFhYNkFSUVdOVmdWc21UQ1RiVFJmZmxZRFFydkg4VkR0dGFvbFNKY08ycHI3V1IzZUo3YzVlVi15NG9EckdCbFU4N1gybjJycXoxeUFpTnM5QUR1MU93?oc=5",
           "published": "2026-09-27T13:05:47+00:00",
           "terms": [
@@ -164,6 +164,16 @@
           "weight": 2.0
         },
         {
+          "title": "Kuşçu Seyahat, Ermetal Çelik Yapı ve Derix İlaç iflas etti! 3 şirket için mahkemeden karar | Türkiye Ekonomisi Haberleri - GZT",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNVJzVWJEUFBzckJMZDNFSmowTVlJOXJuNU1uTU5qcnZVTTJxV0tldTZMa3dSQzlPcGpjX3Zfc1BkYlpoMkxqMEc0ckw3RjhfT1k1STY1R1dkQ2JLZmlsTjgtdFBabEVFVTBzOTRvcVpQQzk0dnh2dnR5Q2VDZEw5c1o3RnRYcWt4dVRZTHlkcjlZWUhfTXlYUmV3dV9qMXhxQzI0OUUyNnZEb1M1NDgyU3pDeFRZTGVFZ1QxUW9aQVRudw?oc=5",
+          "published": "2026-09-25T06:09:25+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "The Economist: Fon krizi, Türkiye'nin gelişmekte olan piyasa statüsünü riske atıyor - T24",
           "source": "T24",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS09iTHhac2NCN01EMzZvbVhJUkZsSU4xYUU3UUp4dWFJSlFZUWl4Ui14YVNKNmZSVGJNNTl5ZlM1ZVQ2ZWM4bUhCVXJPX0pBRkt1QmxvYWxrQ0hJSGttSWMtelN4RE1pcHV1eWVJVGRnZ1U1dTIzNVBMSTlfQlZkWWR5SDZJajUzTmZrZ0NXSmYyREJPZnY0YlBVOWNEQW14NFl4RjJva0V2aU5WS0EybE04dllVUQ?oc=5",
@@ -174,8 +184,8 @@
           "weight": 2.0
         },
         {
-          "title": "Eylül enflasyon beklentisi ne kadar? 2026 TÜİK enflasyon oranı ne zaman açıklanacak? - İnternet Haber",
-          "source": "İnternet Haber",
+          "title": "Eylül enflasyon beklentisi ne kadar? 2026 TÜİK enflasyon oranı ne zaman açıklanacak? - internethaber.com",
+          "source": "internethaber.com",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTm5VVDFoNTR4RFlMWEl2Zy0xcjBJbDVNZEtMQjNZUXkyQ3FsUXM1MW1YRGh4bGFsdTlYcUNiSnJLZmFkV01NcjlHX3RaaXBWc3QxRDB3UzdXMGxYbHl4bzJUQVNXNnVCMGJxV05yNHp5NDhNbDZIV1VTRGYzZ0FfbGtvakt4VjNCemI1NFpSNzFlZDlJOVlISTNkQ2tBU0FKYzMtOUtteFJWbWp4SDV2Vl8tcnRXZjluMHNmUW44VUd4a0E?oc=5",
           "published": "2026-09-25T16:00:00+00:00",
           "terms": [
@@ -185,8 +195,8 @@
           "weight": 1.4
         },
         {
-          "title": "Enflasyon oranı ne zaman açıklanacak? Eylül 2026 TÜFE verileri saat kaçta belli olacak? - İnternet Haber",
-          "source": "İnternet Haber",
+          "title": "Enflasyon oranı ne zaman açıklanacak? Eylül 2026 TÜFE verileri saat kaçta belli olacak? - internethaber.com",
+          "source": "internethaber.com",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT0hTM0czOVJNdWlpXzBRbWxlOGNweEd4bUFsZEI1VzI1ZGlKOHI1N1lUOFJTaDZqUGgtajUyejBucTdoUU1yYW1KdF84U3hTVTM1b2Rnbk5MbUh5NllaME9jMEVOV2dFWFljTkVyOHJoYlVHRFNPZEJNUjBTLVBGNmxBT2tpbUxkNENoM1RDUnZZR1JaVTdyck9fY0RjX25DVGJFdzU0eDZXWWFaM1plT1Bac3BuWFlfLWVPLXlHU1RUcDVRVnhR?oc=5",
           "published": "2026-09-24T19:00:00+00:00",
           "terms": [
@@ -194,6 +204,16 @@
             "enflasyon"
           ],
           "weight": 1.4
+        },
+        {
+          "title": "Türkiye'nin Enflasyon Sınavı: Sadece Faizle Değil, Sokaktaki Beklentiyi Yöneterek Kazanılır - haber7.com",
+          "source": "haber7.com",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQVF5Y05obW9JRnE0SmpHZEJkTnkySkljUjF2ZDRiWVk0c1M4aEFJeDR0VzJVOXBMSWRPeW9pME9xMDVyZDBmNDNTTmlIcEx6UTFWSkFNYmJfcWpOU05OY0tZV3M2RXR0Y0E2U3ZoaG1rSk54QnJLOFRaMS1hUENPbUxVRHdLRE9qZ3JtUS1LMGhFU0VSMGN4S3UxMGZpbUpuWWJXZDNjNk5mbll4RjlzaHgyNEwtTGh2UzgzOGJCWXdqX3pfM01PNXl6LXlGYXJjd2dQS1E0eWRycUVYR0xmLXdn?oc=5",
+          "published": "2026-09-26T07:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         },
         {
           "title": "Fitch'ten Türkiye ekonomisi değerlendirmesi: Kritik enflasyon ve dolar tahmini - Dünya Gazetesi",
@@ -224,36 +244,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "Türkiye’de faiz ve enflasyon için JPMorgan’dan yeni tahmin - Paratic Haber",
-          "source": "Paratic Haber",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONWZYUG5ManprZDNEV3BXTmlydXBzTU1JMTlBemt4MUhIbVpKdkdBZlltX2F6NEZ6THpURXBWaVRjTmZWUmctU1lJYXdVWl9oWUxZaXVSNmlmZTg0TTF6TEk1N0NzZFhqZnVGSFpQOXR3Y3FpQjNvLVdVR1pfSnpDV1FBYw?oc=5",
-          "published": "2026-09-25T14:30:56+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "JPMorgan'dan Türkiye için faiz ve enflasyon tahmini: Ekim ve Aralık'ta üst üste gelecek - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUm9Fejl3eENWNjk0ZkR2Nzc0TDZyR0RNNXhfZWRYTDkyU21IWHkwRkR3ajBKREUwUnRzYXhOdFItWFZWeGxYeTd1M2JwcjFiVEJNcGQ1VGs4c2drNHJRRkYwcGdtRXBBSUxORTF6V2xralJRejVPWkVTbFpISE52TTBtU3J6bUs1SnlIOTlqemMtYlRNYVU1bE95aGFMcGxhNEh2OVZrNGREV21Kb0E2VWFPOG1QUEU1Mmc?oc=5",
-          "published": "2026-09-25T13:55:29+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-12T11:27:04.806078+00:00",
-      "score": 25.6,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-09-12T15:58:39.150938+00:00",
       "score": 25.6,
@@ -547,6 +542,11 @@
     {
       "generated": "2026-09-27T17:28:01.502385+00:00",
       "score": 0.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-27T21:50:09.193253+00:00",
+      "score": 1.0,
       "status": "BASELINE"
     }
   ],
