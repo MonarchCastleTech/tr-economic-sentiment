@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-26T21:48:17.433652+00:00",
+    "generated": "2026-09-27T06:10:50.118638+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,19 +113,19 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 10.5,
+      "score": 10.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 131,
-      "matched": 26,
-      "weighted_density": 0.212,
+      "coverage": 133,
+      "matched": 27,
+      "weighted_density": 0.215,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Hamsiler balinayı yemese bari: Borsa krizinin küresel Türkiye’ye verdiği zarar - Notbir",
-          "source": "Notbir",
+          "title": "Hamsiler balinayı yemese bari: Borsa krizinin küresel Türkiye’ye verdiği zarar - notbir.com.tr",
+          "source": "notbir.com.tr",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSjZEeVRjNVZkaWRxMUhPbGhDSDJhamllbUIwQmJ0dXBuUDBfMjRKeGwwNV83c3M2cDJrQzdjT1NLTE81NXNYLUVZemlZdHhHVnFiNldGeVh3SG4wTHhCbGljZm03NERzU0gybUprMC1EcEtheU1ZYXhmMGo1NWhrd3JWWVE2ZkZCaE1jd0pFb2gtM1pCeFN5anNKeVBXalJIWjB3RVNnRzg4Mlk?oc=5",
           "published": "2026-09-26T06:33:14+00:00",
           "terms": [
@@ -134,8 +134,8 @@
           "weight": 2.0
         },
         {
-          "title": "Fon krizi sonrası Fitch'ten Türkiye ekonomisi için kritik uyarı - Odatv",
-          "source": "Odatv",
+          "title": "Fon krizi sonrası Fitch'ten Türkiye ekonomisi için kritik uyarı - odatv.com",
+          "source": "odatv.com",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaTA1SndpcjNMNDFXR1BWSjBhVEc3Sk5NU01EWEJlcFBXU2ljaG01bFFRZFpHNmYtTFVISF9XSmhJVE13WDJXYlFuUEZtam10ZkhjUkUwVjZseDZScW5RVkZrMm80T0hyYnNleTRaNUNKallNa2hzX2cwbWR0dnJUaEI0WjdJMDcwYmFBOF9VMGxNMGFCVFV1ckdHcTNxWFFoYVJWMA?oc=5",
           "published": "2026-09-25T18:05:18+00:00",
           "terms": [
@@ -249,11 +249,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-11T16:54:15.458938+00:00",
-      "score": 25.6,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-09-11T21:32:17.008615+00:00",
       "score": 25.8,
@@ -546,6 +541,11 @@
     },
     {
       "generated": "2026-09-26T21:48:17.433652+00:00",
+      "score": 1.1,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-27T06:10:50.118638+00:00",
       "score": 1.1,
       "status": "BASELINE"
     }
