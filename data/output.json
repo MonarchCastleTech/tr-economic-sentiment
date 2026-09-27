@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-27T12:43:16.507360+00:00",
+    "generated": "2026-09-27T17:28:01.502385+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.7,
-    "raw_score": 0.7,
+    "score": 0.8,
+    "raw_score": 0.8,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.8/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,16 +113,26 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 7.0,
+      "score": 8.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 129,
-      "matched": 22,
-      "weighted_density": 0.181,
+      "coverage": 131,
+      "matched": 23,
+      "weighted_density": 0.194,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Ev Var, Ama Barınacak Yer Yok: Türkiye’de Konut Krizinin Ekonomi Politiği - Daktilo1984",
+          "source": "Daktilo1984",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOamRiUkZlbXJBUEdTOVRzQm1jaGVONTlqenNoUjJBdmp6M1JSaXRUS2hoSUVtODlmUXBmOXVJdVlBNXNnMFI1RmxNUWo1UGdONFhYNkFSUVdOVmdWc21UQ1RiVFJmZmxZRFFydkg4VkR0dGFvbFNKY08ycHI3V1IzZUo3YzVlVi15NG9EckdCbFU4N1gybjJycXoxeUFpTnM5QUR1MU93?oc=5",
+          "published": "2026-09-27T13:05:47+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "Hamsiler balinayı yemese bari: Borsa krizinin küresel Türkiye’ye verdiği zarar - Notbir",
           "source": "Notbir",
@@ -234,26 +244,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "Fitch’ten Türkiye için yeni enflasyon ve dolar/TL tahmini - Bigpara",
-          "source": "Bigpara",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNb2I1TEdOdWRHM2ZlbGFESkcxeWdwUFdRUVpPRXlZc3B6Q2RlODl4UEZIaW84WGpxZEEzd0ZELXlaRFNOM2FXbjJ0a0ZOZUhlZkF3WFl1NUZJZGp4UFdqMEZ3XzhfTExnWTM5OC1XODNMSDFKc0YtZmVlUTdyS2pLdGZzZ1F2TFRDX1E3aGVTbWl3TzBUaEZXRmh2WTQwWDgyRmFBSGZNSThNY1YxY0xtZWdnN1h1NVBLZW9fQUtYYk81blZGVGhZ?oc=5",
-          "published": "2026-09-25T13:52:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-12T05:23:11.415720+00:00",
-      "score": 25.7,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-09-12T11:27:04.806078+00:00",
       "score": 25.6,
@@ -547,6 +542,11 @@
     {
       "generated": "2026-09-27T12:43:16.507360+00:00",
       "score": 0.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-27T17:28:01.502385+00:00",
+      "score": 0.8,
       "status": "BASELINE"
     }
   ],
