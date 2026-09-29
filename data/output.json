@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-28T23:40:57.777794+00:00",
+    "generated": "2026-09-29T06:33:46.151944+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 2.6,
-    "raw_score": 2.6,
+    "score": 2.5,
+    "raw_score": 2.5,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 2.6/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 2.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 11.4,
+      "score": 10.3,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 137,
-      "matched": 27,
-      "weighted_density": 0.22,
+      "coverage": 134,
+      "matched": 26,
+      "weighted_density": 0.21,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -138,16 +138,6 @@
           "source": "Daktilo1984",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOamRiUkZlbXJBUEdTOVRzQm1jaGVONTlqenNoUjJBdmp6M1JSaXRUS2hoSUVtODlmUXBmOXVJdVlBNXNnMFI1RmxNUWo1UGdONFhYNkFSUVdOVmdWc21UQ1RiVFJmZmxZRFFydkg4VkR0dGFvbFNKY08ycHI3V1IzZUo3YzVlVi15NG9EckdCbFU4N1gybjJycXoxeUFpTnM5QUR1MU93?oc=5",
           "published": "2026-09-27T13:05:47+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Hamsiler balinayı yemese bari: Borsa krizinin küresel Türkiye’ye verdiği zarar - Notbir",
-          "source": "Notbir",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSjZEeVRjNVZkaWRxMUhPbGhDSDJhamllbUIwQmJ0dXBuUDBfMjRKeGwwNV83c3M2cDJrQzdjT1NLTE81NXNYLUVZemlZdHhHVnFiNldGeVh3SG4wTHhCbGljZm03NERzU0gybUprMC1EcEtheU1ZYXhmMGo1NWhrd3JWWVE2ZkZCaE1jd0pFb2gtM1pCeFN5anNKeVBXalJIWjB3RVNnRzg4Mlk?oc=5",
-          "published": "2026-09-26T06:33:14+00:00",
           "terms": [
             "kriz"
           ],
@@ -246,16 +236,21 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Türkiye'nin Enflasyon Sınavı: Sadece Faizle Değil, Sokaktaki Beklentiyi Yöneterek Kazanılır - Haber 7",
+          "source": "Haber 7",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQVF5Y05obW9JRnE0SmpHZEJkTnkySkljUjF2ZDRiWVk0c1M4aEFJeDR0VzJVOXBMSWRPeW9pME9xMDVyZDBmNDNTTmlIcEx6UTFWSkFNYmJfcWpOU05OY0tZV3M2RXR0Y0E2U3ZoaG1rSk54QnJLOFRaMS1hUENPbUxVRHdLRE9qZ3JtUS1LMGhFU0VSMGN4S3UxMGZpbUpuWWJXZDNjNk5mbll4RjlzaHgyNEwtTGh2UzgzOGJCWXdqX3pfM01PNXl6LXlGYXJjd2dQS1E0eWRycUVYR0xmLXdn?oc=5",
+          "published": "2026-09-26T07:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-13T12:31:36.070261+00:00",
-      "score": 25.6,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-09-13T16:48:57.872774+00:00",
       "score": 25.5,
@@ -549,6 +544,11 @@
     {
       "generated": "2026-09-28T23:40:57.777794+00:00",
       "score": 2.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-29T06:33:46.151944+00:00",
+      "score": 2.5,
       "status": "BASELINE"
     }
   ],
