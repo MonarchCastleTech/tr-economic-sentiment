@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-29T13:43:06.724968+00:00",
+    "generated": "2026-09-29T22:49:33.370609+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.6,
-    "raw_score": 1.6,
+    "score": 2.1,
+    "raw_score": 2.1,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.6/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 2.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,19 +113,69 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 12.9,
+      "score": 18.7,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 138,
-      "matched": 28,
-      "weighted_density": 0.233,
+      "coverage": 142,
+      "matched": 32,
+      "weighted_density": 0.285,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Fon krizi Beştepe'de masaya yatırılacak: Erdoğan ekonomi kurmaylarıyla toplanıyor - Yeni Şafak",
-          "source": "Yeni Şafak",
+          "title": "Ekonomideki sessiz kriz büyüyor - Yeni Asya",
+          "source": "Yeni Asya",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qaEk1dnpfQU9HVTJTb1U3Xzg0djJIaElVTUhYc0JmaktFQm1NNlNQaUdacHk5czg0bVFFZG5GM0ZKanpyNjVlaHNoY2ZocVVXVU1sYnMtX2Q4RDFlQUdZajA1WjZGVGVjWVpwTjVfR016UmNwZW96RUdwWW9GUEU?oc=5",
+          "published": "2026-09-29T22:31:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fitch'ten Türkiye Ekonomisi İçin Kritik Açıklama: Fon Krizi Sistemik Risk Oluşturmuyor - Yorumla",
+          "source": "Yorumla",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS3hfMWd4UFB2ZG10blFkZ1pUZUl0ZEZNUDBnUl94VGFMRGxBLUhIdERYWUpjekViY25NZ2NFT1JubXJRQ1JpMnA2WE5NZDVNRld3MVVoZ0s0Y3c5Si1oNDRFRW1VazktUU5CaUptN0hwMk5WbHhzZEozeWUzWGZrVHdORTBhT05zTVozUFZqbWxUTjR3ajFyaDBReFdDVVZ6aWR1cVlJVDJQWTNWOEYtUFVnMkVacVJ0RVZ0Vm9FSXUyZVRYd20wc2p3?oc=5",
+          "published": "2026-09-29T17:26:45+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fitch'ten Türkiye ekonomisi için kritik mesaj: Fon krizi sistematik risk oluşturmaz kredi notunu etkilemez - yenisafak.com",
+          "source": "yenisafak.com",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQLW5WdEI0NGNVd0M2MnNIV2NiRkdUMXFIdjZ2aXZkcGhCUEF3NHZPT1dGQzFGY3JKZVVFVDJQX21MTWMxVkNIaUJ3bFpxLWYweEdMZ0FEMzBhR01ELVJmcU5RUmtpUWppMkJOTjFDV3VSMldjejBqTlRVbFR1WXg5ZlI3YkJvcmlXREFReGVmMWdPUm9vaUMzMzN3Q05ZMllFa1h3YXItZXFsb0dGUm02ZmdJa1dfblNvOEpYR1NPVE5WQWltMDVqQUJZOHlqUDhEUG5rd3FFckU4RUw1THpwN2tVM2JnbmtHanfSAeoBQVVfeXFMUC1uVnRCNDRjVXdDNjJzSFdjYkZHVDFxSHY2dml2ZHBoQlBBdzR2T09XRkMxRmNySmVVRVQyUF9tTE1jMVZDSGlCd2xacS1mMHhHTGdBRDMwYUdNRC1SZnFOUVJraVFqaTJCTk4xQ1d1UjJXY3owak5UVWxUdVl4OWZSN2JCb3JpV0RBUXhlZjFnT1Jvb2lDMzMzd0NOWTJZRWtYd2FyLWVxbG9HRlJtNmZnSWtXX25TbzhKWEdTT1ROVkFpbTA1akFCWTh5alA4RFBua3dxRXJFOEVMNUx6cDdrVTNiZ25rR2p3?oc=5",
+          "published": "2026-09-29T17:14:22+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fon krizi sonrası gözler Fitch'e çevrildi! Winslow'dan Türkiye açıklaması - ahaber.com.tr",
+          "source": "ahaber.com.tr",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQVo4ZjdndVc4VFVLZGFRVzBGelRKWk5LQ3FQTXRnTG1BZ3lSWWMyUmxYY0E3Zy1zNEZ5UElVMFR5bkl5UWI5aU1IYmtHRGNTd3hlUkZTMGpZV0lZZ2VWanNhRTBFR3U4MU9MZHlFRjdaWjJkMk11TTYyVnRUOU4wNGZCYXNUcnZQT2JvZmxsbG8xODNhTC1UOVdNSWhONkpUWkdha0oxSVMySnc?oc=5",
+          "published": "2026-09-29T16:53:14+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Türkiye ekonomisinde sessiz kriz: Erken sanayisizleşme - T24",
+          "source": "T24",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZy1fcDd1T3g0R2h6N05FaTBFNUxpdXRINk02NkxxNTM2N1F1dXJzcUs1aEtON3F4SV9jVXRVc0g1TXdkTnVXQ3ZadEg3MU9SMVNXS1piNW14eGpGWmpwOENlclVyRFZyREhuRWVPX1VtVU1wZDdFZ05hZ1N4UjdtMDFLZF91QkpWWVBCREpuZnBHdw?oc=5",
+          "published": "2026-09-29T10:12:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fon krizi Beştepe'de masaya yatırılacak: Erdoğan ekonomi kurmaylarıyla toplanıyor - yenisafak.com",
+          "source": "yenisafak.com",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUFZ2R2I4d1doaDhPWEpDNlJqZnJXTjEyMzJpSVp0SHo4M3ZDcjZ5TWtxSjNvQXZPTG9LT2R5cmpjcWpJUHZ3LVhKb2huU0Zvb3h1aWhMNmxuQTE3WjVYVHlZZmkwVW9zNmxCN3J3U3AxdTZCbWsyMkpPRFBrWHptbFV5R2dUVmZPRVk3RWwtZFhKS0hVLWVDLTk5SWhPTDZqaU5nVTNCbVQ3U3F6OW9tWXJ4Yjh3RDhrb2pidWp30gHIAUFVX3lxTE5rZnBiYk5YR1VQZGZUWVNkWHhIUzJFdFpyVlhVSTE4ajRRelF2SlVzejRtdlprY3FLSnEyUHJib1FUWGtZMHZHdXNqOFFqN2ZSVThFTjluR3QyeWU0aXpsSHJoc1RYODhvZUh1d0dGZ1lfaWEtWEM3bklTcnNwckk0SWZPVXVOaDZvWjF1b1BrVzlzWTdJdkQwR2d5cjlJQzhfby1UdVlObHV3UHVwd3JfcVpRb2JIVjc4OUs3Tkx6RS1lUFZFTDlr?oc=5",
           "published": "2026-09-29T08:00:00+00:00",
           "terms": [
@@ -184,78 +234,20 @@
           "weight": 2.0
         },
         {
-          "title": "FED/Paulson: Enflasyon nedeniyle daha fazla faiz artışı gerekebilir - paratic.com",
-          "source": "paratic.com",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQlB4VFBmM3pSMVoydlZfaHpXSU9nM3lodlktRFJjUmtjeEN2X1JQY29YTFNRc1RaSl9MNExaWUc3YnBjeldjTUVFeDhVUzRucDZvckRuU01SS284eXo3MjRTYnZuYnh4djVtOGo0dEk0d0F5RVRRc3JnV0ZfZVJkZzBnMk5kSC12ZG5fd0dxRWo?oc=5",
-          "published": "2026-09-24T14:47:41+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
-        },
-        {
-          "title": "Eylül enflasyonu açıklandı mı? 2026 TÜİK enflasyon verisi ne zaman belli olacak? - İnternet Haber",
-          "source": "İnternet Haber",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQk5HaS1ocnZEY3ZFR2oxZGZhQ0dWRlVBQlYwcU1aZUViNGdmaHRTVGRadkRUb0VPRWl2Yi1qTC1XZlk2SjJ1cWE5bDVUNDB3N1ZpNjZyQ0FHRVUzSFdXTDFkblBCNWpJRjExWDJ5S2s2RmRWMGVMbGo5QlB4VTRNcjN4M2RCLVpQLThtUkx6SnBBQWpESWtJUThjLTFnY3phMWpfb0RuaDhUWkl0WDFmdGNGYjJERkFURXdTUWZR?oc=5",
-          "published": "2026-09-28T17:45:00+00:00",
+          "title": "Eylül ayı enflasyonu, faiz kararı ne zaman açıklanacak? Ekonomide ekim takvimi - platinonline.com",
+          "source": "platinonline.com",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbGdpWmtDM0dncVZ3elVzY3hnb0NjcWFiaVFZWUw4Qngybm5YZ2ZDSmFtRHFmeXJSdk12dG0tQXdaTHQySXBHMkpnTkJiMVUwVXRkLU5Oek83ME5XeHI1bkFOLU02QVl2cXMwNTZCemVQQVMyT1gtRzU2TlR6Q3J3cEY3LU5ETEhFU3Z0Y3pWYmdxYjNWUk9LdUQxb1dvLUFwZWR1T2NBczltWmc1TloxWkFJOUNNa1B0M3MxRmxnMA?oc=5",
+          "published": "2026-09-29T08:25:49+00:00",
           "terms": [
             "zam",
             "enflasyon"
           ],
           "weight": 1.4
-        },
-        {
-          "title": "Eylül enflasyon beklentisi ne kadar? 2026 TÜİK enflasyon oranı ne zaman açıklanacak? - İnternet Haber",
-          "source": "İnternet Haber",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTm5VVDFoNTR4RFlMWEl2Zy0xcjBJbDVNZEtMQjNZUXkyQ3FsUXM1MW1YRGh4bGFsdTlYcUNiSnJLZmFkV01NcjlHX3RaaXBWc3QxRDB3UzdXMGxYbHl4bzJUQVNXNnVCMGJxV05yNHp5NDhNbDZIV1VTRGYzZ0FfbGtvakt4VjNCemI1NFpSNzFlZDlJOVlISTNkQ2tBU0FKYzMtOUtteFJWbWp4SDV2Vl8tcnRXZjluMHNmUW44VUd4a0E?oc=5",
-          "published": "2026-09-25T16:00:00+00:00",
-          "terms": [
-            "zam",
-            "enflasyon"
-          ],
-          "weight": 1.4
-        },
-        {
-          "title": "Enflasyon oranı ne zaman açıklanacak? Eylül 2026 TÜFE verileri saat kaçta belli olacak? - İnternet Haber",
-          "source": "İnternet Haber",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT0hTM0czOVJNdWlpXzBRbWxlOGNweEd4bUFsZEI1VzI1ZGlKOHI1N1lUOFJTaDZqUGgtajUyejBucTdoUU1yYW1KdF84U3hTVTM1b2Rnbk5MbUh5NllaME9jMEVOV2dFWFljTkVyOHJoYlVHRFNPZEJNUjBTLVBGNmxBT2tpbUxkNENoM1RDUnZZR1JaVTdyck9fY0RjX25DVGJFdzU0eDZXWWFaM1plT1Bac3BuWFlfLWVPLXlHU1RUcDVRVnhR?oc=5",
-          "published": "2026-09-24T19:00:00+00:00",
-          "terms": [
-            "zam",
-            "enflasyon"
-          ],
-          "weight": 1.4
-        },
-        {
-          "title": "Fitch’ten Türkiye için enflasyon ve dolar/TL tahmini - ekotürk",
-          "source": "ekotürk",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORG02WlhCcVlSbVFWRW5fR2txN2I1d3pLc2ZSdjdPLXpxN3pUenFoSmlFY0dFN1VmYWJZYTZLNDB2am9RazlaSUpFZW5vbDBIdjhiallnNkl5bXhwOTFhczlrYVVqWDJqenY4QkZKa01TSUJlcjljbWFkTEE1ajRLRThJdU1OSS1vdXc?oc=5",
-          "published": "2026-09-29T13:31:14+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Faizden enflasyona, bütçeden ihracata: Ekim ayı ekonomi gündemi haberi - Borsanın Gündemi",
-          "source": "Borsanın Gündemi",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNTk5N3hTQmhLWmdWUGtsam96d1o1TzhiQVNiSmdObF9HZDdIdV9nQVpMVTVyUEtPdlIxbzIzQzhxQ2J4LS1qR25ySmhnMGR5b3BqXzF4WThudFllYmJQb29TZlo1alBPc3lPTXhucUhuRE9vLWdBOXAzT2hwblR6LXZyc19XTk5kRmpTclR2TWFFZUlKWDF0bFVheGdYT21yaHNkdzZRLVdfWmM?oc=5",
-          "published": "2026-09-29T09:50:05+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-13T21:14:24.847790+00:00",
-      "score": 25.5,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-09-14T05:45:40.477596+00:00",
       "score": 25.2,
@@ -549,6 +541,11 @@
     {
       "generated": "2026-09-29T13:43:06.724968+00:00",
       "score": 1.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-29T22:49:33.370609+00:00",
+      "score": 2.1,
       "status": "BASELINE"
     }
   ],
