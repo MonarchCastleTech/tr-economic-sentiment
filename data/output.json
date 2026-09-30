@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-30T13:19:25.291473+00:00",
+    "generated": "2026-09-30T22:48:31.507425+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 2.7,
-    "raw_score": 2.7,
+    "score": 3.3,
+    "raw_score": 3.3,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 2.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 3.3/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -50,17 +50,17 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 118,
-      "latest_date": "2026-09-22",
-      "latest_value": 5598.9,
-      "change_5d_pct": -11.85,
-      "return_z": -1.41,
+      "coverage": 123,
+      "latest_date": "2026-09-29",
+      "latest_value": 5574.1,
+      "change_5d_pct": -0.44,
+      "return_z": -0.31,
       "method": "Five-observation robust anomaly in Brent priced in TRY (Brent USD × USD/TRY).",
       "evidence": [
         {
           "label": "Brent in TRY proxy",
-          "value": 5598.9,
-          "date": "2026-09-22",
+          "value": 5574.1,
+          "date": "2026-09-29",
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ]
@@ -113,16 +113,26 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 20.5,
-      "status": "BASELINE",
+      "score": 26.4,
+      "status": "WATCH",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 141,
-      "matched": 35,
-      "weighted_density": 0.301,
+      "coverage": 143,
+      "matched": 41,
+      "weighted_density": 0.352,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Fon kriziyle ilgili idari ve ekonomik hangi önlemler alınıyor? - BBC",
+          "source": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01UzA1THZUYmphUjV2bFJuUE9URE1EZHdjT0JkUWgtZ0xpcEx2R09xRFV0dmRjRm1MWTlRMU8xWV9uMUtHUUg0Q1QtQjRtZDltbS1EYUt4djlnUGFZeFHSAWNBVV95cUxPa2oyU3hERmFpMWMwVGkwaEhBczlKSXJuWDhZY3F2UDB2S0FFdlhDUEZLY1RFdE9rdXpQVkUzazg3eGc2NjJFdUx1dXdxYTNTRzk2M25nOGY0UXppZDVJOHNhMHM?oc=5",
+          "published": "2026-09-30T09:12:48+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "‘Avrupa’nın enerji krizi bize fatura ediliyor’ - Akdenizmanset",
           "source": "Akdenizmanset",
@@ -154,8 +164,8 @@
           "weight": 2.0
         },
         {
-          "title": "Türkiye ekonomisinde sessiz kriz: Erken sanayisizleşme - T24",
-          "source": "T24",
+          "title": "Türkiye ekonomisinde sessiz kriz: Erken sanayisizleşme - t24.com.tr",
+          "source": "t24.com.tr",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZy1fcDd1T3g0R2h6N05FaTBFNUxpdXRINk02NkxxNTM2N1F1dXJzcUs1aEtON3F4SV9jVXRVc0g1TXdkTnVXQ3ZadEg3MU9SMVNXS1piNW14eGpGWmpwOENlclVyRFZyREhuRWVPX1VtVU1wZDdFZ05hZ1N4UjdtMDFLZF91QkpWWVBCREpuZnBHdw?oc=5",
           "published": "2026-09-29T10:12:00+00:00",
           "terms": [
@@ -174,12 +184,12 @@
           "weight": 2.0
         },
         {
-          "title": "Futbolcunun iki şirketi iflas etti - NTV Haber",
-          "source": "NTV Haber",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9OMml1TkRRZ3VubnZrWXpRYk95VXk2MzB0S0gtZnhNemstTnQydWxpNDhPb3ZubHFjMzNQcWdpOEhkX3l2dGo1TDZKLUVEZ1hBelRiYTBvd3kydHFIUmJpeUJLWjhmTm5VY2FTTE8tSnBnS1l2WGl6eDFJTWlrUQ?oc=5",
-          "published": "2026-09-28T05:49:47+00:00",
+          "title": "Fon soruşturmaları | Off shore bankacılık ve bankerler krizi: Geçmişte hangi finansal krizler yaşandı? - İlke TV",
+          "source": "İlke TV",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd21rWGVJUmtoZVBxU3lBeWVYNVNjb0NCOVV1dnlTOFVIdkNTTGo4dkNCTXhGLXRPeWxycVpFRE5yUVFkam1ra2tQVjA1WGZRZUtIU3N1NmViYWxpbjVxN1FsMUg4WEF4Z1YtMkdYZEN6Rm1GWFZka1QweEtvTjJKdVlJOFZfN01uenVpelZaLU5aSWY1SW9vcG9VUjRUdG50QjJyRXY4cXVpdFpkMkVBbG1Lcm9sVEJoTlBLT0xR?oc=5",
+          "published": "2026-09-28T14:29:19+00:00",
           "terms": [
-            "iflas"
+            "kriz"
           ],
           "weight": 2.0
         },
@@ -194,12 +204,32 @@
           "weight": 2.0
         },
         {
-          "title": "Netflix'ten Türkiye'ye büyük yatırım, otomotiv sektörünü kıskaca alan 'Made in EU' krizi: İşte Erdoğan'ın ABD'li yatırımcılarla yaptığı toplantıda konuşulanlar... - T24",
-          "source": "T24",
+          "title": "Hamsiler balinayı yemese bari: Borsa krizinin küresel Türkiye’ye verdiği zarar - Notbir",
+          "source": "Notbir",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSjZEeVRjNVZkaWRxMUhPbGhDSDJhamllbUIwQmJ0dXBuUDBfMjRKeGwwNV83c3M2cDJrQzdjT1NLTE81NXNYLUVZemlZdHhHVnFiNldGeVh3SG4wTHhCbGljZm03NERzU0gybUprMC1EcEtheU1ZYXhmMGo1NWhrd3JWWVE2ZkZCaE1jd0pFb2gtM1pCeFN5anNKeVBXalJIWjB3RVNnRzg4Mlk?oc=5",
+          "published": "2026-09-26T06:33:14+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Netflix'ten Türkiye'ye büyük yatırım, otomotiv sektörünü kıskaca alan 'Made in EU' krizi: İşte Erdoğan'ın ABD'li yatırımcılarla yaptığı toplantıda konuşulanlar... - t24.com.tr",
+          "source": "t24.com.tr",
           "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPdVlYSGVLeXQyWWYtaThKZ0lLQ0VndC16eVBSMng1UGltY3ZzcUc5enlLTFNoSHlCZEJxc2p2c2tlUnp3aElhc0lGbmsyVXJXNUxFT3JUd1UxMG5USFItQmZQSTNpTnItUHRfUkFRU0UwcjJYSW1aUVluOGJuZnhSRkdMUWFSRGNnYW44TXZBYzlvMGE0b0ljaE5sRHBvQk92RjY5QTFFRjZXd0JSUXgyNEE5aWFrWkhtS2g2bHRTV005NjlpcHBJZ2NVTVg5cXpwVnRBWldPUnFteW1RaE5QV3N3eldiX01tdFRweFhvdk81eU1uMzN3ZWJmT2tVX1pldlAzX2xxWG5GU1luQ2NIbzBBc0xjc2dDM2c?oc=5",
           "published": "2026-09-25T11:07:00+00:00",
           "terms": [
             "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "3 şirket daha iflas etti: Alacaklılar için uzun hukuk maratonu başladı - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLWhtcXZvT1A1elB3UFEtWnlXVDQzZTZnR0RYLVAtWTQxa0d5MUNVMm9LaDBXangyYWF2bHNMU0FxWktwVnRnNjg4QXNUeG12U3BXMXRsWWcydWcxTGczb1ZUREdYZi1neXhmbUpMTWk1OExYdkdVWlRSLWIycW9ncEh4SWdLOTY2X21JYU5xSjl3bUFLQjJrUnZFNmZVbi1LcWxlbjdhZVVBYWdWTV9XZtIBuwFBVV95cUxNcXJnNEI3NWJaUVZIYWwzOTRDdkpENjVpRmgxQVZxS3RyQnQxUUtjbmRzbUhRUHpyaFRwYzhDVkE2clFBcmlUdTUzWWJ4RUpMN0Q2enRkb1NZVFF0Mk9sNG5UN0IxM2w1QmlSM2RkbmlycllFdE5VY0lrRWpucTd2eDVBcE1UWkNzTm5URzhJVEIzV3Bsc2w4QlVwTGFWTEswS09xbUdpRDBlaHl3VDdCeHBWaWNxQkEwT2Iw?oc=5",
+          "published": "2026-09-25T06:24:53+00:00",
+          "terms": [
+            "iflas"
           ],
           "weight": 2.0
         },
@@ -212,46 +242,11 @@
             "iflas"
           ],
           "weight": 2.0
-        },
-        {
-          "title": "The Economist: Fon krizi, Türkiye'nin gelişmekte olan piyasa statüsünü riske atıyor - T24",
-          "source": "T24",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS09iTHhac2NCN01EMzZvbVhJUkZsSU4xYUU3UUp4dWFJSlFZUWl4Ui14YVNKNmZSVGJNNTl5ZlM1ZVQ2ZWM4bUhCVXJPX0pBRkt1QmxvYWxrQ0hJSGttSWMtelN4RE1pcHV1eWVJVGRnZ1U1dTIzNVBMSTlfQlZkWWR5SDZJajUzTmZrZ0NXSmYyREJPZnY0YlBVOWNEQW14NFl4RjJva0V2aU5WS0EybE04dllVUQ?oc=5",
-          "published": "2026-09-24T18:13:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Almanya'da işsizlik 3 milyon sınırında: Beklentilerin üzerinde arttı - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMm5fcFRac3ZJTzhSNDRsc0MxZlFlcGwzZGdYNzhfTGVYWElnN1FPSWduMmh2bEI5Y2dNT1RJS3J5MzJtdlpzOWw2RVN4aWJRT1hidENsN1BaM096eXBhWjF3MUN6em9DQ3MwVm9OclQ1Ny1QX3RPY29nMk1vd2tMdXhUOEFyOVBYcVVHNlRXeHpVb21TOTQyM0NhLWY5R09HNW5N?oc=5",
-          "published": "2026-09-30T08:59:04+00:00",
-          "terms": [
-            "işsizlik"
-          ],
-          "weight": 1.5
-        },
-        {
-          "title": "Türkiye'de işsizlik oranı ağustosta bir önceki aya göre 0,3 puan azaldı - Anadolu Ajansı",
-          "source": "Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQU5pS095R0xaaWpxR2ktRmJSVTNGNURSb3prLWt2TFluM3BGbVJNbGZMQUo1TTYxeE1ROXhBbkpZbUowQXgzZ0otNUpOWjVtaEFmRHdkd0FwMEVxcENLSEJNZUJpeFFPSm5IdVNJcGR5dTBKM1QwTE5RWkxBT0xOYndTSUpDNFQ4VXdDMzFFMDJFVWRXc0ZNNTlOMnR2YTJ4WHNlWG9sM2I3U19LVVMydA?oc=5",
-          "published": "2026-09-30T07:17:46+00:00",
-          "terms": [
-            "işsizlik"
-          ],
-          "weight": 1.5
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-14T22:15:11.149848+00:00",
-      "score": 8.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-15T05:47:14.743799+00:00",
       "score": 8.4,
@@ -545,6 +540,11 @@
     {
       "generated": "2026-09-30T13:19:25.291473+00:00",
       "score": 2.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-30T22:48:31.507425+00:00",
+      "score": 3.3,
       "status": "BASELINE"
     }
   ],
