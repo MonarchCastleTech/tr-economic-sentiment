@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-30T06:16:49.314732+00:00",
+    "generated": "2026-09-30T13:19:25.291473+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,34 +11,34 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.9,
-    "raw_score": 1.9,
+    "score": 2.7,
+    "raw_score": 2.7,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.9/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 2.7/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 0.9,
+      "score": 2.1,
       "status": "BASELINE",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
-      "latest_date": "2026-09-29",
-      "latest_value": 48.9131,
+      "coverage": 129,
+      "latest_date": "2026-09-30",
+      "latest_value": 48.9303,
       "change_5d_pct": 0.37,
-      "return_z": -1.04,
+      "return_z": -1.16,
       "volatility_20d": 0.07,
-      "volatility_z": 0.56,
+      "volatility_z": 0.65,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.9131,
-          "date": "2026-09-29",
+          "value": 48.9303,
+          "date": "2026-09-30",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -113,16 +113,26 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 16.7,
+      "score": 20.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 141,
-      "matched": 33,
-      "weighted_density": 0.267,
+      "matched": 35,
+      "weighted_density": 0.301,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "‘Avrupa’nın enerji krizi bize fatura ediliyor’ - Akdenizmanset",
+          "source": "Akdenizmanset",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMEozcFFlRGVLamwyd0g1RUVDZVBHMmVLQjFKaldvXzF2dWR2T21ESmxDc01PQy12SUNHN0lGUHIxbjZtRDVObnlLRU5CdVpqdFRwalJjN0JGbkRXX0R0aWowUWZjZVQ5a2thLWFFQ2lZTzNVNFlTbF9NaUlJV0FENE1R?oc=5",
+          "published": "2026-09-30T08:23:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "Fitch'ten Türkiye ekonomisi için kritik mesaj: Fon krizi sistematik risk oluşturmaz kredi notunu etkilemez - Yeni Şafak",
           "source": "Yeni Şafak",
@@ -144,8 +154,8 @@
           "weight": 2.0
         },
         {
-          "title": "Türkiye ekonomisinde sessiz kriz: Erken sanayisizleşme - t24.com.tr",
-          "source": "t24.com.tr",
+          "title": "Türkiye ekonomisinde sessiz kriz: Erken sanayisizleşme - T24",
+          "source": "T24",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZy1fcDd1T3g0R2h6N05FaTBFNUxpdXRINk02NkxxNTM2N1F1dXJzcUs1aEtON3F4SV9jVXRVc0g1TXdkTnVXQ3ZadEg3MU9SMVNXS1piNW14eGpGWmpwOENlclVyRFZyREhuRWVPX1VtVU1wZDdFZ05hZ1N4UjdtMDFLZF91QkpWWVBCREpuZnBHdw?oc=5",
           "published": "2026-09-29T10:12:00+00:00",
           "terms": [
@@ -164,12 +174,12 @@
           "weight": 2.0
         },
         {
-          "title": "Fon soruşturmaları | Off shore bankacılık ve bankerler krizi: Geçmişte hangi finansal krizler yaşandı? - İlke TV",
-          "source": "İlke TV",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd21rWGVJUmtoZVBxU3lBeWVYNVNjb0NCOVV1dnlTOFVIdkNTTGo4dkNCTXhGLXRPeWxycVpFRE5yUVFkam1ra2tQVjA1WGZRZUtIU3N1NmViYWxpbjVxN1FsMUg4WEF4Z1YtMkdYZEN6Rm1GWFZka1QweEtvTjJKdVlJOFZfN01uenVpelZaLU5aSWY1SW9vcG9VUjRUdG50QjJyRXY4cXVpdFpkMkVBbG1Lcm9sVEJoTlBLT0xR?oc=5",
-          "published": "2026-09-28T14:29:19+00:00",
+          "title": "Futbolcunun iki şirketi iflas etti - NTV Haber",
+          "source": "NTV Haber",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9OMml1TkRRZ3VubnZrWXpRYk95VXk2MzB0S0gtZnhNemstTnQydWxpNDhPb3ZubHFjMzNQcWdpOEhkX3l2dGo1TDZKLUVEZ1hBelRiYTBvd3kydHFIUmJpeUJLWjhmTm5VY2FTTE8tSnBnS1l2WGl6eDFJTWlrUQ?oc=5",
+          "published": "2026-09-28T05:49:47+00:00",
           "terms": [
-            "kriz"
+            "iflas"
           ],
           "weight": 2.0
         },
@@ -184,8 +194,8 @@
           "weight": 2.0
         },
         {
-          "title": "Netflix'ten Türkiye'ye büyük yatırım, otomotiv sektörünü kıskaca alan 'Made in EU' krizi: İşte Erdoğan'ın ABD'li yatırımcılarla yaptığı toplantıda konuşulanlar... - t24.com.tr",
-          "source": "t24.com.tr",
+          "title": "Netflix'ten Türkiye'ye büyük yatırım, otomotiv sektörünü kıskaca alan 'Made in EU' krizi: İşte Erdoğan'ın ABD'li yatırımcılarla yaptığı toplantıda konuşulanlar... - T24",
+          "source": "T24",
           "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPdVlYSGVLeXQyWWYtaThKZ0lLQ0VndC16eVBSMng1UGltY3ZzcUc5enlLTFNoSHlCZEJxc2p2c2tlUnp3aElhc0lGbmsyVXJXNUxFT3JUd1UxMG5USFItQmZQSTNpTnItUHRfUkFRU0UwcjJYSW1aUVluOGJuZnhSRkdMUWFSRGNnYW44TXZBYzlvMGE0b0ljaE5sRHBvQk92RjY5QTFFRjZXd0JSUXgyNEE5aWFrWkhtS2g2bHRTV005NjlpcHBJZ2NVTVg5cXpwVnRBWldPUnFteW1RaE5QV3N3eldiX01tdFRweFhvdk81eU1uMzN3ZWJmT2tVX1pldlAzX2xxWG5GU1luQ2NIbzBBc0xjc2dDM2c?oc=5",
           "published": "2026-09-25T11:07:00+00:00",
           "terms": [
@@ -194,8 +204,18 @@
           "weight": 2.0
         },
         {
-          "title": "The Economist: Fon krizi, Türkiye'nin gelişmekte olan piyasa statüsünü riske atıyor - t24.com.tr",
-          "source": "t24.com.tr",
+          "title": "Alacaklılar dikkat. 3 şirket iflas etti - NTV Haber",
+          "source": "NTV Haber",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObF9sc3dGSHFnUndsSDhfZVBOZUEwbjFaTDhSMmZqLVRrOXpDSHlzdUUtanVBSklacUxvR3ZGTWhKdVRXWUVOeDBVbURPZzZ4MzhTc0g2b1FYaW9GYm9ZWm9ndWE4YnFRSHR5SlZGVWNTSkZ6THJkSDVDd19xS0JfSGEwZw?oc=5",
+          "published": "2026-09-25T05:23:19+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "The Economist: Fon krizi, Türkiye'nin gelişmekte olan piyasa statüsünü riske atıyor - T24",
+          "source": "T24",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS09iTHhac2NCN01EMzZvbVhJUkZsSU4xYUU3UUp4dWFJSlFZUWl4Ui14YVNKNmZSVGJNNTl5ZlM1ZVQ2ZWM4bUhCVXJPX0pBRkt1QmxvYWxrQ0hJSGttSWMtelN4RE1pcHV1eWVJVGRnZ1U1dTIzNVBMSTlfQlZkWWR5SDZJajUzTmZrZ0NXSmYyREJPZnY0YlBVOWNEQW14NFl4RjJva0V2aU5WS0EybE04dllVUQ?oc=5",
           "published": "2026-09-24T18:13:00+00:00",
           "terms": [
@@ -204,57 +224,29 @@
           "weight": 2.0
         },
         {
-          "title": "Eylül ayı enflasyonu, faiz kararı ne zaman açıklanacak? Ekonomide ekim takvimi - platinonline.com",
-          "source": "platinonline.com",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbGdpWmtDM0dncVZ3elVzY3hnb0NjcWFiaVFZWUw4Qngybm5YZ2ZDSmFtRHFmeXJSdk12dG0tQXdaTHQySXBHMkpnTkJiMVUwVXRkLU5Oek83ME5XeHI1bkFOLU02QVl2cXMwNTZCemVQQVMyT1gtRzU2TlR6Q3J3cEY3LU5ETEhFU3Z0Y3pWYmdxYjNWUk9LdUQxb1dvLUFwZWR1T2NBczltWmc1TloxWkFJOUNNa1B0M3MxRmxnMA?oc=5",
-          "published": "2026-09-29T08:25:49+00:00",
+          "title": "Almanya'da işsizlik 3 milyon sınırında: Beklentilerin üzerinde arttı - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMm5fcFRac3ZJTzhSNDRsc0MxZlFlcGwzZGdYNzhfTGVYWElnN1FPSWduMmh2bEI5Y2dNT1RJS3J5MzJtdlpzOWw2RVN4aWJRT1hidENsN1BaM096eXBhWjF3MUN6em9DQ3MwVm9OclQ1Ny1QX3RPY29nMk1vd2tMdXhUOEFyOVBYcVVHNlRXeHpVb21TOTQyM0NhLWY5R09HNW5N?oc=5",
+          "published": "2026-09-30T08:59:04+00:00",
           "terms": [
-            "zam",
-            "enflasyon"
+            "işsizlik"
           ],
-          "weight": 1.4
+          "weight": 1.5
         },
         {
-          "title": "Eylül enflasyon beklentisi ne kadar? 2026 TÜİK enflasyon oranı ne zaman açıklanacak? - İnternet Haber",
-          "source": "İnternet Haber",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTm5VVDFoNTR4RFlMWEl2Zy0xcjBJbDVNZEtMQjNZUXkyQ3FsUXM1MW1YRGh4bGFsdTlYcUNiSnJLZmFkV01NcjlHX3RaaXBWc3QxRDB3UzdXMGxYbHl4bzJUQVNXNnVCMGJxV05yNHp5NDhNbDZIV1VTRGYzZ0FfbGtvakt4VjNCemI1NFpSNzFlZDlJOVlISTNkQ2tBU0FKYzMtOUtteFJWbWp4SDV2Vl8tcnRXZjluMHNmUW44VUd4a0E?oc=5",
-          "published": "2026-09-25T16:00:00+00:00",
+          "title": "Türkiye'de işsizlik oranı ağustosta bir önceki aya göre 0,3 puan azaldı - Anadolu Ajansı",
+          "source": "Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQU5pS095R0xaaWpxR2ktRmJSVTNGNURSb3prLWt2TFluM3BGbVJNbGZMQUo1TTYxeE1ROXhBbkpZbUowQXgzZ0otNUpOWjVtaEFmRHdkd0FwMEVxcENLSEJNZUJpeFFPSm5IdVNJcGR5dTBKM1QwTE5RWkxBT0xOYndTSUpDNFQ4VXdDMzFFMDJFVWRXc0ZNNTlOMnR2YTJ4WHNlWG9sM2I3U19LVVMydA?oc=5",
+          "published": "2026-09-30T07:17:46+00:00",
           "terms": [
-            "zam",
-            "enflasyon"
+            "işsizlik"
           ],
-          "weight": 1.4
-        },
-        {
-          "title": "Enflasyon oranı ne zaman açıklanacak? Eylül 2026 TÜFE verileri saat kaçta belli olacak? - İnternet Haber",
-          "source": "İnternet Haber",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT0hTM0czOVJNdWlpXzBRbWxlOGNweEd4bUFsZEI1VzI1ZGlKOHI1N1lUOFJTaDZqUGgtajUyejBucTdoUU1yYW1KdF84U3hTVTM1b2Rnbk5MbUh5NllaME9jMEVOV2dFWFljTkVyOHJoYlVHRFNPZEJNUjBTLVBGNmxBT2tpbUxkNENoM1RDUnZZR1JaVTdyck9fY0RjX25DVGJFdzU0eDZXWWFaM1plT1Bac3BuWFlfLWVPLXlHU1RUcDVRVnhR?oc=5",
-          "published": "2026-09-24T19:00:00+00:00",
-          "terms": [
-            "zam",
-            "enflasyon"
-          ],
-          "weight": 1.4
-        },
-        {
-          "title": "Lagarde’den enflasyon mesajı - Haber Gündemim",
-          "source": "Haber Gündemim",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tbXpYMlQybDltQ2kyLTBKUkNMYjM2TDBMdnlZLS1MdENCd1dQenFadnNYWGF2TTVZRTRYa1l1RXVTeHNEbmVCYnhxNGdvTzJFeDIxM0RoT2pZdkVGdjEwQjRRSEhsU2VjcDRhazJ3TVRqQUE?oc=5",
-          "published": "2026-09-30T06:10:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
+          "weight": 1.5
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-14T13:37:16.174887+00:00",
-      "score": 8.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-14T22:15:11.149848+00:00",
       "score": 8.3,
@@ -548,6 +540,11 @@
     {
       "generated": "2026-09-30T06:16:49.314732+00:00",
       "score": 1.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-30T13:19:25.291473+00:00",
+      "score": 2.7,
       "status": "BASELINE"
     }
   ],
