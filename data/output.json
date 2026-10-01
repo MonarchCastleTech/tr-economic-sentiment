@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-09-30T22:48:31.507425+00:00",
+    "generated": "2026-10-01T06:49:03.927882+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 3.3,
-    "raw_score": 3.3,
+    "score": 3.0,
+    "raw_score": 3.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 3.3/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 3.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-09-30",
       "latest_value": 48.9303,
       "change_5d_pct": 0.37,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 123,
+      "coverage": 122,
       "latest_date": "2026-09-29",
       "latest_value": 5574.1,
       "change_5d_pct": -0.44,
@@ -113,31 +113,31 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 26.4,
-      "status": "WATCH",
+      "score": 24.0,
+      "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 143,
-      "matched": 41,
-      "weighted_density": 0.352,
+      "coverage": 141,
+      "matched": 38,
+      "weighted_density": 0.331,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Fon kriziyle ilgili idari ve ekonomik hangi önlemler alınıyor? - BBC",
-          "source": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01UzA1THZUYmphUjV2bFJuUE9URE1EZHdjT0JkUWgtZ0xpcEx2R09xRFV0dmRjRm1MWTlRMU8xWV9uMUtHUUg0Q1QtQjRtZDltbS1EYUt4djlnUGFZeFHSAWNBVV95cUxPa2oyU3hERmFpMWMwVGkwaEhBczlKSXJuWDhZY3F2UDB2S0FFdlhDUEZLY1RFdE9rdXpQVkUzazg3eGc2NjJFdUx1dXdxYTNTRzk2M25nOGY0UXppZDVJOHNhMHM?oc=5",
-          "published": "2026-09-30T09:12:48+00:00",
+          "title": "‘Avrupa’nın enerji krizi bize fatura ediliyor’ - akdenizmanset.com.tr",
+          "source": "akdenizmanset.com.tr",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMEozcFFlRGVLamwyd0g1RUVDZVBHMmVLQjFKaldvXzF2dWR2T21ESmxDc01PQy12SUNHN0lGUHIxbjZtRDVObnlLRU5CdVpqdFRwalJjN0JGbkRXX0R0aWowUWZjZVQ5a2thLWFFQ2lZTzNVNFlTbF9NaUlJV0FENE1R?oc=5",
+          "published": "2026-09-30T08:23:00+00:00",
           "terms": [
             "kriz"
           ],
           "weight": 2.0
         },
         {
-          "title": "‘Avrupa’nın enerji krizi bize fatura ediliyor’ - Akdenizmanset",
-          "source": "Akdenizmanset",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMEozcFFlRGVLamwyd0g1RUVDZVBHMmVLQjFKaldvXzF2dWR2T21ESmxDc01PQy12SUNHN0lGUHIxbjZtRDVObnlLRU5CdVpqdFRwalJjN0JGbkRXX0R0aWowUWZjZVQ5a2thLWFFQ2lZTzNVNFlTbF9NaUlJV0FENE1R?oc=5",
-          "published": "2026-09-30T08:23:00+00:00",
+          "title": "Ekonomideki sessiz kriz büyüyor - YENİ ASYA",
+          "source": "YENİ ASYA",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qaEk1dnpfQU9HVTJTb1U3Xzg0djJIaElVTUhYc0JmaktFQm1NNlNQaUdacHk5czg0bVFFZG5GM0ZKanpyNjVlaHNoY2ZocVVXVU1sYnMtX2Q4RDFlQUdZajA1WjZGVGVjWVpwTjVfR016UmNwZW96RUdwWW9GUEU?oc=5",
+          "published": "2026-09-29T22:31:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -164,8 +164,8 @@
           "weight": 2.0
         },
         {
-          "title": "Türkiye ekonomisinde sessiz kriz: Erken sanayisizleşme - t24.com.tr",
-          "source": "t24.com.tr",
+          "title": "Türkiye ekonomisinde sessiz kriz: Erken sanayisizleşme - T24",
+          "source": "T24",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZy1fcDd1T3g0R2h6N05FaTBFNUxpdXRINk02NkxxNTM2N1F1dXJzcUs1aEtON3F4SV9jVXRVc0g1TXdkTnVXQ3ZadEg3MU9SMVNXS1piNW14eGpGWmpwOENlclVyRFZyREhuRWVPX1VtVU1wZDdFZ05hZ1N4UjdtMDFLZF91QkpWWVBCREpuZnBHdw?oc=5",
           "published": "2026-09-29T10:12:00+00:00",
           "terms": [
@@ -194,8 +194,8 @@
           "weight": 2.0
         },
         {
-          "title": "Ev Var, Ama Barınacak Yer Yok: Türkiye’de Konut Krizinin Ekonomi Politiği - Daktilo1984",
-          "source": "Daktilo1984",
+          "title": "Ev Var, Ama Barınacak Yer Yok: Türkiye’de Konut Krizinin Ekonomi Politiği - daktilo1984.com",
+          "source": "daktilo1984.com",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOamRiUkZlbXJBUEdTOVRzQm1jaGVONTlqenNoUjJBdmp6M1JSaXRUS2hoSUVtODlmUXBmOXVJdVlBNXNnMFI1RmxNUWo1UGdONFhYNkFSUVdOVmdWc21UQ1RiVFJmZmxZRFFydkg4VkR0dGFvbFNKY08ycHI3V1IzZUo3YzVlVi15NG9EckdCbFU4N1gybjJycXoxeUFpTnM5QUR1MU93?oc=5",
           "published": "2026-09-27T13:05:47+00:00",
           "terms": [
@@ -214,22 +214,12 @@
           "weight": 2.0
         },
         {
-          "title": "Netflix'ten Türkiye'ye büyük yatırım, otomotiv sektörünü kıskaca alan 'Made in EU' krizi: İşte Erdoğan'ın ABD'li yatırımcılarla yaptığı toplantıda konuşulanlar... - t24.com.tr",
-          "source": "t24.com.tr",
+          "title": "Netflix'ten Türkiye'ye büyük yatırım, otomotiv sektörünü kıskaca alan 'Made in EU' krizi: İşte Erdoğan'ın ABD'li yatırımcılarla yaptığı toplantıda konuşulanlar... - T24",
+          "source": "T24",
           "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPdVlYSGVLeXQyWWYtaThKZ0lLQ0VndC16eVBSMng1UGltY3ZzcUc5enlLTFNoSHlCZEJxc2p2c2tlUnp3aElhc0lGbmsyVXJXNUxFT3JUd1UxMG5USFItQmZQSTNpTnItUHRfUkFRU0UwcjJYSW1aUVluOGJuZnhSRkdMUWFSRGNnYW44TXZBYzlvMGE0b0ljaE5sRHBvQk92RjY5QTFFRjZXd0JSUXgyNEE5aWFrWkhtS2g2bHRTV005NjlpcHBJZ2NVTVg5cXpwVnRBWldPUnFteW1RaE5QV3N3eldiX01tdFRweFhvdk81eU1uMzN3ZWJmT2tVX1pldlAzX2xxWG5GU1luQ2NIbzBBc0xjc2dDM2c?oc=5",
           "published": "2026-09-25T11:07:00+00:00",
           "terms": [
             "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "3 şirket daha iflas etti: Alacaklılar için uzun hukuk maratonu başladı - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLWhtcXZvT1A1elB3UFEtWnlXVDQzZTZnR0RYLVAtWTQxa0d5MUNVMm9LaDBXangyYWF2bHNMU0FxWktwVnRnNjg4QXNUeG12U3BXMXRsWWcydWcxTGczb1ZUREdYZi1neXhmbUpMTWk1OExYdkdVWlRSLWIycW9ncEh4SWdLOTY2X21JYU5xSjl3bUFLQjJrUnZFNmZVbi1LcWxlbjdhZVVBYWdWTV9XZtIBuwFBVV95cUxNcXJnNEI3NWJaUVZIYWwzOTRDdkpENjVpRmgxQVZxS3RyQnQxUUtjbmRzbUhRUHpyaFRwYzhDVkE2clFBcmlUdTUzWWJ4RUpMN0Q2enRkb1NZVFF0Mk9sNG5UN0IxM2w1QmlSM2RkbmlycllFdE5VY0lrRWpucTd2eDVBcE1UWkNzTm5URzhJVEIzV3Bsc2w4QlVwTGFWTEswS09xbUdpRDBlaHl3VDdCeHBWaWNxQkEwT2Iw?oc=5",
-          "published": "2026-09-25T06:24:53+00:00",
-          "terms": [
-            "iflas"
           ],
           "weight": 2.0
         },
@@ -242,16 +232,22 @@
             "iflas"
           ],
           "weight": 2.0
+        },
+        {
+          "title": "FED/Paulson: Enflasyon nedeniyle daha fazla faiz artışı gerekebilir - Paratic Haber",
+          "source": "Paratic Haber",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQlB4VFBmM3pSMVoydlZfaHpXSU9nM3lodlktRFJjUmtjeEN2X1JQY29YTFNRc1RaSl9MNExaWUc3YnBjeldjTUVFeDhVUzRucDZvckRuU01SS284eXo3MjRTYnZuYnh4djVtOGo0dEk0d0F5RVRRc3JnV0ZfZVJkZzBnMk5kSC12ZG5fd0dxRWo?oc=5",
+          "published": "2026-09-24T14:47:41+00:00",
+          "terms": [
+            "enflasyon",
+            "faiz artışı"
+          ],
+          "weight": 1.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-15T05:47:14.743799+00:00",
-      "score": 8.4,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-15T12:26:53.126829+00:00",
       "score": 8.6,
@@ -545,6 +541,11 @@
     {
       "generated": "2026-09-30T22:48:31.507425+00:00",
       "score": 3.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-01T06:49:03.927882+00:00",
+      "score": 3.0,
       "status": "BASELINE"
     }
   ],
