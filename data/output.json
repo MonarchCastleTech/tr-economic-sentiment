@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-02T13:32:47.527096+00:00",
+    "generated": "2026-10-02T22:48:21.486733+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.7,
-    "raw_score": 1.7,
+    "score": 1.5,
+    "raw_score": 1.5,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,31 +113,21 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 17.2,
+      "score": 14.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 137,
-      "matched": 30,
-      "weighted_density": 0.272,
+      "coverage": 129,
+      "matched": 26,
+      "weighted_density": 0.25,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Ağır Ekonomi (321): Fon krizi ve ötesi - Medyascope",
-          "source": "Medyascope",
+          "title": "Ağır Ekonomi (321): Fon krizi ve ötesi - medyascope.tv",
+          "source": "medyascope.tv",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45NlFiSWRTdlVIemJmaEZXQ1BaOUNQUWVEVV9CSkMxVk5CSHNDVThwWjB5Zk1YWnc2cjBsNW9PcEFveExZUnFDMUU0VkZyQzg3YU9ZYi1FQm5VUkR1Wm4yMGFNeHB0T0hlQW00NDllb0pYMHpyaElsTw?oc=5",
           "published": "2026-10-02T10:18:37+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Küresel piyasalarda tahvil krizi derinleşiyor - ensondakika.com.tr",
-          "source": "ensondakika.com.tr",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSUFNWGFlSjJfOWtDT0EyNGVZTjd4Wl9VQy1Zc3lXWVlpQTNtbG41VU14dm1YelVFX0RPR3VueWU1ZThadW54S3NHRTNXdUtwRzhWcG1sbUhFbFBaNThtaTNYM2o4WXR1bWVrM1pfSEtsbW5KSU5RcXlRNTY5RG1SSjIzY2xuWnVJV202Tw?oc=5",
-          "published": "2026-10-02T09:22:56+00:00",
           "terms": [
             "kriz"
           ],
@@ -164,8 +154,8 @@
           "weight": 2.0
         },
         {
-          "title": "Ekonomideki sessiz kriz büyüyor - YENİ ASYA",
-          "source": "YENİ ASYA",
+          "title": "Ekonomideki sessiz kriz büyüyor - yeniasya.com.tr",
+          "source": "yeniasya.com.tr",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qaEk1dnpfQU9HVTJTb1U3Xzg0djJIaElVTUhYc0JmaktFQm1NNlNQaUdacHk5czg0bVFFZG5GM0ZKanpyNjVlaHNoY2ZocVVXVU1sYnMtX2Q4RDFlQUdZajA1WjZGVGVjWVpwTjVfR016UmNwZW96RUdwWW9GUEU?oc=5",
           "published": "2026-09-29T22:31:00+00:00",
           "terms": [
@@ -184,10 +174,20 @@
           "weight": 2.0
         },
         {
-          "title": "Fon krizi sonrası gözler Fitch'e çevrildi! Winslow'dan Türkiye açıklaması - A Haber",
-          "source": "A Haber",
+          "title": "Fon krizi sonrası gözler Fitch'e çevrildi! Winslow'dan Türkiye açıklaması - ahaber.com.tr",
+          "source": "ahaber.com.tr",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQVo4ZjdndVc4VFVLZGFRVzBGelRKWk5LQ3FQTXRnTG1BZ3lSWWMyUmxYY0E3Zy1zNEZ5UElVMFR5bkl5UWI5aU1IYmtHRGNTd3hlUkZTMGpZV0lZZ2VWanNhRTBFR3U4MU9MZHlFRjdaWjJkMk11TTYyVnRUOU4wNGZCYXNUcnZQT2JvZmxsbG8xODNhTC1UOVdNSWhONkpUWkdha0oxSVMySnc?oc=5",
           "published": "2026-09-29T16:53:14+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Cumhurbaşkanı Erdoğan ekonomi kurmaylarını topladı: Fon krizi masada - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU0lNdEdNaEMwbHdKZTkxeEpUaThCV29EY0tBamVmdUNLS2g2NmtMcWhGYjlDS1N0czFRb0FXcmFlbmZMb0RNUFFTWFp1RDJqdDRSei02SnNqeU4zcTliWjdVLTZ2MlhHTWFlWDhjblo1UWo2bnRuMFhrUmpaa0pkQzQ3VkJqVDhWY0dpcC1SbWM0WG1wMDl0MjFKMlJWbF9HeC1VdUgySnRVby1iSGfSAbgBQVVfeXFMT1gwUk5aZGpNUWItMWM5OHlKRjltcEhkbWl0SmRmWlRZZk5JTGxXVkVVdW14SlRIVVhLZGQ0aGpSQWZWaU1NQ2wxV25ZRzRLZ1JNNEQtYnItLUxkR0JWeWk4ZUNrTnB5bVl2SWppSS1VbUJwN01yMXdkX2draFpoNlYxeVRWS1VPUnZuUG40Y1ZLR0c3QjRSbElDNE9yQ1FTMEZUcWNTUVUzby0zbTZab2F6RU9PbTVVYw?oc=5",
+          "published": "2026-09-29T11:36:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -198,16 +198,6 @@
           "source": "T24",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZy1fcDd1T3g0R2h6N05FaTBFNUxpdXRINk02NkxxNTM2N1F1dXJzcUs1aEtON3F4SV9jVXRVc0g1TXdkTnVXQ3ZadEg3MU9SMVNXS1piNW14eGpGWmpwOENlclVyRFZyREhuRWVPX1VtVU1wZDdFZ05hZ1N4UjdtMDFLZF91QkpWWVBCREpuZnBHdw?oc=5",
           "published": "2026-09-29T10:12:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Fon krizi Beştepe'de masaya yatırılacak: Erdoğan ekonomi kurmaylarıyla toplanıyor - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUFZ2R2I4d1doaDhPWEpDNlJqZnJXTjEyMzJpSVp0SHo4M3ZDcjZ5TWtxSjNvQXZPTG9LT2R5cmpjcWpJUHZ3LVhKb2huU0Zvb3h1aWhMNmxuQTE3WjVYVHlZZmkwVW9zNmxCN3J3U3AxdTZCbWsyMkpPRFBrWHptbFV5R2dUVmZPRVk3RWwtZFhKS0hVLWVDLTk5SWhPTDZqaU5nVTNCbVQ3U3F6OW9tWXJ4Yjh3RDhrb2pidWp30gHIAUFVX3lxTE5rZnBiYk5YR1VQZGZUWVNkWHhIUzJFdFpyVlhVSTE4ajRRelF2SlVzejRtdlprY3FLSnEyUHJib1FUWGtZMHZHdXNqOFFqN2ZSVThFTjluR3QyeWU0aXpsSHJoc1RYODhvZUh1d0dGZ1lfaWEtWEM3bklTcnNwckk0SWZPVXVOaDZvWjF1b1BrVzlzWTdJdkQwR2d5cjlJQzhfby1UdVlObHV3UHVwd3JfcVpRb2JIVjc4OUs3Tkx6RS1lUFZFTDlr?oc=5",
-          "published": "2026-09-29T08:00:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -242,16 +232,21 @@
             "işsizlik"
           ],
           "weight": 1.5
+        },
+        {
+          "title": "ING Global Türkiye'de enflasyonun gerilemesini bekliyor - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRWhOODUxcl9tTmlxNDBtZUxwalJwSDJQX1NZcllBYVZhcThPYWZKWkJIcnJNclBuanhNRk45VEp2TC1pS212QTBSV0lQY2pVZlZkOUVjR1RMbHBETjNua3U3SFJNMmgzQmkzVUhlUVVFTnFITVNjLUVhVE9tS0F6Rk1GalcxMEJJUmIzWjQyT2pvblhhWkE?oc=5",
+          "published": "2026-10-02T11:04:54+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-16T12:24:24.187795+00:00",
-      "score": 5.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-16T17:27:05.592359+00:00",
       "score": 13.1,
@@ -545,6 +540,11 @@
     {
       "generated": "2026-10-02T13:32:47.527096+00:00",
       "score": 1.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-02T22:48:21.486733+00:00",
+      "score": 1.5,
       "status": "BASELINE"
     }
   ],
