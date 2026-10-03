@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-03T16:57:33.409234+00:00",
+    "generated": "2026-10-03T21:58:09.878570+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,21 +113,21 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 9.6,
+      "score": 9.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 128,
+      "coverage": 127,
       "matched": 21,
-      "weighted_density": 0.205,
+      "weighted_density": 0.206,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Bahçeli'den fon krizi açıklaması: 'Türkiye bir arınma sürecinden geçiyor' - BBC",
-          "source": "BBC",
+          "title": "Bahçeli'den fon krizi açıklaması: 'Türkiye bir arınma sürecinden geçiyor' - bbc.com",
+          "source": "bbc.com",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EOEtSVVVtVUphVmZhdGZDS0NhdjBMRHNRNS0xd1QwNXc3R2Y1MXdqMGFzRGtTYkFpY1cwZFk0MHpXYXZWQVhtTzdBLTVTV1NtTnlDUlRzVHV1bU43QXfSAWNBVV95cUxQTjFIdVg3S2lJMDUyeHBkMmpVYnY4V1F5OHFVM0JPd05wTnFTSWRFR01nV2hkZVh6bEVPczRXU00zZVlwRzVVYUhDenZFblFQTE1BVk9mTHdaMHlYM2tMTTVlMlE?oc=5",
-          "published": "2026-10-03T15:31:04+00:00",
+          "published": "2026-10-03T18:37:25+00:00",
           "terms": [
             "kriz"
           ],
@@ -144,8 +144,8 @@
           "weight": 2.0
         },
         {
-          "title": "Ekonomideki sessiz kriz büyüyor - Yeni Asya",
-          "source": "Yeni Asya",
+          "title": "Ekonomideki sessiz kriz büyüyor - YENİ ASYA",
+          "source": "YENİ ASYA",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qaEk1dnpfQU9HVTJTb1U3Xzg0djJIaElVTUhYc0JmaktFQm1NNlNQaUdacHk5czg0bVFFZG5GM0ZKanpyNjVlaHNoY2ZocVVXVU1sYnMtX2Q4RDFlQUdZajA1WjZGVGVjWVpwTjVfR016UmNwZW96RUdwWW9GUEU?oc=5",
           "published": "2026-09-29T22:31:00+00:00",
           "terms": [
@@ -214,8 +214,8 @@
           "weight": 1.5
         },
         {
-          "title": "ING Global Türkiye'de enflasyonun gerilemesini bekliyor - bloomberght.com",
-          "source": "bloomberght.com",
+          "title": "ING Global Türkiye'de enflasyonun gerilemesini bekliyor - Bloomberght",
+          "source": "Bloomberght",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRWhOODUxcl9tTmlxNDBtZUxwalJwSDJQX1NZcllBYVZhcThPYWZKWkJIcnJNclBuanhNRk45VEp2TC1pS212QTBSV0lQY2pVZlZkOUVjR1RMbHBETjNua3U3SFJNMmgzQmkzVUhlUVVFTnFITVNjLUVhVE9tS0F6Rk1GalcxMEJJUmIzWjQyT2pvblhhWkE?oc=5",
           "published": "2026-10-02T11:04:54+00:00",
           "terms": [
@@ -247,11 +247,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-17T12:24:28.658703+00:00",
-      "score": 13.0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-17T17:27:02.807609+00:00",
       "score": 12.6,
@@ -544,6 +539,11 @@
     },
     {
       "generated": "2026-10-03T16:57:33.409234+00:00",
+      "score": 1.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-03T21:58:09.878570+00:00",
       "score": 1.0,
       "status": "BASELINE"
     }
