@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-02T22:48:21.486733+00:00",
+    "generated": "2026-10-03T06:01:01.077424+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.5,
-    "raw_score": 1.5,
+    "score": 1.3,
+    "raw_score": 1.3,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.5/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.3/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-10-02",
       "latest_value": 48.9699,
       "change_5d_pct": 0.37,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 121,
+      "coverage": 120,
       "latest_date": "2026-09-29",
       "latest_value": 5574.1,
       "change_5d_pct": -0.44,
@@ -113,19 +113,19 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 14.8,
+      "score": 13.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 129,
-      "matched": 26,
-      "weighted_density": 0.25,
+      "matched": 24,
+      "weighted_density": 0.234,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Ağır Ekonomi (321): Fon krizi ve ötesi - medyascope.tv",
-          "source": "medyascope.tv",
+          "title": "Ağır Ekonomi (321): Fon krizi ve ötesi - Medyascope",
+          "source": "Medyascope",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45NlFiSWRTdlVIemJmaEZXQ1BaOUNQUWVEVV9CSkMxVk5CSHNDVThwWjB5Zk1YWnc2cjBsNW9PcEFveExZUnFDMUU0VkZyQzg3YU9ZYi1FQm5VUkR1Wm4yMGFNeHB0T0hlQW00NDllb0pYMHpyaElsTw?oc=5",
           "published": "2026-10-02T10:18:37+00:00",
           "terms": [
@@ -154,8 +154,8 @@
           "weight": 2.0
         },
         {
-          "title": "Ekonomideki sessiz kriz büyüyor - yeniasya.com.tr",
-          "source": "yeniasya.com.tr",
+          "title": "Ekonomideki sessiz kriz büyüyor - Yeni Asya",
+          "source": "Yeni Asya",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qaEk1dnpfQU9HVTJTb1U3Xzg0djJIaElVTUhYc0JmaktFQm1NNlNQaUdacHk5czg0bVFFZG5GM0ZKanpyNjVlaHNoY2ZocVVXVU1sYnMtX2Q4RDFlQUdZajA1WjZGVGVjWVpwTjVfR016UmNwZW96RUdwWW9GUEU?oc=5",
           "published": "2026-09-29T22:31:00+00:00",
           "terms": [
@@ -174,8 +174,8 @@
           "weight": 2.0
         },
         {
-          "title": "Fon krizi sonrası gözler Fitch'e çevrildi! Winslow'dan Türkiye açıklaması - ahaber.com.tr",
-          "source": "ahaber.com.tr",
+          "title": "Fon krizi sonrası gözler Fitch'e çevrildi! Winslow'dan Türkiye açıklaması - A Haber",
+          "source": "A Haber",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQVo4ZjdndVc4VFVLZGFRVzBGelRKWk5LQ3FQTXRnTG1BZ3lSWWMyUmxYY0E3Zy1zNEZ5UElVMFR5bkl5UWI5aU1IYmtHRGNTd3hlUkZTMGpZV0lZZ2VWanNhRTBFR3U4MU9MZHlFRjdaWjJkMk11TTYyVnRUOU4wNGZCYXNUcnZQT2JvZmxsbG8xODNhTC1UOVdNSWhONkpUWkdha0oxSVMySnc?oc=5",
           "published": "2026-09-29T16:53:14+00:00",
           "terms": [
@@ -224,20 +224,20 @@
           "weight": 1.5
         },
         {
-          "title": "Almanya'da işsizlik 3 milyon sınırında: Beklentilerin üzerinde arttı - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMm5fcFRac3ZJTzhSNDRsc0MxZlFlcGwzZGdYNzhfTGVYWElnN1FPSWduMmh2bEI5Y2dNT1RJS3J5MzJtdlpzOWw2RVN4aWJRT1hidENsN1BaM096eXBhWjF3MUN6em9DQ3MwVm9OclQ1Ny1QX3RPY29nMk1vd2tMdXhUOEFyOVBYcVVHNlRXeHpVb21TOTQyM0NhLWY5R09HNW5N?oc=5",
-          "published": "2026-09-30T08:59:04+00:00",
-          "terms": [
-            "işsizlik"
-          ],
-          "weight": 1.5
-        },
-        {
           "title": "ING Global Türkiye'de enflasyonun gerilemesini bekliyor - Bloomberght",
           "source": "Bloomberght",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRWhOODUxcl9tTmlxNDBtZUxwalJwSDJQX1NZcllBYVZhcThPYWZKWkJIcnJNclBuanhNRk45VEp2TC1pS212QTBSV0lQY2pVZlZkOUVjR1RMbHBETjNua3U3SFJNMmgzQmkzVUhlUVVFTnFITVNjLUVhVE9tS0F6Rk1GalcxMEJJUmIzWjQyT2pvblhhWkE?oc=5",
           "published": "2026-10-02T11:04:54+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Ekim 2026 ekonomi ajandası: Enflasyon, bütçe ve Merkez Bankası faiz kararı bekleniyor - 24 Saat Gazetesi",
+          "source": "24 Saat Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbndtZ00wQ0IwQVBTVFdMU0NkRFp5TlMtWnFQUmF1ck1JdW0tRGYzUXVyU0pEVTV4TmZnRmZDendvU0hvMXFLUEFUUFhWejI0c1JlVHhZN2c5ay1DbXg1MFNwUE5Ga1dXMkZVMHd1QUxZUHNfQ1Y3REtGcHBnbkpkM3FDRkM2clBVcXI3Y1JQc1IwcDJ5M0hPYkJVSXhQQXRuVGdjWGQwNnZVNXQ0QlY5MjdDWkw?oc=5",
+          "published": "2026-10-02T05:06:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -247,11 +247,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-16T17:27:05.592359+00:00",
-      "score": 13.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-16T21:52:09.798195+00:00",
       "score": 13.0,
@@ -545,6 +540,11 @@
     {
       "generated": "2026-10-02T22:48:21.486733+00:00",
       "score": 1.5,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-03T06:01:01.077424+00:00",
+      "score": 1.3,
       "status": "BASELINE"
     }
   ],
