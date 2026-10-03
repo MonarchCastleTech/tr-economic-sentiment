@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-03T12:12:32.806412+00:00",
+    "generated": "2026-10-03T16:57:33.409234+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 0.8,
-    "raw_score": 0.8,
+    "score": 1.0,
+    "raw_score": 1.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 0.8/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,16 +113,26 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.0,
+      "score": 9.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 128,
-      "matched": 20,
-      "weighted_density": 0.191,
+      "matched": 21,
+      "weighted_density": 0.205,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Bahçeli'den fon krizi açıklaması: 'Türkiye bir arınma sürecinden geçiyor' - BBC",
+          "source": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EOEtSVVVtVUphVmZhdGZDS0NhdjBMRHNRNS0xd1QwNXc3R2Y1MXdqMGFzRGtTYkFpY1cwZFk0MHpXYXZWQVhtTzdBLTVTV1NtTnlDUlRzVHV1bU43QXfSAWNBVV95cUxQTjFIdVg3S2lJMDUyeHBkMmpVYnY4V1F5OHFVM0JPd05wTnFTSWRFR01nV2hkZVh6bEVPczRXU00zZVlwRzVVYUhDenZFblFQTE1BVk9mTHdaMHlYM2tMTTVlMlE?oc=5",
+          "published": "2026-10-03T15:31:04+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "‘Avrupa’nın enerji krizi bize fatura ediliyor’ - Akdenizmanset",
           "source": "Akdenizmanset",
@@ -174,8 +184,8 @@
           "weight": 2.0
         },
         {
-          "title": "Türkiye ekonomisinde sessiz kriz: Erken sanayisizleşme - t24.com.tr",
-          "source": "t24.com.tr",
+          "title": "Türkiye ekonomisinde sessiz kriz: Erken sanayisizleşme - T24",
+          "source": "T24",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZy1fcDd1T3g0R2h6N05FaTBFNUxpdXRINk02NkxxNTM2N1F1dXJzcUs1aEtON3F4SV9jVXRVc0g1TXdkTnVXQ3ZadEg3MU9SMVNXS1piNW14eGpGWmpwOENlclVyRFZyREhuRWVPX1VtVU1wZDdFZ05hZ1N4UjdtMDFLZF91QkpWWVBCREpuZnBHdw?oc=5",
           "published": "2026-09-29T10:12:00+00:00",
           "terms": [
@@ -204,8 +214,8 @@
           "weight": 1.5
         },
         {
-          "title": "ING Global Türkiye'de enflasyonun gerilemesini bekliyor - Bloomberght",
-          "source": "Bloomberght",
+          "title": "ING Global Türkiye'de enflasyonun gerilemesini bekliyor - bloomberght.com",
+          "source": "bloomberght.com",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRWhOODUxcl9tTmlxNDBtZUxwalJwSDJQX1NZcllBYVZhcThPYWZKWkJIcnJNclBuanhNRk45VEp2TC1pS212QTBSV0lQY2pVZlZkOUVjR1RMbHBETjNua3U3SFJNMmgzQmkzVUhlUVVFTnFITVNjLUVhVE9tS0F6Rk1GalcxMEJJUmIzWjQyT2pvblhhWkE?oc=5",
           "published": "2026-10-02T11:04:54+00:00",
           "terms": [
@@ -218,16 +228,6 @@
           "source": "24 Saat Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbndtZ00wQ0IwQVBTVFdMU0NkRFp5TlMtWnFQUmF1ck1JdW0tRGYzUXVyU0pEVTV4TmZnRmZDendvU0hvMXFLUEFUUFhWejI0c1JlVHhZN2c5ay1DbXg1MFNwUE5Ga1dXMkZVMHd1QUxZUHNfQ1Y3REtGcHBnbkpkM3FDRkM2clBVcXI3Y1JQc1IwcDJ5M0hPYkJVSXhQQXRuVGdjWGQwNnZVNXQ0QlY5MjdDWkw?oc=5",
           "published": "2026-10-02T05:06:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "ZAFER ÖZCİVAN - Türkiye Ekonomisinde Faiz, Enflasyon ve Piyasaların Önündeki Sınav - turkhaber.com",
-          "source": "turkhaber.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTmN3ZUhWQXBtaVAwaEZOQm1mWFRJanoxelNuVzhHMEstUzJ2X1RsNUM1UENwZi1ZQ0Z2YmJVcjl6TVJoeDBMektDSXg2STY5aGU2Z25GWTR5NkIxejI0NUJ6b0QtZHB1M2xKTURBbnhEYlROd2dENkJQQXdpanZNNlgzZlEtMHlRNjhEeE9CR1NMUGdkSTFiRkhDaVllUk9EWnFZTHk5aldUZmppZmtXVGFJM3psZw?oc=5",
-          "published": "2026-10-01T06:00:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -247,11 +247,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-17T05:42:26.937513+00:00",
-      "score": 13.0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-17T12:24:28.658703+00:00",
       "score": 13.0,
@@ -545,6 +540,11 @@
     {
       "generated": "2026-10-03T12:12:32.806412+00:00",
       "score": 0.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-03T16:57:33.409234+00:00",
+      "score": 1.0,
       "status": "BASELINE"
     }
   ],
