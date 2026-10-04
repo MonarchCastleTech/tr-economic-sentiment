@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-03T21:58:09.878570+00:00",
+    "generated": "2026-10-04T06:36:35.632130+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.0,
-    "raw_score": 1.0,
+    "score": 0.8,
+    "raw_score": 0.8,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 0.8/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
+      "coverage": 127,
       "latest_date": "2026-10-02",
       "latest_value": 48.9699,
       "change_5d_pct": 0.37,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 120,
+      "coverage": 119,
       "latest_date": "2026-09-29",
       "latest_value": 5574.1,
       "change_5d_pct": -0.44,
@@ -113,21 +113,21 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 9.8,
+      "score": 8.1,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 127,
-      "matched": 21,
-      "weighted_density": 0.206,
+      "coverage": 123,
+      "matched": 19,
+      "weighted_density": 0.191,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Bahçeli'den fon krizi açıklaması: 'Türkiye bir arınma sürecinden geçiyor' - bbc.com",
-          "source": "bbc.com",
+          "title": "Bahçeli'den fon krizi açıklaması: 'Türkiye bir arınma sürecinden geçiyor' - BBC",
+          "source": "BBC",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EOEtSVVVtVUphVmZhdGZDS0NhdjBMRHNRNS0xd1QwNXc3R2Y1MXdqMGFzRGtTYkFpY1cwZFk0MHpXYXZWQVhtTzdBLTVTV1NtTnlDUlRzVHV1bU43QXfSAWNBVV95cUxQTjFIdVg3S2lJMDUyeHBkMmpVYnY4V1F5OHFVM0JPd05wTnFTSWRFR01nV2hkZVh6bEVPczRXU00zZVlwRzVVYUhDenZFblFQTE1BVk9mTHdaMHlYM2tMTTVlMlE?oc=5",
-          "published": "2026-10-03T18:37:25+00:00",
+          "published": "2026-10-04T01:07:30+00:00",
           "terms": [
             "kriz"
           ],
@@ -144,8 +144,8 @@
           "weight": 2.0
         },
         {
-          "title": "Ekonomideki sessiz kriz büyüyor - YENİ ASYA",
-          "source": "YENİ ASYA",
+          "title": "Ekonomideki sessiz kriz büyüyor - Yeni Asya",
+          "source": "Yeni Asya",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qaEk1dnpfQU9HVTJTb1U3Xzg0djJIaElVTUhYc0JmaktFQm1NNlNQaUdacHk5czg0bVFFZG5GM0ZKanpyNjVlaHNoY2ZocVVXVU1sYnMtX2Q4RDFlQUdZajA1WjZGVGVjWVpwTjVfR016UmNwZW96RUdwWW9GUEU?oc=5",
           "published": "2026-09-29T22:31:00+00:00",
           "terms": [
@@ -194,16 +194,6 @@
           "weight": 2.0
         },
         {
-          "title": "Ev Var, Ama Barınacak Yer Yok: Türkiye’de Konut Krizinin Ekonomi Politiği - Daktilo1984",
-          "source": "Daktilo1984",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOamRiUkZlbXJBUEdTOVRzQm1jaGVONTlqenNoUjJBdmp6M1JSaXRUS2hoSUVtODlmUXBmOXVJdVlBNXNnMFI1RmxNUWo1UGdONFhYNkFSUVdOVmdWc21UQ1RiVFJmZmxZRFFydkg4VkR0dGFvbFNKY08ycHI3V1IzZUo3YzVlVi15NG9EckdCbFU4N1gybjJycXoxeUFpTnM5QUR1MU93?oc=5",
-          "published": "2026-09-27T13:05:47+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
           "title": "Türkiye'de işsizlik oranı ağustosta bir önceki aya göre 0,3 puan azaldı - Anadolu Ajansı",
           "source": "Anadolu Ajansı",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQU5pS095R0xaaWpxR2ktRmJSVTNGNURSb3prLWt2TFluM3BGbVJNbGZMQUo1TTYxeE1ROXhBbkpZbUowQXgzZ0otNUpOWjVtaEFmRHdkd0FwMEVxcENLSEJNZUJpeFFPSm5IdVNJcGR5dTBKM1QwTE5RWkxBT0xOYndTSUpDNFQ4VXdDMzFFMDJFVWRXc0ZNNTlOMnR2YTJ4WHNlWG9sM2I3U19LVVMydA?oc=5",
@@ -242,16 +232,21 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Enflasyon ve gevşeme Lira’yı tehdit ediyor – Commerzbank - FXStreet",
+          "source": "FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcDBFRjZFZTZ6N2dTVFJLTzNmY3h0SElQVDhiZTFQRHdXblNWQUd2UzFXRkE3NWJwSmtlZkpmTG9KZTM0RUVkQ04zZUhBM1ZuYzFFMGRibkJ6SlVEMXVGT2Fmdm5QaU1GMGczblFUTGU1bXNXRksxQ2tfNWlGWGdIWFJheHRiTDVvalRnWWhBWnVTSklUcXRRclJURW9oZk1S0gGmAUFVX3lxTE93cUVHRC1jbnNMNGdVLVRfOWlEYjdob1lCeVliNUg3aDFEZExmOFJMTzkyX09TOFgxU3BLc1piZ2RWY3c0eDllUzdJd3A5VXVEYUhoZGZQWnZWQUFvaVVEX3cyVWt5amJTYU44ZFFaN0ZJOG14ZjF1UUg2VnVZZEp4WkF4Szl3bXRNNUE0djU1dUVvS05wTjVybWxpcmVwbkFiNk1tUmc?oc=5",
+          "published": "2026-09-30T08:26:06+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-17T17:27:02.807609+00:00",
-      "score": 12.6,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-17T21:55:17.442985+00:00",
       "score": 12.6,
@@ -545,6 +540,11 @@
     {
       "generated": "2026-10-03T21:58:09.878570+00:00",
       "score": 1.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-04T06:36:35.632130+00:00",
+      "score": 0.8,
       "status": "BASELINE"
     }
   ],
