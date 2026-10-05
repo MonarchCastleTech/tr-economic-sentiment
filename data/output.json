@@ -1,14 +1,16 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-05T06:31:59.427959+00:00",
-    "mode": "live",
+    "generated": "2026-10-05T15:32:08.876081+00:00",
+    "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–30 days",
     "classification": "economic-strain-screening-not-recession-currency-or-market-forecast",
     "coverage": "5/5",
-    "confidence": "HIGH",
-    "source_notes": []
+    "confidence": "MEDIUM",
+    "source_notes": [
+      "narrative_strain: retained (HTTPError)"
+    ]
   },
   "warning": {
     "score": 1.5,
@@ -26,19 +28,19 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
-      "latest_date": "2026-10-02",
-      "latest_value": 48.9699,
-      "change_5d_pct": 0.37,
-      "return_z": -1.3,
+      "coverage": 128,
+      "latest_date": "2026-10-05",
+      "latest_value": 49.0732,
+      "change_5d_pct": 0.35,
+      "return_z": -2.81,
       "volatility_20d": 0.07,
-      "volatility_z": 0.23,
+      "volatility_z": -1.19,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 48.9699,
-          "date": "2026-10-02",
+          "value": 49.0732,
+          "date": "2026-10-05",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -117,7 +119,7 @@
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 123,
       "matched": 25,
       "weighted_density": 0.252,
@@ -243,15 +245,11 @@
           ],
           "weight": 0.8
         }
-      ]
+      ],
+      "retained_reason": "HTTPError"
     }
   },
   "history": [
-    {
-      "generated": "2026-09-18T16:55:21.427760+00:00",
-      "score": 12.6,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-18T21:24:19.675175+00:00",
       "score": 11.9,
@@ -544,6 +542,11 @@
     },
     {
       "generated": "2026-10-05T06:31:59.427959+00:00",
+      "score": 1.5,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-05T15:32:08.876081+00:00",
       "score": 1.5,
       "status": "BASELINE"
     }
