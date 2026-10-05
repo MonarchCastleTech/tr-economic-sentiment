@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-04T22:11:15.320420+00:00",
+    "generated": "2026-10-05T06:31:59.427959+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.2,
-    "raw_score": 1.2,
+    "score": 1.5,
+    "raw_score": 1.5,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.2/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -72,7 +72,7 @@
       "weight": 0.2,
       "available": true,
       "retained": false,
-      "coverage": 59,
+      "coverage": 58,
       "latest_date": "2026-08-01",
       "latest_value": 69586.44,
       "change_1m_pct": 9.02,
@@ -95,7 +95,7 @@
       "weight": 0.15,
       "available": true,
       "retained": false,
-      "coverage": 59,
+      "coverage": 58,
       "latest_date": "2026-08-01",
       "latest_value": 90.8,
       "change_1m_pct": 1.11,
@@ -113,19 +113,19 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 12.5,
+      "score": 15.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 124,
-      "matched": 22,
-      "weighted_density": 0.23,
+      "coverage": 123,
+      "matched": 25,
+      "weighted_density": 0.252,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Fon krizi sonrası iki dev kuruluştan kritik Türkiye yorumu! - ekonomi.haber7.com",
-          "source": "ekonomi.haber7.com",
+          "title": "Fon krizi sonrası iki dev kuruluştan kritik Türkiye yorumu! - Haber 7",
+          "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYXdwR05RZ0tNcTc5VlZNLWpvYWFVdXRzZElXOFJBYTVIMUdtVnBvU1ByVEdxVDg0ZkdrRXhrakhESjlzQ2VfOWIwVUJ3dEp6dmViX08za25wZTVNdERFazdZLVhQUUU5NkxEUWdNc2V2Y1BVOEdfMnVvMlBuUkVPbmsyUE1TcWp2aksxbmNJUDQyWERURG55NENIU21Qckt0eVNuRXllRzRDcGfSAa4BQVVfeXFMT2RXb1Z0d1FiRWFnQngtX2dlTG5vU1R4OUVYeDJKenlvamVkdl9WOHhXTFdPWjZxbEZHVldIdUtoUzNwWU9JVkg5MEJIZkJCS3UyR29wUXBQS3JWdWhSQWh1REp2SEV3SGNZMTFrUVFNMTk3X1BESjQ4dVZZMVZoWjg4SDBqVkV3b2dEckFvOV9GeTUxdmtzMXN1Qm5MSm1iakFZVzl5bFVyZThyY2h3?oc=5",
           "published": "2026-10-04T06:42:00+00:00",
           "terms": [
@@ -164,8 +164,8 @@
           "weight": 2.0
         },
         {
-          "title": "Ekonomideki sessiz kriz büyüyor - yeniasya.com.tr",
-          "source": "yeniasya.com.tr",
+          "title": "Ekonomideki sessiz kriz büyüyor - Yeni Asya",
+          "source": "Yeni Asya",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qaEk1dnpfQU9HVTJTb1U3Xzg0djJIaElVTUhYc0JmaktFQm1NNlNQaUdacHk5czg0bVFFZG5GM0ZKanpyNjVlaHNoY2ZocVVXVU1sYnMtX2Q4RDFlQUdZajA1WjZGVGVjWVpwTjVfR016UmNwZW96RUdwWW9GUEU?oc=5",
           "published": "2026-09-29T22:31:00+00:00",
           "terms": [
@@ -224,20 +224,20 @@
           "weight": 1.5
         },
         {
-          "title": "KÜRESEL RÜZGARLAR VE DEZENFLASYON PATİKASI - Analiz Gazetesi",
-          "source": "Analiz Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVVg4Z1lla3RGTVJLV0RCZlpCTExJRTIwMTQzRkRSLW5GNVhraVlTZ1BhWFNXQUowV1BNUW55b0RQUTlLY3NGb09fel9SdkJkSkg4cm1MLTU3NjJSV3VkRU1UZmVaSFUxV21nZndVVmxLdXMyRGZURXZudEUtM1NlXzR0Qk43Q2pqcjdz?oc=5",
-          "published": "2026-10-04T11:15:00+00:00",
+          "title": "TÜİK eylül ayı enflasyon verilerini açıklayacak - BBC",
+          "source": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81WFBoRGo2S1ptRDlxQWtuc3Z3N0tLWTZWTXhMUFdBblppZ3g1eE9TXzFscDBWWnJvRDd6a1B1cllZNnF4eTZ6eGlfbHZvSTBtRGxFVkRWTVU4NVdTTkHSAWNBVV95cUxOOUxSc3FiZXNYd0E2cFhwcFdpaHZXUnRYN243Yjdzb1NLeFpGeDZYV2pUTU56SWZOaTItOEtFMkZGNDZacXRYRURQWlFxTHphVURqY1l5UkJJVTg3X0R3YU5EMzQ?oc=5",
+          "published": "2026-10-05T06:09:20+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "Tokyo'da enflasyon yükselişe geçti: BOJ'dan faiz kararı gelebilir - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSFZENEMwLWp1QzVENjgxRG5BQWJjN0pqQlFoeF9VRDNWZlRFQk50aVhvUEdPSE5yUWcxNVFVNi0ySjVGTTg3UDFIaFR3dkVjdTIySDlEVVBob1liTmdWbXFiS2EzUU5Td0RZRnBxVlUxVlJCdjE2V0NKVThSZ08ybUlOQmU2bjQ3bGVFVUkyejh2cGxsVVFHRHEzODhOSW4xVzBoLW1Rdy1WVzTSAbABQVVfeXFMTjFobXRVLWRMXy0zRTlFaEdJcEJaOUNXRnFmQzlGTm82TFVLWXFYdW1YcnByYmM4M0RCQWI0VW1XTkMtTlViaFphZi1MOTNvNFp2N0pNOHhzMjhYS2c3RWtMNjFGeEowb0VUQWFpczMtWnVPeXdvc1BRMEpNaHhJWE43aXI1NThqN3dWUXAxMU5fSk5LUWFSaFJfbGtzeWFFNDg4TXEwYkd4OFBsUElZRlU?oc=5",
-          "published": "2026-10-03T14:46:00+00:00",
+          "title": "Doç. Dr. Işıl: Yeni haftanın rotasını enflasyon, faiz ve enerji belirleyecek - ekotürk",
+          "source": "ekotürk",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNEhjNGRwOUFSenlhZEhvZXhpMklQclpjZFZBNHdWS0M3RDhVM3hidzVoMXctNV9FckxrZ29lME51UWVUS2pDN3ZydzYxTzdmeDVReFlNM0J5aGlXNENXOHdVWVljWEZzWEJITHJHSkZiWW5NTUhkc0ZBZENsM3h0dUJhVWlHQmdLY3VPaHNMV2RQSHdSbU90SDl6TjFRdFk2Y0dyaGx4TGV1MjBmWDBBTVpVbXJMZ0RoUmxz?oc=5",
+          "published": "2026-10-05T06:06:12+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -247,11 +247,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-18T12:03:15.447082+00:00",
-      "score": 12.6,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-18T16:55:21.427760+00:00",
       "score": 12.6,
@@ -545,6 +540,11 @@
     {
       "generated": "2026-10-04T22:11:15.320420+00:00",
       "score": 1.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-05T06:31:59.427959+00:00",
+      "score": 1.5,
       "status": "BASELINE"
     }
   ],
