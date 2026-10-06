@@ -1,23 +1,21 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-05T15:32:08.876081+00:00",
-    "mode": "partial",
+    "generated": "2026-10-06T00:34:28.599095+00:00",
+    "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
     "classification": "economic-strain-screening-not-recession-currency-or-market-forecast",
     "coverage": "5/5",
-    "confidence": "MEDIUM",
-    "source_notes": [
-      "narrative_strain: retained (HTTPError)"
-    ]
+    "confidence": "HIGH",
+    "source_notes": []
   },
   "warning": {
-    "score": 1.5,
-    "raw_score": 1.5,
+    "score": 2.3,
+    "raw_score": 2.3,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.5/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 2.3/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -115,20 +113,51 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 15.0,
+      "score": 23.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
-      "retained": true,
-      "coverage": 123,
-      "matched": 25,
-      "weighted_density": 0.252,
+      "retained": false,
+      "coverage": 131,
+      "matched": 35,
+      "weighted_density": 0.322,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
+          "title": "Türkiye'de fon krizi: Ekonomide büyüme ve enflasyon nasıl etkilenecek? - dw.com",
+          "source": "dw.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTlBXcTJPV0k4MUFtYlVqaU16Rm44aFhfQlA5ZHpxaDlKTlRLVXNFWDFFNk40Qk1LdmpxT0E2b3lnNjQzZDZLSXJFNGlBb3RmbDlLNTNIa19qT0NPak5wUE16S2c3dlZuYjFaaWVKTnV1REphTFh5SW42eE1aQ0FfVjQxR0VIQ01JVzM3OFVQRnBGUzJ1b3hMLXc3ZzZqTG14UjJIS09tSGwxNXh3WWFwMFBBZHM4czBJRlJQStIBvAFBVV95cUxNTlBXcTJPV0k4MUFtYlVqaU16Rm44aFhfQlA5ZHpxaDlKTlRLVXNFWDFFNk40Qk1LdmpxT0E2b3lnNjQzZDZLSXJFNGlBb3RmbDlLNTNIa19qT0NPak5wUE16S2c3dlZuYjFaaWVKTnV1REphTFh5SW42eE1aQ0FfVjQxR0VIQ01JVzM3OFVQRnBGUzJ1b3hMLXc3ZzZqTG14UjJIS09tSGwxNXh3WWFwMFBBZHM4czBJRlJQSg?oc=5",
+          "published": "2026-10-05T16:34:14+00:00",
+          "terms": [
+            "kriz",
+            "enflasyon"
+          ],
+          "weight": 2.8
+        },
+        {
+          "title": "Fon krizinin ekonomiye maliyeti ne olacak? Ekonomistler tek tek açıkladı... - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdnRWdUo1akhsTmN1N29pVjhwMWxZQUU2OTl6aV93cGRtZERJMnFJb0lPTWxlZjYtUzAyaWV5bi1jcGs0YTB2VkZnVDQ4ckRaZERNREUwNFo0dWlaVEJHMkF0QkViWExtZGlJd3lVVHRzM2RuWTlWc09ETGhYZmpTM1hpeVV1TXltbFBvcW9xM2cxenFzWGtyWjVtRThiSlB2S0toMno3aC1teGt6bnIzT3I2RjNwLTN2?oc=5",
+          "published": "2026-10-05T07:34:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Türkiye iç sorunlara gömülmüşken Azerbaycan ile 'başörtüsü krizi' gündeme geldi - Ekonomi Gazetesi",
+          "source": "Ekonomi Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOEhTOEZrS21ad2RGZHJJazk0NTJnZ1k2ZkdOQ2VfMkpaei1Xc1Y4andBYmJyOTU4cVFlb05RQkdhVW4wY0xVOFU1dEh3Vm8wNEpNcy1maDZTUS0zTTJqclc1Q0pzSl9CbFZXLVZVbm9HUTQ5bzVqSFp1eEI3dHo3dkF2T1Yzd29qQjUtQ0lqVjJjZjYyUlFsU2xKOTQ2RjVqTUhicloybHN1NnBqYm8wSDB6LVZPUHBfN29mX2VCYmR5SzRJeWc?oc=5",
+          "published": "2026-10-05T05:22:29+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "Fon krizi sonrası iki dev kuruluştan kritik Türkiye yorumu! - Haber 7",
           "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYXdwR05RZ0tNcTc5VlZNLWpvYWFVdXRzZElXOFJBYTVIMUdtVnBvU1ByVEdxVDg0ZkdrRXhrakhESjlzQ2VfOWIwVUJ3dEp6dmViX08za25wZTVNdERFazdZLVhQUUU5NkxEUWdNc2V2Y1BVOEdfMnVvMlBuUkVPbmsyUE1TcWp2aksxbmNJUDQyWERURG55NENIU21Qckt0eVNuRXllRzRDcGfSAa4BQVVfeXFMT2RXb1Z0d1FiRWFnQngtX2dlTG5vU1R4OUVYeDJKenlvamVkdl9WOHhXTFdPWjZxbEZHVldIdUtoUzNwWU9JVkg5MEJIZkJCS3UyR29wUXBQS3JWdWhSQWh1REp2SEV3SGNZMTFrUVFNMTk3X1BESjQ4dVZZMVZoWjg4SDBqVkV3b2dEckFvOV9GeTUxdmtzMXN1Qm5MSm1iakFZVzl5bFVyZThyY2h3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQXZUdFlDMFVPZnoxNm9yX2JWRlh0M1lWT0NoNFVYSXZFSzZWTlNvY0hrWVR4b21nUlhUOE9NUVYwbUtvX1dQcnNTSHVCa2hvRTRCYmxOYU5welFhdmNCTkpOcGc3M1lvQUJFTDN2anVTQWlyaDFYUGFqVXpHLUg4TTNDS2NZc0VRMmJvcXVjbnQ3azdwMUs0OW8xU1pSeHIxREFxbzJwcm1BY0s2b3k4S0dIYlgxcUM1blHSAa4BQVVfeXFMT2RXb1Z0d1FiRWFnQngtX2dlTG5vU1R4OUVYeDJKenlvamVkdl9WOHhXTFdPWjZxbEZHVldIdUtoUzNwWU9JVkg5MEJIZkJCS3UyR29wUXBQS3JWdWhSQWh1REp2SEV3SGNZMTFrUVFNMTk3X1BESjQ4dVZZMVZoWjg4SDBqVkV3b2dEckFvOV9GeTUxdmtzMXN1Qm5MSm1iakFZVzl5bFVyZThyY2h3?oc=5",
           "published": "2026-10-04T06:42:00+00:00",
           "terms": [
             "kriz"
@@ -156,8 +185,8 @@
           "weight": 2.0
         },
         {
-          "title": "‘Avrupa’nın enerji krizi bize fatura ediliyor’ - Akdenizmanset",
-          "source": "Akdenizmanset",
+          "title": "‘Avrupa’nın enerji krizi bize fatura ediliyor’ - akdenizmanset.com.tr",
+          "source": "akdenizmanset.com.tr",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMEozcFFlRGVLamwyd0g1RUVDZVBHMmVLQjFKaldvXzF2dWR2T21ESmxDc01PQy12SUNHN0lGUHIxbjZtRDVObnlLRU5CdVpqdFRwalJjN0JGbkRXX0R0aWowUWZjZVQ5a2thLWFFQ2lZTzNVNFlTbF9NaUlJV0FENE1R?oc=5",
           "published": "2026-09-30T08:23:00+00:00",
           "terms": [
@@ -196,20 +225,10 @@
           "weight": 2.0
         },
         {
-          "title": "Cumhurbaşkanı Erdoğan ekonomi kurmaylarını topladı: Fon krizi masada - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU0lNdEdNaEMwbHdKZTkxeEpUaThCV29EY0tBamVmdUNLS2g2NmtMcWhGYjlDS1N0czFRb0FXcmFlbmZMb0RNUFFTWFp1RDJqdDRSei02SnNqeU4zcTliWjdVLTZ2MlhHTWFlWDhjblo1UWo2bnRuMFhrUmpaa0pkQzQ3VkJqVDhWY0dpcC1SbWM0WG1wMDl0MjFKMlJWbF9HeC1VdUgySnRVby1iSGfSAbgBQVVfeXFMT1gwUk5aZGpNUWItMWM5OHlKRjltcEhkbWl0SmRmWlRZZk5JTGxXVkVVdW14SlRIVVhLZGQ0aGpSQWZWaU1NQ2wxV25ZRzRLZ1JNNEQtYnItLUxkR0JWeWk4ZUNrTnB5bVl2SWppSS1VbUJwN01yMXdkX2draFpoNlYxeVRWS1VPUnZuUG40Y1ZLR0c3QjRSbElDNE9yQ1FTMEZUcWNTUVUzby0zbTZab2F6RU9PbTVVYw?oc=5",
-          "published": "2026-09-29T11:36:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye ekonomisinde sessiz kriz: Erken sanayisizleşme - T24",
-          "source": "T24",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZy1fcDd1T3g0R2h6N05FaTBFNUxpdXRINk02NkxxNTM2N1F1dXJzcUs1aEtON3F4SV9jVXRVc0g1TXdkTnVXQ3ZadEg3MU9SMVNXS1piNW14eGpGWmpwOENlclVyRFZyREhuRWVPX1VtVU1wZDdFZ05hZ1N4UjdtMDFLZF91QkpWWVBCREpuZnBHdw?oc=5",
-          "published": "2026-09-29T10:12:00+00:00",
+          "title": "Fon krizi nedeniyle sistemik risk beklemiyoruz - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQzlxU0E0Q0o1aFR1RThQNEVvQUZzVEllZkZYNEVPYWF4bEl3ZWV5SnFmdVMtV3RTWlpXM2xfMUgwUzJ2b1VzbWNFaW5NMTlYckxpTWRVUllnMnVyWW9mUGdrNWVpTXF6UUtmdHZfWktCd2JxZUJ4UktaN3BIdWlqN1hNcFM0QXgyY1Q1U3Q4bFRGWXRDc2t0TWplWWRPRHRUdGxjX0IxRWhfdmxuM05QV1VfaDkzSVNaemJ6Q1N30gHDAUFVX3lxTE1tTi05bGFVU29NNTVvX1QyMEJjM1lFMDJCNEk1YkZSZ0tyUTI2NzItX0ZYT3VOY2xjc3dhWWRRSmk3YzA2Q2QxV1BfNW9mRXFTbHNSZC1kRmJEUmNmWThwRUhGVms2NDRic2JDeHFvXzBWRy0zc0YtY2p2YmxPQnVBQnVqWHI2bk1qQzhXYndVRXBrQ1ZkT3F2WC1WZXBtaWJyYzJIYVhhQnFNXzJNLWx0UjI2UmdfQ0puaG1xVXZGNWN5TQ?oc=5",
+          "published": "2026-09-29T16:34:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -224,37 +243,11 @@
             "işsizlik"
           ],
           "weight": 1.5
-        },
-        {
-          "title": "TÜİK eylül ayı enflasyon verilerini açıklayacak - BBC",
-          "source": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81WFBoRGo2S1ptRDlxQWtuc3Z3N0tLWTZWTXhMUFdBblppZ3g1eE9TXzFscDBWWnJvRDd6a1B1cllZNnF4eTZ6eGlfbHZvSTBtRGxFVkRWTVU4NVdTTkHSAWNBVV95cUxOOUxSc3FiZXNYd0E2cFhwcFdpaHZXUnRYN243Yjdzb1NLeFpGeDZYV2pUTU56SWZOaTItOEtFMkZGNDZacXRYRURQWlFxTHphVURqY1l5UkJJVTg3X0R3YU5EMzQ?oc=5",
-          "published": "2026-10-05T06:09:20+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Doç. Dr. Işıl: Yeni haftanın rotasını enflasyon, faiz ve enerji belirleyecek - ekotürk",
-          "source": "ekotürk",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNEhjNGRwOUFSenlhZEhvZXhpMklQclpjZFZBNHdWS0M3RDhVM3hidzVoMXctNV9FckxrZ29lME51UWVUS2pDN3ZydzYxTzdmeDVReFlNM0J5aGlXNENXOHdVWVljWEZzWEJITHJHSkZiWW5NTUhkc0ZBZENsM3h0dUJhVWlHQmdLY3VPaHNMV2RQSHdSbU90SDl6TjFRdFk2Y0dyaGx4TGV1MjBmWDBBTVpVbXJMZ0RoUmxz?oc=5",
-          "published": "2026-10-05T06:06:12+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
-      ],
-      "retained_reason": "HTTPError"
+      ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-18T21:24:19.675175+00:00",
-      "score": 11.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-19T05:28:41.319670+00:00",
       "score": 11.9,
@@ -548,6 +541,11 @@
     {
       "generated": "2026-10-05T15:32:08.876081+00:00",
       "score": 1.5,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-06T00:34:28.599095+00:00",
+      "score": 2.3,
       "status": "BASELINE"
     }
   ],
