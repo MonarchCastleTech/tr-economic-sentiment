@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-06T07:10:02.327037+00:00",
+    "generated": "2026-10-06T18:45:38.399708+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.9,
-    "raw_score": 1.9,
+    "score": 1.7,
+    "raw_score": 1.7,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.9/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.7/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,19 +26,19 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
-      "latest_date": "2026-10-05",
-      "latest_value": 49.0732,
-      "change_5d_pct": 0.35,
-      "return_z": -2.81,
+      "coverage": 129,
+      "latest_date": "2026-10-06",
+      "latest_value": 49.0918,
+      "change_5d_pct": 0.37,
+      "return_z": -1.33,
       "volatility_20d": 0.07,
-      "volatility_z": -1.19,
+      "volatility_z": -0.88,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 49.0732,
-          "date": "2026-10-05",
+          "value": 49.0918,
+          "date": "2026-10-06",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -113,19 +113,19 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 19.4,
+      "score": 17.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 134,
-      "matched": 34,
-      "weighted_density": 0.291,
+      "coverage": 153,
+      "matched": 40,
+      "weighted_density": 0.269,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Türkiye'de fon krizi: Ekonomide büyüme ve enflasyon nasıl etkilenecek? - dw.com",
-          "source": "dw.com",
+          "title": "Türkiye'de fon krizi: Ekonomide büyüme ve enflasyon nasıl etkilenecek? - DW.com",
+          "source": "DW.com",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTlBXcTJPV0k4MUFtYlVqaU16Rm44aFhfQlA5ZHpxaDlKTlRLVXNFWDFFNk40Qk1LdmpxT0E2b3lnNjQzZDZLSXJFNGlBb3RmbDlLNTNIa19qT0NPak5wUE16S2c3dlZuYjFaaWVKTnV1REphTFh5SW42eE1aQ0FfVjQxR0VIQ01JVzM3OFVQRnBGUzJ1b3hMLXc3ZzZqTG14UjJIS09tSGwxNXh3WWFwMFBBZHM4czBJRlJQStIBvAFBVV95cUxNTlBXcTJPV0k4MUFtYlVqaU16Rm44aFhfQlA5ZHpxaDlKTlRLVXNFWDFFNk40Qk1LdmpxT0E2b3lnNjQzZDZLSXJFNGlBb3RmbDlLNTNIa19qT0NPak5wUE16S2c3dlZuYjFaaWVKTnV1REphTFh5SW42eE1aQ0FfVjQxR0VIQ01JVzM3OFVQRnBGUzJ1b3hMLXc3ZzZqTG14UjJIS09tSGwxNXh3WWFwMFBBZHM4czBJRlJQSg?oc=5",
           "published": "2026-10-05T16:34:14+00:00",
           "terms": [
@@ -135,20 +135,20 @@
           "weight": 2.8
         },
         {
-          "title": "Türkiye iç sorunlara gömülmüşken Azerbaycan ile 'başörtüsü krizi' gündeme geldi - Ekonomi Gazetesi",
-          "source": "Ekonomi Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOEhTOEZrS21ad2RGZHJJazk0NTJnZ1k2ZkdOQ2VfMkpaei1Xc1Y4andBYmJyOTU4cVFlb05RQkdhVW4wY0xVOFU1dEh3Vm8wNEpNcy1maDZTUS0zTTJqclc1Q0pzSl9CbFZXLVZVbm9HUTQ5bzVqSFp1eEI3dHo3dkF2T1Yzd29qQjUtQ0lqVjJjZjYyUlFsU2xKOTQ2RjVqTUhicloybHN1NnBqYm8wSDB6LVZPUHBfN29mX2VCYmR5SzRJeWc?oc=5",
-          "published": "2026-10-05T05:22:29+00:00",
+          "title": "﻿Kaybolan hayâ: Ekonomik krizin görünmeyen yüzü ve ahlaki erozyon - STAR - Haberler",
+          "source": "STAR - Haberler",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb1BmOS1yWUZ6Um9mSUpsM0g3MW1YR1JQMmw1Y3ptd3NaZG5SaG5LV19aYWo5VnMtZ3gyd2FNRTY0bnZRUnU5RWw2X3dqNW96dnNHaVByYkVkQVU2YWVHVUZIeFRoUXBqRjQ1RWZEV3ZGSmFPWHM2SXNuT255cTJDWjh5ckJLczgtbnZTRURWQXZTQmh2MEFER0h5Yl8xSUhyNjBQelF4aU5tVXVlVnhJaDZiY2tRQdIBtgFBVV95cUxOb1BmOS1yWUZ6Um9mSUpsM0g3MW1YR1JQMmw1Y3ptd3NaZG5SaG5LV19aYWo5VnMtZ3gyd2FNRTY0bnZRUnU5RWw2X3dqNW96dnNHaVByYkVkQVU2YWVHVUZIeFRoUXBqRjQ1RWZEV3ZGSmFPWHM2SXNuT255cTJDWjh5ckJLczgtbnZTRURWQXZTQmh2MEFER0h5Yl8xSUhyNjBQelF4aU5tVXVlVnhJaDZiY2tRQQ?oc=5",
+          "published": "2026-10-06T13:22:00+00:00",
           "terms": [
             "kriz"
           ],
           "weight": 2.0
         },
         {
-          "title": "Bahçeli'den fon krizi açıklaması: 'Türkiye bir arınma sürecinden geçiyor' - BBC",
-          "source": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EOEtSVVVtVUphVmZhdGZDS0NhdjBMRHNRNS0xd1QwNXc3R2Y1MXdqMGFzRGtTYkFpY1cwZFk0MHpXYXZWQVhtTzdBLTVTV1NtTnlDUlRzVHV1bU43QXfSAWNBVV95cUxQTjFIdVg3S2lJMDUyeHBkMmpVYnY4V1F5OHFVM0JPd05wTnFTSWRFR01nV2hkZVh6bEVPczRXU00zZVlwRzVVYUhDenZFblFQTE1BVk9mTHdaMHlYM2tMTTVlMlE?oc=5",
-          "published": "2026-10-04T10:54:16+00:00",
+          "title": "Fon krizinin ekonomiye maliyeti ne olacak? Ekonomistler tek tek açıkladı... - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdnRWdUo1akhsTmN1N29pVjhwMWxZQUU2OTl6aV93cGRtZERJMnFJb0lPTWxlZjYtUzAyaWV5bi1jcGs0YTB2VkZnVDQ4ckRaZERNREUwNFo0dWlaVEJHMkF0QkViWExtZGlJd3lVVHRzM2RuWTlWc09ETGhYZmpTM1hpeVV1TXltbFBvcW9xM2cxenFzWGtyWjVtRThiSlB2S0toMno3aC1teGt6bnIzT3I2RjNwLTN2?oc=5",
+          "published": "2026-10-05T07:34:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -157,7 +157,7 @@
         {
           "title": "Fon krizi sonrası iki dev kuruluştan kritik Türkiye yorumu! - Haber 7",
           "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQXZUdFlDMFVPZnoxNm9yX2JWRlh0M1lWT0NoNFVYSXZFSzZWTlNvY0hrWVR4b21nUlhUOE9NUVYwbUtvX1dQcnNTSHVCa2hvRTRCYmxOYU5welFhdmNCTkpOcGc3M1lvQUJFTDN2anVTQWlyaDFYUGFqVXpHLUg4TTNDS2NZc0VRMmJvcXVjbnQ3azdwMUs0OW8xU1pSeHIxREFxbzJwcm1BY0s2b3k4S0dIYlgxcUM1blHSAa4BQVVfeXFMT2RXb1Z0d1FiRWFnQngtX2dlTG5vU1R4OUVYeDJKenlvamVkdl9WOHhXTFdPWjZxbEZHVldIdUtoUzNwWU9JVkg5MEJIZkJCS3UyR29wUXBQS3JWdWhSQWh1REp2SEV3SGNZMTFrUVFNMTk3X1BESjQ4dVZZMVZoWjg4SDBqVkV3b2dEckFvOV9GeTUxdmtzMXN1Qm5MSm1iakFZVzl5bFVyZThyY2h3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPamg3S3dnZC1uMU0tWFIwQnd6bVoyVWgzMUNWNUk5T0VfZWo3bHNvdXJEZzEzakhLSmJfc2tjT25zY3V5NG1tSU4zSGtGeUE1bFhYb0dhbEhpTUNPcjdKUzV4YjJFc2FKdDNaM2NRUHc1OUpTU0NMR2hUM1VNVDhNQ2FJUUFtXzF4NVBIUEh2Y0VSTEQtLWE4U3BJSXVWWDdqYld4N3dFbGVlLWZyeUY3UzlZdWV4cFR4b0HSAa4BQVVfeXFMT2RXb1Z0d1FiRWFnQngtX2dlTG5vU1R4OUVYeDJKenlvamVkdl9WOHhXTFdPWjZxbEZHVldIdUtoUzNwWU9JVkg5MEJIZkJCS3UyR29wUXBQS3JWdWhSQWh1REp2SEV3SGNZMTFrUVFNMTk3X1BESjQ4dVZZMVZoWjg4SDBqVkV3b2dEckFvOV9GeTUxdmtzMXN1Qm5MSm1iakFZVzl5bFVyZThyY2h3?oc=5",
           "published": "2026-10-04T06:42:00+00:00",
           "terms": [
             "kriz"
@@ -175,40 +175,20 @@
           "weight": 2.0
         },
         {
+          "title": "Bahçeli'den fon krizi açıklaması: 'Türkiye bir arınma sürecinden geçiyor' - BBC",
+          "source": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EOEtSVVVtVUphVmZhdGZDS0NhdjBMRHNRNS0xd1QwNXc3R2Y1MXdqMGFzRGtTYkFpY1cwZFk0MHpXYXZWQVhtTzdBLTVTV1NtTnlDUlRzVHV1bU43QXfSAWNBVV95cUxQTjFIdVg3S2lJMDUyeHBkMmpVYnY4V1F5OHFVM0JPd05wTnFTSWRFR01nV2hkZVh6bEVPczRXU00zZVlwRzVVYUhDenZFblFQTE1BVk9mTHdaMHlYM2tMTTVlMlE?oc=5",
+          "published": "2026-10-03T15:30:08+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "‘Avrupa’nın enerji krizi bize fatura ediliyor’ - Akdenizmanset",
           "source": "Akdenizmanset",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMEozcFFlRGVLamwyd0g1RUVDZVBHMmVLQjFKaldvXzF2dWR2T21ESmxDc01PQy12SUNHN0lGUHIxbjZtRDVObnlLRU5CdVpqdFRwalJjN0JGbkRXX0R0aWowUWZjZVQ5a2thLWFFQ2lZTzNVNFlTbF9NaUlJV0FENE1R?oc=5",
           "published": "2026-09-30T08:23:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Ekonomideki sessiz kriz büyüyor - Yeni Asya",
-          "source": "Yeni Asya",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qaEk1dnpfQU9HVTJTb1U3Xzg0djJIaElVTUhYc0JmaktFQm1NNlNQaUdacHk5czg0bVFFZG5GM0ZKanpyNjVlaHNoY2ZocVVXVU1sYnMtX2Q4RDFlQUdZajA1WjZGVGVjWVpwTjVfR016UmNwZW96RUdwWW9GUEU?oc=5",
-          "published": "2026-09-29T22:31:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Fitch'ten Türkiye ekonomisi için kritik mesaj: Fon krizi sistematik risk oluşturmaz kredi notunu etkilemez - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYmhBdDZOLVZHTU1rOGdoZEV3TUM0MnFjeDZvTFY1MzBIR09tYy1yR2FUT2FUdFNCUDVCLWg3TEZuRVdVeGRERVU3cnVodHY0MGNueC0xWnZJenNaVC02ai1WcVdGRi1LSWhNMV83cjdncTNMNDhWVV8yamlnUDR4OGk1R1FzSV9QZm5QSUJ0UjVOeS1XckN2R09SOVVvTERxdllhWHAzLVFaYWxFejlWYWxlT2hhN1ZMRzVtWE13UFRheW9ERXNqSTZ5eVVEWjhiYWI2NkNJVlNuRExDb1Mw0gHqAUFVX3lxTFAtblZ0QjQ0Y1V3QzYyc0hXY2JGR1QxcUh2NnZpdmRwaEJQQXc0dk9PV0ZDMUZjckplVUVUMlBfbUxNYzFWQ0hpQndsWnEtZjB4R0xnQUQzMGFHTUQtUmZxTlFSa2lRamkyQk5OMUNXdVIyV2N6MGpOVFVsVHVZeDlmUjdiQm9yaVdEQVF4ZWYxZ09Sb29pQzMzM3dDTlkyWUVrWHdhci1lcWxvR0ZSbTZmZ0lrV19uU284SlhHU09UTlZBaW0wNWpBQlk4eWpQOERQbmt3cUVyRThFTDVMenA3a1UzYmdua0dqdw?oc=5",
-          "published": "2026-09-29T17:14:22+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Fon krizi sonrası gözler Fitch'e çevrildi! Winslow'dan Türkiye açıklaması - ahaber.com.tr",
-          "source": "ahaber.com.tr",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQVo4ZjdndVc4VFVLZGFRVzBGelRKWk5LQ3FQTXRnTG1BZ3lSWWMyUmxYY0E3Zy1zNEZ5UElVMFR5bkl5UWI5aU1IYmtHRGNTd3hlUkZTMGpZV0lZZ2VWanNhRTBFR3U4MU9MZHlFRjdaWjJkMk11TTYyVnRUOU4wNGZCYXNUcnZQT2JvZmxsbG8xODNhTC1UOVdNSWhONkpUWkdha0oxSVMySnc?oc=5",
-          "published": "2026-09-29T16:53:14+00:00",
           "terms": [
             "kriz"
           ],
@@ -225,20 +205,40 @@
           "weight": 1.5
         },
         {
-          "title": "Citi'den Türkiye için yıl sonu enflasyon tahmini - Bloomberght",
-          "source": "Bloomberght",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOanBQbUVBZ1Jnb2pka2FuYjBMQlkxZm1qQ2toY003T0ZkRkVjMEtTS0xiTUp1VUhrV0xSRDhuN1VHaVFDMkpWYXEwLXhzQ244ZU5JQ3NQaUZqajhrNmFHUTRiVEZEODY0RV9yNEZyWHc5cHNWSFRzX3dsSU5nRVljc01uMU95WFRaVkFfSg?oc=5",
-          "published": "2026-10-06T06:55:34+00:00",
+          "title": "TÜİK açıkladı: Mevsim etkilerinden arındırılmış enflasyon açıklandı haberi - Finans Gündem",
+          "source": "Finans Gündem",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONVZ1QUJQaU91SUpGQ1ZJaUhYSFVGLUI2RHlWXzRGMjZSV0d3M1ZDOXF2bDgtZXU0VzZPN3U4MEdobm14LWFjeGF0Nk82VTUtOWlEYTdtS1FZNVdsWFVBbnRycnRVaHcycENfdjhZaTBTRm9McmFEclBMUVpnZWZmaVBnQWgzUW5hUWx0UVZCcWxFRHh5aGxmTEllZDZEZEtrT2I0SnR4Vk5ra0ZnaW5pY3RB?oc=5",
+          "published": "2026-10-06T14:17:16+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "BBVA’dan enflasyon ve faiz değerlendirmesi: Gözler Ekim kararında - Paratic Haber",
-          "source": "Paratic Haber",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSFgtUlZ6UWNHVFBvek1hR0NfXy1Dc3gxeC05VGRxdkxnLWd6M0ZvUlZlYmgwQXljSjhyR3htM3RKdUxhcGUwa3FXVTFBZGxYVVhHbllWa3g2REhNZ2g1b09NaVllNFNib1lhNl9aNGNFNjhEVVppeC1nMkVUdVVfaXc5TkFMVTk1OXJfQw?oc=5",
-          "published": "2026-10-06T06:29:18+00:00",
+          "title": "Citi'den Türkiye yıl sonu enflasyon tahmini - Borsatek",
+          "source": "Borsatek",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XRnZNSzM3b1phUTFhNVlKeVJGT2VWelBkbjJWaUtqQXg1YkFGYXNoM25WNVgwS1UzMkZHbTIwZ2JHWWFBLThPSXBTeEFPb0t5ckExNzB5QjB4QnVFNGlpU1ZTNEN1Y3JCSnNZMUpLYzFlc1U?oc=5",
+          "published": "2026-10-06T14:04:58+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Enflasyon düştü: TCMB faiz indirimine mi başlıyor? - YatırımX",
+          "source": "YatırımX",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVC1JRFM0S01wdjAzS295OXlxM0xNMGJiemoyc0Z3M0I3ejFGeUd1OFRFdV9hLWItNHdSSUZDV2p5RktzQlpzVVdlT09YZnV5a20wT3VsZlBWcWFub2ZWZ19TcUtLSVNOVExzdVVOWU1IRFQtb1lRWm5JckhFVXR6ZTc0clJKRUhOX2ZvZEk5YVFnX3FN?oc=5",
+          "published": "2026-10-06T13:45:41+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Fatih Karahan'dan enflasyon mesajı - Haber 7",
+          "source": "Haber 7",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWllqNmcwRlhKTkZFdURKdmpWdmMzb1ZTQklqdHNfVjFvMkJyVGJCZW5nQWFOV1RNdWZUZHNrOGN0RUROazJKRDVBNGxIdDE0ckE4QkMtQXZxOEx3SG5Ea21RNjJhdERTTEk3ZUloM0JWalZ4ZFdIalRESHo1MUJqWmdFUTA1N2ZLNmYtS1YwMGJXN3Z3dkJ4UQ?oc=5",
+          "published": "2026-10-06T13:29:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -248,11 +248,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-19T11:46:32.544515+00:00",
-      "score": 11.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-19T16:13:07.974179+00:00",
       "score": 11.9,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-10-06T07:10:02.327037+00:00",
       "score": 1.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-06T18:45:38.399708+00:00",
+      "score": 1.7,
       "status": "BASELINE"
     }
   ],
