@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-06T18:45:38.399708+00:00",
+    "generated": "2026-10-06T22:52:38.269805+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.7,
-    "raw_score": 1.7,
+    "score": 1.8,
+    "raw_score": 1.8,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 1.8/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 17.0,
+      "score": 18.3,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 153,
-      "matched": 40,
-      "weighted_density": 0.269,
+      "coverage": 155,
+      "matched": 43,
+      "weighted_density": 0.281,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -205,6 +205,16 @@
           "weight": 1.5
         },
         {
+          "title": "Binhan Elif Yılmaz | Enflasyon düştü, ekonomi rahatlayacak mı? - T24",
+          "source": "T24",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdXhuWEtOZ3d3NlBEak9fYUMtMXNYUDNPZWNFUFprX29Sc2FfMHNsY05hM0Y5MnljR29jSzcwM2tNcWNYQmh3OTZITUE0OE5oaFpPbC1LVWFzMkZkajJRX181ZTVUbW5ad2pucDVKN0lWU3lYd3dRU244NlpyVWV5aXBnbnBJN1NKWEtCVW1rNlBPR0gyQXRF?oc=5",
+          "published": "2026-10-06T21:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "TÜİK açıkladı: Mevsim etkilerinden arındırılmış enflasyon açıklandı haberi - Finans Gündem",
           "source": "Finans Gündem",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONVZ1QUJQaU91SUpGQ1ZJaUhYSFVGLUI2RHlWXzRGMjZSV0d3M1ZDOXF2bDgtZXU0VzZPN3U4MEdobm14LWFjeGF0Nk82VTUtOWlEYTdtS1FZNVdsWFVBbnRycnRVaHcycENfdjhZaTBTRm9McmFEclBMUVpnZWZmaVBnQWgzUW5hUWx0UVZCcWxFRHh5aGxmTEllZDZEZEtrT2I0SnR4Vk5ra0ZnaW5pY3RB?oc=5",
@@ -215,7 +225,7 @@
           "weight": 0.8
         },
         {
-          "title": "Citi'den Türkiye yıl sonu enflasyon tahmini - Borsatek",
+          "title": "Citi Türkiye için yıl sonu enflasyon tahminini açıkladı - Borsatek",
           "source": "Borsatek",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XRnZNSzM3b1phUTFhNVlKeVJGT2VWelBkbjJWaUtqQXg1YkFGYXNoM25WNVgwS1UzMkZHbTIwZ2JHWWFBLThPSXBTeEFPb0t5ckExNzB5QjB4QnVFNGlpU1ZTNEN1Y3JCSnNZMUpLYzFlc1U?oc=5",
           "published": "2026-10-06T14:04:58+00:00",
@@ -233,26 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "Fatih Karahan'dan enflasyon mesajı - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWllqNmcwRlhKTkZFdURKdmpWdmMzb1ZTQklqdHNfVjFvMkJyVGJCZW5nQWFOV1RNdWZUZHNrOGN0RUROazJKRDVBNGxIdDE0ckE4QkMtQXZxOEx3SG5Ea21RNjJhdERTTEk3ZUloM0JWalZ4ZFdIalRESHo1MUJqWmdFUTA1N2ZLNmYtS1YwMGJXN3Z3dkJ4UQ?oc=5",
-          "published": "2026-10-06T13:29:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-19T16:13:07.974179+00:00",
-      "score": 11.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-19T21:17:10.450209+00:00",
       "score": 11.9,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-10-06T18:45:38.399708+00:00",
       "score": 1.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-06T22:52:38.269805+00:00",
+      "score": 1.8,
       "status": "BASELINE"
     }
   ],
