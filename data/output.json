@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-07T14:11:34.538442+00:00",
+    "generated": "2026-10-07T23:26:18.198000+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 1.7,
-    "raw_score": 1.7,
+    "score": 7.7,
+    "raw_score": 7.7,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 1.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 7.7/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -45,22 +45,22 @@
     },
     "imported_energy": {
       "key": "imported_energy",
-      "score": 0,
+      "score": 24.3,
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 118,
-      "latest_date": "2026-09-29",
-      "latest_value": 5574.1,
-      "change_5d_pct": -0.44,
-      "return_z": -0.31,
+      "coverage": 123,
+      "latest_date": "2026-10-06",
+      "latest_value": 6158.1,
+      "change_5d_pct": 10.48,
+      "return_z": 1.11,
       "method": "Five-observation robust anomaly in Brent priced in TRY (Brent USD × USD/TRY).",
       "evidence": [
         {
           "label": "Brent in TRY proxy",
-          "value": 5574.1,
-          "date": "2026-09-29",
+          "value": 6158.1,
+          "date": "2026-10-06",
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ]
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 16.7,
+      "score": 15.9,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 161,
-      "matched": 43,
-      "weighted_density": 0.267,
+      "coverage": 158,
+      "matched": 41,
+      "weighted_density": 0.259,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -138,7 +138,7 @@
           "title": "Bertucci’s üç kez iflas başvurusu yaptı: Şube sayısı 11’e düştü - N24",
           "source": "N24",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS3BISkpseEFtSmFyUmhnejh1ZDVJRHZGMjFpM2RzSXctcUh6eDExUkhTMUxsTmpsdTBqbG9pX3V5bjR2T3l2Umh4UUc4S3UzbnpLckcyQ0VYVFNubXNOdEhBRDVFalBZRnFldXRJRXZXeGxXNUFBeGEyeFNWWEN4YUtXYjdDX3lVdnJrbm1WMA?oc=5",
-          "published": "2026-10-07T09:53:00+00:00",
+          "published": "2026-10-07T21:54:37+00:00",
           "terms": [
             "iflas"
           ],
@@ -168,6 +168,16 @@
           "title": "Fon krizi sonrası iki dev kuruluştan kritik Türkiye yorumu! - Haber 7",
           "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQXZUdFlDMFVPZnoxNm9yX2JWRlh0M1lWT0NoNFVYSXZFSzZWTlNvY0hrWVR4b21nUlhUOE9NUVYwbUtvX1dQcnNTSHVCa2hvRTRCYmxOYU5welFhdmNCTkpOcGc3M1lvQUJFTDN2anVTQWlyaDFYUGFqVXpHLUg4TTNDS2NZc0VRMmJvcXVjbnQ3azdwMUs0OW8xU1pSeHIxREFxbzJwcm1BY0s2b3k4S0dIYlgxcUM1blHSAa4BQVVfeXFMT2RXb1Z0d1FiRWFnQngtX2dlTG5vU1R4OUVYeDJKenlvamVkdl9WOHhXTFdPWjZxbEZHVldIdUtoUzNwWU9JVkg5MEJIZkJCS3UyR29wUXBQS3JWdWhSQWh1REp2SEV3SGNZMTFrUVFNMTk3X1BESjQ4dVZZMVZoWjg4SDBqVkV3b2dEckFvOV9GeTUxdmtzMXN1Qm5MSm1iakFZVzl5bFVyZThyY2h3?oc=5",
+          "published": "2026-10-04T07:01:32+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fon krizi sonrası iki dev kuruluştan kritik Türkiye yorumu! - Haber 7",
+          "source": "Haber 7",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPamg3S3dnZC1uMU0tWFIwQnd6bVoyVWgzMUNWNUk5T0VfZWo3bHNvdXJEZzEzakhLSmJfc2tjT25zY3V5NG1tSU4zSGtGeUE1bFhYb0dhbEhpTUNPcjdKUzV4YjJFc2FKdDNaM2NRUHc1OUpTU0NMR2hUM1VNVDhNQ2FJUUFtXzF4NVBIUEh2Y0VSTEQtLWE4U3BJSXVWWDdqYld4N3dFbGVlLWZyeUY3UzlZdWV4cFR4b0HSAa4BQVVfeXFMT2RXb1Z0d1FiRWFnQngtX2dlTG5vU1R4OUVYeDJKenlvamVkdl9WOHhXTFdPWjZxbEZHVldIdUtoUzNwWU9JVkg5MEJIZkJCS3UyR29wUXBQS3JWdWhSQWh1REp2SEV3SGNZMTFrUVFNMTk3X1BESjQ4dVZZMVZoWjg4SDBqVkV3b2dEckFvOV9GeTUxdmtzMXN1Qm5MSm1iakFZVzl5bFVyZThyY2h3?oc=5",
           "published": "2026-10-04T06:42:00+00:00",
           "terms": [
             "kriz"
@@ -185,30 +195,10 @@
           "weight": 2.0
         },
         {
-          "title": "Bahçeli'den fon krizi açıklaması: 'Türkiye bir arınma sürecinden geçiyor' - BBC",
-          "source": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EOEtSVVVtVUphVmZhdGZDS0NhdjBMRHNRNS0xd1QwNXc3R2Y1MXdqMGFzRGtTYkFpY1cwZFk0MHpXYXZWQVhtTzdBLTVTV1NtTnlDUlRzVHV1bU43QXfSAWNBVV95cUxQTjFIdVg3S2lJMDUyeHBkMmpVYnY4V1F5OHFVM0JPd05wTnFTSWRFR01nV2hkZVh6bEVPczRXU00zZVlwRzVVYUhDenZFblFQTE1BVk9mTHdaMHlYM2tMTTVlMlE?oc=5",
-          "published": "2026-10-03T15:30:08+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "TCMB Başkanı Karahan'dan faiz ve enflasyon mesajı - A Para",
+          "title": "TCMB Başkanı Karahan'dan faiz ve enflasyon mesajı - Ekonomi Haberleri - A Para",
           "source": "A Para",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNkZkNTBSMlp1UGFYQnZNZUs3cHg2eWpELTlIZklmN3JpaE1sWVpVUGZidEx6QkQ3Z01oYlowSlVmTFRhVHVIMTh2MGdLUUw0WllXTlV4MnEyanNpWTVkdkdwaUxPZGVOOW50THNMMWM0V090Rk1KdjRoTHlEQVR3R3ZlNUFvd0RnMEMzMHR6VGxYLTRLbndj?oc=5",
           "published": "2026-10-07T11:03:20+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Enflasyonda Yıl Sonu Beklentileri Neler? - Paranın Rotası | A Para videosunu izle | Son Dakika Haberleri - A Para",
-          "source": "A Para",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnlkek5taG40REZNc0hvVm5hQjRpbWQyRnYyM284TUsxc2RpdlJxVEZFZ285RmFpZDhjS1hUUXFnU2h1MkFVSFpUTGh6a0szWFRxOWM0ZkhsRlZYUlZyLUlGUDhONEtWSTVLTzYxQUhFcWh0YjFWdVVIUGFibW9ybGtvZ2gxUml6Qmdab2lrNDNoTjc5SHBFQWdib1ZtcVRYRFN0akhIU2RIVm8?oc=5",
-          "published": "2026-10-07T08:58:49+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -235,10 +225,20 @@
           "weight": 0.8
         },
         {
-          "title": "Enflasyon Verisi Faiz İndirimi Beklentisini Güçlendirdi, TL Riski Sürüyor - ABC Haber",
-          "source": "ABC Haber",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMmdaWlJRRF9DZGJPREFXRWZKVGlFdUdaNWxXWXhReWlZR3oxeFdjUHAyWGxnNlJXUi1Lck1QMW9Fajl4NlFJdm1XendXb040cDNzekFDVHpqdDB2TDZNUmJWdlpsZUtWRmVpTnpNWXh0cWVsM3p6YlB3dXZuZFFROHRrMzNGQUVoY2V4Vl9VS3lYdHZsdmFqY09CcUpOVlc4NXZSd2FnaGMxRGNWX2VielVkRlB1bktiTEN1MVRLX1c?oc=5",
-          "published": "2026-10-07T04:26:44+00:00",
+          "title": "Eğitim enflasyonu yüzde 48.6 - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uREtxOU1UMVVkRjNZQU9wc1FxNmYxZHRNWmxyZS1ZclN3YWFvMUNjU0d4VFhuUVQ2ci1XZXoweHljRVVNOWpXWHdWbzVOWmJoV1BlaXNMbWRaUTFxZ1VXS3Y2eS0wT3dmUXdjakhNbUFsUXh2RXptWg?oc=5",
+          "published": "2026-10-07T01:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Binhan Elif Yılmaz | Enflasyon düştü, ekonomi rahatlayacak mı? - T24",
+          "source": "T24",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdXhuWEtOZ3d3NlBEak9fYUMtMXNYUDNPZWNFUFprX29Sc2FfMHNsY05hM0Y5MnljR29jSzcwM2tNcWNYQmh3OTZITUE0OE5oaFpPbC1LVWFzMkZkajJRX181ZTVUbW5ad2pucDVKN0lWU3lYd3dRU244NlpyVWV5aXBnbnBJN1NKWEtCVW1rNlBPR0gyQXRF?oc=5",
+          "published": "2026-10-06T21:00:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -248,11 +248,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-20T12:00:32.346169+00:00",
-      "score": 11.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-20T16:40:32.441405+00:00",
       "score": 11.9,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-10-07T14:11:34.538442+00:00",
       "score": 1.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-07T23:26:18.198000+00:00",
+      "score": 7.7,
       "status": "BASELINE"
     }
   ],
