@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-07T23:26:18.198000+00:00",
+    "generated": "2026-10-08T06:58:56.804530+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 7.7,
-    "raw_score": 7.7,
+    "score": 7.8,
+    "raw_score": 7.8,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 7.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 7.8/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-10-07",
       "latest_value": 49.1091,
       "change_5d_pct": 0.37,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 123,
+      "coverage": 122,
       "latest_date": "2026-10-06",
       "latest_value": 6158.1,
       "change_5d_pct": 10.48,
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 15.9,
+      "score": 16.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 158,
-      "matched": 41,
-      "weighted_density": 0.259,
+      "coverage": 162,
+      "matched": 44,
+      "weighted_density": 0.268,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -195,6 +195,16 @@
           "weight": 2.0
         },
         {
+          "title": "Fed tutanakları yayımlandı: Yıl sonuna kadar bir faiz artışı daha gelebilir - Dünya Gazetesi",
+          "source": "Dünya Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQmlmMzBicU5XVTgtNW9WZjhmVlR1MXlNMGM3cnFUYy1SSi1mcm1ERjJoZTJYVFkxbEZ3elh1NlZFR0RFd1FHYndqMWFwVVRtbi1mRGJMdy13U29yUFJpd1BDUDgtWWJMWFhsZWJyRDlfSHFTeVkyV01sQjR5OTdTOUxiZjRYajFFeUQ5OGtPTmFqbDBaODZZTjNVdWFDYUo0d1lDTjhITVhpR0tnZ0pmc0FnNTl4RGlsYVE?oc=5",
+          "published": "2026-10-07T20:26:00+00:00",
+          "terms": [
+            "faiz artışı"
+          ],
+          "weight": 1.0
+        },
+        {
           "title": "TCMB Başkanı Karahan'dan faiz ve enflasyon mesajı - Ekonomi Haberleri - A Para",
           "source": "A Para",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNkZkNTBSMlp1UGFYQnZNZUs3cHg2eWpELTlIZklmN3JpaE1sWVpVUGZidEx6QkQ3Z01oYlowSlVmTFRhVHVIMTh2MGdLUUw0WllXTlV4MnEyanNpWTVkdkdwaUxPZGVOOW50THNMMWM0V090Rk1KdjRoTHlEQVR3R3ZlNUFvd0RnMEMzMHR6VGxYLTRLbndj?oc=5",
@@ -233,26 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "Binhan Elif Yılmaz | Enflasyon düştü, ekonomi rahatlayacak mı? - T24",
-          "source": "T24",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdXhuWEtOZ3d3NlBEak9fYUMtMXNYUDNPZWNFUFprX29Sc2FfMHNsY05hM0Y5MnljR29jSzcwM2tNcWNYQmh3OTZITUE0OE5oaFpPbC1LVWFzMkZkajJRX181ZTVUbW5ad2pucDVKN0lWU3lYd3dRU244NlpyVWV5aXBnbnBJN1NKWEtCVW1rNlBPR0gyQXRF?oc=5",
-          "published": "2026-10-06T21:00:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-20T16:40:32.441405+00:00",
-      "score": 11.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-20T21:09:37.274569+00:00",
       "score": 11.9,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-10-07T23:26:18.198000+00:00",
       "score": 7.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-08T06:58:56.804530+00:00",
+      "score": 7.8,
       "status": "BASELINE"
     }
   ],
