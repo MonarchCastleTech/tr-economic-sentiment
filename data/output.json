@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-08T19:08:06.258145+00:00",
+    "generated": "2026-10-09T07:07:03.200675+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 8.0,
-    "raw_score": 8.0,
+    "score": 8.4,
+    "raw_score": 8.4,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 8.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 8.4/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-10-08",
       "latest_value": 49.1267,
       "change_5d_pct": 0.37,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 122,
+      "coverage": 121,
       "latest_date": "2026-10-06",
       "latest_value": 6158.1,
       "change_5d_pct": 10.48,
@@ -113,21 +113,32 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 19.4,
+      "score": 23.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 163,
+      "coverage": 168,
       "matched": 46,
-      "weighted_density": 0.291,
+      "weighted_density": 0.323,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
+          "title": "Fon Krizi, Enflasyon, Büyüme ve Türkiye - Para Analiz",
+          "source": "Para Analiz",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ3gtdHJJNFNXU2dQdDFkcXlLNHNPRzlMZmllekdxUDNSTjlHTmpEQlpHMEI2dENhMW5JOGRKZVZqNTFmaGEyU0Z0OGdLVzhtV2dKMFFyZDRkeF8yTTBNbkttVXZvcklHbU1IT3JneTB5QVp6ZF8tejh5SHJEb1pQaE1NZFQ4UWVfbmpQT1M4dlVEcU80bTlYemVfUmNqZw?oc=5",
+          "published": "2026-10-06T12:12:57+00:00",
+          "terms": [
+            "kriz",
+            "enflasyon"
+          ],
+          "weight": 2.8
+        },
+        {
           "title": "Türkiye'de fon krizi: Ekonomide büyüme ve enflasyon nasıl etkilenecek? - DW.com",
           "source": "DW.com",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTlBXcTJPV0k4MUFtYlVqaU16Rm44aFhfQlA5ZHpxaDlKTlRLVXNFWDFFNk40Qk1LdmpxT0E2b3lnNjQzZDZLSXJFNGlBb3RmbDlLNTNIa19qT0NPak5wUE16S2c3dlZuYjFaaWVKTnV1REphTFh5SW42eE1aQ0FfVjQxR0VIQ01JVzM3OFVQRnBGUzJ1b3hMLXc3ZzZqTG14UjJIS09tSGwxNXh3WWFwMFBBZHM4czBJRlJQStIBvAFBVV95cUxNTlBXcTJPV0k4MUFtYlVqaU16Rm44aFhfQlA5ZHpxaDlKTlRLVXNFWDFFNk40Qk1LdmpxT0E2b3lnNjQzZDZLSXJFNGlBb3RmbDlLNTNIa19qT0NPak5wUE16S2c3dlZuYjFaaWVKTnV1REphTFh5SW42eE1aQ0FfVjQxR0VIQ01JVzM3OFVQRnBGUzJ1b3hMLXc3ZzZqTG14UjJIS09tSGwxNXh3WWFwMFBBZHM4czBJRlJQSg?oc=5",
-          "published": "2026-10-05T16:34:14+00:00",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWnUweDB0cnRQaEdTd0o2T2kzYzE3TUFXb2oyZmV6c2pkNUJOV2ctRDhXbTBQXzRYMEwycVMyNEY0am1LOU1FYWlFRmpCbFB1Nm5fWERJUy1YZEZvcWhuZVA4THFveHVXQ2ZyVll0NFJXMXpfRkRWQTVKYTU5NGRZNmdsYzlTbmhQc01nUXgyQUp0aWVmbXlaNDByOG1GanNMZmFVUHl2S24yRTRncWlMd1kxb2U2Y0Y1b2ItbNIBvAFBVV95cUxNTlBXcTJPV0k4MUFtYlVqaU16Rm44aFhfQlA5ZHpxaDlKTlRLVXNFWDFFNk40Qk1LdmpxT0E2b3lnNjQzZDZLSXJFNGlBb3RmbDlLNTNIa19qT0NPak5wUE16S2c3dlZuYjFaaWVKTnV1REphTFh5SW42eE1aQ0FfVjQxR0VIQ01JVzM3OFVQRnBGUzJ1b3hMLXc3ZzZqTG14UjJIS09tSGwxNXh3WWFwMFBBZHM4czBJRlJQSg?oc=5",
+          "published": "2026-10-06T01:50:58+00:00",
           "terms": [
             "kriz",
             "enflasyon"
@@ -157,8 +168,18 @@
         {
           "title": "﻿Kaybolan hayâ: Ekonomik krizin görünmeyen yüzü ve ahlaki erozyon - STAR - Haberler",
           "source": "STAR - Haberler",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb1BmOS1yWUZ6Um9mSUpsM0g3MW1YR1JQMmw1Y3ptd3NaZG5SaG5LV19aYWo5VnMtZ3gyd2FNRTY0bnZRUnU5RWw2X3dqNW96dnNHaVByYkVkQVU2YWVHVUZIeFRoUXBqRjQ1RWZEV3ZGSmFPWHM2SXNuT255cTJDWjh5ckJLczgtbnZTRURWQXZTQmh2MEFER0h5Yl8xSUhyNjBQelF4aU5tVXVlVnhJaDZiY2tRQdIBtgFBVV95cUxOb1BmOS1yWUZ6Um9mSUpsM0g3MW1YR1JQMmw1Y3ptd3NaZG5SaG5LV19aYWo5VnMtZ3gyd2FNRTY0bnZRUnU5RWw2X3dqNW96dnNHaVByYkVkQVU2YWVHVUZIeFRoUXBqRjQ1RWZEV3ZGSmFPWHM2SXNuT255cTJDWjh5ckJLczgtbnZTRURWQXZTQmh2MEFER0h5Yl8xSUhyNjBQelF4aU5tVXVlVnhJaDZiY2tRQQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkQ0Z3NBNXVKeDBoNEVVMkRSaHF0RVlaeWFFdHlBWVFQZ3pTV1lSVDVXTW11TjVxZUs0dTFRZDRxX3NKeGMySXRBWlgtSUhXS2htUmJKRmRWR2lrU1Ntek1UdmxKUVV0Mzg2STZkbGU2ZnZ0YU9MRzd6MzU3YVFvLWxoZEdmZlIybm9INHpjYzBCSHQxRk9oRWFsRHd5R2NEclhRTjV6aDdCUVNndk9jbGV1Z9IBtgFBVV95cUxOb1BmOS1yWUZ6Um9mSUpsM0g3MW1YR1JQMmw1Y3ptd3NaZG5SaG5LV19aYWo5VnMtZ3gyd2FNRTY0bnZRUnU5RWw2X3dqNW96dnNHaVByYkVkQVU2YWVHVUZIeFRoUXBqRjQ1RWZEV3ZGSmFPWHM2SXNuT255cTJDWjh5ckJLczgtbnZTRURWQXZTQmh2MEFER0h5Yl8xSUhyNjBQelF4aU5tVXVlVnhJaDZiY2tRQQ?oc=5",
           "published": "2026-10-06T13:22:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Uzmanlar seçim sürecine dikkat çekti: Fon krizi Türk ekonomisini nasıl etkiledi? - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc1ZURlp5VEtDc2NDVVFvWjZDZm5fRXJWUkxMYlcyU3BJV3dCR0wwQ01YOExSOVdIc1ZjeGNMOFZvejlnMWRyZFpsTG55bjJZaGxfX3RRT0VwZkpielAzT1lRVWM2akk2eDBvTVR5YThpLXpGY1hERkIzV2JXbmRMSF83N0pyUWNUVjFKc3pKeDdZOTJxY21CbGljZzdWT3dxOGlzMGdSVERNZUt3T0dWVmtZa1M0SzI2c3VWNUlranlRUQ?oc=5",
+          "published": "2026-10-06T08:10:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -205,55 +226,30 @@
           "weight": 2.0
         },
         {
-          "title": "Fed'den yeni faiz artışı sinyali! Waller'dan kritik enflasyon mesajı - Türkiye Gazetesi",
-          "source": "Türkiye Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbElqQ05qZ3cwY2dYbGY0UGRrdGIzY2U5NkdkZ3FRbEhTUEUxNUZjYUN3RDJlM0ZRVG02TTgtOGRyTTQ3cGJ4ZW5XOHJTRm5xZGlvUlpaVUJPOC1VNUhnaHFaN1BpcXJpeXR6Zk5UQy1YZlNnY2t3OHhqZEN6Ql8wQ005OHFiendyOGV1ZzBkU01ieFJUNVFZdUU3bW84enBRN3dxTkxROHpnT24xdDNhYWNYRGFlUmM?oc=5",
-          "published": "2026-10-08T10:17:08+00:00",
+          "title": "Bahçeli'den fon krizi açıklaması: 'Türkiye bir arınma sürecinden geçiyor' - BBC",
+          "source": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EOEtSVVVtVUphVmZhdGZDS0NhdjBMRHNRNS0xd1QwNXc3R2Y1MXdqMGFzRGtTYkFpY1cwZFk0MHpXYXZWQVhtTzdBLTVTV1NtTnlDUlRzVHV1bU43QXfSAWNBVV95cUxQTjFIdVg3S2lJMDUyeHBkMmpVYnY4V1F5OHFVM0JPd05wTnFTSWRFR01nV2hkZVh6bEVPczRXU00zZVlwRzVVYUhDenZFblFQTE1BVk9mTHdaMHlYM2tMTTVlMlE?oc=5",
+          "published": "2026-10-03T15:30:08+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "ECB'den faiz artışı sinyali: Enflasyon riski devam ediyor - Sabah",
+          "source": "Sabah",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMTE2YnU4Y0lOZVVMSk14TC04ejY3RXZxeDhoc1VXOGdUa2dlMnZwaVNMRTg5YVJmZTdRREJHejJPY1lUYXYwdEpxbGV4MWxkelJ0dEJiVzlIWmN0eDZKZTF6RTdvZWJWY2ZReW9iWEswSk9qRzVSNnpaUm9JbUhSWlBYUjc4UUtkeUVScm1wMG1ERnllZUZsaTRDVkk3ZGJSbnVlRW9zc1DSAagBQVVfeXFMTjExNmJ1OGNJTmVVTEpNeEwtOHo2N0V2cXg4aHNVVzhnVGtnZTJ2cGlTTEU4OWFSZmU3UURCR3oyT2NZVGF2MHRKcWxleDFsZHpSdHRCYlc5SFpjdHg2SmUxekU3b2ViVmNmUXlvYlhLMEpPakc1UjZ6WlJvSW1IUlpQWFI3OFFLZHlFUnJtcDBtREZ5ZWVGbGk0Q1ZJN2RiUm51ZUVvc3NQ?oc=5",
+          "published": "2026-10-09T04:35:32+00:00",
           "terms": [
             "enflasyon",
             "faiz artışı"
           ],
           "weight": 1.8
-        },
-        {
-          "title": "Fed Yönetim Kurulu Üyesi Waller'dan İstanbul Ekonomi Forumu'nda ilave faiz artışı sinyali - Anadolu Ajansı",
-          "source": "Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ0JUWG9hNEtFSktwczlqS1dBQ1pZOS1Fb3RTUDYwQThpZm9CN2hrNURBeDBhMmsxdDlvQS0wb205MEY1aEVSWnZ3QnpZS2pUVlgxUUNoM2pxNWpaUlRHQzBTOHp6OF82aW5WdVV3NDgwMjRCemV2aDY1Wkk0V2VKV05qRllYSUl2VjJSZ1MwZnBNQTVET2Y0Z1lZQUI1VkRDRVNVRDZ0TVE0dEkwUW1tdUFHczlCNTI4N09Ob3F1SEJaLWEyUEF3?oc=5",
-          "published": "2026-10-08T10:41:42+00:00",
-          "terms": [
-            "faiz artışı"
-          ],
-          "weight": 1.0
-        },
-        {
-          "title": "Fed tutanakları: Yetkililerin çoğu 2026'da bir faiz artışı daha bekliyor - Bloomberght",
-          "source": "Bloomberght",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa2llYUZLSU85UnZrc19FemJSMUhRSXBBUEZYREhsYjVtVWlic0EtOUkwb2NmYkJlUGRWZVpxQnpxaWdEM3MtZkxsTm55aFdOSTZISlUya3Fvc1pVdUhFaXViV2ZhR0hmSmVqQXNGSmRPOHFxcm9HMEtvbDZ5bVcwcXotM1NLaUgtZjJqMm9OZ19ieGZsUGFBVTNIUGNuRk4tZmF3a3ZXWV8wanc?oc=5",
-          "published": "2026-10-07T18:40:39+00:00",
-          "terms": [
-            "faiz artışı"
-          ],
-          "weight": 1.0
-        },
-        {
-          "title": "Bakan Şimşek: Türkiye, savaştan bu yana enflasyonun düştüğü nadir ülkelerden biri - Gazete Oksijen",
-          "source": "Gazete Oksijen",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNamhISDVhTFpJS2FXbEVqekROQnBVVkEtWGFaUU8wakItT2MySTJFVkFTSEl3cnZhZ21hOUZHN0lhbEJuWXBUNHJqbWdjcTZvek1MdkdoQkt2Z1hDSlVLZjRQSEgteXJzbDdKVzExM3RpUlExaElnUTdNMG1DbzR6Q19QTGEza3g0NGFldWxycjNNYVhPcHJLcnFaLVpQNW9jRVA0dmMxZi12T1JERW94WXZpcmdFRHdxZlRJcA?oc=5",
-          "published": "2026-10-08T15:58:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-21T05:53:08.551538+00:00",
-      "score": 11.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-21T13:35:51.285774+00:00",
       "score": 11.2,
@@ -547,6 +543,11 @@
     {
       "generated": "2026-10-08T19:08:06.258145+00:00",
       "score": 8.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-09T07:07:03.200675+00:00",
+      "score": 8.4,
       "status": "BASELINE"
     }
   ],
