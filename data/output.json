@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-09T07:07:03.200675+00:00",
+    "generated": "2026-10-09T18:38:28.598944+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 8.4,
-    "raw_score": 8.4,
+    "score": 8.0,
+    "raw_score": 8.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 8.4/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 8.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,19 +26,19 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
-      "latest_date": "2026-10-08",
-      "latest_value": 49.1267,
-      "change_5d_pct": 0.37,
-      "return_z": -0.98,
+      "coverage": 129,
+      "latest_date": "2026-10-09",
+      "latest_value": 49.1274,
+      "change_5d_pct": 0.32,
+      "return_z": -5.54,
       "volatility_20d": 0.07,
-      "volatility_z": -0.75,
+      "volatility_z": 0.02,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 49.1267,
-          "date": "2026-10-08",
+          "value": 49.1274,
+          "date": "2026-10-09",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -113,27 +113,16 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 23.0,
+      "score": 19.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 168,
-      "matched": 46,
-      "weighted_density": 0.323,
+      "coverage": 165,
+      "matched": 45,
+      "weighted_density": 0.292,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
-        {
-          "title": "Fon Krizi, Enflasyon, Büyüme ve Türkiye - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ3gtdHJJNFNXU2dQdDFkcXlLNHNPRzlMZmllekdxUDNSTjlHTmpEQlpHMEI2dENhMW5JOGRKZVZqNTFmaGEyU0Z0OGdLVzhtV2dKMFFyZDRkeF8yTTBNbkttVXZvcklHbU1IT3JneTB5QVp6ZF8tejh5SHJEb1pQaE1NZFQ4UWVfbmpQT1M4dlVEcU80bTlYemVfUmNqZw?oc=5",
-          "published": "2026-10-06T12:12:57+00:00",
-          "terms": [
-            "kriz",
-            "enflasyon"
-          ],
-          "weight": 2.8
-        },
         {
           "title": "Türkiye'de fon krizi: Ekonomide büyüme ve enflasyon nasıl etkilenecek? - DW.com",
           "source": "DW.com",
@@ -144,6 +133,16 @@
             "enflasyon"
           ],
           "weight": 2.8
+        },
+        {
+          "title": "Ağır Ekonomi (322): Fon krizi, rejim ve yağma - Medyascope",
+          "source": "Medyascope",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeHZ4TVM5YzdHaGNoN0JVWlhoa2NSNGl0ekZqUlF0NG1KNGRlbklDbURNUHpZUmFzdk5DY0R5aTUwTndqei1zSHFRQ0VXOEE4eHZQUl9JOHB3YUticV9FZ3IzZS03YVFMUlA2S2xzaUFhemtyVGdFYXFseC0tVDljQw?oc=5",
+          "published": "2026-10-09T11:33:03+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
         },
         {
           "title": "Fon krizine uluslararası kuruluşlardan peş peşe uyarı: Türkiye'nin ekonomisi nasıl etkilenecek? - Cumhuriyet",
@@ -162,26 +161,6 @@
           "published": "2026-10-07T21:54:37+00:00",
           "terms": [
             "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "﻿Kaybolan hayâ: Ekonomik krizin görünmeyen yüzü ve ahlaki erozyon - STAR - Haberler",
-          "source": "STAR - Haberler",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkQ0Z3NBNXVKeDBoNEVVMkRSaHF0RVlaeWFFdHlBWVFQZ3pTV1lSVDVXTW11TjVxZUs0dTFRZDRxX3NKeGMySXRBWlgtSUhXS2htUmJKRmRWR2lrU1Ntek1UdmxKUVV0Mzg2STZkbGU2ZnZ0YU9MRzd6MzU3YVFvLWxoZEdmZlIybm9INHpjYzBCSHQxRk9oRWFsRHd5R2NEclhRTjV6aDdCUVNndk9jbGV1Z9IBtgFBVV95cUxOb1BmOS1yWUZ6Um9mSUpsM0g3MW1YR1JQMmw1Y3ptd3NaZG5SaG5LV19aYWo5VnMtZ3gyd2FNRTY0bnZRUnU5RWw2X3dqNW96dnNHaVByYkVkQVU2YWVHVUZIeFRoUXBqRjQ1RWZEV3ZGSmFPWHM2SXNuT255cTJDWjh5ckJLczgtbnZTRURWQXZTQmh2MEFER0h5Yl8xSUhyNjBQelF4aU5tVXVlVnhJaDZiY2tRQQ?oc=5",
-          "published": "2026-10-06T13:22:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Uzmanlar seçim sürecine dikkat çekti: Fon krizi Türk ekonomisini nasıl etkiledi? - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc1ZURlp5VEtDc2NDVVFvWjZDZm5fRXJWUkxMYlcyU3BJV3dCR0wwQ01YOExSOVdIc1ZjeGNMOFZvejlnMWRyZFpsTG55bjJZaGxfX3RRT0VwZkpielAzT1lRVWM2akk2eDBvTVR5YThpLXpGY1hERkIzV2JXbmRMSF83N0pyUWNUVjFKc3pKeDdZOTJxY21CbGljZzdWT3dxOGlzMGdSVERNZUt3T0dWVmtZa1M0SzI2c3VWNUlranlRUQ?oc=5",
-          "published": "2026-10-06T08:10:00+00:00",
-          "terms": [
-            "kriz"
           ],
           "weight": 2.0
         },
@@ -226,16 +205,6 @@
           "weight": 2.0
         },
         {
-          "title": "Bahçeli'den fon krizi açıklaması: 'Türkiye bir arınma sürecinden geçiyor' - BBC",
-          "source": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EOEtSVVVtVUphVmZhdGZDS0NhdjBMRHNRNS0xd1QwNXc3R2Y1MXdqMGFzRGtTYkFpY1cwZFk0MHpXYXZWQVhtTzdBLTVTV1NtTnlDUlRzVHV1bU43QXfSAWNBVV95cUxQTjFIdVg3S2lJMDUyeHBkMmpVYnY4V1F5OHFVM0JPd05wTnFTSWRFR01nV2hkZVh6bEVPczRXU00zZVlwRzVVYUhDenZFblFQTE1BVk9mTHdaMHlYM2tMTTVlMlE?oc=5",
-          "published": "2026-10-03T15:30:08+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
           "title": "ECB'den faiz artışı sinyali: Enflasyon riski devam ediyor - Sabah",
           "source": "Sabah",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMTE2YnU4Y0lOZVVMSk14TC04ejY3RXZxeDhoc1VXOGdUa2dlMnZwaVNMRTg5YVJmZTdRREJHejJPY1lUYXYwdEpxbGV4MWxkelJ0dEJiVzlIWmN0eDZKZTF6RTdvZWJWY2ZReW9iWEswSk9qRzVSNnpaUm9JbUhSWlBYUjc4UUtkeUVScm1wMG1ERnllZUZsaTRDVkk3ZGJSbnVlRW9zc1DSAagBQVVfeXFMTjExNmJ1OGNJTmVVTEpNeEwtOHo2N0V2cXg4aHNVVzhnVGtnZTJ2cGlTTEU4OWFSZmU3UURCR3oyT2NZVGF2MHRKcWxleDFsZHpSdHRCYlc5SFpjdHg2SmUxekU3b2ViVmNmUXlvYlhLMEpPakc1UjZ6WlJvSW1IUlpQWFI3OFFLZHlFUnJtcDBtREZ5ZWVGbGk0Q1ZJN2RiUm51ZUVvc3NQ?oc=5",
@@ -245,16 +214,43 @@
             "faiz artışı"
           ],
           "weight": 1.8
+        },
+        {
+          "title": "Fed'den yeni faiz artışı sinyali! Waller'dan kritik enflasyon mesajı - Türkiye Gazetesi",
+          "source": "Türkiye Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbElqQ05qZ3cwY2dYbGY0UGRrdGIzY2U5NkdkZ3FRbEhTUEUxNUZjYUN3RDJlM0ZRVG02TTgtOGRyTTQ3cGJ4ZW5XOHJTRm5xZGlvUlpaVUJPOC1VNUhnaHFaN1BpcXJpeXR6Zk5UQy1YZlNnY2t3OHhqZEN6Ql8wQ005OHFiendyOGV1ZzBkU01ieFJUNVFZdUU3bW84enBRN3dxTkxROHpnT24xdDNhYWNYRGFlUmM?oc=5",
+          "published": "2026-10-08T10:17:08+00:00",
+          "terms": [
+            "enflasyon",
+            "faiz artışı"
+          ],
+          "weight": 1.8
+        },
+        {
+          "title": "ABD ENFLASYON RAKAMLARI NE ZAMAN, SAAT KAÇTA AÇIKLANACAK? 10 Eylül ABD üretici fiyat endeksi (ÜFE) verisi - CNN Türk",
+          "source": "CNN Türk",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLUJvWG9jM1BjUkxfSDhOQnI3bUZ1TF90b3NPWFBnaXFCT3BaeDFYT0RHSHZZQzk0U3NiQnBjUXdoNUg0bGtTbHNTd0tqdDBHbm9XOF9PVnVDSzlnd0ZWSThHMkRwcG1vM0lZQkc4LTR0VFU0TFBtN3YwM3F5RV9tZ2tuMFZ2WGxEME1IMmQ5VEVpcTkwZHRYNGQ5bVAxZG53S2V6RllIbjRnZFJMOV9pUzBpZkVkWFp5RUMwaVRPaGFRSV84RnhpQlZCTkJsMy1ONTRmLVdCV2w?oc=5",
+          "published": "2026-10-09T03:39:48+00:00",
+          "terms": [
+            "zam",
+            "enflasyon"
+          ],
+          "weight": 1.4
+        },
+        {
+          "title": "Fed Yönetim Kurulu Üyesi Waller'dan İstanbul Ekonomi Forumu'nda ilave faiz artışı sinyali - Anadolu Ajansı",
+          "source": "Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ0JUWG9hNEtFSktwczlqS1dBQ1pZOS1Fb3RTUDYwQThpZm9CN2hrNURBeDBhMmsxdDlvQS0wb205MEY1aEVSWnZ3QnpZS2pUVlgxUUNoM2pxNWpaUlRHQzBTOHp6OF82aW5WdVV3NDgwMjRCemV2aDY1Wkk0V2VKV05qRllYSUl2VjJSZ1MwZnBNQTVET2Y0Z1lZQUI1VkRDRVNVRDZ0TVE0dEkwUW1tdUFHczlCNTI4N09Ob3F1SEJaLWEyUEF3?oc=5",
+          "published": "2026-10-08T10:41:42+00:00",
+          "terms": [
+            "faiz artışı"
+          ],
+          "weight": 1.0
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-21T13:35:51.285774+00:00",
-      "score": 11.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-21T22:25:21.584893+00:00",
       "score": 11.2,
@@ -548,6 +544,11 @@
     {
       "generated": "2026-10-09T07:07:03.200675+00:00",
       "score": 8.4,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-09T18:38:28.598944+00:00",
+      "score": 8.0,
       "status": "BASELINE"
     }
   ],
