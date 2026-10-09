@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-09T18:38:28.598944+00:00",
+    "generated": "2026-10-09T23:01:07.657887+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 19.6,
+      "score": 19.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 165,
-      "matched": 45,
-      "weighted_density": 0.292,
+      "coverage": 167,
+      "matched": 44,
+      "weighted_density": 0.291,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -161,6 +161,16 @@
           "published": "2026-10-07T21:54:37+00:00",
           "terms": [
             "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Uzmanlar seçim sürecine dikkat çekti: Fon krizi Türk ekonomisini nasıl etkiledi? - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc1ZURlp5VEtDc2NDVVFvWjZDZm5fRXJWUkxMYlcyU3BJV3dCR0wwQ01YOExSOVdIc1ZjeGNMOFZvejlnMWRyZFpsTG55bjJZaGxfX3RRT0VwZkpielAzT1lRVWM2akk2eDBvTVR5YThpLXpGY1hERkIzV2JXbmRMSF83N0pyUWNUVjFKc3pKeDdZOTJxY21CbGljZzdWT3dxOGlzMGdSVERNZUt3T0dWVmtZa1M0SzI2c3VWNUlranlRUQ?oc=5",
+          "published": "2026-10-06T08:10:00+00:00",
+          "terms": [
+            "kriz"
           ],
           "weight": 2.0
         },
@@ -236,26 +246,11 @@
             "enflasyon"
           ],
           "weight": 1.4
-        },
-        {
-          "title": "Fed Yönetim Kurulu Üyesi Waller'dan İstanbul Ekonomi Forumu'nda ilave faiz artışı sinyali - Anadolu Ajansı",
-          "source": "Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ0JUWG9hNEtFSktwczlqS1dBQ1pZOS1Fb3RTUDYwQThpZm9CN2hrNURBeDBhMmsxdDlvQS0wb205MEY1aEVSWnZ3QnpZS2pUVlgxUUNoM2pxNWpaUlRHQzBTOHp6OF82aW5WdVV3NDgwMjRCemV2aDY1Wkk0V2VKV05qRllYSUl2VjJSZ1MwZnBNQTVET2Y0Z1lZQUI1VkRDRVNVRDZ0TVE0dEkwUW1tdUFHczlCNTI4N09Ob3F1SEJaLWEyUEF3?oc=5",
-          "published": "2026-10-08T10:41:42+00:00",
-          "terms": [
-            "faiz artışı"
-          ],
-          "weight": 1.0
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-21T22:25:21.584893+00:00",
-      "score": 11.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-22T05:50:57.168614+00:00",
       "score": 11.2,
@@ -548,6 +543,11 @@
     },
     {
       "generated": "2026-10-09T18:38:28.598944+00:00",
+      "score": 8.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-09T23:01:07.657887+00:00",
       "score": 8.0,
       "status": "BASELINE"
     }
