@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-10T06:40:17.896739+00:00",
+    "generated": "2026-10-10T13:16:22.300483+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 8.1,
-    "raw_score": 8.1,
+    "score": 7.7,
+    "raw_score": 7.7,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 8.1/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 7.7/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 19.9,
+      "score": 15.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 166,
-      "matched": 46,
-      "weighted_density": 0.295,
+      "matched": 43,
+      "weighted_density": 0.259,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -139,16 +139,6 @@
           "source": "Stratejik Düşünce Enstitüsü",
           "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOeE5WSVlfMWNIM2dsVmpCTHREVjdKMlE2UTB4Zi1aSDNway1oQXhRb1g4S1FnUEg1YV9XSUNBQ0J6a0w1bm9uYlMta25Uc3lzNm1QQ01jOEtVdEU4UmU4T1RZR0YxMXBRTlY3a21jMGhWcGtTUWp5NlZFS2ZWcUZFTUlnOFotZm1jbGhVZ3NzRTFrNmF5eHNBQWpQdUhSTjFyVDk2bEk1bXFuWUZqa0xZaEkyY2tFbmotczc3M3VIN0tWc1hyQmxiVjI2T3c4UWNfdG9ISm1vbGFnVFNBbXlUWHM3dUpWa2dpc2VvNmxyQVZCaFYtZlFseEl2cm5YNWtvbThROGNB?oc=5",
           "published": "2026-10-09T12:38:05+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Ağır Ekonomi (322): Fon krizi, rejim ve yağma - Medyascope",
-          "source": "Medyascope",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeHZ4TVM5YzdHaGNoN0JVWlhoa2NSNGl0ekZqUlF0NG1KNGRlbklDbURNUHpZUmFzdk5DY0R5aTUwTndqei1zSHFRQ0VXOEE4eHZQUl9JOHB3YUticV9FZ3IzZS03YVFMUlA2S2xzaUFhemtyVGdFYXFseC0tVDljQw?oc=5",
-          "published": "2026-10-09T11:33:03+00:00",
           "terms": [
             "kriz"
           ],
@@ -179,26 +169,6 @@
           "source": "Cumhuriyet",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdnRWdUo1akhsTmN1N29pVjhwMWxZQUU2OTl6aV93cGRtZERJMnFJb0lPTWxlZjYtUzAyaWV5bi1jcGs0YTB2VkZnVDQ4ckRaZERNREUwNFo0dWlaVEJHMkF0QkViWExtZGlJd3lVVHRzM2RuWTlWc09ETGhYZmpTM1hpeVV1TXltbFBvcW9xM2cxenFzWGtyWjVtRThiSlB2S0toMno3aC1teGt6bnIzT3I2RjNwLTN2?oc=5",
           "published": "2026-10-05T07:34:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Fon krizi sonrası iki dev kuruluştan kritik Türkiye yorumu! - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQXZUdFlDMFVPZnoxNm9yX2JWRlh0M1lWT0NoNFVYSXZFSzZWTlNvY0hrWVR4b21nUlhUOE9NUVYwbUtvX1dQcnNTSHVCa2hvRTRCYmxOYU5welFhdmNCTkpOcGc3M1lvQUJFTDN2anVTQWlyaDFYUGFqVXpHLUg4TTNDS2NZc0VRMmJvcXVjbnQ3azdwMUs0OW8xU1pSeHIxREFxbzJwcm1BY0s2b3k4S0dIYlgxcUM1blHSAa4BQVVfeXFMT2RXb1Z0d1FiRWFnQngtX2dlTG5vU1R4OUVYeDJKenlvamVkdl9WOHhXTFdPWjZxbEZHVldIdUtoUzNwWU9JVkg5MEJIZkJCS3UyR29wUXBQS3JWdWhSQWh1REp2SEV3SGNZMTFrUVFNMTk3X1BESjQ4dVZZMVZoWjg4SDBqVkV3b2dEckFvOV9GeTUxdmtzMXN1Qm5MSm1iakFZVzl5bFVyZThyY2h3?oc=5",
-          "published": "2026-10-04T07:01:32+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye’de fon krizi derinleşiyor: JPMorgan’dan kritik ekonomi analizi - Sözcü",
-          "source": "Sözcü",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMVhqSkg0bVJxZXNvZ0VmUHIwMnJuc3NpQUFxNG81Mms1elNKT1p5Nl9vLWZmN3VUTTJsXzBFS1hQMF9LaTFwVFJYSzBUWWxYUzA1Z3dnTFZ6WHRpdlltLUhoYWgzdWRodXl2THdrOEkyak5nLUhaMTNIVG5DakItSDV1UGUzYW1TZVBJNHl5S2dtWU96RHRZZE9CaDh4cUpRekh5aw?oc=5",
-          "published": "2026-10-04T06:34:22+00:00",
           "terms": [
             "kriz"
           ],
@@ -246,16 +216,41 @@
             "faiz artışı"
           ],
           "weight": 1.0
+        },
+        {
+          "title": "Fed tutanakları: Yetkililerin çoğu 2026'da bir faiz artışı daha bekliyor - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa2llYUZLSU85UnZrc19FemJSMUhRSXBBUEZYREhsYjVtVWlic0EtOUkwb2NmYkJlUGRWZVpxQnpxaWdEM3MtZkxsTm55aFdOSTZISlUya3Fvc1pVdUhFaXViV2ZhR0hmSmVqQXNGSmRPOHFxcm9HMEtvbDZ5bVcwcXotM1NLaUgtZjJqMm9OZ19ieGZsUGFBVTNIUGNuRk4tZmF3a3ZXWV8wanc?oc=5",
+          "published": "2026-10-07T18:40:39+00:00",
+          "terms": [
+            "faiz artışı"
+          ],
+          "weight": 1.0
+        },
+        {
+          "title": "Küresel piyasalar dünya genelinde açıklanacak enflasyon verilerine odaklandı - www.ensondakika.com.tr",
+          "source": "www.ensondakika.com.tr",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSmd1TnYxMmd6Q21iSGZ2ZXFUZzN3SWRualBlMS1mWEJuTVVLWnhPZG12c0E5elVXZkF6OENDSnkyVlgta05FS0FwdDBrejZHTkJfS1IySU1nWmNQdHR2VTlrZWhiODhCZ0EzMEhRWk9QOU94M2laUW5sZEVZUHIzY0loYlp1WGlHcVRLLVZ5RDNjNjhNZnB3N0xpZ09mZ2owN3I0NllvemNUMkI1VWtXbTZSQjhZdw?oc=5",
+          "published": "2026-10-10T08:14:29+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Enflasyonu düşürürken üretimi koruyalım - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaGFyWWFIc3Y5bWZHSEtlOGNYVFdtYy1PQkV3S3BHTVBZNFgtZzNKSU1sbnBsVGNSd1U4R2JqRS00SG1GcnlzVERXYUx3WVJvM3BlU09oOExrRG5obU9tWjBRaFRxa2cydHdMa2E1QVFIWlNZLXo0TDZsWlVyelFUdHNScWYyUGd0?oc=5",
+          "published": "2026-10-10T01:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-22T12:20:12.870573+00:00",
-      "score": 11.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-22T17:30:47.893616+00:00",
       "score": 11.2,
@@ -549,6 +544,11 @@
     {
       "generated": "2026-10-10T06:40:17.896739+00:00",
       "score": 8.1,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-10T13:16:22.300483+00:00",
+      "score": 7.7,
       "status": "BASELINE"
     }
   ],
