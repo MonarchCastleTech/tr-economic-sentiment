@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-09T23:01:07.657887+00:00",
+    "generated": "2026-10-10T06:40:17.896739+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 8.0,
-    "raw_score": 8.0,
+    "score": 8.1,
+    "raw_score": 8.1,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 8.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 8.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-10-09",
       "latest_value": 49.1274,
       "change_5d_pct": 0.32,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 121,
+      "coverage": 120,
       "latest_date": "2026-10-06",
       "latest_value": 6158.1,
       "change_5d_pct": 10.48,
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 19.4,
+      "score": 19.9,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 167,
-      "matched": 44,
-      "weighted_density": 0.291,
+      "coverage": 166,
+      "matched": 46,
+      "weighted_density": 0.295,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -133,6 +133,16 @@
             "enflasyon"
           ],
           "weight": 2.8
+        },
+        {
+          "title": "Çok Sayıda Kredi Derecelendirme Kuruluşu Türkiye’deki Fon Krizini Değerlendirdi: Ülke Ekonomisine Etkisinin Sınırlı Kalması Bekleniyor - Stratejik Düşünce Enstitüsü",
+          "source": "Stratejik Düşünce Enstitüsü",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOeE5WSVlfMWNIM2dsVmpCTHREVjdKMlE2UTB4Zi1aSDNway1oQXhRb1g4S1FnUEg1YV9XSUNBQ0J6a0w1bm9uYlMta25Uc3lzNm1QQ01jOEtVdEU4UmU4T1RZR0YxMXBRTlY3a21jMGhWcGtTUWp5NlZFS2ZWcUZFTUlnOFotZm1jbGhVZ3NzRTFrNmF5eHNBQWpQdUhSTjFyVDk2bEk1bXFuWUZqa0xZaEkyY2tFbmotczc3M3VIN0tWc1hyQmxiVjI2T3c4UWNfdG9ISm1vbGFnVFNBbXlUWHM3dUpWa2dpc2VvNmxyQVZCaFYtZlFseEl2cm5YNWtvbThROGNB?oc=5",
+          "published": "2026-10-09T12:38:05+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
         },
         {
           "title": "Ağır Ekonomi (322): Fon krizi, rejim ve yağma - Medyascope",
@@ -151,16 +161,6 @@
           "published": "2026-10-08T09:55:00+00:00",
           "terms": [
             "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Bertucci’s üç kez iflas başvurusu yaptı: Şube sayısı 11’e düştü - N24",
-          "source": "N24",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS3BISkpseEFtSmFyUmhnejh1ZDVJRHZGMjFpM2RzSXctcUh6eDExUkhTMUxsTmpsdTBqbG9pX3V5bjR2T3l2Umh4UUc4S3UzbnpLckcyQ0VYVFNubXNOdEhBRDVFalBZRnFldXRJRXZXeGxXNUFBeGEyeFNWWEN4YUtXYjdDX3lVdnJrbm1WMA?oc=5",
-          "published": "2026-10-07T21:54:37+00:00",
-          "terms": [
-            "iflas"
           ],
           "weight": 2.0
         },
@@ -189,16 +189,6 @@
           "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQXZUdFlDMFVPZnoxNm9yX2JWRlh0M1lWT0NoNFVYSXZFSzZWTlNvY0hrWVR4b21nUlhUOE9NUVYwbUtvX1dQcnNTSHVCa2hvRTRCYmxOYU5welFhdmNCTkpOcGc3M1lvQUJFTDN2anVTQWlyaDFYUGFqVXpHLUg4TTNDS2NZc0VRMmJvcXVjbnQ3azdwMUs0OW8xU1pSeHIxREFxbzJwcm1BY0s2b3k4S0dIYlgxcUM1blHSAa4BQVVfeXFMT2RXb1Z0d1FiRWFnQngtX2dlTG5vU1R4OUVYeDJKenlvamVkdl9WOHhXTFdPWjZxbEZHVldIdUtoUzNwWU9JVkg5MEJIZkJCS3UyR29wUXBQS3JWdWhSQWh1REp2SEV3SGNZMTFrUVFNMTk3X1BESjQ4dVZZMVZoWjg4SDBqVkV3b2dEckFvOV9GeTUxdmtzMXN1Qm5MSm1iakFZVzl5bFVyZThyY2h3?oc=5",
           "published": "2026-10-04T07:01:32+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Fon krizi sonrası iki dev kuruluştan kritik Türkiye yorumu! - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPamg3S3dnZC1uMU0tWFIwQnd6bVoyVWgzMUNWNUk5T0VfZWo3bHNvdXJEZzEzakhLSmJfc2tjT25zY3V5NG1tSU4zSGtGeUE1bFhYb0dhbEhpTUNPcjdKUzV4YjJFc2FKdDNaM2NRUHc1OUpTU0NMR2hUM1VNVDhNQ2FJUUFtXzF4NVBIUEh2Y0VSTEQtLWE4U3BJSXVWWDdqYld4N3dFbGVlLWZyeUY3UzlZdWV4cFR4b0HSAa4BQVVfeXFMT2RXb1Z0d1FiRWFnQngtX2dlTG5vU1R4OUVYeDJKenlvamVkdl9WOHhXTFdPWjZxbEZHVldIdUtoUzNwWU9JVkg5MEJIZkJCS3UyR29wUXBQS3JWdWhSQWh1REp2SEV3SGNZMTFrUVFNMTk3X1BESjQ4dVZZMVZoWjg4SDBqVkV3b2dEckFvOV9GeTUxdmtzMXN1Qm5MSm1iakFZVzl5bFVyZThyY2h3?oc=5",
-          "published": "2026-10-04T06:42:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -246,16 +236,21 @@
             "enflasyon"
           ],
           "weight": 1.4
+        },
+        {
+          "title": "Fed Yönetim Kurulu Üyesi Waller'dan İstanbul Ekonomi Forumu'nda ilave faiz artışı sinyali - Anadolu Ajansı",
+          "source": "Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ0JUWG9hNEtFSktwczlqS1dBQ1pZOS1Fb3RTUDYwQThpZm9CN2hrNURBeDBhMmsxdDlvQS0wb205MEY1aEVSWnZ3QnpZS2pUVlgxUUNoM2pxNWpaUlRHQzBTOHp6OF82aW5WdVV3NDgwMjRCemV2aDY1Wkk0V2VKV05qRllYSUl2VjJSZ1MwZnBNQTVET2Y0Z1lZQUI1VkRDRVNVRDZ0TVE0dEkwUW1tdUFHczlCNTI4N09Ob3F1SEJaLWEyUEF3?oc=5",
+          "published": "2026-10-08T10:41:42+00:00",
+          "terms": [
+            "faiz artışı"
+          ],
+          "weight": 1.0
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-22T05:50:57.168614+00:00",
-      "score": 11.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-22T12:20:12.870573+00:00",
       "score": 11.2,
@@ -549,6 +544,11 @@
     {
       "generated": "2026-10-09T23:01:07.657887+00:00",
       "score": 8.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-10T06:40:17.896739+00:00",
+      "score": 8.1,
       "status": "BASELINE"
     }
   ],
