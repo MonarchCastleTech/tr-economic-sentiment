@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-11T06:47:12.413535+00:00",
+    "generated": "2026-10-11T13:45:10.266812+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 7.7,
-    "raw_score": 7.7,
+    "score": 7.5,
+    "raw_score": 7.5,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 7.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 7.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 16.1,
+      "score": 13.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 165,
-      "matched": 42,
-      "weighted_density": 0.262,
+      "coverage": 164,
+      "matched": 39,
+      "weighted_density": 0.241,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -159,16 +159,6 @@
           "source": "Cumhuriyet",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSm1CQzFWY0VMYlNuV21QdzlEV1BUS29wN254X0x6RE9UTEEyRzVmVGxMQUVlQUhOd1NLRnpxX0F5MlEtdFIzQzgxWlAtZDhTMGp5aFZBWEpWMHgwMmpvQTBMRWw2WDlVQ1Z0WE5DTVJzVVFCUkxQVFB2REQ4UThNdEdFUEVTckNfdlNxZ051ZkxybDZLOGNuc2czbFU5QmFrcmZRdW81VXFoTnNCRmxPSTNEckxlSTZNbmVYMTliT3lmVF9rSDZsUjdvNWVrVjRfQjh5dF93?oc=5",
           "published": "2026-10-08T09:55:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "﻿Kaybolan hayâ: Ekonomik krizin görünmeyen yüzü ve ahlaki erozyon - STAR - Haberler",
-          "source": "STAR - Haberler",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkQ0Z3NBNXVKeDBoNEVVMkRSaHF0RVlaeWFFdHlBWVFQZ3pTV1lSVDVXTW11TjVxZUs0dTFRZDRxX3NKeGMySXRBWlgtSUhXS2htUmJKRmRWR2lrU1Ntek1UdmxKUVV0Mzg2STZkbGU2ZnZ0YU9MRzd6MzU3YVFvLWxoZEdmZlIybm9INHpjYzBCSHQxRk9oRWFsRHd5R2NEclhRTjV6aDdCUVNndk9jbGV1Z9IBtgFBVV95cUxOb1BmOS1yWUZ6Um9mSUpsM0g3MW1YR1JQMmw1Y3ptd3NaZG5SaG5LV19aYWo5VnMtZ3gyd2FNRTY0bnZRUnU5RWw2X3dqNW96dnNHaVByYkVkQVU2YWVHVUZIeFRoUXBqRjQ1RWZEV3ZGSmFPWHM2SXNuT255cTJDWjh5ckJLczgtbnZTRURWQXZTQmh2MEFER0h5Yl8xSUhyNjBQelF4aU5tVXVlVnhJaDZiY2tRQQ?oc=5",
-          "published": "2026-10-06T13:22:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -241,7 +231,17 @@
           "title": "Küresel piyasaların yönünü enflasyon belirleyecek haberi - Borsanın Gündemi",
           "source": "Borsanın Gündemi",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYk5rTlpJaFNvS3ZRbUt2NXJWYzlHb2lVbXo5UVVXZlRUcEtyWW8taXF0V0VUelFZQ1RUaEFQU3EzcFNJTjVtcnQtQ0NtdFhlUGllalllWHZPMWRkTWtUcmdGZGdfTGQySWc2cXl4UjY0OXdNSXVnRFpib0hONHZVeVRrWmZCV0d3MGRmZDlUYXF0YS1qU2Q5bksyYw?oc=5",
-          "published": "2026-10-10T11:33:48+00:00",
+          "published": "2026-10-10T17:38:03+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Borsa İstanbul haftayı yükselişle tamamladı, enflasyon yüzde 30’un altına indi - hibya.com",
+          "source": "hibya.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb2dJVFRjLWZiOXlUQzhnLVdkSV9RRDFvTjZWNE1aSkRSUHYxclFIZGdVVy1OM3gyS29vSGZoNzFIVUpFdzlDNmt6VjRSSmFXUXRrYXpiWFJrOHEwcVZCYnR3LWJ4ZXRTLTVSVnNMdUl4V1lFWURZSm5hVXB3NFZpZ2ZBWFV6Yy1RejREczVFcDFaTkFoTGVDOGJMb2hTdE5QZWpfLQ?oc=5",
+          "published": "2026-10-09T15:20:11+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -251,11 +251,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-23T05:28:44.490304+00:00",
-      "score": 11.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-23T12:32:24.644265+00:00",
       "score": 11.2,
@@ -549,6 +544,11 @@
     {
       "generated": "2026-10-11T06:47:12.413535+00:00",
       "score": 7.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-11T13:45:10.266812+00:00",
+      "score": 7.5,
       "status": "BASELINE"
     }
   ],
