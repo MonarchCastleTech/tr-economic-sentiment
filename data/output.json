@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-11T13:45:10.266812+00:00",
+    "generated": "2026-10-11T22:39:34.043181+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 13.8,
+      "score": 14.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 164,
-      "matched": 39,
-      "weighted_density": 0.241,
+      "coverage": 161,
+      "matched": 40,
+      "weighted_density": 0.245,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -175,17 +175,6 @@
           "weight": 2.0
         },
         {
-          "title": "ECB'den faiz artışı sinyali: Enflasyon riski devam ediyor - Sabah",
-          "source": "Sabah",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMTE2YnU4Y0lOZVVMSk14TC04ejY3RXZxeDhoc1VXOGdUa2dlMnZwaVNMRTg5YVJmZTdRREJHejJPY1lUYXYwdEpxbGV4MWxkelJ0dEJiVzlIWmN0eDZKZTF6RTdvZWJWY2ZReW9iWEswSk9qRzVSNnpaUm9JbUhSWlBYUjc4UUtkeUVScm1wMG1ERnllZUZsaTRDVkk3ZGJSbnVlRW9zc1DSAagBQVVfeXFMTjExNmJ1OGNJTmVVTEpNeEwtOHo2N0V2cXg4aHNVVzhnVGtnZTJ2cGlTTEU4OWFSZmU3UURCR3oyT2NZVGF2MHRKcWxleDFsZHpSdHRCYlc5SFpjdHg2SmUxekU3b2ViVmNmUXlvYlhLMEpPakc1UjZ6WlJvSW1IUlpQWFI3OFFLZHlFUnJtcDBtREZ5ZWVGbGk0Q1ZJN2RiUm51ZUVvc3NQ?oc=5",
-          "published": "2026-10-09T04:35:32+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
-        },
-        {
           "title": "Fed'den yeni faiz artışı sinyali! Waller'dan kritik enflasyon mesajı - Türkiye Gazetesi",
           "source": "Türkiye Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbElqQ05qZ3cwY2dYbGY0UGRrdGIzY2U5NkdkZ3FRbEhTUEUxNUZjYUN3RDJlM0ZRVG02TTgtOGRyTTQ3cGJ4ZW5XOHJTRm5xZGlvUlpaVUJPOC1VNUhnaHFaN1BpcXJpeXR6Zk5UQy1YZlNnY2t3OHhqZEN6Ql8wQ005OHFiendyOGV1ZzBkU01ieFJUNVFZdUU3bW84enBRN3dxTkxROHpnT24xdDNhYWNYRGFlUmM?oc=5",
@@ -238,6 +227,16 @@
           "weight": 0.8
         },
         {
+          "title": "Enflasyonu düşürürken üretimi koruyalım - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaGFyWWFIc3Y5bWZHSEtlOGNYVFdtYy1PQkV3S3BHTVBZNFgtZzNKSU1sbnBsVGNSd1U4R2JqRS00SG1GcnlzVERXYUx3WVJvM3BlU09oOExrRG5obU9tWjBRaFRxa2cydHdMa2E1QVFIWlNZLXo0TDZsWlVyelFUdHNScWYyUGd0?oc=5",
+          "published": "2026-10-10T01:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Borsa İstanbul haftayı yükselişle tamamladı, enflasyon yüzde 30’un altına indi - hibya.com",
           "source": "hibya.com",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb2dJVFRjLWZiOXlUQzhnLVdkSV9RRDFvTjZWNE1aSkRSUHYxclFIZGdVVy1OM3gyS29vSGZoNzFIVUpFdzlDNmt6VjRSSmFXUXRrYXpiWFJrOHEwcVZCYnR3LWJ4ZXRTLTVSVnNMdUl4V1lFWURZSm5hVXB3NFZpZ2ZBWFV6Yy1RejREczVFcDFaTkFoTGVDOGJMb2hTdE5QZWpfLQ?oc=5",
@@ -251,11 +250,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-23T12:32:24.644265+00:00",
-      "score": 11.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-23T17:41:46.812457+00:00",
       "score": 0,
@@ -548,6 +542,11 @@
     },
     {
       "generated": "2026-10-11T13:45:10.266812+00:00",
+      "score": 7.5,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-11T22:39:34.043181+00:00",
       "score": 7.5,
       "status": "BASELINE"
     }
