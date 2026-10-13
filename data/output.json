@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-12T16:40:04.685377+00:00",
+    "generated": "2026-10-13T01:05:43.123388+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 10.7,
-    "raw_score": 10.7,
+    "score": 10.3,
+    "raw_score": 10.3,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 10.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 10.3/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,28 +113,16 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 11.0,
+      "score": 6.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 163,
-      "matched": 34,
-      "weighted_density": 0.217,
+      "coverage": 161,
+      "matched": 29,
+      "weighted_density": 0.18,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
-        {
-          "title": "Fon krizi zam ve işsizlik getirebilir mi? - Aydın Times",
-          "source": "Aydın Times",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kNEsyWVVpZ1l1ZzluV1VOajRQQnI5RDROaHlHNlMwVGRySTU3QlVzSUZUYko2YUVlbkpKN2ZJNk5EOWZEbUZGdmNvNEtrekVna2R5QURyejNoa3ktZ01CR0xsMkU2QWVaNW4tM2FHaVg0dXMxNlE?oc=5",
-          "published": "2026-10-10T11:48:00+00:00",
-          "terms": [
-            "kriz",
-            "işsizlik",
-            "zam"
-          ],
-          "weight": 4.1
-        },
         {
           "title": "ING'den Dolar/TL, enflasyon ve faiz tahmini: Fon krizi sonrası değerlendirme - CNBC-e",
           "source": "CNBC-e",
@@ -145,6 +133,16 @@
             "enflasyon"
           ],
           "weight": 2.8
+        },
+        {
+          "title": "İYİ Parti Emek Çalıştayı… Dervişoğlu’ndan fon krizi vurgusu: “Bu işin peşini bırakmayacağız” - Anka Haber",
+          "source": "Anka Haber",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWFE4QVFPUU91M3lFNFM3bzMxTXNIeDhjZG1uQzQ0Q1VDSXQ4Ni13SGxTanNMQmVXbXdoTE5acE9mOWNZNlo2SWVKWm9STkZFQzd4R0FTSU0zX1hVV282c282UjZGcXM1TGI3SU1yUjF0N2d0OF9jdHpMWnBZdVdCUVE2VXdqd3Z0Y05SOUkzazlsTl9fNkJMdTZqMll6cUdUYkdCOFRqTmN5TXVvcV9yS1FTS2lmeHU5OGt6YzNfbHJIdEE?oc=5",
+          "published": "2026-10-13T00:35:21+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
         },
         {
           "title": "Mahfi Hoca'dan siyasete teknik karne: \"Müdahale sürdükçe krizler bitmez!\" - Ekonomim",
@@ -176,17 +174,6 @@
             "faiz artışı"
           ],
           "weight": 1.8
-        },
-        {
-          "title": "ABD ENFLASYON RAKAMLARI NE ZAMAN, SAAT KAÇTA AÇIKLANACAK? 10 Eylül ABD üretici fiyat endeksi (ÜFE) verisi - CNN Türk",
-          "source": "CNN Türk",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLUJvWG9jM1BjUkxfSDhOQnI3bUZ1TF90b3NPWFBnaXFCT3BaeDFYT0RHSHZZQzk0U3NiQnBjUXdoNUg0bGtTbHNTd0tqdDBHbm9XOF9PVnVDSzlnd0ZWSThHMkRwcG1vM0lZQkc4LTR0VFU0TFBtN3YwM3F5RV9tZ2tuMFZ2WGxEME1IMmQ5VEVpcTkwZHRYNGQ5bVAxZG53S2V6RllIbjRnZFJMOV9pUzBpZkVkWFp5RUMwaVRPaGFRSV84RnhpQlZCTkJsMy1ONTRmLVdCV2w?oc=5",
-          "published": "2026-10-09T12:11:00+00:00",
-          "terms": [
-            "zam",
-            "enflasyon"
-          ],
-          "weight": 1.4
         },
         {
           "title": "Fed tutanakları: Yetkililerin çoğu 2026'da bir faiz artışı daha bekliyor - Nefes Gazetesi",
@@ -247,16 +234,21 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Enflasyonu düşürürken üretimi koruyalım - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaGFyWWFIc3Y5bWZHSEtlOGNYVFdtYy1PQkV3S3BHTVBZNFgtZzNKSU1sbnBsVGNSd1U4R2JqRS00SG1GcnlzVERXYUx3WVJvM3BlU09oOExrRG5obU9tWjBRaFRxa2cydHdMa2E1QVFIWlNZLXo0TDZsWlVyelFUdHNScWYyUGd0?oc=5",
+          "published": "2026-10-10T01:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-24T05:50:33.595448+00:00",
-      "score": 0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-24T12:32:20.192632+00:00",
       "score": 0,
@@ -550,6 +542,11 @@
     {
       "generated": "2026-10-12T16:40:04.685377+00:00",
       "score": 10.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-13T01:05:43.123388+00:00",
+      "score": 10.3,
       "status": "BASELINE"
     }
   ],
