@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-14T17:46:15.027192+00:00",
+    "generated": "2026-10-14T22:02:37.518782+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 23.3,
-    "raw_score": 23.3,
+    "score": 23.1,
+    "raw_score": 23.1,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 23.3/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 23.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 5.2,
+      "score": 2.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 150,
-      "matched": 24,
-      "weighted_density": 0.165,
+      "coverage": 149,
+      "matched": 21,
+      "weighted_density": 0.145,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -167,17 +167,6 @@
           "weight": 1.8
         },
         {
-          "title": "Fed'den yeni faiz artışı sinyali! Waller'dan kritik enflasyon mesajı - Türkiye Gazetesi",
-          "source": "Türkiye Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbElqQ05qZ3cwY2dYbGY0UGRrdGIzY2U5NkdkZ3FRbEhTUEUxNUZjYUN3RDJlM0ZRVG02TTgtOGRyTTQ3cGJ4ZW5XOHJTRm5xZGlvUlpaVUJPOC1VNUhnaHFaN1BpcXJpeXR6Zk5UQy1YZlNnY2t3OHhqZEN6Ql8wQ005OHFiendyOGV1ZzBkU01ieFJUNVFZdUU3bW84enBRN3dxTkxROHpnT24xdDNhYWNYRGFlUmM?oc=5",
-          "published": "2026-10-08T10:17:08+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
-        },
-        {
           "title": "ABD enflasyon verileri ne zaman, saat kaçta açıklanacak? 2026 ABD eylül ayı TÜFE verileri - NTV Haber",
           "source": "NTV Haber",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPalp3Q05DMGhtcVJuZ3dwaERWQ2k1MGs1YVZSNWtQQmR3X05sa3ZYZm5GcV9zN3VXek91M3VWYlI1azlGY3FsOFdnODR1eS14bHZKQWhmU0wwMjR5SWJMekpXZVN0bFBhU0RJV2swSnZqUDBsNE5mclRKa2hWU0lMOElmeUVyUGpuS1RoWndiTHZrbmpjcWxMeE84VlhPVU5BdmJCVUs2RFQ0bHlsYVRoSnk0Q1RmTTNsUF9uS2NZNXhNZHlaVENwMjMwSmRxZw?oc=5",
@@ -187,16 +176,6 @@
             "enflasyon"
           ],
           "weight": 1.4
-        },
-        {
-          "title": "Beyaz Saray’dan enflasyon sonrası Fed’e faiz çağrısı - Doviz.com",
-          "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaXlSZHlqMWZpbFZST2doWGt0WVdxX3BBWHhRejEyVjdfcDQ3RG14UFc4MjEweFRhcFc3ODZiY0UzdjhhWUJaWWlPQm5Od3ZyVFdfZ3ZLemdGaFNzMWtrQ2N1clNoSno0a0NhcVFRcWsyanFPX2Z5SmRxSEs3OEZ1OG40MjFGaXZtb1RtV09kT1JKSmJCemI0VjFwUWE1UkV1VUHSAaoBQVVfeXFMTlRzWmZfeHFKTEtEYlVwelVlTTNHMFZTUXdxMUZtR3VmRWg5SGRKY3FMUkQ4RzZ0LTJ0OUdnQ2taUXlJbkpGN2V0QWJpZ1dRd2dtU2x3LVJ4QkF2TzRQQmh2cXd1YmlGVnhqemEyUl9rOTJoV0ppWDhudkhFbjk0WjkwOEs4c0VVRmFzemwtcWwzemw3RkJHUHRVVWpBS0dLNEE3T2lFY0pENFE?oc=5",
-          "published": "2026-10-14T13:44:12+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         },
         {
           "title": "ABD enflasyon verisi açıklandı! Gram altın 6.500 TL'ye geriledi - GZT",
@@ -247,16 +226,31 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "IMF’den Türkiye ekonomisi için yeni tahmin: Enflasyon ve büyüme oranı ne kadar olacak? - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRklSLVVQa1RoS2lFZjBHYWlPZzg0Tlc3YmxxbXR1UVoxQVdxQ0pFVTUtdVJIdnRGWDBiMGFhcmJrSENMUGJ4amVJZzFzWVhaYVJCUF8wZ2Qwc1dBbERHdTlsMTE0Z0tsbHRBUHU3REZnUWNtdVV1VEpDZEt5VkhicWFWZmFRQTR4b0dENUpSM3A5Y01aMkd2MElRZF9XeVZ0dTVjZTJvaVJvTFpVNmdLeVpyeHl4NWNWbXJLWmkzdnJjaVZDNDJWc09R?oc=5",
+          "published": "2026-10-13T06:23:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "IMF'den Türkiye ekonomisi için yeni tahmin! Büyüme ve enflasyon ne olacak? 2026 ve 2027 için dikkat çeken rakamlar... - Sabah",
+          "source": "Sabah",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUEtIZ2NxUmNUbVZaTFBLaU8zQWZUdTJyVWtoYUpSenZCejNKWm5WUmtwR0hIYUZsNENEVmdBM0FnaW1EUEV2RmJsNGJVZVE5a2pzRi1ZS1FOM2JyNGJxc00zbmplaWtEMmdkRnpvc1EtNW8tWnJPOEtJc1phNnBLWTNPUUNweWRrU1pzLS1pNFJfOE5hSXhjY2pTVGJnb21LdWpEUVhvM3JEQU94RFVlQmJOaXhZQWE4bWROemJsdTIyY0JMMWdYd1VFeV9OWlpDVU5fMjFHSmMxX2c1LWc?oc=5",
+          "published": "2026-10-13T04:06:37+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-25T17:45:22.252582+00:00",
-      "score": 0.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-25T21:58:29.957737+00:00",
       "score": 0.9,
@@ -550,6 +544,11 @@
     {
       "generated": "2026-10-14T17:46:15.027192+00:00",
       "score": 23.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-14T22:02:37.518782+00:00",
+      "score": 23.1,
       "status": "BASELINE"
     }
   ],
