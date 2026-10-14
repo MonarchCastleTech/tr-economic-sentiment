@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-14T05:47:05.111162+00:00",
+    "generated": "2026-10-14T12:38:09.798228+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,34 +11,34 @@
     "source_notes": []
   },
   "warning": {
-    "score": 11.3,
-    "raw_score": 11.3,
+    "score": 23.2,
+    "raw_score": 23.2,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 11.3/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 23.2/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 16.4,
-      "status": "BASELINE",
+      "score": 55.7,
+      "status": "ELEVATED",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
-      "latest_date": "2026-10-13",
-      "latest_value": 49.2794,
-      "change_5d_pct": 0.38,
-      "return_z": 0.71,
+      "coverage": 129,
+      "latest_date": "2026-10-14",
+      "latest_value": 49.3041,
+      "change_5d_pct": 0.4,
+      "return_z": 2.27,
       "volatility_20d": 0.08,
-      "volatility_z": 1.28,
+      "volatility_z": 1.2,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 49.2794,
-          "date": "2026-10-13",
+          "value": 49.3041,
+          "date": "2026-10-14",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 2.7,
+      "score": 4.1,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 142,
-      "matched": 19,
-      "weighted_density": 0.144,
+      "coverage": 150,
+      "matched": 24,
+      "weighted_density": 0.156,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -133,16 +133,6 @@
             "enflasyon"
           ],
           "weight": 2.8
-        },
-        {
-          "title": "İYİ Parti Emek Çalıştayı… Dervişoğlu’ndan fon krizi vurgusu: “Bu işin peşini bırakmayacağız” - Anka Haber",
-          "source": "Anka Haber",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWFE4QVFPUU91M3lFNFM3bzMxTXNIeDhjZG1uQzQ0Q1VDSXQ4Ni13SGxTanNMQmVXbXdoTE5acE9mOWNZNlo2SWVKWm9STkZFQzd4R0FTSU0zX1hVV282c282UjZGcXM1TGI3SU1yUjF0N2d0OF9jdHpMWnBZdVdCUVE2VXdqd3Z0Y05SOUkzazlsTl9fNkJMdTZqMll6cUdUYkdCOFRqTmN5TXVvcV9yS1FTS2lmeHU5OGt6YzNfbHJIdEE?oc=5",
-          "published": "2026-10-13T00:35:21+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
         },
         {
           "title": "Mahfi Hoca'dan siyasete teknik karne: \"Müdahale sürdükçe krizler bitmez!\" - Ekonomim",
@@ -177,6 +167,37 @@
           "weight": 1.8
         },
         {
+          "title": "ABD enflasyon verileri ne zaman, saat kaçta açıklanacak? 2026 ABD eylül ayı TÜFE verileri - NTV Haber",
+          "source": "NTV Haber",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPalp3Q05DMGhtcVJuZ3dwaERWQ2k1MGs1YVZSNWtQQmR3X05sa3ZYZm5GcV9zN3VXek91M3VWYlI1azlGY3FsOFdnODR1eS14bHZKQWhmU0wwMjR5SWJMekpXZVN0bFBhU0RJV2swSnZqUDBsNE5mclRKa2hWU0lMOElmeUVyUGpuS1RoWndiTHZrbmpjcWxMeE84VlhPVU5BdmJCVUs2RFQ0bHlsYVRoSnk0Q1RmTTNsUF9uS2NZNXhNZHlaVENwMjMwSmRxZw?oc=5",
+          "published": "2026-10-14T06:48:20+00:00",
+          "terms": [
+            "zam",
+            "enflasyon"
+          ],
+          "weight": 1.4
+        },
+        {
+          "title": "Dolar neden düşüyor? ABD enflasyon verisi öncesi piyasalar temkinli - Haber Ege",
+          "source": "Haber Ege",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbnRSbXhXM1BkTXAtd1NUbC1qeUlTUEhoNUZqQVA2SU5GWC1GNGxqOTh6VlpNY0c2YUZhWksxNGRpVjdfRF9xWmdxZlZjZGlIOTd3UEhmbG55VTRsRUVvbDR4WERDUVJYdnYxNGhWS3plVVhpNFh4NUc0SEwzeHY4VHVLV0lxNjFpV1FlWGN3Y0NlUVE3anpPV2x0VURWN09mSlRLSw?oc=5",
+          "published": "2026-10-14T08:09:22+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Dolar neden düşüyor? ABD enflasyon verisi öncesinde piyasalar temkinli - İzmir’de Son Dakika",
+          "source": "İzmir’de Son Dakika",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVjZvWmpOS2hvdlkwTjhudWhINVhlcmkzWm5zZGhVaUFxM2dGRGN0MFVhZ2hUd3IwaFNQZ1h5ZVdEZDY0cERPaDBRRGZMVmhoQm4yUjhyRUN2NGdxQjNaMWFRZEY4RS1WRXhlelFnaHBRbTNGUnozNkRBcDFxY1hVN3hsNWdtZTdxWE04cjZnZG1sQ21ISE9oVWo1WllLV05YZXhyclhXbmI?oc=5",
+          "published": "2026-10-14T07:13:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Altın enflasyon öncesi yükselişte haberi - Borsanın Gündemi",
           "source": "Borsanın Gündemi",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORTJsam9zdG9BNjZ2X183TVNfQm1ERWNyQzREWXhrbldVOHhuMHhuWFBkWk9WZXhjZ3p1MnZwY05JZ0ZZa2Q4UENJZVdKV2hBNzRYZHAtNVVXV3RwUjROQkg2dmdGcVg5QXdFcm5hcWdPZ21RVHE3YzkyeGliZkdBUkVvbVZMdw?oc=5",
@@ -207,10 +228,10 @@
           "weight": 0.8
         },
         {
-          "title": "Altın Geriledi: Gözler ABD Enflasyonu ve Fed'de - Paranın Yönü",
-          "source": "Paranın Yönü",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONXhTZzVramV1YUR6bGlLX1JMTEFPRTNkU25mdFNtY2NTb25Edk9mOVJXc3h4dU1KTzMxZTNhSVlDZ3N3SjFCcG96SlJmM1g2aFp2bDNlNGRMX1VxaGdxc0FUdVpKaVJMZ3NVSzRVR0U5bkhkd0Jld1B6cEFEcXFkR0c1dlZxOHZ6aFlnN25NREk?oc=5",
-          "published": "2026-10-13T05:34:00+00:00",
+          "title": "IMF'den Türkiye ekonomisi için yeni tahmin! Büyüme ve enflasyon ne olacak? 2026 ve 2027 için dikkat çeken rakamlar... - Sabah",
+          "source": "Sabah",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUEtIZ2NxUmNUbVZaTFBLaU8zQWZUdTJyVWtoYUpSenZCejNKWm5WUmtwR0hIYUZsNENEVmdBM0FnaW1EUEV2RmJsNGJVZVE5a2pzRi1ZS1FOM2JyNGJxc00zbmplaWtEMmdkRnpvc1EtNW8tWnJPOEtJc1phNnBLWTNPUUNweWRrU1pzLS1pNFJfOE5hSXhjY2pTVGJnb21LdWpEUVhvM3JEQU94RFVlQmJOaXhZQWE4bWROemJsdTIyY0JMMWdYd1VFeV9OWlpDVU5fMjFHSmMxX2c1LWc?oc=5",
+          "published": "2026-10-13T04:06:37+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -225,36 +246,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "Küresel merkez bankalarında faiz politikası değişiyor: Enflasyon yeniden gündemde - ekotürk",
-          "source": "ekotürk",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeVJkS1RQUkRONEJ1c0ViVjhnUm1qaDRacjNDWGFYM25uWklEZldMNF9iUUU1ZTJzeEJjZGphOXZGWV9jX3VFXzJ3ZUxzOTNCZXJwWEZrcEJWd01tWHpET3Bkb2RtcXZINEhmclE1NWZrSWh4UWxZbU9DeDJYVjkydENvSzVmWG9EVGpiMEpnM2xhcHgwaUdXWUxQZjhWWGozcHh4dzdjTzFISmp5blJQM3JCQTBQWEZkck43VXY5dw?oc=5",
-          "published": "2026-10-12T05:37:50+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Enflasyonu düşürürken üretimi koruyalım - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaGFyWWFIc3Y5bWZHSEtlOGNYVFdtYy1PQkV3S3BHTVBZNFgtZzNKSU1sbnBsVGNSd1U4R2JqRS00SG1GcnlzVERXYUx3WVJvM3BlU09oOExrRG5obU9tWjBRaFRxa2cydHdMa2E1QVFIWlNZLXo0TDZsWlVyelFUdHNScWYyUGd0?oc=5",
-          "published": "2026-10-10T01:00:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-25T05:46:59.199197+00:00",
-      "score": 0.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-25T12:32:40.993628+00:00",
       "score": 0.0,
@@ -548,6 +544,11 @@
     {
       "generated": "2026-10-14T05:47:05.111162+00:00",
       "score": 11.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-14T12:38:09.798228+00:00",
+      "score": 23.2,
       "status": "BASELINE"
     }
   ],
