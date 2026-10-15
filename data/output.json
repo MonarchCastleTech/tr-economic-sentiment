@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-14T22:02:37.518782+00:00",
+    "generated": "2026-10-15T05:32:37.742917+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-10-14",
       "latest_value": 49.3041,
       "change_5d_pct": 0.4,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 120,
+      "coverage": 119,
       "latest_date": "2026-10-06",
       "latest_value": 6158.1,
       "change_5d_pct": 10.48,
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 2.8,
+      "score": 3.1,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 149,
+      "coverage": 147,
       "matched": 21,
-      "weighted_density": 0.145,
+      "weighted_density": 0.147,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -178,20 +178,20 @@
           "weight": 1.4
         },
         {
-          "title": "ABD enflasyon verisi açıklandı! Gram altın 6.500 TL'ye geriledi - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbjFFTTBXZFN0dGd6QWt2a180U3JXQjk5bWdEX3JMbjV0TFpfOTEtQXVma2ZCSVBaeXhGZmw3dVhPY1lMQjg2OERVdWFkSkdicmo2NXJZekxrUWdaZHV4UHBNN0VENmF4V0RoWlowa3BpZnMtTGJaYzdsWjhLbnBPUGZ4Nno3S0tYbjZjc1l1cjk4WERROG9UdE1CNnN2R1pUUExRdjI4TmduMXYtOFo1bU1EYTNTcGFjOUdiVVhicElmNVZ0R2lieTNjdEdXbGp6VWgwX0JtcERvOGxra2pjeHF6MUE5REZXOXFz?oc=5",
-          "published": "2026-10-14T12:51:06+00:00",
+          "title": "Zeliha SARAÇ: Piyasalar faiz indirimini beklerken ABD enflasyonu yeniden sorun oldu - Borsatek",
+          "source": "Borsatek",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaldnWFViQmJBN1RqWXpxUzE0c2xjdXg3YllwbS1MYVNyWHRZQ0hWbGY5QlUtRkFSWjZMZWhmaTMzaF9PSWRXUHAzdnRHWkZPUmRJazVaSGZXc2doaXBkZmFRZWxJMms1cnBrX3ozRnh2N0ZTR2Y5dkJCYWRMb2x0dXpMY3lycmdQRXFSaXgtXzJxUjZsaE51R2pMMA?oc=5",
+          "published": "2026-10-14T22:40:22+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "Altında yön değişti! Enflasyon verisi sonrası sert düşüş - CNN Türk Finans",
-          "source": "CNN Türk Finans",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTHB4aER3aThYcGs1dFZRdzhyOWZFcjBlMlhIcXlfVlB0bkJxQ095UUE0UjBhaFJ4TDBFRVo2b3ZrTVUyMG5TY0NlVWhLZDRFNXB3OXRaNUZMTWFGX1BEOGk4bjlibExabXVxeGlSa0Z3WlRQcklkVjIxSlZHQ09WUXZkaDl1NV9iRXhzR2ZFalJtSUlSU1lB?oc=5",
-          "published": "2026-10-14T12:33:00+00:00",
+          "title": "ABD enflasyon verisi açıklandı! Gram altın 6.500 TL'ye geriledi - GZT",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbjFFTTBXZFN0dGd6QWt2a180U3JXQjk5bWdEX3JMbjV0TFpfOTEtQXVma2ZCSVBaeXhGZmw3dVhPY1lMQjg2OERVdWFkSkdicmo2NXJZekxrUWdaZHV4UHBNN0VENmF4V0RoWlowa3BpZnMtTGJaYzdsWjhLbnBPUGZ4Nno3S0tYbjZjc1l1cjk4WERROG9UdE1CNnN2R1pUUExRdjI4TmduMXYtOFo1bU1EYTNTcGFjOUdiVVhicElmNVZ0R2lieTNjdEdXbGp6VWgwX0JtcERvOGxra2pjeHF6MUE5REZXOXFz?oc=5",
+          "published": "2026-10-14T12:51:06+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -251,11 +251,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-25T21:58:29.957737+00:00",
-      "score": 0.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-26T05:50:00.429046+00:00",
       "score": 0.6,
@@ -548,6 +543,11 @@
     },
     {
       "generated": "2026-10-14T22:02:37.518782+00:00",
+      "score": 23.1,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-15T05:32:37.742917+00:00",
       "score": 23.1,
       "status": "BASELINE"
     }
