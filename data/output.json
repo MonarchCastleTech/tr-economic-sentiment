@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-15T17:35:08.234036+00:00",
+    "generated": "2026-10-15T21:55:07.173117+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 27.3,
-    "raw_score": 27.3,
+    "score": 21.4,
+    "raw_score": 21.4,
     "concurrence_bonus": 0.0,
-    "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 27.3/100.",
+    "status": "BASELINE",
+    "headline": "Türkiye economic-strain pressure is baseline at 21.4/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -45,22 +45,22 @@
     },
     "imported_energy": {
       "key": "imported_energy",
-      "score": 24.3,
+      "score": 0,
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 119,
-      "latest_date": "2026-10-06",
-      "latest_value": 6158.1,
-      "change_5d_pct": 10.48,
-      "return_z": 1.11,
+      "coverage": 125,
+      "latest_date": "2026-10-14",
+      "latest_value": 6239.4,
+      "change_5d_pct": 0.84,
+      "return_z": -0.21,
       "method": "Five-observation robust anomaly in Brent priced in TRY (Brent USD × USD/TRY).",
       "evidence": [
         {
           "label": "Brent in TRY proxy",
-          "value": 6158.1,
-          "date": "2026-10-06",
+          "value": 6239.4,
+          "date": "2026-10-14",
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ]
@@ -95,32 +95,32 @@
       "weight": 0.15,
       "available": true,
       "retained": false,
-      "coverage": 58,
-      "latest_date": "2026-08-01",
-      "latest_value": 90.8,
-      "change_1m_pct": 1.11,
-      "adverse_3m_pct": -5.83,
-      "change_z": -0.22,
+      "coverage": 59,
+      "latest_date": "2026-09-01",
+      "latest_value": 91.9,
+      "change_1m_pct": 1.21,
+      "adverse_3m_pct": -4.55,
+      "change_z": -0.21,
       "method": "70% adverse monthly confidence-change anomaly + 30% three-month deterioration.",
       "evidence": [
         {
           "label": "OECD consumer confidence",
-          "value": 90.8,
-          "date": "2026-08-01",
+          "value": 91.9,
+          "date": "2026-09-01",
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ]
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 4.7,
+      "score": 6.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 141,
-      "matched": 19,
-      "weighted_density": 0.162,
+      "coverage": 140,
+      "matched": 21,
+      "weighted_density": 0.178,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -133,6 +133,16 @@
             "enflasyon"
           ],
           "weight": 2.8
+        },
+        {
+          "title": "Bloomberg’den Türk Lirası için 'devalüasyon' iddiası: Karahan’dan kapalı toplantıda kur mesajı - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOVI5U1JFSml5YlFTNy1RQmFJZnhoSzhLSjRHc3VOM0FVbjBPS2FVSzlEYmNOYnk4Uk1aYUNqcXRxM2ZiX091eXlNeFphZnNQdWZNR2tzUWgzWUY4WmhjOGtrTl9wWnlyakF3aWxzUVVibC1EZXdSdjRSV2lZN20tNGU2TlVyUGp2RWd6OUNtaldfM1RxZS1zWG1YOU5RUm5vbVk2NUp4VnBkWkpqUU5iZTFXZkVGS0MweEZhWDVhUHNUVzlOSVZhMEJqdF8zdklNOTMw?oc=5",
+          "published": "2026-10-14T14:21:00+00:00",
+          "terms": [
+            "devalüasyon"
+          ],
+          "weight": 2.5
         },
         {
           "title": "30 yıllık şirket iflas etti: Pandemide kritik üretime imza atmışlardı - Yeni Şafak",
@@ -153,17 +163,6 @@
             "kriz"
           ],
           "weight": 2.0
-        },
-        {
-          "title": "ABD’de hızlanan enflasyon yıl sonuna kadar yeni bir faiz artışı ihtimalini güçlendiriyor - https://www.ensondakika.com.tr/",
-          "source": "https://www.ensondakika.com.tr/",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOG5CcS13SV9uZmxUdVhGZDdISXo1NlZiUklDcjBfMTM5UmxiZlVFQW9WeHJaRm9mNnFYWThoZ3RDNEM5UHZ0RjJMVzhrc3Q5NUFURUlnY1ZxZWszZ3hoY3ZjbU01Q1R5dHlvMFc3M0VvWEdGVnNjQXJyLWE1UlBtNmU3NmF2NTdENG9xcGEtYmZNaVBrSEVZSDY2dm1GYXNYV1FiTV9DQXBZX1Nlb3IwNVplaVlIUkFxQVRVZHpFM3FlTzFtTVE?oc=5",
-          "published": "2026-10-15T08:05:09+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
         },
         {
           "title": "ABD'de enflasyon alarmı: Fed için faiz artışı yeniden masada haberi - Borsanın Gündemi",
@@ -219,6 +218,16 @@
           "weight": 0.8
         },
         {
+          "title": "Altında yön değişti! Enflasyon verisi sonrası sert düşüş - CNN Türk Finans",
+          "source": "CNN Türk Finans",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTHB4aER3aThYcGs1dFZRdzhyOWZFcjBlMlhIcXlfVlB0bkJxQ095UUE0UjBhaFJ4TDBFRVo2b3ZrTVUyMG5TY0NlVWhLZDRFNXB3OXRaNUZMTWFGX1BEOGk4bjlibExabXVxeGlSa0Z3WlRQcklkVjIxSlZHQ09WUXZkaDl1NV9iRXhzR2ZFalJtSUlSU1lB?oc=5",
+          "published": "2026-10-14T12:33:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Dolar neden düşüyor? ABD enflasyon verisi öncesi piyasalar temkinli - Haber Ege",
           "source": "Haber Ege",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbnRSbXhXM1BkTXAtd1NUbC1qeUlTUEhoNUZqQVA2SU5GWC1GNGxqOTh6VlpNY0c2YUZhWksxNGRpVjdfRF9xWmdxZlZjZGlIOTd3UEhmbG55VTRsRUVvbDR4WERDUVJYdnYxNGhWS3plVVhpNFh4NUc0SEwzeHY4VHVLV0lxNjFpV1FlWGN3Y0NlUVE3anpPV2x0VURWN09mSlRLSw?oc=5",
@@ -237,26 +246,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "IMF’den Türkiye ekonomisi için yeni tahmin: Enflasyon ve büyüme oranı ne kadar olacak? - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRklSLVVQa1RoS2lFZjBHYWlPZzg0Tlc3YmxxbXR1UVoxQVdxQ0pFVTUtdVJIdnRGWDBiMGFhcmJrSENMUGJ4amVJZzFzWVhaYVJCUF8wZ2Qwc1dBbERHdTlsMTE0Z0tsbHRBUHU3REZnUWNtdVV1VEpDZEt5VkhicWFWZmFRQTR4b0dENUpSM3A5Y01aMkd2MElRZF9XeVZ0dTVjZTJvaVJvTFpVNmdLeVpyeHl4NWNWbXJLWmkzdnJjaVZDNDJWc09R?oc=5",
-          "published": "2026-10-13T06:23:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-26T16:52:05.435253+00:00",
-      "score": 1.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-26T21:48:17.433652+00:00",
       "score": 1.1,
@@ -551,6 +545,11 @@
       "generated": "2026-10-15T17:35:08.234036+00:00",
       "score": 27.3,
       "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-15T21:55:07.173117+00:00",
+      "score": 21.4,
+      "status": "BASELINE"
     }
   ],
   "sources": [
