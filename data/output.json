@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-16T05:25:03.364339+00:00",
+    "generated": "2026-10-16T12:05:06.688284+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 21.4,
-    "raw_score": 21.4,
+    "score": 21.6,
+    "raw_score": 21.6,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 21.4/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 21.6/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 7.1,
+      "score": 9.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 141,
-      "matched": 21,
-      "weighted_density": 0.182,
+      "coverage": 164,
+      "matched": 31,
+      "weighted_density": 0.199,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -145,12 +145,12 @@
           "weight": 2.5
         },
         {
-          "title": "30 yıllık şirket iflas etti: Pandemide kritik üretime imza atmışlardı - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMURJdEFnX005a0RLRHoxQ0dicGlPVDBtX2FJa2kza0pWMjhTaGJkSXZwcnR3LUJFNnJJQldrQ2R1djloYkdURFlRWF9FUW1XVjk1T3czUHk5RDRhSTNwVXpxNWgzRV9vbUJiU05qTDdPcEpacTFOTkxxOTc3QzVvSzFBRV9FTk9uOXM4dGxuT200UUpTUVpZbFVOd0pYSkROaEMxcy1fVTlWRHFhWEZ4c09keUhabVJT?oc=5",
-          "published": "2026-10-15T06:11:27+00:00",
+          "title": "2026 Ekonomi Nobel’inden Türkiye'nin fon krizine bakış: Güvenin sessiz çöküşü - Odatv",
+          "source": "Odatv",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWWxyOEZTSzdkVUM2SkRlYzJmcjJaaUEySGtpNXBiR2xVYkp3SkV2aS1MRkNkcXVEaW1PRGx5Yy1NMXA5aDF2eGg1ODVtTmpUSEpocVhYbXRZLXlaRjluemlXWE5UaXkzSGVuMkNWSWhQWUVlWDh3ajRaOTZRYzNfcmRCT1hOdHlxUndsWlBHb0s3OEsyMGtqMHJ1X24zbU9Hd0JWS3FDOHBFbnc1YmtaX2sxbVgwc3lYalhSWWU3UlpRalM2NG1r?oc=5",
+          "published": "2026-10-16T01:55:00+00:00",
           "terms": [
-            "iflas"
+            "kriz"
           ],
           "weight": 2.0
         },
@@ -187,62 +187,60 @@
           "weight": 1.8
         },
         {
-          "title": "RBA tutanakları enflasyon riskleri artarken faiz artışı sinyali verdi - Investing.com Türkiye",
-          "source": "Investing.com Türkiye",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMzRRdzFOazB4NzdJTERYUzJpMml3U1FoNDNHbGw4MVEzR2Fzc1RyS2J0Qmo0a1hsTzQ2cTBUcFNkRkdZTFNJNDk2M2hKY1AtVklWcFk3WDdybkE0SklEWmZiUzlDZnN0eS1HMGJUdmRCRmtMMlAxcjg3TW85bFdDOGRmeTkxNTVzdHVjdmJqeUtWajV3Vm9OMXNVcndFaVBaZm5sOEp1ck5tQXNfQUVpVmdwT2hNTGZz?oc=5",
-          "published": "2026-10-13T01:02:09+00:00",
+          "title": "IMF’den Türk ekonomisi için yeni tahmin: Enflasyon beklentisi ne yönde? - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV2ZNZUlHRmJ5WmdaNE1iY2lDT1BCNGNjZjVYVFhKVXhTZlhkY0xaTEhMdDVjd2FiTFkzSFZKd2NNUHJUcGtrTDB6dTJyeHJvWE9maXlIcUdDMHU0ck1yRW1kQzNlZGFfMnppd3dpUnQyUEczVEJIbDJmWkZSd1N1bnFHOG9fcmNuQjg0MmZFZWdJeUtKajdtWk9TYWVLaDA5YWR2ZVgwM2ktcVY4ajR1ampqLTk3QQ?oc=5",
+          "published": "2026-10-16T11:58:00+00:00",
           "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
-        },
-        {
-          "title": "ABD enflasyon verileri ne zaman, saat kaçta açıklanacak? 2026 ABD eylül ayı TÜFE verileri - NTV Haber",
-          "source": "NTV Haber",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPalp3Q05DMGhtcVJuZ3dwaERWQ2k1MGs1YVZSNWtQQmR3X05sa3ZYZm5GcV9zN3VXek91M3VWYlI1azlGY3FsOFdnODR1eS14bHZKQWhmU0wwMjR5SWJMekpXZVN0bFBhU0RJV2swSnZqUDBsNE5mclRKa2hWU0lMOElmeUVyUGpuS1RoWndiTHZrbmpjcWxMeE84VlhPVU5BdmJCVUs2RFQ0bHlsYVRoSnk0Q1RmTTNsUF9uS2NZNXhNZHlaVENwMjMwSmRxZw?oc=5",
-          "published": "2026-10-14T06:48:20+00:00",
-          "terms": [
-            "zam",
             "enflasyon"
           ],
-          "weight": 1.4
+          "weight": 0.8
         },
         {
-          "title": "Beyaz Saray’dan enflasyon sonrası Fed’e faiz çağrısı - Doviz.com",
+          "title": "TCMB Anketinde Yıl Sonu Dolar ve Enflasyon Tahminleri Güncellendi - Ajans04",
+          "source": "Ajans04",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSi14blRUQjM5R1JjbVFjOFE3WHpsajQxNWh5b2I2OUFHS1ExQTlNU0RGTGxwSThVMWRkcFhtWkhJZTJRbXVBazdXcFpsY0NxcnJDbUo1Uk1vaUNTSV93a0hPUFg2N0ZIUDRuRGxlNlFWMC02OEczWUJRYlJnVDRUdEY4MUxDaE9zU3ZaRndpNjEtclU?oc=5",
+          "published": "2026-10-16T11:45:14+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Merkez Bankası ekim anketini açıkladı: Dolar beklentisi 59 TL’yi aştı, enflasyon tahmini yükseldi - İleri Gazetesi",
+          "source": "İleri Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVEU3X1hYNzdMeEE4cW1oMm9BNzQtRXdJQ2RVTmR3XzlsUm9mMm1qZ3dlR29YX2ZlVDUwalR4SWlQbjZsYm1abDAwcVhjd05tcTFqdlNzbHFoRzNKRFV2RjJDS1dpdFZaMDZMV01WVk94ckZPeW0yYUhYTm1ya1V4cVBPRGh4NGdyLWpMUjBmRnF2T3lKaWwyOHdEaTBYTTdyS192NDFETFJVOHVsekN3cU9yWkpMSG9tY3p1aTJlZTBiaUN4ZGc?oc=5",
+          "published": "2026-10-16T09:28:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Merkez Bankası anketinde yıl sonu enflasyon beklentisi belli oldu - Kamu Son Dakika Haberleri",
+          "source": "Kamu Son Dakika Haberleri",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM3N2TE5XVzI5ZDFCQWhRbTdtT2RBdmdDUG04NEEydmZUS0c4UnVSQldZdUpjUEl1b183azI4LXJURzZQVWNBb0FTcTV1bXZ6UTdIWjNWZ0hpOUZRZ2kyWnp2ZXJUczNJaXlMWVZDSGl5ekR1MEd1bG9rMUxfRW85RzFqRkpGR25RWHgwVXNRWVBTeFdQSUw2ZkFiNGx3UjBPeXY2dFlEV3o?oc=5",
+          "published": "2026-10-16T08:38:06+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "TCMB anketi açıkladı! Dolar ve enflasyon beklentisi yükseldi - Hisse.net",
+          "source": "Hisse.net",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQekZuNDNnRGVWYmpIT1V1MUw0blpWMk91NTFoUU5lVHZsNUpvR1lfc1RNRnRMM1JoTGktdmVTLUxwM0xGal9TMklKQVBzOUJpTlNoM0VhcnJoTmZOQVJhYmFhdDhDUDg3MXB6clBScDJwSW5QTGZYVE9tWTI5aGpqY0RfNnFPWHM0OVpod1p0Ni1MY3BMVV9tOWtn0gGfAUFVX3lxTE16SVNSQ0xjSlk4LUs2UFpHYnZESVQ5UWJ0QlFNWk9UUjRIVFZydXdUeHB0ak5RZ2Z3a1RnRHFEZVBERllMV09hQ29xMWFGenBZWUQ4MWhqYXZoYkY2amFubGU1UUJaQUNwUjlLZjUyckhDOXpYOXVqYlFYX2dfMXRUWmtuYXZZOUZqckNMZjkzc3VmSWhWUDZDdGhqRTRJVQ?oc=5",
+          "published": "2026-10-16T08:24:17+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "2027 yılı enflasyon ve büyüme hedefleri açıklandı - Doviz.com",
           "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaXlSZHlqMWZpbFZST2doWGt0WVdxX3BBWHhRejEyVjdfcDQ3RG14UFc4MjEweFRhcFc3ODZiY0UzdjhhWUJaWWlPQm5Od3ZyVFdfZ3ZLemdGaFNzMWtrQ2N1clNoSno0a0NhcVFRcWsyanFPX2Z5SmRxSEs3OEZ1OG40MjFGaXZtb1RtV09kT1JKSmJCemI0VjFwUWE1UkV1VUHSAaoBQVVfeXFMTlRzWmZfeHFKTEtEYlVwelVlTTNHMFZTUXdxMUZtR3VmRWg5SGRKY3FMUkQ4RzZ0LTJ0OUdnQ2taUXlJbkpGN2V0QWJpZ1dRd2dtU2x3LVJ4QkF2TzRQQmh2cXd1YmlGVnhqemEyUl9rOTJoV0ppWDhudkhFbjk0WjkwOEs4c0VVRmFzemwtcWwzemw3RkJHUHRVVWpBS0dLNEE3T2lFY0pENFE?oc=5",
-          "published": "2026-10-14T13:44:12+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "ABD enflasyon verisi açıklandı! Gram altın 6.500 TL'ye geriledi - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbjFFTTBXZFN0dGd6QWt2a180U3JXQjk5bWdEX3JMbjV0TFpfOTEtQXVma2ZCSVBaeXhGZmw3dVhPY1lMQjg2OERVdWFkSkdicmo2NXJZekxrUWdaZHV4UHBNN0VENmF4V0RoWlowa3BpZnMtTGJaYzdsWjhLbnBPUGZ4Nno3S0tYbjZjc1l1cjk4WERROG9UdE1CNnN2R1pUUExRdjI4TmduMXYtOFo1bU1EYTNTcGFjOUdiVVhicElmNVZ0R2lieTNjdEdXbGp6VWgwX0JtcERvOGxra2pjeHF6MUE5REZXOXFz?oc=5",
-          "published": "2026-10-14T12:51:06+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Altında yön değişti! Enflasyon verisi sonrası sert düşüş - CNN Türk Finans",
-          "source": "CNN Türk Finans",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTHB4aER3aThYcGs1dFZRdzhyOWZFcjBlMlhIcXlfVlB0bkJxQ095UUE0UjBhaFJ4TDBFRVo2b3ZrTVUyMG5TY0NlVWhLZDRFNXB3OXRaNUZMTWFGX1BEOGk4bjlibExabXVxeGlSa0Z3WlRQcklkVjIxSlZHQ09WUXZkaDl1NV9iRXhzR2ZFalJtSUlSU1lB?oc=5",
-          "published": "2026-10-14T12:33:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Dolar neden düşüyor? ABD enflasyon verisi öncesi piyasalar temkinli - Haber Ege",
-          "source": "Haber Ege",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbnRSbXhXM1BkTXAtd1NUbC1qeUlTUEhoNUZqQVA2SU5GWC1GNGxqOTh6VlpNY0c2YUZhWksxNGRpVjdfRF9xWmdxZlZjZGlIOTd3UEhmbG55VTRsRUVvbDR4WERDUVJYdnYxNGhWS3plVVhpNFh4NUc0SEwzeHY4VHVLV0lxNjFpV1FlWGN3Y0NlUVE3anpPV2x0VURWN09mSlRLSw?oc=5",
-          "published": "2026-10-14T08:09:22+00:00",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2NKNXJqZXNWMVBfVHM4TW11YUJnQTc1aUM3dEJMMWhPSjlhRDdnZ3Jlb1lBSHNiQnlqT0lfYWNyN1JFQ0pPT05Yb3BpYXk5VzJONkw3TFVxOXBTSThxbmJuMlItSmQyVnRiZTcwWFFDTnpVWkdmWTVCMm9qdFRnUVZJTjQ1MkhEZTNscjAwTFZXaUxPSWs1UENlRTdYZ9IBpgFBVV95cUxOY3cxMTVVeUY5M1pMQnhGcFlXRWFYa0xLQmlrTTJxWHBVY1BTeHVZM1FmeEdsbms1ZXd5b2RETVFLVHoyczc3MDNuSVBabUQ1UXA1Vk15U1ZaNU1sY29ObHA1WG9LOGdfOFhadHd3NzEweXA1MHVOUHpsSUpLV0g4ZVlmdlFxQWFhZGJScHQ5ZmstNUZSMVVLUU5vemNZbmFQZ3dWM1F3?oc=5",
+          "published": "2026-10-16T08:10:01+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -252,11 +250,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-27T06:10:50.118638+00:00",
-      "score": 1.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-27T12:43:16.507360+00:00",
       "score": 0.7,
@@ -550,6 +543,11 @@
     {
       "generated": "2026-10-16T05:25:03.364339+00:00",
       "score": 21.4,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-16T12:05:06.688284+00:00",
+      "score": 21.6,
       "status": "BASELINE"
     }
   ],
