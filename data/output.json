@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-16T12:05:06.688284+00:00",
+    "generated": "2026-10-16T17:09:23.903906+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -21,24 +21,24 @@
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 69.1,
+      "score": 68.9,
       "status": "HIGH",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
-      "latest_date": "2026-10-15",
-      "latest_value": 49.3315,
-      "change_5d_pct": 0.42,
-      "return_z": 4.33,
+      "coverage": 129,
+      "latest_date": "2026-10-16",
+      "latest_value": 49.3573,
+      "change_5d_pct": 0.47,
+      "return_z": 9.65,
       "volatility_20d": 0.07,
-      "volatility_z": 0.79,
+      "volatility_z": 0.78,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 49.3315,
-          "date": "2026-10-15",
+          "value": 49.3573,
+          "date": "2026-10-16",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 9.0,
+      "score": 9.3,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 164,
-      "matched": 31,
-      "weighted_density": 0.199,
+      "coverage": 166,
+      "matched": 32,
+      "weighted_density": 0.202,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -187,6 +187,26 @@
           "weight": 1.8
         },
         {
+          "title": "BBVA: Kurda hızlı değer kaybı ve enflasyon faiz indirimini tetikleyebilir - Ege Alternatif",
+          "source": "Ege Alternatif",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNnEyYVNJNnRSMVNNN0k4aTJmai00V3dMc2pMWjRGTy1rX1FxS2ZfQ3ZWSms0UG5VZm5mbE1ESFZFV01lMzBkTGx3QlJQZ2NRcXBtQ2RvdkxiSnpXeDJNdVdlUlNCZVpzU1M4ajI1V3hhMG5GLWdIWUVzbnNQc1AtazJOSXdwWVA2ZFZGMmkzOElhNFc5TVBpc2hOUVFYcVRRS3RfTU1FZVYwZTBWeXp0bVZydzhfZw?oc=5",
+          "published": "2026-10-16T16:35:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Bütçe açığı, fon, enflasyon ve dolar: Ekonomi gündeminde bugün ne oldu? ( 16 Ekim 2026) - Yeniçağ Gazetesi",
+          "source": "Yeniçağ Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcTZnWENNMGp5eWhvU3V3QkNJNWhOU045ZHA5Yk1aZFZucUFvamdiUUZlUjFzSWw5X0kyYnIyejBYTjdkMXotWnFvNzZoRzUwX0cxa2R3MUd2N2dfQ293WXpyaG9DNFpEbzdCSVpSYTRmVi0zd1dHeExTcFJpRXFISDhuUXlHMm1YQXRXVnlReHhjRmdqa2twTDgxNXdvZnhhb3ZQR3ZRcEtVeGJvMDE0TGdHRG41cElmU0NKUDFQLUZFZWc?oc=5",
+          "published": "2026-10-16T15:30:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "IMF’den Türk ekonomisi için yeni tahmin: Enflasyon beklentisi ne yönde? - Cumhuriyet",
           "source": "Cumhuriyet",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV2ZNZUlHRmJ5WmdaNE1iY2lDT1BCNGNjZjVYVFhKVXhTZlhkY0xaTEhMdDVjd2FiTFkzSFZKd2NNUHJUcGtrTDB6dTJyeHJvWE9maXlIcUdDMHU0ck1yRW1kQzNlZGFfMnppd3dpUnQyUEczVEJIbDJmWkZSd1N1bnFHOG9fcmNuQjg0MmZFZWdJeUtKajdtWk9TYWVLaDA5YWR2ZVgwM2ktcVY4ajR1ampqLTk3QQ?oc=5",
@@ -197,10 +217,20 @@
           "weight": 0.8
         },
         {
-          "title": "TCMB Anketinde Yıl Sonu Dolar ve Enflasyon Tahminleri Güncellendi - Ajans04",
-          "source": "Ajans04",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSi14blRUQjM5R1JjbVFjOFE3WHpsajQxNWh5b2I2OUFHS1ExQTlNU0RGTGxwSThVMWRkcFhtWkhJZTJRbXVBazdXcFpsY0NxcnJDbUo1Uk1vaUNTSV93a0hPUFg2N0ZIUDRuRGxlNlFWMC02OEczWUJRYlJnVDRUdEY4MUxDaE9zU3ZaRndpNjEtclU?oc=5",
-          "published": "2026-10-16T11:45:14+00:00",
+          "title": "Enflasyon beklentilerinde iyileşme sinyali! - A Para",
+          "source": "A Para",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ2FWTzRuTXJydEh3OUgwSGlPWGpBRm9ZOVJra0w2TWhrV3VDVENMVlZpU3JXa2U5dDRoR3lHRndkTGlzZ3N6RzQ1dExqZjdTYkNNY1dRY0liSk0wT2R6YWVQTFlSODhTUmgyRkxEWS12bEw3WkxxM1dwNW1TcDlfd2dNLTdxbFMtNnVQVHJpNA?oc=5",
+          "published": "2026-10-16T11:37:06+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Büyüme beklentisi düştü, enflasyon tahmini yükseldi - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMlY2NVE1U21ZTHpzbVVLU2ViODFMMktacGE4U20zUjMxam1fQ1ZpWU5MSTNRbHBPcmg1eFY3WUtmbkQtRmNpMDdjdWZQT1RXWGlBMWtDTUt1WWpXY0JBejIxcmdVbEVTOGs0aTEwYlJUbWpLTm5GcUJ0TkxEbktqdFNxaml6TEVibnZybnI2aWVBTFp1Y3VHZlkxd0tMQXVOTjhTSGZzMVBWaTFtXzR4Z05wTUthTDlHVThNcEQ5Rnc3ZExmTnJub0d30gHPAUFVX3lxTE9jNVdfZVNqemxYRFg0T0RGS2dkdHBiTG1ydERway01UFRvZDhfVmw3ZHBEZG5yaS03VW5FOGtDa1hJOVRsT3RSTGtPYjVFVkYzTDF6UnFUN2lGMHVBWk9wUnYwUEZEc2syM2lqelpkTXRJQ3c5Ylc2OXZLTzE2QllXczV6NHR2UjFQUElrd1VCVDdWaGFGYi1BRjduNTlwTWtuRHNRLUt2U2NkNDkxZUFfSTdmT0p6QVU0SXVoWnlsMEhDeThNQkNsWGsxTkVVNA?oc=5",
+          "published": "2026-10-16T11:25:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -215,46 +245,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "Merkez Bankası anketinde yıl sonu enflasyon beklentisi belli oldu - Kamu Son Dakika Haberleri",
-          "source": "Kamu Son Dakika Haberleri",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM3N2TE5XVzI5ZDFCQWhRbTdtT2RBdmdDUG04NEEydmZUS0c4UnVSQldZdUpjUEl1b183azI4LXJURzZQVWNBb0FTcTV1bXZ6UTdIWjNWZ0hpOUZRZ2kyWnp2ZXJUczNJaXlMWVZDSGl5ekR1MEd1bG9rMUxfRW85RzFqRkpGR25RWHgwVXNRWVBTeFdQSUw2ZkFiNGx3UjBPeXY2dFlEV3o?oc=5",
-          "published": "2026-10-16T08:38:06+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "TCMB anketi açıkladı! Dolar ve enflasyon beklentisi yükseldi - Hisse.net",
-          "source": "Hisse.net",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQekZuNDNnRGVWYmpIT1V1MUw0blpWMk91NTFoUU5lVHZsNUpvR1lfc1RNRnRMM1JoTGktdmVTLUxwM0xGal9TMklKQVBzOUJpTlNoM0VhcnJoTmZOQVJhYmFhdDhDUDg3MXB6clBScDJwSW5QTGZYVE9tWTI5aGpqY0RfNnFPWHM0OVpod1p0Ni1MY3BMVV9tOWtn0gGfAUFVX3lxTE16SVNSQ0xjSlk4LUs2UFpHYnZESVQ5UWJ0QlFNWk9UUjRIVFZydXdUeHB0ak5RZ2Z3a1RnRHFEZVBERllMV09hQ29xMWFGenBZWUQ4MWhqYXZoYkY2amFubGU1UUJaQUNwUjlLZjUyckhDOXpYOXVqYlFYX2dfMXRUWmtuYXZZOUZqckNMZjkzc3VmSWhWUDZDdGhqRTRJVQ?oc=5",
-          "published": "2026-10-16T08:24:17+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "2027 yılı enflasyon ve büyüme hedefleri açıklandı - Doviz.com",
-          "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2NKNXJqZXNWMVBfVHM4TW11YUJnQTc1aUM3dEJMMWhPSjlhRDdnZ3Jlb1lBSHNiQnlqT0lfYWNyN1JFQ0pPT05Yb3BpYXk5VzJONkw3TFVxOXBTSThxbmJuMlItSmQyVnRiZTcwWFFDTnpVWkdmWTVCMm9qdFRnUVZJTjQ1MkhEZTNscjAwTFZXaUxPSWs1UENlRTdYZ9IBpgFBVV95cUxOY3cxMTVVeUY5M1pMQnhGcFlXRWFYa0xLQmlrTTJxWHBVY1BTeHVZM1FmeEdsbms1ZXd5b2RETVFLVHoyczc3MDNuSVBabUQ1UXA1Vk15U1ZaNU1sY29ObHA1WG9LOGdfOFhadHd3NzEweXA1MHVOUHpsSUpLV0g4ZVlmdlFxQWFhZGJScHQ5ZmstNUZSMVVLUU5vemNZbmFQZ3dWM1F3?oc=5",
-          "published": "2026-10-16T08:10:01+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-27T12:43:16.507360+00:00",
-      "score": 0.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-27T17:28:01.502385+00:00",
       "score": 0.8,
@@ -547,6 +542,11 @@
     },
     {
       "generated": "2026-10-16T12:05:06.688284+00:00",
+      "score": 21.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-16T17:09:23.903906+00:00",
       "score": 21.6,
       "status": "BASELINE"
     }
