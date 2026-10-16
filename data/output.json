@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-16T17:09:23.903906+00:00",
+    "generated": "2026-10-16T21:54:29.075614+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 21.6,
-    "raw_score": 21.6,
+    "score": 21.5,
+    "raw_score": 21.5,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 21.6/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 21.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 9.3,
+      "score": 8.3,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 166,
-      "matched": 32,
-      "weighted_density": 0.202,
+      "coverage": 164,
+      "matched": 31,
+      "weighted_density": 0.193,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -165,17 +165,6 @@
           "weight": 2.0
         },
         {
-          "title": "ABD'de enflasyon alarmı: Fed için faiz artışı yeniden masada haberi - Borsanın Gündemi",
-          "source": "Borsanın Gündemi",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORk5vUm9mUjVud0lyT1BaYXRqMllMQmxEbUNLZTdYM2o4VWVTT2xEMjA1TTc5eDFqZHg4aF9nS1Bzb24xWlMxUFR2OXhwcFhhTGhFaU5IUjdLcWtyMHVva1pCV1paZHBQb2lGZlExZlZiazJxVkxyVllvekpWUXozUnhFTjNiYVJpaVA2T2pOb3U5cEUtbFVIM3ZULUlIeHhLVGp1aUdJSQ?oc=5",
-          "published": "2026-10-15T06:30:48+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
-        },
-        {
           "title": "Sıcak enflasyon verileri faiz artışı korkularını yeniden alevlendirdi - Investing.com Türkiye",
           "source": "Investing.com Türkiye",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ1R1Z3I1cmV5SENITHJXLVY3UHJhSkZBYkdGZUdfSXFDYUN4a1lWTE9mbXV3MGI2MTY4dWt4Wm81RnFGR3pIUE1jUndFeXBhLVpKLVAtUV95WUVLTkJodGE3aWRzOUN6WFVVRmt2bjhIM3dGRUFJQ3Y5Y3pJal9HWVBmWEZfTHVhS0w0Mko1bWJ5bG9WaHhFWk5kUjJ3S0tG?oc=5",
@@ -217,7 +206,7 @@
           "weight": 0.8
         },
         {
-          "title": "Enflasyon beklentilerinde iyileşme sinyali! - A Para",
+          "title": "Enflasyon beklentilerinde iyileşme sinyali! - Ekonomi Haberleri - A Para",
           "source": "A Para",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ2FWTzRuTXJydEh3OUgwSGlPWGpBRm9ZOVJra0w2TWhrV3VDVENMVlZpU3JXa2U5dDRoR3lHRndkTGlzZ3N6RzQ1dExqZjdTYkNNY1dRY0liSk0wT2R6YWVQTFlSODhTUmgyRkxEWS12bEw3WkxxM1dwNW1TcDlfd2dNLTdxbFMtNnVQVHJpNA?oc=5",
           "published": "2026-10-16T11:37:06+00:00",
@@ -237,6 +226,16 @@
           "weight": 0.8
         },
         {
+          "title": "IMF’den Türkiye ekonomisi için büyüme ve enflasyon tahminlerinde değişiklik - Forbes Türkiye",
+          "source": "Forbes Türkiye",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZGJNaWY5aTRwYXlVM3gySDBWTURUbWRUczZMNkpKblFnT2tsMURDeHpNNDlCbkNqaHA1Z3ZBNURVT3FDSTdORktGQTlWV00xTElfS3pMMm11NHBkbzNQbmRTWmhuX0pvSHBCRXhxa2lPbnlyLXZXNFpBVG52LUlKa2RRTTc2UFQyMndQcmg0MzBuV0Z0RnlXLWFpUl9LenhScjJiMWU1dk00WGRnY3c?oc=5",
+          "published": "2026-10-16T11:22:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Merkez Bankası ekim anketini açıkladı: Dolar beklentisi 59 TL’yi aştı, enflasyon tahmini yükseldi - İleri Gazetesi",
           "source": "İleri Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVEU3X1hYNzdMeEE4cW1oMm9BNzQtRXdJQ2RVTmR3XzlsUm9mMm1qZ3dlR29YX2ZlVDUwalR4SWlQbjZsYm1abDAwcVhjd05tcTFqdlNzbHFoRzNKRFV2RjJDS1dpdFZaMDZMV01WVk94ckZPeW0yYUhYTm1ya1V4cVBPRGh4NGdyLWpMUjBmRnF2T3lKaWwyOHdEaTBYTTdyS192NDFETFJVOHVsekN3cU9yWkpMSG9tY3p1aTJlZTBiaUN4ZGc?oc=5",
@@ -250,11 +249,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-27T17:28:01.502385+00:00",
-      "score": 0.8,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-27T21:50:09.193253+00:00",
       "score": 1.0,
@@ -548,6 +542,11 @@
     {
       "generated": "2026-10-16T17:09:23.903906+00:00",
       "score": 21.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-16T21:54:29.075614+00:00",
+      "score": 21.5,
       "status": "BASELINE"
     }
   ],
