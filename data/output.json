@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-17T16:07:21.812746+00:00",
+    "generated": "2026-10-17T21:13:21.048787+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 15.8,
+      "score": 15.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 167,
+      "coverage": 166,
       "matched": 40,
-      "weighted_density": 0.259,
+      "weighted_density": 0.252,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -151,16 +151,6 @@
           "published": "2026-10-17T10:38:00+00:00",
           "terms": [
             "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye Sigorta Birliği’nden iflas iddialarına yanıt - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQelNUTlN6OEMtN1NGa3ZVdVZPX3dHWU1KeVNkMEUyRGp1ekF5S3JLcmROcE1hLVpoSm81eHdsTFRIaXcxYTBlaU9vVW5mZzFVLWVscW1kd05UV1ItWTJ5TXVhRmd1cmN1SHBvZkFwS0dENWFYWjdtNkw1TkpEVHhaSDFobzNmN29EWDViOGV6YlRnU1hMMEZCXzdfOHVfNFJZb0HSAaQBQVVfeXFMTWs4YWk5WC1UM3UyVlAxZTBBSWRKcU85UkpWZ21hZEtfak9sdDFjQXg4Tl95V0pXTTg3d0pnLTQ0WVNPR0lWa3dTZG93Ml9VU0VvMWJ0aDFrbjZlNDRVWE84bGl0NGlCRE1yaXkyU3Y3QmRFUkk3LVNSTnRfdUhIanhHdjBnbFNHS1JEcGRUbTNpc3ZRNlN0X2U3TVU4NHJvZHFZcnI?oc=5",
-          "published": "2026-10-17T09:26:00+00:00",
-          "terms": [
-            "iflas"
           ],
           "weight": 2.0
         },
@@ -217,20 +207,20 @@
           "weight": 1.8
         },
         {
-          "title": "Dünyada ve Türkiye'de gözler verilerde, piyasalarda faiz, enflasyon ve bilanço mesaisi başlıyor - Patronlar Dünyası",
-          "source": "Patronlar Dünyası",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaDRqdEJqTFdzVF9abVJmbDhuQkF2RXlvRGJQWFJOMGI2XzJFS0pFUllnSkxzNVAxMUpXRUcxYjBNanpOc3dZcjRLLVAwVVBNR3pRQW5td3dqX3Y3VmJVNENaTDNac3N5WHZFZkpOQUJNNTVxcFFPUzh5X0ZCU0hrbzREbVZuQ19kT3ZQX2Q3VkIyYVNEN2VsUDVsMm0tc0Uyb1ZSZU94dl95UzllUDJUQnNvUkJpeUVQRGZ3TjlRWHhnTzg?oc=5",
-          "published": "2026-10-17T08:51:39+00:00",
+          "title": "Doları ve Enflasyonu Takip Edenler Dikkat! Merkez Bankası Anketinde Rakamlar Değişti - Siirt'te",
+          "source": "Siirt'te",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2J6THNROXF2OHpoamt2Q3dxelcwRXQ0ZmhxMXk5bzQwdF84czAxY3BkemdJOUx0YzRzYk13VzVGX2NhaGU0QlBzRElYZDU3VS1kZDNfM21Oc2RJNXVKUzFRazBUNV84UDV5V3VMdWV1TjVmcHFxaVhfWkxteVFCUnlobnFMUWYwd0wtV2JZZWk0cS1vTUxaaUFGVEV0WGVQVEl1VjVEOUo3ajZoNmNIYzFBYTJtSk5hTnV0WGZ6UU9BS1E?oc=5",
+          "published": "2026-10-17T14:11:53+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "IMF’den faiz kararı öncesi mesaj: Enflasyona odaklanın - Türkinform",
-          "source": "Türkinform",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbzBOX0ZES1VHVERsay1lLWNKZGdOaGRRWFVJNlVrYlZ4Q0otVVY3MzhYZWdHN2hEM095TzZDTFpQZE5reWtGTjE0eWhKNWpzcHo0al9VMnZNYkR6Q1BTUWRSLXdia09mYjJ0a0FHU1ZXdzZIXzEwSUE1Ukh5ZlVQZHdQZW0?oc=5",
-          "published": "2026-10-17T06:03:00+00:00",
+          "title": "Dünyada ve Türkiye'de gözler verilerde, piyasalarda faiz, enflasyon ve bilanço mesaisi başlıyor - Patronlar Dünyası",
+          "source": "Patronlar Dünyası",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaDRqdEJqTFdzVF9abVJmbDhuQkF2RXlvRGJQWFJOMGI2XzJFS0pFUllnSkxzNVAxMUpXRUcxYjBNanpOc3dZcjRLLVAwVVBNR3pRQW5td3dqX3Y3VmJVNENaTDNac3N5WHZFZkpOQUJNNTVxcFFPUzh5X0ZCU0hrbzREbVZuQ19kT3ZQX2Q3VkIyYVNEN2VsUDVsMm0tc0Uyb1ZSZU94dl95UzllUDJUQnNvUkJpeUVQRGZ3TjlRWHhnTzg?oc=5",
+          "published": "2026-10-17T08:51:39+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -245,16 +235,21 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Bütçe açığı, fon, enflasyon ve dolar: Ekonomi gündeminde bugün ne oldu? ( 16 Ekim 2026) - Yeniçağ Gazetesi",
+          "source": "Yeniçağ Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcTZnWENNMGp5eWhvU3V3QkNJNWhOU045ZHA5Yk1aZFZucUFvamdiUUZlUjFzSWw5X0kyYnIyejBYTjdkMXotWnFvNzZoRzUwX0cxa2R3MUd2N2dfQ293WXpyaG9DNFpEbzdCSVpSYTRmVi0zd1dHeExTcFJpRXFISDhuUXlHMm1YQXRXVnlReHhjRmdqa2twTDgxNXdvZnhhb3ZQR3ZRcEtVeGJvMDE0TGdHRG41cElmU0NKUDFQLUZFZWc?oc=5",
+          "published": "2026-10-16T15:30:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-28T23:40:57.777794+00:00",
-      "score": 2.6,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-29T06:33:46.151944+00:00",
       "score": 2.5,
@@ -547,6 +542,11 @@
     },
     {
       "generated": "2026-10-17T16:07:21.812746+00:00",
+      "score": 22.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-17T21:13:21.048787+00:00",
       "score": 22.2,
       "status": "BASELINE"
     }
