@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-17T21:13:21.048787+00:00",
+    "generated": "2026-10-18T05:24:28.311514+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 22.2,
-    "raw_score": 22.2,
+    "score": 22.1,
+    "raw_score": 22.1,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 22.2/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 22.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
+      "coverage": 127,
       "latest_date": "2026-10-16",
       "latest_value": 49.3573,
       "change_5d_pct": 0.47,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 123,
+      "coverage": 122,
       "latest_date": "2026-10-14",
       "latest_value": 6239.4,
       "change_5d_pct": 0.84,
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 15.0,
+      "score": 14.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 166,
-      "matched": 40,
-      "weighted_density": 0.252,
+      "matched": 39,
+      "weighted_density": 0.245,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -135,14 +135,14 @@
           "weight": 2.8
         },
         {
-          "title": "Bloomberg’den Türk Lirası için 'devalüasyon' iddiası: Karahan’dan kapalı toplantıda kur mesajı - Cumhuriyet",
+          "title": "Birçok ülkeye ihracat yapıyordu: Türk gıda devi resmen iflas etti - Cumhuriyet",
           "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOVI5U1JFSml5YlFTNy1RQmFJZnhoSzhLSjRHc3VOM0FVbjBPS2FVSzlEYmNOYnk4Uk1aYUNqcXRxM2ZiX091eXlNeFphZnNQdWZNR2tzUWgzWUY4WmhjOGtrTl9wWnlyakF3aWxzUVVibC1EZXdSdjRSV2lZN20tNGU2TlVyUGp2RWd6OUNtaldfM1RxZS1zWG1YOU5RUm5vbVk2NUp4VnBkWkpqUU5iZTFXZkVGS0MweEZhWDVhUHNUVzlOSVZhMEJqdF8zdklNOTMw?oc=5",
-          "published": "2026-10-14T14:21:00+00:00",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQTJfTldCN1NGSG0xd25WZXAzb2pZaFBpYlJ0T3hYX0lqMkQybDM1WWJxZjk4RDFqeVhqTTJ6Szk3Q0psbHlwQTNKZy1SRDZFaF9ranlyVjUxbDBTRzROaWYtcUZ2YmNZaXJfQ1NBYjBCeURndktwd2V2bFE5Uld1T1lmdG5JVkpRVkZhcmJrY3B6eGVadjFjd21xVDV5TVJlZnRQMnJSLXBtQVJKQTFB?oc=5",
+          "published": "2026-10-17T12:23:00+00:00",
           "terms": [
-            "devalüasyon"
+            "iflas"
           ],
-          "weight": 2.5
+          "weight": 2.0
         },
         {
           "title": "Yavuz Ağıralioğlu İnegöl’den Seslendi: “Ekonomik Kriz Değil, Yönetim Krizi Var” - İnegöl Yerel Haber",
@@ -155,10 +155,10 @@
           "weight": 2.0
         },
         {
-          "title": "60'tan fazla ülkeye ihracat yapıyordu: Türk şekerleme şirketi iflas etti! - ABC Haber",
-          "source": "ABC Haber",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdW5PZG1ncTBZSTVaMUZsSUJMemlKV3ZtNHBuNjdlb1N3cTNvVW43SVRZeVVZel9mQzBfeEQ4SUZVaDd5dkNTaS02UGd1b3FoTkJDTzJZZDQ1aHMwbkh1X0YxZzBRZW1zbzBvY2VjQTR1SUtoVGtSSklXbVAzUDBybXpja3poYWNST251OGhyUjd0SGdiTnRhLWFUZUpnOS1wcTU3eHY1ckY5MGpDYlBnTUNR?oc=5",
-          "published": "2026-10-16T19:11:00+00:00",
+          "title": "Türkiye Sigorta Birliği’nden iflas iddialarına yanıt - Habertürk",
+          "source": "Habertürk",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbHVyQktVa09UYnFCOENpOGJaVWNXV0xRSzJzOGpTdUNFR01xQURGQ3ZzSmJDVENZck9WTHozWTk2RlVEbUhIVHNsS18wR3YwTzZVNFJZM1R1WmtmZXl4SUN1S0ltSXp5NlJYYmZmdzd3aVN3VC1iQkJ0eXhFNWJKMWloWjhxSEZwNmZaT2Jmd2lCVjBsQW1WRg?oc=5",
+          "published": "2026-10-17T09:36:38+00:00",
           "terms": [
             "iflas"
           ],
@@ -175,10 +175,10 @@
           "weight": 2.0
         },
         {
-          "title": "Mahfi Hoca'dan siyasete teknik karne: \"Müdahale sürdükçe krizler bitmez!\" - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaUtmX2hYVHc4b3hrRGdmQ21GRXZnSThFd01QdlJRREJUcUNhVklGcTlWZnk4SlNETDNPaGxKUUk2V1pPaWVRODdxRk1mQUFYVVhaSUt4RkthSmVlMVloQkwtaDhVV1ZYUy11bkREYkZjM2dKWVZkcTQ5emJlc0lhYU5FTU9jNkZoX1lUckJvVGNFTllXNjNpU0FvWGNhTlVoMVlVWDZ5cW1keWp6TVhSQzF0ejTSAboBQVVfeXFMTW1UcDBDQmdqMWpCcXJWcUF4Y1ZyWnJYdkI0V09CaEk4NlJJNW0yOXZwTkxCWGtSQVR0SkZQamk3N0otaGhzX3RPZDN3b0ExVTBQVlVxRDdhRHVMMWJZLWoxaWVQeS1Sb2lsRHZJTXM4bWZTc2Z4UE1OZ0h3eEtXZ0NHUkV6VmNPZGlCbzhzcG83bHE4cllzWWJHNEV5QUdQY3IyUlZ6X3pXaHFqZFl3d1FyZ1lpQ2JINlVB?oc=5",
-          "published": "2026-10-10T21:53:00+00:00",
+          "title": "2026 Ekonomi Nobel’inden Türkiye'nin fon krizine bakış: Güvenin sessiz çöküşü - Odatv",
+          "source": "Odatv",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWWxyOEZTSzdkVUM2SkRlYzJmcjJaaUEySGtpNXBiR2xVYkp3SkV2aS1MRkNkcXVEaW1PRGx5Yy1NMXA5aDF2eGg1ODVtTmpUSEpocVhYbXRZLXlaRjluemlXWE5UaXkzSGVuMkNWSWhQWUVlWDh3ajRaOTZRYzNfcmRCT1hOdHlxUndsWlBHb0s3OEsyMGtqMHJ1X24zbU9Hd0JWS3FDOHBFbnc1YmtaX2sxbVgwc3lYalhSWWU3UlpRalM2NG1r?oc=5",
+          "published": "2026-10-16T01:55:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -217,6 +217,16 @@
           "weight": 0.8
         },
         {
+          "title": "TCMB anketini açıkladı! Dolar, enflasyon ve faiz beklentileri belli oldu - Kurtalan Gazetesi",
+          "source": "Kurtalan Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOTdVVTField4TElTTDJ5RmxFZkxISW9aRXU1Q3AwVklsQ21zWmtpaFFDY1dIV0hMN3hRSnJRNU5zZmhDWUVzTGVqbmZINU1QY29oSDNPcmdwZXM4cnRDUWxaUHVyQnRZSG85SlFZMlBsV0RFY3k2VHBWbWJDRFNoWTZQM3FrY0FBVjFaRnZuVXBULTZ5WmVQX1hpbkFqVzgtU1pyaEgtZkNndmJuUWtBb2Nad1c3MUZERnZkbmtR?oc=5",
+          "published": "2026-10-17T13:52:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Dünyada ve Türkiye'de gözler verilerde, piyasalarda faiz, enflasyon ve bilanço mesaisi başlıyor - Patronlar Dünyası",
           "source": "Patronlar Dünyası",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaDRqdEJqTFdzVF9abVJmbDhuQkF2RXlvRGJQWFJOMGI2XzJFS0pFUllnSkxzNVAxMUpXRUcxYjBNanpOc3dZcjRLLVAwVVBNR3pRQW5td3dqX3Y3VmJVNENaTDNac3N5WHZFZkpOQUJNNTVxcFFPUzh5X0ZCU0hrbzREbVZuQ19kT3ZQX2Q3VkIyYVNEN2VsUDVsMm0tc0Uyb1ZSZU94dl95UzllUDJUQnNvUkJpeUVQRGZ3TjlRWHhnTzg?oc=5",
@@ -227,20 +237,10 @@
           "weight": 0.8
         },
         {
-          "title": "BBVA: Kurda hızlı değer kaybı ve enflasyon faiz indirimini tetikleyebilir - Ege Alternatif",
-          "source": "Ege Alternatif",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNnEyYVNJNnRSMVNNN0k4aTJmai00V3dMc2pMWjRGTy1rX1FxS2ZfQ3ZWSms0UG5VZm5mbE1ESFZFV01lMzBkTGx3QlJQZ2NRcXBtQ2RvdkxiSnpXeDJNdVdlUlNCZVpzU1M4ajI1V3hhMG5GLWdIWUVzbnNQc1AtazJOSXdwWVA2ZFZGMmkzOElhNFc5TVBpc2hOUVFYcVRRS3RfTU1FZVYwZTBWeXp0bVZydzhfZw?oc=5",
-          "published": "2026-10-16T16:35:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Bütçe açığı, fon, enflasyon ve dolar: Ekonomi gündeminde bugün ne oldu? ( 16 Ekim 2026) - Yeniçağ Gazetesi",
-          "source": "Yeniçağ Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcTZnWENNMGp5eWhvU3V3QkNJNWhOU045ZHA5Yk1aZFZucUFvamdiUUZlUjFzSWw5X0kyYnIyejBYTjdkMXotWnFvNzZoRzUwX0cxa2R3MUd2N2dfQ293WXpyaG9DNFpEbzdCSVpSYTRmVi0zd1dHeExTcFJpRXFISDhuUXlHMm1YQXRXVnlReHhjRmdqa2twTDgxNXdvZnhhb3ZQR3ZRcEtVeGJvMDE0TGdHRG41cElmU0NKUDFQLUZFZWc?oc=5",
-          "published": "2026-10-16T15:30:00+00:00",
+          "title": "IMF’den faiz kararı öncesi mesaj: Enflasyona odaklanın - Türkinform",
+          "source": "Türkinform",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbzBOX0ZES1VHVERsay1lLWNKZGdOaGRRWFVJNlVrYlZ4Q0otVVY3MzhYZWdHN2hEM095TzZDTFpQZE5reWtGTjE0eWhKNWpzcHo0al9VMnZNYkR6Q1BTUWRSLXdia09mYjJ0a0FHU1ZXdzZIXzEwSUE1Ukh5ZlVQZHdQZW0?oc=5",
+          "published": "2026-10-17T06:03:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -250,11 +250,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-29T06:33:46.151944+00:00",
-      "score": 2.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-29T13:43:06.724968+00:00",
       "score": 1.6,
@@ -548,6 +543,11 @@
     {
       "generated": "2026-10-17T21:13:21.048787+00:00",
       "score": 22.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-18T05:24:28.311514+00:00",
+      "score": 22.1,
       "status": "BASELINE"
     }
   ],
