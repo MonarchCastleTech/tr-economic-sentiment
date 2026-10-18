@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-18T11:55:52.179964+00:00",
+    "generated": "2026-10-18T16:20:24.695012+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 22.0,
-    "raw_score": 22.0,
+    "score": 22.2,
+    "raw_score": 22.2,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 22.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 22.2/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 13.0,
+      "score": 15.3,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 167,
-      "matched": 39,
-      "weighted_density": 0.235,
+      "matched": 41,
+      "weighted_density": 0.254,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -133,6 +133,16 @@
             "enflasyon"
           ],
           "weight": 2.8
+        },
+        {
+          "title": "Bloomberg’den Türk Lirası için 'devalüasyon' iddiası: Karahan’dan kapalı toplantıda kur mesajı - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOVI5U1JFSml5YlFTNy1RQmFJZnhoSzhLSjRHc3VOM0FVbjBPS2FVSzlEYmNOYnk4Uk1aYUNqcXRxM2ZiX091eXlNeFphZnNQdWZNR2tzUWgzWUY4WmhjOGtrTl9wWnlyakF3aWxzUVVibC1EZXdSdjRSV2lZN20tNGU2TlVyUGp2RWd6OUNtaldfM1RxZS1zWG1YOU5RUm5vbVk2NUp4VnBkWkpqUU5iZTFXZkVGS0MweEZhWDVhUHNUVzlOSVZhMEJqdF8zdklNOTMw?oc=5",
+          "published": "2026-10-14T14:21:00+00:00",
+          "terms": [
+            "devalüasyon"
+          ],
+          "weight": 2.5
         },
         {
           "title": "Birçok ülkeye ihracat yapıyordu: Türk gıda devi resmen iflas etti - Cumhuriyet",
@@ -235,26 +245,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "BBVA: Kurda hızlı değer kaybı ve enflasyon faiz indirimini tetikleyebilir - Ege Alternatif",
-          "source": "Ege Alternatif",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNnEyYVNJNnRSMVNNN0k4aTJmai00V3dMc2pMWjRGTy1rX1FxS2ZfQ3ZWSms0UG5VZm5mbE1ESFZFV01lMzBkTGx3QlJQZ2NRcXBtQ2RvdkxiSnpXeDJNdVdlUlNCZVpzU1M4ajI1V3hhMG5GLWdIWUVzbnNQc1AtazJOSXdwWVA2ZFZGMmkzOElhNFc5TVBpc2hOUVFYcVRRS3RfTU1FZVYwZTBWeXp0bVZydzhfZw?oc=5",
-          "published": "2026-10-16T16:35:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-29T22:49:33.370609+00:00",
-      "score": 2.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-30T06:16:49.314732+00:00",
       "score": 1.9,
@@ -548,6 +543,11 @@
     {
       "generated": "2026-10-18T11:55:52.179964+00:00",
       "score": 22.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-18T16:20:24.695012+00:00",
+      "score": 22.2,
       "status": "BASELINE"
     }
   ],
