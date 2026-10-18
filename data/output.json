@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-18T16:20:24.695012+00:00",
+    "generated": "2026-10-18T21:14:26.491042+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 22.2,
-    "raw_score": 22.2,
+    "score": 22.3,
+    "raw_score": 22.3,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 22.2/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 22.3/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 15.3,
+      "score": 16.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 167,
-      "matched": 41,
-      "weighted_density": 0.254,
+      "matched": 43,
+      "weighted_density": 0.264,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -250,11 +250,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-30T06:16:49.314732+00:00",
-      "score": 1.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-30T13:19:25.291473+00:00",
       "score": 2.7,
@@ -548,6 +543,11 @@
     {
       "generated": "2026-10-18T16:20:24.695012+00:00",
       "score": 22.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-18T21:14:26.491042+00:00",
+      "score": 22.3,
       "status": "BASELINE"
     }
   ],
