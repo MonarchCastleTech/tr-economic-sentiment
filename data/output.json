@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-19T05:42:22.383485+00:00",
+    "generated": "2026-10-19T14:18:56.610562+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,34 +11,34 @@
     "source_notes": []
   },
   "warning": {
-    "score": 22.0,
-    "raw_score": 22.0,
+    "score": 27.0,
+    "raw_score": 27.0,
     "concurrence_bonus": 0.0,
-    "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 22.0/100.",
+    "status": "WATCH",
+    "headline": "Türkiye economic-strain pressure is watch at 27.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 68.9,
+      "score": 72.0,
       "status": "HIGH",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
-      "latest_date": "2026-10-16",
-      "latest_value": 49.3573,
-      "change_5d_pct": 0.47,
-      "return_z": 9.65,
-      "volatility_20d": 0.07,
-      "volatility_z": 0.78,
+      "coverage": 128,
+      "latest_date": "2026-10-19",
+      "latest_value": 49.4632,
+      "change_5d_pct": 0.44,
+      "return_z": 6.44,
+      "volatility_20d": 0.08,
+      "volatility_z": 1.0,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 49.3573,
-          "date": "2026-10-16",
+          "value": 49.4632,
+          "date": "2026-10-19",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -67,23 +67,23 @@
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
-      "score": 0.0,
+      "score": 23.9,
       "status": "BASELINE",
       "weight": 0.2,
       "available": true,
       "retained": false,
-      "coverage": 58,
-      "latest_date": "2026-08-01",
-      "latest_value": 69586.44,
-      "change_1m_pct": 9.02,
-      "adverse_3m_pct": -30.74,
-      "change_z": -0.88,
+      "coverage": 59,
+      "latest_date": "2026-09-01",
+      "latest_value": 59026.44,
+      "change_1m_pct": -15.18,
+      "adverse_3m_pct": -11.02,
+      "change_z": 1.35,
       "method": "70% adverse monthly reserve-change anomaly + 30% three-month drawdown magnitude.",
       "evidence": [
         {
           "label": "Reserves excluding gold, USD mn",
-          "value": 69586.44,
-          "date": "2026-08-01",
+          "value": 59026.44,
+          "date": "2026-09-01",
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ]
@@ -113,37 +113,16 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 12.8,
+      "score": 6.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 169,
-      "matched": 40,
-      "weighted_density": 0.233,
+      "coverage": 171,
+      "matched": 35,
+      "weighted_density": 0.178,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
-        {
-          "title": "ING'den Dolar/TL, enflasyon ve faiz tahmini: Fon krizi sonrası değerlendirme - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORTNSRW56VDcwVFdKRHlzMGJuSmF0bVVpbVc0ZHZYVUwzbkVXVlJtbTBSX1lDN1VtQkcyQ0cwdnJfSGN0V3Bkc00waUVvOU4zQUlMZjFpSXE2MTB1djQzNGxqREFueTBXVkxQV196RC04Uk9rOXhEemR4SlhwM3BNd2VEZnQtUjlQX3JhV1pMRzlmV3h3MXZGWnZtb01LMDd4a3E1Vmo2NExMMWtWVTZB?oc=5",
-          "published": "2026-10-12T11:31:39+00:00",
-          "terms": [
-            "kriz",
-            "enflasyon"
-          ],
-          "weight": 2.8
-        },
-        {
-          "title": "Bloomberg’den Türk Lirası için 'devalüasyon' iddiası: Karahan’dan kapalı toplantıda kur mesajı - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOVI5U1JFSml5YlFTNy1RQmFJZnhoSzhLSjRHc3VOM0FVbjBPS2FVSzlEYmNOYnk4Uk1aYUNqcXRxM2ZiX091eXlNeFphZnNQdWZNR2tzUWgzWUY4WmhjOGtrTl9wWnlyakF3aWxzUVVibC1EZXdSdjRSV2lZN20tNGU2TlVyUGp2RWd6OUNtaldfM1RxZS1zWG1YOU5RUm5vbVk2NUp4VnBkWkpqUU5iZTFXZkVGS0MweEZhWDVhUHNUVzlOSVZhMEJqdF8zdklNOTMw?oc=5",
-          "published": "2026-10-14T14:21:00+00:00",
-          "terms": [
-            "devalüasyon"
-          ],
-          "weight": 2.5
-        },
         {
           "title": "Yavuz Ağıralioğlu İnegöl’den Seslendi: “Ekonomik Kriz Değil, Yönetim Krizi Var” - İnegöl Yerel Haber",
           "source": "İnegöl Yerel Haber",
@@ -169,17 +148,6 @@
           "source": "Borsanın Gündemi",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORk5vUm9mUjVud0lyT1BaYXRqMllMQmxEbUNLZTdYM2o4VWVTT2xEMjA1TTc5eDFqZHg4aF9nS1Bzb24xWlMxUFR2OXhwcFhhTGhFaU5IUjdLcWtyMHVva1pCV1paZHBQb2lGZlExZlZiazJxVkxyVllvekpWUXozUnhFTjNiYVJpaVA2T2pOb3U5cEUtbFVIM3ZULUlIeHhLVGp1aUdJSQ?oc=5",
           "published": "2026-10-15T06:30:48+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
-        },
-        {
-          "title": "Sıcak enflasyon verileri faiz artışı korkularını yeniden alevlendirdi - Investing.com Türkiye",
-          "source": "Investing.com Türkiye",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ1R1Z3I1cmV5SENITHJXLVY3UHJhSkZBYkdGZUdfSXFDYUN4a1lWTE9mbXV3MGI2MTY4dWt4Wm81RnFGR3pIUE1jUndFeXBhLVpKLVAtUV95WUVLTkJodGE3aWRzOUN6WFVVRmt2bjhIM3dGRUFJQ3Y5Y3pJal9HWVBmWEZfTHVhS0w0Mko1bWJ5bG9WaHhFWk5kUjJ3S0tG?oc=5",
-          "published": "2026-10-14T09:09:20+00:00",
           "terms": [
             "enflasyon",
             "faiz artışı"
@@ -245,16 +213,41 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "IMF’den Türk ekonomisi için yeni tahmin: Enflasyon beklentisi ne yönde? - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV2ZNZUlHRmJ5WmdaNE1iY2lDT1BCNGNjZjVYVFhKVXhTZlhkY0xaTEhMdDVjd2FiTFkzSFZKd2NNUHJUcGtrTDB6dTJyeHJvWE9maXlIcUdDMHU0ck1yRW1kQzNlZGFfMnppd3dpUnQyUEczVEJIbDJmWkZSd1N1bnFHOG9fcmNuQjg0MmZFZWdJeUtKajdtWk9TYWVLaDA5YWR2ZVgwM2ktcVY4ajR1ampqLTk3QQ?oc=5",
+          "published": "2026-10-16T11:58:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Enflasyon beklentilerinde iyileşme sinyali! - Ekonomi Haberleri - A Para",
+          "source": "A Para",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ2FWTzRuTXJydEh3OUgwSGlPWGpBRm9ZOVJra0w2TWhrV3VDVENMVlZpU3JXa2U5dDRoR3lHRndkTGlzZ3N6RzQ1dExqZjdTYkNNY1dRY0liSk0wT2R6YWVQTFlSODhTUmgyRkxEWS12bEw3WkxxM1dwNW1TcDlfd2dNLTdxbFMtNnVQVHJpNA?oc=5",
+          "published": "2026-10-16T11:37:06+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Büyüme beklentisi düştü, enflasyon tahmini yükseldi - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMlY2NVE1U21ZTHpzbVVLU2ViODFMMktacGE4U20zUjMxam1fQ1ZpWU5MSTNRbHBPcmg1eFY3WUtmbkQtRmNpMDdjdWZQT1RXWGlBMWtDTUt1WWpXY0JBejIxcmdVbEVTOGs0aTEwYlJUbWpLTm5GcUJ0TkxEbktqdFNxaml6TEVibnZybnI2aWVBTFp1Y3VHZlkxd0tMQXVOTjhTSGZzMVBWaTFtXzR4Z05wTUthTDlHVThNcEQ5Rnc3ZExmTnJub0d30gHPAUFVX3lxTE9jNVdfZVNqemxYRFg0T0RGS2dkdHBiTG1ydERway01UFRvZDhfVmw3ZHBEZG5yaS03VW5FOGtDa1hJOVRsT3RSTGtPYjVFVkYzTDF6UnFUN2lGMHVBWk9wUnYwUEZEc2syM2lqelpkTXRJQ3c5Ylc2OXZLTzE2QllXczV6NHR2UjFQUElrd1VCVDdWaGFGYi1BRjduNTlwTWtuRHNRLUt2U2NkNDkxZUFfSTdmT0p6QVU0SXVoWnlsMEhDeThNQkNsWGsxTkVVNA?oc=5",
+          "published": "2026-10-16T11:25:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-30T22:48:31.507425+00:00",
-      "score": 3.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-01T06:49:03.927882+00:00",
       "score": 3.0,
@@ -549,6 +542,11 @@
       "generated": "2026-10-19T05:42:22.383485+00:00",
       "score": 22.0,
       "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-19T14:18:56.610562+00:00",
+      "score": 27.0,
+      "status": "WATCH"
     }
   ],
   "sources": [
