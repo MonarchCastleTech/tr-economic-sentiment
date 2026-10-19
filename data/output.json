@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-18T21:14:26.491042+00:00",
+    "generated": "2026-10-19T05:42:22.383485+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 22.3,
-    "raw_score": 22.3,
+    "score": 22.0,
+    "raw_score": 22.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 22.3/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 22.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 16.4,
+      "score": 12.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 167,
-      "matched": 43,
-      "weighted_density": 0.264,
+      "coverage": 169,
+      "matched": 40,
+      "weighted_density": 0.233,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -145,32 +145,12 @@
           "weight": 2.5
         },
         {
-          "title": "Birçok ülkeye ihracat yapıyordu: Türk gıda devi resmen iflas etti - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQTJfTldCN1NGSG0xd25WZXAzb2pZaFBpYlJ0T3hYX0lqMkQybDM1WWJxZjk4RDFqeVhqTTJ6Szk3Q0psbHlwQTNKZy1SRDZFaF9ranlyVjUxbDBTRzROaWYtcUZ2YmNZaXJfQ1NBYjBCeURndktwd2V2bFE5Uld1T1lmdG5JVkpRVkZhcmJrY3B6eGVadjFjd21xVDV5TVJlZnRQMnJSLXBtQVJKQTFB?oc=5",
-          "published": "2026-10-17T12:23:00+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
           "title": "Yavuz Ağıralioğlu İnegöl’den Seslendi: “Ekonomik Kriz Değil, Yönetim Krizi Var” - İnegöl Yerel Haber",
           "source": "İnegöl Yerel Haber",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMnlwVjdlMHFUZFNURGtzRmZGam9LTW5mZ2RyeHRDdU0xbG1DZUpPZXU4LUhSbnNHSzFtUm9sSVRwd0FyZTJsaC04QlRQRDNXQmtZa0gtMEh4b0lsRFhBbVlVZUhiRlRmdHMyUS1JZnktTnpaekJIT215empkWG5maWZuQmpHTkR3S2k1X0Y1bzBoN2tjcS01ZzFfaDVXMmdzR3BUTGdlNXlJdm12VTc5bWtvNUQ1dFdKSV9r0gG7AUFVX3lxTE4yeXBWN2UwcVRkU1REa3NGZkZqb0tNbmZnZHJ4dEN1TTFsbUNlSk9ldTgtSFJuc0dLMW1Sb2xJVHB3QXJlMmxoLThCVFBEM1dCa1lrSC0wSHhvSWxEWEFtWVVlSGJGVGZ0czJRLUlmeS1Oelp6QkhPbXl6amRYbmZpZm5CakdORHdLaTVfRjVvMGg3a2NxLTVnMV9oNVcyZ3NHcFRMZ2U1eUl2bXZVNzlta281RDV0V0pJX2s?oc=5",
           "published": "2026-10-17T10:38:00+00:00",
           "terms": [
             "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye Sigorta Birliği’nden iflas iddialarına yanıt - Habertürk",
-          "source": "Habertürk",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbHVyQktVa09UYnFCOENpOGJaVWNXV0xRSzJzOGpTdUNFR01xQURGQ3ZzSmJDVENZck9WTHozWTk2RlVEbUhIVHNsS18wR3YwTzZVNFJZM1R1WmtmZXl4SUN1S0ltSXp5NlJYYmZmdzd3aVN3VC1iQkJ0eXhFNWJKMWloWjhxSEZwNmZaT2Jmd2lCVjBsQW1WRg?oc=5",
-          "published": "2026-10-17T09:36:38+00:00",
-          "terms": [
-            "iflas"
           ],
           "weight": 2.0
         },
@@ -220,7 +200,7 @@
           "title": "Doları ve Enflasyonu Takip Edenler Dikkat! Merkez Bankası Anketinde Rakamlar Değişti - Siirt'te",
           "source": "Siirt'te",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2J6THNROXF2OHpoamt2Q3dxelcwRXQ0ZmhxMXk5bzQwdF84czAxY3BkemdJOUx0YzRzYk13VzVGX2NhaGU0QlBzRElYZDU3VS1kZDNfM21Oc2RJNXVKUzFRazBUNV84UDV5V3VMdWV1TjVmcHFxaVhfWkxteVFCUnlobnFMUWYwd0wtV2JZZWk0cS1vTUxaaUFGVEV0WGVQVEl1VjVEOUo3ajZoNmNIYzFBYTJtSk5hTnV0WGZ6UU9BS1E?oc=5",
-          "published": "2026-10-17T14:11:53+00:00",
+          "published": "2026-10-17T15:40:46+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -245,16 +225,31 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "BBVA: Kurda hızlı değer kaybı ve enflasyon faiz indirimini tetikleyebilir - Ege Alternatif",
+          "source": "Ege Alternatif",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNnEyYVNJNnRSMVNNN0k4aTJmai00V3dMc2pMWjRGTy1rX1FxS2ZfQ3ZWSms0UG5VZm5mbE1ESFZFV01lMzBkTGx3QlJQZ2NRcXBtQ2RvdkxiSnpXeDJNdVdlUlNCZVpzU1M4ajI1V3hhMG5GLWdIWUVzbnNQc1AtazJOSXdwWVA2ZFZGMmkzOElhNFc5TVBpc2hOUVFYcVRRS3RfTU1FZVYwZTBWeXp0bVZydzhfZw?oc=5",
+          "published": "2026-10-16T16:35:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Bütçe açığı, fon, enflasyon ve dolar: Ekonomi gündeminde bugün ne oldu? ( 16 Ekim 2026) - Yeniçağ Gazetesi",
+          "source": "Yeniçağ Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcTZnWENNMGp5eWhvU3V3QkNJNWhOU045ZHA5Yk1aZFZucUFvamdiUUZlUjFzSWw5X0kyYnIyejBYTjdkMXotWnFvNzZoRzUwX0cxa2R3MUd2N2dfQ293WXpyaG9DNFpEbzdCSVpSYTRmVi0zd1dHeExTcFJpRXFISDhuUXlHMm1YQXRXVnlReHhjRmdqa2twTDgxNXdvZnhhb3ZQR3ZRcEtVeGJvMDE0TGdHRG41cElmU0NKUDFQLUZFZWc?oc=5",
+          "published": "2026-10-16T15:30:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-30T13:19:25.291473+00:00",
-      "score": 2.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-30T22:48:31.507425+00:00",
       "score": 3.3,
@@ -548,6 +543,11 @@
     {
       "generated": "2026-10-18T21:14:26.491042+00:00",
       "score": 22.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-19T05:42:22.383485+00:00",
+      "score": 22.0,
       "status": "BASELINE"
     }
   ],
