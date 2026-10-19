@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-19T14:18:56.610562+00:00",
+    "generated": "2026-10-19T22:47:51.512188+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 27.0,
-    "raw_score": 27.0,
+    "score": 27.1,
+    "raw_score": 27.1,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 27.0/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 27.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,16 +113,26 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 6.6,
+      "score": 7.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 171,
-      "matched": 35,
-      "weighted_density": 0.178,
+      "coverage": 170,
+      "matched": 33,
+      "weighted_density": 0.185,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Birçok ülkeye ihracat yapıyordu: Türk gıda devi resmen iflas etti - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQTJfTldCN1NGSG0xd25WZXAzb2pZaFBpYlJ0T3hYX0lqMkQybDM1WWJxZjk4RDFqeVhqTTJ6Szk3Q0psbHlwQTNKZy1SRDZFaF9ranlyVjUxbDBTRzROaWYtcUZ2YmNZaXJfQ1NBYjBCeURndktwd2V2bFE5Uld1T1lmdG5JVkpRVkZhcmJrY3B6eGVadjFjd21xVDV5TVJlZnRQMnJSLXBtQVJKQTFB?oc=5",
+          "published": "2026-10-17T12:23:00+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "Yavuz Ağıralioğlu İnegöl’den Seslendi: “Ekonomik Kriz Değil, Yönetim Krizi Var” - İnegöl Yerel Haber",
           "source": "İnegöl Yerel Haber",
@@ -130,6 +140,16 @@
           "published": "2026-10-17T10:38:00+00:00",
           "terms": [
             "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Türkiye Sigorta Birliği’nden iflas iddialarına yanıt - Habertürk",
+          "source": "Habertürk",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbHVyQktVa09UYnFCOENpOGJaVWNXV0xRSzJzOGpTdUNFR01xQURGQ3ZzSmJDVENZck9WTHozWTk2RlVEbUhIVHNsS18wR3YwTzZVNFJZM1R1WmtmZXl4SUN1S0ltSXp5NlJYYmZmdzd3aVN3VC1iQkJ0eXhFNWJKMWloWjhxSEZwNmZaT2Jmd2lCVjBsQW1WRg?oc=5",
+          "published": "2026-10-17T09:36:38+00:00",
+          "terms": [
+            "iflas"
           ],
           "weight": 2.0
         },
@@ -153,6 +173,16 @@
             "faiz artışı"
           ],
           "weight": 1.8
+        },
+        {
+          "title": "Altın fiyatları yeni haftada hangi yöne gidecek? ABD enflasyonu ve Rusya adımı piyasayı hareketlendirdi - Takvim",
+          "source": "Takvim",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOajA2bGZ6QmxuTkJ6cm5PY1VGV3JNamFXc0JUZDkweGlqSmc0T19EQ3BhQ3V3bEo2R2ZJcXhYWVVld2FILU1JWllBWTJhRVJrTzFDLU5UWXZ6TDlvaHJZYUdOcEVQUVg0TmRORW5EX0pQa3RLckwyWjZsUWpEdnQ1Tk0wTUllMWUwUjlTSDBXZkVQYW93amY2ZUo5VWlJU2VKUFRmaktHQVJVSjNVNTJIRkJtYnlzWmpNYmoteHJtOTl1blhZZExKN3hhX1kzendad0MtZjlXeExHa1g0Wm1nZQ?oc=5",
+          "published": "2026-10-19T16:43:53+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         },
         {
           "title": "Merkez Bankası 2026 Yıl Sonu Enflasyon ve Dolar Tahminlerini Açıklandı - Medya Yenigün Gazetesi",
@@ -205,40 +235,10 @@
           "weight": 0.8
         },
         {
-          "title": "Bütçe açığı, fon, enflasyon ve dolar: Ekonomi gündeminde bugün ne oldu? ( 16 Ekim 2026) - Yeniçağ Gazetesi",
-          "source": "Yeniçağ Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcTZnWENNMGp5eWhvU3V3QkNJNWhOU045ZHA5Yk1aZFZucUFvamdiUUZlUjFzSWw5X0kyYnIyejBYTjdkMXotWnFvNzZoRzUwX0cxa2R3MUd2N2dfQ293WXpyaG9DNFpEbzdCSVpSYTRmVi0zd1dHeExTcFJpRXFISDhuUXlHMm1YQXRXVnlReHhjRmdqa2twTDgxNXdvZnhhb3ZQR3ZRcEtVeGJvMDE0TGdHRG41cElmU0NKUDFQLUZFZWc?oc=5",
-          "published": "2026-10-16T15:30:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "IMF’den Türk ekonomisi için yeni tahmin: Enflasyon beklentisi ne yönde? - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV2ZNZUlHRmJ5WmdaNE1iY2lDT1BCNGNjZjVYVFhKVXhTZlhkY0xaTEhMdDVjd2FiTFkzSFZKd2NNUHJUcGtrTDB6dTJyeHJvWE9maXlIcUdDMHU0ck1yRW1kQzNlZGFfMnppd3dpUnQyUEczVEJIbDJmWkZSd1N1bnFHOG9fcmNuQjg0MmZFZWdJeUtKajdtWk9TYWVLaDA5YWR2ZVgwM2ktcVY4ajR1ampqLTk3QQ?oc=5",
-          "published": "2026-10-16T11:58:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Enflasyon beklentilerinde iyileşme sinyali! - Ekonomi Haberleri - A Para",
-          "source": "A Para",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ2FWTzRuTXJydEh3OUgwSGlPWGpBRm9ZOVJra0w2TWhrV3VDVENMVlZpU3JXa2U5dDRoR3lHRndkTGlzZ3N6RzQ1dExqZjdTYkNNY1dRY0liSk0wT2R6YWVQTFlSODhTUmgyRkxEWS12bEw3WkxxM1dwNW1TcDlfd2dNLTdxbFMtNnVQVHJpNA?oc=5",
-          "published": "2026-10-16T11:37:06+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Büyüme beklentisi düştü, enflasyon tahmini yükseldi - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMlY2NVE1U21ZTHpzbVVLU2ViODFMMktacGE4U20zUjMxam1fQ1ZpWU5MSTNRbHBPcmg1eFY3WUtmbkQtRmNpMDdjdWZQT1RXWGlBMWtDTUt1WWpXY0JBejIxcmdVbEVTOGs0aTEwYlJUbWpLTm5GcUJ0TkxEbktqdFNxaml6TEVibnZybnI2aWVBTFp1Y3VHZlkxd0tMQXVOTjhTSGZzMVBWaTFtXzR4Z05wTUthTDlHVThNcEQ5Rnc3ZExmTnJub0d30gHPAUFVX3lxTE9jNVdfZVNqemxYRFg0T0RGS2dkdHBiTG1ydERway01UFRvZDhfVmw3ZHBEZG5yaS03VW5FOGtDa1hJOVRsT3RSTGtPYjVFVkYzTDF6UnFUN2lGMHVBWk9wUnYwUEZEc2syM2lqelpkTXRJQ3c5Ylc2OXZLTzE2QllXczV6NHR2UjFQUElrd1VCVDdWaGFGYi1BRjduNTlwTWtuRHNRLUt2U2NkNDkxZUFfSTdmT0p6QVU0SXVoWnlsMEhDeThNQkNsWGsxTkVVNA?oc=5",
-          "published": "2026-10-16T11:25:00+00:00",
+          "title": "CIBC ’sızıntılı loonie’ için enflasyon risklerinden uyardı - Investing.com Türkiye",
+          "source": "Investing.com Türkiye",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOelBOZkpDWjhVVHQtZE5HRGV5Q2FMQURfU1lBRVZVZXJoMlVFOUZhOWdJZkpXWS1IdkJONHBWMDlHclFoam5ZWlo1STctV0t6VDlvUzVnRWRwX1Z5bldGOHNkSGNyelVaU0xjc0tnZG5rczloQV9vbHNMVmdBcXJLZGdOMlNNSng0ejAxQzQ1YW1GczVyYVNFYmtaVTZsd1ZTc3c?oc=5",
+          "published": "2026-10-16T16:03:38+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -248,11 +248,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-10-01T06:49:03.927882+00:00",
-      "score": 3.0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-01T14:09:27.942008+00:00",
       "score": 2.7,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-10-19T14:18:56.610562+00:00",
       "score": 27.0,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-19T22:47:51.512188+00:00",
+      "score": 27.1,
       "status": "WATCH"
     }
   ],
