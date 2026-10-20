@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-19T22:47:51.512188+00:00",
+    "generated": "2026-10-20T05:39:24.519108+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 27.1,
-    "raw_score": 27.1,
+    "score": 27.5,
+    "raw_score": 27.5,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 27.1/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 27.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,16 +113,36 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 7.4,
+      "score": 11.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 170,
-      "matched": 33,
-      "weighted_density": 0.185,
+      "coverage": 171,
+      "matched": 37,
+      "weighted_density": 0.217,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Bloomberg’den Türk Lirası için 'devalüasyon' iddiası: Karahan’dan kapalı toplantıda kur mesajı - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOVI5U1JFSml5YlFTNy1RQmFJZnhoSzhLSjRHc3VOM0FVbjBPS2FVSzlEYmNOYnk4Uk1aYUNqcXRxM2ZiX091eXlNeFphZnNQdWZNR2tzUWgzWUY4WmhjOGtrTl9wWnlyakF3aWxzUVVibC1EZXdSdjRSV2lZN20tNGU2TlVyUGp2RWd6OUNtaldfM1RxZS1zWG1YOU5RUm5vbVk2NUp4VnBkWkpqUU5iZTFXZkVGS0MweEZhWDVhUHNUVzlOSVZhMEJqdF8zdklNOTMw?oc=5",
+          "published": "2026-10-14T14:21:00+00:00",
+          "terms": [
+            "devalüasyon"
+          ],
+          "weight": 2.5
+        },
+        {
+          "title": "Fon krizinin faturası ne olacak? Selva ve Seda Demiralp değerlendirdi - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZFZPbWhTZ0V5MFRqS2xlVE9ZZm1VX3VWLUtuUzdXMlExeTFBMEpYdFlBRk5kWDBzaS1UX1lyc0tibkFQdk85QWFZMEV2YzNHUFlGUnJHYTk0QmI0bFdpWTVsdGhlUHNDT0pOYXlEX2Ntd1g2U3oweHctcnR1TFVzODR0dWZRNEpwRzluM2hMQmxUSmcwMjVqQ3FiWkVoR2t2d1dUeXpoYkNGdw?oc=5",
+          "published": "2026-10-19T12:22:04+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "Birçok ülkeye ihracat yapıyordu: Türk gıda devi resmen iflas etti - Cumhuriyet",
           "source": "Cumhuriyet",
@@ -223,36 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "BBVA: Kurda hızlı değer kaybı ve enflasyon faiz indirimini tetikleyebilir - Ege Alternatif",
-          "source": "Ege Alternatif",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNnEyYVNJNnRSMVNNN0k4aTJmai00V3dMc2pMWjRGTy1rX1FxS2ZfQ3ZWSms0UG5VZm5mbE1ESFZFV01lMzBkTGx3QlJQZ2NRcXBtQ2RvdkxiSnpXeDJNdVdlUlNCZVpzU1M4ajI1V3hhMG5GLWdIWUVzbnNQc1AtazJOSXdwWVA2ZFZGMmkzOElhNFc5TVBpc2hOUVFYcVRRS3RfTU1FZVYwZTBWeXp0bVZydzhfZw?oc=5",
-          "published": "2026-10-16T16:35:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "CIBC ’sızıntılı loonie’ için enflasyon risklerinden uyardı - Investing.com Türkiye",
-          "source": "Investing.com Türkiye",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOelBOZkpDWjhVVHQtZE5HRGV5Q2FMQURfU1lBRVZVZXJoMlVFOUZhOWdJZkpXWS1IdkJONHBWMDlHclFoam5ZWlo1STctV0t6VDlvUzVnRWRwX1Z5bldGOHNkSGNyelVaU0xjc0tnZG5rczloQV9vbHNMVmdBcXJLZGdOMlNNSng0ejAxQzQ1YW1GczVyYVNFYmtaVTZsd1ZTc3c?oc=5",
-          "published": "2026-10-16T16:03:38+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-01T14:09:27.942008+00:00",
-      "score": 2.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-01T22:58:57.595672+00:00",
       "score": 2.2,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-10-19T22:47:51.512188+00:00",
       "score": 27.1,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-20T05:39:24.519108+00:00",
+      "score": 27.5,
       "status": "WATCH"
     }
   ],
