@@ -1,21 +1,25 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-21T12:42:05.940378+00:00",
-    "mode": "live",
+    "generated": "2026-10-21T17:53:36.332142+00:00",
+    "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–30 days",
     "classification": "economic-strain-screening-not-recession-currency-or-market-forecast",
     "coverage": "5/5",
-    "confidence": "HIGH",
-    "source_notes": []
+    "confidence": "MEDIUM",
+    "source_notes": [
+      "imported_energy: retained (RuntimeError)",
+      "reserve_buffer: retained (RuntimeError)",
+      "consumer_confidence: retained (RuntimeError)"
+    ]
   },
   "warning": {
-    "score": 26.3,
-    "raw_score": 26.3,
+    "score": 26.2,
+    "raw_score": 26.2,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 26.3/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 26.2/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -49,7 +53,7 @@
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 121,
       "latest_date": "2026-10-14",
       "latest_value": 6239.4,
@@ -63,7 +67,8 @@
           "date": "2026-10-14",
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
-      ]
+      ],
+      "retained_reason": "RuntimeError"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -71,7 +76,7 @@
       "status": "BASELINE",
       "weight": 0.2,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 59,
       "latest_date": "2026-09-01",
       "latest_value": 59026.44,
@@ -86,7 +91,8 @@
           "date": "2026-09-01",
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
-      ]
+      ],
+      "retained_reason": "RuntimeError"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -94,7 +100,7 @@
       "status": "BASELINE",
       "weight": 0.15,
       "available": true,
-      "retained": false,
+      "retained": true,
       "coverage": 59,
       "latest_date": "2026-09-01",
       "latest_value": 91.9,
@@ -109,18 +115,19 @@
           "date": "2026-09-01",
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
-      ]
+      ],
+      "retained_reason": "RuntimeError"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 10.8,
+      "score": 10.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 163,
-      "matched": 33,
-      "weighted_density": 0.215,
+      "coverage": 156,
+      "matched": 28,
+      "weighted_density": 0.212,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -165,6 +172,16 @@
           "weight": 2.0
         },
         {
+          "title": "Türkiye Sigorta Birliği’nden iflas iddialarına yanıt - Habertürk",
+          "source": "Habertürk",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbHVyQktVa09UYnFCOENpOGJaVWNXV0xRSzJzOGpTdUNFR01xQURGQ3ZzSmJDVENZck9WTHozWTk2RlVEbUhIVHNsS18wR3YwTzZVNFJZM1R1WmtmZXl4SUN1S0ltSXp5NlJYYmZmdzd3aVN3VC1iQkJ0eXhFNWJKMWloWjhxSEZwNmZaT2Jmd2lCVjBsQW1WRg?oc=5",
+          "published": "2026-10-17T09:36:38+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "2026 Ekonomi Nobel’inden Türkiye'nin fon krizine bakış: Güvenin sessiz çöküşü - Soner Yalçın - ODATV - Gazete Oku",
           "source": "Gazete Oku",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZ0VKZW95amotUlpPQ3hzRUxhVUJzelRBV2s5aHBobDFPOVF2MDhHclk4a0p6OVdGaVdxeTBmckVGM2RjWHVUajViV205MDIxLVFWaDBmWmZoaEcwR0ZscVJnUjJxVzVldl93NHJndzFCbEgyWFNHb3J4WEk5TVNPbHNfTlJpOVB2a2t1WjA3U0NIZ0FHTFJJeGlsOW9OYkZoZE8ySTQzOWd0NFNvZ1h2d18wcVVrc1p1cWp4SElvSkJ4Tmk0NWc?oc=5",
@@ -195,20 +212,20 @@
           "weight": 2.0
         },
         {
+          "title": "Fitch Türk Bankalarının Kâr Marjlarındaki Daralmaya Dikkat Çekti - Paranın Yönü",
+          "source": "Paranın Yönü",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd3FoZXByVmlVbmFXMFFpZWdENHRlaEpOaVpRRUxBZHUtMVB2djU2XzZRZjFJUS1ld29oR0NmRTdXUE13anZCbnJmZHd2XzRxUFBoU0NRRHRsOEZKanItLXpFM25RT1BXekN2NGwySm5kOW10UTlOS2FHZElJX2ZVM3d6cExSLUVkaFZfRHFXaE1nZ3pDUXplai1wY3R1dm5zd2lnRFo1OWxBd1k?oc=5",
+          "published": "2026-10-21T14:17:00+00:00",
+          "terms": [
+            "daralma"
+          ],
+          "weight": 1.4
+        },
+        {
           "title": "S&P’den Türkiye ekonomisi için enflasyon, faiz ve büyüme tahmini - 24 Saat Gazetesi",
           "source": "24 Saat Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPengyT0FqRWRMNUtHQzV4ZXg4X0gyUUQyRXNpWGpaMDJIVlNrWDZVOUNiMHZjUzlfV1hidmlXcWp4elEtS0NKMElDQXlheFFoUWVQeEc3aGhGS3Z5YVU1VnVDNXlOSlFsak92N3dPV1l0M3hhNGdZSjB3NWI5QXkybXFKR0Iwbnc0cXozaVQxUUdqVXpacWJj?oc=5",
           "published": "2026-10-21T11:54:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "S&P'den Türkiye'ye faiz ve enflasyon tahmini - Borsamatik",
-          "source": "Borsamatik",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSnM3bUZHOUhHWHBmQzFsc3NHUk5fV3E1WklIWFlfU0lBTnVnZWgzdjlZZlBvZUVpVEx2OFhVb2Zpc2dyb1ktcmFCSmN5NkwwUnVNblc2cUdDcnFYak5fUVBxNWdBM1M2WGNPMFhnakYtdmZTdkNGM1BtWGo4bXppb3Z2UEM4Und3T3J1WC1hU0FfUdIBkgFBVV95cUxQSnM3bUZHOUhHWHBmQzFsc3NHUk5fV3E1WklIWFlfU0lBTnVnZWgzdjlZZlBvZUVpVEx2OFhVb2Zpc2dyb1ktcmFCSmN5NkwwUnVNblc2cUdDcnFYak5fUVBxNWdBM1M2WGNPMFhnakYtdmZTdkNGM1BtWGo4bXppb3Z2UEM4Und3T3J1WC1hU0FfUQ?oc=5",
-          "published": "2026-10-21T11:05:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -233,26 +250,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "S&P Global, Türkiye'nin kredi notunda olası artış için dezenflasyon ve rezervlere işaret etti - Anadolu Ajansı",
-          "source": "Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFRSbnBwR1VITnIzcjRGaC1YeloteW44Q1lFdk1RRkJPYVF3OUNncWVIZ1ZGZzlMaEhvSEtRTS1oVWgtQ3VuajljblhjaUxrODBYX0s0VWlEdlF3eTNPd3FoMUJORU1KaTFpTlF0RVYxN25ibDF0OGpiZzVWLWlfTUNBNFJMQnMyWGtyVUdMb1BwTTBOYjk5c3dwY3BDNTd6bTNiQWVmUXRIV1NIYXZvb2xCSEdqM1hNa28zdzVjRFVWZVlXTDFkQUs5bw?oc=5",
-          "published": "2026-10-21T08:39:31+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-03T12:12:32.806412+00:00",
-      "score": 0.8,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-03T16:57:33.409234+00:00",
       "score": 1.0,
@@ -546,6 +548,11 @@
     {
       "generated": "2026-10-21T12:42:05.940378+00:00",
       "score": 26.3,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-21T17:53:36.332142+00:00",
+      "score": 26.2,
       "status": "WATCH"
     }
   ],
