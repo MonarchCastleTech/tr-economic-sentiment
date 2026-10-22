@@ -1,25 +1,21 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-21T22:04:42.459147+00:00",
-    "mode": "partial",
+    "generated": "2026-10-22T05:44:33.577654+00:00",
+    "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
     "classification": "economic-strain-screening-not-recession-currency-or-market-forecast",
     "coverage": "5/5",
-    "confidence": "MEDIUM",
-    "source_notes": [
-      "imported_energy: retained (RuntimeError)",
-      "reserve_buffer: retained (RuntimeError)",
-      "consumer_confidence: retained (RuntimeError)"
-    ]
+    "confidence": "HIGH",
+    "source_notes": []
   },
   "warning": {
-    "score": 26.1,
-    "raw_score": 26.1,
+    "score": 25.8,
+    "raw_score": 25.8,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 26.1/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 25.8/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -30,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-10-21",
       "latest_value": 49.5123,
       "change_5d_pct": 0.42,
@@ -53,22 +49,21 @@
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
-      "retained": true,
-      "coverage": 121,
-      "latest_date": "2026-10-14",
-      "latest_value": 6239.4,
-      "change_5d_pct": 0.84,
-      "return_z": -0.21,
+      "retained": false,
+      "coverage": 124,
+      "latest_date": "2026-10-20",
+      "latest_value": 5702.1,
+      "change_5d_pct": -8.01,
+      "return_z": -1.14,
       "method": "Five-observation robust anomaly in Brent priced in TRY (Brent USD × USD/TRY).",
       "evidence": [
         {
           "label": "Brent in TRY proxy",
-          "value": 6239.4,
-          "date": "2026-10-14",
+          "value": 5702.1,
+          "date": "2026-10-20",
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
-      ],
-      "retained_reason": "RuntimeError"
+      ]
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -76,7 +71,7 @@
       "status": "BASELINE",
       "weight": 0.2,
       "available": true,
-      "retained": true,
+      "retained": false,
       "coverage": 59,
       "latest_date": "2026-09-01",
       "latest_value": 59026.44,
@@ -91,8 +86,7 @@
           "date": "2026-09-01",
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
-      ],
-      "retained_reason": "RuntimeError"
+      ]
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -100,7 +94,7 @@
       "status": "BASELINE",
       "weight": 0.15,
       "available": true,
-      "retained": true,
+      "retained": false,
       "coverage": 59,
       "latest_date": "2026-09-01",
       "latest_value": 91.9,
@@ -115,19 +109,18 @@
           "date": "2026-09-01",
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
-      ],
-      "retained_reason": "RuntimeError"
+      ]
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.7,
+      "score": 6.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 158,
-      "matched": 27,
-      "weighted_density": 0.196,
+      "matched": 25,
+      "weighted_density": 0.175,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -146,16 +139,6 @@
           "source": "Para Analiz",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXpxbG8zdTBNeG10RndvODlsNlRhaDlvVHJoYTFwa3hzUDdvTUVncVBrUWhidEJXNDkwNDNqQUZyQi1kMzJRNk5MTHVEdU4zR1AxeWtQMm5SNEVzcnRtTkNGQ1Y2WUxVVkN2djcyNi1xWGdRc0UzYlBxd0gyaVpKc0JXQ3ZraDJtS1N2WXhTUXBTbURzQlFoQWJYaDZXdXVFQUI5bFg3bUdOWlRkWDlGb0JaRmtvM1U?oc=5",
           "published": "2026-10-21T07:05:57+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Borsa İstanbul sarsıntıyı atlatamıyor, faizde ise indirim tartışılıyor: Faize ‘fon krizi’ gölgesi - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV0Z3a3JRSVEyb3NBYTFYOWF5X0FsMmdTeENCOGtqa3lNZ1R5RXRrQTFEMjRrbkI5T3MyaUJLcFZyYS1YZkQ5cHBZcHJlX2JmUmJsRkdDQWkyU190d1dvSV9Ddnl4cTRFUUxSRXNfVVpmMEZqLVZZVmVMbjFPMEZSaXZ3NXpWR1dTc21leGJ3NkhZaXFXc2NtUUJfbF80V2x1U2ZVNHJhcUZwa28wcTJnazVaTGN2Rk80eUFLZXFrczd4bXBvcVBBM0x5Z0Zudm1TM0V6ZUZn?oc=5",
-          "published": "2026-10-21T01:00:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -182,6 +165,16 @@
           "weight": 2.0
         },
         {
+          "title": "Türkiye Sigorta Birliği’nden iflas iddialarına yanıt - Habertürk",
+          "source": "Habertürk",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbHVyQktVa09UYnFCOENpOGJaVWNXV0xRSzJzOGpTdUNFR01xQURGQ3ZzSmJDVENZck9WTHozWTk2RlVEbUhIVHNsS18wR3YwTzZVNFJZM1R1WmtmZXl4SUN1S0ltSXp5NlJYYmZmdzd3aVN3VC1iQkJ0eXhFNWJKMWloWjhxSEZwNmZaT2Jmd2lCVjBsQW1WRg?oc=5",
+          "published": "2026-10-17T09:36:38+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "2026 Ekonomi Nobel’inden Türkiye'nin fon krizine bakış: Güvenin sessiz çöküşü - Odatv",
           "source": "Odatv",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWWxyOEZTSzdkVUM2SkRlYzJmcjJaaUEySGtpNXBiR2xVYkp3SkV2aS1MRkNkcXVEaW1PRGx5Yy1NMXA5aDF2eGg1ODVtTmpUSEpocVhYbXRZLXlaRjluemlXWE5UaXkzSGVuMkNWSWhQWUVlWDh3ajRaOTZRYzNfcmRCT1hOdHlxUndsWlBHb0s3OEsyMGtqMHJ1X24zbU9Hd0JWS3FDOHBFbnc1YmtaX2sxbVgwc3lYalhSWWU3UlpRalM2NG1r?oc=5",
@@ -190,26 +183,6 @@
             "kriz"
           ],
           "weight": 2.0
-        },
-        {
-          "title": "30 yıllık şirket iflas etti: Pandemide kritik üretime imza atmışlardı - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMURJdEFnX005a0RLRHoxQ0dicGlPVDBtX2FJa2kza0pWMjhTaGJkSXZwcnR3LUJFNnJJQldrQ2R1djloYkdURFlRWF9FUW1XVjk1T3czUHk5RDRhSTNwVXpxNWgzRV9vbUJiU05qTDdPcEpacTFOTkxxOTc3QzVvSzFBRV9FTk9uOXM4dGxuT200UUpTUVpZbFVOd0pYSkROaEMxcy1fVTlWRHFhWEZ4c09keUhabVJT?oc=5",
-          "published": "2026-10-15T06:11:27+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Fitch Türk Bankalarının Kâr Marjlarındaki Daralmaya Dikkat Çekti - Paranın Yönü",
-          "source": "Paranın Yönü",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd3FoZXByVmlVbmFXMFFpZWdENHRlaEpOaVpRRUxBZHUtMVB2djU2XzZRZjFJUS1ld29oR0NmRTdXUE13anZCbnJmZHd2XzRxUFBoU0NRRHRsOEZKanItLXpFM25RT1BXekN2NGwySm5kOW10UTlOS2FHZElJX2ZVM3d6cExSLUVkaFZfRHFXaE1nZ3pDUXplai1wY3R1dm5zd2lnRFo1OWxBd1k?oc=5",
-          "published": "2026-10-21T14:17:00+00:00",
-          "terms": [
-            "daralma"
-          ],
-          "weight": 1.4
         },
         {
           "title": "S&P’den Türkiye ekonomisi için enflasyon, faiz ve büyüme tahmini - 24 Saat Gazetesi",
@@ -250,16 +223,31 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Garanti BBVA Genel Müdürü Akten’den faiz ve enflasyon mesajı haberi - Finans Gündem",
+          "source": "Finans Gündem",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbVZiZzJJLS1yRXk0UExmSUdneW9KN2hJQ2ZJcU8zeWlfMTlfakU5cGxxVktTZjZJQTJRQTBmZjllQ1dRaDM2ZFBLcHU3X19MYmZhRC1FTkdYcjN6MU8zWEQ4Q3lJRWZVcGFCWnBqRnpGVzVtakpuVk0zeU5YNVdoVFBkRmR5YUxHbURtdnNwcEFvamxBUnBZa2ZaQnFUTHJOSWJhMU1nQkc?oc=5",
+          "published": "2026-10-21T06:28:10+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "ING’den Türkiye için 3 yıllık tahmin! Dolar, euro, faiz ve enflasyon ne olacak? - Türkiye Gazetesi",
+          "source": "Türkiye Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTGFWYUlocmlSbkVfYXJQMWVOZGExVGh5d21yYS1pVUR1NHFBVVR6N0VxWDkwV1Q3UXhobloya3FYUEZoN3BJUjlOOTBVbm5aMnB5WkJlMTN6c196V0ViTDVFa2p4Yk5ndHZWNWc1SGZNLWFvcGpRNVVRT1lVdkR5OUEzbkgtNk9Gc3o0MGZrRE1vUWZERDhadTNxZDZFNzkwWW56WnBEN0pmbjhKRGdnVmtDM3kzbUNlTWdqUEpkOEVmMWs?oc=5",
+          "published": "2026-10-20T13:50:30+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-03T21:58:09.878570+00:00",
-      "score": 1.0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-04T06:36:35.632130+00:00",
       "score": 0.8,
@@ -553,6 +541,11 @@
     {
       "generated": "2026-10-21T22:04:42.459147+00:00",
       "score": 26.1,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-22T05:44:33.577654+00:00",
+      "score": 25.8,
       "status": "WATCH"
     }
   ],
