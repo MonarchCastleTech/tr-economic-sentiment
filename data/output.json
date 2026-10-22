@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-22T17:50:32.305356+00:00",
+    "generated": "2026-10-22T22:04:06.816733+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 25.3,
-    "raw_score": 25.3,
+    "score": 25.1,
+    "raw_score": 25.1,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 25.3/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 25.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.9,
+      "score": 6.9,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 157,
-      "matched": 28,
-      "weighted_density": 0.199,
+      "matched": 26,
+      "weighted_density": 0.181,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -147,7 +147,7 @@
         {
           "title": "Borsa İstanbul fon krizinin etkilerini atlatamıyor: Faiz kararına güven bunalımı gölgesi - Para Analiz",
           "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXpxbG8zdTBNeG10RndvODlsNlRhaDlvVHJoYTFwa3hzUDdvTUVncVBrUWhidEJXNDkwNDNqQUZyQi1kMzJRNk5MTHVEdU4zR1AxeWtQMm5SNEVzcnRtTkNGQ1Y2WUxVVkN2djcyNi1xWGdRc0UzYlBxd0gyaVpKc0JXQ3ZraDJtS1N2WXhTUXBTbURzQlFoQWJYaDZXdXVFQUI5bFg3bUdOWlRkWDlGb0JaRmtvM1U?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFRwS0g4WlJ1dEdjVHd6T1JvZU5PTTJyYVFBZ0YzZ2x4ZW95VmdLemlaa0hwcGpEWVZlcVpGSnRhLUNsMklhQkIwdVdUUFBjZXpiaER6bHc3bHhPUnFPVGNzQnVIYlYyOUd4bTVUOXNyWjFJQ01ORjRldVlZTWhaYThZR1hZYi1UYzkwLWxFckxod0E0RTF4YUZOa3FpZ2V1X0pILUY2YkRnRkdFTFh4Yml3?oc=5",
           "published": "2026-10-21T07:05:57+00:00",
           "terms": [
             "kriz"
@@ -171,16 +171,6 @@
           "published": "2026-10-20T07:46:00+00:00",
           "terms": [
             "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye Sigorta Birliği’nden iflas iddialarına yanıt - Habertürk",
-          "source": "Habertürk",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbHVyQktVa09UYnFCOENpOGJaVWNXV0xRSzJzOGpTdUNFR01xQURGQ3ZzSmJDVENZck9WTHozWTk2RlVEbUhIVHNsS18wR3YwTzZVNFJZM1R1WmtmZXl4SUN1S0ltSXp5NlJYYmZmdzd3aVN3VC1iQkJ0eXhFNWJKMWloWjhxSEZwNmZaT2Jmd2lCVjBsQW1WRg?oc=5",
-          "published": "2026-10-17T09:36:38+00:00",
-          "terms": [
-            "iflas"
           ],
           "weight": 2.0
         },
@@ -243,16 +233,21 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "S&P’den Türkiye için kritik faiz ve enflasyon tahmini: Kredi notu artışı üç koşula bağlı - 12punto",
+          "source": "12punto",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZlF3anRHMEVTWl9aVndBRTVnSXNBakk5bldBOHZsNkc0bkxBMnIzNnFId01qWU1CaGdSR2ZyWXVqVGd5UU9IT3M0RG5YaHpBWWlJVURyWmVHUzdtRDVVaFhHYm5jYTZIZWVBMklaWE94ellyeVl6UVhfOGhFRUZyYU9zZUFZUm9JbGhfNmxjYXd1VkRKWjRYWmlYbVFXMzE4Q28xdDlod2ZlNHREdHFPYUxPLXRibTRPV1RpQnZiOEk?oc=5",
+          "published": "2026-10-21T09:49:56+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-04T22:11:15.320420+00:00",
-      "score": 1.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-05T06:31:59.427959+00:00",
       "score": 1.5,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-10-22T17:50:32.305356+00:00",
       "score": 25.3,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-22T22:04:06.816733+00:00",
+      "score": 25.1,
       "status": "WATCH"
     }
   ],
