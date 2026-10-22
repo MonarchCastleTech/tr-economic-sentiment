@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-22T12:45:37.435993+00:00",
+    "generated": "2026-10-22T17:50:32.305356+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 25.6,
-    "raw_score": 25.6,
+    "score": 25.3,
+    "raw_score": 25.3,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 25.6/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 25.3/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 11.8,
+      "score": 8.9,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 158,
-      "matched": 30,
-      "weighted_density": 0.224,
+      "coverage": 157,
+      "matched": 28,
+      "weighted_density": 0.199,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -145,29 +145,9 @@
           "weight": 2.0
         },
         {
-          "title": "S&P: Türkiye'deki fon krizinin finansal istikrar ve dolarizasyon üzerindeki etkisi sınırlı kaldı - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxORWZWVFA2WWY5OFFURGpzWGxOY1hiZXQtcm1WNDk5VEZLQlhJbG9lNld2VHZhaWFoZ0stNjY0Vi1scUNMNDBObWNQTjVsMngycE9ZUGV5ZENRd3JtZzBqT2JSaE5QTmdnLXF4WUJQbHRjcldxbzJLejJEd0REQVpsNEhSRFNYSUR2cVByRzlZYkFTM3VxZVQtVlljV05tQzI1VDl4TTJ3UUhZY0pkYXpLdGNyZ01VemdCU3RtR05SREJVaFpudzdhZUpCWWFUQ1F4ZDVsQmFaTW5OaTdvSHZSZVYzaUhNQ3RKNjJsa0N1blcxUExsbGZubDVWRTd6elczOTB3ODhB?oc=5",
-          "published": "2026-10-22T10:24:55+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Mehmet Şimşek'ten küresel ekonomi uyarısı: 2022 krizinden 7 kat daha büyük - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3hZUENnRm1OdUxwNHpFc0tXSHMxaG1aRzNtRm5DRGNoOFJVR1pveHBXbWtoX0VHVnl0WkZyOXBjOVNGN1BvdGRKSUFySlBLeTRXSEVxOXhMY2I1WjNwdkRPV2l1bXI1RUwweTVRNUI2cUNFWFgxeFJUQXdKQWo4ZERuZE16cjVVY2pGZVY0MzQ3bnpXdFdramJaZjBOZE9SQlB3bUpkamNpX0xWWXQ0?oc=5",
-          "published": "2026-10-22T09:59:11+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
           "title": "Borsa İstanbul fon krizinin etkilerini atlatamıyor: Faiz kararına güven bunalımı gölgesi - Para Analiz",
           "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFRwS0g4WlJ1dEdjVHd6T1JvZU5PTTJyYVFBZ0YzZ2x4ZW95VmdLemlaa0hwcGpEWVZlcVpGSnRhLUNsMklhQkIwdVdUUFBjZXpiaER6bHc3bHhPUnFPVGNzQnVIYlYyOUd4bTVUOXNyWjFJQ01ORjRldVlZTWhaYThZR1hZYi1UYzkwLWxFckxod0E0RTF4YUZOa3FpZ2V1X0pILUY2YkRnRkdFTFh4Yml3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXpxbG8zdTBNeG10RndvODlsNlRhaDlvVHJoYTFwa3hzUDdvTUVncVBrUWhidEJXNDkwNDNqQUZyQi1kMzJRNk5MTHVEdU4zR1AxeWtQMm5SNEVzcnRtTkNGQ1Y2WUxVVkN2djcyNi1xWGdRc0UzYlBxd0gyaVpKc0JXQ3ZraDJtS1N2WXhTUXBTbURzQlFoQWJYaDZXdXVFQUI5bFg3bUdOWlRkWDlGb0JaRmtvM1U?oc=5",
           "published": "2026-10-21T07:05:57+00:00",
           "terms": [
             "kriz"
@@ -243,16 +223,31 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "S&P’den Türkiye ekonomisi için enflasyon, faiz ve büyüme tahmini - 24 Saat Gazetesi",
+          "source": "24 Saat Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPengyT0FqRWRMNUtHQzV4ZXg4X0gyUUQyRXNpWGpaMDJIVlNrWDZVOUNiMHZjUzlfV1hidmlXcWp4elEtS0NKMElDQXlheFFoUWVQeEc3aGhGS3Z5YVU1VnVDNXlOSlFsak92N3dPV1l0M3hhNGdZSjB3NWI5QXkybXFKR0Iwbnc0cXozaVQxUUdqVXpacWJj?oc=5",
+          "published": "2026-10-21T11:54:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Dev bankadan Türkiye tahmini: Faiz ve enflasyon öngörüsü ne oldu? - T24",
+          "source": "T24",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUkRyT18waEJiaFJZWVduN3NPd0xnX2sxOXhnQ2NBaUgzX1FUaDJsbEFJMENONE5SRXJXN2k1MGI3TmpteGlCdWVWUVcyQTNPVHo2dzNOSm1zQTFjblBwbVlBNDRyVndQMXVxdTJoUTJsTXhFV3UzelZoclBQal9pWmtYLU5ncEVTWUlPRWRDWHJoRHBIS29SOVM2R1dPVVk?oc=5",
+          "published": "2026-10-21T10:00:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-04T13:01:44.369680+00:00",
-      "score": 1.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-04T22:11:15.320420+00:00",
       "score": 1.2,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-10-22T12:45:37.435993+00:00",
       "score": 25.6,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-22T17:50:32.305356+00:00",
+      "score": 25.3,
       "status": "WATCH"
     }
   ],
