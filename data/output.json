@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-23T17:41:20.394959+00:00",
+    "generated": "2026-10-23T21:50:30.179280+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 24.7,
-    "raw_score": 24.7,
+    "score": 24.3,
+    "raw_score": 24.3,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 24.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 24.3/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -113,42 +113,21 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 4.2,
+      "score": 0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 154,
-      "matched": 22,
-      "weighted_density": 0.157,
+      "coverage": 129,
+      "matched": 11,
+      "weighted_density": 0.096,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
-        {
-          "title": "S&P’den fon krizi sonrası dikkat çeken Türkiye analizi: Enflasyon ve büyüme tahminleri belli oldu - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYUwzUzhIT0xtdUtRcXBKdWF6eUNoOV9IZmhyUC1kdlMtZ1gxb2NqRU1sRlBfbDlfWUthZE1WMndmeGJnRHBPcHRKNEJiVkZBeHpxMUEtd0xuSHcyRmNoTHJBRjhJLWphV2RlemNNUVFmUE9xSzZuY3JCVzdobFBPS1VqMzZSRVRXOGxVT1EwRUI3V3FVX2JTQ2Jmai04c2NCeTZ4VmZWQmRMdnlmYVJiOWRNM2h5VDdDY0dwNnI0SkdrVTZZUHlCNGFkNjNRc3d3QVVFUy1pMWRkUQ?oc=5",
-          "published": "2026-10-20T10:28:00+00:00",
-          "terms": [
-            "kriz",
-            "enflasyon"
-          ],
-          "weight": 2.8
-        },
         {
           "title": "S&P’den Türkiye ekonomisi için kritik mesaj: Fon krizi güveni sarsmadı - Paratic Haber",
           "source": "Paratic Haber",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeFAwNS0wTDhQNjlTc1lKTkFtOGsyRW55RHQ0Q3RrZnU2R2N3WnB0Mkl0RzQ2b19IXzVkS0swRlNzOXNtYXYzdlVIYktkTmlNTE9zTUJFeDl4ZThGWWZDNEp5OXZxbjV0UVhPRjJSSWxYWEtxYzJiZFh2aTMtU0RLRmlBdWRfdGs0QWV0RTNUd1owUQ?oc=5",
           "published": "2026-10-22T12:04:11+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Borsa İstanbul fon krizinin etkilerini atlatamıyor: Faiz kararına güven bunalımı gölgesi - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFRwS0g4WlJ1dEdjVHd6T1JvZU5PTTJyYVFBZ0YzZ2x4ZW95VmdLemlaa0hwcGpEWVZlcVpGSnRhLUNsMklhQkIwdVdUUFBjZXpiaER6bHc3bHhPUnFPVGNzQnVIYlYyOUd4bTVUOXNyWjFJQ01ORjRldVlZTWhaYThZR1hZYi1UYzkwLWxFckxod0E0RTF4YUZOa3FpZ2V1X0pILUY2YkRnRkdFTFh4Yml3?oc=5",
-          "published": "2026-10-21T07:05:57+00:00",
           "terms": [
             "kriz"
           ],
@@ -173,36 +152,6 @@
             "iflas"
           ],
           "weight": 2.0
-        },
-        {
-          "title": "ATSO'dan enflasyonla mücadeleye destek - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN0w5MHZobDFIeTNrcS1NU28wVlpseGFOdkd0dy1mZGM4eDFyMzRoWWpfeFp5M0N0SmRuUTJBMjVSUHZGc2hvZDZHai1WSzUwUWNwQ2xBZkdUOFNTcTJVdUdGTWtQMlFybHMxX05UbmgtOWNxVnNEcXFaYVpNbHVZSTBHUV9yYms?oc=5",
-          "published": "2026-10-23T11:16:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "TCMB’den faiz ve enflasyon mesajı: Kalıcı bozulmada sıkılaşma adımı | Türkiye Ekonomisi Haberleri - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWjFtT3EtSWgzUnotUkg1alRyZ2ZUbjE3Y3B0NUVKdldKMDlrRml6eGRIYWUzbVhqbVVaTXJzNnd2SktYeWItVWpmRy1FWFctQUVOMHFsWkNFMUhGcUMtazZudk42cTlxZExRMVZQSmpVYWhMTjVNLXNBQUxqTkpNWElzUFlpX2szMmg5dUtmY2RFd0RIa084M2NrWG9yNm5NQUZj?oc=5",
-          "published": "2026-10-22T12:47:37+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Mert Yılmaz'dan Faiz İndirimi Ve Enflasyon Tahmini - Finans Hattı",
-          "source": "Finans Hattı",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdi1FanBsV1NIVjVhVEU2ajFiVy1ha05SRTRaeXJvYWZka0E3Rmx1MXFGQnFqMEFCRUgtcFhuSDZPWUc2NW5rbW5KalppdnNoQXQ4NzZzX0U3d1piVkxQNzE4bkIyTEV6b1NjVjZjaU9FWVdLeEFoZXBZbHpuMnVnQ0ZHck1YX0Y2X1RtSA?oc=5",
-          "published": "2026-10-22T09:38:44+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         },
         {
           "title": "S&P'den Türkiye için enflasyon, faiz ve dolar tahmini - Diken",
@@ -243,16 +192,51 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "S&P'den Türkiye'ye faiz ve enflasyon tahmini: Kredi notu artışı için 3 kritik koşul - Dünya Gazetesi",
+          "source": "Dünya Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZFBiQk90cUJiQ1RFTFBtbTc0VkdJLXVtS0dWUWZTWTVqQ3RBbGhTbGp1dy16YTUzOXJKNENHVDdiZ1Jtc2l4eHFZd1d1aVlMR2pwTHpOVkp3NjlySFlsVFZkbEZhYzh1dnJCU3c4VDdtVVFpTkVuSWpKVWN6WTNEUnBiaEdCcUYtanI3bGhtYjNuV0Z0cmhwSzl2em5wOVNEUFQwVlY2MHVhZDNlUmk4RklfV0RxSTZTTXdUUDhjd3U?oc=5",
+          "published": "2026-10-21T09:20:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "S&P Global, Türkiye'nin kredi notunda olası artış için dezenflasyon ve rezervlere işaret etti - Anadolu Ajansı",
+          "source": "Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFRSbnBwR1VITnIzcjRGaC1YeloteW44Q1lFdk1RRkJPYVF3OUNncWVIZ1ZGZzlMaEhvSEtRTS1oVWgtQ3VuajljblhjaUxrODBYX0s0VWlEdlF3eTNPd3FoMUJORU1KaTFpTlF0RVYxN25ibDF0OGpiZzVWLWlfTUNBNFJMQnMyWGtyVUdMb1BwTTBOYjk5c3dwY3BDNTd6bTNiQWVmUXRIV1NIYXZvb2xCSEdqM1hNa28zdzVjRFVWZVlXTDFkQUs5bw?oc=5",
+          "published": "2026-10-21T08:44:09+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "ING’den Türkiye için 3 yıllık tahmin! Dolar, euro, faiz ve enflasyon ne olacak? - Türkiye Gazetesi",
+          "source": "Türkiye Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTGFWYUlocmlSbkVfYXJQMWVOZGExVGh5d21yYS1pVUR1NHFBVVR6N0VxWDkwV1Q3UXhobloya3FYUEZoN3BJUjlOOTBVbm5aMnB5WkJlMTN6c196V0ViTDVFa2p4Yk5ndHZWNWc1SGZNLWFvcGpRNVVRT1lVdkR5OUEzbkgtNk9Gc3o0MGZrRE1vUWZERDhadTNxZDZFNzkwWW56WnBEN0pmbjhKRGdnVmtDM3kzbUNlTWdqUEpkOEVmMWs?oc=5",
+          "published": "2026-10-20T13:50:30+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "ING Global'den Türkiye raporu: Dolar, faiz ve enflasyon için 3 yıllık tahmin - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN0tCLUx6aC1SeVQ2dFRhTHFTeG9PX085TmRmYm5yUjdOalA4TjFyNzQzTWtVQWl1Uy1rZXhsLUxIQ1paVmhmc0piQ0VPLWVycmlNYXR0ckl4VjFYZjVwQWZ0d1dLVFFvSVNRemVzQnRxZ1NGcVB4WUtmUXhVWVg4Y2E4Q0xvRkpUd1ZIMVc5bGFKaEtfUnNzM3ZXU3hBa1FPcTNQT2xYMVN0VjYyblZjYQ?oc=5",
+          "published": "2026-10-20T13:28:46+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-06T07:10:02.327037+00:00",
-      "score": 1.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-06T18:45:38.399708+00:00",
       "score": 1.7,
@@ -546,6 +530,11 @@
     {
       "generated": "2026-10-23T17:41:20.394959+00:00",
       "score": 24.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-23T21:50:30.179280+00:00",
+      "score": 24.3,
       "status": "BASELINE"
     }
   ],
