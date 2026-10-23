@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-23T05:42:55.165879+00:00",
+    "generated": "2026-10-23T12:23:46.052844+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 5.3,
+      "score": 5.7,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 155,
-      "matched": 24,
-      "weighted_density": 0.166,
+      "coverage": 154,
+      "matched": 23,
+      "weighted_density": 0.17,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -171,6 +171,16 @@
           "published": "2026-10-20T07:46:00+00:00",
           "terms": [
             "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Birçok ülkeye ihracat yapıyordu: Türk gıda devi resmen iflas etti - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQTJfTldCN1NGSG0xd25WZXAzb2pZaFBpYlJ0T3hYX0lqMkQybDM1WWJxZjk4RDFqeVhqTTJ6Szk3Q0psbHlwQTNKZy1SRDZFaF9ranlyVjUxbDBTRzROaWYtcUZ2YmNZaXJfQ1NBYjBCeURndktwd2V2bFE5Uld1T1lmdG5JVkpRVkZhcmJrY3B6eGVadjFjd21xVDV5TVJlZnRQMnJSLXBtQVJKQTFB?oc=5",
+          "published": "2026-10-17T12:23:00+00:00",
+          "terms": [
+            "iflas"
           ],
           "weight": 2.0
         },
@@ -233,26 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "S&P'den Türkiye'ye faiz ve enflasyon tahmini: Kredi notu artışı için 3 kritik koşul - Dünya Gazetesi",
-          "source": "Dünya Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZFBiQk90cUJiQ1RFTFBtbTc0VkdJLXVtS0dWUWZTWTVqQ3RBbGhTbGp1dy16YTUzOXJKNENHVDdiZ1Jtc2l4eHFZd1d1aVlMR2pwTHpOVkp3NjlySFlsVFZkbEZhYzh1dnJCU3c4VDdtVVFpTkVuSWpKVWN6WTNEUnBiaEdCcUYtanI3bGhtYjNuV0Z0cmhwSzl2em5wOVNEUFQwVlY2MHVhZDNlUmk4RklfV0RxSTZTTXdUUDhjd3U?oc=5",
-          "published": "2026-10-21T09:20:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-05T15:32:08.876081+00:00",
-      "score": 1.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-06T00:34:28.599095+00:00",
       "score": 2.3,
@@ -545,6 +540,11 @@
     },
     {
       "generated": "2026-10-23T05:42:55.165879+00:00",
+      "score": 24.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-23T12:23:46.052844+00:00",
       "score": 24.9,
       "status": "BASELINE"
     }
