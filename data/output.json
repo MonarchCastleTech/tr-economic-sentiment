@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-24T16:25:35.186213+00:00",
+    "generated": "2026-10-24T21:24:07.553944+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -118,31 +118,11 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 153,
-      "matched": 16,
-      "weighted_density": 0.101,
+      "coverage": 128,
+      "matched": 11,
+      "weighted_density": 0.07,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
-        {
-          "title": "S&P’den Türkiye ekonomisi için kritik mesaj: Fon krizi güveni sarsmadı - Paratic Haber",
-          "source": "Paratic Haber",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeFAwNS0wTDhQNjlTc1lKTkFtOGsyRW55RHQ0Q3RrZnU2R2N3WnB0Mkl0RzQ2b19IXzVkS0swRlNzOXNtYXYzdlVIYktkTmlNTE9zTUJFeDl4ZThGWWZDNEp5OXZxbjV0UVhPRjJSSWxYWEtxYzJiZFh2aTMtU0RLRmlBdWRfdGs0QWV0RTNUd1owUQ?oc=5",
-          "published": "2026-10-22T12:04:11+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Borsa İstanbul fon krizinin etkilerini atlatamıyor: Faiz kararına güven bunalımı gölgesi - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFRwS0g4WlJ1dEdjVHd6T1JvZU5PTTJyYVFBZ0YzZ2x4ZW95VmdLemlaa0hwcGpEWVZlcVpGSnRhLUNsMklhQkIwdVdUUFBjZXpiaER6bHc3bHhPUnFPVGNzQnVIYlYyOUd4bTVUOXNyWjFJQ01ORjRldVlZTWhaYThZR1hZYi1UYzkwLWxFckxod0E0RTF4YUZOa3FpZ2V1X0pILUY2YkRnRkdFTFh4Yml3?oc=5",
-          "published": "2026-10-21T07:05:57+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
         {
           "title": "Daralmaya rağmen Avrupa’da altıncıyız - Bigpara",
           "source": "Bigpara",
@@ -204,26 +184,6 @@
           "weight": 0.8
         },
         {
-          "title": "Dev bankadan Türkiye tahmini: Faiz ve enflasyon öngörüsü ne oldu? - T24",
-          "source": "T24",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUkRyT18waEJiaFJZWVduN3NPd0xnX2sxOXhnQ2NBaUgzX1FUaDJsbEFJMENONE5SRXJXN2k1MGI3TmpteGlCdWVWUVcyQTNPVHo2dzNOSm1zQTFjblBwbVlBNDRyVndQMXVxdTJoUTJsTXhFV3UzelZoclBQal9pWmtYLU5ncEVTWUlPRWRDWHJoRHBIS29SOVM2R1dPVVk?oc=5",
-          "published": "2026-10-21T10:00:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "S&P’den Türkiye için kritik faiz ve enflasyon tahmini: Kredi notu artışı üç koşula bağlı - 12punto",
-          "source": "12punto",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZlF3anRHMEVTWl9aVndBRTVnSXNBakk5bldBOHZsNkc0bkxBMnIzNnFId01qWU1CaGdSR2ZyWXVqVGd5UU9IT3M0RG5YaHpBWWlJVURyWmVHUzdtRDVVaFhHYm5jYTZIZWVBMklaWE94ellyeVl6UVhfOGhFRUZyYU9zZUFZUm9JbGhfNmxjYXd1VkRKWjRYWmlYbVFXMzE4Q28xdDlod2ZlNHREdHFPYUxPLXRibTRPV1RpQnZiOEk?oc=5",
-          "published": "2026-10-21T09:49:56+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "S&P'den Türkiye'ye faiz ve enflasyon tahmini: Kredi notu artışı için 3 kritik koşul - Dünya Gazetesi",
           "source": "Dünya Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZFBiQk90cUJiQ1RFTFBtbTc0VkdJLXVtS0dWUWZTWTVqQ3RBbGhTbGp1dy16YTUzOXJKNENHVDdiZ1Jtc2l4eHFZd1d1aVlMR2pwTHpOVkp3NjlySFlsVFZkbEZhYzh1dnJCU3c4VDdtVVFpTkVuSWpKVWN6WTNEUnBiaEdCcUYtanI3bGhtYjNuV0Z0cmhwSzl2em5wOVNEUFQwVlY2MHVhZDNlUmk4RklfV0RxSTZTTXdUUDhjd3U?oc=5",
@@ -242,16 +202,41 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "ING Global'den Türkiye raporu: Dolar, faiz ve enflasyon için 3 yıllık tahmin - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN0tCLUx6aC1SeVQ2dFRhTHFTeG9PX085TmRmYm5yUjdOalA4TjFyNzQzTWtVQWl1Uy1rZXhsLUxIQ1paVmhmc0piQ0VPLWVycmlNYXR0ckl4VjFYZjVwQWZ0d1dLVFFvSVNRemVzQnRxZ1NGcVB4WUtmUXhVWVg4Y2E4Q0xvRkpUd1ZIMVc5bGFKaEtfUnNzM3ZXU3hBa1FPcTNQT2xYMVN0VjYyblZjYQ?oc=5",
+          "published": "2026-10-20T13:28:46+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Osmaniyeliler Fed Faiz Kararını Ne Zaman Öğrenecek? - Sabır Gazetesi",
+          "source": "Sabır Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYTVGYXYtWXVTTUhUQ2t3OW1uTmdvRUhlZldSWVY4M3FaOU9rbDRWbU5kTG5KWm9yczRCUnZGSlhtb2lrajBXUkp5U2oyOG9tU3RScWJ3dGU1bkNtVU9LX21QV25NOEZJcmRTWWJYRnByeXQxYjdmVl91RGxVRzVveno1MHBjU3c?oc=5",
+          "published": "2026-10-24T11:20:00+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
+        },
+        {
+          "title": "TBMM Başkanı Kurtulmuş: \"Terörsüz Türkiye hedefi sadece Türkiye için değil, aynı zamanda bölge için de önemli bir hedef\" - Anka Haber",
+          "source": "Anka Haber",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPOHM3eFFEQm5zUElBbU1UaEI4V3NwSEtOMVlDdUdzRFdfSjFQVmZ2NkUxQTFLY3liOG9OQmZHNjFmbEp4QkcwaFQzWkJuUGxPd1JMbm1FcXY0d29FbnYwSmxiakZFUjRqREk2YTdXbk1XQk80RFNxallUV2k0N0tPRzNQdjdmbTBacTFRakRESldFdWFFbzM1NUVwYzR2NURzRkN1UGhTOWdZTlNvbVpocU9xOUhvZjNmdEtzRHotc2xjWE1uRDgxYlFDbHVWamN4ZktTOHpPb3Y2OVp2QWstdlpiajZFU2c0?oc=5",
+          "published": "2026-10-24T09:19:00+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-07T14:11:34.538442+00:00",
-      "score": 1.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-07T23:26:18.198000+00:00",
       "score": 7.7,
@@ -544,6 +529,11 @@
     },
     {
       "generated": "2026-10-24T16:25:35.186213+00:00",
+      "score": 24.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-24T21:24:07.553944+00:00",
       "score": 24.3,
       "status": "BASELINE"
     }
