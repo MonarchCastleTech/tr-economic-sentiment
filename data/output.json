@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-23T21:50:30.179280+00:00",
+    "generated": "2026-10-24T05:22:13.866058+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-10-23",
       "latest_value": 49.5647,
       "change_5d_pct": 0.42,
@@ -50,7 +50,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 123,
+      "coverage": 122,
       "latest_date": "2026-10-20",
       "latest_value": 5702.1,
       "change_5d_pct": -8.01,
@@ -119,8 +119,8 @@
       "available": true,
       "retained": false,
       "coverage": 129,
-      "matched": 11,
-      "weighted_density": 0.096,
+      "matched": 10,
+      "weighted_density": 0.079,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -140,16 +140,6 @@
           "published": "2026-10-21T01:00:00+00:00",
           "terms": [
             "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye Sigorta Birliği’nden iflas iddialarına yanıt - Habertürk",
-          "source": "Habertürk",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbHVyQktVa09UYnFCOENpOGJaVWNXV0xRSzJzOGpTdUNFR01xQURGQ3ZzSmJDVENZck9WTHozWTk2RlVEbUhIVHNsS18wR3YwTzZVNFJZM1R1WmtmZXl4SUN1S0ltSXp5NlJYYmZmdzd3aVN3VC1iQkJ0eXhFNWJKMWloWjhxSEZwNmZaT2Jmd2lCVjBsQW1WRg?oc=5",
-          "published": "2026-10-17T09:36:38+00:00",
-          "terms": [
-            "iflas"
           ],
           "weight": 2.0
         },
@@ -178,16 +168,6 @@
           "source": "24 Saat Gazetesi",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPengyT0FqRWRMNUtHQzV4ZXg4X0gyUUQyRXNpWGpaMDJIVlNrWDZVOUNiMHZjUzlfV1hidmlXcWp4elEtS0NKMElDQXlheFFoUWVQeEc3aGhGS3Z5YVU1VnVDNXlOSlFsak92N3dPV1l0M3hhNGdZSjB3NWI5QXkybXFKR0Iwbnc0cXozaVQxUUdqVXpacWJj?oc=5",
           "published": "2026-10-21T11:54:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Dev bankadan Türkiye tahmini: Faiz ve enflasyon öngörüsü ne oldu? - T24",
-          "source": "T24",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUkRyT18waEJiaFJZWVduN3NPd0xnX2sxOXhnQ2NBaUgzX1FUaDJsbEFJMENONE5SRXJXN2k1MGI3TmpteGlCdWVWUVcyQTNPVHo2dzNOSm1zQTFjblBwbVlBNDRyVndQMXVxdTJoUTJsTXhFV3UzelZoclBQal9pWmtYLU5ncEVTWUlPRWRDWHJoRHBIS29SOVM2R1dPVVk?oc=5",
-          "published": "2026-10-21T10:00:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -232,16 +212,21 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "EKK'dan açıklama! Sorunlu fonlarda ara ödemeler ne zaman başlayacak? - Son Dakika Ekonomi Haberleri | Video - CNN Türk",
+          "source": "CNN Türk",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeF9KcDZaTTBHQUZvUHNZNFVsbWtfQzl4aHlVbjZvN3V1ekxsVlVJM2gyTmhRdE9aTUhnOXAtNzZWYVlCUVZyZGx0UjNDZEtJV3BsNld3cEtJX3JGRVhNTmVVMWFVTTNDUGlzWHdnX2tYYlE0a1pPZjd0MlRIZENrUUliSkNtMUxURVY5aTBoVXloZjNvb3VtQTd0dFFNY2FGcEtfTl9QOXZSTmZDQS1SZQ?oc=5",
+          "published": "2026-10-19T15:40:08+00:00",
+          "terms": [
+            "zam"
+          ],
+          "weight": 0.6
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-06T18:45:38.399708+00:00",
-      "score": 1.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-06T22:52:38.269805+00:00",
       "score": 1.8,
@@ -534,6 +519,11 @@
     },
     {
       "generated": "2026-10-23T21:50:30.179280+00:00",
+      "score": 24.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-24T05:22:13.866058+00:00",
       "score": 24.3,
       "status": "BASELINE"
     }
