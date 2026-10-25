@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-25T05:39:28.169690+00:00",
+    "generated": "2026-10-25T12:19:22.574348+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,16 +113,27 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0,
+      "score": 0.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 155,
+      "coverage": 158,
       "matched": 18,
-      "weighted_density": 0.115,
+      "weighted_density": 0.122,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Fon vurgunu vatandaşı da vuracak... Prof. Dr. Aktaş: \"Enflasyon, faizler ve işsizlik artacak. Bu vurgundan kitap da yazılır film de çekilir\" - Anka Haber",
+          "source": "Anka Haber",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPYzZFWEVFZFEwaHlrbDNtTDEzX1NCbmEtZFNsV21lSmhETjB2dV9JdTdfR0V2aWR2NHkyUklUZFBaazBnMWlFd3NvUmpOdVpIU21zXzl1VHhubFBTWVZLUmN0RWhLUzVrdnZzbWhIX3JnU3VzUURSZDNHMjBKbmczZkttVHZoUVN3T2hkZjY3bjZEV0x1UWU1bFB6WFhqdl9PaFdVb05nRFRwNmtReU44RVFtbGF0NUtNX09VbldTb1QwX0c0UTV1c2tKZi1XSUdwSTRVY0hPMEhVUXM5WEV3QlFDMWphdlhqdEVjY0wtc0ZSczdidGVrbmNNRQ?oc=5",
+          "published": "2026-10-25T09:05:08+00:00",
+          "terms": [
+            "işsizlik",
+            "enflasyon"
+          ],
+          "weight": 2.3
+        },
         {
           "title": "S&P’den Türkiye ekonomisi için kritik mesaj: Fon krizi güveni sarsmadı - Paratic Haber",
           "source": "Paratic Haber",
@@ -134,10 +145,10 @@
           "weight": 2.0
         },
         {
-          "title": "Borsa İstanbul fon krizinin etkilerini atlatamıyor: Faiz kararına güven bunalımı gölgesi - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFRwS0g4WlJ1dEdjVHd6T1JvZU5PTTJyYVFBZ0YzZ2x4ZW95VmdLemlaa0hwcGpEWVZlcVpGSnRhLUNsMklhQkIwdVdUUFBjZXpiaER6bHc3bHhPUnFPVGNzQnVIYlYyOUd4bTVUOXNyWjFJQ01ORjRldVlZTWhaYThZR1hZYi1UYzkwLWxFckxod0E0RTF4YUZOa3FpZ2V1X0pILUY2YkRnRkdFTFh4Yml3?oc=5",
-          "published": "2026-10-21T07:05:57+00:00",
+          "title": "Borsa İstanbul sarsıntıyı atlatamıyor, faizde ise indirim tartışılıyor: Faize ‘fon krizi’ gölgesi - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV0Z3a3JRSVEyb3NBYTFYOWF5X0FsMmdTeENCOGtqa3lNZ1R5RXRrQTFEMjRrbkI5T3MyaUJLcFZyYS1YZkQ5cHBZcHJlX2JmUmJsRkdDQWkyU190d1dvSV9Ddnl4cTRFUUxSRXNfVVpmMEZqLVZZVmVMbjFPMEZSaXZ3NXpWR1dTc21leGJ3NkhZaXFXc2NtUUJfbF80V2x1U2ZVNHJhcUZwa28wcTJnazVaTGN2Rk80eUFLZXFrczd4bXBvcVBBM0x5Z0Zudm1TM0V6ZUZn?oc=5",
+          "published": "2026-10-21T01:00:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -232,26 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "S&P'den Türkiye'ye faiz ve enflasyon tahmini: Kredi notu artışı için 3 kritik koşul - Dünya Gazetesi",
-          "source": "Dünya Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZFBiQk90cUJiQ1RFTFBtbTc0VkdJLXVtS0dWUWZTWTVqQ3RBbGhTbGp1dy16YTUzOXJKNENHVDdiZ1Jtc2l4eHFZd1d1aVlMR2pwTHpOVkp3NjlySFlsVFZkbEZhYzh1dnJCU3c4VDdtVVFpTkVuSWpKVWN6WTNEUnBiaEdCcUYtanI3bGhtYjNuV0Z0cmhwSzl2em5wOVNEUFQwVlY2MHVhZDNlUmk4RklfV0RxSTZTTXdUUDhjd3U?oc=5",
-          "published": "2026-10-21T09:20:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-08T06:58:56.804530+00:00",
-      "score": 7.8,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-08T19:08:06.258145+00:00",
       "score": 8.0,
@@ -544,6 +540,11 @@
     },
     {
       "generated": "2026-10-25T05:39:28.169690+00:00",
+      "score": 24.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-25T12:19:22.574348+00:00",
       "score": 24.3,
       "status": "BASELINE"
     }
