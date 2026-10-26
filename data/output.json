@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-26T05:45:30.514270+00:00",
+    "generated": "2026-10-26T13:51:18.489995+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 24.3,
-    "raw_score": 24.3,
+    "score": 24.5,
+    "raw_score": 24.5,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 24.3/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 24.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,19 +26,19 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
-      "latest_date": "2026-10-23",
-      "latest_value": 49.5647,
+      "coverage": 128,
+      "latest_date": "2026-10-26",
+      "latest_value": 49.6732,
       "change_5d_pct": 0.42,
-      "return_z": 3.14,
+      "return_z": 3.39,
       "volatility_20d": 0.07,
-      "volatility_z": 0.49,
+      "volatility_z": 0.2,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 49.5647,
-          "date": "2026-10-23",
+          "value": 49.6732,
+          "date": "2026-10-26",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ]
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0,
+      "score": 2.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 159,
-      "matched": 18,
-      "weighted_density": 0.118,
+      "coverage": 164,
+      "matched": 20,
+      "weighted_density": 0.141,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -133,6 +133,16 @@
             "enflasyon"
           ],
           "weight": 2.3
+        },
+        {
+          "title": "Çin'in planındaki Türkiye detayı! Krize karşı önlem alıyorlar - Haber 7",
+          "source": "Haber 7",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbGhHZVR0dS10eEVpUTdXRzVhdFRsWXBHRFhQTjJOTEdjTlg3bzRBTjYtcWd6V0ZHTlU3SEtad2VjeTI4dm03ODEwU0NXQWptYkN1SW93T2ROSUtQVlFWYU9IV3dEd3dyU3FRTnZaMF9IaXBpaXAzNWxTbmE4Z3dIVU1qMWIydHNjY3hORDlKVWdLTnllaEtUSnhOS0lOU0NUVnBjSE9IMlREWjF40gGvAUFVX3lxTE5QdGhlU0stTEg1V2R4VGd0ZmpWN2FVNEdtSXpXS1d1c1NwdVVSYkN0WGJyTDhUcVlGSmVzcHFoeThmY3dHdFR4ME02OWNDVGMtYTNObFV6VWhIU1pEQ0NDMzB3SmtrY19URkp3dHFyc3RDeGtyY0w3N3Z3LWFUUlFzSFV3dGlmUWx6M1Jva2tOSS1Vb0xTX04tZV9hT2E4MXh2Z0tDX1RLc21yc2MtTlk?oc=5",
+          "published": "2026-10-26T10:54:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
         },
         {
           "title": "Prof. Dr. Aktaş’tan fon krizine ilişkin uyarı: Faturası vatandaşa çıkabilir! - https://www.babaocagi.com/",
@@ -155,6 +165,16 @@
           "weight": 2.0
         },
         {
+          "title": "Borsa İstanbul fon krizinin etkilerini atlatamıyor: Faiz kararına güven bunalımı gölgesi - Para Analiz",
+          "source": "Para Analiz",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFRwS0g4WlJ1dEdjVHd6T1JvZU5PTTJyYVFBZ0YzZ2x4ZW95VmdLemlaa0hwcGpEWVZlcVpGSnRhLUNsMklhQkIwdVdUUFBjZXpiaER6bHc3bHhPUnFPVGNzQnVIYlYyOUd4bTVUOXNyWjFJQ01ORjRldVlZTWhaYThZR1hZYi1UYzkwLWxFckxod0E0RTF4YUZOa3FpZ2V1X0pILUY2YkRnRkdFTFh4Yml3?oc=5",
+          "published": "2026-10-21T07:05:57+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "'Kırılgan Resesyon ve Türkiye Ekonomisi...' - Para Analiz",
           "source": "Para Analiz",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWdxSkFwYjhRR3JEUjRDZGZNZGY5OVJKWllTaDRrV0p2djZSQ21kV1ZrelducUttT0xVcWhnOGV2R0JZWXU5azROSzhsbzZSV3FkOGdubHl3anMyWGlqSDNRdDRtTFNUYkdHU0o1QmxsbWVlaXp3eElSVmh5c0NBdHVVYW1Kal82VjN1aUdEWGlEUEtmR3Jpajd0YVhDTTQ?oc=5",
@@ -165,20 +185,20 @@
           "weight": 1.8
         },
         {
+          "title": "Borsa İstanbul'da hacim kaybı: İflas ve işsizlik kapıda mı? - Nirvana Haber",
+          "source": "Nirvana Haber",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTEM0RmJTa1FnVG9US0hUYVZsTnVWckJmUTNDNXpUVEFuU05iZm1yX1l0ekYyejJBNnAyN1VSRUtjMFdqNVVaR2dDazNjWWlfZVlOS3QtSExPT1QyakU5LUFpajBBUTZRTUxQZ0lsVThuYnVpdXFvR3dBaXRFaDlQQ2JxaEZWV3lfanFITm5yb3Fmdw?oc=5",
+          "published": "2026-10-26T10:08:00+00:00",
+          "terms": [
+            "işsizlik"
+          ],
+          "weight": 1.5
+        },
+        {
           "title": "ATSO'dan enflasyonla mücadeleye destek - Haber 7",
           "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN0w5MHZobDFIeTNrcS1NU28wVlpseGFOdkd0dy1mZGM4eDFyMzRoWWpfeFp5M0N0SmRuUTJBMjVSUHZGc2hvZDZHai1WSzUwUWNwQ2xBZkdUOFNTcTJVdUdGTWtQMlFybHMxX05UbmgtOWNxVnNEcXFaYVpNbHVZSTBHUV9yYms?oc=5",
-          "published": "2026-10-25T16:53:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Scope’tan Türkiye için enflasyon ve rezerv uyarısı - Hey Haber",
-          "source": "Hey Haber",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYW5UTGExby1oSzV4NGlUOFZtU1ltUUtBakVlZnpZV1NEMnEyVl9TSlVleGlYRS16cExhcndJU2RDQzVvYWNVeGthcHcwbTBobjJnTFNFMFVNLWg0TVQwS2NGMVBxMTMxSlhXVnVmYllnQndlMGMwZHl3cFZ2aXdQNlZiaEVZOXQ1ZkJzVEl3?oc=5",
-          "published": "2026-10-24T07:27:27+00:00",
+          "published": "2026-10-26T11:14:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -189,16 +209,6 @@
           "source": "GZT",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWjFtT3EtSWgzUnotUkg1alRyZ2ZUbjE3Y3B0NUVKdldKMDlrRml6eGRIYWUzbVhqbVVaTXJzNnd2SktYeWItVWpmRy1FWFctQUVOMHFsWkNFMUhGcUMtazZudk42cTlxZExRMVZQSmpVYWhMTjVNLXNBQUxqTkpNWElzUFlpX2szMmg5dUtmY2RFd0RIa084M2NrWG9yNm5NQUZj?oc=5",
           "published": "2026-10-22T12:47:37+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "S&P'den Türkiye için enflasyon, faiz ve dolar tahmini - Diken",
-          "source": "Diken",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM2dNUUp3TlhPcXk1SEl0WjJkUHUwYXNLZXVodU45aFZqLVVkQVdPdXZMV1JIODUzeDI3a1ktSW1vVTFFdWJtUlZwTU9kUXM2OEJybWlZRkxzdG5qZWtyZ2ZyMEY4eTg2VGZOay1nWkpuLWRId0VMN29ZMW1KSWdNUl9R?oc=5",
-          "published": "2026-10-22T08:43:50+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -233,26 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "Garanti BBVA Genel Müdürü Akten’den faiz ve enflasyon mesajı haberi - Finans Gündem",
-          "source": "Finans Gündem",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbVZiZzJJLS1yRXk0UExmSUdneW9KN2hJQ2ZJcU8zeWlfMTlfakU5cGxxVktTZjZJQTJRQTBmZjllQ1dRaDM2ZFBLcHU3X19MYmZhRC1FTkdYcjN6MU8zWEQ4Q3lJRWZVcGFCWnBqRnpGVzVtakpuVk0zeU5YNVdoVFBkRmR5YUxHbURtdnNwcEFvamxBUnBZa2ZaQnFUTHJOSWJhMU1nQkc?oc=5",
-          "published": "2026-10-21T06:28:10+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-09T23:01:07.657887+00:00",
-      "score": 8.0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-10T06:40:17.896739+00:00",
       "score": 8.1,
@@ -546,6 +541,11 @@
     {
       "generated": "2026-10-26T05:45:30.514270+00:00",
       "score": 24.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-26T13:51:18.489995+00:00",
+      "score": 24.5,
       "status": "BASELINE"
     }
   ],
