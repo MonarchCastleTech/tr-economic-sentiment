@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-26T13:51:18.489995+00:00",
+    "generated": "2026-10-26T23:01:00.809909+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 2.4,
+      "score": 2.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 164,
+      "coverage": 165,
       "matched": 20,
-      "weighted_density": 0.141,
+      "weighted_density": 0.142,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -195,6 +195,26 @@
           "weight": 1.5
         },
         {
+          "title": "Deutsche Bank Türkiye için enflasyon ve faiz beklentilerini açıkladı - Borsatek",
+          "source": "Borsatek",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kYUlUdEtVbGxETXVoc1pVVGhwV1Q1TWcxeW56eF9kXzhXZE1NQXMzbk80MVNRNXFzbW51VkdxeVdkUlRhMHExMXhIdkxkUjd0clR0WUJxN1FfelBpU3hjdEw3MEpjcXMzZTBQNTBJYlk?oc=5",
+          "published": "2026-10-26T14:43:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Capital Economics’ten Türkiye için faiz ve enflasyon öngörüsü! haberi - Finans Gündem",
+          "source": "Finans Gündem",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUjV0Y3Y5ZVAzcVdlTUVRTTlwLTZqQzJSaXFJdE16X1F6blctVTdLeGVUV0xYT3Q3ZFM2S0NWUWpYN0xSblFZNTB3aEIxTVdMT0J4N3BQWUVBQnl5Sk12ZFJmNG1nUGpuRTFCS1JEMVV6SDF4X0Z2SkFibndWREdMT1pCMExnb2dSSVczZWkycjU1bXZYY0xvZEJyMUhzbXZaTVJQNHVMQnNCUQ?oc=5",
+          "published": "2026-10-26T11:34:40+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "ATSO'dan enflasyonla mücadeleye destek - Haber 7",
           "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN0w5MHZobDFIeTNrcS1NU28wVlpseGFOdkd0dy1mZGM4eDFyMzRoWWpfeFp5M0N0SmRuUTJBMjVSUHZGc2hvZDZHai1WSzUwUWNwQ2xBZkdUOFNTcTJVdUdGTWtQMlFybHMxX05UbmgtOWNxVnNEcXFaYVpNbHVZSTBHUV9yYms?oc=5",
@@ -205,10 +225,10 @@
           "weight": 0.8
         },
         {
-          "title": "TCMB’den faiz ve enflasyon mesajı: Kalıcı bozulmada sıkılaşma adımı | Türkiye Ekonomisi Haberleri - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWjFtT3EtSWgzUnotUkg1alRyZ2ZUbjE3Y3B0NUVKdldKMDlrRml6eGRIYWUzbVhqbVVaTXJzNnd2SktYeWItVWpmRy1FWFctQUVOMHFsWkNFMUhGcUMtazZudk42cTlxZExRMVZQSmpVYWhMTjVNLXNBQUxqTkpNWElzUFlpX2szMmg5dUtmY2RFd0RIa084M2NrWG9yNm5NQUZj?oc=5",
-          "published": "2026-10-22T12:47:37+00:00",
+          "title": "Üç büyük merkez bankası enflasyon riskleri altında faiz kararı alacak - Anadolu Ajansı",
+          "source": "Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMHp3MVc1Vm9oVEZqSVJMZ3hUZ0RWa2p4d09oOWhsQ1Q0ZHBNWXFpd0g2QzkzZzZobXZxbVZEX0VYX2NpQjRoU2lqY2R5bjBmY2xucFVKaXJBek5IbFJEb1FlMVQyRjBCQlo4MEtibERFZlZDZWVuQlExVkNmMjA1TjUtcmxDWU02ZW5RZXFvcklfOGxuUjc2eWFnOWhYUlNGSi1sTnkyYWlhaG5SQ3Rv?oc=5",
+          "published": "2026-10-26T08:15:11+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -223,36 +243,11 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "S&P’den Türkiye ekonomisi için enflasyon, faiz ve büyüme tahmini - 24 Saat Gazetesi",
-          "source": "24 Saat Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPengyT0FqRWRMNUtHQzV4ZXg4X0gyUUQyRXNpWGpaMDJIVlNrWDZVOUNiMHZjUzlfV1hidmlXcWp4elEtS0NKMElDQXlheFFoUWVQeEc3aGhGS3Z5YVU1VnVDNXlOSlFsak92N3dPV1l0M3hhNGdZSjB3NWI5QXkybXFKR0Iwbnc0cXozaVQxUUdqVXpacWJj?oc=5",
-          "published": "2026-10-21T11:54:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "S&P’den Türkiye için kritik faiz ve enflasyon tahmini: Kredi notu artışı üç koşula bağlı - 12punto",
-          "source": "12punto",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZlF3anRHMEVTWl9aVndBRTVnSXNBakk5bldBOHZsNkc0bkxBMnIzNnFId01qWU1CaGdSR2ZyWXVqVGd5UU9IT3M0RG5YaHpBWWlJVURyWmVHUzdtRDVVaFhHYm5jYTZIZWVBMklaWE94ellyeVl6UVhfOGhFRUZyYU9zZUFZUm9JbGhfNmxjYXd1VkRKWjRYWmlYbVFXMzE4Q28xdDlod2ZlNHREdHFPYUxPLXRibTRPV1RpQnZiOEk?oc=5",
-          "published": "2026-10-21T09:49:56+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-10T06:40:17.896739+00:00",
-      "score": 8.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-10T13:16:22.300483+00:00",
       "score": 7.7,
@@ -545,6 +540,11 @@
     },
     {
       "generated": "2026-10-26T13:51:18.489995+00:00",
+      "score": 24.5,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-26T23:01:00.809909+00:00",
       "score": 24.5,
       "status": "BASELINE"
     }
