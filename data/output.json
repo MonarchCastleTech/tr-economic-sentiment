@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-25T21:24:23.504676+00:00",
+    "generated": "2026-10-26T05:45:30.514270+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -113,14 +113,14 @@
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 0.0,
+      "score": 0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 162,
-      "matched": 19,
-      "weighted_density": 0.12,
+      "coverage": 159,
+      "matched": 18,
+      "weighted_density": 0.118,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -195,16 +195,6 @@
           "weight": 0.8
         },
         {
-          "title": "Mert Yılmaz'dan Faiz İndirimi Ve Enflasyon Tahmini - Finans Hattı",
-          "source": "Finans Hattı",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdi1FanBsV1NIVjVhVEU2ajFiVy1ha05SRTRaeXJvYWZka0E3Rmx1MXFGQnFqMEFCRUgtcFhuSDZPWUc2NW5rbW5KalppdnNoQXQ4NzZzX0U3d1piVkxQNzE4bkIyTEV6b1NjVjZjaU9FWVdLeEFoZXBZbHpuMnVnQ0ZHck1YX0Y2X1RtSA?oc=5",
-          "published": "2026-10-22T09:38:44+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "S&P'den Türkiye için enflasyon, faiz ve dolar tahmini - Diken",
           "source": "Diken",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM2dNUUp3TlhPcXk1SEl0WjJkUHUwYXNLZXVodU45aFZqLVVkQVdPdXZMV1JIODUzeDI3a1ktSW1vVTFFdWJtUlZwTU9kUXM2OEJybWlZRkxzdG5qZWtyZ2ZyMEY4eTg2VGZOay1nWkpuLWRId0VMN29ZMW1KSWdNUl9R?oc=5",
@@ -243,16 +233,21 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Garanti BBVA Genel Müdürü Akten’den faiz ve enflasyon mesajı haberi - Finans Gündem",
+          "source": "Finans Gündem",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbVZiZzJJLS1yRXk0UExmSUdneW9KN2hJQ2ZJcU8zeWlfMTlfakU5cGxxVktTZjZJQTJRQTBmZjllQ1dRaDM2ZFBLcHU3X19MYmZhRC1FTkdYcjN6MU8zWEQ4Q3lJRWZVcGFCWnBqRnpGVzVtakpuVk0zeU5YNVdoVFBkRmR5YUxHbURtdnNwcEFvamxBUnBZa2ZaQnFUTHJOSWJhMU1nQkc?oc=5",
+          "published": "2026-10-21T06:28:10+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-09T18:38:28.598944+00:00",
-      "score": 8.0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-09T23:01:07.657887+00:00",
       "score": 8.0,
@@ -545,6 +540,11 @@
     },
     {
       "generated": "2026-10-25T21:24:23.504676+00:00",
+      "score": 24.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-26T05:45:30.514270+00:00",
       "score": 24.3,
       "status": "BASELINE"
     }
