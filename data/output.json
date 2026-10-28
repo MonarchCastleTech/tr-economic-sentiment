@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-28T06:36:20.761393+00:00",
+    "generated": "2026-10-28T08:23:44.023740+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 25.1,
-    "raw_score": 25.1,
+    "score": 24.8,
+    "raw_score": 24.8,
     "concurrence_bonus": 0.0,
-    "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 25.1/100.",
+    "status": "BASELINE",
+    "headline": "Türkiye economic-strain pressure is baseline at 24.8/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -41,7 +41,8 @@
           "date": "2026-10-27",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
-      ]
+      ],
+      "source_collected_at": "2026-10-28T08:23:44.023740+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -63,7 +64,8 @@
           "date": "2026-10-20",
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
-      ]
+      ],
+      "source_collected_at": "2026-10-28T08:23:44.023740+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -86,7 +88,8 @@
           "date": "2026-09-01",
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
-      ]
+      ],
+      "source_collected_at": "2026-10-28T08:23:44.023740+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -109,18 +112,19 @@
           "date": "2026-09-01",
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
-      ]
+      ],
+      "source_collected_at": "2026-10-28T08:23:44.023740+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 7.8,
+      "score": 5.3,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 172,
-      "matched": 31,
-      "weighted_density": 0.188,
+      "matched": 29,
+      "weighted_density": 0.166,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -161,26 +165,6 @@
           "published": "2026-10-25T09:29:00+00:00",
           "terms": [
             "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Borsa İstanbul fon krizinin etkilerini atlatamıyor: Faiz kararına güven bunalımı gölgesi - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFRwS0g4WlJ1dEdjVHd6T1JvZU5PTTJyYVFBZ0YzZ2x4ZW95VmdLemlaa0hwcGpEWVZlcVpGSnRhLUNsMklhQkIwdVdUUFBjZXpiaER6bHc3bHhPUnFPVGNzQnVIYlYyOUd4bTVUOXNyWjFJQ01ORjRldVlZTWhaYThZR1hZYi1UYzkwLWxFckxod0E0RTF4YUZOa3FpZ2V1X0pILUY2YkRnRkdFTFh4Yml3?oc=5",
-          "published": "2026-10-21T07:05:57+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Yapay zeka sonunu getirdi, dev şirket iflas etti - NTV Haber",
-          "source": "NTV Haber",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUFN1S21zYWRjZFd6RE52TTdFZFREeEpVanVlSU1HWGtZMXBncHZCMjBFQnlUczNFUlc3dUVEcU5TTk9RR0NyalRzOG5maUFsSUNwYnFXZXlsRjl1eTJPSDVuVHlWU2JlYk9XbmJIblJtc2FHME5mWVI3R0g4aHRIdkZ1V3pjSWs1aGNYR2V0QQ?oc=5",
-          "published": "2026-10-21T07:05:31+00:00",
-          "terms": [
-            "iflas"
           ],
           "weight": 2.0
         },
@@ -244,16 +228,32 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "2027 ekonomi programı: Büyüme, enflasyon ve dış ticarette hedefler | Türkiye Ekonomisi Haberleri - GZT",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc1VtLTJVSzNMa1lUNGpPdFMwcmxDSFJiNGZLcGI2V2F6TnRVUzA0X0NwNDY3Tnk4ck5FZTdqWUZ1VncxeVBaVk1VY3lKUFc1d29KUF9NeFMyc0tvV08tclpSUlBmOGtjWkxQZUxNb2U2N2JPRGtPMnFTbjNhbmdqaWFudjR6eFJuZVplNFp5SE5LOW1UUDdhNGlYcjE3NmpkREE?oc=5",
+          "published": "2026-10-27T08:18:39+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Türkiye ekonomisi için 2027 hedefleri: Büyüme hızlanacak, enflasyon gerileyecek - İstanbul Ticaret Gazetesi",
+          "source": "İstanbul Ticaret Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSHFWb05SUjVzanNXUlJiNDJnX3VNY1diWnphNmVwM3RXZWFVeUFjSzZUc3haNHU2NHdYYlg2QUgxTHlTTXpCdVpyUjVmQnhWXzlXY2Fjb3ZrRWtaWVVyVUpjdC1wTUZ0YVFpTEI3WmVwZ1k2LTlZWGJ2enBjWXc3TldFQTlTLTRITzE5Y1BFMHpMWTNGY2gwaG5TNmxJVWtsWjBKRzFneWh3SWdCMTkzSnBQYw?oc=5",
+          "published": "2026-10-27T07:02:06+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
-      ]
+      ],
+      "source_collected_at": "2026-10-28T08:23:44.023740+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-11T22:39:34.043181+00:00",
-      "score": 7.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-12T06:56:49.209211+00:00",
       "score": 7.5,
@@ -548,6 +548,11 @@
       "generated": "2026-10-28T06:36:20.761393+00:00",
       "score": 25.1,
       "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-28T08:23:44.023740+00:00",
+      "score": 24.8,
+      "status": "BASELINE"
     }
   ],
   "sources": [
