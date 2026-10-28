@@ -121,22 +121,31 @@ def previous() -> dict[str, Any]:
     try: return json.loads(OUTPUT.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError): return {}
 def fallback(old: dict[str, Any], key: str, now: datetime, error: Exception) -> dict[str, Any]:
-    generated = pdt((old.get("meta") or {}).get("generated")); row = (old.get("components") or {}).get(key)
+    row = (old.get("components") or {}).get(key); generated = pdt(row.get("source_collected_at")) if isinstance(row, dict) else None
+    if not generated and isinstance(row, dict) and not row.get("retained"): generated = pdt((old.get("meta") or {}).get("generated"))
     if generated and timedelta(0) <= now - generated <= timedelta(hours=FALLBACK_HOURS) and isinstance(row, dict) and row.get("available"):
-        copy = json.loads(json.dumps(row)); copy["retained"] = True; copy["retained_reason"] = type(error).__name__; return copy
-    return {"key": key, "score": None, "status": "UNAVAILABLE", "weight": WEIGHTS[key], "available": False, "retained": False, "coverage": 0, "evidence": [], "error": type(error).__name__}
+        copy = json.loads(json.dumps(row)); copy["retained"] = True; copy["retained_reason"] = type(error).__name__; copy["source_collected_at"] = generated.isoformat(); return copy
+    return {"key": key, "score": None, "status": "UNAVAILABLE", "weight": WEIGHTS[key], "available": False, "retained": False, "coverage": 0, "method": "Source unavailable; excluded and remaining weights renormalized.", "evidence": [], "error": type(error).__name__}
 
 def main() -> None:
-    now = datetime.now(timezone.utc); old = previous(); notes = []; components: dict[str, dict[str, Any]] = {}; fx = collect_fx_days(now.date())
+    now = datetime.now(timezone.utc); old = previous(); notes = []; components: dict[str, dict[str, Any]] = {}; fx = []; fx_error = None
+    try:
+        fx = collect_fx_days(now.date())
+        if not fx: raise RuntimeError("Exchange-rate source returned no records")
+    except Exception as error:
+        fx_error = error
+    def require_fx():
+        if fx_error is not None: raise fx_error
+        return fx
     collectors = {
-        "lira_dislocation": lambda: collect_lira(fx),
-        "imported_energy": lambda: collect_energy(fx),
+        "lira_dislocation": lambda: collect_lira(require_fx()),
+        "imported_energy": lambda: collect_energy(require_fx()),
         "reserve_buffer": lambda: monthly_pressure(fred_series("TRESEGTRM052N", 1800), -1, "reserve_buffer", WEIGHTS["reserve_buffer"], "70% adverse monthly reserve-change anomaly + 30% three-month drawdown magnitude.", "Reserves excluding gold, USD mn", SOURCES[2]["url"]),
         "consumer_confidence": lambda: monthly_pressure(fred_series("CSCICP02TRM460S", 1800), -1, "consumer_confidence", WEIGHTS["consumer_confidence"], "70% adverse monthly confidence-change anomaly + 30% three-month deterioration.", "OECD consumer confidence", SOURCES[3]["url"]),
         "narrative_strain": lambda: collect_narrative(now),
     }
     for key, collector in collectors.items():
-        try: components[key] = collector(); print(f"[live] {key}: {components[key]['score']}")
+        try: components[key] = collector(); components[key]["source_collected_at"] = now.isoformat(); print(f"[live] {key}: {components[key]['score']}")
         except Exception as error:
             components[key] = fallback(old, key, now, error); notes.append(f"{key}: {'retained' if components[key].get('retained') else 'unavailable'} ({type(error).__name__})"); print(f"[fallback] {key}: {error}")
     available = [x for x in components.values() if x.get("available") and x.get("score") is not None]; denominator = sum(x["weight"] for x in available); raw = sum(x["score"] * x["weight"] for x in available) / denominator if denominator else 0

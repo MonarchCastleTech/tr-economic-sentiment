@@ -32,4 +32,26 @@ class ModelTests(unittest.TestCase):
         self.assertIn("Verify keyless offline contracts",workflow)
         self.assertLess(workflow.index("python -m unittest discover"),workflow.index("Refresh public data"))
 
+    def test_retained_source_does_not_gain_a_new_window(self):
+        now=datetime.now(timezone.utc)
+        old={"meta":{"generated":(now-timedelta(hours=71)).isoformat()},"components":{"lira_dislocation":{"score":51,"available":True,"weight":.3}}}
+        retained=fallback(old,"lira_dislocation",now,RuntimeError("offline"))
+        refreshed={"meta":{"generated":now.isoformat()},"components":{"lira_dislocation":retained}}
+        self.assertFalse(fallback(refreshed,"lira_dislocation",now+timedelta(hours=2),RuntimeError("offline"))["available"])
+
+    def test_fx_failure_does_not_block_other_sources(self):
+        import json, tempfile
+        from unittest.mock import patch
+        import turkiye_warning_model as model
+        def fail(*args): raise RuntimeError("exchange-rate source unavailable")
+        def component(key): return {"key":key,"score":20,"weight":model.WEIGHTS[key],"available":True,"retained":False}
+        with tempfile.TemporaryDirectory() as directory:
+            output=Path(directory)/"output.json"
+            with patch.object(model,"OUTPUT",output), patch.object(model,"collect_fx_days",fail), patch.object(model,"fred_series",lambda *args:[]), patch.object(model,"monthly_pressure",side_effect=lambda rows, direction, key, *args:component(key)), patch.object(model,"collect_narrative",lambda now:component("narrative_strain")):
+                model.main()
+            result=json.loads(output.read_text(encoding="utf-8"))
+        self.assertEqual(result["meta"]["coverage"],"3/5")
+        self.assertFalse(result["components"]["lira_dislocation"]["available"])
+        self.assertFalse(result["components"]["imported_energy"]["available"])
+
 if __name__ == "__main__": unittest.main()
