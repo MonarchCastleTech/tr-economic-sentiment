@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-29T23:05:32.835962+00:00",
+    "generated": "2026-10-30T06:46:37.173908+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 26.2,
-    "raw_score": 26.2,
+    "score": 26.0,
+    "raw_score": 26.0,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 26.2/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 26.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
+      "coverage": 126,
       "latest_date": "2026-10-27",
       "latest_value": 49.6997,
       "change_5d_pct": 0.43,
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-10-29T23:05:32.835962+00:00"
+      "source_collected_at": "2026-10-30T06:46:37.173908+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,7 +51,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 124,
+      "coverage": 123,
       "latest_date": "2026-10-27",
       "latest_value": 6118.0,
       "change_5d_pct": 7.29,
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-10-29T23:05:32.835962+00:00"
+      "source_collected_at": "2026-10-30T06:46:37.173908+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-10-29T23:05:32.835962+00:00"
+      "source_collected_at": "2026-10-30T06:46:37.173908+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-10-29T23:05:32.835962+00:00"
+      "source_collected_at": "2026-10-30T06:46:37.173908+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 5.0,
+      "score": 3.1,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 127,
-      "matched": 18,
-      "weighted_density": 0.164,
+      "coverage": 152,
+      "matched": 25,
+      "weighted_density": 0.147,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -139,26 +139,6 @@
           "weight": 2.3
         },
         {
-          "title": "ANKETLER: Ekonomi Yönetimine Güven Dibe Vurdu, Fon Krizi Türkiye'nin En Önemli Sorunları Arasına Girdi - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVzBkSnhtcklpVzNDZXdwb0owSVQxQ2ltOFZJOVlwbTRIZXFZakFab1AyMXNKWU1SZEFGR3FHLUMwcWRSaVZBdWREM0RBSEFQSkQxSlV5ZjluUkpwLXJ6VU9PdDZGbTcwLVk0dVpvQ25kZm1VUWJUakFSVkZacWZkRDN0Y25mMmhlampIYXkwUGFfWFN3aUtYdEdTaDVlem5qTG9XZThiUW16RURwb3ZoQ1F3?oc=5",
-          "published": "2026-10-27T13:16:47+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Çin'in planındaki Türkiye detayı! Krize karşı önlem alıyorlar - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbGhHZVR0dS10eEVpUTdXRzVhdFRsWXBHRFhQTjJOTEdjTlg3bzRBTjYtcWd6V0ZHTlU3SEtad2VjeTI4dm03ODEwU0NXQWptYkN1SW93T2ROSUtQVlFWYU9IV3dEd3dyU3FRTnZaMF9IaXBpaXAzNWxTbmE4Z3dIVU1qMWIydHNjY3hORDlKVWdLTnllaEtUSnhOS0lOU0NUVnBjSE9IMlREWjF40gGvAUFVX3lxTE5QdGhlU0stTEg1V2R4VGd0ZmpWN2FVNEdtSXpXS1d1c1NwdVVSYkN0WGJyTDhUcVlGSmVzcHFoeThmY3dHdFR4ME02OWNDVGMtYTNObFV6VWhIU1pEQ0NDMzB3SmtrY19URkp3dHFyc3RDeGtyY0w3N3Z3LWFUUlFzSFV3dGlmUWx6M1Jva2tOSS1Vb0xTX04tZV9hT2E4MXh2Z0tDX1RLc21yc2MtTlk?oc=5",
-          "published": "2026-10-26T14:16:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
           "title": "Prof. Dr. Aktaş’tan fon krizine ilişkin uyarı: Faturası vatandaşa çıkabilir! - https://www.babaocagi.com/",
           "source": "https://www.babaocagi.com/",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcDZpOUQtcVhFazllTVZjWE84Nnc5R2hwZlFMakEtdjR3ZzZvSkxpY2ZHSXVTQm1tLWpFVXlQeTJTcVFUUWNfdXE4VXBEZktxZWJyX3dIQXJ4NkRSMGtxbnVBMkNHOHBSQmFXbTJIWGFKSkE1WmgtZkxWTVMtRWJJeEpfU2RITE9EQ3pCNWxkeWFsRllPSnM2dVJPdHYxX1BldEE?oc=5",
@@ -167,16 +147,6 @@
             "kriz"
           ],
           "weight": 2.0
-        },
-        {
-          "title": "'Kırılgan Resesyon ve Türkiye Ekonomisi...' - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWdxSkFwYjhRR3JEUjRDZGZNZGY5OVJKWllTaDRrV0p2djZSQ21kV1ZrelducUttT0xVcWhnOGV2R0JZWXU5azROSzhsbzZSV3FkOGdubHl3anMyWGlqSDNRdDRtTFNUYkdHU0o1QmxsbWVlaXp3eElSVmh5c0NBdHVVYW1Kal82VjN1aUdEWGlEUEtmR3Jpajd0YVhDTTQ?oc=5",
-          "published": "2026-10-24T23:51:54+00:00",
-          "terms": [
-            "resesyon"
-          ],
-          "weight": 1.8
         },
         {
           "title": "Borsa İstanbul'da hacim kaybı: İflas ve işsizlik kapıda mı? - Nirvana Haber",
@@ -199,10 +169,30 @@
           "weight": 0.8
         },
         {
+          "title": "İktisatçı Prof. Dr. Uysal'dan Türkiye Cumhuriyeti'nin enflasyon karnesi: En başarısız dönemler 1980-1999 ile 2000-2025 - T24",
+          "source": "T24",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNUVLTVFPQ3NDcXphdEpzSlkxSERRb2dHZW5ETFp1WWd2Y3NpX0FaOFBOVWpNZTMwN3dIbUtDTjNfMTVNY2xtSzZwVUx5bTFKNC0xdnJQWk5wWGVCUDhLdWx2T0dJTlJmd1RIT2M5VU5XbnllUXdCUzdjSmxNZXZ0QzNtSlpCaVI1OURmam9wS1BtU0gtMEhQdndGcUhyc2JkcW4yS0FTN2o3NjAtRFZGMG5sckVtN3lZYlRqZWo1TGtPekNpTHViYmRnSG9lMDQxMDg4bDRtTWpOMmVRcVBVMXZR?oc=5",
+          "published": "2026-10-29T08:44:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Küresel piyasaların gözü ABD büyüme ve enflasyon verileri ile ECB'nin faiz kararında - Foreks.com",
           "source": "Foreks.com",
           "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZ0NjUnB2b3RfUW1mOEw5QnhFT2VBdkctZ0tyU29yVVc3RjZwVTdaQVhhaEVxVGkwUmhnLS1GUy1JQ05lS25pdnp0S1doNnh6Zld5TXotbk96ZVhEcmV6a0xYd2NLcVZDUHI3eGZGbGhiaW1MUmVvMk5MbGF6OENud3R4V25VU2g1aUZoUFYtSVlaX2F1RENkajAwWHFOdGxVRWxTb0QzcFp6THlSUFVUdm1oYzdyWEpEN0w4bkZ1RW9Jd3JsQ3l6c0dha3pFZDhndGtOcU40VmdoT3YxdkhtMmhOcTdVUk8xWkdNT0hZa1o0cE5ZdS0wWA?oc=5",
           "published": "2026-10-29T05:57:30+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Türkiye enflasyonda savaşan ülkeleri geride bıraktı - Analiz Gazetesi",
+          "source": "Analiz Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZkplUWJtQ19YcFdGbFJ3YThYVUR2UzFReEVRcHhTNjlpcFdHSlM4MEZ2T0ZMVmNqd3lJRkcxdWtVUXpDeXVIUmRrRGpxX0QtMmdpTnZWN3c2WXdVV2dINzdzZVgzaUJianZ4endjRGxZczkxOVN1ajNvRTZ1R0xvMTFPZ0sxSS1CM1NRaWN0RVNDQlJjX1E?oc=5",
+          "published": "2026-10-27T23:01:29+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -229,10 +219,20 @@
           "weight": 0.8
         },
         {
-          "title": "Gıda fiyatları ekimde yüzde 2,59 arttı: Yıllık enflasyon yüzde 30’a dayandı - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzhXdzctRnk3V2h0SkJBZldEYXNyS3JoclZ3WmRnR0tOUGZBOGRqaFk3UmNGWVNhUEVTWk1VaFdTWlAwY29TYllZbTd1WnpaZTAzLU1vY2c0V0dJaVlfZFBOSzgtdlp6Z3VsQUI3UjRKSDF2OUVhYXFsYVF2d2poR0liVS1NSWdQWTNlWkxnXzJva2J3VDlzdWhsSUZmTjdHSFhNSzVvT2k0UGNHV2RkSmdRcktwbnEzeGhhUQ?oc=5",
-          "published": "2026-10-27T06:59:00+00:00",
+          "title": "2027 ekonomi programı: Büyüme, enflasyon ve dış ticarette hedefler | Türkiye Ekonomisi Haberleri - GZT",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc1VtLTJVSzNMa1lUNGpPdFMwcmxDSFJiNGZLcGI2V2F6TnRVUzA0X0NwNDY3Tnk4ck5FZTdqWUZ1VncxeVBaVk1VY3lKUFc1d29KUF9NeFMyc0tvV08tclpSUlBmOGtjWkxQZUxNb2U2N2JPRGtPMnFTbjNhbmdqaWFudjR6eFJuZVplNFp5SE5LOW1UUDdhNGlYcjE3NmpkREE?oc=5",
+          "published": "2026-10-27T08:18:39+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Türkiye ekonomisi için 2027 hedefleri: Büyüme hızlanacak, enflasyon gerileyecek - İstanbul Ticaret Gazetesi",
+          "source": "İstanbul Ticaret Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSHFWb05SUjVzanNXUlJiNDJnX3VNY1diWnphNmVwM3RXZWFVeUFjSzZUc3haNHU2NHdYYlg2QUgxTHlTTXpCdVpyUjVmQnhWXzlXY2Fjb3ZrRWtaWVVyVUpjdC1wTUZ0YVFpTEI3WmVwZ1k2LTlZWGJ2enBjWXc3TldFQTlTLTRITzE5Y1BFMHpMWTNGY2gwaG5TNmxJVWtsWjBKRzFneWh3SWdCMTkzSnBQYw?oc=5",
+          "published": "2026-10-27T07:02:06+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -249,15 +249,10 @@
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-10-29T23:05:32.835962+00:00"
+      "source_collected_at": "2026-10-30T06:46:37.173908+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-14T05:47:05.111162+00:00",
-      "score": 11.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-14T12:38:09.798228+00:00",
       "score": 23.2,
@@ -551,6 +546,11 @@
     {
       "generated": "2026-10-29T23:05:32.835962+00:00",
       "score": 26.2,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-30T06:46:37.173908+00:00",
+      "score": 26.0,
       "status": "WATCH"
     }
   ],
