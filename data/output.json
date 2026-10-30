@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-30T13:49:21.700907+00:00",
+    "generated": "2026-10-30T22:46:32.679871+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 26.2,
-    "raw_score": 26.2,
+    "score": 26.4,
+    "raw_score": 26.4,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 26.2/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 26.4/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-10-30T13:49:21.700907+00:00"
+      "source_collected_at": "2026-10-30T22:46:32.679871+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-10-30T13:49:21.700907+00:00"
+      "source_collected_at": "2026-10-30T22:46:32.679871+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-10-30T13:49:21.700907+00:00"
+      "source_collected_at": "2026-10-30T22:46:32.679871+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-10-30T13:49:21.700907+00:00"
+      "source_collected_at": "2026-10-30T22:46:32.679871+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 5.2,
+      "score": 6.9,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 122,
-      "matched": 18,
-      "weighted_density": 0.166,
+      "matched": 20,
+      "weighted_density": 0.18,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -139,10 +139,10 @@
           "weight": 2.3
         },
         {
-          "title": "ANKETLER: Ekonomi Yönetimine Güven Dibe Vurdu, Fon Krizi Türkiye'nin En Önemli Sorunları Arasına Girdi - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVzBkSnhtcklpVzNDZXdwb0owSVQxQ2ltOFZJOVlwbTRIZXFZakFab1AyMXNKWU1SZEFGR3FHLUMwcWRSaVZBdWREM0RBSEFQSkQxSlV5ZjluUkpwLXJ6VU9PdDZGbTcwLVk0dVpvQ25kZm1VUWJUakFSVkZacWZkRDN0Y25mMmhlampIYXkwUGFfWFN3aUtYdEdTaDVlem5qTG9XZThiUW16RURwb3ZoQ1F3?oc=5",
-          "published": "2026-10-27T13:16:47+00:00",
+          "title": "GÜNDEM EKONOMİ | Türkiye’nin Krizi Dünyanın da Krizi: \"Fon Skandalı Madoff Rezaleti Gibi En Az 50 Yıl Konuşulacak\" - dokuz8HABER",
+          "source": "dokuz8HABER",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMnVlUzE4QmxWRDVjVFlwX0NyOVotWGlFNXozY0wzcEJOdy1ydXhNYXhCMFVINVZPZXJVZ3hBQ0xQUVo3dUdrZnhud3I3RDlfRmcwd3Y5NjZVNzRLR3Y1aEplWDROQm5nUW5WUmw0VWZVX1B2aGYtRDI1TjdnYXBjRXNucTRCT2ppUEp1SXJxUnVNMmxuUGRLeVluTGZmMFRBaFZUOEZ4a2xtbkppdHZPY1M2VU1PS2VTcWJMcFBrV1NveS1yWlpqWjBLckdtekQ1TDlfN2VFRl9mdnBNNFE?oc=5",
+          "published": "2026-10-30T19:22:33+00:00",
           "terms": [
             "kriz"
           ],
@@ -151,7 +151,7 @@
         {
           "title": "Çin'in planındaki Türkiye detayı! Krize karşı önlem alıyorlar - Haber 7",
           "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbGhHZVR0dS10eEVpUTdXRzVhdFRsWXBHRFhQTjJOTEdjTlg3bzRBTjYtcWd6V0ZHTlU3SEtad2VjeTI4dm03ODEwU0NXQWptYkN1SW93T2ROSUtQVlFWYU9IV3dEd3dyU3FRTnZaMF9IaXBpaXAzNWxTbmE4Z3dIVU1qMWIydHNjY3hORDlKVWdLTnllaEtUSnhOS0lOU0NUVnBjSE9IMlREWjF40gGvAUFVX3lxTE5QdGhlU0stTEg1V2R4VGd0ZmpWN2FVNEdtSXpXS1d1c1NwdVVSYkN0WGJyTDhUcVlGSmVzcHFoeThmY3dHdFR4ME02OWNDVGMtYTNObFV6VWhIU1pEQ0NDMzB3SmtrY19URkp3dHFyc3RDeGtyY0w3N3Z3LWFUUlFzSFV3dGlmUWx6M1Jva2tOSS1Vb0xTX04tZV9hT2E4MXh2Z0tDX1RLc21yc2MtTlk?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHRoZVNLLUxINVdkeFRndGZqVjdhVTRHbUl6V0tXdXNTcHVVUmJDdFhickw4VHFZRkplc3BxaHk4ZmN3R3RUeDBNNjljQ1RjLWEzTmxVelVoSFNaRENDQzMwd0pra2NfVEZKd3RxcnN0Q3hrcmNMNzd2dy1hVFJRc0hVd3RpZlFsejNSb2trTkktVW9MU19OLWVfYU9hODF4dmdLQ19US3NtcnNjLU5Z0gGvAUFVX3lxTE5QdGhlU0stTEg1V2R4VGd0ZmpWN2FVNEdtSXpXS1d1c1NwdVVSYkN0WGJyTDhUcVlGSmVzcHFoeThmY3dHdFR4ME02OWNDVGMtYTNObFV6VWhIU1pEQ0NDMzB3SmtrY19URkp3dHFyc3RDeGtyY0w3N3Z3LWFUUlFzSFV3dGlmUWx6M1Jva2tOSS1Vb0xTX04tZV9hT2E4MXh2Z0tDX1RLc21yc2MtTlk?oc=5",
           "published": "2026-10-26T14:16:00+00:00",
           "terms": [
             "kriz"
@@ -179,10 +179,21 @@
           "weight": 1.5
         },
         {
-          "title": "Zafer Ozcivan: Kevin Warsh’tan Enflasyon ve Piyasalar İçin Kritik Mesajlar - Gaziantep Ekspres Gazetesi",
-          "source": "Gaziantep Ekspres Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSmJmWXAxbW05TUEtOVdSZ1FOeU9aaEFxSHZxTzBwZVFhNGVEWUtxTERXdkRUV21lT3R4eDF5OHZGRnM1XzBHLUEzSG91OWxWLXc2UUVzd0NVdVl0ZTlBLUIzQVRuR0RmTm02SXpNN0s0RmR0OVRVcGtNN0NqQmtndng0a1FhQUttZ3VDLVNORkhFZw?oc=5",
-          "published": "2026-10-30T13:13:00+00:00",
+          "title": "Memur ve emekli zammı için kritik viraj: Salı günü açıklanacak veri öncesi anketlerden flaş enflasyon tahmini - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWFNKdHphYVVUdmFfZFlPZzhYd3lZeTNyOWs5ZlZsUHI3QkZkSzZJSzktZ3I3WXhhS1FhblZEc3ZsWW02OC03X1FDaFRKWmlRUEZ2eXR4Sk1oTGJjWkFHUlAtZXVPU3VMcjE5a1A2UzdJLVBOa1duYW9EQ29tcG9ydEM4RnhzVXdNbmpZNHVxWC1zWGR1aTkxeVRERk1RblJoV2VjRWh3aVVpWWd6UHEtWldHbTFveWVLZmhiR0hqN0dqR3RjYU1TWkt1ZGF0OWxSejdLLU1OTUhkaVVkUURaWnlPcE4?oc=5",
+          "published": "2026-10-30T13:55:08+00:00",
+          "terms": [
+            "zam",
+            "enflasyon"
+          ],
+          "weight": 1.4
+        },
+        {
+          "title": "Enflasyon Düşüyor, Faiz İniyor: Ekonomide Yeni Dönem mi Başlıyor? - CNN Türk",
+          "source": "CNN Türk",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ2ZjSzZFM2F6ZkxGOEt0M0tqYXpFNEtqTEtFNjJMMnFmbWtlR3A4Y0dQZHozb2hyZ1NWSXdJTWgwLS0wRl8xVFVIYmc3NG42WnJVTlJ2WWlSVlExcUJBVkZxT3lCYmQwMXUyZ3ZiV3RxWFNRUDMwUnJzSDdNb0szQzQ0MnJxNTg1elpGcmRFZlZoSHpCbmxKOWdSWGg?oc=5",
+          "published": "2026-10-30T18:20:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -199,20 +210,20 @@
           "weight": 0.8
         },
         {
-          "title": "TCMB'den kritik enflasyon mesajı: Sıkı para politikası sürecek - YatırımX",
-          "source": "YatırımX",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb1dzYTE0Nnd2T19FS1hjUlM5MlJ3c3dGT3JHam14U1lxS29RV3k3Yi11NFdIZklKRTg2UDZEQnh5VWhfMFlFQjNySV9JblpWV0hyeDFKY3ZFMy01OURDVThhUG1YV1lSRXBtd01COFV0T1NNUzFJc0M1aWJ4eU8tZktaWER1bUMtMDNLSDJyRlNBbHhsV2ZTcWV4QjloUk1Icms1bQ?oc=5",
-          "published": "2026-10-30T11:41:37+00:00",
+          "title": "TCMB: Manşet enflasyondaki yükselişin ana eğilime etkisi sınırlı kalacak - Doviz.com",
+          "source": "Doviz.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa1gyeVBnTTJodHpVT2ttVUhpSUNUQ0FWUGVjcDExRTFRcFJhQjc5amMyVjBLWDcxUTBIY1V4OTJFTTliMnVBME8wa3JONUQ0YmRrS1BEWWloV1hIUWZmVllYN3kwUk9QT181azIydXh5MUllbDJqcDAzeW9EdFZTaDQ1ZGNRVDdkcTlWSF85aF9Yc1RhR2RUbi0tRDhEWXVEVFJNRG1UejVLU0RBWG50b21BUnVNbWg1MHVn0gHDAUFVX3lxTFA3NWEyZWFFRXpEUlBkQXZTZ3V4TkdDcUJGeGpSbmtZb05IeHFwdzRVOVdkMU1CWHg5MFhGdFJJd3RVT2NVcVJ3ank1dXNCTWZBTTZxaERhb3M1Nm1RNUNrRkJ3WHVfSUNwZ2x0VGFBZk1UOG5CeWtxek9qQmlYWTZlLWRTS0RnejlIRkc5SFFiSlA5NDJVbGJ2eU5sMkNNa2xNeDJyVG1TRG1wdm9xVkhwTC1UZDVMQ0tteHdlV1BLRzRNQQ?oc=5",
+          "published": "2026-10-30T11:40:25+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "TCMB: Manşet enflasyondaki yükselişin ana eğilime etkisi sınırlı kalacak - Doviz.com",
-          "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa1gyeVBnTTJodHpVT2ttVUhpSUNUQ0FWUGVjcDExRTFRcFJhQjc5amMyVjBLWDcxUTBIY1V4OTJFTTliMnVBME8wa3JONUQ0YmRrS1BEWWloV1hIUWZmVllYN3kwUk9QT181azIydXh5MUllbDJqcDAzeW9EdFZTaDQ1ZGNRVDdkcTlWSF85aF9Yc1RhR2RUbi0tRDhEWXVEVFJNRG1UejVLU0RBWG50b21BUnVNbWg1MHVn0gHDAUFVX3lxTFA3NWEyZWFFRXpEUlBkQXZTZ3V4TkdDcUJGeGpSbmtZb05IeHFwdzRVOVdkMU1CWHg5MFhGdFJJd3RVT2NVcVJ3ank1dXNCTWZBTTZxaERhb3M1Nm1RNUNrRkJ3WHVfSUNwZ2x0VGFBZk1UOG5CeWtxek9qQmlYWTZlLWRTS0RnejlIRkc5SFFiSlA5NDJVbGJ2eU5sMkNNa2xNeDJyVG1TRG1wdm9xVkhwTC1UZDVMQ0tteHdlV1BLRzRNQQ?oc=5",
-          "published": "2026-10-30T11:40:25+00:00",
+          "title": "TCMB: Manşet enflasyondaki yükselişin ana eğilime etkisi sınırlı kalacak - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeVhfUUdjNzhkZFlDaXdCa29fQlhTLVdTcEZhV2JSa01yMk9OX2wweTZ4d2lWMTJUQUh5UmVKSGFhUFFsZ3RWT2Y1NDNpX0gwdTZtY0N1UUdhMDBENHNfWXNwSlFJWGh4aHBVY253YXFIeVk1di1nalZUQzBtdGVwSnZiZ1lQQ09oQUpIbHo1MHZ5VlBTSVJjSW5UR01MckJNSGVXZ1NrSXI2MjA?oc=5",
+          "published": "2026-10-30T11:19:28+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -229,16 +240,6 @@
           "weight": 0.8
         },
         {
-          "title": "Küresel piyasaların gözü ABD büyüme ve enflasyon verileri ile ECB'nin faiz kararında - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZ0NjUnB2b3RfUW1mOEw5QnhFT2VBdkctZ0tyU29yVVc3RjZwVTdaQVhhaEVxVGkwUmhnLS1GUy1JQ05lS25pdnp0S1doNnh6Zld5TXotbk96ZVhEcmV6a0xYd2NLcVZDUHI3eGZGbGhiaW1MUmVvMk5MbGF6OENud3R4V25VU2g1aUZoUFYtSVlaX2F1RENkajAwWHFOdGxVRWxTb0QzcFp6THlSUFVUdm1oYzdyWEpEN0w4bkZ1RW9Jd3JsQ3l6c0dha3pFZDhndGtOcU40VmdoT3YxdkhtMmhOcTdVUk8xWkdNT0hZa1o0cE5ZdS0wWA?oc=5",
-          "published": "2026-10-29T05:57:30+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "2027’de ekonomide yeni hedefler: Faiz, enflasyon, döviz ve krediler masada - TGRT Haber",
           "source": "TGRT Haber",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaGR3cUxWa0xMbzRxNXVfRkdOYjJPNmVRVUM3Ym1jZDMyaEdtZUZpOWFsWHc5bU0wdWFxTk56ZFBISnZFUUNqbW1IaFlTWFR5alpWbVpNdUUxeUVPa1dxZ203ai12ZHhFS01HUmVFZ0RsbGRxeU55aXRXT3VscUFYMkdRNjVGME9uSUMwam1feU9BNTVWc2hER3lCNS0wVnRZSldWdnd6VkVOZFNnMDRVUXZ3?oc=5",
@@ -249,15 +250,10 @@
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-10-30T13:49:21.700907+00:00"
+      "source_collected_at": "2026-10-30T22:46:32.679871+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-14T17:46:15.027192+00:00",
-      "score": 23.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-14T22:02:37.518782+00:00",
       "score": 23.1,
@@ -551,6 +547,11 @@
     {
       "generated": "2026-10-30T13:49:21.700907+00:00",
       "score": 26.2,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-30T22:46:32.679871+00:00",
+      "score": 26.4,
       "status": "WATCH"
     }
   ],
