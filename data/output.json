@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-31T13:17:04.035686+00:00",
+    "generated": "2026-10-31T22:10:13.071535+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 26.5,
-    "raw_score": 26.5,
+    "score": 26.3,
+    "raw_score": 26.3,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 26.5/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 26.3/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-10-31T13:17:04.035686+00:00"
+      "source_collected_at": "2026-10-31T22:10:13.071535+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-10-31T13:17:04.035686+00:00"
+      "source_collected_at": "2026-10-31T22:10:13.071535+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-10-31T13:17:04.035686+00:00"
+      "source_collected_at": "2026-10-31T22:10:13.071535+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-10-31T13:17:04.035686+00:00"
+      "source_collected_at": "2026-10-31T22:10:13.071535+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 7.8,
+      "score": 6.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 137,
-      "matched": 25,
-      "weighted_density": 0.188,
+      "coverage": 142,
+      "matched": 23,
+      "weighted_density": 0.175,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -139,16 +139,6 @@
           "weight": 2.3
         },
         {
-          "title": "Prof. Dr. Kamil Yılmaz: Küresel borç riski, fon krizi ve yapay zeka balonu piyasaları tehdit ediyor - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcUZENGF1SFB6QlVtbEhSOGlTTW15em4yeGJYQ25HQXVmT3YxQ29yU0JYQnB1QXdpVHAxNExEc2dQTDktR2FKeFFBM1k4MWZWTDNxSUsybHJiTHRiV1VOemRnV295cnh6MnVHb01wNG11VHNtaXlVY3dwbGdJTGJqNVNQQVNuS0VRTGpCVWplRmVWMkhMZzduVkJ5NTF3T0dPYVlPeDRUMEhscXczVWVHQ0t1a2g4Y2lNVlpfTUY3Uk9mVzFCRExaaHJ1R2xjeWI0Q01ibkZVZVJmdw?oc=5",
-          "published": "2026-10-31T11:34:29+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
           "title": "O firma iflasın eşiğinde: 12 bin çalışan işsiz kalabilir - Ankara Masası",
           "source": "Ankara Masası",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaHN0cWFKOXdjNWNoRENrUFlCUEpVSWNvSFBYb3hJUEZGTzF3ZTk0cTN1Uk1wYWswa29YNlFNejF1dFJhYm9uUFNVZWlwTE83LXU4ZGZPbzFodWozMWpXQm9FX0NpdE5NQTg2THk5SEEzNEs1a2NmaGV4djNvTTF0WFNXZGhMWHFiOVpMbFNaNy1SZ25ORlUtUENwQmdEUjNUbXlUWFhpbjZTMnprY3Nj?oc=5",
@@ -159,9 +149,19 @@
           "weight": 2.0
         },
         {
+          "title": "ANKETLER: Ekonomi Yönetimine Güven Dibe Vurdu, Fon Krizi Türkiye'nin En Önemli Sorunları Arasına Girdi - Para Analiz",
+          "source": "Para Analiz",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdVk0SndnTDFOT1pMa09NWGJmRjJwN2ZUOFBaMlBjeEktUmR6ZVN0aFRTZnN0ZUZfMWttYk9VbDdqWndvU19TWl80STRweHJJM3c0NnVxb1JnRC1sYUM0UHZWanZRM2hGaEZyamhha2EtaWlRWnJCX1VkY3F4STduZXN4THJKT2I0OGl4OFJ2TUo1MlJMdFNicVpnOWJOaXkzcGVUdGxmcm5TVG1heTNfRTNTVTUyLVk?oc=5",
+          "published": "2026-10-27T13:16:47+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "Çin'in planındaki Türkiye detayı! Krize karşı önlem alıyorlar - Haber 7",
           "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHRoZVNLLUxINVdkeFRndGZqVjdhVTRHbUl6V0tXdXNTcHVVUmJDdFhickw4VHFZRkplc3BxaHk4ZmN3R3RUeDBNNjljQ1RjLWEzTmxVelVoSFNaRENDQzMwd0pra2NfVEZKd3RxcnN0Q3hrcmNMNzd2dy1hVFJRc0hVd3RpZlFsejNSb2trTkktVW9MU19OLWVfYU9hODF4dmdLQ19US3NtcnNjLU5Z0gGvAUFVX3lxTE5QdGhlU0stTEg1V2R4VGd0ZmpWN2FVNEdtSXpXS1d1c1NwdVVSYkN0WGJyTDhUcVlGSmVzcHFoeThmY3dHdFR4ME02OWNDVGMtYTNObFV6VWhIU1pEQ0NDMzB3SmtrY19URkp3dHFyc3RDeGtyY0w3N3Z3LWFUUlFzSFV3dGlmUWx6M1Jva2tOSS1Vb0xTX04tZV9hT2E4MXh2Z0tDX1RLc21yc2MtTlk?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbGhHZVR0dS10eEVpUTdXRzVhdFRsWXBHRFhQTjJOTEdjTlg3bzRBTjYtcWd6V0ZHTlU3SEtad2VjeTI4dm03ODEwU0NXQWptYkN1SW93T2ROSUtQVlFWYU9IV3dEd3dyU3FRTnZaMF9IaXBpaXAzNWxTbmE4Z3dIVU1qMWIydHNjY3hORDlKVWdLTnllaEtUSnhOS0lOU0NUVnBjSE9IMlREWjF40gGvAUFVX3lxTE5QdGhlU0stTEg1V2R4VGd0ZmpWN2FVNEdtSXpXS1d1c1NwdVVSYkN0WGJyTDhUcVlGSmVzcHFoeThmY3dHdFR4ME02OWNDVGMtYTNObFV6VWhIU1pEQ0NDMzB3SmtrY19URkp3dHFyc3RDeGtyY0w3N3Z3LWFUUlFzSFV3dGlmUWx6M1Jva2tOSS1Vb0xTX04tZV9hT2E4MXh2Z0tDX1RLc21yc2MtTlk?oc=5",
           "published": "2026-10-26T14:16:00+00:00",
           "terms": [
             "kriz"
@@ -199,6 +199,16 @@
           "weight": 0.8
         },
         {
+          "title": "ING’den Türkiye için ekim enflasyonu tahmini - Doviz.com",
+          "source": "Doviz.com",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbS1vbVl3QVdsQ0JsQzljWEtoQ3R2OVBmejYzMUFxV0Z2a3hTS0x5WnFqVl9UYWYzMTUwa3djdXZKUFdsd3JjUUU1V1NXQmcxd01XbEcwYzQ3UmpUU3hhR09xSVMySDNQN1lja21TVm5rSkMwZVlFUVdFUnNyRWVVdEowUGdULTkxWmE4bDVJbEduRDlRR0k40gGfAUFVX3lxTFBsWmtEOGhDbGpMcnNXc0ZjVzhNRFl0cFdpeG1nWjdUYk5xXzRwU0E2LXhNczM5N1NkZjRta21iUzdOSzVoSFZ5QlJhVVQ5WkpDWUtHWWJIZXhKS2tKd2dzYTB5aWE1d092anVVanBYTkFFb05keHFnSER0SzNRa2N3bWZNb0syUFBGTndLT3F3QWgwaWZXQ3dOTW1MVUxvdw?oc=5",
+          "published": "2026-10-30T13:43:41+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "TCMB’den faiz indirimi sonrası enflasyon mesajı: Ekimde artış hızlanabilir - Cumhuriyet",
           "source": "Cumhuriyet",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQl9qbVMyck5lVzE5U24td2NVZmUyQTlRZkFlTVYtbE1DX0h5N20tdF92MGRVV2xkRFhMcm40VVJtRUMxdTFvX21mdFlrTlgtYlJibU5jUUc5UXVfckg5Q0wwNjh1WFM0SS11Vy1ZUVZac21mYm9lalJwbjBMMXpFWmd3bHlteFZ6SGFGRURRM2dxZmpMR0lPQWx0WHpBZlVGYXphdlBTWC1BaXFvbk1WaUZaUkVSbzUxTzVz?oc=5",
@@ -213,16 +223,6 @@
           "source": "Doviz.com",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa1gyeVBnTTJodHpVT2ttVUhpSUNUQ0FWUGVjcDExRTFRcFJhQjc5amMyVjBLWDcxUTBIY1V4OTJFTTliMnVBME8wa3JONUQ0YmRrS1BEWWloV1hIUWZmVllYN3kwUk9QT181azIydXh5MUllbDJqcDAzeW9EdFZTaDQ1ZGNRVDdkcTlWSF85aF9Yc1RhR2RUbi0tRDhEWXVEVFJNRG1UejVLU0RBWG50b21BUnVNbWg1MHVn0gHDAUFVX3lxTFA3NWEyZWFFRXpEUlBkQXZTZ3V4TkdDcUJGeGpSbmtZb05IeHFwdzRVOVdkMU1CWHg5MFhGdFJJd3RVT2NVcVJ3ank1dXNCTWZBTTZxaERhb3M1Nm1RNUNrRkJ3WHVfSUNwZ2x0VGFBZk1UOG5CeWtxek9qQmlYWTZlLWRTS0RnejlIRkc5SFFiSlA5NDJVbGJ2eU5sMkNNa2xNeDJyVG1TRG1wdm9xVkhwTC1UZDVMQ0tteHdlV1BLRzRNQQ?oc=5",
           "published": "2026-10-30T11:40:25+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "TCMB: Manşet enflasyondaki yükselişin ana eğilime etkisi sınırlı kalacak - Bloomberght",
-          "source": "Bloomberght",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeVhfUUdjNzhkZFlDaXdCa29fQlhTLVdTcEZhV2JSa01yMk9OX2wweTZ4d2lWMTJUQUh5UmVKSGFhUFFsZ3RWT2Y1NDNpX0gwdTZtY0N1UUdhMDBENHNfWXNwSlFJWGh4aHBVY253YXFIeVk1di1nalZUQzBtdGVwSnZiZ1lQQ09oQUpIbHo1MHZ5VlBTSVJjSW5UR01MckJNSGVXZ1NrSXI2MjA?oc=5",
-          "published": "2026-10-30T11:19:28+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -249,15 +249,10 @@
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-10-31T13:17:04.035686+00:00"
+      "source_collected_at": "2026-10-31T22:10:13.071535+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-15T12:26:29.256324+00:00",
-      "score": 23.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-15T17:35:08.234036+00:00",
       "score": 27.3,
@@ -551,6 +546,11 @@
     {
       "generated": "2026-10-31T13:17:04.035686+00:00",
       "score": 26.5,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-31T22:10:13.071535+00:00",
+      "score": 26.3,
       "status": "WATCH"
     }
   ],
