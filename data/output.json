@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-10-31T06:36:12.890423+00:00",
+    "generated": "2026-10-31T13:17:04.035686+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 26.3,
-    "raw_score": 26.3,
+    "score": 26.5,
+    "raw_score": 26.5,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 26.3/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 26.5/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-10-31T06:36:12.890423+00:00"
+      "source_collected_at": "2026-10-31T13:17:04.035686+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-10-31T06:36:12.890423+00:00"
+      "source_collected_at": "2026-10-31T13:17:04.035686+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-10-31T06:36:12.890423+00:00"
+      "source_collected_at": "2026-10-31T13:17:04.035686+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-10-31T06:36:12.890423+00:00"
+      "source_collected_at": "2026-10-31T13:17:04.035686+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 5.8,
+      "score": 7.8,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 139,
-      "matched": 26,
-      "weighted_density": 0.171,
+      "coverage": 137,
+      "matched": 25,
+      "weighted_density": 0.188,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -137,6 +137,26 @@
             "enflasyon"
           ],
           "weight": 2.3
+        },
+        {
+          "title": "Prof. Dr. Kamil Yılmaz: Küresel borç riski, fon krizi ve yapay zeka balonu piyasaları tehdit ediyor - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcUZENGF1SFB6QlVtbEhSOGlTTW15em4yeGJYQ25HQXVmT3YxQ29yU0JYQnB1QXdpVHAxNExEc2dQTDktR2FKeFFBM1k4MWZWTDNxSUsybHJiTHRiV1VOemRnV295cnh6MnVHb01wNG11VHNtaXlVY3dwbGdJTGJqNVNQQVNuS0VRTGpCVWplRmVWMkhMZzduVkJ5NTF3T0dPYVlPeDRUMEhscXczVWVHQ0t1a2g4Y2lNVlpfTUY3Uk9mVzFCRExaaHJ1R2xjeWI0Q01ibkZVZVJmdw?oc=5",
+          "published": "2026-10-31T11:34:29+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "O firma iflasın eşiğinde: 12 bin çalışan işsiz kalabilir - Ankara Masası",
+          "source": "Ankara Masası",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaHN0cWFKOXdjNWNoRENrUFlCUEpVSWNvSFBYb3hJUEZGTzF3ZTk0cTN1Uk1wYWswa29YNlFNejF1dFJhYm9uUFNVZWlwTE83LXU4ZGZPbzFodWozMWpXQm9FX0NpdE5NQTg2THk5SEEzNEs1a2NmaGV4djNvTTF0WFNXZGhMWHFiOVpMbFNaNy1SZ25ORlUtUENwQmdEUjNUbXlUWFhpbjZTMnprY3Nj?oc=5",
+          "published": "2026-10-29T13:03:10+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
         },
         {
           "title": "Çin'in planındaki Türkiye detayı! Krize karşı önlem alıyorlar - Haber 7",
@@ -227,37 +247,12 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "Türkiye enflasyonda savaşan ülkeleri geride bıraktı - Analiz Gazetesi",
-          "source": "Analiz Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZkplUWJtQ19YcFdGbFJ3YThYVUR2UzFReEVRcHhTNjlpcFdHSlM4MEZ2T0ZMVmNqd3lJRkcxdWtVUXpDeXVIUmRrRGpxX0QtMmdpTnZWN3c2WXdVV2dINzdzZVgzaUJianZ4endjRGxZczkxOVN1ajNvRTZ1R0xvMTFPZ0sxSS1CM1NRaWN0RVNDQlJjX1E?oc=5",
-          "published": "2026-10-27T23:01:29+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "2027 ekonomi programı: Büyüme, enflasyon ve dış ticarette hedefler | Türkiye Ekonomisi Haberleri - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc1VtLTJVSzNMa1lUNGpPdFMwcmxDSFJiNGZLcGI2V2F6TnRVUzA0X0NwNDY3Tnk4ck5FZTdqWUZ1VncxeVBaVk1VY3lKUFc1d29KUF9NeFMyc0tvV08tclpSUlBmOGtjWkxQZUxNb2U2N2JPRGtPMnFTbjNhbmdqaWFudjR6eFJuZVplNFp5SE5LOW1UUDdhNGlYcjE3NmpkREE?oc=5",
-          "published": "2026-10-27T08:18:39+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-10-31T06:36:12.890423+00:00"
+      "source_collected_at": "2026-10-31T13:17:04.035686+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-15T05:32:37.742917+00:00",
-      "score": 23.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-15T12:26:29.256324+00:00",
       "score": 23.3,
@@ -551,6 +546,11 @@
     {
       "generated": "2026-10-31T06:36:12.890423+00:00",
       "score": 26.3,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-10-31T13:17:04.035686+00:00",
+      "score": 26.5,
       "status": "WATCH"
     }
   ],
