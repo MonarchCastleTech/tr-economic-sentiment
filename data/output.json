@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-02T22:06:53.902583+00:00",
+    "generated": "2026-11-03T07:32:00.736539+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 32.6,
-    "raw_score": 32.6,
+    "score": 33.9,
+    "raw_score": 33.9,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 32.6/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 33.9/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-02T22:06:53.902583+00:00"
+      "source_collected_at": "2026-11-03T07:32:00.736539+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-02T22:06:53.902583+00:00"
+      "source_collected_at": "2026-11-03T07:32:00.736539+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-02T22:06:53.902583+00:00"
+      "source_collected_at": "2026-11-03T07:32:00.736539+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-02T22:06:53.902583+00:00"
+      "source_collected_at": "2026-11-03T07:32:00.736539+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.6,
+      "score": 21.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 129,
-      "matched": 19,
-      "weighted_density": 0.195,
+      "coverage": 110,
+      "matched": 28,
+      "weighted_density": 0.309,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -150,32 +150,42 @@
           "weight": 2.3
         },
         {
+          "title": "Vurgunun maliyeti 2008 krizini solladı - Sözcü Gazetesi",
+          "source": "Sözcü Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Naklyc3hmZWt1VkJpSDdOTUV6LWlUSWZINVpTMlNTSGJrem5OZ04yRnhFc2JTM1AtRHByY3NMaU5vMzh3Wms3WmpmVEhya0xEZFFZSFJkN0plYnh4TXlkUS1ac0NEWVkzVXdNNE1OdmFxX2MyNlUxZUxUVQ?oc=5",
+          "published": "2026-11-03T01:40:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Allianz: Türkiye'de şirket iflasları 6 yılın zirvesine çıkabilir - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOXp0MGxTQllFbEJYUEdTd1ZVZmI0VFN2V3hWbFJEaVpDQUZaaE5JeG9IZFVsNUhQclkxLXlfaGxBS2loVC1wVXZ4OGQtQmt5T1ZhcHB1bmRZaTVsc3NLWWtyU28xRkdlX25YNV9Jb0hXLVJ5bEdrVnNnRXhvd09Gb3BsNFRfM2U4ZFpPdC1CaEFfN0Z4UV9lQUhkWVdrOG1BejljTEVjYlMyVnBiYUE?oc=5",
+          "published": "2026-11-02T19:14:00+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Alaattin Aktaş: ‘Geçmişteki hiçbir kriz bugün yaşananla boy ölçüşemez’ - Yeniçağ Gazetesi",
+          "source": "Yeniçağ Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcXp3dTRyMVU2NTNTYUphbWVybVowSktseTF5UXEzTEFablhCTzIxWlpyWkJuWDBKQnZiajNkTVV6b2YxRF9wSEdPRS1HWE1IR0hvUHZaZ2ExcXc5UFBjM2c3MkJ2alpLbHZoOVRkTTJvNFpubVBRNk9oN1ZISENaeGZEZll1d3lFdGlKR0oyMWZQVXNNeVdaY0prWFMwQ2pVaE53eTgzMFhwVjJ5c1VxLWJ3?oc=5",
+          "published": "2026-11-02T12:00:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "Türkiye'nin 46 yıllık yatak devi iflas etti! - Eskisehir.Net",
           "source": "Eskisehir.Net",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YcjFlZkJWdWlwUkp2RUFnNW9iRkFkajdScEhPMGVnbndyQ01QMUR3Y3pwbWlmeEExX2xPcWFPQTVLcHpwSVlCUnQ4X292TTZ5RDI5OF92eGxtNzlfT1NmaWRPVGxzSmJtVWFvMnZWMlRtVWxIZVNN?oc=5",
           "published": "2026-11-01T06:46:00+00:00",
           "terms": [
             "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Avrupa’ya ihracat yapıyordu: Türkiye'nin köklü firması iflasını duyurdu - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeE8tZXZZMmx5bWM3ME9FemRhR3RDV3EwdVRiaGFGbHQzM0FtRExuWUNvWXJoeFhLNGlzSnBSMm5IaG05UGVFSEJwUzAxN2VtSjNiRjREVWd4T3ZaYXg4UGVNeUNEQUw2WGswZU1sWVpWRHFDZC1TODE4QVpJaEU0TU1SNjgyd3NvOTVPQXZWZGlwVzRyUE44S3pKSGJaczdabWtzUTZXcTVrVlNNaG9v?oc=5",
-          "published": "2026-11-01T06:27:21+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Muhalefet ekonomi, fon krizi ciddi - Kısa Dalga",
-          "source": "Kısa Dalga",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HQWJid1RmZzdFaG1kdGdERE9NdTROd3RLcHpPUmR2UVE1TVYwUktYQ05pZzl5akUxSFNzZGJCRWh1TzJSQnlGdE01UXM0Q2xLX1o0bVlwOFdyYU80WHFBOFA2azZNeThVaHpzY2t4S3otZktzT2FF0gF8QVVfeXFMTkpGT3hKaUtteEFMaFlPaUZfR1lyVUNyYTcwTDdBdzZCT05OY1p5SWFQVHZua0J5N01GRjNDYnR5Z3c4alBvMGZJLTNUMF9xNHhFXzBXRVFHNmV2V0xhR0JqOEZUVUFYWl8tQzZveW1mVm9DRTRpQWJ0am1JYw?oc=5",
-          "published": "2026-10-31T21:20:00+00:00",
-          "terms": [
-            "kriz"
           ],
           "weight": 2.0
         },
@@ -190,6 +200,26 @@
           "weight": 2.0
         },
         {
+          "title": "Türkiye İmalat PMI ekimde 47,3'e geriledi: Sanayide daralma 31'inci ayına girdi - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNczdnVEJRN244YU8tLVBmM2NpYnVDdUo2RW5kSlpRM3FsYUxyUVdPc05wRk1qd2M4akNEYTQ0U1lybUltWTRyaXA2TUNfck5JMFBUZTlBMFExTk5ibGMzSjdHZC1JU2ZLLU1aLURZQ2ljQ0FhV0FWVl91SktEN1NGTUhWbjBHcV9FNkZtbGo0M3NuWkxSSkVuSVZFRE1vbVVuc0I2aWViZWlXX3BldDl4aGpEUkhEWU1heHJUSGhWM1YxQQ?oc=5",
+          "published": "2026-11-02T08:52:00+00:00",
+          "terms": [
+            "daralma"
+          ],
+          "weight": 1.4
+        },
+        {
+          "title": "Türkiye imalatında daralma ekimde derinleşti - Borsa Gundem",
+          "source": "Borsa Gundem",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYmJVbTN4c0FyaTJmMERzSWktN2wxNFZQR2JVRVhIaE5yQzVQX2U1LUgzSG5sS0dnWlUxeUg3ZUZ5TXlER3ZKWnBzOUc2b1RWdlg3YnNEWGVsYUtyNWt2Z1haa25od3BSejVLcnI4aGZyYUJQcUpyR3BoZW9fYkJ6RQ?oc=5",
+          "published": "2026-11-02T07:07:00+00:00",
+          "terms": [
+            "daralma"
+          ],
+          "weight": 1.4
+        },
+        {
           "title": "Enflasyon Haftası Başlıyor: Kasımda Ekonomiyi Ne Bekliyor? Emekli Zammı, Asgari Ücret ve Piyasalar Hakkında 10 Soru, 10 Yanıt - Investing.com Türkiye",
           "source": "Investing.com Türkiye",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPR09QMExLSkJkeTNMSkNpY3VuUTNyRVozR3J5WFN1RThoOGpZS1NtSnFOMkVFZVZsbnlKbWo0cWtCeDVSSThKczBWVzl4OFZycGJ1N3ZJSlBEVDNyYTJHWndpelItU1NtZURUMjdzQjRTckZ4UGVHa0Zuc0hZc0xueFRCOElFZW1VZExxVm9famhqdGc2QVhmQjFBY1NmTmVOLVk2enFyZDQ1ZjlWVmdid0gxSmlXckJtSDAyNzBDMTZwRmlnZDJueER1S1ZFLTRKZ3hzNWF0eExuV2dGd3hfaG5ielFYSWxZYV80RGRjTFo?oc=5",
@@ -201,66 +231,30 @@
           "weight": 1.4
         },
         {
-          "title": "Maaş ve kira hesapları için beklenen veri: TÜİK Ekim 2026 enflasyon rakamları ne zaman, saat kaçta açıklanacak? - Yeni Şafak",
+          "title": "Ekim Ayı Enflasyon Rakamları Açıklandı - Gerçek Gündem",
+          "source": "Gerçek Gündem",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWkQwaS1uXzd5ckdLN0pYbUV3bDg2dkY1b2ZVVmZMS2tvT0xIQVJ1V1JQbzlFOURXV2hhNHRHVGpaSnp3b0dsMnFJMzY2NnU0cWZ0M3ZOM3RGMEJfcVd1bjlZalRKdk5leHp1M0lKcEdrbFYtem1MbzRnQ1lLUWIwU2FrTzNNcEVhN1HSAY8BQVVfeXFMT0t6TWlhZFg0cmdQUUQtejZZdFRhc1VEWmM4LV8xVUVrU1lwMlhITDBCbWNQcHI0T2J6U2ZNbkVySHVueUhnTkd4SE42SUg2LUc0dVdqWk00ekZaRENhM2J4aUZYR1pVN0FtWjgxZVZ0VEhvc3Vsa1E1Vkl1VUNOUnlUMlZ3U3hTWmhBbE5lWmc?oc=5",
+          "published": "2026-11-03T07:02:41+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "TÜİK ekim ayı enflasyon oranını açıkladı: Milyonların gözü kulağı bu verideydi - Yeni Şafak",
           "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbzJCeHF5MXptYm83dlBwRS1HTnFFcWl5WW9ESnlJdWVrbWN2LURaT2VWVEhFcWt4cmQxb1pfaDY0dno5MDd0YW9mdWhZNTByS01KYVpoT0JjbVNxUllucUlmMFp2SmpSTVhjVkJKdzB4QW1XblhEOFFLNUxCVWJyVTVseGp5UVJ1U3EyOWtReHJQM0pXc05fUHNZNjA1NkxrNHVlVlNwdlpTNGp2YTdDN3U4dGVnSmM0X0FPdEViVXZzRjFQdVZyVW9aM0xYenRyVDZWUWZYUnpiWi11UEdJTkNvb2hoMWtJQVZ3?oc=5",
-          "published": "2026-11-01T15:47:51+00:00",
-          "terms": [
-            "zam",
-            "enflasyon"
-          ],
-          "weight": 1.4
-        },
-        {
-          "title": "Piyasalarda kritik hafta: Türkiye'de enflasyon, ABD'de istihdam ve İngiltere'de faiz kararı izlenecek - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOaFRPRG5xdHg4bWI0akJsSHlLTjdIdWJwSEQxa3pDYWdudWUzQWhfcTZVZWNxWXVBc2dDZmVlTVB4U0l0UDYyeF9GVmlER1dLZzJMdDZBN2RLX0w2em5RT3JoTnVDai1mNHNJTTU3TzQ0U2FfVGpIR0d6UXBucGJJSTBfSjdTTHVUc0hQVzBXX1ljS09TWDBjcnRJbUR1b3gyUDVJM0w1OWlFb2Z3bjhISkw2NEY0ZU9HU3JlbjdHc0g0cTlIZUh0WXo3OGtXZnp2RHkzM1YyMkFYdUZheXROOGRSbWJ6OTV1dWJGMF8wUFAtbktFQjdwNnNfbDNUTXViUHRzU0hOS0tfa3B6?oc=5",
-          "published": "2026-11-01T17:33:12+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Piyasalarda kritik hafta: Enflasyon, faiz kararı ve ABD istihdam verileri açıklanacak - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY1dVTFRmTng5UlJLbFEzSHZSLUlZVXctMWVBOFhJUERaakdYT0xJdFdjelZpWEI3MWV5NENtalczQlR2dDU3RldldER6RjNBbFFoMUQ2RGVpbndoaS1ncVFhcV9kTDU0T3BQSTd5RU1vQ1BpaG4zc3dROGhBcDNoeDVaTlJZUmhOV1BFNlp4eG81YmxUbmYzNXJqemZkU2h5dHJ2U0JfWkhfSjRBM3RieDJOUGZXQWRmR0ZPUw?oc=5",
-          "published": "2026-11-01T14:29:25+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Piyasaların gözü ABD ara seçimleri ve Türkiye'nin enflasyonunda - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTUNsTjdGdW1Ca21fTlliNmxsV0wzUFJIUFZ0MXR6Vk5BbFE5MFFud19NenJhXy02VXlZdTAyUHVYTTFaOXJCZmVGNV9Jc21uMUdCLWE1eEhmdm5oTlFKaFg3S3F6MXJiSTIyM3EtZ3JoOFV3S0JzZzRuS01Zd3Q1ODc1TWt4RmJneVFYYmZvbllxel9JNnZUSHNJZXIwYXM4cHFrVllseFJCUkU?oc=5",
-          "published": "2026-11-01T10:20:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Enflasyon Düşüyor, Faiz İniyor: Ekonomide Yeni Dönem mi Başlıyor? - CNN Türk",
-          "source": "CNN Türk",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ2ZjSzZFM2F6ZkxGOEt0M0tqYXpFNEtqTEtFNjJMMnFmbWtlR3A4Y0dQZHozb2hyZ1NWSXdJTWgwLS0wRl8xVFVIYmc3NG42WnJVTlJ2WWlSVlExcUJBVkZxT3lCYmQwMXUyZ3ZiV3RxWFNRUDMwUnJzSDdNb0szQzQ0MnJxNTg1elpGcmRFZlZoSHpCbmxKOWdSWGg?oc=5",
-          "published": "2026-10-30T18:20:00+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEMyZjYybFZIRzl6RXlSeFpzZ1ZySS0xUy1UekZSTV95aW9CdUsyekFxUnpseGVodExKbDNVM0NJcU94V3A5ckgtNl9wYlpKcXdaM0FaNlhwZWRWYnlCckM5ZkdTTU5vNzhReV9mRXZSelZoZzBvTTJZMDVQNFJxZEZsdEFEZFA1N2QxNlVMZXlMVmRJSVhqV3VjQ19PZm1nUnc4OWY1N2p5anpCdEZTazIwRFNoT0ZQd25r?oc=5",
+          "published": "2026-11-03T07:01:51+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-02T22:06:53.902583+00:00"
+      "source_collected_at": "2026-11-03T07:32:00.736539+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-16T21:54:29.075614+00:00",
-      "score": 21.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-17T05:18:19.446845+00:00",
       "score": 21.8,
@@ -554,6 +548,11 @@
     {
       "generated": "2026-11-02T22:06:53.902583+00:00",
       "score": 32.6,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-11-03T07:32:00.736539+00:00",
+      "score": 33.9,
       "status": "WATCH"
     }
   ],
