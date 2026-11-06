@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-05T20:27:35.128131+00:00",
+    "generated": "2026-11-06T07:38:27.597902+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 24.9,
-    "raw_score": 24.9,
+    "score": 25.1,
+    "raw_score": 25.1,
     "concurrence_bonus": 0.0,
-    "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 24.9/100.",
+    "status": "WATCH",
+    "headline": "Türkiye economic-strain pressure is watch at 25.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
+      "coverage": 127,
       "latest_date": "2026-11-05",
       "latest_value": 49.9589,
       "change_5d_pct": 0.52,
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-05T20:27:35.128131+00:00"
+      "source_collected_at": "2026-11-06T07:38:27.597902+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,7 +51,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 123,
+      "coverage": 122,
       "latest_date": "2026-11-03",
       "latest_value": 5341.8,
       "change_5d_pct": -16.0,
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-05T20:27:35.128131+00:00"
+      "source_collected_at": "2026-11-06T07:38:27.597902+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-05T20:27:35.128131+00:00"
+      "source_collected_at": "2026-11-06T07:38:27.597902+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-05T20:27:35.128131+00:00"
+      "source_collected_at": "2026-11-06T07:38:27.597902+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 6.4,
+      "score": 8.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 130,
-      "matched": 22,
-      "weighted_density": 0.176,
+      "matched": 23,
+      "weighted_density": 0.191,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -137,6 +137,16 @@
             "işsizlik"
           ],
           "weight": 3.5
+        },
+        {
+          "title": "ABD seçimlerinden sonra Avrupa'da siyasi risk alarmı: Borç krizi korkusu yeniden gündemde - Para Analiz",
+          "source": "Para Analiz",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbFc2YnJNWHlSVGpRakNHN29XM3IwSkNBd3FkRjJicUlYa0tabnpkX0pMbzZKT0pMREJ1SlVTd3c5aUpRNlRHdDVXYjhzT0dUMjZoRWd4OUxZcGdhMWVhVXRoaE1mM3pxdDZVcVVkRWpMQW5aTW1tR0hHZE5KWWxRdUtUQUN1LXc1QmJnNGZmNURESGUtTU9aVGdRdUNlU0l3QS04bkZJV21CVTc4enRibk5hMnRCTG8?oc=5",
+          "published": "2026-11-06T04:20:46+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
         },
         {
           "title": "Financial Times, Türkiye'deki fon krizini inceledi: Uyarılar neden dikkate alınmadı? - Ekonomim",
@@ -174,7 +184,7 @@
           "title": "İngiliz sterlini faiz artışıyla yükseldi: Bir ayın zirvesine çıktı - EKOTÜRK",
           "source": "EKOTÜRK",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVGNLdVc0bWZWZGw4VFczY0FYVlBEME5vNVpCa3A0SXBkUlhycjkxUEZyMlRhZmJKcjN0LVJFZXZkcVBZaHhnZG82bm5XZ29zNHc5NmF4Q1RZdzV2a0FxWHZyN203Q2lybGdNQUwzZzZ2alJpX0RVRXEtMFl5b0VlYUx0ZDJVS2dQdHM4djZVcktvOHh5dS05bDdFZw?oc=5",
-          "published": "2026-11-05T00:40:48+00:00",
+          "published": "2026-11-06T00:00:22+00:00",
           "terms": [
             "faiz artışı"
           ],
@@ -191,30 +201,20 @@
           "weight": 0.8
         },
         {
-          "title": "Enflasyon, faiz indirimi, Nefes Kredisi - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT3BOek1kTkhYQkFjczdXa0U1X2VoNzlTV0MwMFRkbnR6eEhSTkpCYVNoZ1U3ZFo1RnV4WWNXT0VjUjJlZVpKYVppbjNJRlVSU1hXanFfRGRxY2V6X1RCeGNhbkZpSFlSM1F2MXZ4cURIOVlLbU1nc0dHblpWT1BaTzk3cXJ4a2x3eldFYzRZaC1ZR1dmSnR3WEJn?oc=5",
-          "published": "2026-11-05T01:00:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "BBVA Research Türkiye İçin Enflasyon ve Faiz Beklentilerini Açıkladı - Paranın Yönü",
-          "source": "Paranın Yönü",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVS1CeTRmUWh5QUUyUjJuT3ZHM1JBWkM4Vlp0bHc0dlViWDRVSUFYOVlmeW0wb2xBNFVkVUhsSzdqa2RXYTRXSkhUb2oyeVJwWU0tNmRwUTVubHY5UW03eklKZDBaUVhtanQ3aEhlM01pQjQxa3FTU0pTbEF6czlJS2xQZkVQSV9sY3dGRktiX0lfcWxRcEhYS2hscFg0cW5yQUc5LVUwOHRWM1BFS0llSg?oc=5",
-          "published": "2026-11-04T08:53:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "Yıl sonu enflasyon tahmini yüzde 29,8: Aralık’ta 100 baz puan faiz indirimi - Paratic Haber",
           "source": "Paratic Haber",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSlM2VnlOMFlGdHI3REc3UDBTQ1BQakJBdTJPWnN4QnJLRk1sOS1YY2czZ09aamwxck96VktiTGtzd3drdEFaQ1I2REJQanRWOUIxSllTYnJlUWJKQnJjYUhDSFQ3MEF0U29aa3o0U0FWbExDeFlySno2SE5fVXZyZTVrS3A4ZzdaMXBaOERIbVhjSGFwS2s4OXFNN080S0FYTW82TUl3bXQydw?oc=5",
           "published": "2026-11-04T08:12:09+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "16 kurumun enflasyon ve faiz beklentisi belli oldu: Aralıkta iki farklı senaryo - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHlMZVU1TXJYYWhVYnBUQmZfblNDbm1RX09LeW9zWHpKajZSZUJhMmU4T3pnZFNhbXdwUjBoR1Z2MjJMVWZRSnFjNmctMzVibDJqTUIzNU40QVAwcVdocHhfT2JuVWFyNU1RNk1DejRCazh5VkJLbXJweDhYenY4bkhzZHh5aXY4QnNKZDFrZEZVSEJKUTdpMk9kZ1RqaHdmaEJ0amc3d0dnUFh3Nk9rWFE2MTdUQ0E?oc=5",
+          "published": "2026-11-04T06:56:55+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -251,15 +251,10 @@
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-05T20:27:35.128131+00:00"
+      "source_collected_at": "2026-11-06T07:38:27.597902+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-18T11:55:52.179964+00:00",
-      "score": 22.0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-18T16:20:24.695012+00:00",
       "score": 22.2,
@@ -554,6 +549,11 @@
       "generated": "2026-11-05T20:27:35.128131+00:00",
       "score": 24.9,
       "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-06T07:38:27.597902+00:00",
+      "score": 25.1,
+      "status": "WATCH"
     }
   ],
   "sources": [
