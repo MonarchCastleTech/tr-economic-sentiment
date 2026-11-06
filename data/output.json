@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-06T07:38:27.597902+00:00",
+    "generated": "2026-11-06T19:50:35.643515+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,38 +11,38 @@
     "source_notes": []
   },
   "warning": {
-    "score": 25.1,
-    "raw_score": 25.1,
+    "score": 18.7,
+    "raw_score": 18.7,
     "concurrence_bonus": 0.0,
-    "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 25.1/100.",
+    "status": "BASELINE",
+    "headline": "Türkiye economic-strain pressure is baseline at 18.7/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 65.0,
-      "status": "HIGH",
+      "score": 43.9,
+      "status": "WATCH",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
-      "latest_date": "2026-11-05",
-      "latest_value": 49.9589,
-      "change_5d_pct": 0.52,
-      "return_z": 8.41,
+      "coverage": 128,
+      "latest_date": "2026-11-06",
+      "latest_value": 49.9824,
+      "change_5d_pct": 0.42,
+      "return_z": 2.19,
       "volatility_20d": 0.07,
-      "volatility_z": 0.07,
+      "volatility_z": -0.07,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 49.9589,
-          "date": "2026-11-05",
+          "value": 49.9824,
+          "date": "2026-11-06",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-06T07:38:27.597902+00:00"
+      "source_collected_at": "2026-11-06T19:50:35.643515+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-06T07:38:27.597902+00:00"
+      "source_collected_at": "2026-11-06T19:50:35.643515+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-06T07:38:27.597902+00:00"
+      "source_collected_at": "2026-11-06T19:50:35.643515+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-06T07:38:27.597902+00:00"
+      "source_collected_at": "2026-11-06T19:50:35.643515+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.0,
+      "score": 7.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 130,
-      "matched": 23,
-      "weighted_density": 0.191,
+      "coverage": 134,
+      "matched": 25,
+      "weighted_density": 0.186,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -139,20 +139,10 @@
           "weight": 3.5
         },
         {
-          "title": "ABD seçimlerinden sonra Avrupa'da siyasi risk alarmı: Borç krizi korkusu yeniden gündemde - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbFc2YnJNWHlSVGpRakNHN29XM3IwSkNBd3FkRjJicUlYa0tabnpkX0pMbzZKT0pMREJ1SlVTd3c5aUpRNlRHdDVXYjhzT0dUMjZoRWd4OUxZcGdhMWVhVXRoaE1mM3pxdDZVcVVkRWpMQW5aTW1tR0hHZE5KWWxRdUtUQUN1LXc1QmJnNGZmNURESGUtTU9aVGdRdUNlU0l3QS04bkZJV21CVTc4enRibk5hMnRCTG8?oc=5",
-          "published": "2026-11-06T04:20:46+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Financial Times, Türkiye'deki fon krizini inceledi: Uyarılar neden dikkate alınmadı? - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaDBzVF80UUFEZGM4c0haWU1FdF9Fd1czU1loQnFMM2E4cHhXSVQxTFN2X1VwZnRGUmJrWGZmNzdkQ2ZEYzJSSHMyQU1tVXlvNFo3ckFZRDRvemVNUjJSYkZhbjZVcHVLQkpOWGJhaURRUHhKSjJvMm1Wc0JoUWgydFp2V0dVbXA4RVBjTGpEYkxqZ3U0QjI0bDJuQUFwaTduM0ZIUm5Vc3AxSWxBTjg5R0gwa1lBcTR2WldlYWloa24tbzZMdWc?oc=5",
-          "published": "2026-11-04T21:39:00+00:00",
+          "title": "Türkiye'nin rüzgâr hedefi COP31'e taşınıyor: Perde arkasındaki 'doğa' ve 'finansman' krizi büyüyor - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWTE2dEFZYnNoZDNPc0EzR2lNWDNTMzV6WVBqOU9zd2J6MVpFdEVvb3FFaWJzeW5NdERyLVVxNG5zLS01cTY4STlpZGxpY0xDS1ByNUtpc0w5SHk3cVhxX25wVEhQQ3NyZ0lWRUJHN0tOQ1ZiaVhfVDVIZjN0d0tjQlF5VmxfS3JzX3RfSGFRU2F2M3FqLVlaa2RqU19SVjRrLVFzd2lLN0J2c1FvNy1NY2pXTTA3cndwUDVEVXBETmlRa1FFdTJmbXhfYnRvbG1vWEJzMDd3?oc=5",
+          "published": "2026-11-06T09:31:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -181,20 +171,70 @@
           "weight": 1.4
         },
         {
-          "title": "İngiliz sterlini faiz artışıyla yükseldi: Bir ayın zirvesine çıktı - EKOTÜRK",
-          "source": "EKOTÜRK",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVGNLdVc0bWZWZGw4VFczY0FYVlBEME5vNVpCa3A0SXBkUlhycjkxUEZyMlRhZmJKcjN0LVJFZXZkcVBZaHhnZG82bm5XZ29zNHc5NmF4Q1RZdzV2a0FxWHZyN203Q2lybGdNQUwzZzZ2alJpX0RVRXEtMFl5b0VlYUx0ZDJVS2dQdHM4djZVcktvOHh5dS05bDdFZw?oc=5",
-          "published": "2026-11-06T00:00:22+00:00",
+          "title": "TCMB Başkanı Karahan'dan enflasyon ve faiz mesajı: \"Gerekirse ek tedbir alacağız\" - Yeni Ankara",
+          "source": "Yeni Ankara",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONkl2UVJabndzU3FiM3lkejYtZ3BEOXlkOXRZRDJUZFRBSUE3MVdBZEFQd0VfT0J2U3c0aVpCRlYwLVFhdjVXeXpKeW0xZmtKR0JITzlwaGNTYWk5b1c2UUY4RV9IcHNLdDhnZXQtb21zRmNGb0d1VlAwT1ZPRHE4TDVOalktT21JN3Rpbi1rRkpBZGlNUmY4RlRBR1pmZTBmeW9zdk1sU1pVSnBvVW1Jb1RSbkJ6emw1c1pKdjZB?oc=5",
+          "published": "2026-11-06T17:28:00+00:00",
           "terms": [
-            "faiz artışı"
+            "enflasyon"
           ],
-          "weight": 1.0
+          "weight": 0.8
         },
         {
-          "title": "Enflasyonun ardındaki tehlike! - Haber Global",
-          "source": "Haber Global",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5DZXRILXRxYmtMUWQyN090b2JzaDhZTC0xZDJJMy1hOFhOaWVaeU1wNFVWRlZkT19xelljN2ZlbnA5b3hBQXpSZ3VpT0FRaGxGa2NhUWNYa0RUS3NhTEJ3QjZVTHhCaHo0eDZnMTdocWM2Q0x0ZHd3Vg?oc=5",
-          "published": "2026-11-05T10:31:00+00:00",
+          "title": "TCMB Başkanı Karahan'dan Enflasyon Mesajı: Gerekirse Para Politikası Sıkılaştırılacak - Paranın Yönü",
+          "source": "Paranın Yönü",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYXpoVVJhUFFPd0FSNWtFQ2xob0xwWnJDSGdRZ2dKWkxGWC1rWUtKZU11ZFg1ZVlCUFdsVXZLbWE4SnVrUWJ6OTBnMlNQZmRiX056S3gzaDJIYjRHR1RYMU5IYjFHYnZBUUF6Z0tQWEU1Z1RGalllOHNaZ203TC11X0RIR2E2bW4xU3RkekxjQllmeGRqSGxqLWJ4WU9wSjB1azhPeU43Y1lCWER6VzFaWjZLcGFRRmRUT2RsX3lFNHByNDlz?oc=5",
+          "published": "2026-11-06T14:31:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Yurttaşın enflasyon beklentisi kırılmıyor: Merkez'den 'ihtiyatlı' faiz mesajı - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE9OZUY3YURKRmstb1BhMW9VVDVQLVZHVDFJNUpLdEF0alVXMzhuLTMxczBsYTIxdEF4UTdDaUxwNWctWUpuVENKM1F2SWJSRGhZRWpQVHI2M0NNX3BINTZfeHdZWmV2SnZ4T1VySGhmQjZneEJ3NFdYZXVhMUtQOVppbG0wVG1WTkV3R1VUWkI0by1XN1h1RUpmUjhObWJWZVBxTkxPcUQ2Um1HaVpYZWdycFdaZlBib0hBSA?oc=5",
+          "published": "2026-11-06T14:20:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "TCMB Başkanı Karahan: Enflasyon görünümünde kalıcı bozulma olursa para politikası sıkılaştırılacak - Foreks.com",
+          "source": "Foreks.com",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObGRuTkZHaHNhU1NoaW5XekMxSWQ5aS0zdURmNGF4b1J3YlFidGc5d0l2TjNMaV9Idk1oNXMyWHU1X1U0NXYxaE9RN1U4UXZIal9JUlVmRVpPYlpiM0U4TjlQNkVnM1VLQXBXUThjOGJ0M3M4WEtKT000dVFNVVI2Slo4WkFKRkV6Vm5KUjlzWWZlYWJaQUNhc0ZmZUdmbjhiM19zd3o5VlZFX3FaZmVSel8tbEhHNENxdGZOZTVQX3lXVTJwRFRDa1BnRHMwVXRQeWk5dDFrQjg0Ul9CQXI1eGtweEFteGx3YVJ3ZDQ5MTU3TWQwYnR5OTE2VjVWNWoyT21hMVQtelF6QQ?oc=5",
+          "published": "2026-11-06T13:45:32+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "FAO gıda fiyat endeksi belli oldu: Türkiye, küresel enflasyondan negatif ayrıştı - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRVEwMngxQjZPVlBMZlNHMVhhNmhmWXppdWpKNURhbDdfbkpCM2NOemVJUUFSQjZvWXBuR01vRExZZWducnpTSUdQX2s5MjVpb1NFRnJiZVRyUVhPdnh4bnduVlYwX0lnQU9aa2FwXy16VVdrY3NKZUdrRUZPYmM5U0dhbVZyeVZPWENfNWswQUJsdElOcldfTTVTZUtQaWFMZk1rZnRBcW9VZ2E0dF9KeHN5UzN0OHBrTUkyYUZrT2gxZw?oc=5",
+          "published": "2026-11-06T12:32:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Yılın son enflasyon raporu 12 Kasım'da açıklanacak - Doviz.com",
+          "source": "Doviz.com",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU0ZQXzUwclBuV3diUElvektMNVg3dFIzOWZPZEhTenFwMjQxY1B1eWt0T1RfSHdPSFM4bjdLNVdZWmlzamRhVkZ5ZW16TUZkc1BVY1Zrb09SbmtVYnp1cnRxXzM3MmlaYldpbFNXUzJxR3Rtb3luR3FrZFBraG9sYXYtdDFqVHlwel9HNFctTWVYblNRS3QySjEzZ0NlOXc2UHfSAacBQVVfeXFMTkJkVzAzU05rRHBUQjNXektwYmg1a1NmQzZEZ20ycHZUU1k5NHhJSUR6dFF5VGJXV3h1Q2VkYXpfbnZaVnBGeHk2dXh2b1hHanQ3STMxZUZNMjJRcTdzb0syNWdEN0YxTEdfVThDb1lGU2kwVG5ZZktjazFmNGVWQmUzcFdfOHc2UXF6YTZVc2hhU296b1cwZjNsLVRVUzZKd1FOLXVFWEE?oc=5",
+          "published": "2026-11-06T06:51:54+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Euro Bölgesi'nde enflasyon ECB hedefinin iki katına yükseldi - Foreks.com",
+          "source": "Foreks.com",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR3duYnpTc0U5UTFOc19SdWJVSGFHclIxY1B2TFE3YVFpc240MnBqaWNLdkNnUnlxOG9DRlN1VG1SdXlQWjMtbGtySkZ4Xzd6UW0yUzVoYXBvbzcxdTdLZkg5aElSYWpPTkloRGM4eW1mLVZfcC1tNkNVVHpWWmZ5UG5jZmNIbXdQWXpCd2JXTWd0QVlNN2JRNEY5S094cEhpY2ZjVkV0VDFlc1BrN3gwT1NNaFlrNV8xdlZhMXc2bTZZZHNmZHNrN1RPX0JMOXRzRWswQlk4cFk?oc=5",
+          "published": "2026-11-04T10:25:40+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -209,57 +249,12 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "16 kurumun enflasyon ve faiz beklentisi belli oldu: Aralıkta iki farklı senaryo - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHlMZVU1TXJYYWhVYnBUQmZfblNDbm1RX09LeW9zWHpKajZSZUJhMmU4T3pnZFNhbXdwUjBoR1Z2MjJMVWZRSnFjNmctMzVibDJqTUIzNU40QVAwcVdocHhfT2JuVWFyNU1RNk1DejRCazh5VkJLbXJweDhYenY4bkhzZHh5aXY4QnNKZDFrZEZVSEJKUTdpMk9kZ1RqaHdmaEJ0amc3d0dnUFh3Nk9rWFE2MTdUQ0E?oc=5",
-          "published": "2026-11-04T06:56:55+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "BBVA Research'ten Türkiye için enflasyon ve faiz tahmini - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkVhZm9IS01lTnBOTU5WdEVxQ19LVXBYeGZuRElRRThEMHNKaDVvS3c3UjRRMVdhc3V2QTkybmNzN192MlhVT1JtNnVlRTg0Sm9TNnhFeWt3N3pyNjlrVTFsckVwZlB3WGhFLVo3T1FOTGd3TnVzcmZnVGVUQm0xVDE4S0plcnVLZVMxajFubUNFVE1lNGdZYw?oc=5",
-          "published": "2026-11-03T17:43:39+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Goldman Sachs’tan Türkiye enflasyonu tahmini: Yüzde 29 - Paratic Haber",
-          "source": "Paratic Haber",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qYV8xbEYwVEY1MkppNEcwUExwRWVqMkxjUTloWDROX0lxbGl0TFBSNTFnQ0c0YkVzV3dlejQxMjVjVlZVV2Q1YXdEd1JVZWZGR0FwX25wRkl2bG1LYjI2RXZmNWxHN0Ewek1oREtFNkFPN1RjVmhqTnJLd2dTZw?oc=5",
-          "published": "2026-11-03T15:20:18+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "ING'den Türkiye ekonomisi için enflasyon ve faiz tahmini - 24 Saat Gazetesi Ankara",
-          "source": "24 Saat Gazetesi Ankara",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdXpuYUlqTEVSbGlNUnZfeUZhU1pKbEU0OHFsbU01STF5OTZOVWlkOUFfNDgxM0h2VUxjOVF3ejlWaE40WE96MERhaXI1V29sSjZqU2RXQjd4Ml95UFFlRy1NTDRDVjNoZ25JYUc4eUhNZnlnWW12d1dOTk9fQ0RnSFBlUGMwdnB2QWFuLWRSOA?oc=5",
-          "published": "2026-11-03T13:14:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-06T07:38:27.597902+00:00"
+      "source_collected_at": "2026-11-06T19:50:35.643515+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-18T16:20:24.695012+00:00",
-      "score": 22.2,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-18T21:14:26.491042+00:00",
       "score": 22.3,
@@ -554,6 +549,11 @@
       "generated": "2026-11-06T07:38:27.597902+00:00",
       "score": 25.1,
       "status": "WATCH"
+    },
+    {
+      "generated": "2026-11-06T19:50:35.643515+00:00",
+      "score": 18.7,
+      "status": "BASELINE"
     }
   ],
   "sources": [
