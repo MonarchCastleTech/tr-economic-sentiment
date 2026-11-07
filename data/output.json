@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-06T19:50:35.643515+00:00",
+    "generated": "2026-11-07T06:49:05.593617+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
+      "coverage": 127,
       "latest_date": "2026-11-06",
       "latest_value": 49.9824,
       "change_5d_pct": 0.42,
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-06T19:50:35.643515+00:00"
+      "source_collected_at": "2026-11-07T06:49:05.593617+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,7 +51,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 122,
+      "coverage": 121,
       "latest_date": "2026-11-03",
       "latest_value": 5341.8,
       "change_5d_pct": -16.0,
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-06T19:50:35.643515+00:00"
+      "source_collected_at": "2026-11-07T06:49:05.593617+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-06T19:50:35.643515+00:00"
+      "source_collected_at": "2026-11-07T06:49:05.593617+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-06T19:50:35.643515+00:00"
+      "source_collected_at": "2026-11-07T06:49:05.593617+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 7.5,
+      "score": 7.3,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 134,
-      "matched": 25,
-      "weighted_density": 0.186,
+      "coverage": 130,
+      "matched": 24,
+      "weighted_density": 0.184,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -191,16 +191,6 @@
           "weight": 0.8
         },
         {
-          "title": "Yurttaşın enflasyon beklentisi kırılmıyor: Merkez'den 'ihtiyatlı' faiz mesajı - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE9OZUY3YURKRmstb1BhMW9VVDVQLVZHVDFJNUpLdEF0alVXMzhuLTMxczBsYTIxdEF4UTdDaUxwNWctWUpuVENKM1F2SWJSRGhZRWpQVHI2M0NNX3BINTZfeHdZWmV2SnZ4T1VySGhmQjZneEJ3NFdYZXVhMUtQOVppbG0wVG1WTkV3R1VUWkI0by1XN1h1RUpmUjhObWJWZVBxTkxPcUQ2Um1HaVpYZWdycFdaZlBib0hBSA?oc=5",
-          "published": "2026-11-06T14:20:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "TCMB Başkanı Karahan: Enflasyon görünümünde kalıcı bozulma olursa para politikası sıkılaştırılacak - Foreks.com",
           "source": "Foreks.com",
           "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObGRuTkZHaHNhU1NoaW5XekMxSWQ5aS0zdURmNGF4b1J3YlFidGc5d0l2TjNMaV9Idk1oNXMyWHU1X1U0NXYxaE9RN1U4UXZIal9JUlVmRVpPYlpiM0U4TjlQNkVnM1VLQXBXUThjOGJ0M3M4WEtKT000dVFNVVI2Slo4WkFKRkV6Vm5KUjlzWWZlYWJaQUNhc0ZmZUdmbjhiM19zd3o5VlZFX3FaZmVSel8tbEhHNENxdGZOZTVQX3lXVTJwRFRDa1BnRHMwVXRQeWk5dDFrQjg0Ul9CQXI1eGtweEFteGx3YVJ3ZDQ5MTU3TWQwYnR5OTE2VjVWNWoyT21hMVQtelF6QQ?oc=5",
@@ -231,10 +221,10 @@
           "weight": 0.8
         },
         {
-          "title": "Euro Bölgesi'nde enflasyon ECB hedefinin iki katına yükseldi - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR3duYnpTc0U5UTFOc19SdWJVSGFHclIxY1B2TFE3YVFpc240MnBqaWNLdkNnUnlxOG9DRlN1VG1SdXlQWjMtbGtySkZ4Xzd6UW0yUzVoYXBvbzcxdTdLZkg5aElSYWpPTkloRGM4eW1mLVZfcC1tNkNVVHpWWmZ5UG5jZmNIbXdQWXpCd2JXTWd0QVlNN2JRNEY5S094cEhpY2ZjVkV0VDFlc1BrN3gwT1NNaFlrNV8xdlZhMXc2bTZZZHNmZHNrN1RPX0JMOXRzRWswQlk4cFk?oc=5",
-          "published": "2026-11-04T10:25:40+00:00",
+          "title": "Enflasyonun ardındaki tehlike! - Haber Global",
+          "source": "Haber Global",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5DZXRILXRxYmtMUWQyN090b2JzaDhZTC0xZDJJMy1hOFhOaWVaeU1wNFVWRlZkT19xelljN2ZlbnA5b3hBQXpSZ3VpT0FRaGxGa2NhUWNYa0RUS3NhTEJ3QjZVTHhCaHo0eDZnMTdocWM2Q0x0ZHd3Vg?oc=5",
+          "published": "2026-11-05T10:31:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -249,17 +239,22 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "16 kurumun enflasyon ve faiz beklentisi belli oldu: Aralıkta iki farklı senaryo - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHlMZVU1TXJYYWhVYnBUQmZfblNDbm1RX09LeW9zWHpKajZSZUJhMmU4T3pnZFNhbXdwUjBoR1Z2MjJMVWZRSnFjNmctMzVibDJqTUIzNU40QVAwcVdocHhfT2JuVWFyNU1RNk1DejRCazh5VkJLbXJweDhYenY4bkhzZHh5aXY4QnNKZDFrZEZVSEJKUTdpMk9kZ1RqaHdmaEJ0amc3d0dnUFh3Nk9rWFE2MTdUQ0E?oc=5",
+          "published": "2026-11-04T06:56:55+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-06T19:50:35.643515+00:00"
+      "source_collected_at": "2026-11-07T06:49:05.593617+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-18T21:14:26.491042+00:00",
-      "score": 22.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-19T05:42:22.383485+00:00",
       "score": 22.0,
@@ -552,6 +547,11 @@
     },
     {
       "generated": "2026-11-06T19:50:35.643515+00:00",
+      "score": 18.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-07T06:49:05.593617+00:00",
       "score": 18.7,
       "status": "BASELINE"
     }
