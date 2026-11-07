@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-07T13:43:38.129710+00:00",
+    "generated": "2026-11-07T22:28:45.678784+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 19.2,
-    "raw_score": 19.2,
+    "score": 19.0,
+    "raw_score": 19.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 19.2/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 19.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-07T13:43:38.129710+00:00"
+      "source_collected_at": "2026-11-07T22:28:45.678784+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-07T13:43:38.129710+00:00"
+      "source_collected_at": "2026-11-07T22:28:45.678784+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-07T13:43:38.129710+00:00"
+      "source_collected_at": "2026-11-07T22:28:45.678784+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-07T13:43:38.129710+00:00"
+      "source_collected_at": "2026-11-07T22:28:45.678784+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 12.4,
+      "score": 10.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 135,
-      "matched": 28,
-      "weighted_density": 0.229,
+      "matched": 27,
+      "weighted_density": 0.213,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -155,16 +155,6 @@
           "published": "2026-11-07T11:30:58+00:00",
           "terms": [
             "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye'nin rüzgâr hedefi COP31'e taşınıyor: Perde arkasındaki 'doğa' ve 'finansman' krizi büyüyor - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWTE2dEFZYnNoZDNPc0EzR2lNWDNTMzV6WVBqOU9zd2J6MVpFdEVvb3FFaWJzeW5NdERyLVVxNG5zLS01cTY4STlpZGxpY0xDS1ByNUtpc0w5SHk3cVhxX25wVEhQQ3NyZ0lWRUJHN0tOQ1ZiaVhfVDVIZjN0d0tjQlF5VmxfS3JzX3RfSGFRU2F2M3FqLVlaa2RqU19SVjRrLVFzd2lLN0J2c1FvNy1NY2pXTTA3cndwUDVEVXBETmlRa1FFdTJmbXhfYnRvbG1vWEJzMDd3?oc=5",
-          "published": "2026-11-06T09:31:00+00:00",
-          "terms": [
-            "kriz"
           ],
           "weight": 2.0
         },
@@ -232,16 +222,6 @@
           "weight": 0.8
         },
         {
-          "title": "Yurttaşın enflasyon beklentisi kırılmıyor: Merkez'den 'ihtiyatlı' faiz mesajı - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE9OZUY3YURKRmstb1BhMW9VVDVQLVZHVDFJNUpLdEF0alVXMzhuLTMxczBsYTIxdEF4UTdDaUxwNWctWUpuVENKM1F2SWJSRGhZRWpQVHI2M0NNX3BINTZfeHdZWmV2SnZ4T1VySGhmQjZneEJ3NFdYZXVhMUtQOVppbG0wVG1WTkV3R1VUWkI0by1XN1h1RUpmUjhObWJWZVBxTkxPcUQ2Um1HaVpYZWdycFdaZlBib0hBSA?oc=5",
-          "published": "2026-11-06T14:20:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "TCMB Başkanı Karahan: Enflasyon görünümünde kalıcı bozulma olursa para politikası sıkılaştırılacak - Foreks.com",
           "source": "Foreks.com",
           "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObGRuTkZHaHNhU1NoaW5XekMxSWQ5aS0zdURmNGF4b1J3YlFidGc5d0l2TjNMaV9Idk1oNXMyWHU1X1U0NXYxaE9RN1U4UXZIal9JUlVmRVpPYlpiM0U4TjlQNkVnM1VLQXBXUThjOGJ0M3M4WEtKT000dVFNVVI2Slo4WkFKRkV6Vm5KUjlzWWZlYWJaQUNhc0ZmZUdmbjhiM19zd3o5VlZFX3FaZmVSel8tbEhHNENxdGZOZTVQX3lXVTJwRFRDa1BnRHMwVXRQeWk5dDFrQjg0Ul9CQXI1eGtweEFteGx3YVJ3ZDQ5MTU3TWQwYnR5OTE2VjVWNWoyT21hMVQtelF6QQ?oc=5",
@@ -250,17 +230,32 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "FAO gıda fiyat endeksi belli oldu: Türkiye, küresel enflasyondan negatif ayrıştı - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRVEwMngxQjZPVlBMZlNHMVhhNmhmWXppdWpKNURhbDdfbkpCM2NOemVJUUFSQjZvWXBuR01vRExZZWducnpTSUdQX2s5MjVpb1NFRnJiZVRyUVhPdnh4bnduVlYwX0lnQU9aa2FwXy16VVdrY3NKZUdrRUZPYmM5U0dhbVZyeVZPWENfNWswQUJsdElOcldfTTVTZUtQaWFMZk1rZnRBcW9VZ2E0dF9KeHN5UzN0OHBrTUkyYUZrT2gxZw?oc=5",
+          "published": "2026-11-06T12:32:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Yılın son enflasyon raporu 12 Kasım'da açıklanacak - Doviz.com",
+          "source": "Doviz.com",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU0ZQXzUwclBuV3diUElvektMNVg3dFIzOWZPZEhTenFwMjQxY1B1eWt0T1RfSHdPSFM4bjdLNVdZWmlzamRhVkZ5ZW16TUZkc1BVY1Zrb09SbmtVYnp1cnRxXzM3MmlaYldpbFNXUzJxR3Rtb3luR3FrZFBraG9sYXYtdDFqVHlwel9HNFctTWVYblNRS3QySjEzZ0NlOXc2UHfSAacBQVVfeXFMTkJkVzAzU05rRHBUQjNXektwYmg1a1NmQzZEZ20ycHZUU1k5NHhJSUR6dFF5VGJXV3h1Q2VkYXpfbnZaVnBGeHk2dXh2b1hHanQ3STMxZUZNMjJRcTdzb0syNWdEN0YxTEdfVThDb1lGU2kwVG5ZZktjazFmNGVWQmUzcFdfOHc2UXF6YTZVc2hhU296b1cwZjNsLVRVUzZKd1FOLXVFWEE?oc=5",
+          "published": "2026-11-06T06:51:54+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-07T13:43:38.129710+00:00"
+      "source_collected_at": "2026-11-07T22:28:45.678784+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-19T14:18:56.610562+00:00",
-      "score": 27.0,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-19T22:47:51.512188+00:00",
       "score": 27.1,
@@ -554,6 +549,11 @@
     {
       "generated": "2026-11-07T13:43:38.129710+00:00",
       "score": 19.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-07T22:28:45.678784+00:00",
+      "score": 19.0,
       "status": "BASELINE"
     }
   ],
