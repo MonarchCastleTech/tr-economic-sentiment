@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-07T22:28:45.678784+00:00",
+    "generated": "2026-11-08T06:54:55.401585+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 19.0,
-    "raw_score": 19.0,
+    "score": 19.2,
+    "raw_score": 19.2,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 19.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 19.2/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-07T22:28:45.678784+00:00"
+      "source_collected_at": "2026-11-08T06:54:55.401585+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-07T22:28:45.678784+00:00"
+      "source_collected_at": "2026-11-08T06:54:55.401585+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-07T22:28:45.678784+00:00"
+      "source_collected_at": "2026-11-08T06:54:55.401585+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-07T22:28:45.678784+00:00"
+      "source_collected_at": "2026-11-08T06:54:55.401585+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 10.6,
+      "score": 12.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 135,
-      "matched": 27,
-      "weighted_density": 0.213,
+      "coverage": 138,
+      "matched": 30,
+      "weighted_density": 0.228,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -149,10 +149,10 @@
           "weight": 2.0
         },
         {
-          "title": "18 yıllık şirket iflas etti: Dünyanın dört bir yanına ihracat yapıyordu - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTG9VSDVhT0dqWkpDQks5S200UHQ3cDE2UnZ6aERxb1JyQW5nSzZOS2xhc0VadzFLODJIaDBvc244VGt0VTBnVjVsbTFHcDFzS29HSUY1SHRZcWFIclJrZURvRWw1aXRscW03OTBWR2hDVXUySlhJX2xaVzZNRUJYWnY5eUlrVm5zUnQweERhYnFtYTF1THhPSWQ1YWRLNEc2M1UxNXF3NDg3QQ?oc=5",
-          "published": "2026-11-07T11:30:58+00:00",
+          "title": "Büyümek için fabrika yatırımı yapmıştı! Türk tekstil devlerine makine üreten şirket iflas etti - Bursada Bugün",
+          "source": "Bursada Bugün",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcGFjVDhJbW1pQXBocjFMM2NHbUNmYmxubXBKTTN1Mjd2Vy1nUXpvSmNNODNINGtVa3haX2tDUEVlaFFCOW9MUHY0cXFodWxrdVVKN2dWazZ5Wm5FTHNocWJ3eDJPbXZrSUtDUXRFZkFNZTR5aWNWaW5vRG80Nlo2OEtIeVlFd1BkbV90Mm9rejBQWmtTd2otbHFEdHlqcTNiS08xMHd3MFhiVkZjdzZHaEQwSlVsX245d1BJeU9mTkpuVUZudWl3S3Z5U3FlYmN2eHJtbzM0SXfSAdsBQVVfeXFMTkpfcnFNc2ZzM2ozV3UtdldrckkxaENKOVNEMW1ncGF4ellsbERRdG05UEVfUkNCZHJVXzl6UTloeG8xdHByVl9LRE8xWkZkcHlqT3E2SDQ0VUZOeUc0QUVmbkM2TjI5NHktandZSDhROUwxdk96R0xsVE00cjBKN3V5b19SRTVSSnI1bXYtb2VCVklHUUZlMjZpTlU2NHlqekl1UWpoVlFfQVl0am1EbDBSNWVTTV82ZjFpU2Z2THNtU1B1QWlITWpNeWRMSmdNbGpydWZhelhaT0FN?oc=5",
+          "published": "2026-11-06T11:50:00+00:00",
           "terms": [
             "iflas"
           ],
@@ -181,6 +181,16 @@
           "weight": 1.8
         },
         {
+          "title": "2027 işsizlik maaşı hesaplandı! En düşük ve en yüksek işsizlik ödeneği kaç TL olacak? | Türkiye Ekonomisi Haberleri - GZT",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc0ktYlU4OEMxQk1ZaDlCcndnb0pEMDZXMkw0RmIyNHpnenJsOXVxWnZkQTdQS0xUcWxsTFdMdmZUdHRhNF9PQk15dGM2OVZHSVFhRk5keC1ZVTJ2TWJIUS1sSlNxc0lpU1VUMlNfaVFjWDFuMmcta0pVY1B3clByTERmSERzY25qUmZGamRzOE16WlBUQzFSR1dpRkVjUFpBVWJ6ZmFnOF9wMGk2M2pyeVFrWmdSVGNsSEdR?oc=5",
+          "published": "2026-11-02T12:11:08+00:00",
+          "terms": [
+            "işsizlik"
+          ],
+          "weight": 1.5
+        },
+        {
           "title": "Enflasyon Haftası Başlıyor: Kasımda Ekonomiyi Ne Bekliyor? Emekli Zammı, Asgari Ücret ve Piyasalar Hakkında 10 Soru, 10 Yanıt - Investing.com Türkiye",
           "source": "Investing.com Türkiye",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPR09QMExLSkJkeTNMSkNpY3VuUTNyRVozR3J5WFN1RThoOGpZS1NtSnFOMkVFZVZsbnlKbWo0cWtCeDVSSThKczBWVzl4OFZycGJ1N3ZJSlBEVDNyYTJHWndpelItU1NtZURUMjdzQjRTckZ4UGVHa0Zuc0hZc0xueFRCOElFZW1VZExxVm9famhqdGc2QVhmQjFBY1NmTmVOLVk2enFyZDQ1ZjlWVmdid0gxSmlXckJtSDAyNzBDMTZwRmlnZDJueER1S1ZFLTRKZ3hzNWF0eExuV2dGd3hfaG5ielFYSWxZYV80RGRjTFo?oc=5",
@@ -190,6 +200,16 @@
             "enflasyon"
           ],
           "weight": 1.4
+        },
+        {
+          "title": "Gelişen piyasa merkez bankaları enflasyon baskısıyla şahinleşiyor - Investing.com Türkiye",
+          "source": "Investing.com Türkiye",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVjJnSllaZkZnN0d5dWlYSm1kaDhZZ0M0aXhRRm9FZUdQcnpmVml2VTY1S1YtZEQ0YlBYckNnSHZsUGVyOTNYVWxoQUgwcDF4Mk9nWjloNDRzREk3WkJwS0RSbmVKSFRIdURhck9NcGh6YllXQjJoWlllSVpQTDNKanVWb2pnRG9LX3h4LTMzT2JXSGNNeVo0NGxkTGVDMHdtMGFXZXp3YWRId2R1M2QyVHR4QQ?oc=5",
+          "published": "2026-11-07T21:37:47+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         },
         {
           "title": "AMB'nin güçlü başkan adayından faiz ve enflasyon mesajı - Ekonomim",
@@ -230,37 +250,12 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "FAO gıda fiyat endeksi belli oldu: Türkiye, küresel enflasyondan negatif ayrıştı - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRVEwMngxQjZPVlBMZlNHMVhhNmhmWXppdWpKNURhbDdfbkpCM2NOemVJUUFSQjZvWXBuR01vRExZZWducnpTSUdQX2s5MjVpb1NFRnJiZVRyUVhPdnh4bnduVlYwX0lnQU9aa2FwXy16VVdrY3NKZUdrRUZPYmM5U0dhbVZyeVZPWENfNWswQUJsdElOcldfTTVTZUtQaWFMZk1rZnRBcW9VZ2E0dF9KeHN5UzN0OHBrTUkyYUZrT2gxZw?oc=5",
-          "published": "2026-11-06T12:32:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Yılın son enflasyon raporu 12 Kasım'da açıklanacak - Doviz.com",
-          "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU0ZQXzUwclBuV3diUElvektMNVg3dFIzOWZPZEhTenFwMjQxY1B1eWt0T1RfSHdPSFM4bjdLNVdZWmlzamRhVkZ5ZW16TUZkc1BVY1Zrb09SbmtVYnp1cnRxXzM3MmlaYldpbFNXUzJxR3Rtb3luR3FrZFBraG9sYXYtdDFqVHlwel9HNFctTWVYblNRS3QySjEzZ0NlOXc2UHfSAacBQVVfeXFMTkJkVzAzU05rRHBUQjNXektwYmg1a1NmQzZEZ20ycHZUU1k5NHhJSUR6dFF5VGJXV3h1Q2VkYXpfbnZaVnBGeHk2dXh2b1hHanQ3STMxZUZNMjJRcTdzb0syNWdEN0YxTEdfVThDb1lGU2kwVG5ZZktjazFmNGVWQmUzcFdfOHc2UXF6YTZVc2hhU296b1cwZjNsLVRVUzZKd1FOLXVFWEE?oc=5",
-          "published": "2026-11-06T06:51:54+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-07T22:28:45.678784+00:00"
+      "source_collected_at": "2026-11-08T06:54:55.401585+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-19T22:47:51.512188+00:00",
-      "score": 27.1,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-20T05:39:24.519108+00:00",
       "score": 27.5,
@@ -554,6 +549,11 @@
     {
       "generated": "2026-11-07T22:28:45.678784+00:00",
       "score": 19.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-08T06:54:55.401585+00:00",
+      "score": 19.2,
       "status": "BASELINE"
     }
   ],
