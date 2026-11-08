@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-08T06:54:55.401585+00:00",
+    "generated": "2026-11-08T14:09:52.985975+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 19.2,
-    "raw_score": 19.2,
+    "score": 18.9,
+    "raw_score": 18.9,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 19.2/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 18.9/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-08T06:54:55.401585+00:00"
+      "source_collected_at": "2026-11-08T14:09:52.985975+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-08T06:54:55.401585+00:00"
+      "source_collected_at": "2026-11-08T14:09:52.985975+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-08T06:54:55.401585+00:00"
+      "source_collected_at": "2026-11-08T14:09:52.985975+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,30 +113,39 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-08T06:54:55.401585+00:00"
+      "source_collected_at": "2026-11-08T14:09:52.985975+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 12.2,
+      "score": 10.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 138,
-      "matched": 30,
-      "weighted_density": 0.228,
+      "matched": 28,
+      "weighted_density": 0.208,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "600 şubeli 36 yıllık market zinciri iflasın eşiğinde. 12 bin kişiyi işsizlik kalabilir - Nefes Gazetesi",
-          "source": "Nefes Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbF96ZFBYeVJSR1B1ay1IRERuV3hYLUd4VnBwYkpFVTJYMU4xZjNNaGh1Y01UY011eFpHWkJVMFB4N2xEa3VHRmR3eDk0dE5BNzFfakVKRWliWVZBWVQ5b1k5ZWIyOGN5TEVNeXJHUU1wcG9HUDJWVzdYVlRVNzdyR1UzNEFpcUV2eEhKc25WQW9JWXdScGIwZ1RUOFZZdFlIOFRqOWFaUXhpYl9PVk9HRHBWQWhzbWNT?oc=5",
-          "published": "2026-11-01T12:36:15+00:00",
+          "title": "İzmirli gençler iklim krizine çözüm için yarıştı - Ekonomi Gazetesi",
+          "source": "Ekonomi Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSEU5WWF6TU5YU1p0OU9hZmVMWTdMcmpQdUpGZ21IX21tYld0dmpxYlpxSGNZd3NCNlZxaXRfd1hvR0pmNFhZVG1ySjZaX2MzREdfNUlwcmtGb2xPMmFWd3hXSjBYMzRTU1VncWdYNm1OamE5SldzTjA2R3BmX2RMQndSeUFwTWVURTVQeDNWbDU2Tnh3Q09EclJLWQ?oc=5",
+          "published": "2026-11-08T08:47:48+00:00",
           "terms": [
-            "iflas",
-            "işsizlik"
+            "kriz"
           ],
-          "weight": 3.5
+          "weight": 2.0
+        },
+        {
+          "title": "Carnegie Europe'dan Türkiye analizi: Avrupa ile ilişkilerde dört büyük kriz - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORUlnYU16alEwYXNENGJ6RU5HdlN3NDVVS1JTVE1ZY0NkbkFMRFRxbVNWYkczRVJnTUxUQjFYSTNmLU93UHNmTEtLOUtkRDJpUWg2ZTcwY0NrSXc0Ym9oNk5jT0NINURRMm9KVkdKanJSNU1JTkFNdlJHUXg5Ym4wUFJGN1h1NmlaNVRFMkJ2Y1VwRXVFanZwZlk1bTBrVk9tUzBxa1FsQzFNWUZCQXljdlVUaDBHZFQ1M0E?oc=5",
+          "published": "2026-11-08T07:26:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
         },
         {
           "title": "20 ülkeye makine ihraç ediyordu, dev fabrika yatırımı yapan Türk şirketi iflas etti - Sanayi Gazetesi",
@@ -170,17 +179,6 @@
           "weight": 1.8
         },
         {
-          "title": "Cleveland Fed Başkanı Hammack'tan faiz artışı çağrısı: Enflasyon yanlış yönde ilerliyor - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVThCdTd6UVNXZWZmaTJDUzZteXR2WlgzNVZtMVpjZ2RvZnU4UUNiOUZRSGMxUHFEZzhoNU0tbzhvbzQzYmZTUmd0aEJkRVJZMk9lelZERFN1M2lvb192WjllajEtVEtQZGkzaFlIYVNFSnp5YlhBX2R4Vk9lajFtLWYwSkNSdUkzMS1IME1PMDNCQUxMUTNLcHlDdDVvcTFPN0lCR0k1ajdlTVNJVkZYZUpxMWtiQWdZT3UwSzlSZi1ISG9USktqb21fSUtDdEt2WVp2dEozbzZMZEZrOEc1UlRZU3YtX2NVY0tqSUdmWEZnWklKZ3VWN3lDUQ?oc=5",
-          "published": "2026-11-05T14:02:51+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
-        },
-        {
           "title": "2027 işsizlik maaşı hesaplandı! En düşük ve en yüksek işsizlik ödeneği kaç TL olacak? | Türkiye Ekonomisi Haberleri - GZT",
           "source": "GZT",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc0ktYlU4OEMxQk1ZaDlCcndnb0pEMDZXMkw0RmIyNHpnenJsOXVxWnZkQTdQS0xUcWxsTFdMdmZUdHRhNF9PQk15dGM2OVZHSVFhRk5keC1ZVTJ2TWJIUS1sSlNxc0lpU1VUMlNfaVFjWDFuMmcta0pVY1B3clByTERmSERzY25qUmZGamRzOE16WlBUQzFSR1dpRkVjUFpBVWJ6ZmFnOF9wMGk2M2pyeVFrWmdSVGNsSEdR?oc=5",
@@ -202,10 +200,10 @@
           "weight": 1.4
         },
         {
-          "title": "Gelişen piyasa merkez bankaları enflasyon baskısıyla şahinleşiyor - Investing.com Türkiye",
-          "source": "Investing.com Türkiye",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVjJnSllaZkZnN0d5dWlYSm1kaDhZZ0M0aXhRRm9FZUdQcnpmVml2VTY1S1YtZEQ0YlBYckNnSHZsUGVyOTNYVWxoQUgwcDF4Mk9nWjloNDRzREk3WkJwS0RSbmVKSFRIdURhck9NcGh6YllXQjJoWlllSVpQTDNKanVWb2pnRG9LX3h4LTMzT2JXSGNNeVo0NGxkTGVDMHdtMGFXZXp3YWRId2R1M2QyVHR4QQ?oc=5",
-          "published": "2026-11-07T21:37:47+00:00",
+          "title": "ECB Başkanı Lagarde: Enflasyon beklentimin değişmesi için önemli gelişmeler gerekiyor - Foreks.com",
+          "source": "Foreks.com",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQaDFSWmlyTElvMWRFYnAwTHg4UWpVa2lURHJ2WVA5UHN2aDJCalQ4WFp0dnhuaGVydjl0dkpWdGdDbHFpQk9ETUk3Y3dWcGstbl9heS1MRVVQQ3hUTXFoZlIwUEtUajNpeGFVZFNZOVI4SVFJZHpMWFE5YkMyYzUxaEI4UkRra0xQMTdxY25HejF4ajJ3eWI3SDJESnRjOGpDVjFRMF9STENGR1o3b1dGVU40YTdjOVJtR01DMHJGODhCajJvTXR5Y2VfUTRPNUE0Y0ZxRVl4ejFjMnZpWUUxZThaSl9FYkNINGRfbmV4Z0VEdnV6dVZrMQ?oc=5",
+          "published": "2026-11-08T06:53:50+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -252,15 +250,10 @@
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-08T06:54:55.401585+00:00"
+      "source_collected_at": "2026-11-08T14:09:52.985975+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-20T05:39:24.519108+00:00",
-      "score": 27.5,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-20T12:30:58.741420+00:00",
       "score": 27.0,
@@ -554,6 +547,11 @@
     {
       "generated": "2026-11-08T06:54:55.401585+00:00",
       "score": 19.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-08T14:09:52.985975+00:00",
+      "score": 18.9,
       "status": "BASELINE"
     }
   ],
