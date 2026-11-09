@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-08T22:38:45.032031+00:00",
+    "generated": "2026-11-09T07:37:54.729441+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 18.8,
-    "raw_score": 18.8,
+    "score": 18.9,
+    "raw_score": 18.9,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 18.8/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 18.9/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-08T22:38:45.032031+00:00"
+      "source_collected_at": "2026-11-09T07:37:54.729441+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-08T22:38:45.032031+00:00"
+      "source_collected_at": "2026-11-09T07:37:54.729441+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-08T22:38:45.032031+00:00"
+      "source_collected_at": "2026-11-09T07:37:54.729441+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,20 +113,50 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-08T22:38:45.032031+00:00"
+      "source_collected_at": "2026-11-09T07:37:54.729441+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.7,
+      "score": 10.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 137,
+      "coverage": 126,
       "matched": 26,
-      "weighted_density": 0.196,
+      "weighted_density": 0.208,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Tekstil makinesi devi SER Mekatronik iflas etti: Mahkeme konkordato sürecini noktaladı | Türkiye Ekonomisi Haberleri - GZT",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZmxJMDhWYlVfYkVxTC1IMmJRUlVEMlcyTHJScndpcDZXQjV5ZnJReEtmRVRxN0tEcV9zQ2hYeGd1SW1uVkM2WGJOeldrdk5wQ1Z0a1FwVTUxQlUtUzNWUE1fNkU1VHhpeFVTZmtGeUZ3NzZXUGNVc002LVNhcDRSQ3NYYnNtSVNKem9DQXREeWxpS09kcEwtRUc1RGtZWmtmbG4wYU1Ya3g4N1hja0ZhMW14WVBXNk1BNFZxT1pB?oc=5",
+          "published": "2026-11-09T06:29:55+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "İklim krizine karşı güçlü sigorta sistemi şart - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX19xejhvQnI1VDUzRXNHNzhkamVSX1Q4bDE0Y1prRnU1SklxQlJVazFKTHdiUGlfWlFqQ0RjZVBEbGY1cDVabHZBN050UHdvbGMtXy01ZmY2MkxoSkFSV2M0QWRmQ00zWDVhVVRCTnZLcDBaSzZGZHdXSVJfT25vMU51b0kxMkZsRDlZUXZVb3VBUQ?oc=5",
+          "published": "2026-11-09T01:00:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Prof. Dr. Kozanoğlu’na göre, fon krizi durgunluğa giden ekonominin üstüne tuz biber ekti - Nefes Gazetesi",
+          "source": "Nefes Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUmVOUVA4Z0NESnE5NXNyUEFZdjJ1RFY4cWJBTHhaMkpXNnVTY3pZdXhYbmlEaGhqaWs1N0hJM2UyV1JCTlBGdjdEaVhiNFNxQVpaLVhaRk9xMS1tVXZFdUtpVm1Bc0s3SlA1cXR5UzZwTng3VGwyS3RTNTRSczJlaVJ2dEtfWHJCczlaYUhQRWV6d2dCc2lySWI4TE1YQUVWV1BXb3BGeHBoS0EtUTUxQ0wtWk5SeVE?oc=5",
+          "published": "2026-11-08T23:45:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
         {
           "title": "Carnegie Europe'dan Türkiye analizi: Avrupa ile ilişkilerde dört büyük kriz - Cumhuriyet",
           "source": "Cumhuriyet",
@@ -134,16 +164,6 @@
           "published": "2026-11-08T07:26:00+00:00",
           "terms": [
             "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "20 ülkeye makine ihraç ediyordu, dev fabrika yatırımı yapan Türk şirketi iflas etti - Sanayi Gazetesi",
-          "source": "Sanayi Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObGxlNzN3VUhXX2F4OXVlS2RDb3J2b3RCWWRqbE9tVEVycE1SUkk2cTdTWjdOLWhoM05Nb2RfSHJKbmhIbHlWLS1FcnM3VkVaY2ZiUlZ4dlprLW9qWEJQRWtETFpFa2VWM1FycTVSb0NKbHpSY2lTb3BIQUhDY1dmNy1NLUtUMjhTYWxVQVAwaDloTFFnV3FqX05PX24zMkl0bGJ2ODFlbXZKWlBtVThaamd2WQ?oc=5",
-          "published": "2026-11-07T12:31:40+00:00",
-          "terms": [
-            "iflas"
           ],
           "weight": 2.0
         },
@@ -158,53 +178,20 @@
           "weight": 2.0
         },
         {
-          "title": "Babacan, gıda enflasyonunun faiz artışıyla değil maliyetle düşeceğini söyledi - Haberler",
-          "source": "Haberler",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ2IwdTFzY0w0ZXdFZW5QSjMyRHdkSVVhdVJSSUJqbUV4LXpQYnF5eTlfMGFCdERvOFhsd09OQWF4TFNpdEhqTlItNE1HYTN5YUIzY3NGUmRJRjFuajBqZlNzZURPZWdmUHZVd1ZlamNrUTRUSmRhZW00bFhjLVBPM0VzYUhVZ0xva3Zfa01EZThfa29YcGYzQ3FieW3SAZgBQVVfeXFMT1IwaUIwaHZVTUNDVDNTX0FHXzB0NmlyaEpubG5fZkJUNnRZUVYyOUVSSGowVXpJQ3R6bVZGTjNDMkpqS0xQVzN5TGpGWFM4bVhSaVJfd0I4VFdZOHgtTnFKNUp5OUNVVHg4RkN2a2drcFdDemR4RHVZWlVVeVRzT3RjcTVhWHFaSzNrSE5FZ2FpZTFqQ0xEU0o?oc=5",
-          "published": "2026-11-07T08:32:47+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
-        },
-        {
-          "title": "Cleveland Fed Başkanı Hammack'tan faiz artışı çağrısı: Enflasyon yanlış yönde ilerliyor - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVThCdTd6UVNXZWZmaTJDUzZteXR2WlgzNVZtMVpjZ2RvZnU4UUNiOUZRSGMxUHFEZzhoNU0tbzhvbzQzYmZTUmd0aEJkRVJZMk9lelZERFN1M2lvb192WjllajEtVEtQZGkzaFlIYVNFSnp5YlhBX2R4Vk9lajFtLWYwSkNSdUkzMS1IME1PMDNCQUxMUTNLcHlDdDVvcTFPN0lCR0k1ajdlTVNJVkZYZUpxMWtiQWdZT3UwSzlSZi1ISG9USktqb21fSUtDdEt2WVp2dEozbzZMZEZrOEc1UlRZU3YtX2NVY0tqSUdmWEZnWklKZ3VWN3lDUQ?oc=5",
-          "published": "2026-11-05T14:02:51+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
-        },
-        {
-          "title": "2027 işsizlik maaşı hesaplandı! En düşük ve en yüksek işsizlik ödeneği kaç TL olacak? | Türkiye Ekonomisi Haberleri - GZT",
+          "title": "Altın ve gümüş fiyatları yükseldi: Gözler ABD enflasyon verilerinde | Türkiye Ekonomisi Haberleri - GZT",
           "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc0ktYlU4OEMxQk1ZaDlCcndnb0pEMDZXMkw0RmIyNHpnenJsOXVxWnZkQTdQS0xUcWxsTFdMdmZUdHRhNF9PQk15dGM2OVZHSVFhRk5keC1ZVTJ2TWJIUS1sSlNxc0lpU1VUMlNfaVFjWDFuMmcta0pVY1B3clByTERmSERzY25qUmZGamRzOE16WlBUQzFSR1dpRkVjUFpBVWJ6ZmFnOF9wMGk2M2pyeVFrWmdSVGNsSEdR?oc=5",
-          "published": "2026-11-02T12:11:08+00:00",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTXZQWmRzMFFOMDdWVTBPMWt0QUxlZlI2Y0M3MjlvVGJaUnAxU0NiMzVER1BQNl9sRVZZLUFWNzZKQzBURXNicjFqbnc1NTA4UktPZlVzLUlweGlyZkdIdnE1WmQ4bzY4OGE2VnZvRzVGOWtfSnN1em5nYngwNnhTUlNXc0hXOXNCc1BPc1hDZVdvWnNvOTBySVVURFpaYnZtZFZRUw?oc=5",
+          "published": "2026-11-09T05:16:34+00:00",
           "terms": [
-            "işsizlik"
-          ],
-          "weight": 1.5
-        },
-        {
-          "title": "Enflasyon Haftası Başlıyor: Kasımda Ekonomiyi Ne Bekliyor? Emekli Zammı, Asgari Ücret ve Piyasalar Hakkında 10 Soru, 10 Yanıt - Investing.com Türkiye",
-          "source": "Investing.com Türkiye",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPR09QMExLSkJkeTNMSkNpY3VuUTNyRVozR3J5WFN1RThoOGpZS1NtSnFOMkVFZVZsbnlKbWo0cWtCeDVSSThKczBWVzl4OFZycGJ1N3ZJSlBEVDNyYTJHWndpelItU1NtZURUMjdzQjRTckZ4UGVHa0Zuc0hZc0xueFRCOElFZW1VZExxVm9famhqdGc2QVhmQjFBY1NmTmVOLVk2enFyZDQ1ZjlWVmdid0gxSmlXckJtSDAyNzBDMTZwRmlnZDJueER1S1ZFLTRKZ3hzNWF0eExuV2dGd3hfaG5ielFYSWxZYV80RGRjTFo?oc=5",
-          "published": "2026-11-02T06:47:48+00:00",
-          "terms": [
-            "zam",
             "enflasyon"
           ],
-          "weight": 1.4
+          "weight": 0.8
         },
         {
-          "title": "Şimşek'ten küresel ekonomi uyarısı: \"Savaş büyümeyi vurdu, enflasyonu tırmandırdı\" - Ekonomi Manşet",
-          "source": "Ekonomi Manşet",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSWZqUFJheE1iM1lxdDVNYk8ycGhLRERRTmdOM0ZDblY1NTVFRWQ3U2k1UkVMOFJZZHpwOExuZlo5dThMaldtQ05MbVBfNFRxVXBwYU9saFB2LTY3WWxDUVc2dHRVQkl5aXFKUHNpWmpMSUYzYUtac3gzdGt2Mi12YlNhaXUyTWZnRkItM3BDX2JGQTFUQ1Jqb1VYMWRDY2JHaF9qdlh1Tkh2RGtkZ2U5Wg?oc=5",
-          "published": "2026-11-08T13:27:10+00:00",
+          "title": "ECB Başkanı Lagarde: Enflasyon beklentimin değişmesi için önemli gelişmeler gerekiyor - Foreks.com",
+          "source": "Foreks.com",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQaDFSWmlyTElvMWRFYnAwTHg4UWpVa2lURHJ2WVA5UHN2aDJCalQ4WFp0dnhuaGVydjl0dkpWdGdDbHFpQk9ETUk3Y3dWcGstbl9heS1MRVVQQ3hUTXFoZlIwUEtUajNpeGFVZFNZOVI4SVFJZHpMWFE5YkMyYzUxaEI4UkRra0xQMTdxY25HejF4ajJ3eWI3SDJESnRjOGpDVjFRMF9STENGR1o3b1dGVU40YTdjOVJtR01DMHJGODhCajJvTXR5Y2VfUTRPNUE0Y0ZxRVl4ejFjMnZpWUUxZThaSl9FYkNINGRfbmV4Z0VEdnV6dVZrMQ?oc=5",
+          "published": "2026-11-08T06:53:50+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -221,20 +208,30 @@
           "weight": 0.8
         },
         {
-          "title": "TCMB Başkanı Karahan'dan enflasyon ve faiz mesajı: \"Gerekirse ek tedbir alacağız\" - Yeni Ankara",
-          "source": "Yeni Ankara",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONkl2UVJabndzU3FiM3lkejYtZ3BEOXlkOXRZRDJUZFRBSUE3MVdBZEFQd0VfT0J2U3c0aVpCRlYwLVFhdjVXeXpKeW0xZmtKR0JITzlwaGNTYWk5b1c2UUY4RV9IcHNLdDhnZXQtb21zRmNGb0d1VlAwT1ZPRHE4TDVOalktT21JN3Rpbi1rRkpBZGlNUmY4RlRBR1pmZTBmeW9zdk1sU1pVSnBvVW1Jb1RSbkJ6emw1c1pKdjZB?oc=5",
-          "published": "2026-11-06T17:28:00+00:00",
+          "title": "Ali Babacan: \"Tüketim böyleyken faizi yükselterek enflasyonu düşüremezsiniz\" - Anka Haber",
+          "source": "Anka Haber",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU3V5ME1xc0hwYkpLbkhubVVWUzV6OURSdjJKYS1lS0FQNlh1ZlNtSFd3SS0wV0JPN0JCTFFPQ1JnVkthbzdnUWp2YWRDUzdxZVgwMDJQS1pWOHJmd3lGLUdjTElOU245QS1QdWxRN0x6UDRqR2NFU0hiNm1tY3FaZGRjNmsxRHpBTXUxQjFJcVNJR3kwcTBiZGdpTDlURlV6SlIxX0pVRmdDTW5Ra2VZ?oc=5",
+          "published": "2026-11-07T08:33:05+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "TCMB Başkanı Karahan'dan Enflasyon Mesajı: Gerekirse Para Politikası Sıkılaştırılacak - Paranın Yönü",
-          "source": "Paranın Yönü",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYXpoVVJhUFFPd0FSNWtFQ2xob0xwWnJDSGdRZ2dKWkxGWC1rWUtKZU11ZFg1ZVlCUFdsVXZLbWE4SnVrUWJ6OTBnMlNQZmRiX056S3gzaDJIYjRHR1RYMU5IYjFHYnZBUUF6Z0tQWEU1Z1RGalllOHNaZ203TC11X0RIR2E2bW4xU3RkekxjQllmeGRqSGxqLWJ4WU9wSjB1azhPeU43Y1lCWER6VzFaWjZLcGFRRmRUT2RsX3lFNHByNDlz?oc=5",
-          "published": "2026-11-06T14:31:00+00:00",
+          "title": "Lagarde: Euro Bölgesi’nde enflasyon önümüzdeki çeyreklerde yüksek kalacak - EKOTÜRK",
+          "source": "EKOTÜRK",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV2lzVC0zekt1RDl1Q1k3YjF5amZpVF96azFWdHRTZThwaVdQakhSd3pfcUVhSE5SdlNVLVZnNGR0QnpVaEktQ0Q2WlA5OU1wU0d5bGFKdTNxMi16eU1mblhINmZZLWE4LWJpYjh5N1ZzRndfNDc2ZjVSMnF4Um5ldFlhSGdkM2VhcjBuLXFwWm5Pb3g0UmJHY3Q0RHA2Z0NwT2pJN1JzMHQ0SUs4NXR2RVpR?oc=5",
+          "published": "2026-11-06T20:59:58+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Yurttaşın enflasyon beklentisi kırılmıyor: Merkez'den 'ihtiyatlı' faiz mesajı - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE9OZUY3YURKRmstb1BhMW9VVDVQLVZHVDFJNUpLdEF0alVXMzhuLTMxczBsYTIxdEF4UTdDaUxwNWctWUpuVENKM1F2SWJSRGhZRWpQVHI2M0NNX3BINTZfeHdZWmV2SnZ4T1VySGhmQjZneEJ3NFdYZXVhMUtQOVppbG0wVG1WTkV3R1VUWkI0by1XN1h1RUpmUjhObWJWZVBxTkxPcUQ2Um1HaVpYZWdycFdaZlBib0hBSA?oc=5",
+          "published": "2026-11-06T14:20:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -251,15 +248,10 @@
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-08T22:38:45.032031+00:00"
+      "source_collected_at": "2026-11-09T07:37:54.729441+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-20T17:45:37.218831+00:00",
-      "score": 26.8,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-20T22:04:33.230385+00:00",
       "score": 26.8,
@@ -553,6 +545,11 @@
     {
       "generated": "2026-11-08T22:38:45.032031+00:00",
       "score": 18.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-09T07:37:54.729441+00:00",
+      "score": 18.9,
       "status": "BASELINE"
     }
   ],
