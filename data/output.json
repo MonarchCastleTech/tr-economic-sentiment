@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-10T07:59:08.301344+00:00",
+    "generated": "2026-11-10T20:12:07.244598+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,38 +11,38 @@
     "source_notes": []
   },
   "warning": {
-    "score": 18.9,
-    "raw_score": 18.9,
+    "score": 8.8,
+    "raw_score": 8.8,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 18.9/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 8.8/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 44.2,
-      "status": "WATCH",
+      "score": 9.0,
+      "status": "BASELINE",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
-      "latest_date": "2026-11-09",
-      "latest_value": 50.0878,
-      "change_5d_pct": 0.41,
-      "return_z": 1.76,
-      "volatility_20d": 0.08,
-      "volatility_z": 1.32,
+      "coverage": 129,
+      "latest_date": "2026-11-10",
+      "latest_value": 50.1078,
+      "change_5d_pct": 0.4,
+      "return_z": 0.83,
+      "volatility_20d": 0.07,
+      "volatility_z": 0.54,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 50.0878,
-          "date": "2026-11-09",
+          "value": 50.1078,
+          "date": "2026-11-10",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-10T07:59:08.301344+00:00"
+      "source_collected_at": "2026-11-10T20:12:07.244598+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-10T07:59:08.301344+00:00"
+      "source_collected_at": "2026-11-10T20:12:07.244598+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-10T07:59:08.301344+00:00"
+      "source_collected_at": "2026-11-10T20:12:07.244598+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,25 +113,65 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-10T07:59:08.301344+00:00"
+      "source_collected_at": "2026-11-10T20:12:07.244598+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 9.0,
+      "score": 12.9,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 127,
-      "matched": 25,
-      "weighted_density": 0.199,
+      "coverage": 128,
+      "matched": 23,
+      "weighted_density": 0.234,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Erdoğan: “Terörsüz Türkiye sürecinden geri dönüş yok, fon krizinde taviz verilmeyecek” - Medyascope",
-          "source": "Medyascope",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zclltSG1sQUtySUlmc0lubDRqLXpYR2lsV19jbnZYbVlEbWkxaHpjMnA3a3M1TF9VaWhqNWVTbkRMZ0g5RF9CYXVDOExoMEgxWlJfOEV3Z0hzZklpX2VNaDM0UVdvRkVHcjRpTW9zSWF6QkMtckFGOTVqNA?oc=5",
-          "published": "2026-11-10T06:57:19+00:00",
+          "title": "Türkiye genelinde 124 mağaza ile faaliyet gösteriyor; Aile kavgası iflas yoluyla takibe sürükledi! - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaG1mY1BiRXNGSkpJRnJwMGcxX25lU1pVOVRmOWpoWU1PT1g0cDNKVFMzUk5Qc1V0UlNwRlZmTjktb19OLWFUdnR3TFJ4VENyd1drX2RNUHZCZi1zWG1LS2FJdzA2ejZ5a1Bjb1p6aGdVcW8wQ3dhcmhsT0JoVTB3UTJUS2llcV9UZFI1SDRENUJQUnRfWEJrYnJjNGc1cTB1Q2NnZnoyYkxhNEFka1l0bFJZSlhsdzdEeHZWcWIyNTRGSjM4T0ZUXzZtOEpBcnZERnl5S3kwNDZVbE0?oc=5",
+          "published": "2026-11-10T14:18:00+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "BofA’dan Türkiye’deki fon krizine ilişkin güven kaybı uyarısı | Türkiye Ekonomisi Haberleri - GZT",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYXlCNkRINF9BR2lHZC1rNXBVWXdaR29pc1Bjek9iWHoxa1VobHdiNXhELUxMQ0ZTdkZSY3ptdGxBY0ZXaWs2bkRTR1l0b1pHQzFJT0dhbEVlVUpMRmoxcUtwUDVuWFZnSXpBdW5tLTlnX2JzcE50U0lBNVRFUW02Z0M1Mm9STS0xam5LVkI2ZlU3a0dDV1lkWXFHdw?oc=5",
+          "published": "2026-11-10T11:22:09+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "BofA'dan Türkiye ekonomisine fon krizi uyarısı - Borsa Gundem",
+          "source": "Borsa Gundem",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbDJyaFp0aXhYSVBZWElYclVRQnpMOXhweHYwQXBXQlZ2SDlOYlkxbEhPTXZMTDB4QnBNY1QyQVM3amlTdVlxREJGem96WkhNbVA4WEl3UnJTNkluajgwa0w5bmJJV1hWaWdPVzJxWGN5WjFpeUZmR3NJQWZjMWVtd1ZB?oc=5",
+          "published": "2026-11-10T11:15:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Tarımda yeni dönem başlıyor! Bakan Yumaklı, Türkiye'nin iklim yol haritasını açıkladı: Krizi değil, riski yönetmek istiyoruz - Sabah",
+          "source": "Sabah",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNam40TmdnYXdhSTFZdklJSTdxY01HbUVzYUpGSGVWb0FtTXlvZVVZZ2hUWGxxUFVTNlhzcEhhTV9sMkxXdUNZejY1SWc3M0ZPZkZMWmdPb3VicVhydkhVUXdRZWRIbXpCYU5jeFY5cHhqYzhaRHZhR0F5bU5QQmF4ZWM0MWZWX2wwdEhLckxvZ1RzWldXUTh4Y0JMSHhwUFlyMUJTMHFvLXJrVFpmOVZOUXdvS2ZobkwzWnRGQ0d6dUY4Sm54VFpGY29DTHJwZGtUdzZyYjZ1MXpPcWpQU0ozQi12SXpZVHNYVDIwVHZvXzg4d9IB9AFBVV95cUxNOV9SNFQ5RFZrcndINlRZWmQ2elVrOG9JaERDOUtmMnZZMGR3UWZWTkh1VGZPb0F1bHhjLVJxejhuUVNycnRCbllPNUtMc1ZBc3hmR29vUGJ1M0FIbG94MDJxaGpndDBMRHRxa2p3c0tVUHZSZ09kaElSNS1tX0ZGSmVFOXNVemtVek4xTG56VDhNbUpxV3lYMGRtZ1hNWUhWQ3BBajBiaTNWWGRKZ3N2OWw4N29xd2ViMVBHSTRJX095b3R2SFQ4UHhkYTNhUEEyZnpFWUZWX0NvYjZzT2Z6ZFlaTm8tQ2VYUWJlbmRxU0JvemxI?oc=5",
+          "published": "2026-11-10T11:03:44+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "BofA'dan Türkiye ekonomisine fon krizi uyarısı: Güven kaybı derinleşiyor - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORGZOXzNFeWlHTS1DTkczMGNubFV4eC1EeE56UWk5aWlzT3c1QW5zRkxnYzRFOVJGREJkN1BFNmRray14V1h0am9ueUltU0s3aFlIRkZHZ1FISjVvcjNKWkNNb1BMUDg2Nks3T2JtVzZjQzRRUFVCaFpIQzBneDdpbVIxSTcxaVR1Y1VLZTVLRmF4R2RUQ2FYeGJyQ3VjVjEyMkV1VEVKODkyZThNSEE3Ri1Gako0NmFF?oc=5",
+          "published": "2026-11-10T09:02:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -148,26 +188,6 @@
           "weight": 2.0
         },
         {
-          "title": "Prof. Dr. Kozanoğlu’na göre, fon krizi durgunluğa giden ekonominin üstüne tuz biber ekti - Nefes Gazetesi",
-          "source": "Nefes Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUmVOUVA4Z0NESnE5NXNyUEFZdjJ1RFY4cWJBTHhaMkpXNnVTY3pZdXhYbmlEaGhqaWs1N0hJM2UyV1JCTlBGdjdEaVhiNFNxQVpaLVhaRk9xMS1tVXZFdUtpVm1Bc0s3SlA1cXR5UzZwTng3VGwyS3RTNTRSczJlaVJ2dEtfWHJCczlaYUhQRWV6d2dCc2lySWI4TE1YQUVWV1BXb3BGeHBoS0EtUTUxQ0wtWk5SeVE?oc=5",
-          "published": "2026-11-08T23:45:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Tekstil sektörüne makine üreten 18 yıllık Türk makine devi iflas etti - Sözcü Gazetesi",
-          "source": "Sözcü Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOEd4SG1UV2VSTnd2NnpfckRVbVdpalJPUWlUT1lldEZCamhEOWdiWEhPcFRPcGVDd252cGk4cXNob0JWZGpCQ0tpRGl6bjZhWkdGc1pfWFB3N2RLVXZCQUtiZnpxMGJrQU9uSllkd1ZRYUxXN1BBbWhYUWdacGpNTXo4MVBLc3FLTmlWRDZyTmt1UjlwYkppb0toWDBqZGh1NW5QaA?oc=5",
-          "published": "2026-11-06T16:18:00+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
           "title": "Büyümek için fabrika yatırımı yapmıştı! Türk tekstil devlerine makine üreten şirket iflas etti - Bursada Bugün",
           "source": "Bursada Bugün",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcGFjVDhJbW1pQXBocjFMM2NHbUNmYmxubXBKTTN1Mjd2Vy1nUXpvSmNNODNINGtVa3haX2tDUEVlaFFCOW9MUHY0cXFodWxrdVVKN2dWazZ5Wm5FTHNocWJ3eDJPbXZrSUtDUXRFZkFNZTR5aWNWaW5vRG80Nlo2OEtIeVlFd1BkbV90Mm9rejBQWmtTd2otbHFEdHlqcTNiS08xMHd3MFhiVkZjdzZHaEQwSlVsX245d1BJeU9mTkpuVUZudWl3S3Z5U3FlYmN2eHJtbzM0SXfSAdsBQVVfeXFMTkpfcnFNc2ZzM2ozV3UtdldrckkxaENKOVNEMW1ncGF4ellsbERRdG05UEVfUkNCZHJVXzl6UTloeG8xdHByVl9LRE8xWkZkcHlqT3E2SDQ0VUZOeUc0QUVmbkM2TjI5NHktandZSDhROUwxdk96R0xsVE00cjBKN3V5b19SRTVSSnI1bXYtb2VCVklHUUZlMjZpTlU2NHlqekl1UWpoVlFfQVl0am1EbDBSNWVTTV82ZjFpU2Z2THNtU1B1QWlITWpNeWRMSmdNbGpydWZhelhaT0FN?oc=5",
@@ -178,85 +198,64 @@
           "weight": 2.0
         },
         {
-          "title": "ABD Enflasyon Verisi Saat Kaçta Açıklanacak? Piyasada Kritik Bekleyiş - Dosya Haber",
-          "source": "Dosya Haber",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa19wTVM1ZWlrSnF6QjBNS1pTS2RvOEhaOFN2QkpVRE9jUUZGdGhxdGVzcWZuOHJBaUhYQ1lUbjBPYmVrb1N6cTdqa2htZHM4NWxwUjA5cG1KckVQRmRkUGo1MTl1V3U2TDhuckRqQjBjYVJ2RU1XWTRWRjhjVXVtc2d6ZHlHNTBoTnYwQllubW9UQlJEMU90R09SeURncHVjVzd3eEJicGtlSGc?oc=5",
-          "published": "2026-11-10T07:27:09+00:00",
+          "title": "Fed'de 50 baz puanlık faiz artışı ihtimali gündemde: Waller'dan enflasyon uyarısı - ABC Haber",
+          "source": "ABC Haber",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZzhmdFJhTTl5NG43aWhvZFFuWWdZRXZlZDJKalc2bnJYNjlYTnplVnh5TG9WeGVxSnQ4N0FHU293S1NYNEJrcUNXZkUtV1pPMC0yUW9QNHN3VGYwTm96WV9acEluYWREcEppdVRSODRydGQ4SVZqbjFHbER2MFRkUDBzWmxXWEVPWHo3eEZPdWg4Z3BYWk9EMy1MRjVmQy10WnN5V1M1TUdrc3lleUNvOHdkSXMwcno2R3pwaw?oc=5",
+          "published": "2026-11-10T12:52:00+00:00",
           "terms": [
-            "enflasyon"
+            "enflasyon",
+            "faiz artışı"
           ],
-          "weight": 0.8
+          "weight": 1.8
         },
         {
-          "title": "Doların yükselişi ABD enflasyonu öncesinde hız kesti - Forbes Türkiye",
-          "source": "Forbes Türkiye",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRm84bnNuTGo1MUdtMS1qV3VlOU9JX1oyNWdLYW0zdkpFY0ltclRjaXY4bS1RNGNSZFFNRGdXMlN3Qk1MNnBUelNueTZUc1FxNXVTS1JtU2VWbkRhSm83U25HbGRQNHVjbXMtMmdpWktXQVFqNkFlSXdoSDNBeFplQ18zV3Bkb2tvclJJQnZBM0J1dVpYXzhweUtB?oc=5",
-          "published": "2026-11-10T07:25:00+00:00",
+          "title": "Fed'de 50 baz puanlık faiz artışı masada: Waller'dan kritik enflasyon uyarısı - Dünya Gazetesi",
+          "source": "Dünya Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc1lMS3Zzc1pmMDljdkF4MVBtRThXRmt1UXN6UENRZ0NFOC1Xc2d6R1lMUUp5MWpmMGxyR1pfcU55RzdLUWxzai16eUR1UFZGN3BMX3E2TWoxWGg2aUNoS2FTMkNscEFKUjFRcEdWYU9uWWt1UUpUbHNtaFVreElHMklOS0JXQ1lGQzZXbzZhTmFMaXlXSnJjcFNodDV4U2dYUUZwZzFVVUR1LVVMV3BZdFNOdXZZRzIzTHB0bEFSdkx1UXh2?oc=5",
+          "published": "2026-11-10T09:42:00+00:00",
           "terms": [
-            "enflasyon"
+            "enflasyon",
+            "faiz artışı"
           ],
-          "weight": 0.8
+          "weight": 1.8
         },
         {
-          "title": "Altın fiyatları düştü: Gözler ABD'nin enflasyon verilerinde - YatırımX",
-          "source": "YatırımX",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcS15NXd1SGxBbm5KVWc0OGt5UFhhaHNjY1hRMjd4cEJuTW1pSFhpZnhrZlYwVEhMQmZCdG1uR1FkN3pEbGVfc1FTcVVBelJCWDFWZGxORzZLbExocTdvaGhjNmZ4elhGbmRNVlJicDdKNWVXcEo5cnd1ajk0eW1PUnpjYTZhbmNSVFhKWGduaDF1RUZ3aHlwX3Jna3Jkb0E?oc=5",
-          "published": "2026-11-10T05:51:04+00:00",
+          "title": "Amerika enflasyon verileri ne zaman, saat kaçta açıklanacak? ABD Ekim 2026 enflasyon beklentisi ne yönde? - GZT",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNaEx5eXhzcVlmQWh3eTlueUQySkZla21DTDIwbTU5MVI2QVlpclQ1MnhWbE1IakxyWXlDNFhVWFlPdDRUZFNZQTdEVHdlN3lzenRBWTdMWmFHa2NMRVM2U1dEUHhkTlFpMmJsYVFOTFJwRUxMSWlpRi10UlhGWVFJeUd0TEtSSWx5bGVfRDVkaVlrUjB6bmQyQUF0MWJJX0FqdGlWa3h2NU5PdDhoZngzc09ZZHpJYXRlTlBEazJGYUtRY3lKRDZhRTVZdkc3T2t3eGtlcFVEOXZTRkJ5UGxpU2VsdkI2R0g2QzFESm9KbEZMUDJldl9VbDRRZURtVzhaeENBUlFBRW4tcmlCNy1rT1hidw?oc=5",
+          "published": "2026-11-10T13:09:44+00:00",
           "terms": [
+            "zam",
             "enflasyon"
           ],
-          "weight": 0.8
+          "weight": 1.4
         },
         {
-          "title": "Dolar 50,23 liradan başladı! Piyasalarda gözler ABD enflasyonuna çevrildi - Aydınlık",
-          "source": "Aydınlık",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdl9LajhvUVVZOUJLcl83YU9sbEdkSkNQSnRYd0p3S3dUcndZWmtmQXY3ZWFhbTFBVnc2ZVNDdFVpbDRLNkNIX2FrbXhRSmltaGdTMDh1ZmUtQjFnampBTVBLdFI3elYyTFF5bEIwVFhoZVBySkpwZHFpaUQ2WDEzbEZhZnloSzM4YlF6NS1lWGdVV3VQdVhuT3owMA?oc=5",
-          "published": "2026-11-10T05:21:53+00:00",
+          "title": "ABD enflasyon verileri ne zaman, saat kaçta açıklanacak? Ekim 2026 ABD TÜFE beklentisi - Türkgün",
+          "source": "Türkgün",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUlluZHJqaEhTZlBaNHlfTnpGUF93dHp3a1NjaVN3V2hPNEpaRmh2NlNJbDJtTWhFMUNWLU03UGVOakcybm15aHZjaDFrQlFsdWFSc2RPbmhYNWVlVklZc1lrZlgtY014LXNTQ3JuNnA0M1ZuN0MwdlM0NkxYMUNGMlFCYng1UHMzTl9JVVNmZ01GQklWVDdkVDlXVVdfVWx0aTJpVFJlWXh5RnV4Ty11NWpVUEdYNE5iLTM2QVJBMjU?oc=5",
+          "published": "2026-11-10T09:08:57+00:00",
           "terms": [
+            "zam",
             "enflasyon"
           ],
-          "weight": 0.8
+          "weight": 1.4
         },
         {
-          "title": "Güne başlarken: Gözler ABD enflasyonunda, içeride sanayi üretimi izlenecek - EKOTÜRK",
-          "source": "EKOTÜRK",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOXpoamx2VHQwRXdyS1AxdGN4YmxDck1iaEVmVEZYQzJ3SG5nbjVwcnN6LVBMeW15M0FWQUpmM19GZVFEVWxCVFlaSlk0Znp2QzRaUTBia2RscENCOE9xenh4cU04QnJsdDI4RE1vU2luVUFiNXdyWUlrUDN2VEVaVkN4YmlFLUpZb2JCVG1hY1h3WUhJcWl2b1VDSDRwUEhtREpjN3dn?oc=5",
-          "published": "2026-11-10T04:15:13+00:00",
+          "title": "Dallas Fed Başkanı Logan en az iki faiz artışı daha bekliyor - Foreks.com",
+          "source": "Foreks.com",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcWxoWGozYjE0WGJ5dzdhdG9Cc0Q2bF96U0NPb2g3emctMk55QTc5cFhWRGFGQlVIZ2NGNUlQaUxLRnFhRFVzaFlFZkZoVHVjMEJhb0VPWVE2RUh4cGFPLVp3UGNGd0tVb3ZNc255eWdPQk10UzNIR0lYZ2dJcmhtUlM0VFBRaElJV2ZTc1JBRHhEWU03N09yaDNqWXYwaWRmNnpWYW9nVzhsd1BVQ0xfTWhmQXUySV9fUkVEWmlraS1OenR6NmFTajFzM2FLRlpYaEEzSEpScmw?oc=5",
+          "published": "2026-11-10T15:58:14+00:00",
           "terms": [
-            "enflasyon"
+            "faiz artışı"
           ],
-          "weight": 0.8
-        },
-        {
-          "title": "Gelişen piyasalarda faiz indirimi dönemi sona mı eriyor? Citi'den enflasyon uyarısı, JPMorgan'dan tahvil fırsatı - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS2VnZW5ZTTBra3h5LVh6eTZDdVBFMUZlamEwNi1wd2xIdnhuaHJWVGpXS1RSTHVkZUg1QzBUanlHQWlFcGl0dHBaa1AyRm9mQ1I0ZFY4SHRTbDBMUGc3dDUxUzhHTkRsZVpJYmVtUmlTN0hFTGJiYWhCVWJCM05uVkdXSy1LTlE5RlZsQ1l1TDA1SXhUQ3NEZHpsMzlER0hJQ29SSERiOFlrcV9BWTRvaHQ2X0ZsSDQ?oc=5",
-          "published": "2026-11-09T14:58:08+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Yurttaşın enflasyon beklentisi kırılmıyor: Merkez'den 'ihtiyatlı' faiz mesajı - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE9OZUY3YURKRmstb1BhMW9VVDVQLVZHVDFJNUpLdEF0alVXMzhuLTMxczBsYTIxdEF4UTdDaUxwNWctWUpuVENKM1F2SWJSRGhZRWpQVHI2M0NNX3BINTZfeHdZWmV2SnZ4T1VySGhmQjZneEJ3NFdYZXVhMUtQOVppbG0wVG1WTkV3R1VUWkI0by1XN1h1RUpmUjhObWJWZVBxTkxPcUQ2Um1HaVpYZWdycFdaZlBib0hBSA?oc=5",
-          "published": "2026-11-06T14:20:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
+          "weight": 1.0
         }
       ],
-      "source_collected_at": "2026-11-10T07:59:08.301344+00:00"
+      "source_collected_at": "2026-11-10T20:12:07.244598+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-21T12:42:05.940378+00:00",
-      "score": 26.3,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-21T17:53:36.332142+00:00",
       "score": 26.2,
@@ -550,6 +549,11 @@
     {
       "generated": "2026-11-10T07:59:08.301344+00:00",
       "score": 18.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-10T20:12:07.244598+00:00",
+      "score": 8.8,
       "status": "BASELINE"
     }
   ],
