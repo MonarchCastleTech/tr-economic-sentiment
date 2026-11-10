@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-09T22:51:48.277214+00:00",
+    "generated": "2026-11-10T07:59:08.301344+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-09T22:51:48.277214+00:00"
+      "source_collected_at": "2026-11-10T07:59:08.301344+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-09T22:51:48.277214+00:00"
+      "source_collected_at": "2026-11-10T07:59:08.301344+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-09T22:51:48.277214+00:00"
+      "source_collected_at": "2026-11-10T07:59:08.301344+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,35 +113,25 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-09T22:51:48.277214+00:00"
+      "source_collected_at": "2026-11-10T07:59:08.301344+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 8.1,
+      "score": 9.0,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 135,
-      "matched": 24,
-      "weighted_density": 0.191,
+      "coverage": 127,
+      "matched": 25,
+      "weighted_density": 0.199,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "80 yıllık hazır giyim markasında miras krizi: İflas takibi başlatıldı - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ0ljY0l3NUpwM0huTS1tbVhmTlJUclZjVG1fd3k0R2FheTNCN3htU2JyT28zaEZXajdnakluTXEwSmd4UmhrWngwMjBlRTgtVVdjTU93UjJFU3RvTDcteG1HY3FXVEtpWHNsNXRyZ211c09rRzFScHA4WWFNZTJLZG9uTmdoM2d3RVBOZUNXWk5rQm9DTmR1YzR4azVfWUNkcnZCd0YyVDZyd2JmU1lJ?oc=5",
-          "published": "2026-11-09T12:52:58+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Milliyet yazarı fon krizinde faturayı muhalif ekonomistlere kesti: İktidarı neden uyarmadınız? - Medyaradar",
-          "source": "Medyaradar",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORXZsOGdEOVMzM3p3dmw1bC1kbXhWTXVnU3F4REZpMGlCOERxRE5QVm9rTDhWb1c0TWYyT0daLUdfSTRQaGs5WlhLaVhtbm1fYzBxZkItQi1IMGxiRm8wVUNYamdBMjl5UDZrLW9yeUM4Z3RrclRCVHZIWW5VRjdtaVFkbTRjZjhkUFExTlFBS3FtbkpYQXlXM2Vic2ltWkVub1dzWTdPNk5mTzE5QnRRRUpYOEZfbS03V1BlTUtydmNMZzd1YXNOUTgtRUxIbWc?oc=5",
-          "published": "2026-11-09T12:47:00+00:00",
+          "title": "Erdoğan: “Terörsüz Türkiye sürecinden geri dönüş yok, fon krizinde taviz verilmeyecek” - Medyascope",
+          "source": "Medyascope",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zclltSG1sQUtySUlmc0lubDRqLXpYR2lsV19jbnZYbVlEbWkxaHpjMnA3a3M1TF9VaWhqNWVTbkRMZ0g5RF9CYXVDOExoMEgxWlJfOEV3Z0hzZklpX2VNaDM0UVdvRkVHcjRpTW9zSWF6QkMtckFGOTVqNA?oc=5",
+          "published": "2026-11-10T06:57:19+00:00",
           "terms": [
             "kriz"
           ],
@@ -188,6 +178,56 @@
           "weight": 2.0
         },
         {
+          "title": "ABD Enflasyon Verisi Saat Kaçta Açıklanacak? Piyasada Kritik Bekleyiş - Dosya Haber",
+          "source": "Dosya Haber",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa19wTVM1ZWlrSnF6QjBNS1pTS2RvOEhaOFN2QkpVRE9jUUZGdGhxdGVzcWZuOHJBaUhYQ1lUbjBPYmVrb1N6cTdqa2htZHM4NWxwUjA5cG1KckVQRmRkUGo1MTl1V3U2TDhuckRqQjBjYVJ2RU1XWTRWRjhjVXVtc2d6ZHlHNTBoTnYwQllubW9UQlJEMU90R09SeURncHVjVzd3eEJicGtlSGc?oc=5",
+          "published": "2026-11-10T07:27:09+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Doların yükselişi ABD enflasyonu öncesinde hız kesti - Forbes Türkiye",
+          "source": "Forbes Türkiye",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRm84bnNuTGo1MUdtMS1qV3VlOU9JX1oyNWdLYW0zdkpFY0ltclRjaXY4bS1RNGNSZFFNRGdXMlN3Qk1MNnBUelNueTZUc1FxNXVTS1JtU2VWbkRhSm83U25HbGRQNHVjbXMtMmdpWktXQVFqNkFlSXdoSDNBeFplQ18zV3Bkb2tvclJJQnZBM0J1dVpYXzhweUtB?oc=5",
+          "published": "2026-11-10T07:25:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Altın fiyatları düştü: Gözler ABD'nin enflasyon verilerinde - YatırımX",
+          "source": "YatırımX",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcS15NXd1SGxBbm5KVWc0OGt5UFhhaHNjY1hRMjd4cEJuTW1pSFhpZnhrZlYwVEhMQmZCdG1uR1FkN3pEbGVfc1FTcVVBelJCWDFWZGxORzZLbExocTdvaGhjNmZ4elhGbmRNVlJicDdKNWVXcEo5cnd1ajk0eW1PUnpjYTZhbmNSVFhKWGduaDF1RUZ3aHlwX3Jna3Jkb0E?oc=5",
+          "published": "2026-11-10T05:51:04+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Dolar 50,23 liradan başladı! Piyasalarda gözler ABD enflasyonuna çevrildi - Aydınlık",
+          "source": "Aydınlık",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdl9LajhvUVVZOUJLcl83YU9sbEdkSkNQSnRYd0p3S3dUcndZWmtmQXY3ZWFhbTFBVnc2ZVNDdFVpbDRLNkNIX2FrbXhRSmltaGdTMDh1ZmUtQjFnampBTVBLdFI3elYyTFF5bEIwVFhoZVBySkpwZHFpaUQ2WDEzbEZhZnloSzM4YlF6NS1lWGdVV3VQdVhuT3owMA?oc=5",
+          "published": "2026-11-10T05:21:53+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Güne başlarken: Gözler ABD enflasyonunda, içeride sanayi üretimi izlenecek - EKOTÜRK",
+          "source": "EKOTÜRK",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOXpoamx2VHQwRXdyS1AxdGN4YmxDck1iaEVmVEZYQzJ3SG5nbjVwcnN6LVBMeW15M0FWQUpmM19GZVFEVWxCVFlaSlk0Znp2QzRaUTBia2RscENCOE9xenh4cU04QnJsdDI4RE1vU2luVUFiNXdyWUlrUDN2VEVaVkN4YmlFLUpZb2JCVG1hY1h3WUhJcWl2b1VDSDRwUEhtREpjN3dn?oc=5",
+          "published": "2026-11-10T04:15:13+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
           "title": "Gelişen piyasalarda faiz indirimi dönemi sona mı eriyor? Citi'den enflasyon uyarısı, JPMorgan'dan tahvil fırsatı - Para Analiz",
           "source": "Para Analiz",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS2VnZW5ZTTBra3h5LVh6eTZDdVBFMUZlamEwNi1wd2xIdnhuaHJWVGpXS1RSTHVkZUg1QzBUanlHQWlFcGl0dHBaa1AyRm9mQ1I0ZFY4SHRTbDBMUGc3dDUxUzhHTkRsZVpJYmVtUmlTN0hFTGJiYWhCVWJCM05uVkdXSy1LTlE5RlZsQ1l1TDA1SXhUQ3NEZHpsMzlER0hJQ29SSERiOFlrcV9BWTRvaHQ2X0ZsSDQ?oc=5",
@@ -198,65 +238,20 @@
           "weight": 0.8
         },
         {
-          "title": "ABD Enflasyon Verisi Öncesi Dolar Geriledi - Paranın Yönü",
-          "source": "Paranın Yönü",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNUlsYWk1NW5tSWZham1pNENjeTVqX2NlQUFYVGQ5bDFYLUFSOVpTM3h6aEdsRF9lelR0VER3VGxGMzJDNmRJOEhxcm85UW5DejhCSjhnUEZOUVJ1SktVUndiRGJQS1FSQmRHbldjVTdUNDVNSmx0OFQwelJ5Ull4QUdzOTg5QnFWMGt4QVZ3?oc=5",
-          "published": "2026-11-09T12:10:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "TCMB Enflasyon Raporu: 2027 enflasyon tahmini değişecek mi? | Türkiye Ekonomisi Haberleri - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMTA3MGRXWFVlaWpCN2lSNTVGcHJLLTVZMHdoYnNEbktfbDhJMkZld3ZoNjBfZXd1ZWJ2Tm1ZbXl1RUItRHFEaHRCWHFLU284V2tGcEJRQ003OTVfY280MWI0bkFpU0p2eElyQ2ZINk05blRNeUU3QWRlT0E4T3R5MXBxM1p5QXNfWVUxcjNBYTd0V2FtSlQ0Uw?oc=5",
-          "published": "2026-11-09T08:18:07+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "AMB'nin güçlü başkan adayından faiz ve enflasyon mesajı - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObHFKSUN1M3hOeU9USEFZTmVQYkYwQkwyZWV4eTFJYkcxOU53c3pfSzhXa0lhRjZXNU82MGpnNmZaeGF4b2xkVmxxOUFSQjJxNmdBRXY3M0RaeXpJb3piX3BFZklIUEw3eHRCZWhiWUFxTnN6dkxmc3QyVUpqYUFfbWRJc1JqMHJId2t3Uk1VdTRqVW9vZGljVTFIR0NfanhtSzk0cTFnbnI0bVBWTUE?oc=5",
-          "published": "2026-11-07T09:56:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Ali Babacan: \"Tüketim böyleyken faizi yükselterek enflasyonu düşüremezsiniz\" - Anka Haber",
-          "source": "Anka Haber",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU3V5ME1xc0hwYkpLbkhubVVWUzV6OURSdjJKYS1lS0FQNlh1ZlNtSFd3SS0wV0JPN0JCTFFPQ1JnVkthbzdnUWp2YWRDUzdxZVgwMDJQS1pWOHJmd3lGLUdjTElOU245QS1QdWxRN0x6UDRqR2NFU0hiNm1tY3FaZGRjNmsxRHpBTXUxQjFJcVNJR3kwcTBiZGdpTDlURlV6SlIxX0pVRmdDTW5Ra2VZ?oc=5",
-          "published": "2026-11-07T08:33:05+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Lagarde: Euro Bölgesi’nde enflasyon önümüzdeki çeyreklerde yüksek kalacak - EKOTÜRK",
-          "source": "EKOTÜRK",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV2lzVC0zekt1RDl1Q1k3YjF5amZpVF96azFWdHRTZThwaVdQakhSd3pfcUVhSE5SdlNVLVZnNGR0QnpVaEktQ0Q2WlA5OU1wU0d5bGFKdTNxMi16eU1mblhINmZZLWE4LWJpYjh5N1ZzRndfNDc2ZjVSMnF4Um5ldFlhSGdkM2VhcjBuLXFwWm5Pb3g0UmJHY3Q0RHA2Z0NwT2pJN1JzMHQ0SUs4NXR2RVpR?oc=5",
-          "published": "2026-11-06T20:59:58+00:00",
+          "title": "Yurttaşın enflasyon beklentisi kırılmıyor: Merkez'den 'ihtiyatlı' faiz mesajı - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE9OZUY3YURKRmstb1BhMW9VVDVQLVZHVDFJNUpLdEF0alVXMzhuLTMxczBsYTIxdEF4UTdDaUxwNWctWUpuVENKM1F2SWJSRGhZRWpQVHI2M0NNX3BINTZfeHdZWmV2SnZ4T1VySGhmQjZneEJ3NFdYZXVhMUtQOVppbG0wVG1WTkV3R1VUWkI0by1XN1h1RUpmUjhObWJWZVBxTkxPcUQ2Um1HaVpYZWdycFdaZlBib0hBSA?oc=5",
+          "published": "2026-11-06T14:20:00+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-09T22:51:48.277214+00:00"
+      "source_collected_at": "2026-11-10T07:59:08.301344+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-21T05:41:55.871748+00:00",
-      "score": 26.7,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-21T12:42:05.940378+00:00",
       "score": 26.3,
@@ -549,6 +544,11 @@
     },
     {
       "generated": "2026-11-09T22:51:48.277214+00:00",
+      "score": 18.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-10T07:59:08.301344+00:00",
       "score": 18.9,
       "status": "BASELINE"
     }
