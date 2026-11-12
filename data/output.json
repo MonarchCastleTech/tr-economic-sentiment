@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-11T19:59:28.636130+00:00",
+    "generated": "2026-11-12T07:57:00.175654+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-11-11",
       "latest_value": 50.1379,
       "change_5d_pct": 0.4,
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-11T19:59:28.636130+00:00"
+      "source_collected_at": "2026-11-12T07:57:00.175654+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,7 +51,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 121,
+      "coverage": 120,
       "latest_date": "2026-11-03",
       "latest_value": 5341.8,
       "change_5d_pct": -16.0,
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-11T19:59:28.636130+00:00"
+      "source_collected_at": "2026-11-12T07:57:00.175654+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-11T19:59:28.636130+00:00"
+      "source_collected_at": "2026-11-12T07:57:00.175654+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,27 +113,27 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-11T19:59:28.636130+00:00"
+      "source_collected_at": "2026-11-12T07:57:00.175654+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 3.7,
+      "score": 3.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 131,
-      "matched": 17,
-      "weighted_density": 0.153,
+      "coverage": 132,
+      "matched": 18,
+      "weighted_density": 0.148,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "BofA’dan Türkiye’deki fon krizine ilişkin güven kaybı uyarısı | Türkiye Ekonomisi Haberleri - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYXlCNkRINF9BR2lHZC1rNXBVWXdaR29pc1Bjek9iWHoxa1VobHdiNXhELUxMQ0ZTdkZSY3ptdGxBY0ZXaWs2bkRTR1l0b1pHQzFJT0dhbEVlVUpMRmoxcUtwUDVuWFZnSXpBdW5tLTlnX2JzcE50U0lBNVRFUW02Z0M1Mm9STS0xam5LVkI2ZlU3a0dDV1lkWXFHdw?oc=5",
-          "published": "2026-11-10T11:22:09+00:00",
+          "title": "Türkiye'nin 82 yıllık ünlü giyim markası iflas mı etti? Şirketten ilk açıklama geldi - Türkinform",
+          "source": "Türkinform",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLS1DT05SUmtBaUpXSE5vVFEwc2xkSGVDdUFzVnB6R3ZicDZJRVB2OXpqM1dHdjRVYTlsOU1KT3Y2bHE2V3pDMHlKN25kMk5KbFgzYzJoeVpkdXFBLU9yYVpyX2hmUzVfSDNxOEw3VUFFYTVGT0JBWW44aUlYNGlVcG50MTFYMXQwMHkwN29YcXdzcUpIYUVOWk9vdkUxOGtmWDdOaFhZcnk4cVVK?oc=5",
+          "published": "2026-11-11T17:28:00+00:00",
           "terms": [
-            "kriz"
+            "iflas"
           ],
           "weight": 2.0
         },
@@ -158,21 +158,10 @@
           "weight": 2.0
         },
         {
-          "title": "Fed yetkilisi Goolsbee'den enflasyon uyarısı: Faiz artışı masada - EKOTÜRK",
-          "source": "EKOTÜRK",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1JCbU4zMFlhTVVvOWVmUDFjcmVneDdFcVd1czFzTTQtbkYyYklpMUpUcFdJTnNLazQzazNvRWwweEZFN1NLMngyMURheUFEMDNuQ0tFajhMX0tWRExrbzIzQkRBWUN1ckNxSU1hS1RoVjctZDg5LWxFOHFTb2Q3TUNhTkY2YzRpNkZ6OXdndEhNTDQyckVRZDJMWDFhdkVFanNQVTRR?oc=5",
-          "published": "2026-11-11T17:06:13+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
-        },
-        {
-          "title": "RBC Capital Markets: Fed'den yeni faiz artışı gündemde, ancak enflasyon üzerindeki etkisi sınırlı kalabilir - Foreks.com",
+          "title": "Cleveland Fed Başkanı Hammack'tan faiz artışı çağrısı: Enflasyon yanlış yönde ilerliyor - Foreks.com",
           "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPaXBhakx0NDdtUXBYaXdXTHNyX2R5MmptWktNM3B5cHUzZkJ3VmF6ZVhzN0NiMHhBQUNvcnlyVE9kVXJjdzFITWs2cHBiRmp1Sk5wSHhJckdTSEIwZVVSeFduR19VazcwbnJVQVhOMF8yY1lqUUZ0YTZHbGtNeTFtUFQxcmcxc0puWWhWekxoSm9TMkpnNG8xWGREQkhCRFhOY29IbWFNM29kWEt1NUJncjFjSDFuMUtaa2FFTFloem8xZXhFTXdhbjVwNGs4RExGbzFYN1piSk9FUDBhRVp5cFpiVTZ4LXZ0STZ1bW1TZ1NvSXhXQVhxT1UxTVF1eDk3MDJnTEJYT2NUMk9HR3RfdExZRm0?oc=5",
-          "published": "2026-11-11T06:18:08+00:00",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVThCdTd6UVNXZWZmaTJDUzZteXR2WlgzNVZtMVpjZ2RvZnU4UUNiOUZRSGMxUHFEZzhoNU0tbzhvbzQzYmZTUmd0aEJkRVJZMk9lelZERFN1M2lvb192WjllajEtVEtQZGkzaFlIYVNFSnp5YlhBX2R4Vk9lajFtLWYwSkNSdUkzMS1IME1PMDNCQUxMUTNLcHlDdDVvcTFPN0lCR0k1ajdlTVNJVkZYZUpxMWtiQWdZT3UwSzlSZi1ISG9USktqb21fSUtDdEt2WVp2dEozbzZMZEZrOEc1UlRZU3YtX2NVY0tqSUdmWEZnWklKZ3VWN3lDUQ?oc=5",
+          "published": "2026-11-05T14:02:51+00:00",
           "terms": [
             "enflasyon",
             "faiz artışı"
@@ -183,7 +172,7 @@
           "title": "TCMB enflasyon raporu ne zaman, saat kaçta? 2026 sonu tahmini yüzde 30’a yaklaşabilir - Paratic Haber",
           "source": "Paratic Haber",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNamtmTVQwSmctWGhVaWtlZU5NaEVaNXhWSms5NmpzNzZ3LURtRzUycUZNSzMzMUliVWwxMGtkQ29idUdfcF9RZVJxMW5zRG82OHQyZ0Z2alpfb3dWVVc1QXpWbkxFYjFLSzZhaFpYd2JSVDY2d0dkc3AxdTdadlc5UGJkcjdzQllfZkRVbWVxSjNXVFozR3Y5N0lJcTM1SUZkVDBiNlNB?oc=5",
-          "published": "2026-11-11T15:59:04+00:00",
+          "published": "2026-11-11T19:58:08+00:00",
           "terms": [
             "zam",
             "enflasyon"
@@ -191,20 +180,40 @@
           "weight": 1.4
         },
         {
-          "title": "Dallas Fed Başkanı Logan’dan en az 50 baz puanlık faiz artışı çağrısı - EKOTÜRK",
-          "source": "EKOTÜRK",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUmNRYlN2ajYycGctRVk5dmVSTTlQMF90bGpobkpCRVd0Mkg0QkpDYW5laGh1YlVKWFRQbF9SVDFweUU4cHh2X25teFd2Z0QxZDRrZmw0dWw1TGdJNmY4SHFRZ3dlV1FUZU8ydXg2RFRyNGNVNVpEVHBrQzN0NkNVX2VNZTdEZ08wb0pDbmlJSTZkTEI2ZHo3SjhUcWtxN1ExVGNMWDZ4eVQ1bnZYZEE?oc=5",
-          "published": "2026-11-11T18:51:23+00:00",
+          "title": "Piyasaların gündeminde TCMB’nin enflasyon mesajları ve ABD verileri var - Howl.Link",
+          "source": "Howl.Link",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBpWVR0alRFd3lpbnppSXRMSmxTRGxpM1oyV08zTThQMFBBSGoya1VhajNSX0dia2hJTEJr?oc=5",
+          "published": "2026-11-12T06:30:13+00:00",
           "terms": [
-            "faiz artışı"
+            "enflasyon"
           ],
-          "weight": 1.0
+          "weight": 0.8
         },
         {
-          "title": "Enflasyonu doları uçurdu! Dört haftanın zirvesi görüldü: Piyasanın gözü cuma gününde - CNBC-e",
-          "source": "CNBC-e",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOallyTkFhQndnc1BnTHlPby02N1huSVE4RDhLNEdReDZOT0Iyc2REcHJEWE5BQXA2QWRybmcwZXJBOVNDcWIybzVCUklHYXNfVFN4am5lQ3B6RzlWTDQ1RmdhemNmR214V3dRUnp6WXVVbE5kUTgtTmtGdW13Z1dxS1kxMjBWZVNjQXk0cmxNb2ZENlVfTC1wZVlUazVGM3VvaWFibGNoZE5vN05vVlZwelhCNi13MFFQ?oc=5",
-          "published": "2026-11-11T15:54:18+00:00",
+          "title": "Şahap Kavcıoğlu rejimin gözde bürokratıydı: Enflasyonu patlattı, dövizi uçurdu, fon vurgununa göz yumdu - Velev",
+          "source": "Velev",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM29aNXhwdnFrR0szeHdObzJQaERwd2MzMDVRcjNVa2QzcU1pUEFnRjNmcnJsVzVYUlNwX3pVemlOYkd4dXZWVjBCVlpsVEVHUGROSElpQzVpMllyRnFULXB1S01yeWpDNzVKbDVNdnduak9xMWQtTE1PNm1iZDlxS3RqQVlMeldzV3lScE5qU29ZYk90QWpyckZLUm1GRjVYYUVEZmRUNC1CX1c1WVduZFNhZnJkRkJ3WnRjRm5uN1ZhRFFBZDg1c193?oc=5",
+          "published": "2026-11-12T06:03:07+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Dolar, enflasyon, faiz! ING'den Türkiye için kritik tahminler - Türkiye Gazetesi",
+          "source": "Türkiye Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTXFXTkhvM1dJZFZRRWxtNENWOVBmbmk0NjVNRldaUjczZFRyZzZTaGtCTGpiaTI4bmVWV0VidWFxZ3VzQUpWUjhJMTZld3BRUXdCT1NtSkVXdGxPVWpoalVuejJKQWgzQ245Ri1NcGtVRlBIenVPMG42WEZkal9md1llUWNGU1lsdl9IOGk4dFhhMldOWlZoTExHbkRHcGpRbld4YVhlWEEwcHE2?oc=5",
+          "published": "2026-11-12T05:51:06+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "ING: Ekim enflasyonu TCMB’yi faiz indiriminden döndürmez - EKOTÜRK",
+          "source": "EKOTÜRK",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR0VHSDVWSlpOaVhXMUsxLWcyWXl5V1Z4VWN0QmgxT3BJMl90bk80bmJHY1RNZl9sak5xNC1FWXpRVFRxNWhBSlB0c2NxSTRQTkdZLWxiVWJPOE5WdFhFVUdVdFVJYXpHUHJJaGZac1pVRC13eFRFREV2aHoxYjVJWG9FU1dKTjhfcXBJTTg5eGJnMVFFRzEtcjhkSQ?oc=5",
+          "published": "2026-11-12T00:03:25+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -239,27 +248,12 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "TCMB Enflasyon Raporu'nda hedefleri değiştirecek mi? Ekonomistler üç yıl için de yukarı yönlü revizyon bekliyor - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUnFubG1SS1EyN09QdzFneU5YM2V4WnVBZ3h6WExEM2NPN3dJUXZvX3M2SkwzdUlXWWlUVldpckxuYlpRNTBwTXQ2MkJTMVNFaERzcWNNS1BVdjhNMzg5RWJfdjZWbTZxbmQ5clE0LWxxS0FLVjZKVjExcHJybmVZbktZbjNtNTlGNFdBQ282YXQwcWd6ZlhyRjFjc3h3bWFkdExQVHVJWE5FQUFXVzBKRFAyQ1M0QTQ?oc=5",
-          "published": "2026-11-11T07:40:20+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-11T19:59:28.636130+00:00"
+      "source_collected_at": "2026-11-12T07:57:00.175654+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-22T05:44:33.577654+00:00",
-      "score": 25.8,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-22T12:45:37.435993+00:00",
       "score": 25.6,
@@ -552,6 +546,11 @@
     },
     {
       "generated": "2026-11-11T19:59:28.636130+00:00",
+      "score": 10.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-12T07:57:00.175654+00:00",
       "score": 10.2,
       "status": "BASELINE"
     }
