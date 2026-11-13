@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-12T20:38:00.173450+00:00",
+    "generated": "2026-11-13T07:35:31.495188+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 15.3,
-    "raw_score": 15.3,
+    "score": 16.6,
+    "raw_score": 16.6,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 15.3/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 16.6/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-11-12",
       "latest_value": 50.1691,
       "change_5d_pct": 0.42,
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-12T20:38:00.173450+00:00"
+      "source_collected_at": "2026-11-13T07:35:31.495188+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,21 +51,21 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 120,
-      "latest_date": "2026-11-03",
-      "latest_value": 5341.8,
-      "change_5d_pct": -16.0,
-      "return_z": -1.8,
+      "coverage": 125,
+      "latest_date": "2026-11-11",
+      "latest_value": 4619.7,
+      "change_5d_pct": 0.73,
+      "return_z": -0.0,
       "method": "Five-observation robust anomaly in Brent priced in TRY (Brent USD × USD/TRY).",
       "evidence": [
         {
           "label": "Brent in TRY proxy",
-          "value": 5341.8,
-          "date": "2026-11-03",
+          "value": 4619.7,
+          "date": "2026-11-11",
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-12T20:38:00.173450+00:00"
+      "source_collected_at": "2026-11-13T07:35:31.495188+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-12T20:38:00.173450+00:00"
+      "source_collected_at": "2026-11-13T07:35:31.495188+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,35 +113,86 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-12T20:38:00.173450+00:00"
+      "source_collected_at": "2026-11-13T07:35:31.495188+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 2.6,
+      "score": 15.1,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 127,
-      "matched": 16,
-      "weighted_density": 0.143,
+      "coverage": 124,
+      "matched": 26,
+      "weighted_density": 0.253,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Financial Times: Fon krizi Türkiye'nin 300 milyar dolarlık dış kaynak arayışını riske atabilir - T24",
-          "source": "T24",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQam1VOE1rSE5sdHJURWRBWndiRTM2dWVzNTF6a2E5N2JCWjAwSlBqZjF4YkxEdEM3c29aMXJzQzlFLVZ4RlpxdE05MnVuX0ZmdktwM01wRHc1b2pCcGt0QXRDTG83dF9Cd3VKTW1VYTUwUkNWWjV0em5nLV9pTElaR3hWQnZFTDFVamdPbTlBV3hvYUdSdkl1MXZaSHhKdmh0QWZSU0tpX05YNW1oNFNfX19tT2NUZ2dJTXdzZmFGMEJYUFdqWVE?oc=5",
-          "published": "2026-11-12T12:11:00+00:00",
+          "title": "Goldman Sachs'tan Merkez Bankası'na fon krizi ve enflasyon itirazı - Sözcü Gazetesi",
+          "source": "Sözcü Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU1ZSZFFVSmtaZGVNVFV5NkJ1RVBqcDl1ZzVKTkNsVmJOX2xieXhSNklzcHUySTEzQTFVUkF3ZzZLc1dYNDhxb0pHdmdIQ1BZZ0RZUlpTcDlhbDJZNXZSS3hMc21RbkJSeTNmYUJ4ZDUyTEhRY0VZMGZIZTZWT0tXenhGaEQ2RnJkdnBOREtxMlFod1Vsb3NPRW51YnZVR0g1OUlZ?oc=5",
+          "published": "2026-11-13T06:15:12+00:00",
+          "terms": [
+            "kriz",
+            "enflasyon"
+          ],
+          "weight": 2.8
+        },
+        {
+          "title": "Goldman Sachs'tan kritik Türkiye uyarısı: Fon krizi büyüme oranlarını düşürebilir - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNlU1eDk2WkdHZlZMQ0laU0Y2QjlaM2NfV0hVQTFmWkZRQUhWaHhSZW9WZTFtR1llY2ZyZjR1aXRtYjBOQmN6NWx3dldXVGJEREQzMjlJLW1UaDNZVk9aUENBUEZ4ckVKRVZlU0cwcklTY0o0MTVfcjRyUy1SYzBqckVwOFNmOFNEY3dGQU5YemMtLXVCT3FMNVZzczY4OFEtSVZrNVJERnpYSmhsazV4QXJaUEFRMDNsRU9MaVlfTm1RLWVO?oc=5",
+          "published": "2026-11-13T07:30:00+00:00",
           "terms": [
             "kriz"
           ],
           "weight": 2.0
         },
         {
-          "title": "Financial Times yazdı: Fon krizi Türkiye’nin 300 milyar dolarlık dış kaynak arayışını etkileyebilir - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQazlrbXpTNWVSWnBFR25BMmJva2cteEZTZDBJaWpDTTY1NWU4WXdkcThJLUM0Ukd6TWlnUUtTTlVRTXBaMmdPWWFueF84NWw4bFZQTEFKbWl4Tk1SVXBucjUwaGtUX0xpcTQ2V081UElKUGI3WUpSYnJVQlZoREM5VjBqbHV6OFdqMTVhQ0d1QU5CS2ZoRE9WU21vdFV3UUpoLTFrUUN0MkFwUnhoclJzV1hWUE5LaVQxQ04zVURhNmFYck9qT2V0d05rbkI3NzRMX1hhYlVlazMwUkFD?oc=5",
-          "published": "2026-11-12T11:25:00+00:00",
+          "title": "Goldman Sachs'tan faiz ve fon krizi uyarısı - Haber 7",
+          "source": "Haber 7",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOczFnNGJ3NVl0RDlJLWVUY21DWk9LYUs0aExKNzl2TklaRHNjQks1Z1VPMHNWQ2VSd09HcmlqVU10RnBXWEdrbFpBNzVvdWU2SGFmdEtjR0x1bGJlRjdTSDFnYkpfVXFCeGVLTzJJaWhjZnVZY2E4MDhreTdXUXBxNW1YdGlCTlZBVU91UzNtWF9qNi1OanVFdNIBmAFBVV95cUxOczFnNGJ3NVl0RDlJLWVUY21DWk9LYUs0aExKNzl2TklaRHNjQks1Z1VPMHNWQ2VSd09HcmlqVU10RnBXWEdrbFpBNzVvdWU2SGFmdEtjR0x1bGJlRjdTSDFnYkpfVXFCeGVLTzJJaWhjZnVZY2E4MDhreTdXUXBxNW1YdGlCTlZBVU91UzNtWF9qNi1OanVFdA?oc=5",
+          "published": "2026-11-13T07:25:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Goldman Sachs'tan Türkiye uyarısı: Fon krizi büyümeyi vurabilir - www.borsagundem.com.tr",
+          "source": "www.borsagundem.com.tr",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYndFb1JmSHE5QzY1OXBla1BDRTVsMVBwbG1CRTUxSzhmVV9GMS1paF9Bb0ZEbU91bVhyY0wwcmlHekpma0FwazhicXlXa1I1X2p0QXBXZlBBOFFMcTNfR1RtZFFFQTlwYTZ2Zk5UYnQyVXVta1RZSzFwaEVOX1phalJvZWY4dktad1pfU19KS2VoWnEyVGhz?oc=5",
+          "published": "2026-11-13T07:23:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Goldman Sachs'tan TCMB Analizi: Fon Krizinin Büyümeye Etkisine Dikkat Çekti - Paranın Yönü",
+          "source": "Paranın Yönü",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVGdyVk51T1pqSFZHNGw3ZXJlTWlHcE5pTngyQVY2SjdOeWU2d1czWUxvTGIxU2lQUllBQ3FGTnJMSG1jVnRrV0liUkVWbVVoekFEbTFZSHV6Y1Z3ZFp4djg1RzVMUXUwM2pnXzJHaWxLdHFxY25iaFhqVUxkNVdmTjJ5dlBZbUc0enVCYVBybXpYS1h5SWh5M3pfaEthOVRBY0FrWHJmaXJOTzM1UTJUYTNJMzM2Uzg?oc=5",
+          "published": "2026-11-13T06:08:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Goldman Sachs'tan TCMB değerledirmesi: Dikkat çeken fon krizi uyarısı - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVTJabHRsUkxMTUtFcmNHdWh3bnZlalZIeFh3MXBUT0NEdTA2T19jQXVDSTBnLXNGVmhNN21Bek1LZHZURzFEdkxjcFVwejRrZ2t6UW5DLUFpNU1MLXd5U20yWGhLcTNxUC1jVnBDVVVoSTZTbU5QdVNXYUU2bE9nZDhfeEJvQUJWUElEdTJRd3hyYXBVZ29rSkZ6ZWI0VmRTRzlxS3FLOG8?oc=5",
+          "published": "2026-11-13T06:00:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Financial Times: Fon krizi Türkiye'nin 300 milyar dolarlık dış kaynak arayışını riske atabilir - T24",
+          "source": "T24",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQam1VOE1rSE5sdHJURWRBWndiRTM2dWVzNTF6a2E5N2JCWjAwSlBqZjF4YkxEdEM3c29aMXJzQzlFLVZ4RlpxdE05MnVuX0ZmdktwM01wRHc1b2pCcGt0QXRDTG83dF9Cd3VKTW1VYTUwUkNWWjV0em5nLV9pTElaR3hWQnZFTDFVamdPbTlBV3hvYUdSdkl1MXZaSHhKdmh0QWZSU0tpX05YNW1oNFNfX19tT2NUZ2dJTXdzZmFGMEJYUFdqWVE?oc=5",
+          "published": "2026-11-12T12:11:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -158,106 +209,50 @@
           "weight": 2.0
         },
         {
-          "title": "Büyümek için fabrika yatırımı yapmıştı! Türk tekstil devlerine makine üreten şirket iflas etti - Bursada Bugün",
-          "source": "Bursada Bugün",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcGFjVDhJbW1pQXBocjFMM2NHbUNmYmxubXBKTTN1Mjd2Vy1nUXpvSmNNODNINGtVa3haX2tDUEVlaFFCOW9MUHY0cXFodWxrdVVKN2dWazZ5Wm5FTHNocWJ3eDJPbXZrSUtDUXRFZkFNZTR5aWNWaW5vRG80Nlo2OEtIeVlFd1BkbV90Mm9rejBQWmtTd2otbHFEdHlqcTNiS08xMHd3MFhiVkZjdzZHaEQwSlVsX245d1BJeU9mTkpuVUZudWl3S3Z5U3FlYmN2eHJtbzM0SXfSAdsBQVVfeXFMTkpfcnFNc2ZzM2ozV3UtdldrckkxaENKOVNEMW1ncGF4ellsbERRdG05UEVfUkNCZHJVXzl6UTloeG8xdHByVl9LRE8xWkZkcHlqT3E2SDQ0VUZOeUc0QUVmbkM2TjI5NHktandZSDhROUwxdk96R0xsVE00cjBKN3V5b19SRTVSSnI1bXYtb2VCVklHUUZlMjZpTlU2NHlqekl1UWpoVlFfQVl0am1EbDBSNWVTTV82ZjFpU2Z2THNtU1B1QWlITWpNeWRMSmdNbGpydWZhelhaT0FN?oc=5",
-          "published": "2026-11-06T11:50:00+00:00",
+          "title": "SABAH Raporu: Fed'de faiz artışı beklentileri sertleşti, Nvidia'da 30 yıllık dönem sona erdi! - Para Analiz",
+          "source": "Para Analiz",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUFR2a0xJUjFxVFBzVTJzUXpTRlhRaWQ0VWRpbFhBazZGQVo5b0tHWVV0b1N0NklSYUp3Mmlaa3o3Ty1sX1J6blBBWFltcl9KNnRrRzVzOWt2VHh6VkZsS3laYnFJQ1dSMTZvM29GNWljXzNNaEZzMTFkUks4SFBZVkRjdnNxM0xkN2VXRTdzZC1ja1A4ajNKYk5YUHlnNThoZ09SMG5lMEZXbWJUNmRqXzRmRFZocU0?oc=5",
+          "published": "2026-11-13T06:16:11+00:00",
           "terms": [
-            "iflas"
+            "faiz artışı"
           ],
-          "weight": 2.0
+          "weight": 1.0
         },
         {
-          "title": "TCMB enflasyon raporu ne zaman, saat kaçta? 2026 sonu tahmini yüzde 30’a yaklaşabilir - Paratic Haber",
-          "source": "Paratic Haber",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNamtmTVQwSmctWGhVaWtlZU5NaEVaNXhWSms5NmpzNzZ3LURtRzUycUZNSzMzMUliVWwxMGtkQ29idUdfcF9RZVJxMW5zRG82OHQyZ0Z2alpfb3dWVVc1QXpWbkxFYjFLSzZhaFpYd2JSVDY2d0dkc3AxdTdadlc5UGJkcjdzQllfZkRVbWVxSjNXVFozR3Y5N0lJcTM1SUZkVDBiNlNB?oc=5",
-          "published": "2026-11-11T19:58:08+00:00",
-          "terms": [
-            "zam",
-            "enflasyon"
-          ],
-          "weight": 1.4
-        },
-        {
-          "title": "Karahan: Enflasyon beklentileri ihtiyatlı duruşu gerekli kılıyor - EKOTÜRK",
-          "source": "EKOTÜRK",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNHEwb1owZGgxOUEyM2w1WWZpUmF3NlVKVEU1N3JQNlc1SFo5V3otQ0xvcmpSbndnRjBZbTdTS1I0ME1RSkJjVncyT3Y0eXRINjRQcTBuUmxIQVhJMnNMaEQxbzJLSU9OSG5Gd20wdUc4RXJsRnplQ09OcEc0b2xaOXRQc2kzUlhnYWp4VXR3SUphdkpoN0F2cjZVMzJQVUVyY3VDMGJ4cw?oc=5",
-          "published": "2026-11-12T19:26:40+00:00",
+          "title": "Merkez Bankası anketinde enflasyon beklentisi yüzde 30'u aştı - Manşet Haber",
+          "source": "Manşet Haber",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS05xaThyM1lmWHhxb0xTTUEwTnAta0NKRWZvMGc0bEkzMnpBRVU0RjZVaW00UjdSM1ZBRzVCY0dMbXFIaU9weGR0cExqVGtsUHM0RXBmeE9LdDBzdU5WR3lLai1pU0hOZmFkRDF2ak5SblR5cDkxU1JVWTljS09FVXlnUnAzdWVTRmhqcUtUVE5vcXFQejlZ?oc=5",
+          "published": "2026-11-13T07:32:00+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "Cleveland Fed Başkanı Hammack'ten faiz artırımı çağrısı: Enflasyon yanlış yönde ilerliyor - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWlhsdEltN083NGhjdGxuLTBIUW9lYk51am5HQTRUZmEtd1h2MlQ3TUdMWjVEWlA3YmdMYXlxZlFGYWgzdEo1bUFhbllnT2NJWFBIOUJTNzdGVFhGck1HY1FLYkF5ZE9jUFRuSDc1NnBmX0tTOTJ5TUlmUVVXcEZ2Ri15enc4WDVKUmFtMWFSbHJKdmlUM2hnT2c2ZXBoX01uZkpCak90NmZ2ZzJUMXRPNTBxN29kdEFGX3E4RmFCYmVqT2ZPSjJmWUNyWUNNc012LWl4ejhrSzFYRzI0Y2tJRF8tQThLdVRRRmROLVZCUW5oakMyazJuSkk0ejZvdw?oc=5",
-          "published": "2026-11-12T13:57:42+00:00",
+          "title": "TCMB Anket Sonuçları: Yıl Sonu Enflasyon Beklentisi 30,04 Oldu - Haber.com",
+          "source": "Haber.com",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWW9kVUNjSjY0RVBvWk5aU0g1RV92RVlpLV8xb18tMTZ0WHpfVzZabk1HYzRkbW1yQS1tOWl6X3I4c2VoRS1yMHFNRUR5c1Z0NHpwT1NoZFJacjhzdmp6S3JoQmxpTFJKVWQwRW96TUJ6RG5TdEwxZlN6RzlJZmpQTzE4RDZKUGVZYk5SUUxaLXJ0SmZwUWp0ZEZIcFM?oc=5",
+          "published": "2026-11-13T07:29:02+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "Hükümetin yüksek enflasyon savunması cephede çöktü: İsrail, ABD, Rusya ve Türkiye'de enflasyon farkı şok etti... - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYWJucS1DRXFYVmE2RHlUdXo1UHJOOURhS2FXU2duank5TWhRdkdodm1Xa1hIaUROZDlBcG5OVEx3bWUyaHhSd1pISGl6b0VhYmRNcjNjNTZEaGhDd0VhQ0dsMkR4R2NOV0VaU1duZlpfRDdwREpiTEdiZlFoNGRRVVVVYkxlUzBYLTIyekk0NllNTDJ0WHdiVVBEekE5eWFIdVBIMzRGZWZLMTB3eGZHS1QwLU81ZE1obHdoX2QyRVJhRExSNjNpbW5hbHRmcWVJaWtfX1RiRVpaMlFZQkhzWHJoMEQ4NDQ?oc=5",
-          "published": "2026-11-12T11:08:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Hedef yine tutmadı: Merkez Bankası bir kez daha enflasyon tahminini yükseltti - DW.com",
-          "source": "DW.com",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVoxS2JyaHBaQXc0MXVadlZuTGtfamdOQ0ZKck9fbXhSSjQ4TVdfSG04SWVmM3RDa05IME1iZmI5eXZOZ04zS1VOcFUzUEVBTERCUDByZG5wcmpVYXVvcmg0MXZZY0hvVUtoSGxEY2lFNVVWd01xUU9QLU1rYXlEQWV1b0hzeTEwVGs0Rkx1aU1jbzBtV2xxUENvUUxfbTJQZWNDb0JGTm1oUkd3ZzZxVnlDRDlFNDNDaXRJeXlR0gG-AUFVX3lxTFA4aEd5NUlOcTFiZ3hQcFlQMks0cnFHbjh6TU1GSmROVklaWWVEdjFGcHZqNjlMLTdaQ0N6ZkNNMXI3RU53Ym14Q0pVNG9aWEpTd3JWZXA2YUlUTjUzYWpYY3NodUNmZXVDTDhiUS01ZWw3NDd1Yks4RXBrdURSWDAybWkzbDBzMzh2Y0JUa3JkQ1VMUFBaTFJ2TWMwMU5Hd1RKNFB0VWZhMEhhRG1FNnBtSFRHaDRYRTdMa0x1bkE?oc=5",
-          "published": "2026-11-12T10:47:27+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "ECB'den enflasyon uyarısı: Enerji şoku büyümeyi baskılıyor, yeni faiz artışları gündemde - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQbjV1Z3JUWEdGZVdPUXpZZ2ZHMFJkVE5lVnNJS1d0UC0yQnk5R3BZMU9YYTR0QkJxS2FIVHpjekU3SmVqRkVlSzQ1UWdRTEV5N0hFUzBwZjhYdE56MlJlb0s3d0FhRnB2Y0ZPbFZnWXhQZHJBWG1YaDEyYTVmdUh0TThKV2hHQndYc1c4ZlJJa1ViMHRTbHEyZG92SnpCQmJIY2k0bGxuSGFBWHJLZUhrVC1BS0Y3alRaWUh3dFlEbXFaSjNTbUpKTzl0QlRjcjFxenp6ZW9WSE5DdjFGY3ZWZjdQUzdnc1hVdEdqWTU3WTRQVGZFWWxudlo1TQ?oc=5",
-          "published": "2026-11-12T09:12:50+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Dolar, enflasyon, faiz! ING'den Türkiye için kritik tahminler - Türkiye Gazetesi",
-          "source": "Türkiye Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTXFXTkhvM1dJZFZRRWxtNENWOVBmbmk0NjVNRldaUjczZFRyZzZTaGtCTGpiaTI4bmVWV0VidWFxZ3VzQUpWUjhJMTZld3BRUXdCT1NtSkVXdGxPVWpoalVuejJKQWgzQ245Ri1NcGtVRlBIenVPMG42WEZkal9md1llUWNGU1lsdl9IOGk4dFhhMldOWlZoTExHbkRHcGpRbld4YVhlWEEwcHE2?oc=5",
-          "published": "2026-11-12T05:51:06+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Güne başlarken bilinmesi gerekenler: Gözler TCMB enflasyon raporu, Fed mesajları ve dolarda - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOaHVpaVZ1RnY5LVVDWTdCS3FXTjdWa2s0S3RrakM1UVJab1NHanRwaTl0R2JoV0VYbWNIc2l5eVdYaEl4UVRzQURjc0JqSkdUWTZCSURhbFR1NE43c1A0M1cxY096Skw5ejRVbUQ3MzZSMG5qSHhKRVdhWkNndnBiWGExOUpzWGNyWHQ4bEczMG9FWlJLbXpMbTFSZ3EwSnp0UW1qd0hRWmEycjd4MTIzTzc1eGp3VnIyT0o0MnRPVDU3QS00UEpQN3JnNm5xcTRLX1lPMWdHSG81LXJYejc0aWItbm5SSHBXN2Jwd0hBOTluVVI0bmtRTDhoSmFrUE0?oc=5",
-          "published": "2026-11-12T05:38:45+00:00",
+          "title": "TCMB anketinde yıl sonu enflasyon beklentisi yüzde 30,04 oldu | Türkiye Ekonomisi Haberleri - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVGFWODNxNE5aRF90cE5Fbmx1X19VTy1kVVJQRlluMlc5Wk9zcGhhdjZ1VGN2N0UtbFhzSzJvaEdPd1FybXJQTVhTWW9MMHkxTmppZ29CRmFxZy1CczZsYjNXb3R5SmtQSW9SaWI1cjA2LUVoVW1sXy0zMWpjVm9IXzBBQ0FSdmlRME9RbjdPV2hiNEhTSkotVFhDdnJwWFlYTmVVVQ?oc=5",
+          "published": "2026-11-13T07:23:08+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-12T20:38:00.173450+00:00"
+      "source_collected_at": "2026-11-13T07:35:31.495188+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-22T17:50:32.305356+00:00",
-      "score": 25.3,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-22T22:04:06.816733+00:00",
       "score": 25.1,
@@ -551,6 +546,11 @@
     {
       "generated": "2026-11-12T20:38:00.173450+00:00",
       "score": 15.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-13T07:35:31.495188+00:00",
+      "score": 16.6,
       "status": "BASELINE"
     }
   ],
