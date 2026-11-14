@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-13T20:18:53.608956+00:00",
+    "generated": "2026-11-14T07:19:37.955492+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 15.4,
-    "raw_score": 15.4,
+    "score": 15.0,
+    "raw_score": 15.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 15.4/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 15.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-11-13",
       "latest_value": 50.1926,
       "change_5d_pct": 0.42,
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-13T20:18:53.608956+00:00"
+      "source_collected_at": "2026-11-14T07:19:37.955492+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,7 +51,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 125,
+      "coverage": 124,
       "latest_date": "2026-11-11",
       "latest_value": 4619.7,
       "change_5d_pct": 0.73,
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-13T20:18:53.608956+00:00"
+      "source_collected_at": "2026-11-14T07:19:37.955492+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-13T20:18:53.608956+00:00"
+      "source_collected_at": "2026-11-14T07:19:37.955492+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-13T20:18:53.608956+00:00"
+      "source_collected_at": "2026-11-14T07:19:37.955492+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 13.8,
+      "score": 10.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 125,
+      "coverage": 126,
       "matched": 23,
-      "weighted_density": 0.242,
+      "weighted_density": 0.21,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -137,26 +137,6 @@
             "enflasyon"
           ],
           "weight": 2.8
-        },
-        {
-          "title": "Goldman Sachs Türkiye raporu: Fon krizi büyümeyi 0,7 puan baskılayacak - Forbes Türkiye",
-          "source": "Forbes Türkiye",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcW5DekFmRjBCVUU3aWVLUGFCV0J2b2V0YnB5SDYzbUJCZ3UyZjVhR0d5Tk1VLUgxU1dWeG5Qekw0eVhJVjk2M21YWUw2b2Eza3lnd0xGR294RFJNTnBxZW5SOFdyWjVXdElvLUJ6MkVJcWUwMXl1Ump4ejBHRkNGUkZPLTVHYVZ1WHppS2tXTzVwR05wSElfajBTU05NdGR6cjNNeEJR?oc=5",
-          "published": "2026-11-13T10:51:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Çok uluslu yatırım bankasından Türkiye raporu: Dikkat çeken fon krizi uyarısı - Ege Postası",
-          "source": "Ege Postası",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNzNITGVBT3V5QktRVld4Q29kbEswZTZJWXFSVjA0WEw2a3UwSkNyb20wMHVPUm81eEtCUVE1X2d0U2NTUjZEZWpvczUzQ1c3dThrNWItcTBqWVZUdEJkT0lLQmxEZmh6dmowOHA5a0NUV2JwY0w1NWZyT0hTbU1oQTBzd0pLa1drNGU4OE5wLUxXOWEtZ2o4M29mV0JXX1NVSU5mVEtZaDVzbEg2SlZaTFlFY1YyWGc?oc=5",
-          "published": "2026-11-13T10:11:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
         },
         {
           "title": "Goldman Sachs'tan TCMB değerlendirmesi: Fon krizinin etkisi beklenenden büyük olabilir - Doviz.com",
@@ -209,16 +189,6 @@
           "weight": 2.0
         },
         {
-          "title": "Türkiye'nin 82 yıllık ünlü giyim markası iflas mı etti? Şirketten ilk açıklama geldi - Türkinform",
-          "source": "Türkinform",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLS1DT05SUmtBaUpXSE5vVFEwc2xkSGVDdUFzVnB6R3ZicDZJRVB2OXpqM1dHdjRVYTlsOU1KT3Y2bHE2V3pDMHlKN25kMk5KbFgzYzJoeVpkdXFBLU9yYVpyX2hmUzVfSDNxOEw3VUFFYTVGT0JBWW44aUlYNGlVcG50MTFYMXQwMHkwN29YcXdzcUpIYUVOWk9vdkUxOGtmWDdOaFhZcnk4cVVK?oc=5",
-          "published": "2026-11-11T17:28:00+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
           "title": "SABAH Raporu: Fed'de faiz artışı beklentileri sertleşti, Nvidia'da 30 yıllık dönem sona erdi! - Para Analiz",
           "source": "Para Analiz",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUFR2a0xJUjFxVFBzVTJzUXpTRlhRaWQ0VWRpbFhBazZGQVo5b0tHWVV0b1N0NklSYUp3Mmlaa3o3Ty1sX1J6blBBWFltcl9KNnRrRzVzOWt2VHh6VkZsS3laYnFJQ1dSMTZvM29GNWljXzNNaEZzMTFkUks4SFBZVkRjdnNxM0xkN2VXRTdzZC1ja1A4ajNKYk5YUHlnNThoZ09SMG5lMEZXbWJUNmRqXzRmRFZocU0?oc=5",
@@ -247,17 +217,42 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Deutsche Bank'tan Türkiye raporu: 2027 sonu faiz ve enflasyon tahmini belli oldu - https://www.vanhaber.tr/",
+          "source": "https://www.vanhaber.tr/",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORTh1VTJEVHp2NnRuTjNRckdHNnRFY2xiNV9USDJpUmd3UEhhT0UyM3BXR0Q3bmRfTmNXTDUxUHExblktZXJZd2N4bHY5bU1STlgzY0w2c1pnUkFqbFcyT0VBUVFJVVBpWVBGUlNyTE1ZdXFuZFhVejlQWWlwRnVoWU1qSUxJME42Y1YxWFlGMnhGM2E1Z0YxWmNJNWZ6bXZVUzdUWA?oc=5",
+          "published": "2026-11-13T14:22:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Deutsche Bank’tan 2027 sonuna yönelik faiz ve enflasyon tahmini - Doviz.com",
+          "source": "Doviz.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZlM1SGh3dmdvclZZc2VMTTJNNDVwS2JFLTRGMmVJbWlNc2g5ZjNYc2FlSW5zQzNzWVh2WXhFa1RWaVU3YmpLcEN4czlLSVNmTzRhY21MRDVnd25HWXhnVFJCbXN0VFBkU0RheDliQTVyX0xCMnRQcGRYclp3bkFnb1JjUXIyUlhzZHRsblFGVllZSFJ6TXRDUGo0QkNFTENSU3RQMl93TkNkcDRpVkpDZS1qYnQwb3lO0gG4AUFVX3lxTFBmUzVIaHd2Z29yVllzZUxNMk00NXBLYkUtNEYyZUltaU1zaDlmM1hzYWVJbnNDM3NZWHZZeEVrVFZpVTdiaktwQ3hzOUtJU2ZPNGFjbUxENWd3bkdZeGdUUkJtc3RUUGRTRGF4OWJBNXJfTEIydFBwZFhyWnduQWdvUmNRcjJSWHNkdGxuUUZWWVlIUnpNdENQajRCQ0VMQ1JTdFAyX3dOQ2RwNGlWSkNlLWpidDBveU4?oc=5",
+          "published": "2026-11-13T13:01:24+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Merkez Bankası açıkladı! Yıl sonu enflasyon beklentisi yüzde 30'u aştı: Dolar ve faiz tahmini de değişti - Haberton",
+          "source": "Haberton",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa1hDdW5MbWJFelhFSzRsQkV5QWZ1UE52OTNSaXZXNFpvYmM4VEkwMnNpQWhaV1VhUEJlMnRBTnduc2Y3a2YyVmVXc3R1cHlKenZVa2hzWGdYUTVMMUYxTV9ZSlJUcllIZFZJRk9xMjljbVFOeGxlOGdwMmRyMnZJaDR2Qms5R3lINjh1Nnl4QjZ2ME9TVzhHbjZOUy0wR0QyNmFBelRZRDZWUW5HVXhNaUwtdXVwYW1JYjhnYUhHeHM?oc=5",
+          "published": "2026-11-13T12:05:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-13T20:18:53.608956+00:00"
+      "source_collected_at": "2026-11-14T07:19:37.955492+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-23T05:42:55.165879+00:00",
-      "score": 24.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-23T12:23:46.052844+00:00",
       "score": 24.9,
@@ -551,6 +546,11 @@
     {
       "generated": "2026-11-13T20:18:53.608956+00:00",
       "score": 15.4,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-14T07:19:37.955492+00:00",
+      "score": 15.0,
       "status": "BASELINE"
     }
   ],
