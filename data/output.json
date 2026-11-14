@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-14T18:38:12.028965+00:00",
+    "generated": "2026-11-14T22:51:31.557066+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 15.2,
-    "raw_score": 15.2,
+    "score": 15.1,
+    "raw_score": 15.1,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 15.2/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 15.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-14T18:38:12.028965+00:00"
+      "source_collected_at": "2026-11-14T22:51:31.557066+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-14T18:38:12.028965+00:00"
+      "source_collected_at": "2026-11-14T22:51:31.557066+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-14T18:38:12.028965+00:00"
+      "source_collected_at": "2026-11-14T22:51:31.557066+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-14T18:38:12.028965+00:00"
+      "source_collected_at": "2026-11-14T22:51:31.557066+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 11.9,
+      "score": 11.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
       "coverage": 128,
-      "matched": 26,
-      "weighted_density": 0.225,
+      "matched": 25,
+      "weighted_density": 0.219,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -229,16 +229,6 @@
           "weight": 0.8
         },
         {
-          "title": "Dev bankadan Türkiye için 2027 sonu faiz ve enflasyon tahmini - 24 Saat Gazetesi",
-          "source": "24 Saat Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdnZRTlItdUZVRzFFR0VfbjJpZ0dEemhPMFlWMHhob2FGNkxOUXZCMTBnRkVOUE93OUVTOER2bWVUSjQ4NFA3dl9Pb2dJeXg5OFlXby1wYVVUdV85R3czbXFxVVlKZUxEaGd6UnN4OEs5SnA5X3FpWDM1UFE1WWxKMnZwY2oydDlIeWNlOFRNYWlVVzM5MlVB?oc=5",
-          "published": "2026-11-13T14:11:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "Yıl sonu dolar ve enflasyon tahmini yükseldi! - Bu Sabah Malatya",
           "source": "Bu Sabah Malatya",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQnRnSHhCbWZTRzk5M0hCNmEyQVNzTEM5MU5nQUVDbThodTltODc2b2xvX2pRdXJHMnAxbTFfWkc3Sk9wREtrRG1lcEZ2NkNDejBaT3JCZFY4RlhqUFZlekhRUXV0STFsZG14SWthMmtSNW5HeUZudWFwd1V5TGh0Ug?oc=5",
@@ -247,17 +237,22 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Deutsche Bank’tan 2027 sonuna yönelik faiz ve enflasyon tahmini - Doviz.com",
+          "source": "Doviz.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZlM1SGh3dmdvclZZc2VMTTJNNDVwS2JFLTRGMmVJbWlNc2g5ZjNYc2FlSW5zQzNzWVh2WXhFa1RWaVU3YmpLcEN4czlLSVNmTzRhY21MRDVnd25HWXhnVFJCbXN0VFBkU0RheDliQTVyX0xCMnRQcGRYclp3bkFnb1JjUXIyUlhzZHRsblFGVllZSFJ6TXRDUGo0QkNFTENSU3RQMl93TkNkcDRpVkpDZS1qYnQwb3lO0gG4AUFVX3lxTFBmUzVIaHd2Z29yVllzZUxNMk00NXBLYkUtNEYyZUltaU1zaDlmM1hzYWVJbnNDM3NZWHZZeEVrVFZpVTdiaktwQ3hzOUtJU2ZPNGFjbUxENWd3bkdZeGdUUkJtc3RUUGRTRGF4OWJBNXJfTEIydFBwZFhyWnduQWdvUmNRcjJSWHNkdGxuUUZWWVlIUnpNdENQajRCQ0VMQ1JTdFAyX3dOQ2RwNGlWSkNlLWpidDBveU4?oc=5",
+          "published": "2026-11-13T13:01:24+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-14T18:38:12.028965+00:00"
+      "source_collected_at": "2026-11-14T22:51:31.557066+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-23T17:41:20.394959+00:00",
-      "score": 24.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-23T21:50:30.179280+00:00",
       "score": 24.3,
@@ -551,6 +546,11 @@
     {
       "generated": "2026-11-14T18:38:12.028965+00:00",
       "score": 15.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-14T22:51:31.557066+00:00",
+      "score": 15.1,
       "status": "BASELINE"
     }
   ],
