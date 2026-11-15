@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-14T22:51:31.557066+00:00",
+    "generated": "2026-11-15T07:31:36.531912+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 15.1,
-    "raw_score": 15.1,
+    "score": 15.3,
+    "raw_score": 15.3,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 15.1/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 15.3/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
+      "coverage": 127,
       "latest_date": "2026-11-13",
       "latest_value": 50.1926,
       "change_5d_pct": 0.42,
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-14T22:51:31.557066+00:00"
+      "source_collected_at": "2026-11-15T07:31:36.531912+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,7 +51,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 124,
+      "coverage": 123,
       "latest_date": "2026-11-11",
       "latest_value": 4619.7,
       "change_5d_pct": 0.73,
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-14T22:51:31.557066+00:00"
+      "source_collected_at": "2026-11-15T07:31:36.531912+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-14T22:51:31.557066+00:00"
+      "source_collected_at": "2026-11-15T07:31:36.531912+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-14T22:51:31.557066+00:00"
+      "source_collected_at": "2026-11-15T07:31:36.531912+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 11.2,
+      "score": 13.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 128,
+      "coverage": 127,
       "matched": 25,
-      "weighted_density": 0.219,
+      "weighted_density": 0.239,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -137,6 +137,16 @@
             "enflasyon"
           ],
           "weight": 2.8
+        },
+        {
+          "title": "\"Artık oyunculara bu ücretleri ödeyemeyiz\": Dizi sektöründeki kriz nasıl aşılır? - DW.com",
+          "source": "DW.com",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNUFsaHM4YVBKSG9mTDJnV2Q5a1Z1TU1xMFo5VDgwbzcxYk5Wa21FVnZLd3dtdGxaNDB3SjBJRmh1VmdqUWhFXzZ4cmY3QUMzYThQaUxtSTctRmNha21mbjNfSWpOM3NiNGpVUHp5WWlXeXNHcFNCbGZqR3BRMklRamNNWTBNME1udXc5M1FOdDVOb3ZWUUlHS2lTTTN5cWRuYmYyMnQxbmMxd1c5djNjWUJwRWtsQm1WNnRsSDE2VnZndUl1QTFNVVJNSUJVNEZ1cmY1NdIB1AFBVV95cUxNMWhVTWppdk4zVV9vY2wyUFVBTGhJS3BKdkRRT0N4bmlBdmxEcDFWd2lsTDNrNDNtM1FSQkswUnBKclljV1NyYUs5dXpBTHdDa2JMYy1vOVlWRm9lbkxOTFFRc0ZaM040UEhtQ3JHOGNPbjlNUUFmVmtJR2FvUG5MaVRka2p2TFJtRlBndlAyTl9LUUI0azlhY0ZMTnkzMjJ6ZUxQZ3dINVY3Q29oV3RhSjlkSjMxMUhKU2wtc2ozQnlvTXhRN2JrUUtyb2JZbXpyZ0JxRA?oc=5",
+          "published": "2026-11-15T07:09:05+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
         },
         {
           "title": "Goldman Sachs'tan TCMB değerlendirmesi: Fon krizinin etkisi beklenenden büyük olabilir - Doviz.com",
@@ -163,6 +173,16 @@
           "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTERoVGItSDNQUEtkZlZqX2xCNUVWaUVEYzd5N0dGMnFpanh6OWFzWEVuS3NMbWJQT2VfdVBYZThEQ3VWWkJzMG9pblZuUUZkMnVCbFNhY1NtdXFZRUN2X291OHNkV3Q0dnpFTWtkaUduVVRCSXd1cmpWWFVzY0RHWUdYc3NCUWNkWExFWnNCTHc3WFoxaXfSAZgBQVVfeXFMTnMxZzRidzVZdEQ5SS1lVGNtQ1pPS2FLNGhMSjc5dk5JWkRzY0JLNWdVTzBzVkNlUndPR3JpalVNdEZwV1hHa2xaQTc1b3VlNkhhZnRLY0dMdWxiZUY3U0gxZ2JKX1VxQnhlS08ySWloY2Z1WWNhODA4a3k3V1FwcTVtWHRpQk5WQVVPdVMzbVhfajYtTmp1RXQ?oc=5",
           "published": "2026-11-13T07:25:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Goldman Sachs'tan Türkiye uyarısı: Fon krizi büyümeyi vurabilir - Borsa Gundem",
+          "source": "Borsa Gundem",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYndFb1JmSHE5QzY1OXBla1BDRTVsMVBwbG1CRTUxSzhmVV9GMS1paF9Bb0ZEbU91bVhyY0wwcmlHekpma0FwazhicXlXa1I1X2p0QXBXZlBBOFFMcTNfR1RtZFFFQTlwYTZ2Zk5UYnQyVXVta1RZSzFwaEVOX1phalJvZWY4dktad1pfU19KS2VoWnEyVGhz?oc=5",
+          "published": "2026-11-13T07:23:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -199,30 +219,10 @@
           "weight": 1.0
         },
         {
-          "title": "Piyasanın yıl sonu enflasyon beklentisi yüzde 30’u aştı - EKOTÜRK",
-          "source": "EKOTÜRK",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0hTajc5RzNpcDBuT29jdlh0VndTTHpYbEZCNGlqVHJ1OC0wTzBkd0RQcXN4dVIzUjd4QjJqSWNHTkpWQXEtV3FvZkszbFpwWkNyY1I2WGdQYzE2V1E2cTB1Y1J2S1FoSGo2dXgydDlzZ2pCRlRBUlY4OVFERW96N183eGFxWE9JWHFpRFFDclNMQ3I2NHc5SHdJVQ?oc=5",
-          "published": "2026-11-13T19:05:18+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
           "title": "Üç küresel bankadan faiz, enflasyon ve kur tahmini - Gazete Memur",
           "source": "Gazete Memur",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONkZuOEVwZVdLXzQ3dHhYb3A0TFNuTk5vVFNZeEF0Y2wzLUEyR1ozNEZyYjRqU2NCeVQ4OHh6bm9ENmhlMmM1RDUtZ1dlMWdvQktBc3FXc2RmVUpCaHJRQ0VKWFdaNzVjTENLNm5iUXdMMTVzOXJlUVloMkFNWExRRHlhWXVNaTFZdHA1emhiWlBYdXJSSEZ6aktsb29qV2VaN3pjcnMwT09RWEpXRlE?oc=5",
           "published": "2026-11-13T17:22:05+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Deutsche Bank'tan Türkiye raporu: 2027 sonu faiz ve enflasyon tahmini belli oldu - https://www.vanhaber.tr/",
-          "source": "https://www.vanhaber.tr/",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORTh1VTJEVHp2NnRuTjNRckdHNnRFY2xiNV9USDJpUmd3UEhhT0UyM3BXR0Q3bmRfTmNXTDUxUHExblktZXJZd2N4bHY5bU1STlgzY0w2c1pnUkFqbFcyT0VBUVFJVVBpWVBGUlNyTE1ZdXFuZFhVejlQWWlwRnVoWU1qSUxJME42Y1YxWFlGMnhGM2E1Z0YxWmNJNWZ6bXZVUzdUWA?oc=5",
-          "published": "2026-11-13T14:22:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -249,15 +249,10 @@
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-14T22:51:31.557066+00:00"
+      "source_collected_at": "2026-11-15T07:31:36.531912+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-23T21:50:30.179280+00:00",
-      "score": 24.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-24T05:22:13.866058+00:00",
       "score": 24.3,
@@ -551,6 +546,11 @@
     {
       "generated": "2026-11-14T22:51:31.557066+00:00",
       "score": 15.1,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-15T07:31:36.531912+00:00",
+      "score": 15.3,
       "status": "BASELINE"
     }
   ],
