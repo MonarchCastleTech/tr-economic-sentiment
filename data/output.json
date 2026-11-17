@@ -1,23 +1,21 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-16T22:43:15.649422+00:00",
-    "mode": "partial",
+    "generated": "2026-11-17T08:47:41.937547+00:00",
+    "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
     "classification": "economic-strain-screening-not-recession-currency-or-market-forecast",
     "coverage": "5/5",
-    "confidence": "MEDIUM",
-    "source_notes": [
-      "narrative_strain: retained (HTTPError)"
-    ]
+    "confidence": "HIGH",
+    "source_notes": []
   },
   "warning": {
-    "score": 18.9,
-    "raw_score": 18.9,
+    "score": 30.7,
+    "raw_score": 30.7,
     "concurrence_bonus": 0.0,
-    "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 18.9/100.",
+    "status": "WATCH",
+    "headline": "Türkiye economic-strain pressure is watch at 30.7/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -44,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-16T22:43:15.649422+00:00"
+      "source_collected_at": "2026-11-17T08:47:41.937547+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -67,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-16T22:43:15.649422+00:00"
+      "source_collected_at": "2026-11-17T08:47:41.937547+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -91,69 +89,59 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-16T22:43:15.649422+00:00"
+      "source_collected_at": "2026-11-17T08:47:41.937547+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
-      "score": 0.0,
-      "status": "BASELINE",
+      "score": 80.7,
+      "status": "SEVERE",
       "weight": 0.15,
       "available": true,
       "retained": false,
-      "coverage": 58,
-      "latest_date": "2026-09-01",
-      "latest_value": 91.9,
-      "change_1m_pct": 1.21,
-      "adverse_3m_pct": -4.55,
-      "change_z": -0.21,
+      "coverage": 59,
+      "latest_date": "2026-10-01",
+      "latest_value": 84.8,
+      "change_1m_pct": -7.73,
+      "adverse_3m_pct": 5.57,
+      "change_z": 4.68,
       "method": "70% adverse monthly confidence-change anomaly + 30% three-month deterioration.",
       "evidence": [
         {
           "label": "OECD consumer confidence",
-          "value": 91.9,
-          "date": "2026-09-01",
+          "value": 84.8,
+          "date": "2026-10-01",
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-16T22:43:15.649422+00:00"
+      "source_collected_at": "2026-11-17T08:47:41.937547+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 6.1,
+      "score": 3.1,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
-      "retained": true,
-      "coverage": 131,
-      "matched": 21,
-      "weighted_density": 0.174,
+      "retained": false,
+      "coverage": 130,
+      "matched": 18,
+      "weighted_density": 0.148,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Goldman Sachs'tan TCMB değerlendirmesi: Fon krizinin etkisi beklenenden büyük olabilir - Doviz.com",
-          "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQkFYdDlCa2IyQWhrcE1zRHFDWWNjT05aRjVfMG51aW4xeFVkdTllMi04LUFmOFhKbkl4NW1QdWVQMkpzNVF5dkZrUDZmM1pUckdBSGEyNGJ0LUhQQno4M3lwQUZPREQ3Y0F6N0Q0Q1pDbWVnaWVFZTE2WURvLXhHeVdSUlBHdEotZjJ2Nk9nQ1JqdWRuY2pXZUFFU0JtRWw5NWFNNjE2Y2FEQmJLOW1wdDZmZm5BalFaaXd4aG1mU3Nua1RVaHZQWDFIY19uQdIB1gFBVV95cUxPQUh1UnBQS1piZnFXNl9OREpoVUVSa0VzV1d1QUZRcXM2ZWpZb2xXeURfUUpSQ0lZT2JPd3lCaGZEZWl4UG9zMktuaXMwNEg4Nnl3Y3NLWlZlR09tUzF5SVhqaTFzRjBEVGFNQkotQkl4Wm85UnFFS2NjSkZxYW5xM2FZWng5cERzaG00S3BpdmZuVFNoWmJobG9XQXZ5V0ljekhqaWR6dFhfcFE0OTB4a1dWNGxVZnRDcDZ6N2NmSy1nT2FYNDU4T2xWYmlSejhUVnBaeDRR?oc=5",
-          "published": "2026-11-13T07:55:29+00:00",
+          "title": "Borusan/Günaydın: Ülkeler Hürmüz krizinden ders çıkardı - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWDBtcnl0T0FTMGJoOWZ6UEk4VHplblNVQzJ6bElXR1RXUC1MaEVRUUN3RFZ5amVMOU5ranhPZFlUamxXRURDaEFDZXRCbWlqd0FLWVIxTTFYVWhreVhQaXNfRlF1OUN0VlVLREVmTVNHX0E0NXhXd3NVYzZEZndrb2V2UUhWUjF5T043bG9pRjhacGc?oc=5",
+          "published": "2026-11-16T13:32:09+00:00",
           "terms": [
             "kriz"
           ],
           "weight": 2.0
         },
         {
-          "title": "Goldman Sachs: Fon krizinin etkisi TCMB'nin değerlendirmelerinden güçlü - Gazete Oksijen",
-          "source": "Gazete Oksijen",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTFBNdlE5VEhjbEc5T2pibElKenV2MEcwdU9wdjg5NUZiS3lMdy1QR3pCNWMzNDktRy1zYndFWFdJdUI4RjROS2Q2dmVfQmt2c3VJcUpHZFUtNHJ0SGVfc3BXTHpZcHU5YzdjSHNXTVNfYzFfM2I2WExpeWtUR2NJY2xkNEx3S21pZ2d4U09KQXgxQko2dTlxRGMtR3BMS19ZNDExWHEtQnZGbWVJWDlV?oc=5",
-          "published": "2026-11-13T07:02:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Goldman Sachs'tan TCMB raporu: Fon krizi büyümeyi vurabilir - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcnZfb2J0U3ZYWlg5OGJDU21ETnl6b0U2VzNfbG55anV3V0J6cm5LRmRhVl9vZ3RsNnV6bkdMdnhHVVVYX2w3Z1Q3YUNGUXFRY1NGUVdZQ3FCM0EzNEFKWG1sVVE1QlRac3Z1a1lBN3ZqSTlXRW1uYzBMOHNBeXF1ZEZiOGliMlhyMUFIeHIwVWtTRkVFQmRjTkN5bHBFWDBHV3BCcEJFWQ?oc=5",
-          "published": "2026-11-13T06:59:00+00:00",
+          "title": "\"Artık oyunculara bu ücretleri ödeyemeyiz\": Dizi sektöründeki kriz nasıl aşılır? - DW.com",
+          "source": "DW.com",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNUFsaHM4YVBKSG9mTDJnV2Q5a1Z1TU1xMFo5VDgwbzcxYk5Wa21FVnZLd3dtdGxaNDB3SjBJRmh1VmdqUWhFXzZ4cmY3QUMzYThQaUxtSTctRmNha21mbjNfSWpOM3NiNGpVUHp5WWlXeXNHcFNCbGZqR3BRMklRamNNWTBNME1udXc5M1FOdDVOb3ZWUUlHS2lTTTN5cWRuYmYyMnQxbmMxd1c5djNjWUJwRWtsQm1WNnRsSDE2VnZndUl1QTFNVVJNSUJVNEZ1cmY1NdIB1AFBVV95cUxNMWhVTWppdk4zVV9vY2wyUFVBTGhJS3BKdkRRT0N4bmlBdmxEcDFWd2lsTDNrNDNtM1FSQkswUnBKclljV1NyYUs5dXpBTHdDa2JMYy1vOVlWRm9lbkxOTFFRc0ZaM040UEhtQ3JHOGNPbjlNUUFmVmtJR2FvUG5MaVRka2p2TFJtRlBndlAyTl9LUUI0azlhY0ZMTnkzMjJ6ZUxQZ3dINVY3Q29oV3RhSjlkSjMxMUhKU2wtc2ozQnlvTXhRN2JrUUtyb2JZbXpyZ0JxRA?oc=5",
+          "published": "2026-11-15T07:10:40+00:00",
           "terms": [
             "kriz"
           ],
@@ -180,40 +168,20 @@
           "weight": 2.0
         },
         {
-          "title": "SABAH Raporu: Fed'de faiz artışı beklentileri sertleşti, Nvidia'da 30 yıllık dönem sona erdi! - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUFR2a0xJUjFxVFBzVTJzUXpTRlhRaWQ0VWRpbFhBazZGQVo5b0tHWVV0b1N0NklSYUp3Mmlaa3o3Ty1sX1J6blBBWFltcl9KNnRrRzVzOWt2VHh6VkZsS3laYnFJQ1dSMTZvM29GNWljXzNNaEZzMTFkUks4SFBZVkRjdnNxM0xkN2VXRTdzZC1ja1A4ajNKYk5YUHlnNThoZ09SMG5lMEZXbWJUNmRqXzRmRFZocU0?oc=5",
-          "published": "2026-11-13T06:16:11+00:00",
+          "title": "Dallas Fed Başkanı Logan en az iki faiz artışı daha bekliyor - Foreks.com",
+          "source": "Foreks.com",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcWxoWGozYjE0WGJ5dzdhdG9Cc0Q2bF96U0NPb2g3emctMk55QTc5cFhWRGFGQlVIZ2NGNUlQaUxLRnFhRFVzaFlFZkZoVHVjMEJhb0VPWVE2RUh4cGFPLVp3UGNGd0tVb3ZNc255eWdPQk10UzNIR0lYZ2dJcmhtUlM0VFBRaElJV2ZTc1JBRHhEWU03N09yaDNqWXYwaWRmNnpWYW9nVzhsd1BVQ0xfTWhmQXUySV9fUkVEWmlraS1OenR6NmFTajFzM2FLRlpYaEEzSEpScmw?oc=5",
+          "published": "2026-11-10T15:58:14+00:00",
           "terms": [
             "faiz artışı"
           ],
           "weight": 1.0
         },
         {
-          "title": "2027 enflasyonunun risk haritası - Bloomberght",
-          "source": "Bloomberght",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nZ3BqaGlqS0xwa2RlVm1ON2RrZjY1dWFlVmlfZmpidklCY0NaOWFMVVBULVpGTVhDNjU4bXRBOGZrQWJuWXQ5QlVjRVM1SWwyXzdEMXdjNnhWWWppRVREUUgzZVBJSElXanotT2JPWWtoOEkxTm0w?oc=5",
-          "published": "2026-11-15T11:07:14+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Enflasyonla Mücadele Yeniden Zorlaşıyor - Analiz Gazetesi",
-          "source": "Analiz Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOajg5NXNsVF90Mzdaa2lLMmFWSlJqbGZvMlIyWkhYbGNaaFdkSU5GMTVkN2w4YXplQXVxMjNtQnZ6eXNlMXBSU1o1OGVMeUlZclo1RHBsb1dFX2tyVjA1TXVtYjZsa0x0TTA0MS1ZX080X1dnLU8wbXFqVVRSb3R1VHVKckhNN2loRllFeFpB?oc=5",
-          "published": "2026-11-14T23:31:59+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Üç küresel bankadan faiz, enflasyon ve kur tahmini - Gazete Memur",
-          "source": "Gazete Memur",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONkZuOEVwZVdLXzQ3dHhYb3A0TFNuTk5vVFNZeEF0Y2wzLUEyR1ozNEZyYjRqU2NCeVQ4OHh6bm9ENmhlMmM1RDUtZ1dlMWdvQktBc3FXc2RmVUpCaHJRQ0VKWFdaNzVjTENLNm5iUXdMMTVzOXJlUVloMkFNWExRRHlhWXVNaTFZdHA1emhiWlBYdXJSSEZ6aktsb29qV2VaN3pjcnMwT09RWEpXRlE?oc=5",
-          "published": "2026-11-13T17:22:05+00:00",
+          "title": "Fed Başkan Yardımcısı Jefferson: Faiz politikasında enflasyon belirleyici olacak - Foreks.com",
+          "source": "Foreks.com",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZ3EtdjAtbFRNOUFxS1JZcUswNUtVSVNEUzd4enhrUl85RlliYTFtWnBTMDdIbTYtcmFiLTIxQUhPTGlkU2JuOHMwRXFMbXhWUldDNlVSbjQwYlJuV0h2azkzaG5FNFVneXVSNzFJWHcwUkdVV1h3VU92czdlbndxd2lkb0plaGZ4eDJ0c1pzOEk1YjZiTGJMS0kycV9YWGdDRThuejM3MkNiZzVOeGhRQXhVNlBqY0RsS0tvc1NmUmRVajRoZ3VQd09JVGVBUzVlMVJ2TVdfSjJvMjBzaUN5ZzQxTllERnRwSWh6NUJoX1EzZw?oc=5",
+          "published": "2026-11-14T04:15:00+00:00",
           "terms": [
             "enflasyon"
           ],
@@ -222,7 +190,7 @@
         {
           "title": "Deutsche Bank’tan 2027 sonuna yönelik faiz ve enflasyon tahmini - Doviz.com",
           "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZlM1SGh3dmdvclZZc2VMTTJNNDVwS2JFLTRGMmVJbWlNc2g5ZjNYc2FlSW5zQzNzWVh2WXhFa1RWaVU3YmpLcEN4czlLSVNmTzRhY21MRDVnd25HWXhnVFJCbXN0VFBkU0RheDliQTVyX0xCMnRQcGRYclp3bkFnb1JjUXIyUlhzZHRsblFGVllZSFJ6TXRDUGo0QkNFTENSU3RQMl93TkNkcDRpVkpDZS1qYnQwb3lO0gG4AUFVX3lxTFBmUzVIaHd2Z29yVllzZUxNMk00NXBLYkUtNEYyZUltaU1zaDlmM1hzYWVJbnNDM3NZWHZZeEVrVFZpVTdiaktwQ3hzOUtJU2ZPNGFjbUxENWd3bkdZeGdUUkJtc3RUUGRTRGF4OWJBNXJfTEIydFBwZFhyWnduQWdvUmNRcjJSWHNkdGxuUUZWWVlIUnpNdENQajRCQ0VMQ1JTdFAyX3dOQ2RwNGlWSkNlLWpidDBveU4?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNWkxdUF6dWRVWGxrZjhxbkcxcW1uNnItY25iMWMwVXNlX0VRVG9oX3ByLWF2aEZSZ2RsTGh2SVVETWZ3dXNsSTNaRUNqdFdIZmtRaVVYOG9ZMFVLNFB1Y2JyM1NkbXljbTFOeGJtZXhMOVUxQ2xLVkRZZ0RwV2Z1d2hXTFoxUmtIaGhIOXBuczdkR2Z5aXVlNUM3Q0x0NlVSbm5lNFpGVTYzdW5wT3cydtIBuAFBVV95cUxQZlM1SGh3dmdvclZZc2VMTTJNNDVwS2JFLTRGMmVJbWlNc2g5ZjNYc2FlSW5zQzNzWVh2WXhFa1RWaVU3YmpLcEN4czlLSVNmTzRhY21MRDVnd25HWXhnVFJCbXN0VFBkU0RheDliQTVyX0xCMnRQcGRYclp3bkFnb1JjUXIyUlhzZHRsblFGVllZSFJ6TXRDUGo0QkNFTENSU3RQMl93TkNkcDRpVkpDZS1qYnQwb3lO?oc=5",
           "published": "2026-11-13T13:01:24+00:00",
           "terms": [
             "enflasyon"
@@ -240,26 +208,50 @@
           "weight": 0.8
         },
         {
-          "title": "Merkez Bankası Enflasyon Raporu ve Faiz Beklentisi | Borsa, Altın ve Dolar Ne Olur? | A Para - A Para",
+          "title": "Merkez Bankası açıkladı: İşte piyasanın enflasyon, faiz, büyüme ve kur tahmini - Ekonomi Haberleri - A Para",
           "source": "A Para",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcnBZOV9KQktVdUxjaVQta3FhejJLUGZ2OWoweElwSk40S29JSzlTdkxESy13NmFVNjUwMWxRUFh5VHVaS0lxQnBzb3kyWkRqVnM3Z0NDdVFfSnN2VXVldmhGS01iUHNSd2REWGJXV2hiR3NzMS05M3ZoM2lmbmdKQjhxeTdjb2xBVmJfZHpZbHItWC1MNkVCMUJDa3hGSEFrY1VlV0g2b3d6N1hjN3Q1TW5qLXNJbm84N1JMMm1XZHE5eE45YzdxSkJKQU4?oc=5",
-          "published": "2026-11-13T08:59:03+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVm5scWNrVmxYbC1yVXlUMkhVTEh1WlR0MVdxYy02WHhLdVZwMy1vZmVFeXIzVmxVcnRoUkVvZWRiOVNqQmZJOHBIUE9GS05XOXRHWENqdUl3MURKUGlDakJQRi12dWM3TXJFVzc1ZF9WdVNMM0FEQlMyTC1ELXppYjJtemYzY1B4bGM0bk83RjdBaFRYRzVCQ0FJRDlCc3p0anJYVjROa045VFBObWpiTE1DM3ZHemNvOEFN?oc=5",
+          "published": "2026-11-13T08:07:11+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Enflasyon, dolar ve faiz tahminleri belli oldu! İşte piyasanın beklentisi haberi - Borsanın Gündemi",
+          "source": "Borsanın Gündemi",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZWtqVmRUWDhvZWlpYW9pNzBFYVh5eGgxbHBmdlVaZXBDa25Gc3hXOWV3V3UwV18wcUk2TGxEUWd2MHZ2QWZyVlRrR2w5RlJ3WWZnSTRvOVdwTjJjYTN2ODVqbW9ETUtvRmNlX2hIRjBBS1VLTFFidkxPbFpFWDJwUGNsM2hEbHVBdEtfOU5oNHoyeGFDYVhXV2YtN1gxMWFpejUzVnJqOXpKelpwQWp3ZWhzRzBMN1VP?oc=5",
+          "published": "2026-11-13T07:59:49+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Dev bankadan Türkiye için 2027 sonu faiz ve enflasyon öngörüsü - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNzR4QldpLTRSVkw5UEFYZ2hhMjkwd1QtZlpfZmhOS1hXVzI0MU90Y2NFdkVLVnNtbEtHa0swWUMzdjdwZmw5Y3Fld2JEZy1iZURHaGo5SlRHTHRJTXItMUVVQmdHd2lwbHRzaEJWN3NTNWtkZ1N0WEdSQ3VfajBRVXpLa2RMbU9JQk43Wi04M1ozUDEtUUxibng3dmFBSnh0ZFljVThodDZuUFlNUGc?oc=5",
+          "published": "2026-11-13T07:17:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "İş dünyasından kur, enflasyon ve faiz değerlendirmesi - Bigpara",
+          "source": "Bigpara",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWE9GMmZlcGxkZ2NQRDZFdWpvZGZzSDlMX0tFQnRianU0YUROUmtLd1o3SHBkUVl0YWFIQ1ZIekZKNU9paXNrNG9QOVFsazFiZkRIV1lGUThGOWJpcndwQ3VVdFFGZ01BUjlsLUl0Rzc0OXFTTUo2MmFHbUpMeHpfR0FqZmgxc3BkQXVCVmNXSXhiSGFucktDOUVpVk0zNWVmOU95X3Z1WWZMazBxWmdYZVNVQk5rU2tzR3hBa3pGVkk?oc=5",
+          "published": "2026-11-13T07:14:35+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-16T07:38:12.538632+00:00",
-      "retained_reason": "HTTPError"
+      "source_collected_at": "2026-11-17T08:47:41.937547+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-24T21:24:07.553944+00:00",
-      "score": 24.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-25T05:39:28.169690+00:00",
       "score": 24.3,
@@ -554,6 +546,11 @@
       "generated": "2026-11-16T22:43:15.649422+00:00",
       "score": 18.9,
       "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-17T08:47:41.937547+00:00",
+      "score": 30.7,
+      "status": "WATCH"
     }
   ],
   "sources": [
