@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-17T21:29:26.199451+00:00",
+    "generated": "2026-11-18T08:11:46.445161+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 31.5,
-    "raw_score": 31.5,
+    "score": 32.4,
+    "raw_score": 32.4,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 31.5/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 32.4/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-11-17",
       "latest_value": 50.3292,
       "change_5d_pct": 0.44,
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-17T21:29:26.199451+00:00"
+      "source_collected_at": "2026-11-18T08:11:46.445161+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,7 +51,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 123,
+      "coverage": 122,
       "latest_date": "2026-11-11",
       "latest_value": 4619.7,
       "change_5d_pct": 0.73,
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-17T21:29:26.199451+00:00"
+      "source_collected_at": "2026-11-18T08:11:46.445161+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-17T21:29:26.199451+00:00"
+      "source_collected_at": "2026-11-18T08:11:46.445161+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,27 +113,48 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-17T21:29:26.199451+00:00"
+      "source_collected_at": "2026-11-18T08:11:46.445161+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 7.7,
+      "score": 16.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 129,
-      "matched": 27,
-      "weighted_density": 0.188,
+      "coverage": 134,
+      "matched": 33,
+      "weighted_density": 0.265,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Şam Büyükelçisi Yılmaz, İsrail'in istikrarsızlaştırıcı faaliyetlerinin ülkedeki her sorunu krize çevirdiğini söyledi - Anadolu Ajansı",
-          "source": "Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaHVsaDhnbW9HVnV0b1ppZE1yUGhBckQycVJRMTFDd2h6T1I5RldkWWFlamplLXNGUnpvZEI0eUNBemFTV21YbmhHdWl6Ui1IU2ZlamFqZFktVlNNQW9KbkVxSFJqVldHU1dfTUxzZE8yWS1VYlBTVXVVOHdzc0g1UWIzQzVTZVJCelVTMWljVjlFaUhZanNkWjNwY1N4ZlMtQ19aaXZYMHJkVDhxYk01RE0yTDR0WU9JTGYyendzMkc1b012TzhOdjRGbUVXNHdCWDlTZzRiOVZVSGZESUdXOWNNdThhdFhmLXc?oc=5",
-          "published": "2026-11-17T17:49:41+00:00",
+          "title": "Fon krizi Türk ekonomisini vurdu: Büyüme ve enflasyon tahminleri açıklandı - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV05IVDczaVlxSDNvRURfREEtcnFaa2RMY1I1ckRYQ1lHYW94TEY4bjAxUG1rM2JxVk1mWEowSFZ4VFFIUVplbXB1Sll2bm5YXzJKUTNweTQtS2swRTBVU19OeDZiU0FZSTFCMmtkM0xGcEk1M1RXZmNNWVduRkxBZlVuVnptcHZLanRtNWlOSjBmS1hEYUtKcjlQMk1mRlhhZGMxTXhsM2Q5SzVncF9VbkJFQjJlMG1MRGFZ?oc=5",
+          "published": "2026-11-18T07:39:00+00:00",
           "terms": [
-            "kriz"
+            "kriz",
+            "enflasyon"
+          ],
+          "weight": 2.8
+        },
+        {
+          "title": "Dev meyve ve gıda şirketi iflas etti: Konkordato talebi mahkemeden döndü - GZT",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNWlRWXppYkg3WXo5VUZ6Ql9HRmw5TUsya09OWkpCQW5JOTdhTm5WZHY5MXlzckxzYmUySnBrRzRscld3YWp0WmVud05sTzg4R29sZUpOLV9zcVBvRGtYczh2YzVKbjVZLUkydld5eTVQMVVMRmFVZnE4LWMtV3F2Y0FlV3NBTUdmTE1DRG43TUFuVkxGUTRzQmhvOExRdzh0NzVRM1o4UThOLWJkUTZkbXB0TnJxV2tSOUJwX183RWZzblp0anM2UEdMa0FXdXdOLV9sMXh3?oc=5",
+          "published": "2026-11-18T06:59:21+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Konkordato talebi reddedildi, dev meyve ve gıda şirketi iflas etti - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSjBRajVmYnkyN0JKcmlMcGJyRU41Q2hPNDNVeE1remlnQ1hCejB6UlJBZDd5TDVtWjRIeDhHbThtU3hMN2FOOThlMHNOOTQ5WUljV3VFbzF4aklvcW9VdmowaThpYlZKU1d3QWR0T2F0aEtQSTNRQXpSM3dnT0I1YWNUSDZqUDFfel9Nb0hSZ0hXR2Z1RHp3aE5CSWhRRTVMTUs1NXJxUFE3dGFCanh6VA?oc=5",
+          "published": "2026-11-17T21:45:00+00:00",
+          "terms": [
+            "iflas"
           ],
           "weight": 2.0
         },
@@ -148,14 +169,74 @@
           "weight": 2.0
         },
         {
-          "title": "Japonya Merkez Bankasından faiz artışı mesajı: Aralık için beklenti yüzde 85 - EKOTÜRK",
-          "source": "EKOTÜRK",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaEQyenFKbjZqS2FON2FiRF9GUURobzBJRUJneENlZmVkWUw2WWt1ZHdJc3NyRGh2SU5mM2txM0llVWpkRGlMRVhTbDdvcG91TDBONHowOWt6X0xNY3VEZVRjblVFcW9tTnRmUlpla2xRaUh6S0VFakpDZHRkYmxVam5XN1FQZDlSdHRDendFNGlvUXBwTjV6UjZJNElYdWxUQ0JROTJCLXR5LWRMM3BiZGJTOW05OFk?oc=5",
-          "published": "2026-11-17T12:08:11+00:00",
+          "title": "Türkiye’de işsizlik oranı üçüncü çeyrekte yüzde 8,1’e yükseldi | Türkiye Ekonomisi Haberleri - GZT",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX2JXUjZleHJmemM5Q3JqWGlEaHZBeTgyUHJoUXBOaE9Qb0VHUk9oVzNwdDNkWGtqaENjcVdSUklQQ3I3S2RCUl9ZTU5UQlducHV0cjI1X052eDEwcURZWHE2ZHVwYXpGUkItdWtqUG1xOHhDWV9CVUhSMjJZZkN4b0pNQ216a3k3aW8yRGlrUW5KZld4U0Q1cXNvbw?oc=5",
+          "published": "2026-11-18T07:39:31+00:00",
           "terms": [
-            "faiz artışı"
+            "işsizlik"
           ],
-          "weight": 1.0
+          "weight": 1.5
+        },
+        {
+          "title": "SON DAKİKA | İşsizlik rakamları açıklandı! Türkiye'de işsizlik yüzde 8,1'e yükseldi - CNN Türk",
+          "source": "CNN Türk",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTVhvcUNNaGt5MjhkT2xfTEQ4c0hHckVCcUc3Q295djl2UDJkak9OM2JZTnNyX0hibEZOTXhFLS1BR2lMOVdQdnVjOUd3cm51bHduaHljWVBUS0RLMFJPNHU5X2p3OGdjajVqcmdQSnJmQ1drdjRsRVloQUFRV0lsVk5vMlYtTmVFaGV4ZXduQVFKWXp2Y3ZlT25rZnd1ZV9xNmRnQ1J4RVBFYVBSWm0weXNDZ1NyZkdnMGc?oc=5",
+          "published": "2026-11-18T07:30:00+00:00",
+          "terms": [
+            "işsizlik"
+          ],
+          "weight": 1.5
+        },
+        {
+          "title": "3. çeyrek işsizlik verileri açıklandı - www.platinonline.com",
+          "source": "www.platinonline.com",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOamRyZVNiVThzY25DNTBndUZnTjRQc09OeFVsQUN6ZWpveVJOLUNFN1BwMDBiS0R6RFFVXzk0YVd6TmI5OTdLZjJPOFE2djZfejdjaTBBbGhJZTZHMVU4dTVWOUNNM2ZQTk5XNEVzUkx1dGtEQlhkdmNGc3hyZFd4Tkxpd2N4NnNL?oc=5",
+          "published": "2026-11-18T07:25:09+00:00",
+          "terms": [
+            "işsizlik"
+          ],
+          "weight": 1.5
+        },
+        {
+          "title": "TÜİK iş gücü verilerini açıkladı: Üçüncü çeyrekte işsizlik oranı yüzde 8,1 oldu - İstanbul Ticaret Gazetesi",
+          "source": "İstanbul Ticaret Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON0VibjZkWEpDakc3Q0FHQXp2Q0EwWWxHcEt4dUtsZmlpU2VvVzVWYzFWRTJiUzNCNWhFeFdkaFZmRnJHeE93d2l5QmxrQTlUZ1kyWENNSlR0NEZVN3RLeHk4LTlXMmZCWGppeVRwbU5PWlhHOExzanctZU9YVDVjMTd0ZG1zZjBQSFFzLXZkQlgtNEM3X0Y5Ry1LUGxldmphZDVkT0tCZFZqUlVuQnFYRGZOVQ?oc=5",
+          "published": "2026-11-18T07:23:03+00:00",
+          "terms": [
+            "işsizlik"
+          ],
+          "weight": 1.5
+        },
+        {
+          "title": "TÜİK üçüncü çeyrek işsizlik rakamlarını açıklandı - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQzI1VWpTeFJfR3RnTlBTalRuMnpOYi1WRHhmMXhmMkprTUZyZ3hzX21CLVJienduejlxcUd0N2o1a0ZhaGwxV1dkcHhhZjdxSVRxLUw1SThTOW9MUWc2cVhaUnVNWHJFSURiTUVFaUN4V2ptU1B4N3lXQVE2eWJnQlJpYmctZFlEWXhjZjVFQnRKdFIwRkE?oc=5",
+          "published": "2026-11-18T07:22:32+00:00",
+          "terms": [
+            "işsizlik"
+          ],
+          "weight": 1.5
+        },
+        {
+          "title": "Brüksel tek tek hesapladı: Türkiye'nin 3 yıllık enflasyon tahminleri AB raporunda - KARAR",
+          "source": "KARAR",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNEJWSEhac2hNUTBlRGpNSGllUjNRRE9QT0lBUjFrMnBTQnNSdWJWUzdZakdZVGdvNVFkUGFFV3g5Z2kzd0JqamdRdGw1QnRSWHpNcjBldEtVYl9HRTJUbDQ1N3VjMlBRelZxc2otMF9nWmJyaGZYTDFNbE83OHFfcnpMQXo3Vkhjc2pLUmtKOVJVZUQ0WjNaeG9Mb2ZMZjBvWVRSYTMwUXJSUDZqTTBmZ2tZUGU4eDQ?oc=5",
+          "published": "2026-11-17T23:32:00+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "AB'den Türkiye ekonomisine çifte revizyon: Büyüme düşürüldü, enflasyon yükseltildi - EKOTÜRK",
+          "source": "EKOTÜRK",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUEhNY09kdy1QcmlmU3VQdUd6RDBWbzlzdUIxc2N3OTVCS3AtSUFvUXpJMm91dUlyVmswTkNSazZaclR0MDU3RlhuZ0h0aHFtempaN2lNclZRUnN5RmVURjJXVFhYZGVROWFnWXBsVHkyYVQteTlraW9XNXY0SEZkRDZKbmtaTXUyRElPREJtbU5TUjUzZldXU3NXeFZkMVVOdDd6NmV2VkgwRWRHcks2REpDTlR5azBqQTVnQUlweEdPZU0?oc=5",
+          "published": "2026-11-17T22:26:57+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         },
         {
           "title": "Fed/Williams: Enflasyon yüksek ama sert faiz artışlarına gerek yok - Foreks.com",
@@ -166,97 +247,12 @@
             "enflasyon"
           ],
           "weight": 0.8
-        },
-        {
-          "title": "AB’den Türkiye ekonomisi için çifte revizyon: Büyüme tahmini düştü, enflasyon yükseldi - ABC Haber",
-          "source": "ABC Haber",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTWkwcVg5TnZKcDUzelEwN1NCV0preHU3djB6XzlwVWpUcXVoSzZJTDI2VW1Tc3lZOGJxaW9lZlc1bUN3dldDQUNsYjZSbTN1dTRuMmxQMXM5ajhSanpDYngwTzJzc1BYVTFjZ0RzRTRvMWtWeG5HMkJLcEFiMEdvWWNlbFN6TmNyUFg5aXBMYXh6c2g2VHM4eHhLektySlVmTVFvLW56LTFLaW1HOEZfU0JVZkY0bzJvNlozbklHTTg?oc=5",
-          "published": "2026-11-17T17:45:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "BBVA, Türkiye için yıl sonu enflasyon tahminini korudu - EKOTÜRK",
-          "source": "EKOTÜRK",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRXlFeXlJQ1RZQU9XM2RINFRhZW1Pb3RwWXlONmwtdklmUTlQQldoUy1JVDV6VEh6QVFZdTdHNm1ITW05Y1BwNHk4aXE2ZjZRSk96YmxZaVNsekdJZENFeTZSR2RIUkRSVG1jY2lJWGtObFF3aU1BeHk3bkJIeHNhNmRkaUJaeGRzMndZN3RBdHp3YjdfU0RpY2pn?oc=5",
-          "published": "2026-11-17T16:40:31+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "AB'den Türkiye ekonomisi için kötü haber: Büyüme düştü, enflasyon yükseldi - https://www.babaocagi.com/",
-          "source": "https://www.babaocagi.com/",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZGxmamV4R243NXltaE5uSXVpSXBjUXpXdzMzZVJCOUVhU2FpTG9PNzZldVZmNk1tRnl3TW5UVUZ4U3ZIZkZqQ2RTZEN5M1NTZjhjUWZzSFRlWVZ3XzQ5LXNER21yOGI1U042TmFKbVZvN29kd3UxT0dJYmEyWGprMVh0MzRRQkd6YVJLV1lTeDQ1Mzlpb1dGM0xCMUtvZGZCdkE?oc=5",
-          "published": "2026-11-17T15:02:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "AB, Türkiye için büyüme ve enflasyon tahminlerini değiştirdi | Türkiye Ekonomisi Haberleri - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRVhaOXRkVzVwVmtCRzZxQXdKSGo1ZEFqUVVjNEdPVWZEQXBDR3RkRmF2RmZYb2pFM09FUHBNQi1oei1aNnF3TFJHc3VEVERTUTFxV3lJZ3hNQ2tJR3pRR3M0dlNNRHdPRHh3NDdjZlRWbXY2UWVkem1wZ3A5M0l4Qk5hRnFnLS1LNXRpYVV3Y1NwU3A3WTViUEphbw?oc=5",
-          "published": "2026-11-17T13:46:20+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "AB, Türkiye’nin enflasyon tahminini yükseltti - Habertürk",
-          "source": "Habertürk",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT3lQUkZCRHVpUkk2bDZMNkFRSHhUZnh6NEdyQVF0NmtSeHJyZktMMG11Sjl0ekVsblQ2LWI2Mzc2NTdvSDN6ZkRTb0RHb01sUjUwNzl6RXRRTm5DNld3cE55QlRidjlOVWREamxfN1RsZ0o2YUNoc3A4Q3BORklucGFLaWJ0SVVuVkZvSW9B?oc=5",
-          "published": "2026-11-17T11:39:27+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "AB Türkiye'nin büyüme tahminini aşağı çekti, enflasyon beklentisini yükseltti - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQejlTMmljQUZTSlFNU3hWTnRkX2V0bHRFMDBFXy1lNUdZdHR4ZTVvSFpORmJGNmFfZkRIQTZVUnF5cnJYWWEzTUpFMmV5dFR0T0p0bmtEc3ljSnZzZVBaY0tnQmRocXJqVzhMTWdhMEU3dTRaRml6MnY4TnRlc1RtQ3U4MkFuNENJZ0lfSDZ4dE5ERUZGOFZaUGFjV2RFdHg5dHduQS15TllramZHTHhaM1BRNHg2Rjl1LS05MjlrSQ?oc=5",
-          "published": "2026-11-17T11:26:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "BBVA Research'ten Türkiye için yıl sonu enflasyon tahmini: Yukarı yönlü riskler öne çıkıyor - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSHZXR1JvQzEyLXduTTRaMWVUSG5kdnRoR1A4SWNUcnBjcW4zMFBsVjhYMFhhRTFVY05sRFdZcFhnbzJtYWpQbFQydnVHanpmLS03SktmSzBnU2hlN1pMR3NZdEd4SmhwV2YxckN4TUZ0VlYzdTdyMk1yOWRDNVl6emxUOFMzc3IzOWN3N0RXdmV0a3ktc0pGeWlkQzdGM243bGNqVHhOUnVWUnBFbWdCeGZ5LTFxMjhlcklEb2lCOWZiNUF6elh0bXE4LVdIdWFWckE?oc=5",
-          "published": "2026-11-17T11:16:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "AB'den Türkiye için çifte revizyon: Büyüme ve enflasyon beklentileri değişti - Doviz.com",
-          "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX19wR2QzODl4a0FqREpmVHY2UmhGckZZV0xWUU5jTmVmWnNDbXZ5b3p1U2ZXWTNnMWFMX2dMOWJXOTVGNjFhbzFqNzR0WmhEOEtFYXlWOGZXd21NUTV4V1VQYVpTY3lnYjZ3MTJFd3pqRU9yRlVDZWhYVENsQVdaNWJadnRYRERLLUhja09ydGVDZUVfUVdXbDF4OFpqZXVaWjhFM01TVTJJZkpWU3BodEQ5R0dfcUxCN0NFa213TVlMbzjSAcgBQVVfeXFMTkN4OXQ1dTJqa0lSMlJ6d2t0VExwVUZXWlBONlE5dVdZZXBQSDJlREoxcTFmVDg3bVU0VHdVVVBzeTEyVGR6bXpPaFptRXhuRGp6dWZ0REFJLWJ2U0I1MmRZamRIb29mSjc1ZDdnZEV1SkVrZmJTY3dCaGRZLXExX2FvMmhsUlF5TTJtOVZyM3BYdnpaa2p3TS1xSWVQZ3dtekcyMXVsLUx2M2lwelpfNURNbTNyLW84RklwSTR5MEtLdnhqdFEzTWQ?oc=5",
-          "published": "2026-11-17T11:00:43+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-17T21:29:26.199451+00:00"
+      "source_collected_at": "2026-11-18T08:11:46.445161+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-25T12:19:22.574348+00:00",
-      "score": 24.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-25T16:57:28.535810+00:00",
       "score": 24.3,
@@ -550,6 +546,11 @@
     {
       "generated": "2026-11-17T21:29:26.199451+00:00",
       "score": 31.5,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-11-18T08:11:46.445161+00:00",
+      "score": 32.4,
       "status": "WATCH"
     }
   ],
