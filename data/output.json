@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-19T08:22:25.433076+00:00",
+    "generated": "2026-11-19T21:09:54.103622+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,38 +11,38 @@
     "source_notes": []
   },
   "warning": {
-    "score": 29.5,
-    "raw_score": 29.5,
+    "score": 25.3,
+    "raw_score": 25.3,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 29.5/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 25.3/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 31.3,
-      "status": "WATCH",
+      "score": 15.9,
+      "status": "BASELINE",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
-      "latest_date": "2026-11-18",
-      "latest_value": 50.3536,
-      "change_5d_pct": 0.43,
-      "return_z": 1.7,
+      "coverage": 129,
+      "latest_date": "2026-11-19",
+      "latest_value": 50.3786,
+      "change_5d_pct": 0.42,
+      "return_z": 1.11,
       "volatility_20d": 0.07,
-      "volatility_z": -2.02,
+      "volatility_z": -1.99,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 50.3536,
-          "date": "2026-11-18",
+          "value": 50.3786,
+          "date": "2026-11-19",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-19T08:22:25.433076+00:00"
+      "source_collected_at": "2026-11-19T21:09:54.103622+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-19T08:22:25.433076+00:00"
+      "source_collected_at": "2026-11-19T21:09:54.103622+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-19T08:22:25.433076+00:00"
+      "source_collected_at": "2026-11-19T21:09:54.103622+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-19T08:22:25.433076+00:00"
+      "source_collected_at": "2026-11-19T21:09:54.103622+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 19.6,
+      "score": 24.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 139,
-      "matched": 34,
-      "weighted_density": 0.292,
+      "coverage": 137,
+      "matched": 36,
+      "weighted_density": 0.333,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -139,10 +139,50 @@
           "weight": 2.8
         },
         {
-          "title": "Irak, Hürmüz Boğazı'nda yaşanan kriz nedeniyle petrol ihracatında alternatif güzergahlara yöneliyor - Anadolu Ajansı",
-          "source": "Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcm9jVUxXcFV0Z2RsVmZoVEJuSlJTR0pfUnJscThpUHlPZ3lJTERLUHQ0RXY1NmM2aG9rSTZDM1d2aVB4MGllVDl5V2tFMVZCbE0wOGhIdVhtd21XcG43NENZaFdQNnBicWUySzNCekV3UUloUFVlNG1kcHFKZjRScEYtdE9lWGtnWFR6b3o3Mk1QTXhkNXBMaHNhV0hKSnBsSDZPYXl0MFY1b1NJRDZDejR4TXQ5UjdEaF9yMkxpYWNuVURQcElFaGlVN0ozQzdrSHZjWg?oc=5",
-          "published": "2026-11-19T08:12:38+00:00",
+          "title": "Türkiye ekonomisinde kriz yorgunluğu yaşanıyor - Kent Gazetesi",
+          "source": "Kent Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNWxUejNZcG1SU3hfYjVfaV91eklmVE9YdTZzWGdoT2RSaWZyd3dJRDI1X1JORkQyOHB2SEE5SlNOLTVfdzA3SldNajE4cGtuWU1OSmRYYW1OdzZfd0l6MHV0WGo5YnBvdV8zWDZFZl9tX0gwLUxhRHJxcG5PT0p5ZTlR?oc=5",
+          "published": "2026-11-19T12:33:50+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Ankara merkezli dev inşaat şirketi iflas etti! - İş'te Gündem",
+          "source": "İş'te Gündem",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOemxyQXo4M24xQmhsZ1VjSldxeGlGOHlkOWtjUHdjSzNLdVgwMklvNEZJQVNVY1BDcW9RXzVMd3Z5aTlQTW13Y2hYWkVkUl85Y0RoZE1HblVBYk95TzZud1JSZnZLLUNCWk5UNllIWExTS0h1Tm5kbmhjcFZyVXA1QmFtWnJmbDUySERjUk9B?oc=5",
+          "published": "2026-11-19T10:01:11+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Mahfi Eğilmez’den kriz yorgunluğu uyarısı: 'Türkiye'nin önündeki asıl risk...' - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSUtZakN2MjUxWHNfcUFUcm9fdUZXeklhSFpMay1VdVRWT0g3bHN1MkZtdWtLS05FRFFvNGtTeEpMM0IwWktEWDBNbUE3ck1iT0dJV29qVUpaTXRCdzl5eE8zd2hSLUlMZzFOVU56REVJSGxSblp4VUxqb0VaMHBYM3VNZHVRTFpJcDZ5M2dGSERrUnBKazh6bVE1aTRISjlucy04Q000UDgxa2JlQ196VVpiaC1mUDJUWmc?oc=5",
+          "published": "2026-11-19T09:39:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Mahfi Eğilmez: Türkiye kriz yorgunluğuyla karşı karşıya - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV2NBcS02dGFuZlJWTkFzS25Xa3NLWGFqdnV5UE1GMHUweUZwMFdkeUVLMmtCVzEwQzVJVWQwZGxJYUYxTzh6eFpyR0FibGxBY1hTVTY4R213VUozYXdwZUNFdXI0TU5PUW9TdDN4NHVERktLS09jaFpnQjdGbEhIRHA1anJuUU1qWUpJU1YwZnlMRmp0S3VZREU0UHZhVHNsQlM0?oc=5",
+          "published": "2026-11-19T09:15:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Irak Hürmüz krizinde alternatif petrol hatlarına yöneliyor | Dünya Ekonomisi Haberleri - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWGxhQVBRbHV0MS1SRUZrdUVGNk1qRHZRU1R4RWhyLXNlRkVjcnZkd05NbHVVcDlJVDVySXNncC1DeFhsV3RodGpiZFhUckwyblNCWFVhaE9vOHU2c3hoM1VBZFpSeVFuY3o3eldSY2xWam1udXNrWkdZd2tXZTRYbFczWG9FdFl0cHRjR29OTDA5TDVGTG03aERpRTVsLXBhaEE?oc=5",
+          "published": "2026-11-19T08:13:54+00:00",
           "terms": [
             "kriz"
           ],
@@ -155,6 +195,16 @@
           "published": "2026-11-18T14:06:00+00:00",
           "terms": [
             "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Konkordato talebi kabul görmedi: Askeri tesisler de yapan Türk inşaat şirketi iflas etti - OGÜN Haber",
+          "source": "OGÜN Haber",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTTZmd0QwM2Q4aTZXQ1l5bkRLTDBXakdRc0t2TDEwUklaUHQzVE5nXzBXQ2N0WnM1V1VZYWpMN09fb3VhT0FTbW00bXV3Y3VNT1BUZEYxa1g4T0cxbHNZSWZzT1FXVnhzTThsSnRwT1VGLW9kbUVCa3VNTmNQN2h5RHQweWVtcWhPcElGVk9VUi15WjhRR2xrRzNTSVlLZWpkVmlqWjY3eUM4Nk1wb0p5Y1Y1WUhqYTVKVWdaQkpkVllIbnB5dFF6YWlpa2plVFBp?oc=5",
+          "published": "2026-11-18T11:09:40+00:00",
+          "terms": [
+            "iflas"
           ],
           "weight": 2.0
         },
@@ -179,30 +229,10 @@
           "weight": 2.0
         },
         {
-          "title": "Üç ekonomist fon krizini değerlendirdi: Türkiye ekonomisini bekleyen riskler neler? - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdzZfYUNpSmxiTF95UzhRRzh6d1FXei1abVFLQkU0TkhzdGVIVFdpZmpJQk9MT185blhCdEh2ZUVlV3FoSlRtWm9rN1hiMzRhckJ1RWtHZ0FYNUxHOXN5a0ZjMlBYQ1V0MS1FeWhOdjZVcnlRN0NWN0NEZFB3N3pMa0JaeTZrZ0VnSmE3bkd0Qlp3UWpMTWFMcDhBMkxxY2p0QXZqVnlJM01HWnBEdlUwcXVPbEVUZEpuUkY0bzNlSkJtdUpKbkxn?oc=5",
-          "published": "2026-11-18T08:55:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye'de askeri tesis projeleri alan ünlü şirket iflas... - Hisse.net",
-          "source": "Hisse.net",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOazl0aUZOT3RkVk43a3JTYmVyOGs5dF9fbU9xanU0Zzl2RVBmR2k4SVM0UlNCQzhIOG5DNkZnaFMwNm1pV01BSXdtZTM3MFpvOGVSLUFpckRJZ3B3Um1GUGxiQ3ZXZXdwVExvRl96eVFibDNjUzAzekd0d2ZObkh6cTdGSEFWaU0tLU1Fb3BlZTRJUzI0WVRLbnBIM2zSAaIBQVVfeXFMTUhYS2pGTl9sc2lkWUE4bkJfd3l2THBPZXNmbmN0TE1XMWl1U1VSMTRKa1ZRckF0WXBXOUdIRGZFbi05XzVRLTZGSzQxSHYybi0waE9pM2lDTnBvOW9pODIydjIyTVhhdVV0azhtY2w3MjRXYjk2MVhsam1wUGE3MUwxeGtSMVVfeE51RDRzWjFjbFFIcGM3ZWpjVjFkVDd3RmZn?oc=5",
-          "published": "2026-11-18T08:49:03+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Kâr özele, zarar kamuya: Soma Termik iflas etti, hesap işçilere kesildi - soL Haber",
-          "source": "soL Haber",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV1lmMU9MRWhhOUVDUm81eVFuWVBDMHJaQWtoTFU3U3Y2TG9wamRCd3A1MzRSQmFvQURCMG9RT05lUE1Iejc0UkN0YklQMlIzRko0MWhoVGo4WHJiNzFOTlJHYzhxRmZvTGdLU3BNdXZzamREY2VaYnQzbE9hc1RORUhBeHhDSHh6NnFtSHZzbmhyRkQwZHBZYWdXSld6cm40SUQ1SnNwTERYdw?oc=5",
-          "published": "2026-11-12T18:13:07+00:00",
+          "title": "Konkordato talebi reddedildi, dev meyve ve gıda şirketi iflas etti - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSjBRajVmYnkyN0JKcmlMcGJyRU41Q2hPNDNVeE1remlnQ1hCejB6UlJBZDd5TDVtWjRIeDhHbThtU3hMN2FOOThlMHNOOTQ5WUljV3VFbzF4aklvcW9VdmowaThpYlZKU1d3QWR0T2F0aEtQSTNRQXpSM3dnT0I1YWNUSDZqUDFfel9Nb0hSZ0hXR2Z1RHp3aE5CSWhRRTVMTUs1NXJxUFE3dGFCanh6VA?oc=5",
+          "published": "2026-11-17T21:45:00+00:00",
           "terms": [
             "iflas"
           ],
@@ -217,47 +247,12 @@
             "işsizlik"
           ],
           "weight": 1.5
-        },
-        {
-          "title": "Üçüncü çeyrekte işsizlik arttı, istihdam azaldı - Velev",
-          "source": "Velev",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTHZOc3J4SXFqQ1BOLXU3LTJwMzFpeU9FLVIxZ1NaYVlhNVZsYTBNQWZRS3dCZXN1TXZ0TkxXbjdocEhiUExKenpJQ1U3WjVnUW9oaElNd0V5TjRvZjJDV1hMMnFpZTZqYjVrT1lZYXBhd3NLQ3pxVDN0LW9tVEtBeg?oc=5",
-          "published": "2026-11-18T09:11:53+00:00",
-          "terms": [
-            "işsizlik"
-          ],
-          "weight": 1.5
-        },
-        {
-          "title": "TÜİK: Türkiye'de işsizlik arttı, istihdam düştü - DW.com",
-          "source": "DW.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaGcwNTdjYkd3OE90RVBURGgwRkJVYUtJUWNPaUZBNmI1ZElpX2tERkdXZGhDLVV2UE82ZVhGTl9jQUFIMXJvNUtaXzZiQWtHUVhxeGJQSXhiOUZURkFrZUp4dzBEV25HOVJ1amVGVVFwVTJkd1JWZXhyeFlnRjZyVVJ2STk1RDRtc3J1eGxkb3pTeE1jYzVSUzN5SV9jbk5sdnNuQjQxR25odXFPbE12LUhubzBOY1EzSFHSAboBQVVfeXFMT3VneU9GeE01MzBRbk90ZkIwZjNKclhaSFdSeW1jcERyVVkxZGxpRHVyZk03bjlIWHZTalVtSGNrTWlJY0QwVmtTZ2sxeDluQVZRY3R0UDFDN25ObF84bFVLQ2FLTmlMQ295UmtjNWNKRDF1czhjbDdBR1dRemVBenlRaG9MTksyYkVzUERYb0xqWXg0a1NtYVU0b1lZZkpiOHUwbDFqY2NWSlRxMlV2bGZVNWR5b1d0ZmN3?oc=5",
-          "published": "2026-11-18T08:18:07+00:00",
-          "terms": [
-            "işsizlik"
-          ],
-          "weight": 1.5
-        },
-        {
-          "title": "Türkiye’de işsizlik oranı üçüncü çeyrekte yüzde 8,1’e yükseldi | Türkiye Ekonomisi Haberleri - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX2JXUjZleHJmemM5Q3JqWGlEaHZBeTgyUHJoUXBOaE9Qb0VHUk9oVzNwdDNkWGtqaENjcVdSUklQQ3I3S2RCUl9ZTU5UQlducHV0cjI1X052eDEwcURZWHE2ZHVwYXpGUkItdWtqUG1xOHhDWV9CVUhSMjJZZkN4b0pNQ216a3k3aW8yRGlrUW5KZld4U0Q1cXNvbw?oc=5",
-          "published": "2026-11-18T07:39:31+00:00",
-          "terms": [
-            "işsizlik"
-          ],
-          "weight": 1.5
         }
       ],
-      "source_collected_at": "2026-11-19T08:22:25.433076+00:00"
+      "source_collected_at": "2026-11-19T21:09:54.103622+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-26T05:45:30.514270+00:00",
-      "score": 24.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-26T13:51:18.489995+00:00",
       "score": 24.5,
@@ -551,6 +546,11 @@
     {
       "generated": "2026-11-19T08:22:25.433076+00:00",
       "score": 29.5,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-11-19T21:09:54.103622+00:00",
+      "score": 25.3,
       "status": "WATCH"
     }
   ],
