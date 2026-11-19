@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-18T21:04:49.093153+00:00",
+    "generated": "2026-11-19T08:22:25.433076+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-11-18",
       "latest_value": 50.3536,
       "change_5d_pct": 0.43,
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-18T21:04:49.093153+00:00"
+      "source_collected_at": "2026-11-19T08:22:25.433076+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,7 +51,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 126,
+      "coverage": 125,
       "latest_date": "2026-11-17",
       "latest_value": 4677.6,
       "change_5d_pct": 3.54,
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-18T21:04:49.093153+00:00"
+      "source_collected_at": "2026-11-19T08:22:25.433076+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-18T21:04:49.093153+00:00"
+      "source_collected_at": "2026-11-19T08:22:25.433076+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-18T21:04:49.093153+00:00"
+      "source_collected_at": "2026-11-19T08:22:25.433076+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 20.4,
+      "score": 19.6,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 138,
-      "matched": 35,
-      "weighted_density": 0.299,
+      "coverage": 139,
+      "matched": 34,
+      "weighted_density": 0.292,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -137,6 +137,16 @@
             "enflasyon"
           ],
           "weight": 2.8
+        },
+        {
+          "title": "Irak, Hürmüz Boğazı'nda yaşanan kriz nedeniyle petrol ihracatında alternatif güzergahlara yöneliyor - Anadolu Ajansı",
+          "source": "Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcm9jVUxXcFV0Z2RsVmZoVEJuSlJTR0pfUnJscThpUHlPZ3lJTERLUHQ0RXY1NmM2aG9rSTZDM1d2aVB4MGllVDl5V2tFMVZCbE0wOGhIdVhtd21XcG43NENZaFdQNnBicWUySzNCekV3UUloUFVlNG1kcHFKZjRScEYtdE9lWGtnWFR6b3o3Mk1QTXhkNXBMaHNhV0hKSnBsSDZPYXl0MFY1b1NJRDZDejR4TXQ5UjdEaF9yMkxpYWNuVURQcElFaGlVN0ozQzdrSHZjWg?oc=5",
+          "published": "2026-11-19T08:12:38+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
         },
         {
           "title": "Moody's açıkladı: Fon krizi Türkiye'nin kredi notunu etkiler mi? - Ekonomim",
@@ -199,17 +209,6 @@
           "weight": 2.0
         },
         {
-          "title": "Fed’in Daly’si enflasyon endişeleri nedeniyle faiz artışı gerekebileceğini söyledi - Investing.com Türkiye",
-          "source": "Investing.com Türkiye",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYW5ibDJVV3ZFMF9ENlhodmZWcm1fdW5IMDR2WWJRR1BhRThOcWRWNU1KTDlMYVZzc05pbUhyNW45aXdlaFZjV0dCSXE2dEdldk1oYmllUklwWV8zWnlITEo4bld0NGJRSnFsNEFseWYtX29kSTRzQTdWcElMbS1lTDItbTNrRjdWNlU2aHZOa3FWRUZadmp4Yi1mZlpvalFNVUhNX3lBOTJJNkJxSlFCb0xPamZfSFEyTVdvRTNxRjU4OElya29iOA?oc=5",
-          "published": "2026-11-13T18:18:25+00:00",
-          "terms": [
-            "enflasyon",
-            "faiz artışı"
-          ],
-          "weight": 1.8
-        },
-        {
           "title": "Bakan Işıkhan işsizlik rakamlarını değerlendirdi... - Hisse.net",
           "source": "Hisse.net",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObHFpNGtYV2d5aS1QUUFJbF9sRnhEb0NxdHoxemR2LVVING1Mb1VUUmFtalpaQ196T1hER2tMRkotM1ZvNDB0bzAxUkhoVGlQck1rQS1kOUMtM21qMEQ3anMtRDFZVS0wWlRCUmU4cEJiRXJYTmNkYU1LLTVYVU1CNGxXV0Y1WFZ0QVp4d0prZ3R5UVlPb1hIT0JoRXVrOXhZenFUYTNaNnBFQ2NUdHfSAa4BQVVfeXFMTmxxaTRrWFdneWktUFFBSWxfbEZ4RG9DcXR6MXpkdi1VSDRtTG9VVFJhbWpaWkNfek9YREdrTEZKLTNWbzQwdG8wMVJIaFRpUHJNa0EtZDlDLTNtajBEN2pzLUQxWVUtMFpUQlJlOHBCYkVyWE5jZGFNSy01WFVNQjRsV1dGNVhWdEFaeHdKa2d0eVFZT29YSE9CaEV1azl4WXpxVGEzWjZwRUNjVHR3?oc=5",
@@ -250,15 +249,10 @@
           "weight": 1.5
         }
       ],
-      "source_collected_at": "2026-11-18T21:04:49.093153+00:00"
+      "source_collected_at": "2026-11-19T08:22:25.433076+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-25T21:24:23.504676+00:00",
-      "score": 24.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-26T05:45:30.514270+00:00",
       "score": 24.3,
@@ -551,6 +545,11 @@
     },
     {
       "generated": "2026-11-18T21:04:49.093153+00:00",
+      "score": 29.5,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-11-19T08:22:25.433076+00:00",
       "score": 29.5,
       "status": "WATCH"
     }
