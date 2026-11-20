@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-19T21:09:54.103622+00:00",
+    "generated": "2026-11-20T08:03:11.402047+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 25.3,
-    "raw_score": 25.3,
+    "score": 25.0,
+    "raw_score": 25.0,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Türkiye economic-strain pressure is watch at 25.3/100.",
+    "headline": "Türkiye economic-strain pressure is watch at 25.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-11-19",
       "latest_value": 50.3786,
       "change_5d_pct": 0.42,
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-19T21:09:54.103622+00:00"
+      "source_collected_at": "2026-11-20T08:03:11.402047+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,7 +51,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 125,
+      "coverage": 124,
       "latest_date": "2026-11-17",
       "latest_value": 4677.6,
       "change_5d_pct": 3.54,
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-19T21:09:54.103622+00:00"
+      "source_collected_at": "2026-11-20T08:03:11.402047+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-19T21:09:54.103622+00:00"
+      "source_collected_at": "2026-11-20T08:03:11.402047+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,30 +113,40 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-19T21:09:54.103622+00:00"
+      "source_collected_at": "2026-11-20T08:03:11.402047+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 24.2,
+      "score": 21.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 137,
-      "matched": 36,
-      "weighted_density": 0.333,
+      "coverage": 167,
+      "matched": 45,
+      "weighted_density": 0.309,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Fon krizi Türk ekonomisini vurdu: Büyüme ve enflasyon tahminleri açıklandı - Cumhuriyet",
+          "title": "Fon krizi Türk ekonomisini vurdu: Büyüme ve enflasyon tahminlerini açıkladı - Cumhuriyet",
           "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV05IVDczaVlxSDNvRURfREEtcnFaa2RMY1I1ckRYQ1lHYW94TEY4bjAxUG1rM2JxVk1mWEowSFZ4VFFIUVplbXB1Sll2bm5YXzJKUTNweTQtS2swRTBVU19OeDZiU0FZSTFCMmtkM0xGcEk1M1RXZmNNWVduRkxBZlVuVnptcHZLanRtNWlOSjBmS1hEYUtKcjlQMk1mRlhhZGMxTXhsM2Q5SzVncF9VbkJFQjJlMG1MRGFZ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX2ViNnYwZ20tX2I0VU5wOC1CbzRlbFJ1ejdhZ0lmQnQyV0gwZlJhd0VwY2VSSDhKaXFTUWhmYlZWNV9BaHpZTktDTWhNZG9nYVJEVGp6OFlpTHhYRnUxRlQ5UmxhOTI3V2NvMXhaeTV1aUc1VXRyREQyLWplMUZfUzYxOURQSHRuTDg1dU5LWV9yZUVOWHdiQXdwUXE3ZzdBWU4xdnhTRHUzMUlWV2VGZXMxN194czVrRER5dw?oc=5",
           "published": "2026-11-18T07:39:00+00:00",
           "terms": [
             "kriz",
             "enflasyon"
           ],
           "weight": 2.8
+        },
+        {
+          "title": "Körfez'de kriz Türkiye'ye fırsat oldu: Sermayenin rotası değişiyor - Odatv",
+          "source": "Odatv",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQUxCMGVOU0RZOHNmdWVOb3llZkFDY191dmJva3NFT3p4c3ZKb2VXQ1MtRXoyYnNpRkJ5NTNKa2ZoZFRYdmpSS3VmX21va0JnSm5TZDVkbWdqSTR0dnRKdjhiRUptQkF3T2pyRFNCeGpOQ254S0RmQktFWnk2YWdudVJXbWFBQW5FUzl0M05LWlA0bjBiZTVYMjVJT0VpOFVFRlJZQ09mdTJ0dFJvNzhka2dRaFlaOU1aWU5qNnhVcWNscmEzZ0RZNzczX01pMm53aHZmRG1HSlc?oc=5",
+          "published": "2026-11-20T07:18:27+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
         },
         {
           "title": "Türkiye ekonomisinde kriz yorgunluğu yaşanıyor - Kent Gazetesi",
@@ -173,26 +183,6 @@
           "source": "Ekonomim",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV2NBcS02dGFuZlJWTkFzS25Xa3NLWGFqdnV5UE1GMHUweUZwMFdkeUVLMmtCVzEwQzVJVWQwZGxJYUYxTzh6eFpyR0FibGxBY1hTVTY4R213VUozYXdwZUNFdXI0TU5PUW9TdDN4NHVERktLS09jaFpnQjdGbEhIRHA1anJuUU1qWUpJU1YwZnlMRmp0S3VZREU0UHZhVHNsQlM0?oc=5",
           "published": "2026-11-19T09:15:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Irak Hürmüz krizinde alternatif petrol hatlarına yöneliyor | Dünya Ekonomisi Haberleri - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWGxhQVBRbHV0MS1SRUZrdUVGNk1qRHZRU1R4RWhyLXNlRkVjcnZkd05NbHVVcDlJVDVySXNncC1DeFhsV3RodGpiZFhUckwyblNCWFVhaE9vOHU2c3hoM1VBZFpSeVFuY3o3eldSY2xWam1udXNrWkdZd2tXZTRYbFczWG9FdFl0cHRjR29OTDA5TDVGTG03aERpRTVsLXBhaEE?oc=5",
-          "published": "2026-11-19T08:13:54+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Moody's açıkladı: Fon krizi Türkiye'nin kredi notunu etkiler mi? - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRlVFVnU0Q0JpaTRxR2Q0RldnSFJMbmpmenloRWNBS1RoSGhfSDdrMHVuMEdxVHRDcUhzTHlvTUt0NXptWG9QQXpGVGFrdTBrRmNFdnZLNF9LeHpVdlNTbEU5dlRsVnYyY3ItWE9mUXdKU0FPU21hUUUxbnV6a25QejdqX2ZnYjNzdWVWX3VmQzlIbTRZeTF6bFVndzBTdy1qWkdkcXdnS1NMZlk?oc=5",
-          "published": "2026-11-18T14:06:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -239,6 +229,16 @@
           "weight": 2.0
         },
         {
+          "title": "Bloomberg ekonomisti Selva Baziki fon krizinin görünmeyen etkisini açıkladı: Harcamalar da darbe alacak - Notbir",
+          "source": "Notbir",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPazI1MHNTWFJ1WjNuZmJYb2tyLXRsT1RBc3Qza3hHQjROYWkwSGNKcW1CZzI3S3llYVFBeXRIQ3BPVzRjU1d3b0FsNTZya2JubW9XRkpIdXVUTTRBQ190eFNtbDF6U3pBWjMtcDBZTG9iOGVWN2JjRFVGeWxPOS1YUm5qc0hfWTRnZ2EwLXplNWFYbEE3WHFrVFFkbjdDZGQ5WlFvSFlOR0toVHBURk4wTkFGdm42ZktiZ3plZ29UejdUTEVXSHNYdFVLaXM?oc=5",
+          "published": "2026-11-14T18:07:52+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "Bakan Işıkhan işsizlik rakamlarını değerlendirdi... - Hisse.net",
           "source": "Hisse.net",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObHFpNGtYV2d5aS1QUUFJbF9sRnhEb0NxdHoxemR2LVVING1Mb1VUUmFtalpaQ196T1hER2tMRkotM1ZvNDB0bzAxUkhoVGlQck1rQS1kOUMtM21qMEQ3anMtRDFZVS0wWlRCUmU4cEJiRXJYTmNkYU1LLTVYVU1CNGxXV0Y1WFZ0QVp4d0prZ3R5UVlPb1hIT0JoRXVrOXhZenFUYTNaNnBFQ2NUdHfSAa4BQVVfeXFMTmxxaTRrWFdneWktUFFBSWxfbEZ4RG9DcXR6MXpkdi1VSDRtTG9VVFJhbWpaWkNfek9YREdrTEZKLTNWbzQwdG8wMVJIaFRpUHJNa0EtZDlDLTNtajBEN2pzLUQxWVUtMFpUQlJlOHBCYkVyWE5jZGFNSy01WFVNQjRsV1dGNVhWdEFaeHdKa2d0eVFZT29YSE9CaEV1azl4WXpxVGEzWjZwRUNjVHR3?oc=5",
@@ -249,15 +249,10 @@
           "weight": 1.5
         }
       ],
-      "source_collected_at": "2026-11-19T21:09:54.103622+00:00"
+      "source_collected_at": "2026-11-20T08:03:11.402047+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-26T13:51:18.489995+00:00",
-      "score": 24.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-26T23:01:00.809909+00:00",
       "score": 24.5,
@@ -551,6 +546,11 @@
     {
       "generated": "2026-11-19T21:09:54.103622+00:00",
       "score": 25.3,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-11-20T08:03:11.402047+00:00",
+      "score": 25.0,
       "status": "WATCH"
     }
   ],
