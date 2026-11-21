@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-21T07:57:56.835239+00:00",
+    "generated": "2026-11-21T19:55:01.057506+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 23.0,
-    "raw_score": 23.0,
+    "score": 23.1,
+    "raw_score": 23.1,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 23.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 23.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-21T07:57:56.835239+00:00"
+      "source_collected_at": "2026-11-21T19:55:01.057506+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-21T07:57:56.835239+00:00"
+      "source_collected_at": "2026-11-21T19:55:01.057506+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-21T07:57:56.835239+00:00"
+      "source_collected_at": "2026-11-21T19:55:01.057506+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,36 +113,35 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-21T07:57:56.835239+00:00"
+      "source_collected_at": "2026-11-21T19:55:01.057506+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 9.0,
+      "score": 9.5,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "matched": 21,
-      "weighted_density": 0.199,
+      "coverage": 131,
+      "matched": 22,
+      "weighted_density": 0.204,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Fon krizi Türk ekonomisini vurdu: Büyüme ve enflasyon tahminlerini açıkladı - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX2ViNnYwZ20tX2I0VU5wOC1CbzRlbFJ1ejdhZ0lmQnQyV0gwZlJhd0VwY2VSSDhKaXFTUWhmYlZWNV9BaHpZTktDTWhNZG9nYVJEVGp6OFlpTHhYRnUxRlQ5UmxhOTI3V2NvMXhaeTV1aUc1VXRyREQyLWplMUZfUzYxOURQSHRuTDg1dU5LWV9yZUVOWHdiQXdwUXE3ZzdBWU4xdnhTRHUzMUlWV2VGZXMxN194czVrRER5dw?oc=5",
-          "published": "2026-11-18T07:39:00+00:00",
+          "title": "Moody’s’ten Türkiye’deki fon krizi ve ekonomi değerlendirmesi: Sistemik risk oluşturmuyor - Yeniçağ Gazetesi",
+          "source": "Yeniçağ Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRmtkOHlUcjFBZ3ZFMmFrMEVjTE81UzUyRzV5eEoya25tQVNENWdsMWM0dzNzc3VRM1kwWHIzRi1iOG02ME5hR3EteDNPUzFJVnFkNUhoOEFJbkdaeUVQQnJ4bjZpOUl6V1lEQ2ItMHVjZndMUjBybXFXYlZUd2ZQLUg3WGJuNjFKY2R6QzRyWERaVU54N2xuQlNPYWRqSmRLWkd3VmN2dlI2aDNTSFZqa0JWS0ZuZlRiWmlZbG51OTFKZXI2ZTd5bG93?oc=5",
+          "published": "2026-11-21T06:10:06+00:00",
           "terms": [
-            "kriz",
-            "enflasyon"
+            "kriz"
           ],
-          "weight": 2.8
+          "weight": 2.0
         },
         {
           "title": "Türkiye'nin kredi notu için rahatlatan mesaj: Moody's fon krizinin etkisini açıkladı! - Haber 7",
           "source": "Haber 7",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTjF6QVI2UUZHMDFfOXV6NlFsT2hISVpCYVZZZmdFQmNuMld6ZHBBeFZ5TU90R3VfRW44N3dmMVV6bVV1Y0F0eU50NXhxUUV2M2ZES0dWcUtEdnFtV0g3Z092XzhmR1dwNWJybllHMDZJR2t0aW9IRE5fUHJvOFZfNXp0b09USzBPMTdubkNQV2Y3cWtTUm9EM2k4aTI2enQ1QS1UdXZGdXBBaXZsTFhnRHlRd1ZmTVlCSnl6YkdFX291UGVvLXd3US130gHMAUFVX3lxTE9YSFRFZ0FvYy0zMndtMFpSREFaUFN1emFmTUdlaDdHUlRRS1RfTVVLdmxBWWprdVotV1I1WGpFQzRuNnA5R3RKSXF4dEt1dmFndEQtckJXOXpKQWZuckJYUUJvV1RiVHJXNWR2bWZxaXhqTjZxdjl2OHd3bm1nZkdkT3hPaWNJUklyUEhaSG9WbmllU2FpdzNsQTV0Um5SUGFtYklhWjZ5VWxENXdtSEJiaUlqZnp5RG80WVowRlRrMU81R0ZyQjV4UXRfTw?oc=5",
-          "published": "2026-11-20T14:44:00+00:00",
+          "published": "2026-11-20T16:48:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -159,10 +158,20 @@
           "weight": 2.0
         },
         {
-          "title": "Körfez'de kriz Türkiye'ye fırsat oldu: Sermayenin rotası değişiyor - Odatv",
-          "source": "Odatv",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQUxCMGVOU0RZOHNmdWVOb3llZkFDY191dmJva3NFT3p4c3ZKb2VXQ1MtRXoyYnNpRkJ5NTNKa2ZoZFRYdmpSS3VmX21va0JnSm5TZDVkbWdqSTR0dnRKdjhiRUptQkF3T2pyRFNCeGpOQ254S0RmQktFWnk2YWdudVJXbWFBQW5FUzl0M05LWlA0bjBiZTVYMjVJT0VpOFVFRlJZQ09mdTJ0dFJvNzhka2dRaFlaOU1aWU5qNnhVcWNscmEzZ0RZNzczX01pMm53aHZmRG1HSlc?oc=5",
-          "published": "2026-11-20T07:18:27+00:00",
+          "title": "Ankara merkezli dev inşaat şirketi iflas etti! - İş'te Gündem",
+          "source": "İş'te Gündem",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOemxyQXo4M24xQmhsZ1VjSldxeGlGOHlkOWtjUHdjSzNLdVgwMklvNEZJQVNVY1BDcW9RXzVMd3Z5aTlQTW13Y2hYWkVkUl85Y0RoZE1HblVBYk95TzZud1JSZnZLLUNCWk5UNllIWExTS0h1Tm5kbmhjcFZyVXA1QmFtWnJmbDUySERjUk9B?oc=5",
+          "published": "2026-11-19T10:01:11+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Mahfi Eğilmez’den kriz yorgunluğu uyarısı: 'Türkiye'nin önündeki asıl risk...' - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSUtZakN2MjUxWHNfcUFUcm9fdUZXeklhSFpMay1VdVRWT0g3bHN1MkZtdWtLS05FRFFvNGtTeEpMM0IwWktEWDBNbUE3ck1iT0dJV29qVUpaTXRCdzl5eE8zd2hSLUlMZzFOVU56REVJSGxSblp4VUxqb0VaMHBYM3VNZHVRTFpJcDZ5M2dGSERrUnBKazh6bVE1aTRISjlucy04Q000UDgxa2JlQ196VVpiaC1mUDJUWmc?oc=5",
+          "published": "2026-11-19T09:39:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -219,45 +228,30 @@
           "weight": 1.0
         },
         {
+          "title": "TD Securities'ten Fed tahmini: Aralık ayından itibaren üç faiz artışı bekleniyor - Doviz.com",
+          "source": "Doviz.com",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSU9JZndTNzZicHJxNWdTWlE3bHBLSnFwT0dFODFCRlAyZ0F6Zk8yQTdOMVNFdU1kcHNZN0tCV0dGSDNjMXJPY21rWS1PYWpNajU0eTNiVlZfcHNmMkpRZ3hPTXEwN3ZkNV83Y3RPZXp2TnF3Rl85T3dMRWRZSV8wUV9MdlRZYzE3dkp6OTNfNXhpRzRSU1Z4MV81bDZkOUpxUE5pWjhYSjYtek9Ob3JxR2VoS0phRXRXQmIwcXVST3dFMEJUV0HSAc4BQVVfeXFMT0VBZHJsZTdBZTNEZ0NReFVNMEExR29RZDJuSThrZ2RWQ0ViNTlRSWptdTVaRWJUTll6Rkxsd25sRXFmaXR0dE9jWDNFRk02ZHlaQkdzZ3J5RjVKMVFKUnJqRS13ZFJ2YVhwWWZhdGYzdFlNbnJjeG00bmY2RHFhaXBJNnFBMVJNWDB4Y21ZVFZNeG8tVzhSUVpHVjdBSzNqUWVjaldQaXhEUjRaVWVzY2VFVnRqTXZhN3VaUTJOa3VwTUZuZ09Vc2FyTmQ1QXc?oc=5",
+          "published": "2026-11-16T07:01:20+00:00",
+          "terms": [
+            "faiz artışı"
+          ],
+          "weight": 1.0
+        },
+        {
           "title": "FKB Ekonomik Görünüm Anketi Açıklandı: Enflasyon ve Faiz Beklentileri Gerilerken Takipteki Kredi Riski Sürüyor - Para Analiz",
           "source": "Para Analiz",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNDVWcW83RXFJZVdaajV2MW1aU0h5Z1NUYnlpYkYyTE1pS0ZVYUJoaXN0alVIYThTTmF0WXFQTmlrSG9veXE2aFlBcmUxTm5NZDh6U2VkV0dOd09tM2JSX1MwUElrVC1QTHFIQkJ0UGpKSXp3REQzcnFRU3REUFRUTFhiem9jckRyUnRaSm10TktQOXRlMlZvVG9EMnNBWXA1WUQzVjJURXdUamxtX05ENGRiMXJpTVU?oc=5",
-          "published": "2026-11-21T07:38:01+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "CHP Ekonomi Politika Kurulu: \"Türkiye’de 'Enflasyon ve Hayat Pahalılığıyla Mücadele Paketi' programının hızla hayata geçirilmesini öneriyoruz\" - GazeteKalem",
-          "source": "GazeteKalem",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVnpDbDdFdXJISFZwcVQ4YTFwa3YzUFptQmUwS2lURTZjeWpkZzg4ZVl5WkRWbkVYbWdqa0hvcWlQeXdxUWFqWTVuR2dmUnVxcWw0RDZldjF4SGk4ZDRTOGVmbHZtM3R2Rnprb0tPRXNkZ3B6cmFaLW9sYnpydTkwZnQtcFRIOHQ1SjV4SzEySW81aU9TbXh3QWg1WnBvZjFHTndhVjNiaFRBS1hMVl9fTUpQOE1UbUo2QTczaWdLblB4enJyZW1YX0hiemxoUTFSTFlyVzQxcjB5UG5ZYkFoR1l4ME5qZ0lxTWRKTmZ1Z0xZMV9DcW1F?oc=5",
-          "published": "2026-11-20T14:10:05+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Fed/Williams: Enflasyon yüksek ama sert faiz artışlarına gerek yok - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLURFdjlYdDVBcFFWdmtkYlAzRGNWMUVsYkd5LTJLWXd3X3FmU2h0UGJfeWsySENmZm1RSjRsM3hVQUJLMWxZUllGbkJlbTVNTjEyYWFZTVljOVNkbnFTY3FPVER2Rmw0YUJQaEo5OExjSGtOdzl2VVVsVzc5bWZyV1lMSlN6bDg5cktwbjJtQUI5WkxETlMtbzRwS0FKaEdiMmE4SmFheXR6Z0xwTTdKa0xYcUhQRi1FbVpjNW9GaHRmOHFQV0kwLWRydVB1WmJNcWxGenQtVVh6VkwzTWln?oc=5",
-          "published": "2026-11-17T21:17:12+00:00",
+          "published": "2026-11-21T18:21:08+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-21T07:57:56.835239+00:00"
+      "source_collected_at": "2026-11-21T19:55:01.057506+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-27T12:57:17.307333+00:00",
-      "score": 25.0,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-27T22:50:21.583558+00:00",
       "score": 25.0,
@@ -551,6 +545,11 @@
     {
       "generated": "2026-11-21T07:57:56.835239+00:00",
       "score": 23.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-21T19:55:01.057506+00:00",
+      "score": 23.1,
       "status": "BASELINE"
     }
   ],
