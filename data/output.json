@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-22T07:44:40.795365+00:00",
+    "generated": "2026-11-22T20:07:42.439944+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-22T07:44:40.795365+00:00"
+      "source_collected_at": "2026-11-22T20:07:42.439944+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-22T07:44:40.795365+00:00"
+      "source_collected_at": "2026-11-22T20:07:42.439944+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-22T07:44:40.795365+00:00"
+      "source_collected_at": "2026-11-22T20:07:42.439944+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,7 +113,7 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-22T07:44:40.795365+00:00"
+      "source_collected_at": "2026-11-22T20:07:42.439944+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
@@ -122,16 +122,26 @@
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "matched": 20,
+      "coverage": 134,
+      "matched": 21,
       "weighted_density": 0.187,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Moody’s’ten Türkiye’deki fon krizi ve ekonomi değerlendirmesi: Sistemik risk oluşturmuyor - Yeniçağ Gazetesi",
-          "source": "Yeniçağ Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRmtkOHlUcjFBZ3ZFMmFrMEVjTE81UzUyRzV5eEoya25tQVNENWdsMWM0dzNzc3VRM1kwWHIzRi1iOG02ME5hR3EteDNPUzFJVnFkNUhoOEFJbkdaeUVQQnJ4bjZpOUl6V1lEQ2ItMHVjZndMUjBybXFXYlZUd2ZQLUg3WGJuNjFKY2R6QzRyWERaVU54N2xuQlNPYWRqSmRLWkd3VmN2dlI2aDNTSFZqa0JWS0ZuZlRiWmlZbG51OTFKZXI2ZTd5bG93?oc=5",
-          "published": "2026-11-21T06:10:06+00:00",
+          "title": "Zafer Partisi Genel Başkanı Özdağ: 'Fon krizinde siyasi kadroların hiç sorumluluğu yok mu?' - Son Dakika",
+          "source": "Son Dakika",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcWpoMW8yU2Q4NExXcWdEcndET3ZnUjYxQlFBUFVGbGxhelY4WE1pVzRMR2dsS2RVMTdPNHNyNi1vVjdhYzcyd3JnMGVlNTQ4N09xWkpnOW1KNTU2eHlRYWc0LXBQc3NoOXdlTC1NSldmWVNKaXZ3QTJyRUV4Z1UzVTF5NW1qbVE5OWk5YWZZNWlDZkdJUHNyc3VHblXSAZwBQVVfeXFMT3FqaDFvMlNkODRMV3FnRHJ3RE92Z1I2MUJRQVBVRmxsYXpWOFhNaVc0TEdnbEtkVTE3TzRzcjYtb1Y3YWM3MndyZzBlZTU0ODdPcVpKZzltSjU1Nnh5UWFnNC1wUHNzaDl3ZUwtTUpXZllTSml2d0EyckVFeGdVM1UxeTVtam1ROTlpOWFmWTVpQ2ZHSVBzcnN1R25V?oc=5",
+          "published": "2026-11-22T13:00:10+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "YENİ Parti'den iktidara zor sorular! 2027'yi işaret etti: 'Fon krizi tüm ekonomiye yansımaya başladı' - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT1lEQmp3WVRrbXlDLXFKOFNWOUVsTjBJMWlxcWlObkdmb0xhZ1dVRUhrLWE4MlkyMl9YZ2s4T0IzVVpHbXFtZGxDUS1lQW1Yby1XNmhmcnpPU0FCeV94WFpRZmx2NE5GRHZjODJ2Ukl2SUg1dDdaZGZDa1AwRmNpbnowTWxVRUVCRzNNeklvR3U5NGRIVHFJUVRXbW5hM2dGU1ByNVlyd1lMVS1QYm9YSUZKczZ6cngzbk9lTDdDNXFMUVRfWENsUmEya1VEb0ZoZVMyYjVieWVwckU?oc=5",
+          "published": "2026-11-22T09:58:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -168,10 +178,10 @@
           "weight": 2.0
         },
         {
-          "title": "Konkordato talebi kabul görmedi: Askeri tesisler de yapan Türk inşaat şirketi iflas etti - OGÜN Haber",
-          "source": "OGÜN Haber",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTTZmd0QwM2Q4aTZXQ1l5bkRLTDBXakdRc0t2TDEwUklaUHQzVE5nXzBXQ2N0WnM1V1VZYWpMN09fb3VhT0FTbW00bXV3Y3VNT1BUZEYxa1g4T0cxbHNZSWZzT1FXVnhzTThsSnRwT1VGLW9kbUVCa3VNTmNQN2h5RHQweWVtcWhPcElGVk9VUi15WjhRR2xrRzNTSVlLZWpkVmlqWjY3eUM4Nk1wb0p5Y1Y1WUhqYTVKVWdaQkpkVllIbnB5dFF6YWlpa2plVFBp?oc=5",
-          "published": "2026-11-18T11:09:40+00:00",
+          "title": "Konkordatoda dikkat çeken değişim... Şirketler iflasın eşiğinde - Ekonomi Ankara",
+          "source": "Ekonomi Ankara",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ0JwVzUyZUhYWTlaeHpELUN4LUhYWjVQSHNGVnRUdVNsNnNBNHc1LTEtTFpGV21WTHQ5cEdnMWkwZ1EySjlYNHlEc2tHU1Y2dExEdnU2dTFUX081c1VqRzVGR0VHemhfYVBoNUFpYVYwTWQ2bFgwM0lJeHZkdXkyc3M3M1ZKZmxNSnFWcTBjZU8tWUJSQXR0cUdIUjM?oc=5",
+          "published": "2026-11-18T17:24:00+00:00",
           "terms": [
             "iflas"
           ],
@@ -196,26 +206,6 @@
             "işsizlik"
           ],
           "weight": 1.5
-        },
-        {
-          "title": "Fed tutanakları açıklandı! Yetkililerin neredeyse tamamının ilave faiz artışından yana - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRkVrN21lQ0hFQ2JkVzVMcTU2cGF1WHVLeGVlRHo1cDVLT0VfSmZKaVBXY1RWbm1KTTI5LUwyaGNPYVpTczhfQkVqOVBUaTcwWkFwRDNzRDhIZjhUN0ZmalJoNEdpVmpDckNfeXVqWjExTkI2amVKWmtqa0hpYVRZR1V4Mko5Sk1CQ2pwUk1qVk9BR3JjMWtvckF4ZU5EWXpQZ0c1VlY5MDFfaTUtT3g5YkZxSGh5aHBlWnIxSVBKVHFKcHhHSjRncjJwWm1nMm9ZdDBzWEVFdw?oc=5",
-          "published": "2026-11-18T20:20:00+00:00",
-          "terms": [
-            "faiz artışı"
-          ],
-          "weight": 1.0
-        },
-        {
-          "title": "SABAH Raporu: Fed'de faiz artışı beklentileri sertleşti, Nvidia'da 30 yıllık dönem sona erdi! - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQlE5YVRGbWJNTFZNZzY4NFBweVZsc3NaLW9ab2tkWjkxYjJ5ajBuY01KNnhKenBJVElEUHNOU3VLQ3B2NWIwRWRoNldBcXJQUG9ndjdSR1JjQnRpSVpGa3ZOa3FkaEhnOHgxRmU4dFhzRnY3c1hOM2VLNDBFVVhJTm1PdTE3LTVRY19DUy1LQnljOHlCQVZFM1RDU0ZxcGVma0J3aVBCNjNEWXgwdjFxaDdn?oc=5",
-          "published": "2026-11-16T10:19:57+00:00",
-          "terms": [
-            "faiz artışı"
-          ],
-          "weight": 1.0
         },
         {
           "title": "FKB Ekonomik Görünüm Anketi Açıklandı: Enflasyon ve Faiz Beklentileri Gerilerken Takipteki Kredi Riski Sürüyor - Para Analiz",
@@ -246,17 +236,22 @@
             "enflasyon"
           ],
           "weight": 0.8
+        },
+        {
+          "title": "Fed/Williams: Enflasyon yüksek ama sert faiz artışlarına gerek yok - Foreks.com",
+          "source": "Foreks.com",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLURFdjlYdDVBcFFWdmtkYlAzRGNWMUVsYkd5LTJLWXd3X3FmU2h0UGJfeWsySENmZm1RSjRsM3hVQUJLMWxZUllGbkJlbTVNTjEyYWFZTVljOVNkbnFTY3FPVER2Rmw0YUJQaEo5OExjSGtOdzl2VVVsVzc5bWZyV1lMSlN6bDg5cktwbjJtQUI5WkxETlMtbzRwS0FKaEdiMmE4SmFheXR6Z0xwTTdKa0xYcUhQRi1FbVpjNW9GaHRmOHFQV0kwLWRydVB1WmJNcWxGenQtVVh6VkwzTWln?oc=5",
+          "published": "2026-11-17T21:17:12+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-22T07:44:40.795365+00:00"
+      "source_collected_at": "2026-11-22T20:07:42.439944+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-28T06:36:20.761393+00:00",
-      "score": 25.1,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-28T08:23:44.023740+00:00",
       "score": 24.8,
@@ -549,6 +544,11 @@
     },
     {
       "generated": "2026-11-22T07:44:40.795365+00:00",
+      "score": 22.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-22T20:07:42.439944+00:00",
       "score": 22.9,
       "status": "BASELINE"
     }
