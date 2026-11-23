@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-22T20:07:42.439944+00:00",
+    "generated": "2026-11-23T08:33:59.625316+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 22.9,
-    "raw_score": 22.9,
+    "score": 23.1,
+    "raw_score": 23.1,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 22.9/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 23.1/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-22T20:07:42.439944+00:00"
+      "source_collected_at": "2026-11-23T08:33:59.625316+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-22T20:07:42.439944+00:00"
+      "source_collected_at": "2026-11-23T08:33:59.625316+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-22T20:07:42.439944+00:00"
+      "source_collected_at": "2026-11-23T08:33:59.625316+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-22T20:07:42.439944+00:00"
+      "source_collected_at": "2026-11-23T08:33:59.625316+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 7.6,
+      "score": 9.4,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 134,
-      "matched": 21,
-      "weighted_density": 0.187,
+      "coverage": 125,
+      "matched": 24,
+      "weighted_density": 0.202,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -132,26 +132,6 @@
           "source": "Son Dakika",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcWpoMW8yU2Q4NExXcWdEcndET3ZnUjYxQlFBUFVGbGxhelY4WE1pVzRMR2dsS2RVMTdPNHNyNi1vVjdhYzcyd3JnMGVlNTQ4N09xWkpnOW1KNTU2eHlRYWc0LXBQc3NoOXdlTC1NSldmWVNKaXZ3QTJyRUV4Z1UzVTF5NW1qbVE5OWk5YWZZNWlDZkdJUHNyc3VHblXSAZwBQVVfeXFMT3FqaDFvMlNkODRMV3FnRHJ3RE92Z1I2MUJRQVBVRmxsYXpWOFhNaVc0TEdnbEtkVTE3TzRzcjYtb1Y3YWM3MndyZzBlZTU0ODdPcVpKZzltSjU1Nnh5UWFnNC1wUHNzaDl3ZUwtTUpXZllTSml2d0EyckVFeGdVM1UxeTVtam1ROTlpOWFmWTVpQ2ZHSVBzcnN1R25V?oc=5",
           "published": "2026-11-22T13:00:10+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "YENİ Parti'den iktidara zor sorular! 2027'yi işaret etti: 'Fon krizi tüm ekonomiye yansımaya başladı' - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT1lEQmp3WVRrbXlDLXFKOFNWOUVsTjBJMWlxcWlObkdmb0xhZ1dVRUhrLWE4MlkyMl9YZ2s4T0IzVVpHbXFtZGxDUS1lQW1Yby1XNmhmcnpPU0FCeV94WFpRZmx2NE5GRHZjODJ2Ukl2SUg1dDdaZGZDa1AwRmNpbnowTWxVRUVCRzNNeklvR3U5NGRIVHFJUVRXbW5hM2dGU1ByNVlyd1lMVS1QYm9YSUZKczZ6cngzbk9lTDdDNXFMUVRfWENsUmEya1VEb0ZoZVMyYjVieWVwckU?oc=5",
-          "published": "2026-11-22T09:58:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye'nin kredi notu için rahatlatan mesaj: Moody's fon krizinin etkisini açıkladı! - Haber 7",
-          "source": "Haber 7",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTjF6QVI2UUZHMDFfOXV6NlFsT2hISVpCYVZZZmdFQmNuMld6ZHBBeFZ5TU90R3VfRW44N3dmMVV6bVV1Y0F0eU50NXhxUUV2M2ZES0dWcUtEdnFtV0g3Z092XzhmR1dwNWJybllHMDZJR2t0aW9IRE5fUHJvOFZfNXp0b09USzBPMTdubkNQV2Y3cWtTUm9EM2k4aTI2enQ1QS1UdXZGdXBBaXZsTFhnRHlRd1ZmTVlCSnl6YkdFX291UGVvLXd3US130gHMAUFVX3lxTE9YSFRFZ0FvYy0zMndtMFpSREFaUFN1emFmTUdlaDdHUlRRS1RfTVVLdmxBWWprdVotV1I1WGpFQzRuNnA5R3RKSXF4dEt1dmFndEQtckJXOXpKQWZuckJYUUJvV1RiVHJXNWR2bWZxaXhqTjZxdjl2OHd3bm1nZkdkT3hPaWNJUklyUEhaSG9WbmllU2FpdzNsQTV0Um5SUGFtYklhWjZ5VWxENXdtSEJiaUlqZnp5RG80WVowRlRrMU81R0ZyQjV4UXRfTw?oc=5",
-          "published": "2026-11-20T16:48:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -208,55 +188,70 @@
           "weight": 1.5
         },
         {
-          "title": "FKB Ekonomik Görünüm Anketi Açıklandı: Enflasyon ve Faiz Beklentileri Gerilerken Takipteki Kredi Riski Sürüyor - Para Analiz",
+          "title": "SABAH Raporu: Fed'de faiz artışı beklentileri sertleşti, Nvidia'da 30 yıllık dönem sona erdi! - Para Analiz",
           "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNDVWcW83RXFJZVdaajV2MW1aU0h5Z1NUYnlpYkYyTE1pS0ZVYUJoaXN0alVIYThTTmF0WXFQTmlrSG9veXE2aFlBcmUxTm5NZDh6U2VkV0dOd09tM2JSX1MwUElrVC1QTHFIQkJ0UGpKSXp3REQzcnFRU3REUFRUTFhiem9jckRyUnRaSm10TktQOXRlMlZvVG9EMnNBWXA1WUQzVjJURXdUamxtX05ENGRiMXJpTVU?oc=5",
-          "published": "2026-11-21T18:21:08+00:00",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQlE5YVRGbWJNTFZNZzY4NFBweVZsc3NaLW9ab2tkWjkxYjJ5ajBuY01KNnhKenBJVElEUHNOU3VLQ3B2NWIwRWRoNldBcXJQUG9ndjdSR1JjQnRpSVpGa3ZOa3FkaEhnOHgxRmU4dFhzRnY3c1hOM2VLNDBFVVhJTm1PdTE3LTVRY19DUy1LQnljOHlCQVZFM1RDU0ZxcGVma0J3aVBCNjNEWXgwdjFxaDdn?oc=5",
+          "published": "2026-11-16T10:19:57+00:00",
+          "terms": [
+            "faiz artışı"
+          ],
+          "weight": 1.0
+        },
+        {
+          "title": "Sektörel enflasyon beklentileri kasım ayında karışık seyretti - Forbes Türkiye",
+          "source": "Forbes Türkiye",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaXNMWnJNODdXblJ3VmdKNndQQUdLS3pDUzA0bDhEVlcyOF9CcEh1UlRyTlhMUUZZWDdqRHF3VEpDdWc4TFR1Z3VjbWNCRUlqRzlwMEcxYmtJT2E2dUZIVE1feVMxWlViclVibTVQNHpzMGJfMWloZjBXTHpXbC1SX0thbEdYVlZRcGM3VWpRYjJ2akNyMzZHeERnRQ?oc=5",
+          "published": "2026-11-23T07:50:00+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "Fed yetkilisi Lisa Cook’tan enflasyon uyarısı: Faiz artışlarını geciktirmenin bedeli olabilir - 12punto",
-          "source": "12punto",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWTNUbXlaSERzLU9UNGs0YXdUbURDZzdCbzJGNE5salRyZjI0anFjaFhYajFHVUtRbGIyVEFtbkFxSTlIR1J1NHVDREltaG9hZ1drdU5Bdzdya0k0OWpyVFRMTXBTNDlzS2tScllTU2Z0TVliLXVMaXR4S2JKbXFMdUZZUERIdk1hVk9qLUF2Q3lORTlBb2gxNEtuU053UzdTMVFzRkt1MHNSczJCcVFpSS14Xy1LeXpvU3R2azF5NUJFTk1HdFg4OA?oc=5",
-          "published": "2026-11-20T20:14:23+00:00",
+          "title": "Hanehalkının enflasyon beklentisi kasım ayında 43,24'e geriledi - Forbes Türkiye",
+          "source": "Forbes Türkiye",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU3dwQW9LN25kdmo3WjBjRU52Zmk0Y2FpdU03RTVpVDhlU2NVeVJZaXplU2JsR0F3U2tGbkNGdTZHMFAwMm55cDZIRjhVSU5FT0g4YWNNRXpPNUFRc1I1YzlBRHBVc3JNaEdoQVpVRHF0blMzd21iTXBkVTNwOXdxUjJVcmpqWUVEUnNQUUZUaUdJd29iNkxXb05JRmRuUQ?oc=5",
+          "published": "2026-11-23T07:31:00+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "CHP Ekonomi Politika Kurulu: \"Türkiye’de 'Enflasyon ve Hayat Pahalılığıyla Mücadele Paketi' programının hızla hayata geçirilmesini öneriyoruz\" - Anka Haber",
-          "source": "Anka Haber",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQdERRRXBiSkd4LVVfQXN6QWFCUVR2VXdVdGY4WWZJZnVXSGRIa29rblpKX0phMU1jUS1FdXg3Wl9td1p1QWwtNk94SUJibFVjWTUtbHlObWxaNW05a2pCdk90Z1RnRngtMmNKT0R3ZG5aRmJlY1gyTHZndWhURFdYZlpvdVVVTDJyaEpTdzV4eXdscm5qN1Bvak40ZVB4enpLSkNHUDdTUUNFbjg3a3didUJ0ZVpWRDJuaFpjNGJRQ1dVR2Jpc3l4M2Zyb01STU91YWl1b3lESnI0NDZYRXIxWU10RUdwNE1Pc1NWQlFpOThEQ1ZEVjhkMVRwSDZJMW92dkxZMg?oc=5",
-          "published": "2026-11-20T14:04:51+00:00",
+          "title": "Piyasanın enflasyon beklentisi artarken, hanehalkının geriledi - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORUcxVXAyRDJRNXdROExhaHREbGp4bHhGQktEMFVJVVRObUpmR1R1aUtreVNiUHRKc3JUOWFHX2tnY0NNaHRjM1kwTTYwemIySjRNTFgtV2JCTzJvRVRDRTM1SmprQzNNWENOZkFiSXJCMzBYWGhTRmphQnBPcGx4azVLSnBXMkhrZHRvczd0bmdEMjBrWWk4RkNrTGxtUQ?oc=5",
+          "published": "2026-11-23T07:08:53+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "Fed/Williams: Enflasyon yüksek ama sert faiz artışlarına gerek yok - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLURFdjlYdDVBcFFWdmtkYlAzRGNWMUVsYkd5LTJLWXd3X3FmU2h0UGJfeWsySENmZm1RSjRsM3hVQUJLMWxZUllGbkJlbTVNTjEyYWFZTVljOVNkbnFTY3FPVER2Rmw0YUJQaEo5OExjSGtOdzl2VVVsVzc5bWZyV1lMSlN6bDg5cktwbjJtQUI5WkxETlMtbzRwS0FKaEdiMmE4SmFheXR6Z0xwTTdKa0xYcUhQRi1FbVpjNW9GaHRmOHFQV0kwLWRydVB1WmJNcWxGenQtVVh6VkwzTWln?oc=5",
-          "published": "2026-11-17T21:17:12+00:00",
+          "title": "TCMB anketi: Vatandaşın enflasyon beklentisi kasımda geriledi - Doviz.com",
+          "source": "Doviz.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdkNvUWNrVnQtZ3NEY1lkNGdwMVhDZFRVaVdIOThZekVGRGhJUksxZjVINUxQOFEwdWdLVjJvUDcxcEx5cGdpbWFVekFtclNDSUFscFFVWmk0eDJSalpLZVR4N2VHSFVfNmhocW93R2dfb3d6VkoyYmVrcUd6U3cxV0pvd1dlWDV6ZWZfZ0ZIQy1uQ2lwYUc3S0JQMWFhZENDWG1FRE44UHdJMUst0gG0AUFVX3lxTFBrVWlETkNoTy1qeVRBUFFKSEtZOE9YWDk0S3NrcUM2TlE3VVRVN2lRdTRKRy1tS0d5X0RjWTN1SURRVXVJZ3loRUx2aGNxRGVTUy1rY2dscXZPa2wyVFJfYjdzTkdiREdtaDBWWTdpeDNyTGhPallqRG40TVkxODRGWThtS1U1NldrVjJHUFhrelZfdHZMZUNORDZ5MG1xZV9tbzNSbkJkUERHT1lmbXJzQVVveA?oc=5",
+          "published": "2026-11-23T07:04:45+00:00",
+          "terms": [
+            "enflasyon"
+          ],
+          "weight": 0.8
+        },
+        {
+          "title": "Ekonomide yoğun hafta: Enflasyon beklentileri ve TCMB istikrar raporu izlenecek - Sanayi Gazetesi",
+          "source": "Sanayi Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbUttRjgtaFg2VkJrSTBjUHJDVVBiLUVwcXo1NGhzSGVqTi1XLWVsMmJPb1czb2dVMVZkSERxWlhGb1FTbmlKYzRBUXU2RkU0MjQyZDRZeUs2YUl2UVZ2d0gtbW85aWZ6MmFfT2FURy1yQ0c5YnQ0Zkp4OFh4UGR6aElxbGxpLUh5ajV4NGt2dDVzVFdGOHFNdFBKTzJQa1pmbHh0OEM2c3V3QnRqMGc?oc=5",
+          "published": "2026-11-23T06:49:42+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-22T20:07:42.439944+00:00"
+      "source_collected_at": "2026-11-23T08:33:59.625316+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-28T08:23:44.023740+00:00",
-      "score": 24.8,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-28T13:48:27.840619+00:00",
       "score": 24.5,
@@ -550,6 +545,11 @@
     {
       "generated": "2026-11-22T20:07:42.439944+00:00",
       "score": 22.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-23T08:33:59.625316+00:00",
+      "score": 23.1,
       "status": "BASELINE"
     }
   ],
