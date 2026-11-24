@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-24T00:34:10.763589+00:00",
+    "generated": "2026-11-24T10:39:37.099910+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 21.3,
-    "raw_score": 21.3,
+    "score": 21.6,
+    "raw_score": 21.6,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 21.3/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 21.6/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-24T00:34:10.763589+00:00"
+      "source_collected_at": "2026-11-24T10:39:37.099910+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-24T00:34:10.763589+00:00"
+      "source_collected_at": "2026-11-24T10:39:37.099910+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-24T00:34:10.763589+00:00"
+      "source_collected_at": "2026-11-24T10:39:37.099910+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,20 +113,31 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-24T00:34:10.763589+00:00"
+      "source_collected_at": "2026-11-24T10:39:37.099910+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 12.1,
+      "score": 15.2,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 156,
-      "matched": 37,
-      "weighted_density": 0.226,
+      "coverage": 160,
+      "matched": 38,
+      "weighted_density": 0.254,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Fon krizi Türk ekonomisini vurdu: Büyüme ve enflasyon tahminleri açıklandı - Cumhuriyet",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV05IVDczaVlxSDNvRURfREEtcnFaa2RMY1I1ckRYQ1lHYW94TEY4bjAxUG1rM2JxVk1mWEowSFZ4VFFIUVplbXB1Sll2bm5YXzJKUTNweTQtS2swRTBVU19OeDZiU0FZSTFCMmtkM0xGcEk1M1RXZmNNWVduRkxBZlVuVnptcHZLanRtNWlOSjBmS1hEYUtKcjlQMk1mRlhhZGMxTXhsM2Q5SzVncF9VbkJFQjJlMG1MRGFZ?oc=5",
+          "published": "2026-11-18T07:39:00+00:00",
+          "terms": [
+            "kriz",
+            "enflasyon"
+          ],
+          "weight": 2.8
+        },
         {
           "title": "Zafer Partisi Genel Başkanı Özdağ: 'Fon krizinde siyasi kadroların hiç sorumluluğu yok mu?' - Son Dakika",
           "source": "Son Dakika",
@@ -158,6 +169,16 @@
           "weight": 2.0
         },
         {
+          "title": "Mahfi Eğilmez: Türkiye kriz yorgunluğuyla karşı karşıya - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV2NBcS02dGFuZlJWTkFzS25Xa3NLWGFqdnV5UE1GMHUweUZwMFdkeUVLMmtCVzEwQzVJVWQwZGxJYUYxTzh6eFpyR0FibGxBY1hTVTY4R213VUozYXdwZUNFdXI0TU5PUW9TdDN4NHVERktLS09jaFpnQjdGbEhIRHA1anJuUU1qWUpJU1YwZnlMRmp0S3VZREU0UHZhVHNsQlM0?oc=5",
+          "published": "2026-11-19T09:15:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "Konkordatoda dikkat çeken değişim... Şirketler iflasın eşiğinde - Ekonomi Ankara",
           "source": "Ekonomi Ankara",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ0JwVzUyZUhYWTlaeHpELUN4LUhYWjVQSHNGVnRUdVNsNnNBNHc1LTEtTFpGV21WTHQ5cEdnMWkwZ1EySjlYNHlEc2tHU1Y2dExEdnU2dTFUX081c1VqRzVGR0VHemhfYVBoNUFpYVYwTWQ2bFgwM0lJeHZkdXkyc3M3M1ZKZmxNSnFWcTBjZU8tWUJSQXR0cUdIUjM?oc=5",
@@ -178,6 +199,16 @@
           "weight": 2.0
         },
         {
+          "title": "Üç ekonomist fon krizini değerlendirdi: Türkiye ekonomisini bekleyen riskler neler? - Ekonomim",
+          "source": "Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdzZfYUNpSmxiTF95UzhRRzh6d1FXei1abVFLQkU0TkhzdGVIVFdpZmpJQk9MT185blhCdEh2ZUVlV3FoSlRtWm9rN1hiMzRhckJ1RWtHZ0FYNUxHOXN5a0ZjMlBYQ1V0MS1FeWhOdjZVcnlRN0NWN0NEZFB3N3pMa0JaeTZrZ0VnSmE3bkd0Qlp3UWpMTWFMcDhBMkxxY2p0QXZqVnlJM01HWnBEdlUwcXVPbEVUZEpuUkY0bzNlSkJtdUpKbkxn?oc=5",
+          "published": "2026-11-18T08:55:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "Türkiye’de işsizlik oranı üçüncü çeyrekte yüzde 8,1’e yükseldi | Türkiye Ekonomisi Haberleri - GZT",
           "source": "GZT",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX2JXUjZleHJmemM5Q3JqWGlEaHZBeTgyUHJoUXBOaE9Qb0VHUk9oVzNwdDNkWGtqaENjcVdSUklQQ3I3S2RCUl9ZTU5UQlducHV0cjI1X052eDEwcURZWHE2ZHVwYXpGUkItdWtqUG1xOHhDWV9CVUhSMjJZZkN4b0pNQ216a3k3aW8yRGlrUW5KZld4U0Q1cXNvbw?oc=5",
@@ -188,14 +219,14 @@
           "weight": 1.5
         },
         {
-          "title": "Türkiye'nin risk primi yine kritik seviyeyi test etti - Bloomberght",
-          "source": "Bloomberght",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNamk0R3ZSWlNTdHJNR1dqVVljS0MtWXpyLUxKWFZoUVR1b0w3azBuby1RTXoyVVlqMmpnMFd6MnFLWEE5OEtrRVZTZTlKOUoxMmM1REJUSmxsZnZoXzdIZTV6b1JyMzlIRzg1bzRRTXhGckhVaXhvank5dGRFUXdGNEkxdTROUHF5R2tmQU1qLUpsY3c?oc=5",
-          "published": "2026-11-20T08:43:26+00:00",
+          "title": "TÜİK üçüncü çeyrek işsizlik rakamlarını açıklandı - Yeni Şafak",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQzI1VWpTeFJfR3RnTlBTalRuMnpOYi1WRHhmMXhmMkprTUZyZ3hzX21CLVJienduejlxcUd0N2o1a0ZhaGwxV1dkcHhhZjdxSVRxLUw1SThTOW9MUWc2cVhaUnVNWHJFSURiTUVFaUN4V2ptU1B4N3lXQVE2eWJnQlJpYmctZFlEWXhjZjVFQnRKdFIwRkE?oc=5",
+          "published": "2026-11-18T07:22:32+00:00",
           "terms": [
-            "risk primi"
+            "işsizlik"
           ],
-          "weight": 1.2
+          "weight": 1.5
         },
         {
           "title": "Fed tutanakları yetkililerin neredeyse tamamının ilave faiz artışı beklediğini gösterdi - NTV Haber",
@@ -208,55 +239,20 @@
           "weight": 1.0
         },
         {
-          "title": "Fed/Williams: Enflasyon hala çok yüksek, faiz artırımlarında yapılacak işler var - Foreks.com",
-          "source": "Foreks.com",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVEpPaFJ5RTh4RlU0LXNhb2k4eW1Hbjl0ZG0waXZfXzJCczBPMDQ1clQ4MjdwMjJIY0dReWtlUVJlSEJ3UWR5UWt5MGRLMU0wZjYzdXdNRHZiSVE5U0Jvdk9kckR6N0lhV3llM1V3clE0U2VRbmRfb1ZCamY5N3d4R3hVMDNLcmo0YkdLVDFvVlN5b0cxMEtTRGpBbW5iMldyZjlRcjRRRDBMUzlQRlJ1S2lmVzhrRFllRFBsY3VkaGpfTlBUbHdiaE5xaXRLcXNjZnBXUEVoclVGQm1VWXZYczUtSTVJQnFrRGQyYUUzY00?oc=5",
-          "published": "2026-11-23T22:41:06+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "MERKEZ BANKASI BAŞKANI KARAHAN’DAN ENFLASYON VE FAİZ MESAJI: GEREKİRSE YENİ ADIMLAR ATILACAK! - Mağusa Haber Ajansı",
-          "source": "Mağusa Haber Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOalNvbnlzNFBjdm1CRFBId29KZ2JmZFhEWHlwc2pRNG00am1qc0ZkcVJBSGhDTzNRZ1JEZ3NGcHQ2Wl9LZ2dnNzBncXdlSFNNZm9YZFdKZUZ2YmJPU2diaTF3NmJfa1NFcGMzYjdKN2RVZ1FSZzBsVXdja3YxMHIwSTdidXJ6NTNEVHJOWE12YVVJZGFCQTE2a09XZVEwVEZyNFlxdE80WTVMQXRQbzhnTy11aTlfUQ?oc=5",
-          "published": "2026-11-23T17:52:42+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Karahan: Rezervler, faiz ve enflasyonda yol haritası - Ege Alternatif",
-          "source": "Ege Alternatif",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcHI0Y2NxaERXekI3ODFheDNIOFRLSGUyc0Y1ckU4QTBUQTJManZfcDk2MnNUaC1QbmVpRkUyNnZHaW9yc3N3Mk5pNC1HZEowOG01SWFaRVQ0Y0t0LUJsWE1kS25vR05zSWE4Sm51eVd2RU1BUm42VngtZDBwNU5XbkV0T2gxMXhaeGZiMkNieGl2emNYWFl5WWRB?oc=5",
-          "published": "2026-11-23T16:11:00+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "2027'de dolar, enflasyon ve faiz ne olacak? Deutsche Bank Türkiye tahminini açıkladı - ABC Haber",
-          "source": "ABC Haber",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLWJ2QzROT3ltazQyZ3BVOGJQSVd4YzhXYmFibWtyU0RZZWVrUFVLVXJmLTF4SU5kd0w0VEJvX3hGUmFWY3dYbFYybWIzZ1E3aXdrSHBBTWt1YmpyNHRUMTJnZmpudUZVNlZobWY5cWgxUXdMbW10c091UkNSX1EwcmdpMENya3ItVWJza1V4bVVPNHRTMG9DanRZZ05sMGZyMFV2M2o3cnlqc2tWdUFuUFlBVEpzdGhsNHhjVkQyOEc?oc=5",
-          "published": "2026-11-23T14:04:00+00:00",
+          "title": "Ozan USLU: Enflasyonla mücadele ederken üretimi mi kaybediyoruz? - Ege Telgraf",
+          "source": "Ege Telgraf",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQU5pM1N2RE00bU9sT2c5dk5TbWFYTmIwaDFBdmNZc01LbU5JalhuTElVRERNdFByd1ZDM3U0X0JCbThReG1CUy1RU0xjOWdpLV8tc1g2YnBtOHIxYmphemh0MUZUYVIxcmNSZVFuSlEtNVpMcC12bnVRQ2lyMlVMOFF6enB5dw?oc=5",
+          "published": "2026-11-24T08:24:33+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-24T00:34:10.763589+00:00"
+      "source_collected_at": "2026-11-24T10:39:37.099910+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-28T22:56:27.909354+00:00",
-      "score": 26.1,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-29T06:44:29.129220+00:00",
       "score": 25.8,
@@ -550,6 +546,11 @@
     {
       "generated": "2026-11-24T00:34:10.763589+00:00",
       "score": 21.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-24T10:39:37.099910+00:00",
+      "score": 21.6,
       "status": "BASELINE"
     }
   ],
