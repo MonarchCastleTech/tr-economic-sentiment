@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-23T08:33:59.625316+00:00",
+    "generated": "2026-11-24T00:34:10.763589+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,38 +11,38 @@
     "source_notes": []
   },
   "warning": {
-    "score": 23.1,
-    "raw_score": 23.1,
+    "score": 21.3,
+    "raw_score": 21.3,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 23.1/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 21.3/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 13.4,
+      "score": 6.5,
       "status": "BASELINE",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 127,
-      "latest_date": "2026-11-20",
-      "latest_value": 50.4028,
-      "change_5d_pct": 0.42,
-      "return_z": 1.02,
+      "coverage": 128,
+      "latest_date": "2026-11-23",
+      "latest_value": 50.5116,
+      "change_5d_pct": 0.41,
+      "return_z": 0.75,
       "volatility_20d": 0.07,
-      "volatility_z": -2.0,
+      "volatility_z": -0.1,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 50.4028,
-          "date": "2026-11-20",
+          "value": 50.5116,
+          "date": "2026-11-23",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-23T08:33:59.625316+00:00"
+      "source_collected_at": "2026-11-24T00:34:10.763589+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-23T08:33:59.625316+00:00"
+      "source_collected_at": "2026-11-24T00:34:10.763589+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-23T08:33:59.625316+00:00"
+      "source_collected_at": "2026-11-24T00:34:10.763589+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-23T08:33:59.625316+00:00"
+      "source_collected_at": "2026-11-24T00:34:10.763589+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 9.4,
+      "score": 12.1,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 125,
-      "matched": 24,
-      "weighted_density": 0.202,
+      "coverage": 156,
+      "matched": 37,
+      "weighted_density": 0.226,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -188,75 +188,70 @@
           "weight": 1.5
         },
         {
-          "title": "SABAH Raporu: Fed'de faiz artışı beklentileri sertleşti, Nvidia'da 30 yıllık dönem sona erdi! - Para Analiz",
-          "source": "Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQlE5YVRGbWJNTFZNZzY4NFBweVZsc3NaLW9ab2tkWjkxYjJ5ajBuY01KNnhKenBJVElEUHNOU3VLQ3B2NWIwRWRoNldBcXJQUG9ndjdSR1JjQnRpSVpGa3ZOa3FkaEhnOHgxRmU4dFhzRnY3c1hOM2VLNDBFVVhJTm1PdTE3LTVRY19DUy1LQnljOHlCQVZFM1RDU0ZxcGVma0J3aVBCNjNEWXgwdjFxaDdn?oc=5",
-          "published": "2026-11-16T10:19:57+00:00",
+          "title": "Türkiye'nin risk primi yine kritik seviyeyi test etti - Bloomberght",
+          "source": "Bloomberght",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNamk0R3ZSWlNTdHJNR1dqVVljS0MtWXpyLUxKWFZoUVR1b0w3azBuby1RTXoyVVlqMmpnMFd6MnFLWEE5OEtrRVZTZTlKOUoxMmM1REJUSmxsZnZoXzdIZTV6b1JyMzlIRzg1bzRRTXhGckhVaXhvank5dGRFUXdGNEkxdTROUHF5R2tmQU1qLUpsY3c?oc=5",
+          "published": "2026-11-20T08:43:26+00:00",
+          "terms": [
+            "risk primi"
+          ],
+          "weight": 1.2
+        },
+        {
+          "title": "Fed tutanakları yetkililerin neredeyse tamamının ilave faiz artışı beklediğini gösterdi - NTV Haber",
+          "source": "NTV Haber",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOa0RvM09MM1dmaFl0V1FoMzE3S1I0X2N1aEFqbGZTS3pSdFdqelBuQTl3eVVBOWZNNG1xd1BLUXFlZkJjWjdUdWsxWlRHSTU4UDlQOUQ1YzF0cG9sT1J6aEsta3FXdWg1RWEzZ2ZzUHRqcUJELWlHeVo3YnNDM081Vm12cVQxRHhNVVhsckFpVC10NGdOdzUtS1ZaNXRycTRoUzR4YklmTDhNbHVPVXUwNlBuMTI0TnN0VzRGWXYyQlB2dDRv0gHKAUFVX3lxTE9oV0Q1dEw5TTVkZTlsUGEzcVp4THdXejctOFpNenhkRkhWcVlUU0M5WjdZS0djTkV4MlJWc2pkRDJiMkQ4M3BlaFJ1Z2swbnlnSWNfdl9xek5tZ3dfMFZlTWw2bGNuRHlVVGRwZFNtRDc3QWlJYm1xaDZ0VG53aG41Zk05YW5JbDI5dUZWYjNoWEEzTUo3YkwzNFloblo1Q2hxTEgwRl9oVlNVVWxvSzBoUjZNOHBDQkJZVmFjQ0pHaXNrS1F4Zms1akE?oc=5",
+          "published": "2026-11-18T20:41:07+00:00",
           "terms": [
             "faiz artışı"
           ],
           "weight": 1.0
         },
         {
-          "title": "Sektörel enflasyon beklentileri kasım ayında karışık seyretti - Forbes Türkiye",
-          "source": "Forbes Türkiye",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaXNMWnJNODdXblJ3VmdKNndQQUdLS3pDUzA0bDhEVlcyOF9CcEh1UlRyTlhMUUZZWDdqRHF3VEpDdWc4TFR1Z3VjbWNCRUlqRzlwMEcxYmtJT2E2dUZIVE1feVMxWlViclVibTVQNHpzMGJfMWloZjBXTHpXbC1SX0thbEdYVlZRcGM3VWpRYjJ2akNyMzZHeERnRQ?oc=5",
-          "published": "2026-11-23T07:50:00+00:00",
+          "title": "Fed/Williams: Enflasyon hala çok yüksek, faiz artırımlarında yapılacak işler var - Foreks.com",
+          "source": "Foreks.com",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVEpPaFJ5RTh4RlU0LXNhb2k4eW1Hbjl0ZG0waXZfXzJCczBPMDQ1clQ4MjdwMjJIY0dReWtlUVJlSEJ3UWR5UWt5MGRLMU0wZjYzdXdNRHZiSVE5U0Jvdk9kckR6N0lhV3llM1V3clE0U2VRbmRfb1ZCamY5N3d4R3hVMDNLcmo0YkdLVDFvVlN5b0cxMEtTRGpBbW5iMldyZjlRcjRRRDBMUzlQRlJ1S2lmVzhrRFllRFBsY3VkaGpfTlBUbHdiaE5xaXRLcXNjZnBXUEVoclVGQm1VWXZYczUtSTVJQnFrRGQyYUUzY00?oc=5",
+          "published": "2026-11-23T22:41:06+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "Hanehalkının enflasyon beklentisi kasım ayında 43,24'e geriledi - Forbes Türkiye",
-          "source": "Forbes Türkiye",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU3dwQW9LN25kdmo3WjBjRU52Zmk0Y2FpdU03RTVpVDhlU2NVeVJZaXplU2JsR0F3U2tGbkNGdTZHMFAwMm55cDZIRjhVSU5FT0g4YWNNRXpPNUFRc1I1YzlBRHBVc3JNaEdoQVpVRHF0blMzd21iTXBkVTNwOXdxUjJVcmpqWUVEUnNQUUZUaUdJd29iNkxXb05JRmRuUQ?oc=5",
-          "published": "2026-11-23T07:31:00+00:00",
+          "title": "MERKEZ BANKASI BAŞKANI KARAHAN’DAN ENFLASYON VE FAİZ MESAJI: GEREKİRSE YENİ ADIMLAR ATILACAK! - Mağusa Haber Ajansı",
+          "source": "Mağusa Haber Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOalNvbnlzNFBjdm1CRFBId29KZ2JmZFhEWHlwc2pRNG00am1qc0ZkcVJBSGhDTzNRZ1JEZ3NGcHQ2Wl9LZ2dnNzBncXdlSFNNZm9YZFdKZUZ2YmJPU2diaTF3NmJfa1NFcGMzYjdKN2RVZ1FSZzBsVXdja3YxMHIwSTdidXJ6NTNEVHJOWE12YVVJZGFCQTE2a09XZVEwVEZyNFlxdE80WTVMQXRQbzhnTy11aTlfUQ?oc=5",
+          "published": "2026-11-23T17:52:42+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "Piyasanın enflasyon beklentisi artarken, hanehalkının geriledi - Bloomberght",
-          "source": "Bloomberght",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORUcxVXAyRDJRNXdROExhaHREbGp4bHhGQktEMFVJVVRObUpmR1R1aUtreVNiUHRKc3JUOWFHX2tnY0NNaHRjM1kwTTYwemIySjRNTFgtV2JCTzJvRVRDRTM1SmprQzNNWENOZkFiSXJCMzBYWGhTRmphQnBPcGx4azVLSnBXMkhrZHRvczd0bmdEMjBrWWk4RkNrTGxtUQ?oc=5",
-          "published": "2026-11-23T07:08:53+00:00",
+          "title": "Karahan: Rezervler, faiz ve enflasyonda yol haritası - Ege Alternatif",
+          "source": "Ege Alternatif",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcHI0Y2NxaERXekI3ODFheDNIOFRLSGUyc0Y1ckU4QTBUQTJManZfcDk2MnNUaC1QbmVpRkUyNnZHaW9yc3N3Mk5pNC1HZEowOG01SWFaRVQ0Y0t0LUJsWE1kS25vR05zSWE4Sm51eVd2RU1BUm42VngtZDBwNU5XbkV0T2gxMXhaeGZiMkNieGl2emNYWFl5WWRB?oc=5",
+          "published": "2026-11-23T16:11:00+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         },
         {
-          "title": "TCMB anketi: Vatandaşın enflasyon beklentisi kasımda geriledi - Doviz.com",
-          "source": "Doviz.com",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdkNvUWNrVnQtZ3NEY1lkNGdwMVhDZFRVaVdIOThZekVGRGhJUksxZjVINUxQOFEwdWdLVjJvUDcxcEx5cGdpbWFVekFtclNDSUFscFFVWmk0eDJSalpLZVR4N2VHSFVfNmhocW93R2dfb3d6VkoyYmVrcUd6U3cxV0pvd1dlWDV6ZWZfZ0ZIQy1uQ2lwYUc3S0JQMWFhZENDWG1FRE44UHdJMUst0gG0AUFVX3lxTFBrVWlETkNoTy1qeVRBUFFKSEtZOE9YWDk0S3NrcUM2TlE3VVRVN2lRdTRKRy1tS0d5X0RjWTN1SURRVXVJZ3loRUx2aGNxRGVTUy1rY2dscXZPa2wyVFJfYjdzTkdiREdtaDBWWTdpeDNyTGhPallqRG40TVkxODRGWThtS1U1NldrVjJHUFhrelZfdHZMZUNORDZ5MG1xZV9tbzNSbkJkUERHT1lmbXJzQVVveA?oc=5",
-          "published": "2026-11-23T07:04:45+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
-        },
-        {
-          "title": "Ekonomide yoğun hafta: Enflasyon beklentileri ve TCMB istikrar raporu izlenecek - Sanayi Gazetesi",
-          "source": "Sanayi Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbUttRjgtaFg2VkJrSTBjUHJDVVBiLUVwcXo1NGhzSGVqTi1XLWVsMmJPb1czb2dVMVZkSERxWlhGb1FTbmlKYzRBUXU2RkU0MjQyZDRZeUs2YUl2UVZ2d0gtbW85aWZ6MmFfT2FURy1yQ0c5YnQ0Zkp4OFh4UGR6aElxbGxpLUh5ajV4NGt2dDVzVFdGOHFNdFBKTzJQa1pmbHh0OEM2c3V3QnRqMGc?oc=5",
-          "published": "2026-11-23T06:49:42+00:00",
+          "title": "2027'de dolar, enflasyon ve faiz ne olacak? Deutsche Bank Türkiye tahminini açıkladı - ABC Haber",
+          "source": "ABC Haber",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLWJ2QzROT3ltazQyZ3BVOGJQSVd4YzhXYmFibWtyU0RZZWVrUFVLVXJmLTF4SU5kd0w0VEJvX3hGUmFWY3dYbFYybWIzZ1E3aXdrSHBBTWt1YmpyNHRUMTJnZmpudUZVNlZobWY5cWgxUXdMbW10c091UkNSX1EwcmdpMENya3ItVWJza1V4bVVPNHRTMG9DanRZZ05sMGZyMFV2M2o3cnlqc2tWdUFuUFlBVEpzdGhsNHhjVkQyOEc?oc=5",
+          "published": "2026-11-23T14:04:00+00:00",
           "terms": [
             "enflasyon"
           ],
           "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-23T08:33:59.625316+00:00"
+      "source_collected_at": "2026-11-24T00:34:10.763589+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-28T13:48:27.840619+00:00",
-      "score": 24.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-28T22:56:27.909354+00:00",
       "score": 26.1,
@@ -550,6 +545,11 @@
     {
       "generated": "2026-11-23T08:33:59.625316+00:00",
       "score": 23.1,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-24T00:34:10.763589+00:00",
+      "score": 21.3,
       "status": "BASELINE"
     }
   ],
