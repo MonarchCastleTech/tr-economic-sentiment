@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-24T10:39:37.099910+00:00",
+    "generated": "2026-11-24T22:53:58.603782+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,38 +11,38 @@
     "source_notes": []
   },
   "warning": {
-    "score": 21.6,
-    "raw_score": 21.6,
+    "score": 22.0,
+    "raw_score": 22.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 21.6/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 22.0/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 6.5,
+      "score": 5.8,
       "status": "BASELINE",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
-      "latest_date": "2026-11-23",
-      "latest_value": 50.5116,
+      "coverage": 129,
+      "latest_date": "2026-11-24",
+      "latest_value": 50.5376,
       "change_5d_pct": 0.41,
-      "return_z": 0.75,
+      "return_z": 0.72,
       "volatility_20d": 0.07,
-      "volatility_z": -0.1,
+      "volatility_z": -0.09,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 50.5116,
-          "date": "2026-11-23",
+          "value": 50.5376,
+          "date": "2026-11-24",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-24T10:39:37.099910+00:00"
+      "source_collected_at": "2026-11-24T22:53:58.603782+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-24T10:39:37.099910+00:00"
+      "source_collected_at": "2026-11-24T22:53:58.603782+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-24T10:39:37.099910+00:00"
+      "source_collected_at": "2026-11-24T22:53:58.603782+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,30 +113,91 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-24T10:39:37.099910+00:00"
+      "source_collected_at": "2026-11-24T22:53:58.603782+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 15.2,
+      "score": 21.3,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 160,
-      "matched": 38,
-      "weighted_density": 0.254,
+      "coverage": 126,
+      "matched": 28,
+      "weighted_density": 0.307,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Fon krizi Türk ekonomisini vurdu: Büyüme ve enflasyon tahminleri açıklandı - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV05IVDczaVlxSDNvRURfREEtcnFaa2RMY1I1ckRYQ1lHYW94TEY4bjAxUG1rM2JxVk1mWEowSFZ4VFFIUVplbXB1Sll2bm5YXzJKUTNweTQtS2swRTBVU19OeDZiU0FZSTFCMmtkM0xGcEk1M1RXZmNNWVduRkxBZlVuVnptcHZLanRtNWlOSjBmS1hEYUtKcjlQMk1mRlhhZGMxTXhsM2Q5SzVncF9VbkJFQjJlMG1MRGFZ?oc=5",
-          "published": "2026-11-18T07:39:00+00:00",
+          "title": "Fitch'ten Türkiye ekonomisi için üç kritik mesaj: Fon krizi, faiz ve enflasyon - Herbir Emlak",
+          "source": "Herbir Emlak",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYnVlcmphdGVPX0dWOVdjV1k4anJaUXVZb2VHdlBTWXRrcUhvazNsbzVGc2xLald2RTl6M3RrU0NRdjR6VktfZXlhT3B4Rk5DSUR5XzV0UFB2a1F6ZFZDdkkxTkY3M3p5a05tNVlJcmE1TUlOS3JjaTJvS1MtenY1MnNuaUVybmpRRGhIT2Z0RDB5TWJHbHdTRS1aTzBPMzBCLWg3SUJ1a0VleGp5Mzd5Wg?oc=5",
+          "published": "2026-11-24T14:37:34+00:00",
           "terms": [
             "kriz",
             "enflasyon"
           ],
           "weight": 2.8
+        },
+        {
+          "title": "Fitch'ten Türkiye ekonomisine 3 kritik mesaj: Fon krizi, faiz ve enflasyon - Borsa Gundem",
+          "source": "Borsa Gundem",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdmtCaFVMT3RpaE9kMnRwakNZcGljY0Y3UTc5eHB4YWFLbXI0ZUpkZGdKRXZaLUdrdDVXSzNIclVxbkpCa0I3Tzl6WW80ekduWTRZUmdxSHg2RWlFUW04WnUzZHMxTm00cWF2REZxNUxZemJ1QmZ6aklRS0xfM19TUkZoTGkzSE02TXNRN3R5eTFFTHNrMTc3c0NZbE1mSFgybE9uTQ?oc=5",
+          "published": "2026-11-24T14:08:00+00:00",
+          "terms": [
+            "kriz",
+            "enflasyon"
+          ],
+          "weight": 2.8
+        },
+        {
+          "title": "Fitch’ten Türkiye ekonomisi ve fon krizi değerlendirmesi! haberi - Borsanın Gündemi",
+          "source": "Borsanın Gündemi",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1k5V0d3WVJMZHVRbU9zc0pkUTFMNFNiSExYT3l3NEVENmZFbExtNVdMWVNCUFRTU0d4dkhhUTBUODlMSVZOR0VCNU9INGQwblNGdHZFMGFPemY2QzdiS2RfWXlUZ0l0NE9JaXhWSXlYdUctREVRay1rTzdXS1ZCNnhVNF93T2s0M2hSWWduNTBOUjdmRVV3V3czU0QwbXNrU0pZ?oc=5",
+          "published": "2026-11-24T22:19:02+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fon krizinin ardından: Fitch'ten Türkiye için kritik açıklama! - Elips Haber",
+          "source": "Elips Haber",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX1R1S3MtT2s1Y1VHQkVVYXpFS0F2X0l6WjhnTV9fSjdiQkhsSzVoQUlVTnFKamJ6Z0RQTE10YWlQamJPcXVMUnNMbHpmMzlTSm1YZFBRaHlrY20zTFpzZVNGeVlOUHVFR1d5VFItbllzSklfVEkyQTV0VGxUaklrcFJOdTctejZBa24tMDVQZw?oc=5",
+          "published": "2026-11-24T13:48:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fitch'ten Türkiye ekonomisine mercek: Fon krizi, kur uyarısı ve yıl sonu faiz tahmini - Sözcü Gazetesi",
+          "source": "Sözcü Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSlUyQ1F5ZzZTOEpwOEJFVTdvVFNGWjBSMWNGZzUwWlZ2cjFGZVBEaTcxd2c4bFkwdUhzcFFuMllyVXBxU3lONE5za21TLTVGR0lmY1pOamdFaVNsZS1Kb192eXJYeWVZMVRRZ29QZk8yNjl5dVVDM3ZEc3ZCVHozU0hIcDhMT1hjS1RjMURDZW9NSldXMDBibjJfWVlZc1ZVdkVYWmxseXNaOW0wcDR0bkZDOGN4WUU4dUlmZA?oc=5",
+          "published": "2026-11-24T11:58:27+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fon krizi ekonomiyi nasıl etkiledi? Fitch Ratings değerlendirdi - Paratic Haber",
+          "source": "Paratic Haber",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfcVhyZWxwTlp4NVlSVVFNUWZGNXJuT01jelAydVg5ZXc5NEpRQ1poMUZOSEo4ZHdIRXVlRDZpaUJaV3BXSHVkMzVsM29wb0RlMTRDbXFaQkYtY0ZqdzctOGFJM0FLbFRNNm5sWGRkaEVqRDR0NXVFdg?oc=5",
+          "published": "2026-11-24T11:53:52+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fon krizi Türkiye’nin kredi notunu etkiledi mi? Fitch’ten Türkiye ekonomisi için açıklama geldi - ABC Haber",
+          "source": "ABC Haber",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUjFmSVpRNTF1ZXJ1LVJjcGduMVN5QmpzYVgyLVE3VEhCZDN1Wm9aM3J6YU83OWt1ejY0Z1BRQ0Q1ZWI5WlpwLUdrbF9HNFdnNWk0WWMxUnBUZExFQkdPV1FRSERYZWZ4UmJqSy1Jb0R5bkxmY0hQSjYyeHVTbEdWUTM0OFluSmEyalU4blpkSzMyNGk4TUxic3N4Q0kwb1VhdFgtalVxYlNmYlBpWlg2QWliMmkxbThmckNpVTcxRGg?oc=5",
+          "published": "2026-11-24T11:52:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
         },
         {
           "title": "Zafer Partisi Genel Başkanı Özdağ: 'Fon krizinde siyasi kadroların hiç sorumluluğu yok mu?' - Son Dakika",
@@ -169,16 +230,6 @@
           "weight": 2.0
         },
         {
-          "title": "Mahfi Eğilmez: Türkiye kriz yorgunluğuyla karşı karşıya - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV2NBcS02dGFuZlJWTkFzS25Xa3NLWGFqdnV5UE1GMHUweUZwMFdkeUVLMmtCVzEwQzVJVWQwZGxJYUYxTzh6eFpyR0FibGxBY1hTVTY4R213VUozYXdwZUNFdXI0TU5PUW9TdDN4NHVERktLS09jaFpnQjdGbEhIRHA1anJuUU1qWUpJU1YwZnlMRmp0S3VZREU0UHZhVHNsQlM0?oc=5",
-          "published": "2026-11-19T09:15:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
           "title": "Konkordatoda dikkat çeken değişim... Şirketler iflasın eşiğinde - Ekonomi Ankara",
           "source": "Ekonomi Ankara",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ0JwVzUyZUhYWTlaeHpELUN4LUhYWjVQSHNGVnRUdVNsNnNBNHc1LTEtTFpGV21WTHQ5cEdnMWkwZ1EySjlYNHlEc2tHU1Y2dExEdnU2dTFUX081c1VqRzVGR0VHemhfYVBoNUFpYVYwTWQ2bFgwM0lJeHZkdXkyc3M3M1ZKZmxNSnFWcTBjZU8tWUJSQXR0cUdIUjM?oc=5",
@@ -197,67 +248,12 @@
             "iflas"
           ],
           "weight": 2.0
-        },
-        {
-          "title": "Üç ekonomist fon krizini değerlendirdi: Türkiye ekonomisini bekleyen riskler neler? - Ekonomim",
-          "source": "Ekonomim",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdzZfYUNpSmxiTF95UzhRRzh6d1FXei1abVFLQkU0TkhzdGVIVFdpZmpJQk9MT185blhCdEh2ZUVlV3FoSlRtWm9rN1hiMzRhckJ1RWtHZ0FYNUxHOXN5a0ZjMlBYQ1V0MS1FeWhOdjZVcnlRN0NWN0NEZFB3N3pMa0JaeTZrZ0VnSmE3bkd0Qlp3UWpMTWFMcDhBMkxxY2p0QXZqVnlJM01HWnBEdlUwcXVPbEVUZEpuUkY0bzNlSkJtdUpKbkxn?oc=5",
-          "published": "2026-11-18T08:55:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Türkiye’de işsizlik oranı üçüncü çeyrekte yüzde 8,1’e yükseldi | Türkiye Ekonomisi Haberleri - GZT",
-          "source": "GZT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX2JXUjZleHJmemM5Q3JqWGlEaHZBeTgyUHJoUXBOaE9Qb0VHUk9oVzNwdDNkWGtqaENjcVdSUklQQ3I3S2RCUl9ZTU5UQlducHV0cjI1X052eDEwcURZWHE2ZHVwYXpGUkItdWtqUG1xOHhDWV9CVUhSMjJZZkN4b0pNQ216a3k3aW8yRGlrUW5KZld4U0Q1cXNvbw?oc=5",
-          "published": "2026-11-18T07:39:31+00:00",
-          "terms": [
-            "işsizlik"
-          ],
-          "weight": 1.5
-        },
-        {
-          "title": "TÜİK üçüncü çeyrek işsizlik rakamlarını açıklandı - Yeni Şafak",
-          "source": "Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQzI1VWpTeFJfR3RnTlBTalRuMnpOYi1WRHhmMXhmMkprTUZyZ3hzX21CLVJienduejlxcUd0N2o1a0ZhaGwxV1dkcHhhZjdxSVRxLUw1SThTOW9MUWc2cVhaUnVNWHJFSURiTUVFaUN4V2ptU1B4N3lXQVE2eWJnQlJpYmctZFlEWXhjZjVFQnRKdFIwRkE?oc=5",
-          "published": "2026-11-18T07:22:32+00:00",
-          "terms": [
-            "işsizlik"
-          ],
-          "weight": 1.5
-        },
-        {
-          "title": "Fed tutanakları yetkililerin neredeyse tamamının ilave faiz artışı beklediğini gösterdi - NTV Haber",
-          "source": "NTV Haber",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOa0RvM09MM1dmaFl0V1FoMzE3S1I0X2N1aEFqbGZTS3pSdFdqelBuQTl3eVVBOWZNNG1xd1BLUXFlZkJjWjdUdWsxWlRHSTU4UDlQOUQ1YzF0cG9sT1J6aEsta3FXdWg1RWEzZ2ZzUHRqcUJELWlHeVo3YnNDM081Vm12cVQxRHhNVVhsckFpVC10NGdOdzUtS1ZaNXRycTRoUzR4YklmTDhNbHVPVXUwNlBuMTI0TnN0VzRGWXYyQlB2dDRv0gHKAUFVX3lxTE9oV0Q1dEw5TTVkZTlsUGEzcVp4THdXejctOFpNenhkRkhWcVlUU0M5WjdZS0djTkV4MlJWc2pkRDJiMkQ4M3BlaFJ1Z2swbnlnSWNfdl9xek5tZ3dfMFZlTWw2bGNuRHlVVGRwZFNtRDc3QWlJYm1xaDZ0VG53aG41Zk05YW5JbDI5dUZWYjNoWEEzTUo3YkwzNFloblo1Q2hxTEgwRl9oVlNVVWxvSzBoUjZNOHBDQkJZVmFjQ0pHaXNrS1F4Zms1akE?oc=5",
-          "published": "2026-11-18T20:41:07+00:00",
-          "terms": [
-            "faiz artışı"
-          ],
-          "weight": 1.0
-        },
-        {
-          "title": "Ozan USLU: Enflasyonla mücadele ederken üretimi mi kaybediyoruz? - Ege Telgraf",
-          "source": "Ege Telgraf",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQU5pM1N2RE00bU9sT2c5dk5TbWFYTmIwaDFBdmNZc01LbU5JalhuTElVRERNdFByd1ZDM3U0X0JCbThReG1CUy1RU0xjOWdpLV8tc1g2YnBtOHIxYmphemh0MUZUYVIxcmNSZVFuSlEtNVpMcC12bnVRQ2lyMlVMOFF6enB5dw?oc=5",
-          "published": "2026-11-24T08:24:33+00:00",
-          "terms": [
-            "enflasyon"
-          ],
-          "weight": 0.8
         }
       ],
-      "source_collected_at": "2026-11-24T10:39:37.099910+00:00"
+      "source_collected_at": "2026-11-24T22:53:58.603782+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-29T06:44:29.129220+00:00",
-      "score": 25.8,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-29T13:55:38.365041+00:00",
       "score": 26.1,
@@ -551,6 +547,11 @@
     {
       "generated": "2026-11-24T10:39:37.099910+00:00",
       "score": 21.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-24T22:53:58.603782+00:00",
+      "score": 22.0,
       "status": "BASELINE"
     }
   ],
