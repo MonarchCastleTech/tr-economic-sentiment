@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-24T22:53:58.603782+00:00",
+    "generated": "2026-11-25T09:30:23.662532+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 22.0,
-    "raw_score": 22.0,
+    "score": 22.7,
+    "raw_score": 22.7,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 22.0/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 22.7/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -26,7 +26,7 @@
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
+      "coverage": 128,
       "latest_date": "2026-11-24",
       "latest_value": 50.5376,
       "change_5d_pct": 0.41,
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-24T22:53:58.603782+00:00"
+      "source_collected_at": "2026-11-25T09:30:23.662532+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,7 +51,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 122,
+      "coverage": 121,
       "latest_date": "2026-11-17",
       "latest_value": 4677.6,
       "change_5d_pct": 3.54,
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-24T22:53:58.603782+00:00"
+      "source_collected_at": "2026-11-25T09:30:23.662532+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-24T22:53:58.603782+00:00"
+      "source_collected_at": "2026-11-25T09:30:23.662532+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,20 +113,31 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-24T22:53:58.603782+00:00"
+      "source_collected_at": "2026-11-25T09:30:23.662532+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 21.3,
-      "status": "BASELINE",
+      "score": 28.1,
+      "status": "WATCH",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 126,
-      "matched": 28,
-      "weighted_density": 0.307,
+      "coverage": 148,
+      "matched": 40,
+      "weighted_density": 0.368,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
+        {
+          "title": "Fitch’ten Türkiye İçin Üç Önemli Mesaj: Fon Krizi, Faiz ve Enflasyon - canlihaber.com",
+          "source": "canlihaber.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNTdQZ1FCckliSHIwdGFxTWhoeDJubEdJS1QzVWlFNGFNNmdMbmhYUzVtMEpMdlRpbDZwb3g2MURCeV9fMzR1OTBlSzNxOUxVVHZjdjV2bXh1WG9yeV82dkF3eW1mdklHaUdiSnVkQ1dKemJocUxTUTRTN3c0c2t2by1qNHJJMWxlbllRSmlQZE55ZFZUY3V6cUJranpBeDRBSk94cEp5dmxfQTA?oc=5",
+          "published": "2026-11-24T14:53:00+00:00",
+          "terms": [
+            "kriz",
+            "enflasyon"
+          ],
+          "weight": 2.8
+        },
         {
           "title": "Fitch'ten Türkiye ekonomisi için üç kritik mesaj: Fon krizi, faiz ve enflasyon - Herbir Emlak",
           "source": "Herbir Emlak",
@@ -153,7 +164,7 @@
           "title": "Fitch’ten Türkiye ekonomisi ve fon krizi değerlendirmesi! haberi - Borsanın Gündemi",
           "source": "Borsanın Gündemi",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1k5V0d3WVJMZHVRbU9zc0pkUTFMNFNiSExYT3l3NEVENmZFbExtNVdMWVNCUFRTU0d4dkhhUTBUODlMSVZOR0VCNU9INGQwblNGdHZFMGFPemY2QzdiS2RfWXlUZ0l0NE9JaXhWSXlYdUctREVRay1rTzdXS1ZCNnhVNF93T2s0M2hSWWduNTBOUjdmRVV3V3czU0QwbXNrU0pZ?oc=5",
-          "published": "2026-11-24T22:19:02+00:00",
+          "published": "2026-11-25T07:49:26+00:00",
           "terms": [
             "kriz"
           ],
@@ -170,20 +181,30 @@
           "weight": 2.0
         },
         {
-          "title": "Fitch'ten Türkiye ekonomisine mercek: Fon krizi, kur uyarısı ve yıl sonu faiz tahmini - Sözcü Gazetesi",
-          "source": "Sözcü Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSlUyQ1F5ZzZTOEpwOEJFVTdvVFNGWjBSMWNGZzUwWlZ2cjFGZVBEaTcxd2c4bFkwdUhzcFFuMllyVXBxU3lONE5za21TLTVGR0lmY1pOamdFaVNsZS1Kb192eXJYeWVZMVRRZ29QZk8yNjl5dVVDM3ZEc3ZCVHozU0hIcDhMT1hjS1RjMURDZW9NSldXMDBibjJfWVlZc1ZVdkVYWmxseXNaOW0wcDR0bkZDOGN4WUU4dUlmZA?oc=5",
-          "published": "2026-11-24T11:58:27+00:00",
+          "title": "Fitch'ten Türkiye Mesajı: Fon Krizi Kredi Notunu Etkilemedi - Dosya Haber",
+          "source": "Dosya Haber",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZDF6Q2xPczRQSHBCUGxEQ29yeXlfaTV3YTVQZHFMeFU0ZGN5a2xORkZYdUx5b2lRaHE5dFhmT2F6UlhnRVgtUlRwMk1vSTJrV2xnZ3NIOWZwM0xUYnlkcUNLdUx5cWR1TDNrc01NZE0yUXJjcWlhTmJkTE5EenlkaDRyUE9PLWVtMk9YNVVkeTVGMlZtMmJzUTZhbkxjdw?oc=5",
+          "published": "2026-11-24T13:24:00+00:00",
           "terms": [
             "kriz"
           ],
           "weight": 2.0
         },
         {
-          "title": "Fon krizi ekonomiyi nasıl etkiledi? Fitch Ratings değerlendirdi - Paratic Haber",
-          "source": "Paratic Haber",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfcVhyZWxwTlp4NVlSVVFNUWZGNXJuT01jelAydVg5ZXc5NEpRQ1poMUZOSEo4ZHdIRXVlRDZpaUJaV3BXSHVkMzVsM29wb0RlMTRDbXFaQkYtY0ZqdzctOGFJM0FLbFRNNm5sWGRkaEVqRDR0NXVFdg?oc=5",
-          "published": "2026-11-24T11:53:52+00:00",
+          "title": "Fitch’ten fon krizi ve faiz değerlendirmesi: Kur riskine dikkat çekti - Borsamatik",
+          "source": "Borsamatik",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbWZwMXBEeUJiRWN0UW9KMDA4OGhhTUVjRVVYMHBZVGVaZGVqLXh2SW5Eallrdm5oTFQ3dTZxWk5CR3lGMGJCSnozQTdZRFBIdUpOenRuNWFjbHU3eW16elBpa2h2T3R0b1JiZGZwelFlVzlROGIzZWlCWUlpU2VwcFhkdWc0S1FIdXJxdElOUnpCX0dFSEdFT3U5bndoTnRzdTl2YnVZd2xtX1ZZbFhn?oc=5",
+          "published": "2026-11-24T12:26:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fitch'ten Türkiye'ye üç kritik mesaj! Fon krizi, faiz ve... - Hisse.net",
+          "source": "Hisse.net",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdVBVTF9PZXB5amxOTGNJbW1tZW83bGVRVnZBajF4UGotQmJpSU9FcV93SUxpU3RaM01mc3FIVzlNbWdaUjhNeDdsZlVTY0VCY0NqQ0kxWXQtSVFyZlVhS1UwMzFQU1JZc09BZXo2SkNMd1hFMURMWHB3a0REcUd6V1VJb0VkYUs1MFNsTkxQaFg5UVlwZWFuVXlIamtTMXUw0gGgAUFVX3lxTE91UFVMX09lcHlqbE5MY0ltbW1lbzdsZVFWdkFqMXhQai1CYmlJT0VxX3dJTGlTdFozTWZzcUhXOU1tZ1pSOE14N2xmVVNjRUJjQ2pDSTFZdC1JUXJmVWFLVTAzMVBTUllzT0FlejZKQ0x3WEUxRExYcHdrRERxR3pXVUlvRWRhSzUwU2xOTFBoWDlRWXBlYW5VeUhqa1MxdTA?oc=5",
+          "published": "2026-11-24T11:58:14+00:00",
           "terms": [
             "kriz"
           ],
@@ -200,6 +221,26 @@
           "weight": 2.0
         },
         {
+          "title": "Fitch'ten Türkiye değerlendirmesi: Fon krizi, faiz ve kredi notu mesajı - CNBC-e",
+          "source": "CNBC-e",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZzBvSlgtaFVIUFRoUUdfZHhVZDF5T09ibzM4Z2ItY25HNUJNT1N3QmVEbDYtak01NlJLMmRDWHRPZndLTDIwcERKZGR6SXd6a0V5eGJzdXlrUl9KdzJOemtSWWhiZC1xWmlWNmVKT0lrYnhZaHpqM2NDN2E3VkZsR1pXd244U1NiTF92Q2pNdE5UR2FmMzcwczJwYUxMOWlwb0t2c19lbWxyZw?oc=5",
+          "published": "2026-11-24T11:35:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fitch: Fon krizi ekonomi programını rayından çıkarmıyor, yıl sonuna kadar bir faiz indirimi daha mümkün - Foreks.com",
+          "source": "Foreks.com",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQLVlab1J3R1ZKeGxNSzN4XzdTTlB5VHp0RzBNeGthd2VWSmtUMFNVMGRCbXVlR19uSjZOOV9lazJMTi1BZm1kcGJjRzN6WlVuajJmUjZFY21YRkw3Ni1PUDZ2eTQydDJGN0FNS0hQTmdHY2c0Sk42eEJQNEpKeXJpUE00bEpIWVFlWWZnZjV6bjNHVjlkdVVDTnptdUhzWHo5Nkw3NjFocXBnS09ucWhpWU1zT2EwSjF6UWwyNjZYV2FGRGtZNmVmWlNlZHNaRlJJY1U0T3BZWS1aa1k3WG1rTzllMndtX3ZvaEN1eWJGX2JiQ2ZiU3AxTnFhZDM4NGNvUFRoeUJod05FZ21IdTBr?oc=5",
+          "published": "2026-11-24T11:32:23+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
           "title": "Zafer Partisi Genel Başkanı Özdağ: 'Fon krizinde siyasi kadroların hiç sorumluluğu yok mu?' - Son Dakika",
           "source": "Son Dakika",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcWpoMW8yU2Q4NExXcWdEcndET3ZnUjYxQlFBUFVGbGxhelY4WE1pVzRMR2dsS2RVMTdPNHNyNi1vVjdhYzcyd3JnMGVlNTQ4N09xWkpnOW1KNTU2eHlRYWc0LXBQc3NoOXdlTC1NSldmWVNKaXZ3QTJyRUV4Z1UzVTF5NW1qbVE5OWk5YWZZNWlDZkdJUHNyc3VHblXSAZwBQVVfeXFMT3FqaDFvMlNkODRMV3FnRHJ3RE92Z1I2MUJRQVBVRmxsYXpWOFhNaVc0TEdnbEtkVTE3TzRzcjYtb1Y3YWM3MndyZzBlZTU0ODdPcVpKZzltSjU1Nnh5UWFnNC1wUHNzaDl3ZUwtTUpXZllTSml2d0EyckVFeGdVM1UxeTVtam1ROTlpOWFmWTVpQ2ZHSVBzcnN1R25V?oc=5",
@@ -208,57 +249,12 @@
             "kriz"
           ],
           "weight": 2.0
-        },
-        {
-          "title": "Ankara merkezli dev inşaat şirketi iflas etti! - İş'te Gündem",
-          "source": "İş'te Gündem",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOemxyQXo4M24xQmhsZ1VjSldxeGlGOHlkOWtjUHdjSzNLdVgwMklvNEZJQVNVY1BDcW9RXzVMd3Z5aTlQTW13Y2hYWkVkUl85Y0RoZE1HblVBYk95TzZud1JSZnZLLUNCWk5UNllIWExTS0h1Tm5kbmhjcFZyVXA1QmFtWnJmbDUySERjUk9B?oc=5",
-          "published": "2026-11-19T10:01:11+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Mahfi Eğilmez’den kriz yorgunluğu uyarısı: 'Türkiye'nin önündeki asıl risk...' - Cumhuriyet",
-          "source": "Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSUtZakN2MjUxWHNfcUFUcm9fdUZXeklhSFpMay1VdVRWT0g3bHN1MkZtdWtLS05FRFFvNGtTeEpMM0IwWktEWDBNbUE3ck1iT0dJV29qVUpaTXRCdzl5eE8zd2hSLUlMZzFOVU56REVJSGxSblp4VUxqb0VaMHBYM3VNZHVRTFpJcDZ5M2dGSERrUnBKazh6bVE1aTRISjlucy04Q000UDgxa2JlQ196VVpiaC1mUDJUWmc?oc=5",
-          "published": "2026-11-19T09:39:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Konkordatoda dikkat çeken değişim... Şirketler iflasın eşiğinde - Ekonomi Ankara",
-          "source": "Ekonomi Ankara",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ0JwVzUyZUhYWTlaeHpELUN4LUhYWjVQSHNGVnRUdVNsNnNBNHc1LTEtTFpGV21WTHQ5cEdnMWkwZ1EySjlYNHlEc2tHU1Y2dExEdnU2dTFUX081c1VqRzVGR0VHemhfYVBoNUFpYVYwTWQ2bFgwM0lJeHZkdXkyc3M3M1ZKZmxNSnFWcTBjZU8tWUJSQXR0cUdIUjM?oc=5",
-          "published": "2026-11-18T17:24:00+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "MSB'nin askeri tesis ve konut projelerini de üstlenmişti: Türk şirket iflas etti! - BirGün Gazetesi",
-          "source": "BirGün Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0k2UG1HVVRCUUs0NkpzOG1hRHBZeE1sM3VybmhRaV9Kd3hRZHU2d09ZYk9tU19aZWEzbDJ2OVg4cTNMVTB3TklpcmhFbzhFc193enEzS3J5c0YzOFV0Qkx4MHF0TVVhZE9TZk55OVEtVzNDNVlPcmlmMEtqUkE3WWMxVTY5LWxzRHFRUVp1M1B2TTR3bk5tR3U3MF9CRFA0aHdVRTJyRUp6MUpXY0RLaW11VXZmZw?oc=5",
-          "published": "2026-11-18T09:05:00+00:00",
-          "terms": [
-            "iflas"
-          ],
-          "weight": 2.0
         }
       ],
-      "source_collected_at": "2026-11-24T22:53:58.603782+00:00"
+      "source_collected_at": "2026-11-25T09:30:23.662532+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-29T13:55:38.365041+00:00",
-      "score": 26.1,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-29T23:05:32.835962+00:00",
       "score": 26.2,
@@ -552,6 +548,11 @@
     {
       "generated": "2026-11-24T22:53:58.603782+00:00",
       "score": 22.0,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-25T09:30:23.662532+00:00",
+      "score": 22.7,
       "status": "BASELINE"
     }
   ],
