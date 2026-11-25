@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-25T09:30:23.662532+00:00",
+    "generated": "2026-11-25T22:07:30.824390+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,38 +11,38 @@
     "source_notes": []
   },
   "warning": {
-    "score": 22.7,
-    "raw_score": 22.7,
+    "score": 20.8,
+    "raw_score": 20.8,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 22.7/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 20.8/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 5.8,
+      "score": 0.0,
       "status": "BASELINE",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 128,
-      "latest_date": "2026-11-24",
-      "latest_value": 50.5376,
-      "change_5d_pct": 0.41,
-      "return_z": 0.72,
+      "coverage": 129,
+      "latest_date": "2026-11-25",
+      "latest_value": 50.5531,
+      "change_5d_pct": 0.4,
+      "return_z": 0.22,
       "volatility_20d": 0.07,
-      "volatility_z": -0.09,
+      "volatility_z": -1.97,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 50.5376,
-          "date": "2026-11-24",
+          "value": 50.5531,
+          "date": "2026-11-25",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-25T09:30:23.662532+00:00"
+      "source_collected_at": "2026-11-25T22:07:30.824390+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -51,21 +51,21 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "coverage": 121,
-      "latest_date": "2026-11-17",
-      "latest_value": 4677.6,
-      "change_5d_pct": 3.54,
-      "return_z": 0.25,
+      "coverage": 126,
+      "latest_date": "2026-11-24",
+      "latest_value": 4639.4,
+      "change_5d_pct": -0.82,
+      "return_z": -0.1,
       "method": "Five-observation robust anomaly in Brent priced in TRY (Brent USD × USD/TRY).",
       "evidence": [
         {
           "label": "Brent in TRY proxy",
-          "value": 4677.6,
-          "date": "2026-11-17",
+          "value": 4639.4,
+          "date": "2026-11-24",
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-25T09:30:23.662532+00:00"
+      "source_collected_at": "2026-11-25T22:07:30.824390+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-25T09:30:23.662532+00:00"
+      "source_collected_at": "2026-11-25T22:07:30.824390+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-25T09:30:23.662532+00:00"
+      "source_collected_at": "2026-11-25T22:07:30.824390+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 28.1,
+      "score": 26.8,
       "status": "WATCH",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 148,
-      "matched": 40,
-      "weighted_density": 0.368,
+      "coverage": 150,
+      "matched": 37,
+      "weighted_density": 0.356,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -161,20 +161,20 @@
           "weight": 2.8
         },
         {
-          "title": "Fitch’ten Türkiye ekonomisi ve fon krizi değerlendirmesi! haberi - Borsanın Gündemi",
-          "source": "Borsanın Gündemi",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1k5V0d3WVJMZHVRbU9zc0pkUTFMNFNiSExYT3l3NEVENmZFbExtNVdMWVNCUFRTU0d4dkhhUTBUODlMSVZOR0VCNU9INGQwblNGdHZFMGFPemY2QzdiS2RfWXlUZ0l0NE9JaXhWSXlYdUctREVRay1rTzdXS1ZCNnhVNF93T2s0M2hSWWduNTBOUjdmRVV3V3czU0QwbXNrU0pZ?oc=5",
-          "published": "2026-11-25T07:49:26+00:00",
+          "title": "BNP Paribas: Fon krizinin Türkiye ekonomisini istikrarsızlaştırması beklenmiyor - Doviz.com",
+          "source": "Doviz.com",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcVRNUDRtQ19SZnp6cmlWTm40SVNnTllVU1BwQW5yZ3R2MnZQTGY4X2FieXBFZlQtbC1SaDlHS3BacTN0WHJnRkhvQ1JwWHhVb0pSYlVjLTVWOVRXNjFXX1pnQWstU0pERE1jcVdNTHpWMjhWQW4tcmZFb2dzN0xOXzlxZ21PODEwY1NzaHJLNFJOZWg1Vm9TdnNTdnNwOTN3Ynp6eHR1bVBGSXJaMUYtVEZHUXpoa0dXQ0FFUXFjSWxTSThV0gHMAUFVX3lxTE1XMDJFZnN3Zlp3NEh3MFNsTkdNZTlhRUJjUHVhX1ZnQ0p6LWkzS2toNnBWMjJaUDdRSzJuNG10TjNPcGtoSUNMRElYalpORzBlckcySDZEcnhYcHFMY2lzUTBiN1BPMWlZSXZISmxrZ0Jjd1daWVpCb2pmYl9lM1I3OTZBZk91a0NGSXFjanptZnZId3pVZUhRREdINjlWOEVRN1JhVnRiVmlaWlBYRTN2ME5kTzBnaWYxT1Z6Ykd0aG81VVZOS3RDYWZ6dg?oc=5",
+          "published": "2026-11-25T08:29:50+00:00",
           "terms": [
             "kriz"
           ],
           "weight": 2.0
         },
         {
-          "title": "Fon krizinin ardından: Fitch'ten Türkiye için kritik açıklama! - Elips Haber",
-          "source": "Elips Haber",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX1R1S3MtT2s1Y1VHQkVVYXpFS0F2X0l6WjhnTV9fSjdiQkhsSzVoQUlVTnFKamJ6Z0RQTE10YWlQamJPcXVMUnNMbHpmMzlTSm1YZFBRaHlrY20zTFpzZVNGeVlOUHVFR1d5VFItbllzSklfVEkyQTV0VGxUaklrcFJOdTctejZBa24tMDVQZw?oc=5",
-          "published": "2026-11-24T13:48:00+00:00",
+          "title": "Fon krizinin ardından: Fitch'ten Türkiye için kritik açıklama! - Haber Sunum",
+          "source": "Haber Sunum",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMmVKODF0MHVJbXViTzh3QzJmclJ2eWd2WVRyanhiUzU0T2hfUXRnZFdWYWdoZFczcUdMYlY4UnJ2U3B4cjhFMmU3S3pfdUl1aFRIYkN3UkRfN2xKV1VFejF5aFF4bkM5TUQ5cHlwdHpYN2xKWVA4Z0wtV05tcThRbHExZG9STmJKU0dSV0pkbW5sNzZKdHF2RGNB?oc=5",
+          "published": "2026-11-24T13:50:05+00:00",
           "terms": [
             "kriz"
           ],
@@ -195,6 +195,16 @@
           "source": "Borsamatik",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbWZwMXBEeUJiRWN0UW9KMDA4OGhhTUVjRVVYMHBZVGVaZGVqLXh2SW5Eallrdm5oTFQ3dTZxWk5CR3lGMGJCSnozQTdZRFBIdUpOenRuNWFjbHU3eW16elBpa2h2T3R0b1JiZGZwelFlVzlROGIzZWlCWUlpU2VwcFhkdWc0S1FIdXJxdElOUnpCX0dFSEdFT3U5bndoTnRzdTl2YnVZd2xtX1ZZbFhn?oc=5",
           "published": "2026-11-24T12:26:00+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "Fitch’ten Türkiye ekonomisi ve fon krizi değerlendirmesi! haberi - Borsanın Gündemi",
+          "source": "Borsanın Gündemi",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1k5V0d3WVJMZHVRbU9zc0pkUTFMNFNiSExYT3l3NEVENmZFbExtNVdMWVNCUFRTU0d4dkhhUTBUODlMSVZOR0VCNU9INGQwblNGdHZFMGFPemY2QzdiS2RfWXlUZ0l0NE9JaXhWSXlYdUctREVRay1rTzdXS1ZCNnhVNF93T2s0M2hSWWduNTBOUjdmRVV3V3czU0QwbXNrU0pZ?oc=5",
+          "published": "2026-11-24T12:13:51+00:00",
           "terms": [
             "kriz"
           ],
@@ -239,27 +249,12 @@
             "kriz"
           ],
           "weight": 2.0
-        },
-        {
-          "title": "Zafer Partisi Genel Başkanı Özdağ: 'Fon krizinde siyasi kadroların hiç sorumluluğu yok mu?' - Son Dakika",
-          "source": "Son Dakika",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcWpoMW8yU2Q4NExXcWdEcndET3ZnUjYxQlFBUFVGbGxhelY4WE1pVzRMR2dsS2RVMTdPNHNyNi1vVjdhYzcyd3JnMGVlNTQ4N09xWkpnOW1KNTU2eHlRYWc0LXBQc3NoOXdlTC1NSldmWVNKaXZ3QTJyRUV4Z1UzVTF5NW1qbVE5OWk5YWZZNWlDZkdJUHNyc3VHblXSAZwBQVVfeXFMT3FqaDFvMlNkODRMV3FnRHJ3RE92Z1I2MUJRQVBVRmxsYXpWOFhNaVc0TEdnbEtkVTE3TzRzcjYtb1Y3YWM3MndyZzBlZTU0ODdPcVpKZzltSjU1Nnh5UWFnNC1wUHNzaDl3ZUwtTUpXZllTSml2d0EyckVFeGdVM1UxeTVtam1ROTlpOWFmWTVpQ2ZHSVBzcnN1R25V?oc=5",
-          "published": "2026-11-22T13:00:10+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
         }
       ],
-      "source_collected_at": "2026-11-25T09:30:23.662532+00:00"
+      "source_collected_at": "2026-11-25T22:07:30.824390+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-29T23:05:32.835962+00:00",
-      "score": 26.2,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-30T06:46:37.173908+00:00",
       "score": 26.0,
@@ -553,6 +548,11 @@
     {
       "generated": "2026-11-25T09:30:23.662532+00:00",
       "score": 22.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-25T22:07:30.824390+00:00",
+      "score": 20.8,
       "status": "BASELINE"
     }
   ],
