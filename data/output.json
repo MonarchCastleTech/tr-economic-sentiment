@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-25T22:07:30.824390+00:00",
+    "generated": "2026-11-26T09:08:44.105979+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 20.8,
-    "raw_score": 20.8,
+    "score": 20.2,
+    "raw_score": 20.2,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Türkiye economic-strain pressure is baseline at 20.8/100.",
+    "headline": "Türkiye economic-strain pressure is baseline at 20.2/100.",
     "interpretation": "The index detects unusual, concurrent pressure across the lira, imported energy, reserves, household confidence and economic narrative. It is an early-warning screen, not a recession, currency or market forecast."
   },
   "components": {
@@ -42,7 +42,7 @@
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-25T22:07:30.824390+00:00"
+      "source_collected_at": "2026-11-26T09:08:44.105979+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-25T22:07:30.824390+00:00"
+      "source_collected_at": "2026-11-26T09:08:44.105979+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-25T22:07:30.824390+00:00"
+      "source_collected_at": "2026-11-26T09:08:44.105979+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,22 +113,22 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-25T22:07:30.824390+00:00"
+      "source_collected_at": "2026-11-26T09:08:44.105979+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 26.8,
-      "status": "WATCH",
+      "score": 20.7,
+      "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 150,
-      "matched": 37,
-      "weighted_density": 0.356,
+      "coverage": 154,
+      "matched": 35,
+      "weighted_density": 0.303,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
-          "title": "Fitch’ten Türkiye İçin Üç Önemli Mesaj: Fon Krizi, Faiz ve Enflasyon - canlihaber.com",
+          "title": "Fitch’ten Türkiye İçin Üç Önemli Mesaj: Fon Krizi, Faiz ve Enflasyon - Ekonomi - canlihaber.com",
           "source": "canlihaber.com",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNTdQZ1FCckliSHIwdGFxTWhoeDJubEdJS1QzVWlFNGFNNmdMbmhYUzVtMEpMdlRpbDZwb3g2MURCeV9fMzR1OTBlSzNxOUxVVHZjdjV2bXh1WG9yeV82dkF3eW1mdklHaUdiSnVkQ1dKemJocUxTUTRTN3c0c2t2by1qNHJJMWxlbllRSmlQZE55ZFZUY3V6cUJranpBeDRBSk94cEp5dmxfQTA?oc=5",
           "published": "2026-11-24T14:53:00+00:00",
@@ -171,20 +171,10 @@
           "weight": 2.0
         },
         {
-          "title": "Fon krizinin ardından: Fitch'ten Türkiye için kritik açıklama! - Haber Sunum",
-          "source": "Haber Sunum",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMmVKODF0MHVJbXViTzh3QzJmclJ2eWd2WVRyanhiUzU0T2hfUXRnZFdWYWdoZFczcUdMYlY4UnJ2U3B4cjhFMmU3S3pfdUl1aFRIYkN3UkRfN2xKV1VFejF5aFF4bkM5TUQ5cHlwdHpYN2xKWVA4Z0wtV05tcThRbHExZG9STmJKU0dSV0pkbW5sNzZKdHF2RGNB?oc=5",
-          "published": "2026-11-24T13:50:05+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Fitch'ten Türkiye Mesajı: Fon Krizi Kredi Notunu Etkilemedi - Dosya Haber",
-          "source": "Dosya Haber",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZDF6Q2xPczRQSHBCUGxEQ29yeXlfaTV3YTVQZHFMeFU0ZGN5a2xORkZYdUx5b2lRaHE5dFhmT2F6UlhnRVgtUlRwMk1vSTJrV2xnZ3NIOWZwM0xUYnlkcUNLdUx5cWR1TDNrc01NZE0yUXJjcWlhTmJkTE5EenlkaDRyUE9PLWVtMk9YNVVkeTVGMlZtMmJzUTZhbkxjdw?oc=5",
-          "published": "2026-11-24T13:24:00+00:00",
+          "title": "Fitch'ten Türkiye değerlendirmesi! Fon krizi, faiz ve kredi notu mesajı - gdh dijital",
+          "source": "gdh dijital",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMHBRZ0R4d1JmNlppRndIT2dSSmpTNG84aDdfdHJpY1A2SE1mRmlOY2k0ZHp1dXVCY1JhV3V2TnZzMDFmSkhzOHFGX0RtWkx0SEFjcmJqRW02S0ZNY28yc2Q2eUFpQ2FTUWt2UjJCbDA2WlJRYzRacU5BM1EyU2RfZGs3aXU4Q3ZNdFc4SWQ5REgwUkpJampqb202cjFQYzhDaGxnOTdhcDVvN0xxMkY0?oc=5",
+          "published": "2026-11-24T14:19:59+00:00",
           "terms": [
             "kriz"
           ],
@@ -221,16 +211,6 @@
           "weight": 2.0
         },
         {
-          "title": "Fon krizi Türkiye’nin kredi notunu etkiledi mi? Fitch’ten Türkiye ekonomisi için açıklama geldi - ABC Haber",
-          "source": "ABC Haber",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUjFmSVpRNTF1ZXJ1LVJjcGduMVN5QmpzYVgyLVE3VEhCZDN1Wm9aM3J6YU83OWt1ejY0Z1BRQ0Q1ZWI5WlpwLUdrbF9HNFdnNWk0WWMxUnBUZExFQkdPV1FRSERYZWZ4UmJqSy1Jb0R5bkxmY0hQSjYyeHVTbEdWUTM0OFluSmEyalU4blpkSzMyNGk4TUxic3N4Q0kwb1VhdFgtalVxYlNmYlBpWlg2QWliMmkxbThmckNpVTcxRGg?oc=5",
-          "published": "2026-11-24T11:52:00+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
           "title": "Fitch'ten Türkiye değerlendirmesi: Fon krizi, faiz ve kredi notu mesajı - CNBC-e",
           "source": "CNBC-e",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZzBvSlgtaFVIUFRoUUdfZHhVZDF5T09ibzM4Z2ItY25HNUJNT1N3QmVEbDYtak01NlJLMmRDWHRPZndLTDIwcERKZGR6SXd6a0V5eGJzdXlrUl9KdzJOemtSWWhiZC1xWmlWNmVKT0lrYnhZaHpqM2NDN2E3VkZsR1pXd244U1NiTF92Q2pNdE5UR2FmMzcwczJwYUxMOWlwb0t2c19lbWxyZw?oc=5",
@@ -249,17 +229,32 @@
             "kriz"
           ],
           "weight": 2.0
+        },
+        {
+          "title": "Zafer Partisi Genel Başkanı Özdağ: 'Fon krizinde siyasi kadroların hiç sorumluluğu yok mu?' - Son Dakika",
+          "source": "Son Dakika",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYnNyVVB2eEpjY3ZzeTBoSEUwek4tYzNlVTJqSDNTekxfay1hTjB3bE1OY0xLSE1RbnlhdWNQVWlHNjNLZG16LW0xUlNXR3VzT3lYelczNzlNZUltQVFyTEZWZ3hwaUt6LXY0X0JyVXgwVXVhY2paUWpMOFRCUEFrdDRFckJaRUh1NG5MZE14eDFBZG9UYjZDbDdQdUNQbmZW0gGcAUFVX3lxTE9xamgxbzJTZDg0TFdxZ0Ryd0RPdmdSNjFCUUFQVUZsbGF6VjhYTWlXNExHZ2xLZFUxN080c3I2LW9WN2FjNzJ3cmcwZWU1NDg3T3FaSmc5bUo1NTZ4eVFhZzQtcFBzc2g5d2VMLU1KV2ZZU0ppdndBMnJFRXhnVTNVMXk1bWptUTk5aTlhZlk1aUNmR0lQc3JzdUduVQ?oc=5",
+          "published": "2026-11-22T13:00:10+00:00",
+          "terms": [
+            "kriz"
+          ],
+          "weight": 2.0
+        },
+        {
+          "title": "2026’da iflas eden şirketler belli oldu: 249 iflas kararı verildi - Para Ajansı",
+          "source": "Para Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLVV3dUd4WnA2SzhnWVVBc2VBNnIxZGtBMDFxRDk4MmdKQVJVZHVaeE10RDI2RjNZeVpsZjRwaFNoODJpWC1FZTRGX01WempwUVJyajhLc0Y5ZHlhbDBSSnBacWljYkpXZjd2bTVvWXdFVEhnbC1ESFNpZFlhcWY3d3BXSVUxeFg1M3FWTG10aExHMzdPRDFEMjhaREJETktxTjB3RGNSNllsZ0E?oc=5",
+          "published": "2026-11-20T09:45:00+00:00",
+          "terms": [
+            "iflas"
+          ],
+          "weight": 2.0
         }
       ],
-      "source_collected_at": "2026-11-25T22:07:30.824390+00:00"
+      "source_collected_at": "2026-11-26T09:08:44.105979+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-30T06:46:37.173908+00:00",
-      "score": 26.0,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-30T13:49:21.700907+00:00",
       "score": 26.2,
@@ -553,6 +548,11 @@
     {
       "generated": "2026-11-25T22:07:30.824390+00:00",
       "score": 20.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-26T09:08:44.105979+00:00",
+      "score": 20.2,
       "status": "BASELINE"
     }
   ],
