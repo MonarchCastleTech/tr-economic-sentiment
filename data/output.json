@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "tr-economic-sentiment",
-    "generated": "2026-11-26T09:08:44.105979+00:00",
+    "generated": "2026-11-26T22:06:08.746891+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–30 days",
@@ -21,28 +21,28 @@
   "components": {
     "lira_dislocation": {
       "key": "lira_dislocation",
-      "score": 0.0,
+      "score": 1.4,
       "status": "BASELINE",
       "weight": 0.3,
       "available": true,
       "retained": false,
-      "coverage": 129,
-      "latest_date": "2026-11-25",
-      "latest_value": 50.5531,
-      "change_5d_pct": 0.4,
-      "return_z": 0.22,
+      "coverage": 130,
+      "latest_date": "2026-11-26",
+      "latest_value": 50.5866,
+      "change_5d_pct": 0.41,
+      "return_z": 0.55,
       "volatility_20d": 0.07,
-      "volatility_z": -1.97,
+      "volatility_z": -2.09,
       "method": "65% one-week TRY depreciation anomaly + 35% 20-session volatility anomaly.",
       "evidence": [
         {
           "label": "USD/TRY reference rate",
-          "value": 50.5531,
-          "date": "2026-11-25",
+          "value": 50.5866,
+          "date": "2026-11-26",
           "url": "https://www.tcmb.gov.tr/kurlar/kurlar_tr.html"
         }
       ],
-      "source_collected_at": "2026-11-26T09:08:44.105979+00:00"
+      "source_collected_at": "2026-11-26T22:06:08.746891+00:00"
     },
     "imported_energy": {
       "key": "imported_energy",
@@ -65,7 +65,7 @@
           "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
         }
       ],
-      "source_collected_at": "2026-11-26T09:08:44.105979+00:00"
+      "source_collected_at": "2026-11-26T22:06:08.746891+00:00"
     },
     "reserve_buffer": {
       "key": "reserve_buffer",
@@ -89,7 +89,7 @@
           "url": "https://fred.stlouisfed.org/series/TRESEGTRM052N"
         }
       ],
-      "source_collected_at": "2026-11-26T09:08:44.105979+00:00"
+      "source_collected_at": "2026-11-26T22:06:08.746891+00:00"
     },
     "consumer_confidence": {
       "key": "consumer_confidence",
@@ -113,18 +113,18 @@
           "url": "https://fred.stlouisfed.org/series/CSCICP02TRM460S"
         }
       ],
-      "source_collected_at": "2026-11-26T09:08:44.105979+00:00"
+      "source_collected_at": "2026-11-26T22:06:08.746891+00:00"
     },
     "narrative_strain": {
       "key": "narrative_strain",
-      "score": 20.7,
+      "score": 17.1,
       "status": "BASELINE",
       "weight": 0.1,
       "available": true,
       "retained": false,
-      "coverage": 154,
-      "matched": 35,
-      "weighted_density": 0.303,
+      "coverage": 150,
+      "matched": 30,
+      "weighted_density": 0.271,
       "method": "Weighted stress-term density in three fixed seven-day Turkish economic RSS queries.",
       "evidence": [
         {
@@ -175,16 +175,6 @@
           "source": "gdh dijital",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMHBRZ0R4d1JmNlppRndIT2dSSmpTNG84aDdfdHJpY1A2SE1mRmlOY2k0ZHp1dXVCY1JhV3V2TnZzMDFmSkhzOHFGX0RtWkx0SEFjcmJqRW02S0ZNY28yc2Q2eUFpQ2FTUWt2UjJCbDA2WlJRYzRacU5BM1EyU2RfZGs3aXU4Q3ZNdFc4SWQ5REgwUkpJampqb202cjFQYzhDaGxnOTdhcDVvN0xxMkY0?oc=5",
           "published": "2026-11-24T14:19:59+00:00",
-          "terms": [
-            "kriz"
-          ],
-          "weight": 2.0
-        },
-        {
-          "title": "Fitch’ten fon krizi ve faiz değerlendirmesi: Kur riskine dikkat çekti - Borsamatik",
-          "source": "Borsamatik",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbWZwMXBEeUJiRWN0UW9KMDA4OGhhTUVjRVVYMHBZVGVaZGVqLXh2SW5Eallrdm5oTFQ3dTZxWk5CR3lGMGJCSnozQTdZRFBIdUpOenRuNWFjbHU3eW16elBpa2h2T3R0b1JiZGZwelFlVzlROGIzZWlCWUlpU2VwcFhkdWc0S1FIdXJxdElOUnpCX0dFSEdFT3U5bndoTnRzdTl2YnVZd2xtX1ZZbFhn?oc=5",
-          "published": "2026-11-24T12:26:00+00:00",
           "terms": [
             "kriz"
           ],
@@ -249,17 +239,22 @@
             "iflas"
           ],
           "weight": 2.0
+        },
+        {
+          "title": "Mahfi Eğilmez’den Kritik Uyarı: Türkiye’nin Risk Primi Meksika’yı Katladı - Ekonomi Dünya",
+          "source": "Ekonomi Dünya",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdlNUZFpaTDhZbzI3T2VaZ3lEYWJzSFNNZkp3M3RlZ1JBaUFCVFduXzlxOFRqaUc5Z3d3N2tRYkdfaUZkQTBkbmV3ZzdXY2NSeFhkd3Jxc0w1UC1zeUlRRkVRVHFpdHpuZ0V4RnVLOUJnVGx2WnRYd0E2YXBHbk44TFA2SEFXdl9FNzdvVGRrbW5HcUx1VW5wSzZLaVVBRjBlZUNoa1RlN0w?oc=5",
+          "published": "2026-11-26T15:55:34+00:00",
+          "terms": [
+            "risk primi"
+          ],
+          "weight": 1.2
         }
       ],
-      "source_collected_at": "2026-11-26T09:08:44.105979+00:00"
+      "source_collected_at": "2026-11-26T22:06:08.746891+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-30T13:49:21.700907+00:00",
-      "score": 26.2,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-10-30T22:46:32.679871+00:00",
       "score": 26.4,
@@ -552,6 +547,11 @@
     },
     {
       "generated": "2026-11-26T09:08:44.105979+00:00",
+      "score": 20.2,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-26T22:06:08.746891+00:00",
       "score": 20.2,
       "status": "BASELINE"
     }
